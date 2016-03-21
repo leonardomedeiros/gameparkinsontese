@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  21 MAR 2016 09:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  21 MAR 2016 09:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -36,8 +36,15 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 145.
-)) (./copin.sty)
-(./doutor.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(./copin.sty) (./doutor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -358,8 +365,13 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 babelbib: Use citation-dependent languages in bibliography
-babelbib: Set bibliography fall-back language to portuges
-(/usr/share/texlive/texmf-dist/tex/latex/babelbib/portuguese.bdf
+babelbib: Set bibliography fall-back language to english
+(/usr/share/texlive/texmf-dist/tex/latex/babelbib/english.bdf
+File: english.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
+
+babelbib extension \bibsenglish added to \extrasenglish
+babelbib extension \btxifchangecaseon added to \extrasenglish
+) (/usr/share/texlive/texmf-dist/tex/latex/babelbib/portuguese.bdf
 File: portuguese.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH
 )
 
@@ -1107,8 +1119,8 @@ babelbib: Using the BibTeX style's default font for `numeral'.
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 132--136
-[]\T1/ptm/m/n/12 Billauer, Eli: \T1/ptm/m/it/12 Peak De-tec-tion in Ma-tlab\T1/
-ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1/ptm/m/n/12 , Dis-po-ní-vel em:
+[]\T1/ptm/m/n/12 Billauer, Eli: \T1/ptm/m/it/12 Peak de-tec-tion in mat-lab\T1/
+ptm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Disponível em:
  []
 
 
@@ -1124,9 +1136,9 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [68]
-Underfull \hbox (badness 5446) in paragraph at lines 529--535
-[]\T1/ptm/m/n/12 Research, Pro-va-lis: \T1/ptm/m/it/12 QDA MI-NER Lite v1.2.2\T
-1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1/ptm/m/n/12 , Dis-po-ní-vel em:
+Underfull \hbox (badness 10000) in paragraph at lines 529--535
+[]\T1/ptm/m/n/12 Research, Provalis: \T1/ptm/m/it/12 Qda miner lite v1.2.2\T1/p
+tm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Disponível em:
  []
 
 
@@ -1278,10 +1290,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8807 strings out of 493304
- 123512 string characters out of 6139871
- 308763 words of memory out of 5000000
- 12039 multiletter control sequences out of 15000+600000
+ 8844 strings out of 493304
+ 124270 string characters out of 6139871
+ 310763 words of memory out of 5000000
+ 12070 multiletter control sequences out of 15000+600000
  58845 words of font info for 73 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
  38i,13n,44p,1385b,1896s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1297,7 +1309,7 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 xlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on tese.pdf (100 pages, 2467657 bytes).
+Output written on tese.pdf (100 pages, 2467452 bytes).
 PDF statistics:
  410 PDF objects out of 1000 (max. 8388607)
  260 compressed objects within 3 object streams
