@@ -1,0 +1,108 @@
+\chapter{Trabalhos Relacionados} \label{cap:trabalhos}
+
+Apesar de se pensar em jogos apenas como uma forma de entretenimento, existe um interesse crescente em utilizá-los para outras finalidades, devido a seu caráter lúdico. Jogos eletrônicos têm sido usados para vários propósitos. No âmbito educacional, os jogos ajudam os estudantes no seu aprendizado, provendo uma forma diferente, motivadora e eficiente de absorver conteúdo. Simuladores, que também podem ser encaixados na definição de jogos educacionais, oferecem uma alternativa viável para o treinamento de pessoas. No campo de assistência à saúde, existem jogos comerciais que têm o propósito de atingir certos objetivos comportamentais~\cite{Kato10}. Além dos propósitos já mencionados, muitos trabalhos tratam sobre jogos que cuidam da motivação de pacientes para fazer exercícios e reabilitação de pacientes com deficiências motoras.
+
+\section{Video Games in Health Care: Closing the Gap}
+
+Kato~\cite{Kato10} apresenta outros efeitos positivos de \emph{video games}, especialmente aqueles com foco em assistência à saúde. Segundo a autora, seres humanos nem sempre se comportam de forma a tomar vantagem do que a assistência à saúde tem a oferecer. A maioria das pessoas não age em conformidade com as condições que podem salvar suas vidas. As soluções para esse problema são claramente complexas, mas os fatores psicológicos e comportamentais têm um papel fundamental nessas soluções. Neste sentido, jogos vêm sendo utilizados cada vez mais para endereçar as barreiras psicológicas e comportamentais para a assistência à saúde ótima.
+
+O mecanismo de ação principal dos jogos geralmente citado é sua capacidade de aumentar a motivação. O foco da atenção em uma distração provida por um jogo é visto como um fator fundamental para explicar como indivíduos usam jogos para lidar com sintomas adversos, comportamentos dolorosos, adversos e entediantes.
+
+\section{Adaptive Virtual Reality Games for Rehabilitation of Motor Disorders}
+
+Ma et al.~\cite{Ma07} apresenta um sistema de treinamento para encorajar pacientes a praticarem exercícios físicos. O trabalho apresenta diretrizes úteis para a construção de um arcabouço para jogos interativos direcionados à saúde. Um dos fatores citados, que deve ser levado em conta na definição de um arcabouço, é a construção de um perfil do paciente. De acordo com os autores, um fisioterapeuta geralmente criará exercícios de terapia motora para um paciente baseado em um número de fatores como: idade, sexo, histórico cultural, mão com que escreve e condição médica (por exemplo, tempo desde o último derrame, hemiplegia do lado direito ou esquerdo e habilidades cognitivas, sensoriais e motoras, baseadas em testes padronizados).
+
+Utilizando os dados do perfil e também alguma informação de contexto, não somente o nível de dificuldade dos exercícios, como também as partes do corpo ativas durante a tarefa poderão ser adaptadas às necessidades do paciente. As tarefas podem ser desenvolvidas para treinar um movimento específico, como extensão do punho, para aumentar a extensão do movimento ou a resistência da junta do punho.
+
+A parte do sistema que trata da adaptação dinâmica usa os dados do perfil do paciente e os dados de seu progresso para selecionar atividades e configurar o nível de dificuldade das tarefas e do jogo. Assim, o sistema pode prover dados sobre o progresso individual dos pacientes, que podem ser comparados durante o período de recuperação para montar uma base de dados histórica do progresso do paciente. Um módulo de análise de dados possibilita a visualização das trajetórias de movimento dos pacientes e mostra os ângulos das juntas, extensão dos movimentos e velocidades.
+
+Na Figura~\ref{img:ma_et_al}, ilustra-se a arquitetura do sistema. A entrada do ambiente de realidade virtual para treinamento se dá através de mouse e teclado para operadores do sistema, e dispositivos de captura de movimento em tempo real: duas luvas \emph{5DT Ultra DataGloves}\footnote{http://www.5dt.com/products/pdataglove5u.html} (Figura~\ref{fig:ultra}), além de quatro sensores magnéticos sem-fio \emph{Ascension MotionStar}\footnote{http://www.ascension-tech.com/realtime/RTMotionSTARTethered.php} (Figura~\ref{fig:ams}), que são usados para captar movimentos das mãos, braços e parte superior do corpo. A saída envolve modalidades visuais, sonoras e hápticas. A interface de saída visual inclui um monitor paraoperadores um dispositivo com visor montado sobre a cabeça (\textit{Head Mounted Display} - HMD) de alta resolução (Figura~\ref{fig:hmd}).
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=1\textwidth]{ma_et_al.png}
+     \caption{Arquitetura do sistema de realidade virtual para reabilitação física~\protect\cite{Ma07}}
+     \label{img:ma_et_al}
+\end{figure}
+
+\begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{motionstar.png}
+                \caption{Ascension MotionStar}
+                \label{fig:ams}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{hmd.png}
+                \caption{HMD}
+                \label{fig:hmd}
+        \end{subfigure}
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{glove.png}
+                \caption{5DT Ultra}
+                \label{fig:ultra}
+        \end{subfigure}
+        \caption{Dispositivos de entrada}\label{fig:inputdev}
+\end{figure}
+
+\section{Context Aware Serious Games Framework for Sport and Health}
+
+O \emph{SocialAware}~\cite{Hardy11} é um arcabouço para a construção de serviços cientes de contexto. No trabalho, é apresentado um conjunto de jogos sérios para suporte a esporte e saúde que, através do uso do arcabouço, são transformados em jogos cientes de contexto. A captura do contexto do usuário, provendo serviços de \textit{exergames} apropriados é vista como um auxílio para solucionar muitos problemas de saúde. Apesar de a maioria dos problemas de saúde ocorrerem principalmente devido à falta de atividade física, muitas são as pessoas que têm motivação para praticar tais atividades. Os jogos sérios para suporte a esportes e saúde motivam as pessoas a praticarem exercícios durante a atividade do jogo, ou as ensinam sobre problemas de saúde.
+
+Na Figura~\ref{fig:hardy1}, ilustra-se a arquitetura do sistema e na Figura~\ref{fig:hardy2}, ilustra-se a interface de visualização do \emph{SocialAware} mostrando serviços diferentes em dois contextos distintos. Foram usados dados de aceleração, temperatura e altura para calcular um nível de estresse e, dependendo do valor calculado, são sugeridos jogos diferentes. A captura de tela no topo mostra a interface durante o contexto \emph{no trabalho}. Propõe-se que o usuário jogue um jogo após ler um email importante, por exemplo. A tela de baixo mostra uma situação em casa. Os autores mencionam que não desejam que seus jogos sejam vistos como substitutos de esportes reais. Dessa forma, usando dados da previsão do tempo e hora, pode-se sugerir atividades ao ar livre, se possível. Se o sistema identificar que o usuário não realizou atividade aeróbica no dia anterior, por exemplo, pode sugerir uma caminhada ou um \emph{exergame} aeróbico.
+
+\begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.6\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{hardy1.png}
+                \caption{Arquitetura do sistema}
+                \label{fig:hardy1}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{hardy2.png}
+                \caption{Interface de visualização em dois diferentes contextos}
+                \label{fig:hardy2}
+        \end{subfigure}
+        \caption{\emph{SocialAware}}\label{fig:hardy}
+\end{figure}
+
+Estudos multidisciplinares recentes no domínio de sensores sem-fio, smartphones, redes sociais e comunicação móvel contribuíram para a computação ciente de contexto. Dessa forma, é possível capturar diferentes informações de contexto relacionadas a sinais vitais, como batimento cardíaco, pressão sanguínea, nível de glicose, condições do suor, etc. Além disso, podem ser capturadas ações, como andar, dormir, dirigir, cair, correr, falar e conversar com um amigo, e também variáveis de ambiente, como temperatura, umidade do ar, localização, altitude, etc.
+
+Extrair informações de contexto a partir de dados de sensores e informação multimídia contida em serviços heterogêneos traz dois desafios. Primeiramente, é necessária a extração em tempo real de conteúdo multimídia e de redes de sensores corporais para análise de contexto. Depois, é preciso aplicar a lógica apropriada para extrair a informação de contexto das redes sociais e dados de sensores, agregá-la e então armazená-la em um repositório para ser usada em uma seleção dinâmica de jogos sérios e serviços de saúde relevantes.
+
+Três módulos lógicos são descritos para melhor representar o conceito:
+\begin{enumerate}
+  \item \textit{Módulo de Extração de Conteúdo}: responsável por extrair as informações de serviços heterogêneos de Internet e da rede de sensores corporais.
+  \item \textit{Módulo de Extração de Contexto}: encontra o valor contextual de um serviço. Extratores de conteúdo recebem conteúdo em tempo real de sensores e serviços de Internet e passam o conteúdo e os metadados de cada serviço para os componentes apropriados.
+  \item \textit{Módulo de Adaptação Dinâmica de Serviço}: mapeia dinamicamente um subconjunto de jogos sérios e/ou serviços relacionados à saúde extraídos de uma base de dados de Serviços Personalizados, selecionando serviços, jogos e níveis de exercício únicos para cada pessoa.
+\end{enumerate}
+
+Para avaliar a efetividade do sistema proposto, foi conduzido um teste de avaliação subjetiva entre maio e novembro de 2010, baseado em uma amostra de 95 pessoas, das quais 25\% são mulheres. A maior parte dos usuários tinham mais de 25 anos e 45 deles tinham menos de 25 anos. Todos os participantes utilizaram diversos serviços de Internet em diferentes escalas nos últimos 4 a 6 anos. A ideia de utilizar sugestões de serviços dinâmicas foi fortemente aceita por 65\% dos usuários. Além disso, alguns usuários levantaram a questão da privacidade, enquanto outros usuários preocuparam-se com o preço dos sensores. Alguns demonstraram pessimismo devido à necessidade de sempre carregar os sensores para obter os serviços.
+
+\section{Serious Game Based on First Aid Education for Individuals with Autism Spectrum Disorder (ASD) Using Android Mobile Sevices}
+
+Em \cite{Urturi11} é apresentado um conjunto de jogos para ajudar pessoas com Desordem do Espectro Autista (DEA). O paciente é motivado a jogar durante o seu progresso e atividades executadas durante o jogo são guardadas para gerar relatórios, que serão acompanhados pelo paciente, sua família e/ou médicos. Primeiramente, um conjunto de mini-jogos é apresentado ao usuário, cada um com diferentes níveis de dificuldade. Após terminar a atividade, a aplicação conecta-se com o servidor, acessa a base de dados e armazena os dados gerados durante o jogo, atualizando os registros daquele usuário, se necessário. Com os dados salvos, é gerado um relatório detalhado sobre o usuário, explicando em qual atividade foram cometidos erros e qual a possível razão.
+
+\vspace{5 mm}
+\section{Game based Learning to Enhance Capabilities of Elderly People}
+
+Arntzen~\cite{arntzen2011} discute os conceitos, realidade sócio-econômica e requisitos técnicos para desenvolver jogos para idosos. Sabe-se que tecnologias de Realidade Virtual (RV) têm o potencial de contribuir na melhoria de sessões de terapia física, tratamento do mal de Alzheimer, reabilitação de infarto e assim por diante. O propósito do trabalho é desenvolver um jogo que contribua para melhorar as habilidades cognitivas e físicas de idosos ou deficientes. Desde o lançamento do Nintendo Wii em 2008, os sensores de movimento nos jogos possibilitaram o conceito de \emph{exergames}. Além disso, novos jogos surgiram, provando a sua capacidade de melhorar as habilidades cognitivas através do estímulo das atividades mentais.
+
+Estudos recentes indicam que as pessoas podem evitar o declínio de habilidades cognitivas ou físicas se forem motivadas a exercitar seu cérebro e corpo. Os novos sistemas de jogos têm sido vistos com potencial por fisioterapeutas e outros profissionais de saúde. Entretanto, desenvolver novos jogos requer entender as habilidades cognitivas e físicas dos idosos que geralmente diminuem com o tempo e, também, é necessário uma preocupação em relação à limitação física dos jogadores de idade avançada ou deficientes.
+
+Ainda em~\cite{arntzen2011}, no projeto de jogo \emph{SmartBrain} aplicado à doença de Alzheimer, são utilizados meios para avaliar a escuta, reconhecimento de cores, avaliação da memória e execução de movimentos. O usuário não deve correr riscos de machucar-se devido a movimentos bruscos durante o jogo. É crucial que o jogador sinta-se seguro ao jogar.
+
+\section{Conclusão}
+
+Nesta seção foram apresentados os principais trabalhos que utilizam jogos com algum propósito relacionado à saúde. As soluções propostas são geralmente invasivas e, apesar terem como intenção serem utilizadas pelos usuários por um longo período, não existe a preocupação em manter o enredo do jogo atrativo para o usuário e criar nele a motivação para continuar jogando. A diferença para o trabalho aqui desenvolvido é o direcionamento para pessoas saudáveis e a preocupação em manter o projeto de jogo atrativo, embutindo nele os métodos de monitoramento.

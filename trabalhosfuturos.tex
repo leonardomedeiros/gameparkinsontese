@@ -1,0 +1,32 @@
+\chapter{Estado Atual do Trabalho}\label{chapter:trabalhos_futuros}
+Nos experimentos realizados, conseguimos demonstrar a importância do acompanhamento dos sinais motores, integrados à rotina diária do paciente do ponto de vista do profissional de saúde Hipótese \textit{H1}. Identificou-se nessa pesquisa a importância de acompanhar a amplitude do movimento e a sua respectiva velocidade angular para acompanhamento da saúde motora.
+
+Os estudos de aprendizagem de máquina com os dados motores adquiridos por meio de sensores de movimento usados em jogos eletrônicos, identificou a viabilidade do desenvolvimento de jogos para o monitoramento, que valida a Hipótese \textit{H2}. Pois, obtivemos uma taxa de identificação de verdadeiros positivos de 80,00\% e falsos positivos de 16,67\% .
+
+A Hipótese \textit{H3}, foi validada por meio de uma análise~\ac{gqm} aplicada a possíveis usuários finais da abordagem. Essa pesquisa forneceu indícios de que a abordagem \textit{GAHME} apresentada nessa Proposta permite o monitoramento de dados de forma não invasiva, e factível de integrar a solução a rotina diária dos usuários. Entretanto, o tempo utilizado para jogar foi insuficiente para aplicar as técnicas de processamento dos dados apresentados nesta abordagem, pois os jogadores tiveram bastante liberdade de movimento e poucos efetuaram os movimentos de abdução e adução do braço. Caso, os mesmos indivíduos participassem de um tempo maior no jogo, consequentemente eles poderiam efetuar o movimento e seria possível adquirir esses dados. Para chegarmos a resultados semelhantes aos apresentados na Seção~\ref{sec:resultado_svm} em um espaço de tempo menor, é necessário desenvolver um novo jogo com as ações específicas de realização do movimento de adução e abdução do braço, além de realizar uma nova coleta 
+de dados.
+
+Para a entrega da Tese pretendemos uma melhora nos resultados, para isso pretendemos (Tabela~\ref{table:cronograma}) realizar novos estudos com a base de dados do estudo analítico de caso-controle. Então, iremos apresentar na Tese:
+\begin{enumerate}
+	\item O resultado da aprendizagem obtido pela~\ac{svm} com o \textit{kernel} linear demonstrou que os dados são linearmente separáveis. Logo, para a Tese pretendemos realizar um estudo de regressão linear nessa base de dados.
+	\item Realizar estudos de curva de aprendizagem na base de dados usando a~\ac{svm}.
+	\item Refinar o processo de desenvolvimento de jogos para monitoramento de saúde adicionando as fases de Construção e Pós-Validação.
+	%\item Nos estudos realizados com os dados do MS-Kinnect, conseguimos identificar que ele consegue capturar dados com amplitude como apresentamos o movimento de abdução e adução do braço. Todavia, a captura de um movimento mais sutil como um tremor é um desafio. Por esse motivo, foi desenvolvido e testado um jogo para celular que pudesse capturar o sintoma de tremor. Contudo, como o tremor da doença de parkinson é de repouso não obtivemos sucesso com a captura do sintoma. Ao analisarmos os vídeos dos pacientes de parkinson, notamos que ao levantar um dos membros alguns indivíduos iniciava o sintoma de tremor no membro parado. Pretendemos então, na Tese analisar esse membro parado e comparar os resultados com os indivíduos sem o diagnóstico da ~\ac{dp}. Contudo, devido ao ruído existente no sinal do MS-Kinnect a captura do tremor pode ser inviável.
+	\item Analisar o motivo da ocorrência de 2 indivíduos de controle terem sido classificados como portadores da~\ac{dp}. 
+\end{enumerate}
+
+% Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
+\begin{table}[h]
+\center
+\caption{Cronograma de Conclusão}
+\label{table:cronograma}
+\begin{tabular}{|r|r|r|r|r|r|}
+\hline
+\multirow{\textbf{Trabalhos Futuros}} & \multicolumn{4}{|c|}{\textbf{Trimestre}}                          \\ \cline{2-5} 
+                                            & \textbf{1º}             & \textbf{2º} & \textbf{3º} & \textbf{4º} \\ \hline
+Item 1                                      & \multicolumn{1}{|c|}{x} &             &             &             \\ \hline
+Item 2                                      &                         & x           &             &             \\ \hline
+Item 3                                      &                         &             & x           &             \\ \hline
+Item 4                                      &                         &             & x           & x           \\ \hline
+\end{tabular}
+\end{table}

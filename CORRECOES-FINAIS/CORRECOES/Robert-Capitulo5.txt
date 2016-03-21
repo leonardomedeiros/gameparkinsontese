@@ -1,0 +1,48 @@
+Robert Fischer
+	
+18:01 (23 minutos atrás)
+		
+para mim
+   
+Traduzir mensagem
+Desativar para: inglês
+Dear Leonardo,
+
+I concentrated on the 5th chapter of your thesis on the PCA and it's use for the Eigengait method. So far, I think that almost all of what you write is correct, I have found very few details in formulation that might give a wrong impression.
+
+I note that you provide the information very often at another location than I would expect them. Most probably this is because your thesis 'growth' organically: when you find some information you 'plug it in' where it seems most appropriate. However, the text thus get's less clear and seems less structured. 
+
+Here some comments:
+
+
+5.3
+The main goal of the PCA is to reduce dimensionality while at the same time maintaining the maximum of VARIANCE in the data, because the variance is assumed* to contain the information.  (* not all the signal that contributes to the variance is information, some might just be noise, furthermore, not all 'information' is useful for the classification task, that's why we sort them for the Eigengait space by the difference between the two classes for each eigenvector)
+
+Principle components build an orthogonal basis on which the data is projected. - You mentioned that later, but it might be good to include this earlier and explain why this matters.
+
+3.5.1
+In the first list is missing:
+ - Data preparation - in your case e.g. scaling to the same length and then structuring in a matrix so that each sample/measurement/case/... is one row (" Cada linha do vetor Xi e´ uma observac¸a~o") with the same length
+ - 2. Substract the average, if necessary divide each element in the matrix by the variance of the respective column (meaning: over all samples, not within sample, which would be row)
+- 5 the 'vetores de características' are a direct result from the calculation of the eigenvale s, namely the eigenvectors
+
+May I suggest to edit this list as a table, with in the first column the respective formulas?
+Mathematical expression
+	Description
+ -
+	Get data
+X
+	Structure data
+A = X - 1/n*?x_i ... (needs proper editing, make sure you get the indices right!)
+	Subtract average and divide by column variance if needed
+...
+	...
+Then you have already introduced the symbols once and can refer to them when you explain each step in detail.. If you think it more confusing than explaining leave it out ...
+
+Alternatively, you may consider using pseudocode to make clear how you use this method and to introduce the symbols you want to use (e.g. X for the data, or A for the centred, scaled data, lambda for the eigenvalues, ... ).
+
+p.48: " A dista^ncia euclidiana e´ a medida de dissimilaridade mais usada na PCA ": The PCA has little to do with the Euclidean distance. Euclidean distance is the most common way to measure the similarity of two VECTORS. Since the PCA produces vectors, one can use the euclidean distance to analyse the output of a PCA, but that's not part of the PCA any more ...
+
+
+p48: " Logo, se o indivi´duo de teste estivesse mais pro´ximo a uma indivi´duo diagnosticado com DP ele seria classificado como Parkinsoniano caso o indivi´- duo de teste ficasse mais pro´ximo de um indivi´duo sem o diagno´stico da DP ele na~o seria classificado como Parkinsoniano. " - Did you use the nearest neighbour aproach? Or Did you calculate the mean of parkinson and non-parkinson people and calculate the euclidean distance to that mean?
+

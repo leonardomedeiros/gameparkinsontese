@@ -1,0 +1,603 @@
+
+@article{Atallah2012,
+author = {Atallah, Louis and Lo, Benny and Yang, Guang-Zhong},
+doi = {10.1016/j.jegh.2011.11.005},
+issn = {22106006},
+journal = {Journal of Epidemiology and Global Health},
+month = mar,
+number = {1},
+pages = {1--13},
+publisher = {Ministry of Health, Saudi Arabia},
+title = {{Can pervasive sensing address current challenges in global healthcare?}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S2210600612000020},
+volume = {2},
+year = {2012}
+}
+
+@article{Alemdar2010,
+author = {Alemdar, Hande and Ersoy, Cem},
+doi = {10.1016/j.comnet.2010.05.003},
+issn = {13891286},
+journal = {Computer Networks},
+keywords = {pervasive healthcare,wireless sensor networks},
+month = oct,
+number = {15},
+pages = {2688--2710},
+publisher = {Elsevier B.V.},
+title = {{Wireless sensor networks for healthcare: A survey}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S1389128610001398},
+volume = {54},
+year = {2010}
+}
+
+@article{SnehaVarshney09,
+author = {Sneha, Sweta and Varshney, Upkar},
+title = {Enabling ubiquitous patient monitoring: Model, decision protocols, opportunities and challenges},
+journal = {Decis. Support Syst.},
+volume = {46},
+issue = {3},
+month = {February},
+year = {2009},
+issn = {0167-9236},
+pages = {606--619},
+numpages = {14},
+url = {http://dl.acm.org/citation.cfm?id=1501042.1501413},
+doi = {10.1016/j.dss.2008.11.014},
+acmid = {1501413},
+publisher = {Elsevier Science Publishers B. V.},
+address = {Amsterdam, The Netherlands, The Netherlands},
+keywords = {Ad hoc wireless networks, Healthcare, Patient monitoring, Technology},
+}
+
+@article{Varshney07,
+author = {Upkar Varshney},
+title = {Pervasive healthcare and wireless health monitoring},
+journal = {Mobile Networks and Applications},
+issue_date = {March 2007},
+volume = {12},
+issue = {2-3},
+month = {March},
+year = {2007},
+issn = {1383-469X},
+pages = {113--127},
+numpages = {15},
+url = {http://dx.doi.org/10.1007/s11036-007-0017-1},
+doi = {http://dx.doi.org/10.1007/s11036-007-0017-1},
+acmid = {1295207},
+publisher = {Kluwer Academic Publishers},
+address = {Hingham, MA, USA},
+keywords = {ad hoc wireless networks, healthcare applications, location management, mobile and wireless networks, pervasive}
+}
+
+@book{varshney2009pervasive,
+author = {Varshney, U},
+doi = {10.1007/978-1-4419-0215-3\_2},
+isbn = {9781441902146},
+pages = {282},
+publisher = {Springer},
+title = {{Pervasive Healthcare Computing: EMR/EHR, Wireless and Health Monitoring}},
+url = {http://books.google.com.br/books?id=f5NoQDpVy8oC},
+year = {2009}
+}
+
+@Article{Augusto:jucs_12_1,
+author =     "Juan Carlos Augusto and Norman D. Black and H. Gerry McAllister and Paul J. McCullagh and Christopher D. Nugent",
+title =      "Pervasive Health Management:  New Challenges for Health Informatics",
+journal =    "J. UCS",
+year =       "2006",
+volume =     "12",
+number =     "1",
+pages =      "1--5",
+date =       "2006-01-28",
+month =      "jan",
+url =        "\url|http://www.jucs.org/jucs_12_1/pervasive_health_management_new|"
+}
+
+@INPROCEEDINGS{OgawaTogawa03, 
+author={Ogawa, M. and Togawa, T.}, 
+booktitle={Enterprise Networking and Computing in Healthcare Industry, 2003. Healthcom 2003. Proceedings. 5th International Workshop on}, 
+title={The concept of the home health monitoring}, 
+year={2003}, 
+month={june}, 
+pages={71--73},
+doi={10.1109/HEALTH.2003.1218721}
+}
+
+@inproceedings{Gouaux2003,
+author = {Gouaux, F and Simon-Chautemps, L. and Adami, S and Arzi, M and Assanelli, D and Fayn, J and Forlini, MC and Malossi, C and Martinez, A and Placide, J and Others},
+booktitle = {Information Technology Applications in Biomedicine, 2003. 4th International IEEE EMBS Special Topic Conference on},
+isbn = {0780376676},
+keywords = {telemedicine,ecg analysis,medical informatics,quantitative electrocardiology,serial,soft computing},
+pages = {291--294},
+publisher = {IEEE},
+title = {{Smart devices for the early detection and interpretation of cardiological syndromes}},
+url = {http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=1222535},
+year = {2003}
+}
+
+@inproceedings{Motoi2009,
+author = {Motoi, Kosuke and Ogawa, Mitsuhiro and Ueno, Hiroshi and Kuwae, Yutaka and Ikarashi, Akira and Yuji, Tadahiko and Higashi, Yuji and Tanaka, Shinobu and Fujimoto, Toshiro and Asanoi, Hidetsugu and Others},
+booktitle = {Engineering in Medicine and Biology Society, 2009. EMBC 2009. Annual International Conference of the IEEE},
+doi = {10.1109/IEMBS.2009.5333712},
+isbn = {9781424432967},
+issn = {1557-170X},
+month = jan,
+pages = {4323--4326},
+pmid = {19964354},
+publisher = {IEEE},
+title = {{A fully automated health-care monitoring at home without attachment of any biological sensors and its clinical evaluation}},
+url = {http://www.ncbi.nlm.nih.gov/pubmed/19964354 http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=5333712},
+volume = {2009},
+year = {2009}
+}
+
+@article{Pantelopoulos2010,
+author = {Pantelopoulos, Alexandros and Bourbakis, N.G.},
+journal = {Systems, Man, and Cybernetics, Part C: Applications and Reviews, IEEE Transactions on},
+number = {1},
+pages = {1--12},
+publisher = {IEEE},
+title = {{A survey on wearable sensor-based systems for health monitoring and prognosis}},
+url = {http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=5306098},
+volume = {40},
+year = {2010}
+}
+
+@article{Kato10,
+author = {Kato, Pamela M.},
+doi = {10.1037/a0019441},
+issn = {1939-1552},
+journal = {Review of General Psychology},
+number = {2},
+pages = {113--121},
+title = {{Video games in health care: Closing the gap.}},
+url = {http://doi.apa.org/getdoi.cfm?doi=10.1037/a0019441},
+volume = {14},
+year = {2010}
+}
+
+@inproceedings{Aarhus2010,
+address = {New York, New York, USA},
+author = {Aarhus, Rikke and Ballegaard, Stinne Aal{\o}kke},
+booktitle = {Proceedings of the 28th international conference on Human factors in computing systems - CHI '10},
+doi = {10.1145/1753326.1753509},
+isbn = {9781605589299},
+pages = {1223--1232},
+publisher = {ACM Press},
+title = {{Negotiating boundaries}},
+url = {http://dl.acm.org/citation.cfm?id=1753509 http://portal.acm.org/citation.cfm?doid=1753326.1753509},
+year = {2010}
+}
+
+@inproceedings{Deterding2011,
+author = {Deterding, Sebastian and Dixon, Dan and Khaled, Rilla and Nacke, Lennart},
+title = {From game design elements to gamefulness: defining "gamification"},
+booktitle = {Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments},
+series = {MindTrek '11},
+year = {2011},
+isbn = {978-1-4503-0816-8},
+location = {Tampere, Finland},
+pages = {9--15},
+numpages = {7},
+url = {http://doi.acm.org/10.1145/2181037.2181040},
+doi = {10.1145/2181037.2181040},
+acmid = {2181040},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {alternate reality games, game-based technologies, gameful design, gamefulness, games, gamification, pervasive games, play, playful design, playfulness, serious games},
+} 
+
+@article{Staiano201117,
+title = "The promise of exergames as tools to measure physical health",
+journal = "Entertainment Computing",
+volume = "2",
+number = "1",
+pages = "17 - 21",
+year = "2011",
+note = "Video Games as Research Instruments",
+issn = "1875-9521",
+doi = "10.1016/j.entcom.2011.03.008",
+url = "http://www.sciencedirect.com/science/article/pii/S1875952111000188",
+author = "Amanda E. Staiano and Sandra L. Calvert",
+keywords = "Exergame",
+keywords = "Physical activity",
+keywords = "Physical health"
+}
+
+@INPROCEEDINGS{Watters06, 
+author={ Watters, C. and Oore, S. and Shepherd, M. and Abouzied, A. and Cox, A. and Kellar, M. and Kharrazi, H. and Fengan Liu and Otley, A.}, 
+booktitle={System Sciences, 2006. HICSS '06. Proceedings of the 39th Annual Hawaii International Conference on}, 
+title={Extending the Use of Games in Health Care}, 
+year={2006}, 
+month={jan.}, 
+volume={5}, 
+number={}, 
+pages={ 88b}, 
+keywords={}, 
+doi={10.1109/HICSS.2006.179}, 
+ISSN={1530-1605}
+}
+
+@inproceedings{Assad2011,
+author = {Assad, Oliver and Hermann, Robert and Lilla, Damian and Mellies, Bj\"{o}rn and Meyer, Ronald and Shevach, Liron and Siegel, Sandra and Springer, Melanie and Tiemkeo, Saranat and Voges, Jens and Others},
+booktitle = {Mensch and Computer 2011: 11. Fachubergreifende Konferenz fur Interaktive un Kooperative Medien \"{u}ber Medienjubermorgen},
+pages = {469},
+title = {{WuppDi! Supporting Physiotherapy of Parkinsons Disease Patients via Motion-based Gaming}},
+url = {http://books.google.com/books?hl=en\&amp;lr=\&amp;id=6U0qIA\_Vlb0C\&amp;oi=fnd\&amp;pg=PA469\&amp;dq=WuppDi+!+–+Supporting+Physiotherapy+of+Parkinson´s+Disease+Patients+via+Motion-based+Gaming\&amp;ots=lr-MAeFJMz\&amp;sig=gOJD-QBNK7Pw4tCK9pHIqEd1TAQ},
+year = {2011}
+}
+
+@article{Jimison2008,
+author = {Jimison, Holly and Pavel, Misha and Le, Thai},
+doi = {10.1109/IEMBS.2008.4649913},
+isbn = {9781424418152},
+issn = {1557-170X},
+journal = {Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Conference},
+keywords = {Aged,Cognition Disorders,Cognition Disorders: diagnosis,Computers,Geriatric Assessment,Geriatric Assessment: methods,Humans,Language,Neuropsychological Tests,Quality of Life,Reproducibility of Results,Software,Speech,Speech Production Measurement,Verbal Behavior,Video Games},
+month = jan,
+pages = {3312--5},
+pmid = {19163416},
+title = {{Home-based cognitive monitoring using embedded measures of verbal fluency in a computer word game.}},
+url = {http://www.ncbi.nlm.nih.gov/pubmed/19163416},
+volume = {2008},
+year = {2008}
+}
+
+@mastersthesis{Sandlund2011,
+author = {Sandlund, Marlene},
+isbn = {9789174592023},
+title = {{Motion interactive games for children with motor disorders Motivation , physical activity , and motor control}},
+school = {{Ume\aa University}},
+year = {2011},
+}
+
+@inproceedings{Hardy11,
+author = {Hardy, Sandro and {El Saddik}, Abdulmotaleb and Gobel, Stefan and Steinmetz, Ralf},
+booktitle = {2011 IEEE International Symposium on Medical Measurements and Applications},
+doi = {10.1109/MeMeA.2011.5966775},
+isbn = {978-1-4244-9336-4},
+keywords = {awareness,context,exergames,sensors,serious games for health,social networks,web services},
+month = may,
+pages = {248--252},
+publisher = {IEEE},
+title = {{Context aware serious games framework for sport and health}},
+url = {http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=5966775 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5966775},
+year = {2011}
+}
+
+@inproceedings{Atkinson2010,
+author = {Atkinson, S.D. and Narasimhan, V.L.},
+booktitle = {Trendz in Information Sciences \& Computing (TISC), 2010},
+isbn = {9781424490080},
+keywords = {- haptics,management,measurement of diagnosis and,medical gaming,parkinson,s disease,software architecture},
+pages = {94--102},
+publisher = {IEEE},
+title = {{Design of an introductory medical gaming environment for diagnosis and management of Parkinson's disease}},
+url = {http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=5714615},
+year = {2010}
+}
+
+@article{Kiss2011,
+author = {Kiss, Gabor},
+doi = {10.1109/iThings/CPSCom.2011.90},
+file = {:C$\backslash$:/Users/antonio/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kiss - 2011 - Using Smartphones in Healthcare and to Save Lives.pdf:pdf},
+isbn = {978-1-4577-1976-9},
+journal = {2011 International Conference on Internet of Things and 4th International Conference on Cyber, Physical and Social Computing},
+keywords = {-component,healthcare,save live,smartphone},
+month = oct,
+pages = {614--619},
+publisher = {Ieee},
+title = {{Using Smartphones in Healthcare and to Save Lives}},
+url = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6142189},
+year = {2011}
+}
+
+@article{Tartarisco20121296,
+title = "Personal Health System architecture for stress monitoring and support to clinical decisions",
+journal = "Computer Communications",
+volume = "35",
+number = "11",
+pages = "1296 - 1305",
+year = "2012",
+note = "",
+issn = "0140-3664",
+doi = "10.1016/j.comcom.2011.11.015",
+url = "http://www.sciencedirect.com/science/article/pii/S0140366411003720",
+author = "Gennaro Tartarisco and Giovanni Baldus and Daniele Corda and Rossella Raso and Antonino Arnao and Marcello Ferro and Andrea Gaggioli and Giovanni Pioggia",
+keywords = "Pervasive healthcare architecture",
+keywords = "Stress detection",
+keywords = "Clinical decision support system",
+keywords = "Autonomic sympathovagal balance",
+keywords = "Autoregressive model"
+}
+
+@article{Bonato2004,
+author = {Bonato, Paolo and Sherrill, Delsey M and Standaert, David G and Salles, Sara S and Akay, Metin},
+doi = {10.1109/IEMBS.2004.1404319},
+isbn = {0780384393},
+issn = {1557-170X},
+journal = {Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Conference},
+keywords = {accelerometers,data mining,electromyography,parkinson,s disease,wearable technology},
+month = jan,
+pages = {4766--9},
+pmid = {17271375},
+title = {{Data mining techniques to detect motor fluctuations in Parkinson's disease.}},
+url = {http://www.ncbi.nlm.nih.gov/pubmed/17271375 http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=1404319},
+volume = {7},
+year = {2004}
+}
+
+@article{Patel2009,
+ author = {Patel, Shyamal and Lorincz, Konrad and Hughes, Richard and Huggins, Nancy and Growdon, John and Standaert, David and Akay, Metin and Dy, Jennifer and Welsh, Matt and Bonato, Paolo},
+ title = {Monitoring motor fluctuations in patients with Parkinson's disease using wearable sensors},
+ journal = {Trans. Info. Tech. Biomed.},
+ issue_date = {November 2009},
+ volume = {13},
+ number = {6},
+ month = nov,
+ year = {2009},
+ issn = {1089-7771},
+ pages = {864--873},
+ numpages = {10},
+ url = {http://dx.doi.org/10.1109/TITB.2009.2033471},
+ doi = {10.1109/TITB.2009.2033471},
+ acmid = {1721260},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+ keywords = {Body sensor networks, Parkinson\&\#x0027;s disease, Parkinson's disease, body sensor networks, support vector machines (SVMs), wearable sensors},
+}
+
+@article{SpyersAshby1998,
+title = "A comparison of fast fourier transform (FFT) and autoregressive (AR) spectral estimation techniques for the analysis of tremor data",
+journal = "Journal of Neuroscience Methods",
+volume = "83",
+number = "1",
+pages = "35 - 43",
+year = "1998",
+note = "",
+issn = "0165-0270",
+doi = "10.1016/S0165-0270(98)00064-8",
+url = "http://www.sciencedirect.com/science/article/pii/S0165027098000648",
+author = "J.M. Spyers-Ashby and P.G. Bain and S.J. Roberts",
+keywords = "Tremor analysis",
+keywords = "Spectral estimation",
+keywords = "Fast fourier transform",
+keywords = "Autoregressive models"
+}
+
+@article{Elble2005,
+title = "Gravitational artifact in accelerometric measurements of tremor",
+journal = "Clinical Neurophysiology",
+volume = "116",
+number = "7",
+pages = "1638 - 1643",
+year = "2005",
+note = "",
+issn = "1388-2457",
+doi = "10.1016/j.clinph.2005.03.014",
+url = "http://www.sciencedirect.com/science/article/pii/S1388245705001318",
+author = "Rodger J. Elble",
+keywords = "Tremor",
+keywords = "Accelerometry",
+keywords = "Motion analysis",
+keywords = "Biomechanics"
+}
+
+@article{Riviere199777,
+title = "Adaptive Fourier modeling for quantification of tremor",
+journal = "Journal of Neuroscience Methods",
+volume = "74",
+number = "1",
+pages = "77 - 87",
+year = "1997",
+note = "",
+issn = "0165-0270",
+doi = "10.1016/S0165-0270(97)02263-2",
+url = "http://www.sciencedirect.com/science/article/pii/S0165027097022632",
+author = "Cameron N. Riviere and Stephen G. Reich and Nitish V. Thakor",
+keywords = "Tremor",
+keywords = "Handwriting",
+keywords = "Drawing",
+keywords = "Frequency",
+keywords = "Fourier modeling",
+keywords = "Modulation",
+keywords = "Adaptive filtering"
+}
+
+@inproceedings{Pedro2012,
+author = {Pedro, Leonardo Marquez and {de Paula Caurin}, Glauco Augusto},
+booktitle = {2012 4th IEEE RAS \& EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob)},
+doi = {10.1109/BioRob.2012.6290751},
+isbn = {978-1-4577-1200-5},
+month = jun,
+pages = {1856--1861},
+publisher = {IEEE},
+title = {{Kinect evaluation for human body movement analysis}},
+url = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6290751},
+year = {2012}
+}
+
+@article{Clark2012372,
+title = "Validity of the Microsoft Kinect for assessment of postural control",
+journal = "Gait \& Posture",
+volume = "36",
+number = "3",
+pages = "372 - 377",
+year = "2012",
+note = "",
+issn = "0966-6362",
+doi = "10.1016/j.gaitpost.2012.03.033",
+url = "http://www.sciencedirect.com/science/article/pii/S0966636212001282",
+author = "Ross A. Clark and Yong-Hao Pua and Karine Fortin and Callan Ritchie and Kate E. Webster and Linda Denehy and Adam L. Bryant",
+keywords = "Balance",
+keywords = "Kinematic",
+keywords = "Posture",
+keywords = "Falls",
+keywords = "Assessment"
+}
+
+@ARTICLE{Tong2012, 
+author={Jing Tong and Jin Zhou and Ligang Liu and Zhigeng Pan and Hao Yan}, 
+journal={Visualization and Computer Graphics, IEEE Transactions on}, title={Scanning 3D Full Human Bodies Using Kinects}, 
+year={2012}, 
+month={april }, 
+volume={18}, 
+number={4}, 
+pages={643 -650}, 
+keywords={Biological system modeling;Computational modeling;Geometry;Humans;Image reconstruction;Shape;Three dimensional displays;avatars;computer animation;interactive devices;solid modelling;3D full human body model scanning;3D human animation;3D scanning devices;Microsoft Kinect;depth camera;error distribution;global alignment algorithm;home-oriented virtual reality applications;loop closure problem;nonrigid deformation;personalized avatars;rough mesh template;successive frame deformation;3D Body Scanning;Microsoft Kinect;global non-igid registration;}, 
+doi={10.1109/TVCG.2012.56}, 
+ISSN={1077-2626},}
+
+@inproceedings{gabelfull,
+  title={Full Body Gait Analysis with Kinect},
+  author={Gabel, M. and Renshaw, E. and Schuster, A. and Gilad-Bachrach, R.},
+  booktitle={Proceedings of the IEEE Engineering in Medicine and Biology Society 2012},
+  year={2012},
+  publisher={IEEE}
+}
+
+@article{albanese2012,
+  title={Distinguishing Clinical Features of Hyperkinetic Disorders},
+  author={Albanese, A. and Jankovic, J.},
+  journal={Hyperkinetic Movement Disorders: Differential Diagnosis and Treatment},
+  pages={1},
+  year={2012},
+  publisher={Wiley-Blackwell}
+}
+
+@article{Ma07,
+    author = {Ma, Minhua and McNeill, M. and Charles, Darryl and McDonough, S. and Crosbie, Jacqui and Oliver, Louise and McGoldrick, C.},
+    doi = {10.1007/978-3-540-73281-5\_74},
+    journal = {Universal Access in Human-Computer Interaction. Ambient Interaction},
+    keywords = {adaptive games,bilateral training,motor disorder,serious games,therapeutic exercise,virtual reality},
+    pages = {681--690},
+    publisher = {Springer},
+    title = {{Adaptive virtual reality games for rehabilitation of motor disorders}},
+    url = {http://www.springerlink.com/index/91k16l16811h1101.pdf},
+    year = {2007}
+}
+
+@INPROCEEDINGS{Urturi11, 
+    author={de Urturi, Z.S. and Zorrilla, A.M. and Zapirain, B.G.}, 
+    booktitle={Computer Games (CGAMES), 2011 16th International Conference on}, 
+    title={Serious Game based on first aid education for individuals with Autism Spectrum Disorder (ASD) using android mobile devices}, 
+    year={2011}, 
+    month={july}, 
+    volume={}, 
+    number={}, 
+    pages={223 -227}, 
+    keywords={ASD;Android mobile devices;Android operating system;autism spectrum disorder;first aid education;mobile phones;multimedia application;serious game;tablets;biomedical education;computer aided instruction;computer games;first aid;medical disorders;neurophysiology;operating system kernels;}, 
+    doi={10.1109/CGAMES.2011.6000343}, 
+    ISSN={}
+}
+
+@ARTICLE{arntzen2011,
+  author = {Arntzen, Aurelie},
+  title = {Game based Learning to Enhance Cognitive and Physical Capabilities of Elderly People: Concepts and Requirements},
+  journal = {World Academy of Science Engineering and Technology},
+  year = {2011},
+  edition = {60},
+  timestamp = {2013.01.25}
+}
+
+@inproceedings{suhonen2008seriously,
+  title={Seriously fun: exploring how to combine promoting health awareness and engaging gameplay},
+  author={Suhonen, K. and V{\"a}{\"a}t{\"a}j{\"a}, H. and Virtanen, T. and Raisamo, R.},
+  booktitle={Proceedings of the 12th international conference on Entertainment and media in the ubiquitous era},
+  pages={18--22},
+  year={2008},
+  organization={ACM}
+}
+
+@mastersthesis{suhonen2009health,
+  title={Health-Enhancing Games for Adolescents--User Study and Methods for Game Design and Evaluation},
+  author={Suhonen, K.},
+  school={Tampere University of Technology},
+  year={2009}
+}
+
+@inproceedings{gobel2010serious,
+  title={Serious games for health: personalized exergames},
+  author={G{\"o}bel, S. and Hardy, S. and Wendel, V. and Mehm, F. and Steinmetz, R.},
+  booktitle={Proceedings of the international conference on Multimedia},
+  pages={1663--1666},
+  year={2010},
+  organization={ACM}
+}
+
+@inproceedings{ahamed2007towards,
+  title={Towards privacy protection in pervasive healthcare},
+  author={Ahamed, S.I. and Talukder, N. and Kameas, A.D.},
+  booktitle={Intelligent Environments, 2007. IE 07. 3rd IET International Conference on},
+  pages={296--303},
+  year={2007},
+  organization={IET}
+}
+
+@inproceedings{baker2007wireless,
+  title={Wireless sensor networks for home health care},
+  author={Baker, C.R. and Armijo, K. and Belka, S. and Benhabib, M. and Bhargava, V. and Burkhart, N. and Der Minassians, A. and Dervisoglu, G. and Gutnik, L. and Haick, M.B. and others},
+  booktitle={Advanced Information Networking and Applications Workshops, 2007, AINAW'07. 21st International Conference on},
+  volume={2},
+  pages={832--837},
+  year={2007},
+  organization={IEEE}
+}
+
+@article{annetta2010s,
+  title={The \"I's\" have it: A framework for serious educational game design.},
+  author={Annetta, L.A.},
+  journal={Review of General Psychology},
+  volume={14},
+  number={2},
+  pages={105},
+  year={2010},
+  publisher={Educational Publishing Foundation}
+}
+
+@inproceedings{rego2010serious,
+  title={Serious games for rehabilitation: A survey and a classification towards a taxonomy},
+  author={Rego, P. and Moreira, P.M. and Reis, L.P.},
+  booktitle={Information Systems and Technologies (CISTI), 2010 5th Iberian Conference on},
+  pages={1--6},
+  year={2010},
+  organization={IEEE}
+}
+
+@inproceedings{sinclair2007considerations,
+  title={Considerations for the design of exergames},
+  author={Sinclair, J. and Hingston, P. and Masek, M.},
+  booktitle={Proceedings of the 5th international conference on Computer graphics and interactive techniques in Australia and Southeast Asia},
+  pages={289--295},
+  year={2007},
+  organization={ACM}
+}
+
+@inproceedings{stach2009classifying,
+  title={Classifying input for active games},
+  author={Stach, T. and Graham, TC and Brehmer, M. and Hollatz, A.},
+  booktitle={Proceedings of the International Conference on Advances in Computer Enterntainment Technology},
+  pages={379--382},
+  year={2009},
+  organization={ACM}
+}
+
+@inproceedings{masuko2006fitness,
+  title={A fitness game reflecting heart rate},
+  author={Masuko, S. and Hoshino, J.},
+  booktitle={Proceedings of the 2006 ACM SIGCHI international conference on Advances in computer entertainment technology},
+  pages={53},
+  year={2006},
+  organization={ACM}
+}
+
+@article{sherstyuk2010toward,
+  title={Toward natural selection in virtual reality},
+  author={Sherstyuk, A. and Vincent, D. and Treskunov, A.},
+  journal={Computer Graphics and Applications, IEEE},
+  volume={30},
+  number={2},
+  pages={93--96},
+  year={2010},
+  publisher={IEEE}
+}

@@ -1,0 +1,418 @@
+\chapter{Avalia\c{c}\~{a}o Experimental} \label{chap:avaliacao}
+Neste capítulo são descritos os estudos de casos e experimentos realizados para verificar as hipóteses do trabalho.
+
+\section{Introdução}
+
+Realizar monitoramento de dados motores de uma maneira não-invasiva é um desafio das soluções de monitoramento motor em saúde. Na busca por fornecer um mecanismo de monitoramento frequente de dados de saúde por meio de jogos eletrônicos que podem estar integrados à rotina diária dos usuário e que por ser um mecanismo lúdico não venha evocar o tratamento de saúde. 
+Esse trabalhou buscou por desenvolver um método de desenvolvimento de jogos que possibilitem o monitoramento de dados de saúde através da captura, processamento e classificação desses movimentos.
+
+Para atingir os objetivos da pesquisa, foram elencadas hipóteses que foram testadas durante este trabalho:
+	\begin{description}
+	\item[H1] O acompanhamento de sintomas motores integrados à rotina diária do paciente, traz benefícios ao tratamento e qualidade de vida do mesmo, do ponto de vista do profissional da saúde.
+	\item[H2] É possível capturar parâmetros de dados motores por intermédio de sensores de movimento utilizados em jogos eletrônicos, tais parâmetros podem vir a auxiliar o acompanhamento do comprometimento motor de doenças que tenham como características esses sintomas como exemplo a Doença de Parkinson.
+	\item[H3] A partir dos dados motores capturados é possível usar uma abordagem de aprendizagem de máquina de modo a facilitar a classificação de indivíduos com problemas motores e consequentemente auxiliar os profissionais de saúde na visualização do comprometimento motor dos mesmos.	
+	\end{description}
+
+\section{H1 - Análise da Entrevista Semi-Estruturada}
+%\subsection{Requisitos de Jogos Com o Propósito de Monitoramento de Dados Motores}
+%Nessa seção serão apresentados requisitos identificados durante a análise qualitativa da Entrevista Semi-Estruturada realizada com os profissionais de saúde conforme a metodologia de pesquisa. Para uma melhor análise dos resultados as considerações identificadas durante a análise foi confrontada com as diretrizes médicas ~\cite{protpar010,Jankovic_2008,ambulatoryparkinson2010} e a revisão da literatura sobre jogos para saúde \ref{section:jogos_saude} que serviram de base científica para esse trabalho.
+%
+%\subsubsection{Requisitos Essenciais}
+%\begin{description}
+	%\item[RE-001: – Progresso do jogo]
+	%\item[RE-002: 
+%\end{description}
+
+%Requisitos Essenciais
+%[RE-001] – Progresso do jogo
+%Segundo Suhonnen, a característica mais atrativa de um jogo é perceber o progresso do mesmo. É o usuário conseguir visualizar o progresso do jogo [8].
+%[RE-002] – Estado de Fluxo ou Escapismo
+%O jogador tem que sentir relaxado e com desejo de repetir a atividades em outras oportunidades [8], o jogo tem que permitir que o usuário entre num estágio de fluxo [20] e execute as atividades sem perceber a noção de tempo e espaço. O usuário deverá jogar pelo próprio prazer.
+%[RE-003] – Pontuação e Taxas de Acerto
+%O jogador deve visualizar suas ações positivas e negativas. O jogo deverá pontuar as atividades do jogador de acordo com seus acertos. O jogador deve visualizar claramente os objetivos e perceber o sucesso ou fracasso alcançado [8], [15].
+%[RE-004] – Preocupação física do jogador
+%Por promover atividades físicas, ou ações que possam trazer injúria ao jogador, como movimentos de equilíbrio, movimentos repetitivos ou rápidos. O game design do jogo deve ter a preocupação de desenvolver o jogo de acordo com o público-alvo. Isso significa dizer que a faixa etária e limitações físicas e cognitivas em decorrência da idade ou enfermidade devem ser levadas em consideração. Os jogadores devem ter a segurança de usarem o jogo e ter a certeza que o seu uso não acaarretará em nenhum dano físico [1].
+%[RE-004] – Monitoramento dos sinais vitais
+%O jogo poderá monitorar os sinais vitais através dos sensores usados como interface do jogo. Sensores de movimento, podem ser aplicados para movimentar o personagem. Monitores cardíacos para controlar a intensidades dos exercícios físicos. Eletroencefalograma podem ser usados para acompanhar o nível de concentração do jogador [15]. A partir dos dados capturados, estes podem ser armazenados para uma avaliação a posteriori por um profissional de saúde. Desta maneira teremos um monitoramento dos dados de saúde de maneira não invasiva e presente na rotina do usuário.
+%Requisitos Secundários
+%[RS-001] – Motivar atividade física
+%Os jogos para monitoramento de saúde que fazem uso de sensores de movimento, normalmente mootivam a prática de exercícicio físico [1], [8], [15]. Logo, esse requisito pode ocorrer de forma secundária sem ser o propósito principal do jogo.
+%[RS-002] – Promover Reabilitação
+%Para alguns tipos de usuário o jogo poderá ser usado para reabilitação. Usuários que tenham passado por acidentes vascular cerebral, cirurgia recente em algum membro. Estudos indicam que os jogos para exercício físico podem ser aplicados para auxiliar a reabilitação do usuário. Então como requisito secundário poderia atender a esse fim.
+%[RS-003] – Adequação ao Tratamento
+%Através da abordagem do jogo será possível influenciar o jogador a uma maior aderência ao tratamento[13], [14]. Contudo essa abordagem é difícil de ser adequada para um jogo voltado ao entretenimento.
+
+
+
+\section{H2 - Estudo de Caso 1: Análise dos Componentes Principais na \textit{Parkinson Disease Database}}
+A abordagem utilizada foi de processamento de sinal, reconhecimento de padrões e classificação usando PCA e a distância euclidiana dos indivíduos selecionados para teste junto aos dados de treinamento. Utilizamos a Análise dos Componentes Principais com os indivíduos de Treinamento para projetar no autoespaço (\ref{section:autoespaço}) as suas características e conseguir distinguir os dois grupos: sujeitos diagnosticados com a doença de parkinson e sujeitos sem o diagnóstico da doença de acordo com os dados coletados na base. A base de dados utilizada nesse estudo contém a \ac{fvrs}, capturada através de 8 sensores em cada pé dos indivíduos coletados.
+
+Como dados de entrada para como entrada para a aprendizagem de máquina foram processados os ciclos de movimento e para cada ciclo foram calculados: 
+\begin{description}
+\end{description}
+A média da \textit{Fase de Apoio/Fase de Balanço} (Figura 2.) e a diferença da média da força do pé esquerdo sobre o pé direito, o parkinsoniano tem um passo mais curto logo a Fase de Balanço será mais curta ~\cite{protpar010,Jankovic_2008,ambulatoryparkinson2010}. Outra característica significativa poderia ser a diferença da força do pé da esquerda sobre o da direita, já que durante a fase 2 da \ac{dp} existe uma assimetria do movimento logo o parkinsoniano poderia demonstraria tal característica durante a análise da marcha. 
+
+A Análise de Componentes Principais - ACP ou PCA (do inglês \textit{Principal Component Analysis}), é um método que tem o propósito de analisar os dados por intermédio de redução, eliminação de redundâncias. Desta forma o método pretende identificar as características principais dos dados a partir de combinações lineares dos dados originais. A \ac{pca} consiste em aplicar uma transformação linear nos dados de modo que o resultado desta transformação demonstre suas componentes mais relevantes nas primeiras dimensões, nos eixos denominados principais.
+Por intermédio da técnica de \ac{pca}, uma vez que o padrão dos dados foram encontrados estes podem ser comprimidos, ter sua dimensão reduzida e consequentemente facilitar a análise dos dados. Essa técnica estatística (\ac{pca}) pode ser aplicada em diferentes áreas como: reconhecimento facial ~\cite{eigenfaces91}, compressão de imagem e bastante utilizada para o reconhecimento de padrões ~\cite{visionbased2009}. 
+
+A \textbf{componente principal} é o arranjo que melhor representa a distribuição dos dados e a \textbf{componente secundária} é perpendicular a componente principal.
+
+\subsection{Método}
+Para realizar a Análise de Componentes Principais é necessário seguir os seguintes passos:
+\begin{enumerate}
+	\item Obter dados;
+	\item Subtrair a média;
+	\item Calcular a matriz de covariança;
+	\item Calcular autovalores e autovetores da matriz de covariança;
+	\item Escolher os componentes e formar os vetores de características.
+\end{enumerate}
+
+
+\subsubsection{Obter dados}
+O conjunto de dados deve possuir a distribuição de \textbf{M} amostras de vetores de dimensão \textbf{n}. Como os dados a serem analisados são sinais ou imagens, deve-se então escalonar a imagens para uma dimensão \textbf{n} para poder realizar o cálculo matricial quadrático de (\textbf{M} x \textbf{n}).
+
+Para os dados desse estudo de caso, os dados foram normalizados com a variação dos valores entre 0 e 1 e o escalonamento do ciclo ficou com a dimensão de 80 \textit{frames} em cada pé como pode ser visto na Figura \ref{fig:vetor_media_marcha}. 
+
+\subsubsection{Vetor Médio}
+O \textbf{vetor médio} consiste na média aritmética de cada variável e a matriz de covariância é a variância dessas variáveis em uma diagonal de covariância entre as variáveis ~\cite{statisticshandbook2009}. Após o cálculo do \textbf{vetor médio} deve-se realizar uma subtração desse vetor na matriz de dados, essa etapa uma parte fundamental no cálculo da análise de componentes principais, pois desta forma haverá uma minimização dos erros de aproximação dos dados além de uma centralização dos mesmos em torno da média.
+Se então subtrairmos de todas as amostras o \textbf{vetor médio}, teremos então uma nova matriz, que contém somente as variações de cada amostra em torno da média, e como consequência, uma matriz cuja média é zero e cuja variância é máxima.
+%Média
+\newline
+\begin{math}
+\bar{X}=\frac{\sum_{i=1}^{n}(Xi)}{(n)}
+\end{math}
+
+Onde o \textbf{vetor médio} das três variáveis e a matriz de covariância é calculada pela fórmula:
+\newline
+\begin{math}
+S=\frac{\sum_{i=1}^{n}(X_{i} - \bar{X}).(Y_{i} - \bar{Y}))^}{n-1}
+\end{math}
+
+Desta forma podemos afirmar que o \textbf{vetor médio} representa a centralização dos dados e a covariância contém a dispersão dos mesmos.
+
+\begin{figure}[!htbp]
+ \centering
+ \includegraphics[scale=0.25]{./img/vetormediociclosdamarcha.png}
+ \caption{Vetor Médio dos Ciclos da Marcha}
+ \label{fig:vetor_media_marcha}
+\end{figure}
+
+
+\subsubsection{Calcular a matriz de covariança}
+
+Nas análises estatísticas, existem diferentes formas de analisar um conjunto de dados, como a \textbf{média aritmética}, o \textbf{desvio padrão} e a \textbf{variância}. Esses dois últimos mensuram o quanto os dados estão afastados em relação a média. Contudo, essas medidas consideram os tipos de dados de forma separada. Por outro lado, a \textbf{covariância} perfaz a medida entre duas dimensões (calcular a covariância entre uma dimensão e ela mesma resulta na variância). A fórmula da covariância para dados de dimensão 2 (\textit{X} e \textit{Y}) é:
+
+%Fórmula de covariança
+\newline
+\begin{math}
+cov(x,y)=\frac{\sum_{i=1}^{n}(X_{i} - \bar{X}).(Y_{i} - \bar{Y}))^}{n-1}
+\end{math}
+
+Na fórmula acima, (${X}$\ e ${Y}$\) são listas de dados, onde ${X}$\ é a primeira e ${Y}$\ é a segunda dimensão. Os elementos com uma barra sobre eles $\bar{X}$\ e $\bar{Y}$\, são as médias das listas. $X_{i}$\ e $Y_{i}$\ são cada um dos elementos das listas nas duas direções ($X$\ e $Y$\), na i-ésima posição. A variável n representa o número de itens de dados obtidos. Quando os dados representam uma amostra (que inicia no índice $0$\), usa-se $n-1$\ no denominador e no somatório. Quando os dados representam o conjunto total da "população", usa-se simplesmente $n$\ no denominador.
+
+\newline
+\begin{math}
+A = {\left (  a_{1},a_{2},...,a_{n}\right )} , B = {\left (  b_{1},b_{2},...,b_{n}\right )}
+\end{math}
+
+A variância de $\bar{A}$\ e $\bar{B}$\ são definidos como individualmente, definida como :
+\newline
+\sigma_{A}^{2} = \frac{1}{n}\sum a_{i}^{2},  \sigma_{B}^{2} = \frac{1}{n}\sum b_{i}^{2}
+
+A covariância entre $\bar{A}$\ e $\bar{B}$\ é uma generalização direta. Onde a covariância entre $\bar{A}$\ e $\bar{B}$\ é:
+\newline
+\sigma_{AB}^{2} = \frac{1}{n}\sum a_{i}b_{i}
+
+A covariância mensura o grau da relação linear entre as duas variáveis. Porém, para a análise de dados multivariados é necessário calcular o vetor médio e a variância do mesmo por intermédio da matriz de covariância. 
+Como exemplo, considere uma Matriz (5 x 3). Onde o conjunto de 5 observações, mensurações de 3 variáveis, podem ser descritos por um \textbf{vetor médio} e a variância da matriz de covariância. Estas três variáveis, da esquerda para direta podem ser, por exemplo: distância, tamanho e peso de um determinado objeto. Cada linha do vetor ${X}_{i}$\ é uma observação destas três variáveis ou componentes ~\cite{statisticshandbook2009}. Onde, a diagonal principal da matriz irá conter as variâncias e as demais posições a correlação entre as direções. Essa matriz é simétrica e real, de modo que é sempre possível encontrar um conjunto de autovetores ortonormais ~\cite{anton2001algebra}.
+
+\begin{math}
+	matrizcov =
+	\linebreak
+	\begin{bmatrix}
+	cov(x,x) & cov(x,y) & cov(x,z) \\ 
+	cov(y,x) & cov(y,y) & cov(y,z) \\ 
+	cov(z,x) & cov(z,y) & cov(z,z) \\
+	\end{bmatrix}
+\end{math}
+
+
+
+
+
+%Desvio padrão
+%\newline
+%\begin{math}
+%s=\sqrt{\frac{\sum_{i=1}^{n}(X_{i} - \bar{X})^{2}}{(n-1)}}
+%\end{math}
+%
+%
+%%Fórmula de variança
+%\newline
+%\begin{math}
+%var(x,y)=\frac{\sum_{i=1}^{n}(X_{i} - \bar{X})(X_{i} - \bar{X}))^}{(n-1)}
+%\end{math}
+
+
+\subsubsection{Autoespaços, autovetores e autovalores} \label{section:autoespaço}
+O \textbf{autovetor} com o maior \textbf{autovalor} associado, correspondem à componente principal do conjunto de dados utilizados. Ou seja, esse é o relacionamento mais significativo entre as dimensões dos dados ~\cite{smith2002}. Logo, essas componentes principais encontradas podem ser utilizadas para o reconhecimento das principais características do conjunto de dados utilizados.
+
+%Um vetor $v$\ é um \textbf{autovetor} de uma matriz quadrada $M$\ se $M$\ $v$\ (multiplicação da matriz M pelo vetor v) resulta num múltiplo de $v$\, ou seja, em \lambda $v$\ (ou na multiplicação de um escalar pelo vetor) ~\cite{aura2007}. 
+
+Nesse caso, $\lambda$\ é o chamado \textbf{autovalor} de $M$\ associado ao \textbf{autovetor} $v$\ ~\cite{aura2007}. Uma propriedade dos autovetores é que eles são perpendiculares (ortogonais) entre si, essa propriedade é importante porque torna possível expressar os dados em termos dos autovetores, ao invés dos eixos $x$\, $y$\ e $z$\ . Como podemos ver na projeção dos dados no autoespaço na Figura \ref{fig:projecao_autoespaco}, as componentes principais criaram um novo eixo de coordenadas contendo uma maior proximidade por intermédio do reconhecimento das principais características entre o conjunto de dados.
+
+\begin{figure}[!htbp]
+ \centering
+ \includegraphics[scale=0.55]{./img/projecaopca.png}
+ \caption{Projeção das Componentes Principais no Autoespaço dos Dados da \textit{Parkinson Disease Database} ~\cite{physionet}}
+ \label{fig:projecao_autoespaco}
+\end{figure}
+
+Para matrizes de dimensões $2$\ x $2$\  ou também $3$\ x $3$\, os autovalores podem ser calculados usando a equação característica de M ~\cite{aura2007}.
+\linebreak
+\begin{math}
+	det(M - \lambda.I) = 0
+\end{math}
+%Onde $I$\ é a matriz identidade, $M$\ a matriz dada e os escalares não nulos, \lambda, que a solucionam serão os \textbf{autovalores}~\cite{aura2007}. 
+%
+
+%De forma análoga, aos \textbf{autovetores} associados aos \textbf{autovalores} serão os vetores não-nulos no espaço solução $(\lambda I - M)v = 0 $\;. Este espaço é denominado de \textbf{auto-espaço} de \textbf{$M$\} associado a \lambda. As bases para cada um destes \textbf{autovetores} são chamadas de \textbf{bases de auto-espaço}.
+%Se uma matriz $n$\ x $n$\ tem n autovalores linearmente independentes então ela é diagonalizável. Se uma matriz é diagonalizável então ela tem $n$\ autovalores linearmente independentes que serão os seus elementos da diagonal principal ~\cite{aura2007}.
+
+Para diagonalizar uma matriz M ~\cite{aura2007}:
+\begin{enumerate}
+	\item Encontrar seus autovetores linearmente independente: $ v_1', v_1', ... v_n' $\
+	\item Formar uma Matriz $P$\ com estes vetores como colunas
+	\item O produto $ P^{-1} M P $\ será uma matriz diagonal, com elementos iguais aos autovalores na diagonal principal.
+\end{enumerate}
+
+
+
+
+%\subsection{Transformada de \textit{Hotelling}}
+%Considerando que a matriz de covariância é real e simétrica, é possível encontrar um conjunto de $ n $\ autovetores ortonormais ~\cite{anton2001algebra,aura2007}. A Transformada de \textit{Hottelling} consiste em ordenar so autovetores de modo decrescente de acordo com os $ n $\ valores dos autovalores. Logo, chamamos de $e_1$\ como o auto vetor correspondente ao maior autovalor $\lambda_1$); e que vamos chamar de $e_2$\ o autovetor correspondente ao segundo maior autovalor $\lambda_2$; e assim por diante até o menor autovetor $e_n-1$\ correspondente do menor auto valor que será chamado de $\lambda_n_-_1$.
+%
+%Um matriz, $A$\, cujas colunas são os autovetores de $C_x$ ordenados de modo decrescente. Considere uma transformação definida por esta matriz como:
+%
+%\linebreak
+%\begin{math}
+%y = A(x-m_x)
+%\end{math}
+%\linebreak
+%
+%Ela vai mapear os valores x, em valores y, cuja média será zero, isto é $m_y=0$\, e sua matriz de covariância dos $y$\ pode ser obtida de $A$\ e $C_x$\ por:
+%
+%\linebreak
+%\begin{math}
+%C_y = AC_xA^T
+%\end{math}
+%\linebreak
+%
+%Esta matriz $C_y$\ é diagonal e tem elementos ao longo da diagonal principal que são os autovalores de $C_x$\. Assim $C_y$\ será:
+%
+%(C_y) = \begin{bmatrix}
+%\lambda_1 & 0 & 0 & ... \\
+%0 & \lambda_2 & 0 & ... \\
+%0 & 0 &  \lambda_3& ... & 0 \\
+%0 & 0 &  0 & ... & \lambda_n_-_1
+ %\end{bmatrix}
+%
+%Desta forma, por  intermédio da Transformada de \textit{Hotelling} consegue estabelecer um novo sistema de coordenadas cuja origem será o centróide do conjunto de pontos (vetor médio) e cujos eixos estarão na direção dos autovetores de $C_x$ ~\cite{aura2007}. Logo, o efeito da Transformada de \textit{Hotelling} permite obeter um alinhamento dos autovetores por rotação do sistema de eixos.
+%
+%O alinhamento dos objetos permite extrair as características para o seu reconhecimento ou para a identificação dos Padrões.
+
+\subsubsection{\textit{Scores e Loadings}}
+A análise dos componentes principais é um método de análise multivariada que permite projetar dados n-dimensionais em um espaço de baixa dimensão.
+
+healthy subjects and subjects with PRGD.
+
+
+\subsubsection{Distância Euclidiana}
+
+\subsection{Aplicação do Método}
+Cada indivíduo recebeu uma identificação na base de dados para podermos projetá-los e identificá-los no espaço \textit{eigengait}.
+Como descrito na \ref{section:metodo_parkinson_database}, essa análise incluiu 120 indivíduos (60 diagnosticados com \ac{dp} e 60 indivíduos sem o diagnóstico da doença. Foram extraídos, normalizados e escalonados 120 ciclos
+Our system was built using data from the Parkinson Disease Database, which includes 60 patients with idiopathic PD, and 60 healthy control subjects. A total of 120 normalized gait cycles were used to calculate an orthogonal base of eigengaits. Projecting the labeled data from the database into the eigengait space we could identify two clusters, i.e. healthy subjects and subjects with PRGD.
+
+A patient’s personal gait pattern is represented as a point in this eigengait space. Changes in the patient’s gait pattern will result in a moving of this point. In case the point moves towards the direction of the subjects with PRGD, the system detects an increase of PRGD symptoms with the patient.
+
+A total of 12000 normalized gait cycles of 120 subjects (60 PRGD and 60 Healthy subjects) were used to calculate an orthogonal base of eigengaits. Projecting the labeled data from the database into the eigengait space we could identify two clusters, i.e. 
+
+\subsection{Resultados}
+A abordagem utilizada foi de processamento de sinal, reconhecimento de padrões e classificação usando PCA e a distância euclidiana dos indivíduos selecionados para teste junto aos dados de treinamento. Utilizamos a Análise dos Componentes Principais com os indivíduos de Treinamento para projetar os espaços de características com as 3 primeiras componentes principais como podemos ver na (figura \ref{fig:projeigentrainning}) em 3D contendo a projeção dessas 3 componentes dos indivíduos selecionados para Treinamento e a figura dos indivíduos selecionados para teste (figura \ref{fig:projecaopcaparkinson}).
+
+\begin{figure}
+ \centering
+ \includegraphics[scale=0.4]{./img/projecao-pca-parkinson-healthy.png}
+ % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+\caption{Projeção no Autoespaço e Visualização da Mudança de Projeção em 1 Indivíduo por Grupo}
+%  \caption{Estágio desenvolvimento de jogos}
+ \label{fig:projecaopcaparkinson}
+\end{figure}
+%
+%\begin{figure}
+ %\centering
+ %\includegraphics[scale=0.7]{./img/TestPersonsEigenSpace.png}
+ %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+%\caption{Projeção no Autoespaço Grupo de Teste}
+%%  \caption{Estágio desenvolvimento de jogos}
+ %\label{fig:projeigentest}
+%\end{figure}
+
+
+
+
+\subsubsection{Validação Cruzada}\label{sec:valicao_cruazada_database}
+Para verificar a precisão da classificação de indivíduos saudáveis perante os parkinsonianos foi aplicada a técnica de Validação Cruzada (cross-validation) ~\cite{datamining2005}. A validação cruzada é uma técnica empregada para avaliar a capacidade de generalização de um modelo de predição em um conjunto de dados. Em um primeiro momento, realiza-se a partição do conjunto de dados em subconjuntos mutualmente exclusivos e posteriormente usa-se este subconjunto para verificar a acurácia busca estimar a precisão do modelo. 
+
+O conceito central das técnicas de validação cruzada é o particionamento do conjunto de dados em subconjuntos mutualmente exclusivos e posteriormente, usar alguns destes subconjuntos como dados de treinamento para encontrar valores que permitam a predição e o restante dos subconjuntos serão usados como dados de teste utilizados para avaliar o modelo preditivo ~\cite{datamining2005}.
+
+Muito embora, nada garante que a amostra utilizada para treinamento ou teste seja representativa, ou tenham diferentes casos que possibilitem a aprendizagem de máquina a partir do grupo de treinamento. Para que isso não ocorra, a escolha do grupo de treinamento deve contemplar todas as classes no conjunto de dados. Este procedimento é chamado de estratificação, se essa técnica for aplicada podemos chamar de \textbf{Validação Cruzada Estratificada}. 
+Uma técnica muito utilizada para mitigar a ocorrência do viés de não por classes no grupo de treinamento é repetir o processo de treinamento por várias vezes com amostras diferentes incluindo casos de cada classe.
+Dada uma amostra única, um método de predição de taxa de erro na aprendizagem de máquina é usar a Validação-Cruzada dez vezes (\textit{10 K-Fold Cross-Validation}) ~\cite{datamining2005}, onde os dados são aleatoriamento divididos em 10 grupos, em que cada classe representa as mesmas proporções que no conjunto de dados completo. O processo de aprendizagem é executado por 10 vezes onde 1 grupo é selecionado como grupo de teste e os demais são selecionados como grupo de treinamento. A taxa de erro é calculada em cada processo de aprendizagem executado e no final é calculado a taxa de erro global com a taxa de erro dos 10 grupos. 
+A escolha do número 10 para a quantidade de grupos não foi de forma aleatória, a literatura recomenda que sejam utilizados 10 grupos para obter a melhor estimativa de erro ~\cite{datamining2005}. Contudo, é reconhecido que esse número de 10 não é único ou insubstituível e em determinados casos, grupos de 5, 20 ou qualquer outro número possa trazer melhores resultados.
+Outro dado relevante, para a escolha da técnica da estimativa de erro é que uma única aplicação de Validação Cruzada \textit{10 K-Fold} pode não ser o suficiente para uma taxa de erro confiável. Pois, diferentes experimentos de Validação Cruzada, podem produzir resultados distintos devido a natureza aleatória da escolha dos grupos.
+A estratificação reduz essa variação, contudo pode não eliminá-la completamente. Na busca por uma estimativa de erro mais exata, um procedimento que tem se transformado padrão nas técnicas de aprendizagem de máquina é repetir o processo de Validação Cruzada \textit{10 K-Fold} por 10 vezes. Ou seja, isso consiste em invocar o algoritmo de aprendizagem 100 vezes em um conjunto de dados, dessa forma aumentamos a amostragem consideravelmente e consequentemente reduzimos a variação da taxa de erro na execução dos experimentos.
+
+Desta maneira, escolhemos o método de validação cruzada utilizado foi repetir e calcular por 10 vezes a Validação Cruzada \textit{10 K-Fold}. Os subjconjuntos são estratificados antes de cada uma dos 10 processos de aprendizagem e a taxa de erro global é a média das taxas de erros calculadas em cada etapa.
+
+\begin{figure}
+ \centering
+ \includegraphics[scale=0.8]{./img/boxplot-eigengaits-parkinsondatabase.png}
+ % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+\caption{BoxPlot - Resultado da Classificação Indivíduos Diagnósticados com Parkinson versus Indivíduos Sem Diagnóstico de Parkinson Por Intermédio da Distância Euclidiana nos Autoespaços}
+%  \caption{Estágio desenvolvimento de jogos}
+ \label{fig:classificacaopca}
+\end{figure}
+
+\subsubsection{Teste de Sensibilidade}
+Para avaliar melhor o resultado da classificação, apresentamos a \textbf{matriz de confusão}, dessa classificação. Essa ferramenta compara os valores reais da classe com os valores obtidos no modelo de predição. A matriz de confusão (Figura \ref{table:matrizconfusao}) para duas classes é uma matriz $2$\ x $2$\, contendo os \textit{Verdadeiros Positivos} (\textbf{VP}) e \textit{Verdadeiro Negativo} (\textbf{VN})que são as classificações corretas. Os \textit{Falsos Negativos} (\textbf{FN}) contém a predição incorreta de uma valor que deveria ser positivo e os \textit{Falsos Positivos} (\textbf{FP}) contém os valores positivos quando deveriam ser negativos como pode ser visto na tabela \ref{tab:matriz_confusao}.
+
+% Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
+%\begin{table}[h]
+%\begin{tabular}{ll|c|c|}
+%\cline{3-4}
+                                                                     %& \multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{3-4} 
+                                                                     %&                                              & \textbf{Parkinson}          & \textbf{Não Parkinson}     \\ \hline
+%\multicolumn{1}{|c}{\multirow{2}{*}{\textit{\textbf{Classe Atual}}}} & \multicolumn{1}{|l|}{\textbf{Parkinson}}     & Verdadeiros Positivos (\textbf{VP})  & Falsos Negativos (\textbf{FN})      \\ \cline{2-4} 
+%\multicolumn{1}{|l}{\textit{\textbf{}}}                              & \multicolumn{1}{|l|}{\textbf{Não Parkinson}} & Falsos Positivo (\textbf{FP})        & Verdadeiros Negativos (\textbf{VN}) \\ \hline
+%\label{table:resultadomatrizconfusao}
+%\caption{Descrição da Matriz de Confusão}
+%\end{tabular}
+%\end{table}
+
+
+
+
+Esta é uma ferramenta importante para avaliar os resultados de predição, pois facilita o entendimento do que está sendo avaliado e como se comporta o classificador em relação aos erros de classificação obtidos. Esta matriz serve como base para métricas que podem ser aplicadas a classificação e consequentemente exibem a precisão do modelo.A matriz de confusão desta pesquisa foi gerada a partir da repetição de 10 momentos da técnica de Validação Cruzada \textit{10-K-Fold} conforme a Seção \ref{sec:valicao_cruazada_database}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l|c|c|}
+\cline{2-3}
+\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
+                                             & \textbf{Parkinson}      & \textbf{Não-Parkinson}         \\ \hline
+\multicolumn{1}{|l|}{\textbf{Parkinson}} & 431       & 69           \\ \hline
+\multicolumn{1}{|l|}{\textbf{Não Parkinson}}     & 116           & 384     \\ \hline
+\end{tabular}
+\label{table:resultadomatrizconfusao}
+\caption{Resultado da Matriz de Confusão}
+\end{table}
+
+
+
+Destacando-se \textit{tp rate} que é a taxa de acerto obtido e a \textit{fp rate} que contém a taxa de falso alarme obtido. A métrica \textit{precision} é a taxa de acerto de uma instância em determinada classe. A métrica \textit{accuracy} representa a taxa de acerto de todo o classificador, ou seja, a razão entre a soma dos acertos das 2 classes e o número total de instâncias.
+
+%Tabela Gerada no http://www.tablesgenerator.com/latex_tables#
+
+%\begin{table}[h]
+%\begin{tabular}{l|c|c|}
+%\cline{2-3}
+%\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
+                                             %& \textbf{Não Parkinson}      & \textbf{Parkinson}         \\ \hline
+%\multicolumn{1}{|l|}{\textbf{Não Parkinson}} & Verdadeiros Positivos       & Falsos Negativos           \\ \hline
+%\multicolumn{1}{|l|}{\textbf{Parkinson}}     & Falsos Positivos            & Verdadeiros Negativos      \\ \hline
+%\end{tabular}
+%\label{table:matrizconfusao}
+%\caption{Matriz de Confusão}
+%\end{table}
+
+
+\subsubsection{Limitações do Método}
+É sabido que o movimento da marcha pode variar de pessoa para pessoa e atualmente não existe diagnóstico comprobatório \ac{dp} ~\cite{visionbased2009,protpar010} e este fica a critério do julgamento clínico do profissional de saúde. Contudo, a presente abordagem permite identificar padrões característicos da marcha de indivíduos considerados saudáveis ante aos classificados como portadores da \ac{dp} na "\textit{Parkinson´s Disease Database}" ~\cite{physionet}.
+
+
+
+
+
+\section{H3 - Estudo Analítico de Caso Controle: Indivíduos Saudáveis versus Parkinsonianos Por Intermédio de Sensor de Movimento Usados em Jogos Eletrônicos}
+
+O propósito desse projeto é explorar a possibilidade de obter dados de saúde de forma contínua e não invasiva.  Esse projeto fará uma análise de jogos que fazem uso de sensores de movimento e avaliar as possibilidades de aquisição de dados de saúde baseada na Cinemática Linear do Movimento Humano ~\cite{biomecanica99}.
+Na coleta dos dados foi indagado junto aos voluntários para verificar sua condição física e possíveis riscos que o voluntário poderia ter ao realizar o procedimento. Como alguns voluntários tinham problemas de equilíbrio possibilidade de risco de queda foi diminuída ao solicitar que estes viessem somente levantar os braços para realizar uma análise biomecânica da amplitude do movimento dos braços e velocidade angular dos mesmos.
+Esses dados biomecânicos foram coletados com o objetivo de identificar sintomas de hemiparesia em indivíduos com Acidente Vascular Encefálico e de Bradicinesia em indivíduos portadores da doença de Parkinson.
+
+\subsection{Movimento Angular}
+O movimento angular ocorre quando todas as partes do corpo se movem pelo mesmo ângulo mas não realizam o mesmo deslocamento linear, A subdivisão da cinemática que trata com o movimento angular é chamada de cinemática angular. Examinando o movimento angular podemos identificar segmentos de um movimento que precisam de melhoria, podendo dividir um movimento em partes identificáveis e aumentar nossa compreensão do movimento humano ~\cite{hamill1999bases}.
+Uma compreensão do movimento angular é crítica para compreender como alguém se move. Quase todo o movimento humano envolve as rotações de segmentos do corpo. Os segmentos giram sobre os centros articulares que formam os eixos de rotação para esses segmentos ~\cite{hamill1999bases}.
+No movimento angular, a unidade de medida utilizada é o grau (º) e a unidade de tempo é o segundo (s). Logo as velocidades angulares calculadas estarão medidas em °/s.
+Anatomia funcional é o estudo dos componentes do corpo necessários para obter ou desempenhar um movimento ou função humana como por exemplo a abdução ou adução do braço (figura \ref{fig:movabducaoaducao}).
+
+\begin{figure}
+ \centering
+ \includegraphics[scale=0.5]{./img/capturaducaokinnect-gray.png}
+ % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+\caption{Movimentos de Abdução e Adução}
+%  \caption{Estágio desenvolvimento de jogos}
+ \label{fig:movabducaoaducao}
+\end{figure}
+
+Na biomecânica, são geralmente calculados dois tipos de ângulos, o primeiro é chamado de ângulo relativo, esse ângulo define o ângulo incluído entre o eixo longitudinal de dois segmentos. Por exemplo, o ângulo relativo no cotovelo descreve a quantidade de flexão ou extensão na articulação. Ângulos  relativos, contudo, não descrevem a posição de segmentoos ou os lados do ângulo no espaço. Se um indivíduo tem um ângulo relativo de 90º no cotovelo e esse ângulo é mantido, o braço pode ficar em qualquer posição.
+Para flexionar o braço, o levantamento é feito no cotovelo com pesos na mão ou todo o braço é levantado em frente de você? A interpretação dada ao segmento chamado "braço" irá determinar o tipo de movimento realizado. É importante identificar corretamente os nomes dos segmentos e usá-los de forma coerente quando se analisa os movimentos ~\cite{hamill1999bases}.
+A interpretação correta de flexionar o braço pode ser levantar todo o braço, já que braço refere-se ao úmero, não ao rádio e à ulna. Uma revisão dos nomes dos segmentos é indispensável no preparo para o uso mais extensivo deles no estudo da biomecânica ~\cite{hamill1999bases}.
+
+\subsubsection{Cálculo do Ângulo Relativo}
+Os ângulos relativos podem ser calculados usando a Lei dos Cossenos. Essa lei é simplesmente um caso mais geral do Teorema de Pitágoras e descreve a relação entre os lados de um triângulo. Para nossos propósitos, o triângulo é constituído por dois segmentos (b e c) e uma linha (a) unindo a ponta distai de um segmento com a ponta proximal do outro ~\cite{hamill1999bases}. Contudo, o produto escalar é uma operação entre dois vetores cujo resultado é um escalar.
+
+\subsubsection{Produto Escalar}
+Se 
+\begin{math} 
+v.w = \left \| v \right \|\left \| w \right \|\cos \theta 
+\end{math}
+, onde \theta é o ângulo entre esses vetores.
+O \textbf{ângulo} entre dois vetores é definido como o menor ângulo entre eles. 
+
+Portanto, 
+\newline
+\begin{math}
+0 \leq \theta \leq 180º
+\end{math}
+Podemos usar o produto interno para calcular o ângulo entre vetores, pois 
+\newline
+\begin{math} \cos \theta = (v.w)/(\left \| v \right \| \left \| w \right \|)\end{math}.
+
+\subsubsection{Pontos Utilizados no Kinnect Para o Cálculo do Produto Escalar}
+A descrição da posição de um segmento ou movimento articular é tipicamente expressa com relação a uma posição inicial designada. A posição anatômica é uma referência padronizada usada por muitos anos por anatomistas, biomecânicos e médicos ~\cite{hamill1999bases}.
+
+\begin{figure}
+ \centering
+ \includegraphics[scale=0.4]{./img/articulacoes.png}
+ % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+\caption{Posições das Articulações do Corpo Humano Capturadas Pelo MS-Kinnect ~\cite{kinnect2013}}
+%  \caption{Estágio desenvolvimento de jogos}
+ \label{fig:articulacoeskinnect}
+\end{figure}
+
+%\begin{figure}
+ %\centering
+ %\includegraphics[scale=0.5]{./img/eixossegmentos.png}
+ %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+%\caption{Eixos Segmentos e Ângulos da Biomecânica}
+%%  \caption{Estágio desenvolvimento de jogos}
+ %\label{fig:eixossegmentos}
+%\end{figure}

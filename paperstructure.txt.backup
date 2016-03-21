@@ -1,0 +1,26 @@
+A Gait Analysis Application to Detect Parkinson's Disease Gait Patterns 
+
+I. Introduction
+
+
+1. Gait Analysis Definition
+2. Gait Analysis Application on Patterns Identification
+3. Gait Analysis Importance on Parkinson disease Symptom Tracking
+4. Computer Based Approach Gait Analys Related Work
+
+Our System Purposal
+5. Gait analysis by Foot Sensors
+6. Description of Acquired Database
+7. Defense of use a public database: Reproduce the Research, This Approach could be used with others foot sensors, Patients security
+8. Signal Processing Techinique and Principal Component Analysis as Supervised Learning Approach
+9. Acquired Results
+
+PaperOrganization
+
+II. Device and Methodology
+
+1. Data Acquisition
+ i. Research Procedures
+ ii. Sensor specification
+ 
+2. Gait Parameter Extraction

@@ -1,0 +1,46 @@
+\chapter{Trabalhos Relacionados}
+
+Este capítulo apresenta os principais trabalhos relacionados ao uso de jogos para saúde. São apresentados trabalhos
+sobre jogos promover a prática de exercícios, ...
+
+\section{Context Aware Serious Games Framework for Sport and Health}
+
+O \emph{SocialAware}~\cite{Hardy11} é um arcabouço para a construção de serviços cientes de contexto. No trabalho, é
+apresentado um conjunto de jogos sérios para suporte a esporte e saúde que, através do uso do arcabouço, são
+transformados em jogos cientes de contexto. A captura do contexto do usuário, provendo serviços de \textit{exergames}
+apropriados é vista como um auxílio para solucionar muitos problemas de saúde. Apesar de a maioria dos problemas de
+saúde ocorrerem principalmente devido à falta de atividade física, muitas são as pessoas que têm motivação para praticar
+tais atividades. Os jogos sérios para suporte a esportes e saúde motivam as pessoas a praticarem exercícios durante a
+atividade do jogo, ou as ensinam sobre problemas de saúde.
+
+Estudos multidisciplinares recentes no domínio de sensores sem-fio, smartphones, redes sociais e comunicação móvel
+contribuíram para a computação ciente de contexto. Dessa forma, é possível capturar diferentes informações de
+contexto relacionadas a sinais vitais, como batimento cardíaco, pressão sanguínea, nível de glicose, condições do
+suor, etc. Além disso, podem ser capturadas ações, como andar, dormir, dirigir, cair, correr, falar e conversar com um
+amigo, e também variáveis de ambiente, como temperatura, umidade do ar, localização, altitude, etc.
+
+Extrair informações de contexto a partir de dados de sensores e informação multimídia contida em serviços heterogêneos
+trás dois desafios. Primeiramente, é necessário a extração em tempo real de conteúdo multimídia e de redes de sensores
+corporais para análise de contexto. Depois, é preciso aplicar a lógica apropriada para extrair a informação de contexto
+das redes sociais e dados de sensores, agregá-la e então armazená-la em um repositório para ser usada em uma seleção
+dinâmica de jogos sérios e serviços de saúde relevantes.
+
+Três módulos lógicos são descritos para melhor representar o conceito:
+\begin{enumerate}
+  \item Módulo de Extração de Conteúdo: responsável por extrair as informações de serviços heterogêneos de
+Internet e da rede de sensores corporais.
+  \item Módulo de Extração de Contexto: encontra o valor contextual de um serviço. Extratores de conteúdo recebem
+conteúdo em tempo real de sensores e serviços de Internet e passam o conteúdo e os metadados de cada serviço para os
+componentes apropriados.
+  \item Módulo de Adaptação Dinâmica de Serviço: mapeia dinamicamente um subconjunto de jogos sérios e/ou serviços
+relacionados à saúde extraídos de uma base de dados de Serviços Personalizados, selecionando serviços, jogos e níveis
+de exercício únicos para cada pessoa.
+\end{enumerate}
+
+Para avaliar a efetividade do sistema proposto, foi conduzido um teste de avaliação subjetiva entre maio e novembro de
+2010, baseado em uma amostra de 95 pessoas, das quais 25\% são mulheres. A maior parte dos usuários tinham mais de 25
+anos e 45 deles tinham menos de 25 anos. Todos os participantes utilizaram diversos serviços de Internet em diferentes
+escalas nos últimos 4 a 6 anos. A ideia de utilizar sugestões de serviços dinâmicas foi fortemente aceita por 65\% dos
+usuários. Além disso, alguns usuários levantaram a questão da privacidade, enquanto outros usuários preocuparam-se com
+o preço dos sensores. Alguns demonstraram pessimismo devido a necessidade de sempre carregar os sensores para obter os
+serviços.

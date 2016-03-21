@@ -1,0 +1,142 @@
+Resumo da Tese
+===================
+Distúrbio do movimento
+
+
+O Parkinson é uma doença crônica e progressiva do Sistema Nervoso Central causada pela degeneração dos neurônios produtores de dopamina e acomete cerca de 2$\%$ da população acima dos 60 anos. Entre os diferentes sintomas motores da doença, apresentam-se mais aparentes o tremor e mais debilitante como a bradicinesia que consiste na lentidão da execução dos movimentos voluntários o qual impacta diretamente no movimentar dos braços e na execução da marcha. O tratamento da doença consiste em reduzir a intensidade dos sintomas por meio de medicamentos antiparkinianos, os quais possuem efeitos colaterais e eficácia reduzida ao longo do tempo.
+
+Atualmente os médicos realizam o gerenciamento medicamentoso baseado nas informações passadas de maneira subjetiva pelos pacientes, sendo este um dos principais motivos da avaliação. Neste trabalho, tem-se como objetivo a concepção de uma abordagem computacional para o monitoramento de dados motores de maneira não invasiva e integrada à rotina diária. Pretende-se usar jogos eletrônicos como forma de motivar e abstrair o monitoramento de dados de saúde usando jogos eletrônicos que capturem, armazenem e processem esses dados de modo a identificar indivíduos com problemas motores além de quantificar a severidade do sintoma.
+
+A avaliação da abordagem foi realizada por meio de um estudo analítico de caso-controle num total de 27 sujeitos da pesquisa (12 grupo controle e 15 diagnosticados com parkinson) demonstrando a viabilidade de identificar e quantificar o sintoma da bradicinesia a partir do conjunto de dados obtidos na pesquisa.
+
+22
+The evaluation of this approach was applied with 27 research subjects divided between control group and PD group and the results showed it is possible identify and quantify the occurrence of bradykinesia symptom.
+
+
+
+
+
+Este trabalho pretende auxiliar o profissionalLogo a problemática deste trabalho foi  para auxiliar o profissional de saúde na quantificação dos sintomas motores e auxiliar no acompanhamento dos sintomas em diferentes 
+momentos do dia devido a variação da intensidade dos mesmos. 
+
+
+
+
+Com o objetivo de prolongar a efetividade do tratamento medicamentoso e consequentemente melhorar a qualidade de vida dos pacientes. 
+
+
+Foi ap abordado neste trabalho um mecanismo que possibilite realizar o monitoramento dos sintomas 
+Logo
+Logo, para prolongar a qualidade de vida dos pacientes é necessário um monitoramento dos sintomas de modo a auxiliar o gerenciamento medicamentoso.
+
+
+
+Com o uso da computação pervasiva e dos dispositivos vestíveis, 
+
+
+Nos últimos anos com o surgimento da computação vestível foram desenvolvidos sistemas de monitoramento dos sintomas parkinsonianos, 
+
+Com o objetivo de reduzir a intensidade dos sintomas os médicos neurologistas prescrevem a seus pacientes medicamentos antiparkisonianos, tais medicamentes possuem efeitos colaterais e têm sua eficácia reduzida gradativamente ao longo do tempo. No intuito de auxiliar o gerenciamento da dosagem
+gerenciamento 
+
+Para reduzir os sintomas da doença, os neurologistas prescrevem gradativamente medicamentos antipakisonianosm gerenciando a dosagem de modo a evitar os efeitos colaterais e prolongar a qualidade de vida do paciente.
+
+
+
+============================================================
+Resumo de Glauber
+============================================================
+Doenças crônicas são a principal causa de morte da população mundial, gerando
+grande impacto nos custos dos sistemas e serviços de saúde pública. A maioria
+dos pacientes acometidos por tais doenças realiza o tratamento de forma autogerenciada,
+seguindo as recomendações médicas em sua residência. Ainda assim,
+profissionais de saúde de diversas especialidades colaboram entre si para acompanhar
+os pacientes durante todas as etapas de um longo e contínuo tratamento,
+incluindo: definição de dieta; apoio psicológico; prática de atividade física; controle
+de medicação; etc. 
+
+O problema abordado neste trabalho diz respeito à carência
+de soluções computacionais para auxiliar na mediação dos conflitos que ocorrem
+entre os planos de tratameDoenças crônicas são a principal causa de morte da população mundial, gerando
+grande impacto nos custos dos sistemas e serviços de saúde pública. A maioria
+dos pacientes acometidos por tais doenças realiza o tratamento de forma autogerenciada,
+seguindo as recomendações médicas em sua residência. Ainda assim,
+profissionais de saúde de diversas especialidades colaboram entre si para acompanhar
+os pacientes durante todas as etapas de um longo e contínuo tratamento,
+incluindo: definição de dieta; apoio psicológico; prática de atividade física; controle
+de medicação; etc. O problema abordado neste trabalho diz respeito à carência
+de soluções computacionais para auxiliar na mediação dos conflitos que ocorrem
+entre os planos de tratamento autogerenciados ao longo da evolução de uma doença
+crônica. Cada profissional define o plano de tratamento sob a ótica da sua
+especialidade, mas quando são analisados em conjunto, o plano global por vezes
+é conflitante. Nesse trabalho apresenta-se então uma solução multiagente para a
+nto autogerenciados ao longo da evolução de uma doença
+crônica. Cada profissional define o plano de tratamento sob a ótica da sua
+especialidade, mas quando são analisados em conjunto, o plano global por vezes
+é conflitante. Nesse trabalho apresenta-se então uma solução multiagente para a
+mediação de conflitos entre os planos de tratamento de pacientes crônicos definidos
+por diferentes profissionais, em diferentes momentos do tratamento, ainda
+mantendo a consistência entre os planos ao longo da evolução da doença. Nesta
+solução, agentes de software representam pacientes e profissionais de saúde, objetivando
+a definição de planos de tratamento convenientes ao paciente e compatíveis
+com as regras de saúde. 
+
+Apresenta-se uma especificação formal do sistema, uma
+arquitetura web para sua implementação e os protocolos para mediar a interação
+entre os agentes. Para concluir o trabalho, uma avaliação experimental foi realizada
+para avaliar o modelo de identificação de conflitos no tratamento de pacientes
+crônicos.
+
+desses sintomas é necessário administrar a dosagem medicamentosa de forma eficaz
+
+ A DP é uma afecção do sistema nervoso central, a qual é expressa de forma crônica e progressiva. Ela é causada pela degeneração dos neurônios produtores de dopamina e caracterizada pelos sintomas parkinsonianos: tremor em repouso (que diminui durante movimentos voluntários); bradicinesia ou hipocinesia (lentidão e escassez de movimentos, além de dificuldade na marcha), rigidez muscular (aumento da resistência ao movimento passivo dos membros), perda de reflexos posturais que leva à alteração da marcha e aumenta a ocorrência de queda (3) (2).
+
+
+===================
+Resumo Proposta
+===================
+O uso da computação pervasiva aplicada ao contexto de saúde pode melhorar a qualidade de vida dos usuários ao fornecer remotamente informações sobre o estado de saúde. Por outro lado, a concepção de um sistema pervasivo não invasivo de monitoramento de dados motores ainda é um grande desafio multidisciplinar. Estes sistemas, apesar do avanço na tecnologia, ainda são visíveis e estereotipados, dificultando assim sua disseminação. Portanto, o uso destes sistemas não tem sido incorporado na rotina dos usuários, inviabilizando o monitoramento dos sintomas motores.
+ 
+Diante da dificuldade de desenvolver um sistema com as características descritas, neste trabalho, propõe-se utilizar jogos eletrônicos para motivar e abstrair o monitoramento de dados de saúde. Estatísticas da indústria americana de jogos constataram que, em 2011, os jogadores de videogame possuíam em média 37 anos e 29$\%$  estão acima dos 50 anos. Desde 2005, os jogos eletrônicos utilizam sensores de detecção de movimento para capturar as ações cinéticas do usuário. Desta forma, na abordagem proposta neste trabalho, o usuário executa movimentos específicos em um jogo eletrônico para quantificar seus sinais motores e monitorar seu estado de saúde.
+
+A relevância deste trabalho foi validada por meio de pesquisa qualitativa na qual foi realizada uma entrevista semi-estruturada junto a profissionais de saúde. Para a validação da abordagem, foi realizado um estudo analítico de caso-controle para detectar indivíduos diagnosticados com a Doença de Parkinson, utilizando sensores de captura de movimento em jogos eletrônicos. Buscou-se avaliar as possibilidades de aquisição de dados de saúde baseada nas características de Cinemática Angular do Movimento Humano. Estes dados foram aplicados em uma Máquina de Vetor de Suporte (SVM) para classificação dos dados. Como resultado, foi obtida uma taxa de identificação de verdadeiros positivos de 80,00\% e falsos positivos de 16,67\%. Desta forma, concluiu-se que a abordagem proposta permite desenvolver jogos eletrônicos que servem como uma forma não invasiva para monitorar dados motores.
+
+
+===================
+Abstract - SAC 2014
+===================
+Parkinson's disease (PD) is a degenerative neurological disorder, which affects the patient's movement by causing motor symptoms such as tremor or bradykinesia.
+
+The disease's progressive nature requires regular monitoring of these symptoms to inform a careful adaptation of the medication dosages, especially considering various side-effects of the currently available pharmaceuticals. 
+
+Here we propose a game environment capable of tracking motor signs non-intrusively at the user's home. Embedded in the daily routine, the monitoring thus becomes more frequent and cost-effective, leading to a better management of the treatment and consequently increases the patients quality of life. 
+
+The evaluation of this approach was applied with 27 research subjects divided between control group and PD group and the results showed it is possible identify and quantify the occurrence of bradykinesia symptom.
+
+
+
+Motivação:
+	- A importância do Monitoramento de doenças crônicas para um melhor gerenciamento medicamentoso;
+	- Doença de Parkinson, dados populacionais
+Problema:
+	- Monitoramento não invasivo dos sintomas motores
+Abordagem:
+	- Uso de jogos eletrônicos como mecanismo para captura dos parâmetros motores
+Resultados:
+	- Por meio de aprendizagem de máquina foi possível identificar indivíduos saudáveis versus os parkinsonianos
+Conclusões:
+	- Seria possível usar jogos para identificar problemas motores
+
+
+		Motivation:
+    Why do we care about the problem and the results? If the problem isn't obviously "interesting" it might be better to put motivation first; but if your work is incremental progress on a problem that is widely recognized as important, then it is probably better to put the problem statement first to indicate which piece of the larger problem you are breaking off to work on. This section should include the importance of your work, the difficulty of the area, and the impact it might have if successful.
+    Problem statement:
+    What problem are you trying to solve? What is the scope of your work (a generalized approach, or for a specific situation)? Be careful not to use too much jargon. In some cases it is appropriate to put the problem statement before the motivation, but usually this only works if most readers already understand why the problem is important.
+    Approach:
+    How did you go about solving or making progress on the problem? Did you use simulation, analytic models, prototype construction, or analysis of field data for an actual product? What was the extent of your work (did you look at one application program or a hundred programs in twenty different programming languages?) What important variables did you control, ignore, or measure?
+    Results:
+    What's the answer? Specifically, most good computer architecture papers conclude that something is so many percent faster, cheaper, smaller, or otherwise better than something else. Put the result there, in numbers. Avoid vague, hand-waving results such as "very", "small", or "significant." If you must be vague, you are only given license to do so when you can talk about orders-of-magnitude improvement. There is a tension here in that you should not provide numbers that can be easily misinterpreted, but on the other hand you don't have room for all the caveats.
+    Conclusions:
+    What are the implications of your answer? Is it going to change the world (unlikely), be a significant "win", be a nice hack, or simply serve as a road sign indicating that this path is a waste of time (all of the previous results are useful). Are your results general, potentially generalizable, or specific to a particular case?
+
+

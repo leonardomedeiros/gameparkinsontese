@@ -1,0 +1,271 @@
+\chapter{Arquitetura de Software para~\textit{JOGUE-ME}}\label{chapter:arquitetura_captura}
+
+A arquitetura desenvolvida para o~\ac{jogue-me} busca abstrair das dificuldades existentes no desenvolvimento de um jogos para monitoramento de dados de saúde. Neste projeto foi desenvolvido um arcabouço de software integrada a uma \textit{engine} de jogos bem difundida e utilizada por desenvolvedores de jogos. Devido a essa estrutura buscamos facilitar a programação de jogos para saúde criando Componentes de \textit{Software} sobre a \textit{engine} de jogos Unity 3D~\cite{unity3d}. Desta maneira, desenvolvedores de jogos podem criar \text{JOGUE-MEs} usando esse arcabouço (Seção~\ref{sec:cliente_game}), isto permite o desenvolvedor encapsular os aspectos de processamento de sinal. 
+
+
+\begin{figure}[!htbp]
+ \centering
+  \includegraphics[scale=0.8]{./img/visaosistema.png}
+ % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+\caption[Extensão da Arquitetura do Sistema ]{Arquitetura do Sistema}
+%  \caption{Estágio desenvolvimento de jogos}
+ \label{fig:arquitetura}
+\end{figure}
+
+\section{Arquitetura Cliente do ~\textit{JOGUE-ME}}\label{sec:cliente_game}
+A arquitetura Cliente/Servidor do~\ac{jogue-me} é uma extensão de um trabalho de Mestrado da UFCG Antônio Santos Jr.~\cite{antonio2013}. Inicialmente foi proposto um arcabouço para o desenvolvimento de software em cima de uma \textit{engine} de jogos bastante difundida que é o Unity3D~\cite{unity3d} é um ambiente de desenvolvimento de jogos multi-plataforma. Este arcabouço possibilita que os desenvolvedores possam abstrair aspectos do Hardware e da complexidade do desenvolvimento de jogos, possibilitando ao desenvolvedor que este se atenha as atividades referentes ao desenvolvimento do jogo.
+
+Atualmente, desenvolvedores independentes de jogos utilizam Unity3D como ferramenta de desenvolvimento, pois esse ambiente facilita a criação de: cenários dos jogos, terrenos, interação com os objetos usando uma linguagem de \textit{Script}. Desta maneira, nos últimos anos ocorreu uma popularização do desenvolvimento de jogos eletrônicos independentes.  Contudo, o desenvolvimento com propósito de monitorar sinais motores possui desafios que não necessariamente precisam ser repassados para os desenvolvedores de jogos. Por esse motivo, criou-se um Arcabouço de \textit{software} herdando de um componente do Unity3D chamado Zigfu~\cite{zigfu} que permite integrar o Ms-Kinnect~\cite{kinnect2013} como controlador do jogo. 
+
+%Os jogos eletrônicos que fazem uso dos movimentos do corpo permitem a liberdade de movimento, logo o movimento exercido nestes possibilitam muita variabilidade. Logo, é necessário que o desenvolvedor tenha a informação de quais ações o jogador precisa executar para que estas sejam monitoráveis. As ações de um~\ac{jogue-me} devem estar descritas no~\ac{jogue-me}(Seção~\ref{subsec:game_actions_guide}) como estabelecido no processo de desenvolvimento proposto no Capítulo~\ref{chap:processo_desenvolvimento}.
+
+O Ms-Kinnect~\cite{kinnect2013} é um sensor de captura de movimentos utilizado tanto para o console MS-XBOX 360 quanto para \textit{PCs}. Ele permite adquirir sinais relativos ao movimento humano e identificar as articulações por meio da posição anatômica do corpo~\cite{hamill1999bases}, como pode ser visto na Figura~\ref{fig:articulacoeskinnect}.
+
+\begin{figure}[!htbp]
+ \centering
+ \includegraphics[scale=0.4]{./img/articulacoes.png}
+ % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+\caption[Posições das Articulações do Corpo Humano Adquiridas Pelo MS-Kinnect]{\copyright Posições das Articulações do Corpo Humano Adquiridas Pelo MS-Kinnect ~\cite{kinnect2013}}
+%  \caption{Estágio desenvolvimento de jogos}
+ \label{fig:articulacoeskinnect}
+\end{figure}
+
+O Zigfu ~\cite{zigfu} é um componente de Software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect (Figura~\ref{fig:articulacoeskinnect}) para uma classe chamada \textit{ZigSkeleton} com todas as articulações como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, criamos uma extensão do Zigfu que possa armazenar as posições das articulações além de um mecanismo para habilitar ou desabilitar o monitoramento de modo a reduzir ruídos e sinais não utilizados (métodos \textit{logOn() e logOff()} da Classe \textit{ZigSkeletonHealth}).
+
+\begin{figure}[!htbp]
+ \centering
+ \includegraphics[scale=0.8]{./img/diagclasszigfu.png}
+ \caption{Diagrama Classe ZigSkeleton e ZigSkeletonHealth}
+ \label{fig:diagramaclassezigfu}
+\end{figure}
+%
+%\begin{figure}[!htbp]
+ %\centering
+ %\includegraphics[scale=0.8]{./img/Unity3DArquitetura.png}
+ %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+%\caption{Arquitetura do Jogo: Módulo Cliente de Captura de Dados}
+%%  \caption{Estágio desenvolvimento de jogos}
+ %\label{fig:arquitetura_cliente}
+%\end{figure}
+
+\subsubsection{Jogo: \textit{Catch the Spheres}}\label{jogo_catch}
+Para testar a abordagem~\ac{jogue-me} foi criado o jogo \textit{Catch the Spheres} seguindo os requisitos propostos na Seção~\ref{section:requisitos_solucao}.  
+
+O \textit{Catch the Spheres} é um jogo em terceira pessoa onde o jogador, por meio de seu personagem, deverá tocar ou desviar das bolas que vêm em sua direção. Se o jogador tocar as bolas azuis receberá uma pontuação por isso e caso seja atingido pelas bolas vermelhas haverá uma penalização([REQ-JOGUE-ME-01]). Com o progresso do usuário as bolas tornam-se mais rápidas, exigindo uma maior agilidade nos movimentos ([REQ-JOGUE-ME-02]). Este é o principal mecanismo de fluxo do jogo~\cite{sweetser2005-gameflow} que tem o intuito de atrair a atenção do jogador baseado nos desafios propostos ([REQ-JOGUE-ME-03]). 
+
+Houve uma preocupação com a integridade física do jogador ([REQ-JOGUE-ME-04]), mas com numa análise com os usuários foi identificado que o mecanismo de desvio das bolas não é seguro para usuários com problemas de equilíbrio (Seção~\ref{gqm_usuarios}) e este foi removido em versões posteriores.
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=.8\textwidth]{./img/catch-the-spheres.png}
+     \caption{O jogo \emph{Catch the Spheres}}
+     \label{img:catch}
+\end{figure}
+
+\subsection{Arquitetura do Servidor \textit{JOGUE-ME Webservice}}
+O mecanismo de aquisição e armazenamento dos sinais motores ([REQ-JOGUE-ME-05]) torna possível o envio de maneira colaborativa desses sinais para um servidor responsável por armazenar as informações. Na abordagem~\ac{JOGUE-ME} o servidor poderá ser acessado por um profissional de saúde o qual poderá ter acesso às informações motoras de seus pacientes.
+
+%O \textit{JOGUE-ME Webservice} foi desenvolvido em colaboração com Antônio Santos Jr. em sua dissertação de mestrado ~\cite{antonio2013}. Do arcabouço do \textit{webservice} definido em seu trabalho, foram aproveitados os módulos de criação de usuário, recebimento de dados, gerenciador de arquivos e o módulo de escrita para gerar os arquivos a serem exportados e processados no MATLAB 2011 ~\cite{matlab2011} conforme a Arquitetura.
+
+% \begin{figure}[!htb]
+%      \centering
+%      \includegraphics[width=1\textwidth]{./img/class_diagram.png}
+%      \caption[Diagrama de Classes do Arcabouço]{Diagrama de Classes do Arcabouço ~\cite{antonio2013}}
+%      \label{img:classd}
+% \end{figure}
+
+% O processo inicia com a aquisição dos dados dos sensores, que podem ser enviados para o \emph{webservice} e processados pela classe \texttt{ReadingResource} ou enviados por arquivos e processados pela classe \texttt{FileManager}, acessada através do \texttt{DataManager}. O \texttt{ReadingResource} envia os dados recebidos para o \texttt{DatabaseManager}, também acessado através do \texttt{DataManager}, para armazená-los no \emph{banco de dados} ~\cite{antonio2013}. Na Tabela~\ref{tab:operations}, ilustram-se as operações disponibilizadas pelo \textit{webservice} e um exemplo de como os dados devem ser estruturados para cada operação.
+
+O envio dos dados dos usuários coletados com os dispositivos é feito através de uma requisição POST para o \textit{web service}. Os dados devem ser coletados durante uma sessão completa do jogo, que dura de alguns segundos a alguns minutos, para depois serem estruturados e enviados para o \textit{webservice}. O formato aceito pelas operações é o JSON (JavaScript Object Notation). 
+
+\begin{table} 
+\centering 
+\caption{Operações disponibilizadas pelo \textit{web service}}
+\begin{center}
+    \begin{tabular}{ | l | c | l | }
+        \hline
+        Operação & Método & Exemplo \\ \hline
+        cadastrarUsuario & POST & 
+		\begin{minipage}{7cm}\begin{verbatim}
+		
+		{"id":2,"nome":"Ana",
+		"masculino":false,
+		"nascimento":"2012-11-28"}
+		
+		\end{verbatim}\end{minipage} \\ \hline
+        obterToken & GET & - \\ \hline
+        enviarDados & POST & 
+		\begin{minipage}{7.5cm}\begin{verbatim}
+
+		{"leitura":[{"id":0, 
+		"idUsuario":1, "x":2.9097333, 
+		"y":6.770132, "z":2.0355952, 
+		"timestamp":1336134935706}, 
+		{"id":0, "idUsuario":1, 
+		"x":4.5565815, "y":4.9461093, 
+		"z":1.4911331, 
+		"timestamp":1336134935706}]}
+		
+		\end{verbatim}\end{minipage} \\ \hline
+    \end{tabular}
+\end{center}
+\label{tab:operations}
+\end{table}
+
+% \subsubsection{Gerenciador de Dados}
+% O \emph{Gerenciador de Dados} possui submódulos responsáveis por fazer leitura, separação e filtragem dos dados, além do gerenciamento destes no Banco de Dados com a escrita dos resultados disponibilizados pelo \emph{Analisador de Dados}. A classe \texttt{DataManager} implementa as funcionalidades do \emph{Gerenciador de Dados}, referenciando os quatro módulos: \emph{Gerenciador de Arquivos}, \emph{Módulo de Escrita}, \emph{Módulo de Filtragem} e \emph{Gerenciador do Banco de Dados}. Estes módulos serão explicados nas subseções a seguir. A classe \texttt{DataManager} possui um construtor \texttt{DataManager(DatabaseManager, FileManager, WriterModule, FilterModule)}, que recebe como parâmetros os quatro módulos. Dessa forma, é possível aumentar a funcionalidade de cada um dos módulos estendendo suas respectivas classes por herança e adicionando a elas novos métodos. A classe \texttt{MovementDataFileManager}, tratada mais adiante, é um exemplo de extensão do \texttt{FileManager}.
+% 
+% O \emph{webservice}, implementado utilizou a biblioteca Jersey\footnote{Disponível em: http://jersey.java.net/}, que facilita o desenvolvimento de \textit{RESTful webservices}. As requisições são enviadas para serem processadas pela classe \texttt{ReadingResource}, que é um \textit{web resource}, uma entidade que recebe requisições HTTP e envia respostas. Esta classe possui dois métodos, o \texttt{get()} que trata requisições \emph{GET}, retornando o identificador do último conjunto de leituras para controle do armazenamento no banco de dados; e o método \texttt{post(List<Reading> readings)} processa os dados das leituras enviados através de requisições \emph{POST}, e convertidos de JSON para objetos Java pela biblioteca Jersey. A classe \texttt{ReadingResource} está acoplada à classe \texttt{DataManager} e, através dela, tem acesso ao \emph{Gerenciador do Banco de Dados}. O \emph{webservice} pode ser instalado em qualquer \textit{web container}, como o Apache Tomcat\footnote{Disponível em: http://tomcat.
+% apache.org/} e o GlassFish\footnote{Disponível em: http://glassfish.
+% java.net/}.
+% 
+% \subsubsection{Gerenciador de Arquivos}
+% 
+% A classe \texttt{FileManager} implementa o módulo \emph{Gerenciador de Arquivos}, que processa as operações de abertura de arquivos de dados delegadas pelo \emph{Gerenciador de Dados}. Esse módulo processa os dados recebidos, armazenando-os em dados estruturados para serem processado posteriormente pelo \emph{Analisador de Dados}. O dado estruturado aceito pelo \emph{Analisador de Dados} é composto por um rótulo identificador do dado, uma marca de tempo com precisão de milissegundos, e coordenadas x, y e z, cujo significado depende do tipo de sensor que as gera.
+% 
+% Os métodos da classe \texttt{FileManager} são:
+% \begin{enumerate}
+% 	\item \texttt{getLabelData(List<Reading> data, String... labels)} filtra os dados da lista de leituras \texttt{data}, retornando uma nova lista \texttt{List<Reading>} contendo apenas os dados com os rótulos definidos em \texttt{labels}.
+% 	\item \texttt{getDataFromFile(String path, String separator, boolean hasHeader)} lê os dados de um arquivo localizado no caminho \texttt{path}, cujos dados estão separados pelo separador \texttt{separator} e definidos linha a linha. O parâmetro \texttt{hasHeader} indica se o método deve procurar por uma linha de cabeçalho na primeira linha do arquivo. Retorna uma \texttt{List<Reading>} com os dados.
+% 	\item \label{getdatamethod} \texttt{getDataFromFile(String path, String separator, boolean hasHeader, String... labels)} estende a funcionalidade do método anterior, retornando uma \texttt{List<Reading>} com os dados que possuem os rótulos definidos em \texttt{labels}.
+% 	\item \texttt{getMultipleData(String path, String separator, boolean hasHeader, String... labels)} possui a mesma função que o método~\ref{getdatamethod}, mas, diferente deste, retorna um \texttt{Map<String, List<Reading>>} onde cada chave do mapa é um rótulo e indexa uma lista de eventos identificados pelo rótulo.
+% 	\item \texttt{getBufferedReader(String path)} retorna um \texttt{BufferedReader} para manipular o arquivo cujo caminho é especificado dem \texttt{path}.
+% \end{enumerate}
+% 
+% A classe \texttt{MovementDataFileManager} estende as funcionalidades do \texttt{FileManager}, adicionando um método para leitura de eventos oriundos de jogos. Os eventos marcam o início ou fim de um momento específico do jogo no qual o jogador estará executando um movimento que será enviado para análise.
+% 
+% \subsection{Módulo de Escrita}
+% 
+% O \emph{Módulo de Escrita} é implementado pela classe \texttt{WriterModule}, que é responsável pela saída dos dados processados pelo \emph{Analisador de Dados}. Os dados podem ser estruturados para serem para servirem como entrada para mecanismos de aprendizado de máquina. Os dados são escritos em CSV (\textit{Comma-separated Values}) ou em qualquer outro formato definido pelo usuário do arcabouço. O módulo de escrita também suporta a escrita de arquivos \textit{ARFF}, para serem processados pelo Weka\footnote{Disponível em: http://www.cs.waikato.ac.nz/ml/weka/}. O \emph{Módulo de Escrita} é extensível para permitir a geração de um formato de arquivo específico. A criação de um novo arquivo de dados é feita através da extensão da classe \texttt{WriterImpl} pela classe que se está criando.
+% A interface \texttt{IWriter} define três métodos para manipular arquivos de dados:
+% 
+% \begin{enumerate}
+% 	\item \label{formatlinemethod} \texttt{formatLine(Object... items)} formata os itens \texttt{items} adicionando separadores ou qualquer outra formatação adicional definida na classe específica de escrita que implementa \texttt{IWriter} ou estende \texttt{WriterImpl}.
+% 	\item \texttt{writeLine(Object... items)} escreve uma nova linha no arquivo, seguindo a formatação definida pelo método~\ref{formatlinemethod}.
+% 	\item \texttt{save()} fecha a \textit{stream} de escrita dedicada ao arquivo e salva o arquivo em disco.
+% \end{enumerate}
+% 
+% A classe \texttt{WriterImpl} implementa os métodos comuns a todas as classes de escrita, definidos pela interface \texttt{IWriter}, fornecendo um método adicional para incluir separadores entre os elementos de uma linha. Para definir um comportamento diferente daquele implementado por \texttt{WriterImpl}, deve-se implementar diretamente a interface \texttt{IWriter}.
+% 
+\section{Processador de Dados Biomecânicos}
+Os sinais dos usuários ficam armazenados no servidor. Porém, para transformar os sinais em informação tanto para o profissional de saúde quanto para máquinas de aprendizagem é necessário fazer o processamento desse sinal. Neste trabalho, implementamos o \textit{Processador de Dados Biomecânicos} em MATLAB 2011~\cite{matlab2011} como definido na ~\ref{sec:processador_bio}, o qual consiste de três passos: Identificação dos Ciclos, Extração de Características e Filtragem de Dados.
+
+\subsection{Identificação dos Ciclos de Movimento} 
+A identificação dos ciclos de movimento foi baseada na identificação de picos e vales do sinal motor como explicado na Seção~\ref{section:identificao_ciclos}. 
+
+Para implementar o mecanismo de detecção de ciclos fez-se o uso da biblioteca \textit{Peak Detection in Matlab}~\cite{peakdetect}. Essa biblioteca possui uma função chamada \textit{peakdet()} que recebe como parâmetros um vetor contendo o sinal a ser processado, e um valor de limiar para remoção do ruído do sinal. A função retorna dois vetores onde um possui os valores das máximas (picos) e o outro retorna os valores das mínimas (vales).
+
+Usando a função \textit{peakdet()} criou-se a função \textit{cycleperiodic()} que tem o objetivo de identificar os ciclos periódicos de um sinal. Foram adicionados dois parâmetros a essa função para justamente levar em consideração o mínimo e o máximo a amplitude permitida do sinal.
+
+\begin{lstlisting}[frame=single, caption=Função de Ciclo Periódico]  % Start your code-block
+
+function [cycleIndex]=cycleperiodic(v, delta, maxAmplitude, minAmplitude)
+[peaks, valey] = peakdet(v, delta);
+j = 1;
+for (i=1:(size(valey,1)-1))    
+    initialIndex = valey(i,1);
+    endIndex = valey(i+1,1);
+    amplitude = endIndex - initialIndex;
+    if ((maxAmplitude >= amplitude) & (minAmplitude <= amplitude))
+        cycleIndex(j) = valey(i);
+        j = j +1;
+    end
+end
+\end{lstlisting}
+
+De posse dos ciclos pode ser identificado quando começam e onde terminam os movimentos periódicos (Código Fonte~\ref{lst:identifyCycles}) como por exemplo os movimentos sucessivos de adução e abdução do braço (Seção ~\ref{fig:movabducaoaducao}). 
+
+\begin{lstlisting}[frame=single, caption=Identificar Início e Tamanho do Movimento Periódico, label=lst:identifyCycles]  % Start your code-block
+
+function [WindowBeginLeft, WindowLengthLeft, WindowBeginRight, WindowLengthRight] = identifyCycles(leftWristJoint, rightWristJoint)
+    signalLeft = leftWristJoint(:,3);
+    signalRight = rightWristJoint(:,3);
+
+    cycleIndexLeft = cycleperiodic(signalLeft, 500, 200, 40);
+    cycleIndexRight = cycleperiodic(signalRight, 500, 200, 40);
+
+    WindowBeginLeft = cycleIndexLeft(1);
+    WindowLengthLeft = cycleIndexLeft(size(cycleIndexLeft,2));
+    WindowBeginRight = cycleIndexRight(1);
+    WindowLengthRight = cycleIndexRight(size(cycleIndexRight,2));
+\end{lstlisting}
+
+\subsection{Extração das Características do Movimento}
+Supondo que os ciclos de movimento foram identificados através da posição do punho, é necessário agora extrair as características do movimento. Para isso, o primeiro passo é calcular os ângulos relativos do movimento angular usando os pontos das articulações como pode ser visto no Código Fonte~\ref{lst:calculate_angle}. A função \textit{ArmRelativeAngleTorso()} realiza o cálculo do produto escalar entre as três articulações.
+
+\begin{lstlisting}[frame=single, caption=Calcular ângulos relativos do movimento, label=lst:calculate_angle]
+leftShoulderJoint = leftShoulderJoint(WindowBeginLeft:WindowLengthLeft,:);
+leftWristJoint = leftWristJoint(WindowBeginLeft:WindowLengthLeft,:);  
+leftHipJoint = leftHipJoint(WindowBeginLeft:WindowLengthLeft,:);  
+
+for (j=1:size(leftHipJoint,1))
+leftArmAngle(j,1) = leftHipJoint(j,1);
+        
+
+leftArmAngle(j,2) = ArmRelativeAngleTorso(leftHipJoint,leftShoulderJoint,leftWristJoint, j);    
+end
+\end{lstlisting}
+
+De posse do sinal dos ângulos relativos do movimento, serão extraídos os picos e os vales desse sinal para  extrair a velocidade angular do movimento de abdução e adução do braço (Código Fonte: ~\ref{lst:angular_velocity}).
+    
+\begin{lstlisting}[frame=single, caption=Calcular Velociodade Angular Adução e Abdução, label=lst:angular_velocity]	
+distanceup = cycle(peak) - cycle(1);
+amplitude(identifiedCycles,1) = cycle(peak);
+    
+timestampupsec = (abs(timestampcycle(1) - timestampcycle(peak)))/1000;
+velocityUp(identifiedCycles,1) = distanceup/timestampupsec;
+
+distancedown = abs(cycle(end) - cycle(peak));
+timestampdownsec = (abs(timestampcycle(peak) - timestampcycle(end)))/1000;
+velocityDown(identifiedCycles,1) = distancedown/timestampdownsec;
+\end{lstlisting}	
+		
+\subsection{Filtragem de Dados}
+O filtro de dados tem o objetivo de remover os ciclos de movimento incompletos ou com problemas na aquisição dos dados, como explicado na Seção~\ref{section:filtro_dados}. Nessa etapa os ciclos são: normalizados, escalonados e rótulos do usuário (\textit{labels}). 
+De posse de todos os dados é calculado um vetor médio dos ciclos normalizados para que seja possível definir um limiar (\textit{threshold}) de remoção dos ciclos (Código Fonte:~\ref{code:filtercycles}).
+
+	\begin{lstlisting}[frame=single, caption=Calcular Velociodade Angular Adução e Abdução, label=code:filtercycles]
+function [ KinnectData, processedCycles, labels ] = filterCyclesAndLabels (T, labels, otherFeatures, scaledLength)
+
+    normalization = T;
+    for i=1:size(T,1)
+       normalization(i,1:scaledLength) = T(i,1:scaledLength)./max(T(i,1:scaledLength));
+       normalization(i,scaledLength+1:scaledLength*2) = T(i,scaledLength+1:scaledLength*2)./max(T(i,scaledLength+1:scaledLength*2));
+       normalization(isnan(normalization(i,1:scaledLength*2))) = min(normalization(i,1:scaledLength*2));
+    end
+    
+    normalization(isnan(normalization)) = 0;
+    
+    if(size(T,2) > scaledLength*2) 
+       normalization(:,scaledLength*2 + 1:end) =  T(:,scaledLength*2+1 : end)./max(T(:,scaledLength*2 + 1:end));
+    end
+    
+    threshold = 1;
+    meanOfNormalization = mean(normalization);
+    u = ones(size(normalization,1),1);
+    filterTestVector = sum((normalization - (u*meanOfNormalization)).^2,2);
+    filterVector = filterTestVector<threshold;
+    
+       
+    KinnectData = [T(filterVector,:) otherFeatures(filterVector,:)];
+    processedCycles = T(filterVector,:);
+    labels = labels(filterVector,:);    
+end
+\end{lstlisting}	
+
+
+\section{Classificador de Dados}
+Para avaliar os requisitos de identificação dos sinais motores ([REQ-JOGUE-ME-06]) é necessário um teste com seres humanos para avaliar a aquisição e classificação dos sinais. A abordagem de classificação dos dados é baseada em máquinas de aprendizagem como explicado na Seção~\ref{section:class_dados}. O Código Fonte~\ref{code:classification} demonstra como fazer a classificação dos dados utilizando o \textit{Matlab Statistics Toolbox}~\cite{matlab2011}, o qual possui uma máquina de vetor de suporte disponível em sua biblioteca.
+
+Primeiramente, separa-se o grupo de treinamento para realizar a aprendizagem da máquina utilizando o método \textit{svmtrain()}; depois utiliza-se o método \textit{svmclassify()} para predizer os valores usando a máquina de aprendizagem  e por fim calculam-se as diferenças entre os valores reais e os que foram classificados. Então, é calculada a taxa de erro para poder avaliar o resultado do classificador.
+
+\begin{lstlisting}[frame=single, caption=Uso de Máquina de Vetor de Suporte para Classificação dos Dados, label=code:classification]
+realValues; %Classe Atual
+SVMStruct = svmtrain(trainingData,trainningClassification,'Kernel_Function', 'linear',	'BoxConstraint', 0.10);
+class = svmclassify(SVMStruct, testData, 'showplot',true); %Classe Preditiva
+classificationRate = sum(class~=realValues);
+errorRate = classificationRate/size(classereal,2);
+\end{lstlisting}

@@ -1,0 +1,360 @@
+\chapter{Estudo de Caso} \label{cap:estudo}
+
+Este capítulo apresentada o desenvolvimento de dois estudos de caso para demonstrar o uso do arcabouço para captura de dados de saúde utilizando jogos eletrônicos. Os dois jogos desenvolvidos utilizam as operações de captura de dados oferecidas pelo arcabouço. O capítulo apresenta uma descrição dos dois jogos, os tipos de dados que capturam e a forma como interagem com o arcabouço.
+
+\section{\emph{Pinball World}}
+
+O \emph{Pinball World} é um mini-jogo casual em terceira pessoa onde o jogador deverá controlar uma bola de \textit{pinball} em busca de completar os objetivos do jogo. Os caminhos a serem percorridos durante o jogo apresentam obstáculos, como buracos, paredes e rampas, dos quais o jogador deve desviar a bola, coletando o máximo de estrelas de ouro que encontrar pelo caminho. O jogo se ambienta num cenário de ruínas, ao redor de plantas e uma queda d'água, transmitindo uma sensação de tranquilidade ao jogador. Na Figura~\ref{img:pw1}, ilustram-se capturas de tela do \emph{Pinball World}.
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[scale=.6]{pinball_world.png}
+     \caption{O Jogo \emph{Pinball World}}
+     \label{img:pw1}
+\end{figure}
+
+O jogador deverá mover a bola de \textit{pinball} inclinando o dispositivo para esquerda, direita, frente e trás, controlando-a através dos caminhos e obstáculos, ou deixando-a descer livremente por rampas. A finalidade de controlar a bola apenas inclinando o dispositivo, através de seu acelerômetro, é capturar os níveis de tremor de movimento e repouso do jogador. O tremor de movimento é capturado durante os momentos em que o jogador precisa movimentar o dispositivo para controlar a bola e desviar de obstáculos. Em outro momento, quando o jogador mantém o dispositivo parado e precisa apenas visualizar o trajeto da bola, é possível capturar o tremor de repouso.
+
+\subsection{Desenvolvimento do Jogo}
+
+O \emph{Pinball World} foi desenvolvido para a plataforma Android\footnote{Mais informações em: http://www.android.com} no \emph{Unity}\footnote{Disponível em: http://www.unity3d.com}, uma IDE (\textit{Integrated Development Environment}) e motor de jogos 3D multi-plataforma desenvolvido pela \emph{Unity Technologies}, que permite o desenvolvimento de jogos para \textit{plugins} web, plataformas \textit{desktop}, videogames e dispositivos móveis. A codificação em Unity é feita através de scripts, que podem ser em três linguagens, JavaScript, C\# ou Boo. O uso de scripts dentro do Unity consiste de anexar objetos de script customizados chamados de \emph{comportamentos} aos objetos do jogo. Funções específicas dentro dos objetos de script são chamadas quando ocorrem certos eventos.
+
+As coordenadas do acelerômetro são capturadas a uma taxa de amostragem de 16Hz durante o curso do jogo, que requer conexão com a Internet para que as coordenadas sejam enviadas para o \textit{webservice}. De acordo com a Tabela~\ref{tab:tremors}~\cite{albanese2012}, uma taxa de amostragem de 16Hz é suficiente para capturar os tipos de tremores que ocorrem nas mãos e membros. As ações de capturar as coordenadas e enviá-las para o \textit{webservice} são imperceptíveis para o jogador. No jogo as coordenadas são capturadas no método \texttt{Update}, que é o método que atualiza o desenho dos gráficos. O Código~\ref{updatemethod} mostra o método \texttt{Update}. A variável \texttt{taxaDeColeta} (linha 1) define o tempo em segundos entre cada leitura de dados (um total de 16 por segundo) e \texttt{quantidadeAColetar} (linha 3) define o número de leituras a serem feitas, antes de enviar as leituras para o \emph{webservice}. O método \texttt{coletarLeituras} (linha 16) realiza as leituras de dados, transformando-os em formato JSON, e o método \texttt{enviarLeituras} (linha 19) envia os dados para o \emph{webservice}. O Código~\ref{enviarmedicoesmethod} mostra o método \texttt{enviarLeituras}, que envia uma requisição POST para o \emph{webservice}, através de sua operação \texttt{enviarDados}.
+
+\begin{lstlisting}[caption={O Método \texttt{Update}},label=updatemethod,numbers=left]
+var taxaDeColeta:float = 0.0625;
+var proximaColeta = 0.0;
+var quantidadeAColetar:int = 120;
+
+function Update () {
+   acceleration = Input.acceleration;
+
+   if(Input.GetKeyDown(KeyCode.Escape)){
+      Application.Quit();
+   }
+
+   if(Time.time > proximaColeta){
+      totalColetado++;
+      proximaColeta = Time.time + taxaDeColeta;
+
+      coletarLeituras();
+
+      if(totalColetado >= quantidadeAColetar){
+         enviarLeituras();
+      }
+   }
+}
+\end{lstlisting}
+
+\begin{lstlisting}[caption={O Método \texttt{enviarLeituras}},label=enviarmedicoesmethod,numbers=none]
+function enviarLeituras () {
+   var jsonString:String = "{\"leitura\":["+medicoesStr+"]}";
+   var postUrl = "http://"+Configuracoes.ip+":8080/accelerometer-webservice/enviarDados";
+   var encoding = new System.Text.UTF8Encoding();
+   var postHeader = new Hashtable();
+
+   postHeader.Add("Content-Type", "application/json");
+   postHeader.Add("Content-Length", jsonString.Length);
+
+   var request = WWW(postUrl,encoding.GetBytes(jsonString), postHeader);
+
+   limparLeituras();
+
+   yield request;
+
+   if (request.error != null) {
+      Debug.Log("request error: " + request.error);
+   } else {
+      Debug.Log("request success");
+   }
+}
+\end{lstlisting}
+
+Na Figura~\ref{img:acc}, ilustram-se os dados do acelerômetro capturados durante uma sessão do jogo \emph{Pinball World}. O sinal do eixo z foi filtrado usando um filtro passa alta com frequência de corte de 1 Hz.
+
+\begin{table} 
+\centering 
+\caption{Tipos de tremor, diferenciados pela frequência, amplitude e início em relação a movimentos voluntários}
+\begin{center}
+    \begin{tabular}{ | l | p{2.5cm} | p{2.5cm} | p{2.5cm} | p{3.5cm} | }
+        \hline
+        Frequência & Tipo de tremor & Amplitude & Lado predominante & Relação com movimento voluntário \\ \hline
+        1-4 Hz & Cerebelar & Média-Alta & Membros & Postural, ação \\ \hline
+        3-5 Hz & Específico de tarefa & Baixa-Média & Mão & Escrita, segurar talheres, tocar instrumentos \\ \hline
+        4-5 Hz & Parkinsoniano & Média-Alta & Membros, mandíbula & Repouso \\ \hline
+        5-8 Hz & Essencial & Média-Alta & Membros, cabeça, voz & Postural \\ \hline
+        8-12 Hz & Fisiológico & Média & Membros & Postural \\ \hline
+        14-16 Hz & Ortostático & Baixa-Média & Pernas, tronco & Ficar de pé \\ \hline
+    \end{tabular}
+\end{center}
+\label{tab:tremors}
+\end{table}
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=.8\textwidth]{accelerometer_game.png}
+     \caption{Plotagem das coordenadas da mão esquerda}
+     \label{img:acc}
+\end{figure}
+
+\section{\emph{Catch the Spheres}}
+
+O \emph{Catch the Spheres} é um mini-jogo em terceira pessoa no qual o jogador, através de seu personagem, deve capturar ou desviar de bolas que vêm em sua direção. Existem dois tipos de bolas: azuis e vermelhas. Inicialmente, todas as bolas são vermelhas e algumas destas mudam para a cor azul ao se aproximarem do jogador. O tempo para a bola mudar de cor pode ser menor ou maior, a depender do nível de dificuldade selecionado. Um personagem no centro do cenário replica todos os movimentos executados pelo jogador e capturados através do Kinect. Deve-se tocar as bolas azuis com os pés ou as mãos e desviar das bolas vermelhas. Na Figura~\ref{img:catch}, ilustra-se uma captura de tela do jogo \emph{Catch the Spheres}.
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=.8\textwidth]{catch-the-spheres.jpg}
+     \caption{O jogo \emph{Catch the Spheres}}
+     \label{img:catch}
+\end{figure}
+
+A finalidade do jogo é capturar dados do movimento do jogador enquanto ele executa as ações específicas do jogo. O intervalo de tempo entre o momento em que a bola muda de cor e o momento em que a bola é capturada pelo jogador mede o reflexo do jogador, enquanto que a velocidade dos seus membros é calculada através da distância percorrida pelas mãos ou pés para capturar as bolas.
+
+\subsection{Desenvolvimento do Jogo}
+
+O \emph{Catch the Spheres} foi desenvolvido para Windows, também no \textit{Unity}. Uma vez que não existe suporte nativo ao Kinect no \textit{Unity}, a integração entre o Kinect e o \textit{Unity} é feita através do plugin \textit{ZigFu}\footnote{Disponível em: http://zigfu.com}.
+
+Para \emph{Catch the Spheres}, a linguagem de script utilizada foi JavaScript. A base de captura de dados do jogo é a classe \texttt{ZigSkeletonHealth}, cuja classe base é a \texttt{ZigSkeleton}, que define o comportamento do personagem no jogo, repetindo os movimentos do jogador de acordo com as posições das partes do corpo obtidas do Kinect. A classe \texttt{ZigSkeletonHealth} coleta as posições do jogador em tempo real através do método \texttt{UpdatePosition}, mostrado no Código~\ref{updatepositionmethod}. O método \texttt{UpdatePosition} é chamado sempre que uma nova posição é recebida do Kinect. A classe \texttt{ZigSkeletonHealth} intercepta a atualização das posições, primeiro gravando-as em um registro (linhas 2-6), depois enviando-as para \texttt{ZigSkeleton}, responsável por atualizar as posições do personagem dentro do jogo (linha 7).
+
+\begin{lstlisting}[caption={O Método \texttt{UpdatePosition}},label=updatepositionmethod,numbers=left]
+public override void UpdatePosition(ZigJointId joint, Vector3 position){
+   if (logging) {
+      healthGameLog.SendMessage("NewLineHealth", SendMessageOptions.DontRequireReceiver);
+      healthGameLog.SendMessage("UpdateMessageHealth",joint.ToString(), SendMessageOptions.DontRequireReceiver);
+      healthGameLog.SendMessage("UpdatePositionHealth",position, SendMessageOptions.DontRequireReceiver);
+   }
+   base.UpdatePosition(joint, position);
+}
+\end{lstlisting}
+
+As coordenadas de posição 3D capturadas pelo Kinect são armazenadas em arquivo para serem enviadas posteriormente para o \textit{webservice}.
+São coletadas as posições 3D da cabeça, pescoço, tronco, cintura, ombros, cotovelos, mãos, joelhos, quadris, tornozelo e pés. Além das posições, o jogo mantém registro dos eventos do jogo, tais como: o momento em que a bola muda de cor, o momento em que acerta o jogador, o momento em que é capturada e qual membro tocou a bola, e o momento em que a bola é perdida pelo jogador.
+
+Os eventos do jogo são registrados pelo \textit{scriptEsfera.js}. Este script está acoplado ao objeto da esfera e controla todos os comportamentos relacionados a ela. No Código~\ref{mudardecormethod}, é mostrado o método responsável por mudar a cor da esfera e gravar o evento de mudança de cor no registro. Esse evento de mudança de cor, junto com os outros eventos relacionados à esfera, são capturados pelo \textit{scriptEsfera.js}.
+
+\begin{lstlisting}[caption={O Método \texttt{mudarDeCor}},label=mudardecormethod,numbers=none]
+function mudarDeCor(){
+	renderer.material.color = Color.blue;
+	healthGameLog.SendMessage("NewLineGame", SendMessageOptions.DontRequireReceiver);
+	healthGameLog.SendMessage("NewMessageGame", "BALL-CHANGED-COLOR", SendMessageOptions.DontRequireReceiver);
+	mudouDeCor = true;
+}
+\end{lstlisting}
+
+O Código~\ref{eventos} mostra um trecho do registro de eventos que acontecem durante uma partida do jogo. \emph{BALL-THROW} indica a instanciação de uma bola; \emph{BALL INITIAL POSITION} registra a posição inicial da bola; \emph{BALL-CHANGED-COLOR} registra o momento em que a bola muda de cor; \emph{BALL-LOST} registra que o jogador não capturou a bola; \emph{BALL-TOUCHED-POSITION} indica o momento em que a bola muda de cor e qual parte do corpo a tocou. No Código~\ref{posicoes}, é mostrado um trecho do registro de posições de cada parte do corpo durante uma partida do jogo. Cada linha mostra a data e hora, parte do corpo e as coordenadas x, y e z de sua posição. Essas informações são essenciais para que o \emph{Módulo de Análise de Movimento} possa calcular os dados baseado nos eventos e posições do jogador.
+
+\begin{lstlisting}[caption={Registro de eventos do jogo},label=eventos,numbers=none]
+25/01/2013 14:46:02.039;BALL-THROW;
+25/01/2013 14:46:02.039;BALL INITIAL POSITION;(0.7, 0.8, 15.0);
+25/01/2013 14:46:04.429;BALL-LOST;
+25/01/2013 14:46:06.042;BALL-THROW;
+25/01/2013 14:46:06.042;BALL INITIAL POSITION;(0.7, -0.1, 15.0);
+25/01/2013 14:46:08.096;BALL-CHANGED-COLOR;
+25/01/2013 14:46:09.892;BALL-TOUCHED-POSITION;(-1.1, -0.3, 0.1);LeftFoot;
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Registro de posições do jogador durante jogo},label=posicoes,numbers=none]
+25/01/2013 14:45:50.043;Head;-272.6079;882.585;-2700.646
+25/01/2013 14:45:50.046;Neck;-271.4839;703.1649;-2718.727
+25/01/2013 14:45:50.047;Torso;-240.7533;353.3502;-2744.491
+25/01/2013 14:45:50.047;Waist;-234.5915;286.2368;-2706.167
+25/01/2013 14:45:50.047;LeftShoulder;-465.3047;635.5613;-2740.658
+25/01/2013 14:45:50.047;LeftElbow;-706.9146;748.0466;-2709.664
+25/01/2013 14:45:50.048;LeftWrist;-974.8713;893.9808;-2650.611
+25/01/2013 14:45:50.048;LeftHand;-1043.088;943.8502;-2600.744
+25/01/2013 14:45:50.048;RightShoulder;-97.64243;602.8177;-2742.309
+25/01/2013 14:45:50.049;RightElbow;27.13427;350.8448;-2744.681
+25/01/2013 14:45:50.049;RightWrist;105.6349;94.18786;-2619.21
+25/01/2013 14:45:50.049;RightHand;117.9995;8.172159;-2596.19
+25/01/2013 14:45:50.050;LeftHip;-307.1635;199.0239;-2694.262
+25/01/2013 14:45:50.050;LeftKnee;-302.8908;-343.2552;-2741.012
+25/01/2013 14:45:50.050;LeftAnkle;-286.5235;-734.1376;-2757.292
+25/01/2013 14:45:50.050;LeftFoot;-340.947;-798.0139;-2696.392
+25/01/2013 14:45:50.051;RightHip;-149.0519;206.6668;-2707.094
+25/01/2013 14:45:50.051;RightKnee;-13.03214;-357.2705;-2691.866
+25/01/2013 14:45:50.051;RightAnkle;57.49874;-736.5664;-2653.726
+25/01/2013 14:45:50.051;RightFoot;83.5181;-798.9075;-2605.077
+\end{lstlisting}
+
+\section{Avaliação Experimental}
+
+Dezoito pessoas do Laboratório Embedded da Universidade Federal de Campina Grande e do Instituto Federal de Alagoas foram selecionadas para jogar o \emph{Pinball World} e o \emph{Catch the Spheres}, para testar e responder um questionário para avaliar o grau de diversão dos jogos, sua facilidade de entendimento e possibilidade de inserção de monitoramento através de jogos na rotina das pessoas. Buscou-se também validar o funcionamento do arcabouço, avaliando a possibilidade de capturar corretamente os dados de saúde. O seguinte procedimento foi utilizado para executar as sessões de teste:
+
+\begin{enumerate}
+	\item O usuário joga o \emph{Catch the Spheres} por, aproximadamente, 1 minuto e 30 segundos em ritmo normal.
+	\item Pede-se ao usuário para jogar novamente, simulando movimentos lentos, por mais 1 minuto e 30 segundos.
+	\item O usuário joga o \emph{Pinball World} por, aproximadamente, 1 minuto e 30 segundos.
+	\item Ao final, o usuário é informado do propósito dos jogos e responde o questionário.
+\end{enumerate}
+
+Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM). GQM é uma abordagem hierárquica que inicia com objetivo principal e o divide em atividades que podem ser mensuradas durante a execução do projeto. É uma abordagem para integrar objetivos a modelos de processos de software, produtos e perspectivas de qualidade de interesse, baseado nas necessidades do projeto e da organização~\cite{van1999goal}. Foi preparado o questionário GQM mostrado na Tabela~\ref{tab:gqm} para avaliar a possibilidade de monitorar dados motores de forma não invasiva na rotina diária das pessoas.
+
+\begin{center}
+\begin{longtable}{|p{\textwidth}|}
+\caption{O Questionário GQM}\\
+\hline
+\endfirsthead
+\multicolumn{1}{c}%
+{\tablename\ \thetable\ -- \textit{Continuação da página anterior}} \\
+\hline
+\endhead
+\hline \multicolumn{1}{r}{\textit{Continua na próxima página}} \\
+\endfoot
+\hline
+\endlastfoot
+\textbf{\textit{Objetivo principal}}: Avaliar a possibilidade de monitorar dados motores de forma não invasiva na rotina diária das pessoas. \\ \hline
+\textbf{\textit{Objetivo 1}}: Avaliar o nível de diversão proporcionado pelo jogo do ponto de vista do jogador. \\ \hline
+\textit{Questão 1.1}: O usuário considera o jogo divertido? \\ \hline
+\textit{Métrica 1.1.1}: Nota em uma escala de 1 a 5 qual para quantificar o grau de diversão do jogo. \\ \hline
+\textit{Métrica 1.1.2}: O jogador sente-se imerso no jogo com a abordagem de captura dos movimentos? (Sim/ Não) \\ \hline
+\textit{Questão 1.2}: O jogador agregaria esse tipo de jogo em sua rotina diária? (Sim/ Não) \\ \hline
+\textit{Métrica 1.2.1}: Se o usuário tivesse adquirido esse jogo, com que frequencia o utilizaria durante a semana? (1 vez/3 vezes/Todos os dias/Nunca usaria) \\ \hline
+\textit{Questão 1.3}: O jogo é casual? \\ \hline
+\textit{Métrica 1.3.1}: O jogador considera o jogo simples, sem muitas regras, de fácil entendimento e para diferentes idades? (Sim/ Não) \\ \hline
+\textit{Métrica 1.3.2}: O jogador se sentiria motivado a jogar esse jogo? (Sim/Não) \\ \hline
+\textit{Questão 1.4}: O usuário costuma jogar jogos desse estilo normalmente? \\ \hline
+\textit{Métrica 1.4.1}: O jogador tem o costume de jogar esses jogos casuais em casa, durante uma viagem? (Sim/ Não) \\ \hline
+\textit{Questão 1.5}: O usuário acha que o monitoramento de saúde através de um jogo é invasivo? \\ \hline
+\textit{Métrica 1.4.1}: Sendo os dados acessíveis somente sob sob permissão, o usuário acha que o monitoramento de saúde através de jogos é invasivo? (Sim/ Não) \\ \hline
+\textbf{\textit{Objetivo 2}}: Avaliar os requisitos não-funcionais do jogo do ponto de vista do jogador. \\ \hline
+\textit{Questão 2.1}: Qual a opinião do jogador sobre o jogo? \\ \hline
+\textit{Métrica 2.1.1}: Nota de 1 a 5 para avaliar usabilidade. \\ \hline
+\textit{Questão 2.2}: Qual a opinião do jogador sobre a jogabilidade do jogo? \\ \hline
+\textit{Métrica 2.2.1}: Nota de 1 a 5 para avaliar jogabilidade. \\ \hline
+\textit{Questão 2.3}: Esse jogo seria adequado para uma criança/adulto/idoso? \\ \hline
+\textit{Métrica 2.3.1}: Uma criança/adulto/idoso estaria segura jogando esse jogo, ao efetuar os movimentos dos braços e das pernas? (Sim/Não) \\ \hline
+\textit{Métrica 2.3.2}: Qual a sua opinião do jogador sobre a faixa etária do jogo? (Livre/Crianças/Adultos/Idosos)
+\label{tab:gqm}
+\end{longtable}
+\end{center}
+
+Tendo em vista o objetivo principal definido no questionário GQM acima, o questionário a seguir foi aplicado a 18 pessoas, na faixa de 19 a 27 anos, perguntando-as sobre sua opinião em relação ao jogo. A preocupação principal foi avaliar o grau de entretenimento dos jogadores, a possibilidade de integrar jogos para monitoramento na rotina dos jogadores, motivação para jogar, segurança e opinião do jogador em relação ao monitoramento da saúde.
+
+\begin{enumerate}
+  \item Numa escala de 1 a 5 qual o grau de diversão do jogo?
+  \item Você agregaria um jogo desse estilo em sua rotina diária? (Sim/Não)
+  \item Se você tivesse adquirido esse jogo, com que frequência você o utilizaria durante a semana? (1 vez/3 vezes/Todo dia/Nunca)
+  \item Você considera o jogo simples, sem muitas regras, de fácil entedimento e para diferentes idade? (Sim/Não)
+  \item Você sentiria motivado a jogar esse jogo? (Sim/Não)
+  \item Você tem o costume de jogar esses jogos casuais? (Sim/Não)
+  \item Uma criança estaria segura jogando esse jogo, ao efetuar os movimentos dos braços e das pernas (Sim/Não)
+  \item Um adulto estaria seguro ao jogar esse jogo, ao efetuar os movimentos dos braços e das pernas (Sim/Não)
+  \item Um idoso estaria seguro ao jogar esse jogo, ao efetuar os movimentos dos braços e das pernas (Sim/Não)
+  \item A qual faixa etária você acha o jogo é direcionado? (Livre/Crianças/Adultos/Idosos)
+\end{enumerate}
+
+Os resultados do questionário são apresentados na Figura~\ref{result}. O resultado foi positivo, considerando as respostas relativas à aceitação dos jogos pelas pessoas. Com as respostas positivas obtidas foram atingidos os dois objetivos definidos no questionário GQM:
+
+\begin{description}
+	\item[Objetivo 1] Avaliar o nível de diversão proporcionado pelo jogo do ponto de vista do jogador.
+	\item[Objetivo 2] Avaliar os requisitos não-funcionais do jogo do ponto de vista do jogador.
+\end{description}
+
+O Objetivo 1 pode ser considerado alcançado, devido às respostas alcançadas com as perguntas 1, 2, 3 e 5 do questionário. Das 18 pessoas, 61\% (11 pessoas) acharam os jogos divertidos, atribuindo a eles uma nota 4 (de 1 a 5), 67\% (12 pessoas) agregariam jogos casuais à sua rotina diária, 61\% (11 pessoas) os jogariam 3 vezes por semana e 94\% (17 pessoas) sentir-se-iam motivadas a jogar os jogos. Através dessas respostas, é possível concluir que jogos casuais no estilo dos apresentados nesse estudo poderiam proporcionar diversão aos jogadores, enquanto realizam o monitoramento em sua rotina diária.
+
+Quanto ao Objetivo 2, a resposta dos jogadores indica que os jogos possuem características como facilidade de entendimento e segurança, apesar de requererem que o usuário jogue movimentando-se. Todos os jogadores consideraram o jogo de fácil entendimento e que é seguro para crianças e adultos. Entretanto, 72\% (13 pessoas) acha que os jogos não seriam seguros para idosos. Um total de 80\% acha que monitorar a saúde através de jogos não é um procedimento invasivo. A aceitação dos usuários e opinião quanto à facilidade de uso tornam possível concluir que o monitoramento através de jogos poderia ser realizado sem maiores problemas, capturando corretamente os dados de saúde dos jogadores.
+
+Apesar de o questionário ter avaliado a opinião dos jogadores quanto aos dois jogos apresentados, é possível generalizar e dizer que essas opiniões são válidas para outros jogos no mesmo estilo, desde que possuam um enredo atrativo. Um projeto de jogo melhor elaborado poderia ter obtido uma aceitação ainda mais positiva.
+
+\begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_1.png}
+                \caption{Pergunta 1 (1: 0\%; 2: 6\%; 3: 28\%; 4: 61\%; 5: 6\%)}
+                \label{fig:question1}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_2.png}
+                \caption{Pergunta 2 (Sim: 67\%; Não: 33\%)}
+                \label{fig:question2}
+        \end{subfigure}
+        ~
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_3.png}
+                \caption{Pergunta 3 (1 vez: 28\%; 3 vezes: 61\%; Todos os dias: 11\%; Nunca: 0\%)}
+                \label{fig:question3}
+        \end{subfigure}
+
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_4.png}
+                \caption{Pergunta 4 (Sim: 100\%)}
+                \label{fig:question4}
+        \end{subfigure}
+        ~
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_5.png}
+                \caption{Pergunta 5 (Sim: 94\%; Não: 6\%)}
+                \label{fig:question5}
+        \end{subfigure}
+        ~
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_6.png}
+                \caption{Pergunta 6 (Sim: 44\%; Não: 56\%)}
+                \label{fig:question6}
+        \end{subfigure}
+
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_7.png}
+                \caption{Pergunta 7 (Sim: 100\%)}
+                \label{fig:question7}
+        \end{subfigure}
+        ~
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_8.png}
+                \caption{Pergunta 8 (Sim: 100\%)}
+                \label{fig:question8}
+        \end{subfigure}
+        ~
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_9.png}
+                \caption{Pergunta 9 (Sim: 72\%; Não: 28\%)}
+                \label{fig:question9}
+        \end{subfigure}
+
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_10.png}
+                \caption{Pergunta 10 (Livre: 80\%; Crianças: 10\%; Adultos: 10\%; Idosos: 0\%)}
+                \label{fig:question10}
+        \end{subfigure}
+        ~
+        \begin{subfigure}[b]{0.3\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{chart_11.png}
+                \caption{Pergunta 11 (Sim: 17\%; Não: 83\%)}
+                \label{fig:question11}
+        \end{subfigure}
+        \caption{Respostas do questionário}\label{result}
+\end{figure}
+
+Ao analisar o movimento normal e o movimento lento de todos os usuários durante o jogo \emph{Catch the Spheres}, foi possível constatar a redução ou, no mínimo, uma alteração na velocidade de movimento. Após remover as amostras de dados inválidas (por exemplo, aquelas em que o jogador já estava com o membro na posição exata de capturar a bola), foi calculada a média (VM) e desvio padrão (DP) da velocidade dos membros dos jogadores, mostrados na Tabela~\ref{tab:vel}.
+
+\begin{table} 
+\centering 
+\caption{Variação de Velocidade em Duas Sessões do Jogo \emph{Catch the Spheres}}
+\begin{center}
+    \begin{tabular}{ | c | c | c | c | c | c | }
+        \hline
+        VM (Movimento rápido) & DP & VM (Movimento lento) & DP & Variação Média & DP \\ \hline
+        35,32cm/s & 6,34 & 21,83cm/s & 7,42 & 13,49cm/s & 1,6 \\ \hline	
+    \end{tabular}
+\end{center}
+\label{tab:vel}
+\end{table}
+
+Também, com a análise dos dados coletados durante as sessões do \emph{Pinball World}, foi possível verificar que nenhum dos usuários possui amplitude de tremor significativa. A média das frequências de tremor é de 2,85Hz, com magnitude média de 3,15. Os desvios padrão para a magnitude e frequência, respectivamente, são: 1,24 e 1,7, indicando que a média da magnitude e frequência de tremor dos jogadores é bastante próxima.
+
+\section{Conclusão}
+
+Este capítulo mostrou como exemplos de jogos simples podem explorar superficialmente o potencial do arcabouço. Jogos mais complexos podem contemplar ações para prover um suporte mais completo ao monitoramento da saúde. Um projeto de jogo mais elaborado, aliado a uma melhor apresentação gráfica, entre outros itens de projetos de jogos que mantém a atenção do jogador, podem criar uma experiência de monitoramento contínua e prolongada.

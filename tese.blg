@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tese.aux
+The style file: babplain.bst
+White space in argument---line 576 of file tese.aux
+ : \citation{synnott_wiipd_
+ :                          2012,lemoyne2010}
+I'm skipping whatever remains of this command
+Database file #1: biblmmcor.bib
+Warning--entry type for "zigfu" isn't style-file defined
+--line 418 of file biblmmcor.bib
+Warning--entry type for "kinnect2013" isn't style-file defined
+--line 563 of file biblmmcor.bib
+Warning--I didn't find a database entry for "basili94"
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+while executing---line 1325 of file babplain.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty language in aarhus_negotiating_2010
+Warning--can't use both author and editor fields in statisticshandbook2009
+Warning--empty publisher in statisticshandbook2009
+Warning--can't use both author and editor fields in statisticterms2006
+Warning--can't use both author and editor fields in hamill1999bases
+Warning--empty publisher in hamill1999bases
+Warning--can't use both author and editor fields in national2006parkinson
+Warning--empty publisher in national2006parkinson
+Warning--can't use both author and editor fields in limongi2002
+Warning--empty publisher in limongi2002
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+while executing---line 1380 of file babplain.bst
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+while executing---line 1380 of file babplain.bst
+You've used 80 entries,
+            2788 wiz_defined-function locations,
+            988 strings with 19904 characters,
+and the built_in function-call counts, 28498 in all, are:
+= -- 2278
+> -- 1324
+< -- 0
++ -- 533
+- -- 444
+* -- 3076
+:= -- 4222
+add.period$ -- 181
+call.type$ -- 80
+change.case$ -- 449
+chr.to.int$ -- 0
+cite$ -- 90
+duplicate$ -- 1580
+empty$ -- 2691
+format.name$ -- 862
+if$ -- 5810
+int.to.chr$ -- 0
+int.to.str$ -- 80
+missing$ -- 114
+newline$ -- 339
+num.names$ -- 160
+pop$ -- 787
+preamble$ -- 1
+purify$ -- 382
+quote$ -- 0
+skip$ -- 678
+stack$ -- 0
+substring$ -- 409
+swap$ -- 635
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 284
+warning$ -- 10
+while$ -- 160
+width$ -- 82
+write$ -- 757
+(There were 4 error messages)
