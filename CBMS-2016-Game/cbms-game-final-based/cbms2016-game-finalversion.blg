@@ -1,0 +1,108 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: cbms2016-game-finalversion.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: sigproc2.bib
+I was expecting a `,' or a `}'---line 30 of file sigproc2.bib
+ : 
+ : @Book{national2006parkinson,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 89 of file sigproc2.bib
+ : 
+ : @Article{alemdar2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #2: IEEEFormat.bib
+Repeated entry---line 315 of file IEEEFormat.bib
+ : @article{alemdar2015
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 337 of file IEEEFormat.bib
+ : @incollection{gqmhci2009
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 415 of file IEEEFormat.bib
+ : @article{practical_guide_re2012
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 586 of file IEEEFormat.bib
+ : @inproceedings{atkinson2010
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1026 of file IEEEFormat.bib
+ : @inproceedings{brox11
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2126 of file IEEEFormat.bib
+ : @book{national2006parkinson
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2936 of file IEEEFormat.bib
+ : @book{mcginnis2013biomechanics
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4389 of file IEEEFormat.bib
+ : @article{synnott_wiipd_2012
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4524 of file IEEEFormat.bib
+ : @inproceedings{Uzor:2014:ILU:2611247.2557160
+ :                                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4832 of file IEEEFormat.bib
+ : @article{ambulatory2010
+ :                        ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 15 entries,
+            4039 wiz_defined-function locations,
+            888 strings with 10449 characters,
+and the built_in function-call counts, 7750 in all, are:
+= -- 537
+> -- 227
+< -- 14
++ -- 104
+- -- 52
+* -- 373
+:= -- 1244
+add.period$ -- 30
+call.type$ -- 15
+change.case$ -- 14
+chr.to.int$ -- 18
+cite$ -- 15
+duplicate$ -- 647
+empty$ -- 805
+format.name$ -- 65
+if$ -- 1754
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 136
+newline$ -- 68
+num.names$ -- 15
+pop$ -- 374
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 607
+stack$ -- 0
+substring$ -- 29
+swap$ -- 379
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 15
+warning$ -- 0
+while$ -- 17
+width$ -- 17
+write$ -- 148
+(There were 12 error messages)
