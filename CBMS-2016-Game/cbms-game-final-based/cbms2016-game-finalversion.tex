@@ -30,23 +30,6 @@
 \title{A Game-Based Approach to Monitor Parkinson's Disease: The bradykinesia symptom classification}
 
 
-% author names and affiliations
-% use a multiple column layout for up to two different
-% affiliations
-
-% \author{\IEEEauthorblockN{Authors Name/s per 1st Affiliation (Author)}
-% \IEEEauthorblockA{line 1 (of Affiliation): dept. name of organization\\
-% line 2: name of organization, acronyms acceptable\\
-% line 3: City, Country\\
-% line 4: Email: name@xyz.com}
-% \and
-% \IEEEauthorblockN{Authors Name/s per 2nd Affiliation (Author)}
-% \IEEEauthorblockA{line 1 (of Affiliation): dept. name of organization\\
-% line 2: name of organization, acronyms acceptable\\
-% line 3: City, Country\\
-% line 4: Email: name@xyz.com}
-% }
-
 \author{\IEEEauthorblockN{Leonardo Medeiros\IEEEauthorrefmark{1}\IEEEauthorrefmark{2},
 Hyggo Almeida\IEEEauthorrefmark{1},
 Leandro Dias\IEEEauthorrefmark{3}, 
@@ -57,43 +40,11 @@ Robert Fischer\IEEEauthorrefmark{2}}
 \IEEEauthorblockA{\IEEEauthorrefmark{3} Federal University of Alagoas, Maceio, Brazil}
 }
 
-% conference papers do not typically use \thanks and this command
-% is locked out in conference mode. If really needed, such as for
-% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
-% after \documentclass
-
-% for over three affiliations, or if they all won't fit within the width
-% of the page, use this alternative format:
-% 
-%\author{\IEEEauthorblockN{Michael Shell\IEEEauthorrefmark{1},
-%Homer Simpson\IEEEauthorrefmark{2},
-%James Kirk\IEEEauthorrefmark{3}, 
-%Montgomery Scott\IEEEauthorrefmark{3} and
-%Eldon Tyrell\IEEEauthorrefmark{4}}
-%\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
-%Georgia Institute of Technology,
-%Atlanta, Georgia 30332--0250\\ Email: see http://www.michaelshell.org/contact.html}
-%\IEEEauthorblockA{\IEEEauthorrefmark{2}Twentieth Century Fox, Springfield, USA\\
-%Email: homer@thesimpsons.com}
-%\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
-%Telephone: (800) 555--1212, Fax: (888) 555--1212}
-%\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
-
-
-
-
-% use for special paper notices
-%\IEEEspecialpapernotice{(Invited Paper)}
-
-
-
-
-% make the title area
 \maketitle
 
 
 \begin{abstract}
-Parkinson's disease (PD) is a degenerative neurological disorder. It causes motor symptoms such as resting tremor, bradykinesia and gait disorders. The disease's progressive nature requires continuous monitoring of the motor symptoms to assist the neurologist in managing medication. With this purpose, Health Monitoring Systems (HMS) are used as a decentralized healthcare approach. On the other hand, most patients reject the current HMS solutions because they are invasive and stigmatizing. In this work, we present a non-invasive HMS for PD motor symptoms based on games. Because of the nature of games, the approach is able to collect data from patients without reminding them that they are under a disease's treatment. We validated our approach with 30 research subjects divided between PD group and Control group. We used Support Vector Machine (SVM) to identify the occurrence of PD's bradykinesia motor symptoms and reached a classification \textit{precision} of 92.31\%. Furthermore, 90\% of the patients approved our HMS considering it as non-invasive and easily integrated into their routine.
+Parkinson's disease (PD) is a degenerative neurological disorder. It causes motor symptoms such as resting tremor, bradykinesia and gait disorders. The disease's progressive nature requires continuous monitoring of the motor symptoms to assist the neurologist in managing medication. With this purpose, Health Monitoring Systems (HMS) are used as a decentralized healthcare approach. On the other hand, most patients reject the current HMS solutions because they are invasive and stigmatizing. In this work, we present a non-invasive HMS for PD motor symptoms based on games. Because of the nature of games, the approach is able to collect data from patients without reminding them that they are under a disease's treatment. We validated our approach with 30 research subjects divided between PD group and Control group. We used Support Vector Machine (SVM) to identify the occurrence of PD's bradykinesia motor symptoms and reached a classification \textit{precision} of 92.31\%. Furthermore, 90,00\% of the patients approved our HMS considering it as non-invasive and easily integrated into their routine.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -242,7 +193,7 @@ The data collection was performed over a period of 2 months, on different days, 
 \subsection{SVM Classifier Performance}
 \label{classifier_performance}
 
-The SVM is a supervised learning algorithm that creates learning functions from a set of labeled training data. We selected this approach because it requires a relatively small number of samples for training \cite{kantardzic2011data}. %This algorithm has a good generalization to discriminate between two classes represented as $n$-dimensional vectors with a discriminant function resulting in a binary output.
+The SVM is a supervised learning algorithm that creates learning functions from a set of labeled training data. We selected this approach because it requires a relatively small number of samples for training \cite{kantardzic2011data}. This algorithm has a good generalization to discriminate between two classes represented as $n$-dimensional vectors with a discriminant function resulting in a binary output.
 
 In this work, we applied the grid search technique \cite{kantardzic2011data} to identify the best SVM parameters, using Leave-One-Out Cross-Validation (LOOCV). This technique assesses the accuracy of the predicted model, prevents the over fitting problem in the binary classification and is a practical method to identify the SVM parameters. In this study, to reduce the error rate, we applied a mini max approach to maximize the margin over the hyper plane coefficients and the correct classification.
 
@@ -263,7 +214,7 @@ The best classification performance of this study is presented in the confusion 
 \end{table}
 
 
-We assessed bradykinesia by measuring the amplitude and angular velocities in the adduction and abduction movements of the subjects. Therefore, the amplitude and angular velocities were the feature vectors for data classification~\cite{kantardzic2011data}. In Table~\ref{table:amplitude}, we show the severity of motor disorder caused by bradykinesia, in which PD's patients present lower amplitudes. Notice that subject Control 10 presents amplitude values similar to the PD's patients. In this case, we checked that this subject has an uninformed motor disorder that caused the incorrect classification. Furthermore, some PD's patients, namely Parkinson 3,8 and 12, did not present the bradykinesia symptom. In this case, we assumed that these subjects did not have the symptom or it was successfully suppressed by medication. So, according the subject's data we consider the classification had a successful result in the attempt to distinguish the subject groups using the amplitude and angular velocities of the adduction/abduction movements.
+We assessed bradykinesia by measuring the amplitude and angular velocities in the adduction and abduction movements of the subjects. Therefore, the amplitude and angular velocities were the feature vectors for data classification~\cite{kantardzic2011data}. In Table~\ref{table:amplitude}, we show the severity of motor disorder caused by bradykinesia, in which PD's patients present lower amplitudes. Notice that subject Control 10 presents amplitude values similar to the PD's patients. In this case, we checked that this subject has an uninformed motor disorder that caused the incorrect classification. Furthermore, some PD's patients, namely Parkinson 3,8 and 12, did not present the bradykinesia symptom. In this case, we assumed that these subjects did not have the symptom or it was successfully suppressed by medication. 
 
 \begin{table}[!h]
 \centering
