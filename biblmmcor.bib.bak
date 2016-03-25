@@ -237,18 +237,6 @@
   year = {2005}
 }
 
-@INPROCEEDINGS{sacbespoke2014,
-  author = {Graziadio, S. and Davison, R. and Shalabi, K. and Sahota, K. M. A.
-	and Ushaw, G. and Morgan, G. and Eyre, J. A.},
-  title = {Bespoke Video Games to Provide Early Response Markers to Identify
-	the Optimal Strategies for Maximizing Rehabilitation},
-  booktitle = {Proceedings of the 29th Annual ACM Symposium on Applied Computing},
-  year = {2014},
-  series = {SAC '14},
-  owner = {leonardo},
-  timestamp = {2015.10.03}
-}
-
 @ARTICLE{stacey2011,
   author = {Guy, Stacey and Ratzki-Leewing, Alexandria and Gwadry-Sridhar, Femida},
   title = {Moving Beyond the Stigma: Systematic Review of Video Games and Their
