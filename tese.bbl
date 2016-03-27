@@ -83,6 +83,13 @@
   about the u.s. computer and video game industry}{Essential Facts about the
   U.S. Computer and Video Game Industry}}, 2011.
 
+\bibitem {esa2015}
+\btxnamefont {\btxlastnamefont {Association}, Entertainment\btxfnamespacelong
+  Software}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Essential facts
+  about the u.s. computer and video game industry: Sales, demophahy and usage
+  data}{Essential Facts about the U.S. Computer and Video Game Industry: Sales,
+  Demophahy and Usage Data}}, 2015.
+
 \bibitem {bachlin_parkinsons_2009}
 \btxnamefont {\btxlastnamefont {Bachlin}, M.}, \btxnamefont {M.
   \btxlastnamefont {Plotnik}}, \btxnamefont {D. \btxlastnamefont {Roggen}},
@@ -450,20 +457,6 @@
 \newblock \textit{Software}, {D}isponÃ­vel em: http://mathworks.com/.
 \newblock Ãšltimo acesso: 23 de Novembro de 2015.
 
-\bibitem {mazilu2015}
-\btxnamefont {\btxlastnamefont {Mazilu}, Sinziana}, \btxnamefont {Ulf
-  \btxlastnamefont {Blanke}}, \btxnamefont {Moran \btxlastnamefont {Dorfman}},
-  \btxnamefont {Eran \btxlastnamefont {Gazit}}, \btxnamefont {Anat
-  \btxlastnamefont {Mirelman}}, \btxnamefont {Jeffrey \btxlastnamefont
-  {M.~Hausdorff}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Gerhard
-  \btxlastnamefont {Tr\"{o}ster}}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {A wearable assistant for gait training for
-  parkinson\&rsquo;s disease with freezing of gait in out-of-the-lab
-  environments}{A Wearable Assistant for Gait Training for Parkinson\&Rsquo;s
-  Disease with Freezing of Gait in Out-of-the-Lab Environments}}.
-\newblock \btxjournalfont {ACM Transactions Interactive Intelligent Systems},
-  2015.
-
 \bibitem {mcginnis2013biomechanics}
 \btxnamefont {\btxlastnamefont {McGinnis}, Peter}\btxauthorcolon\ \btxtitlefont
   {Biomechanics of Sport and Exercise}.
@@ -496,11 +489,6 @@
   analysis}{Health Monitoring for Elderly: An Application Using Case-Based
   Reasoning and Cluster Analysis}}.
 \newblock \btxjournalfont {ISRN Artificial Intelligence}, 2013.
-
-\bibitem {moore2011basics}
-\btxnamefont {\btxlastnamefont {Moore}, Michael}\btxauthorcolon\ \btxtitlefont
-  {Basics of Game Design}.
-\newblock \btxpublisherfont {Taylor \& Francis Group}, 2011.
 
 \bibitem {bas00}
 \btxnamefont {\btxlastnamefont {Nuseibeh}, Bashar} \btxandlong {}\ \btxnamefont

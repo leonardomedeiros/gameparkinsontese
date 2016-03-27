@@ -1,28 +1,28 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tese.aux
-White space in argument---line 154 of file tese.aux
+White space in argument---line 143 of file tese.aux
  : \citation{Papastergiou:2009:EPC:1570538.
  :                                          1570707}
 I'm skipping whatever remains of this command
 The style file: babplain.bst
-White space in argument---line 589 of file tese.aux
+White space in argument---line 680 of file tese.aux
  : \citation{synnott_wiipd_
  :                          2012,lemoyne2010}
 I'm skipping whatever remains of this command
 Database file #1: biblmmcor.bib
 Warning--entry type for "acm" isn't style-file defined
---line 311 of file biblmmcor.bib
+--line 329 of file biblmmcor.bib
 Warning--entry type for "ieee" isn't style-file defined
---line 721 of file biblmmcor.bib
+--line 739 of file biblmmcor.bib
 Warning--entry type for "pubmed" isn't style-file defined
---line 863 of file biblmmcor.bib
+--line 881 of file biblmmcor.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
---line 893 of file biblmmcor.bib
+--line 911 of file biblmmcor.bib
 Warning--entry type for "scielo" isn't style-file defined
---line 989 of file biblmmcor.bib
+--line 1007 of file biblmmcor.bib
 Warning--entry type for "zigfu" isn't style-file defined
---line 1481 of file biblmmcor.bib
+--line 1499 of file biblmmcor.bib
 Warning--I didn't find a database entry for "cbis"
 Warning--I didn't find a database entry for "sbc"
 Warning--I didn't find a database entry for "basili94"
@@ -43,45 +43,45 @@ Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the e
 while executing---line 1380 of file babplain.bst
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1380 of file babplain.bst
-You've used 84 entries,
+You've used 83 entries,
             2788 wiz_defined-function locations,
-            1002 strings with 20395 characters,
-and the built_in function-call counts, 29786 in all, are:
-= -- 2364
-> -- 1383
+            996 strings with 20109 characters,
+and the built_in function-call counts, 29239 in all, are:
+= -- 2327
+> -- 1345
 < -- 0
-+ -- 557
-- -- 464
-* -- 3199
-:= -- 4395
-add.period$ -- 187
-call.type$ -- 84
-change.case$ -- 467
++ -- 541
+- -- 450
+* -- 3120
+:= -- 4315
+add.period$ -- 184
+call.type$ -- 83
+change.case$ -- 458
 chr.to.int$ -- 0
-cite$ -- 94
-duplicate$ -- 1645
-empty$ -- 2843
-format.name$ -- 899
-if$ -- 6082
+cite$ -- 93
+duplicate$ -- 1614
+empty$ -- 2807
+format.name$ -- 871
+if$ -- 5984
 int.to.chr$ -- 0
-int.to.str$ -- 84
-missing$ -- 113
-newline$ -- 353
-num.names$ -- 168
-pop$ -- 846
+int.to.str$ -- 83
+missing$ -- 109
+newline$ -- 348
+num.names$ -- 166
+pop$ -- 836
 preamble$ -- 1
-purify$ -- 400
+purify$ -- 391
 quote$ -- 0
-skip$ -- 719
+skip$ -- 712
 stack$ -- 0
-substring$ -- 429
-swap$ -- 660
+substring$ -- 423
+swap$ -- 644
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 300
+type$ -- 298
 warning$ -- 10
-while$ -- 168
-width$ -- 86
-write$ -- 786
+while$ -- 166
+width$ -- 85
+write$ -- 775
 (There were 5 error messages)

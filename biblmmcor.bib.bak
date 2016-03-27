@@ -56,10 +56,19 @@
   year = {2011}
 }
 
+@MISC{esa2015,
+  author = {Entertainment Software Association},
+  title = {Essential Facts about the U.S. Computer and Video Game Industry:
+	Sales, Demophahy and Usage Data},
+  year = {2015}
+}
+
 @MISC{esa2011,
   author = {Entertainment Software Association},
   title = {Essential Facts about the U.S. Computer and Video Game Industry},
-  year = {2011}
+  year = {2011},
+  owner = {leonardo},
+  timestamp = {2016.03.26}
 }
 
 @INPROCEEDINGS{bachlin_parkinsons_2009,
@@ -194,6 +203,15 @@
   year = {1987}
 }
 
+@ELECTRONIC{scielo,
+  author = {FAPESP, CNPq, BIREME/OPAS/OMS and FapUnifesp},
+  month = {Maio},
+  year = {2016},
+  title = {Scientific Eletronic Library Online},
+  owner = {leonardo},
+  timestamp = {2013.05.30}
+}
+
 @BOOK{fli04,
   title = {Pesquisa Qualitativa},
   publisher = {Bookman},
@@ -235,6 +253,18 @@
   title = {Uso de escalas para avaliaÃ§Ã£o da doenÃ§a de Parkinson em fisioterapia},
   journal = {Fisioterapia e Pesquisa},
   year = {2005}
+}
+
+@INPROCEEDINGS{sacbespoke2014,
+  author = {Graziadio, S. and Davison, R. and Shalabi, K. and Sahota, K. M. A.
+	and Ushaw, G. and Morgan, G. and Eyre, J. A.},
+  title = {Bespoke Video Games to Provide Early Response Markers to Identify
+	the Optimal Strategies for Maximizing Rehabilitation},
+  booktitle = {Proceedings of the 29th Annual ACM Symposium on Applied Computing},
+  year = {2014},
+  series = {SAC '14},
+  owner = {leonardo},
+  timestamp = {2015.10.03}
 }
 
 @ARTICLE{stacey2011,
@@ -420,7 +450,9 @@
 @ELECTRONIC{pubmed,
   author = {US National Library of Medicine National Institutes of Health},
   month = {Maio},
-  year = {2013},
+  year = {2016},
+  title = {PubMed.gov},
+  url = {http://www.ncbi.nlm.nih.gov/pubmed},
   owner = {leonardo},
   timestamp = {2013.05.30}
 }
@@ -478,14 +510,6 @@
   file = {:C\:\\Users\\leonardo\\Dropbox\\doutorado ufcg\\bibliografia\\gqm\\dissertacao - paulo - gqm - julio cesar leite.PDF:PDF},
   owner = {leonardo},
   timestamp = {2014.02.16}
-}
-
-@ELECTRONIC{scielo,
-  author = {Scientific Eletronic Library Online},
-  month = {Maio},
-  year = {2013},
-  owner = {leonardo},
-  timestamp = {2013.05.30}
 }
 
 @TECHREPORT{ageing2011,
