@@ -198,9 +198,19 @@
   Handbook}}.
 \newblock 2003.
 
-\bibitem {acm}
-\btxnamefont {\btxlastnamefont {Computing~Machinery}, Association~for}.
-\newblock http://www.acm.org/, \btxprintmonthyear{.}{Maio}{2013}{long}.
+\bibitem {quantitativeparkinson2011}
+\btxnamefont {\btxlastnamefont {Das}, S.}, \btxnamefont {L. \btxlastnamefont
+  {Trutoiu}}, \btxnamefont {A. \btxlastnamefont {Murai}}, \btxnamefont {D.
+  \btxlastnamefont {Alcindor}}, \btxnamefont {M. \btxlastnamefont {Oh}},
+  \btxnamefont {F. De~la \btxlastnamefont {Torre}}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {J. \btxlastnamefont {Hodgins}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Quantitative measurement of motor symptoms
+  in parkinson's disease: A study with full-body motion capture
+  data}{Quantitative measurement of motor symptoms in Parkinson's disease: A
+  study with full-body motion capture data}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Engineering in Medicine and Biology
+  Society,EMBC, 2011 Annual International Conference of the IEEE},
+  \btxpageslong {}\ 6789--6792, \btxprintmonthyear{.}{9}{2011}{long}.
 
 \bibitem {do2007parkinson}
 \btxnamefont {\btxlastnamefont {Do}, Stewart} \btxandlong {}\ \btxnamefont
@@ -314,11 +324,6 @@
   Disease: Diagnosis and Management in Primary and Secondary Care}}.
 \newblock 2006.
 
-\bibitem {pubmed}
-\btxnamefont {\btxlastnamefont {Health}, US\btxfnamespacelong
-  National\btxfnamespacelong Library~of Medicine National Institutes~of},
-  \btxprintmonthyear{.}{Maio}{2013}{long}.
-
 \bibitem {Hoehn_Yahr_2001}
 \btxnamefont {\btxlastnamefont {Hoehn}, M\btxfnamespacelong M} \btxandlong {}\
   \btxnamefont {M\btxfnamespacelong D \btxlastnamefont {Yahr}}\btxauthorcolon\
@@ -421,11 +426,6 @@
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference on Automation
   Science and Engineering (CASE)}. \btxpublisherfont {IEEE}, 2014.
 
-\bibitem {ieee}
-\btxnamefont {\btxlastnamefont {Library}, IEEE\btxfnamespacelong
-  Explorer\btxfnamespacelong Digital}.
-\newblock http://ieeexplore.ieee.org, \btxprintmonthyear{.}{Maio}{2013}{long}.
-
 \bibitem {limongi2002}
 \btxnamefont {\btxlastnamefont {Limongi}, JoÃ£o\btxfnamespacelong
   Carlos\btxfnamespacelong Papaterra}\btxauthorcolon\ \btxpublisherfont
@@ -506,11 +506,6 @@
   Software AtravÃ©s da UtilizaÃ§Ã£o de QuestionÃ¡rios}}.
 \newblock \btxifchangecase {DissertaÃ§Ã£o de mestrado}{DissertaÃ§Ã£o de
   Mestrado}, PUC-Rio, 2005.
-
-\bibitem {scielo}
-\btxnamefont {\btxlastnamefont {Online}, Scientific\btxfnamespacelong
-  Eletronic\btxfnamespacelong Library},
-  \btxprintmonthyear{.}{Maio}{2013}{long}.
 
 \bibitem {ageing2011}
 \btxnamefont {\btxlastnamefont {Organization}, World\btxfnamespacelong

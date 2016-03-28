@@ -5,6 +5,7 @@ A população mundial envelhece progressivamente e, segundo estudos da~\ac{oms}~
 Como objeto de estudo, para esta tese, escolhemos o~\ac{dp} por ser uma doença neurodegenerativa crônica, progressiva e com causa desconhecida. É uma doença mais comum em idosos, no entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo abaixo dos 21~\cite{menezes2003}. A incidência da doença é estimada entre 100 a 200 casos por 100.000 habitantes e, com o envelhecimento da população o contingente de pessoas diagnosticadas com~\ac{dp} tende a aumentar nos próximos anos. Após os 10 anos de tratamento, a doença leva o indivíduo a irreversíveis debilidades: motoras e cognitivas. Logo, a abordagem de monitorar os sinais em diferentes momentos do dia, permite um melhor gerenciamento da doença e, por consequência, melhora a qualidade de vida destes indivíduos.
 
 Na averiguação desta demanda, a computação aplicada à saúde busca prover ~\ac{sms}~\cite{healthmonitoring2013,berg03,bardram2010,Ballegaard:2008:HEL:1357054.1357336,aarhus_negotiating_2010}. Estes~\ac{sms} permitem ao médico acompanhar a distância o estado de saúde de seus pacientes colaborativamente~\cite{healthmonitoring2013}. Atualmente, os~\ac{sms} realizam: um tratamento preventivo e pró-ativo do estado de saúde~\cite{bardram2010}; suporte à reabilitação do paciente~\cite{sacbespoke2014}; auxilia o paciente a atingir uma melhor qualidade de vida~\cite{sacsvmhms2014}. Referente ao monitoramento dos sinais motores, os~\ac{sms} quantificam estes sinais e conseguem: quantificar as habilidades motoras~\cite{manumeterjbhi2014,patel_monitoring_2009}, efetuar análise da marcha \cite{robotgait2014} e identificar sinais de bradicinesia~\cite{ambulatoryparkinson2010}. Contudo, o maior desafio dessas abordagens é a aceitação do usuário e consequente inserção na rotina diária~\cite{alemdar2015}.
+Na averiguação desta demanda, a computação aplicada à saúde busca prover ~\ac{sms}~\cite{healthmonitoring2013,berg03,bardram2010,Ballegaard:2008:HEL:1357054.1357336,aarhus_negotiating_2010}. Estes~\ac{sms} permitem ao médico acompanhar a distância o estado de saúde de seus pacientes colaborativamente~\cite{healthmonitoring2013}. Atualmente, os~\ac{sms} realizam: um tratamento preventivo e pró-ativo do estado de saúde~\cite{bardram2010}; suporte à reabilitação do paciente~\cite{sacbespoke2014}; auxilia o paciente a atingir uma melhor qualidade de vida~\cite{sacsvmhms2014}. Referente ao monitoramento dos sinais motores, os~\ac{sms} quantificam estes sinais e conseguem: quantificar as habilidades motoras~\cite{manumeterjbhi2014,patel_monitoring_2009}, efetuar análise da marcha \cite{robotgait2014} e identificar sinais de bradicinesia~\cite{ambulatoryparkinson2010}. Contudo, o maior desafio dessas abordagens é a aceitação do usuário e consequente inserção na rotina diária~\cite{alemdar2015}.
 
 Na busca por motivar os usuários, identificamos que os jogos eletrônicos se encontram presentes na rotina diária de 27\% da população americana acima dos 50 anos~\cite{esa2015}. Com base nesse número, percebemos um público de jogadores idosos beneficiáveis por: uma plataforma de monitoramento de dados de saúde embutida num jogo eletrônico. Aliado a esse estudo, identificamos jogos voltados para o público idoso aplicados à melhora do estado de saúde como: jogo para a persuasão da prática de atividades físicas~\cite{brox11}, jogo para a melhora das capacidades físicas e cognitivas~\cite{arntzen2011}. 
 
@@ -15,16 +16,21 @@ A validação ocorreu em duas etapas: na primeira avaliamos a capacidade de moni
 
 
 \section{Problemática}\label{section:problematica}
-Para a identificação do problema foi realizado uma Revisão Bibliográfica sobre os temas IEEE~\cite{ieee}, ACM~\cite{acm}, PubMed~\cite{pubmed}, Scielo~\cite{scielo}.
+%Para a identificação do problema foi realizado uma Revisão Bibliográfica sobre os temas IEEE~\cite{ieee}, ACM~\cite{acm}, PubMed~\cite{pubmed}, Scielo~\cite{scielo}.
 
-A Revisão da Literatura teve como objetivo encontrar problemas em aberto nos~\ac{sms}. Foi realizado, um estudo complementar nas diretrizes médicas para o suporte científico nesta área. Essa etapa teve como objetivo inicial identificar problemas nesses trabalhos que pudessem ser solucionados por esta tese.
+%A Revisão da Literatura objetivou encontrar problemas em aberto nos~\ac{sms}. Inicialmente Foi realizado, um estudo complementar nas diretrizes médicas para o suporte científico nesta área. Essa etapa teve como objetivo inicial identificar problemas nesses trabalhos que pudessem ser solucionados por esta tese.
 
-Atualmente, os sistemas de monitoramento da saúde motora utilizam sensores vestíveis (\textit{wearable}), que comumente são incorporados na roupa ou no corpo do usuário (Figuras: \ref{fig:quantif-parkinson},\ref{fig:patel-shimmer}). Esses sistemas permitem um monitoramento da saúde~\cite{patel_monitoring_2009,lemoyne2010}, no entanto os sensores são considerados invasivos e estereotipados~\cite{aarhus_negotiating_2010}, o que impacta em sua aceitação e integração à rotina diária de seus usuários~\cite{alemdar2015}. Por este motivo buscou-se então nesta tese desenvolver um~\ac{sms} dos sinais motores do~\ac{dp} que pudesse ser integrado na rotina diária dos usuários, por meio de um ambiente lúdico como um jogo eletrônico. Este ambiente forneceria informações sobre os sinais motores de forma não invasiva e no conforto do lar. 
+Atualmente, os\~ac{sms} dos sinais motores utilizam sensores vestíveis (\textit{wearable}), que comumente, são incorporados na roupa ou no corpo do usuário (Figuras: \ref{fig:quantif-parkinson},\ref{fig:patel-shimmer}). De acordo com a perspectiva do usuário~\cite{aarhus_negotiating_2010} são considerados invasivos e estereotipados~\cite{aarhus_negotiating_2010}. No entanto, o gerenciamento medicamentoso do~\ac{dp}, necessita de um cuidado mais acurado e diário~\cite{quantitativeparkinson2011}. Por esta razão, buscou-se nesta tese: \textbf{desenvolver um~\ac{sms} dos sinais motores do~\ac{dp}, integrada à rotina diária dos usuários, num ambiente lúdico como um jogo eletrônico}. Nossa perspectiva é que este ambiente venha a fornecer informações sobre os sinais motores de uma maneira: colaborativa, não invasiva e no conforto do lar. 
 
-
-
-Em trabalhos relacionados, identificamos LeMoyne~\cite{lemoyne2010} o qual buscou quantificar os sinais de tremor do~\ac{dp} usando um \textit{Apple iPhone} (Figura \ref{fig:iphone-tremor}). Considerando que os \textit{smartphones} já estão integrados à rotina diária dos usuários, esta poderia ser uma solução para esse contexto. Porém, é necessário que o usuário ponha o dispositivo no torso da mão e um grande problema para avaliar o tremor usando celulares ou sensores é que o tremor parkinsoniano é de repouso~\cite{jankovic2008}. Então quando os usuários são avaliados por esses dispositivos ~\cite{lemoyne2010,synnott_wiipd_2012} os parkinsonianos entram no estado de ação o que reduz drasticamente o tremor e isto impacta diretamente na coleta dos dados. Na avaliação do trabalho de LeMoyne~\cite{lemoyne2010} não houve a avaliação com pacientes ou qualquer estudo de caso-controle. %por esse motivo questionamos sua eficácia.
-
+\begin{figure}
+ \centering
+ \includegraphics[scale=0.3]{./img/patel-shimmer.png}
+ % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+\caption[Disposição dos Sensores de Movimento (SHIMMER) no corpo no trabalho de Patel]{\textit{Disposição dos Sensores de Movimento (SHIMMER) no corpo no trabalho de Patel ~\cite{patel_monitoring_2009}}}
+%  \caption{Estágio desenvolvimento de jogos}
+ \label{fig:patel-shimmer}
+\end{figure}
 
 \begin{figure}
  \centering
@@ -37,66 +43,48 @@ Em trabalhos relacionados, identificamos LeMoyne~\cite{lemoyne2010} o qual busco
 \end{figure}
 
 
+Em trabalhos relacionados, identificamos, LeMoyne~\cite{lemoyne2010} o qual tentou quantificar os sinais de tremores do~\ac{dp} usando um \textit{smartphones}(Figura \ref{fig:iphone-tremor}). LeMoyne~\cite{lemoyne2010} considerou que: os \textit{smartphones} estão presentes na rotina dos pacientes e que estes iriam mensurar seus tremores em diferentes momentos do dia. No entanto, o principal problema em mensurar o tremor usando \textit{smartphones} é que o tremor do~\ac{dp} é de repouso~\cite{jankovic2008}. Logo, os pacientes reduzem drasticamente o sinal o que impacta diretamente na coleta dos dados. Deve-se considerar também que LeMoyne~\cite{lemoyne2010} não realizou avaliações com pacientes ou estudo de caso-controle.
 
 
-\begin{figure}
- \centering
- \includegraphics[scale=0.3]{./img/patel-shimmer.png}
- % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
- %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-\caption[Disposição dos Sensores de Movimento (SHIMMER) no corpo no trabalho de Patel]{\textit{Disposição dos Sensores de Movimento (SHIMMER) no corpo no trabalho de Patel ~\cite{patel_monitoring_2009}}}
-%  \caption{Estágio desenvolvimento de jogos}
- \label{fig:patel-shimmer}
-\end{figure}
-
-
-
-%No entanto, em nossos estudos como o uso dos acelerômetros de celulares junto aos pacientes de~\ac{dp} identificamos que o tremor de repouso presente no~\ac{dp}(Seção~\ref{sec:tremor}) era reduzido drasticamente por que estes pacientes entravam em modo de ação~\cite{jankovic2008}.
 
 \begin{figure}
  \centering
  \includegraphics[scale=0.3]{./img/moyne-iphone.png}
  % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
  %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-\caption[Aplicação para iPhone que caracteriza sinais de tremor]{Aplicação para iPhone que caracteriza sinais de tremor ~\cite{lemoyne2010}}
+\caption[Aplicação para \textit{smartphone} com a finalidade de identificar sinais de tremor]{Aplicação para iPhone com a finalidade de identificar sinais de tremor ~\cite{lemoyne2010}}
 %  \caption{Estágio desenvolvimento de jogos}
  \label{fig:iphone-tremor}
 \end{figure}
 
 
 
-% Neste trabalho, é apresentado uma abordagem de monitoramento dos sinais motores da~\ac{dp} baseada em jogos eletrônicos. Esta abordagem foi desenvolvida com o objetivo de fazer a aquisição dos dados por meio de sensores que fizessem a aquisição dos dados sem nenhum contato com o usuário como por exemplo utizando uma câmera de vídeo. Além disto, foi utilizado dispositivos eletrônicos comerciais o que trás redução de custos e permite a replicação desses experimentos e consequentes evoluções futuras. Desta  maneira, é apresentado como objetivo objetivo principal desta tese, prover informações da saúde motora dos pacientes de~\ac{dp} por meio de um sistema de monitoramento não invasivo e lúdico fazendo com que os pacientes saiam do contexto do tratamento da saúde e que de maneira colaborativa forneçam dados sobre sua condição clínica.Pari
-
-%Então neste trabalho propomos monitorar os pacientes de~\ac{dp} de uma forma não invasiva por intermédio de sensores de movimento, utilizando um jogos eletrônico desenvolvido neste trabalho para \textbf{motivar} a aquisição dos dados e fazer com que os usuários abstraiam que estejam em sessões de monitoramento dos dados de saúde. Nosso objetivo é prover um mecanismo de monitoramento durante um período lúdico e descontraído como um jogo eletrônico.
-
-
-%In this work we present a game-based approach to monitor PD motor symptoms. Our approach has been built with two major requirements: first, contactless measurement of patient motor symptoms inside the game environment; second, usage of popular consumer electronic devices as input to have a non-invasive, cost-effective solution for home use. Our main goal is to continuously provide neurologists with data regarding patient motor symptoms, while collecting the data of patients without reminding them that they are under a disease's treatment.
-
-
-%However, one major disadvantage of focusing on tremor is its dependence of the user's action state \cite{synnott_wiipd_2012}. PD tremor is a rest tremor \cite{national2006parkinson}, and we observed in our own research that the tremor can be suppressed~(mainly unintentionally) while the user is concentrating on a game, specially if the player's hands are involved. 
 
 
 
 
 
-%em diferentes momentos do dia dentro de um ambiente de jogo eletrônico o qual pode estar integrado em sua rotina diária.
 
-% A Figura \ref{fig:problematica} sumariza os passos usados para a identificação do \textbf{problema} e a \textbf{Proposta da Tese} que elabora alternativas a esse problema.
-% 
-% \begin{figure}[!H]
-%  \centering
-%  \includegraphics[scale=0.8]{./img/problematica.png}
-%  % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
-%  %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-% \caption{Processo de Identificação do Problema e Proposta da Tese}
-% %  \caption{Estágio desenvolvimento de jogos}
-%  \label{fig:problematica}
-% \end{figure}
-% \FloatBarrier
+
+%No entanto, em nossos estudos como o uso dos acelerômetros de celulares junto aos pacientes de~\ac{dp} identificamos que o tremor de repouso presente no~\ac{dp}(Seção~\ref{sec:tremor}) era reduzido drasticamente por que estes pacientes entravam em modo de ação~\cite{jankovic2008}.
+
+
+
+
+
+%Então, nesta tese, propomos monitorar os pacientes de~\ac{dp} de uma forma: não invasiva, por intermédio de sensores de movimento, motivando  utilizando um jogos eletrônico desenvolvido neste trabalho para \textbf{motivar} a aquisição dos dados e fazer com que os usuários abstraiam que estejam em sessões de monitoramento dos dados de saúde. Nosso objetivo foi prover um mecanismo de monitoramento durante um período lúdico e descontraído como um jogo eletrônico.
+
+
+
+
+
+
+
+
 
 \section{Objetivos}
 \subsection{Objetivo Principal}
-Neste trabalho, tem-se como objetivo a concepção de uma abordagem computacional para o monitoramento de sinais motores. Pretende-se usar jogos eletrônicos como forma de \textbf{motivar} e abstrair o monitoramento dos sinais de uma maneira \textbf{não invasiva} e longe do \textbf{contexto de tratamento de saúde}.
+Neste trabalho, tem-se como objetivo: a concepção de uma abordagem computacional não invasiva para o monitoramento de sinais motores. Pretende-se usar jogos eletrônicos como forma de \textbf{motivar} e abstrair do: monitoramento dos sinais motores e do \textbf{tratamento da saúde}.
 
 
 %Partindo da necessidade de monitorar dados motores de uma forma não invasiva por intermédio de sensores de movimento, pretendemos usar jogos eletrônicos como forma de \textbf{motivar} e abstrair o monitoramento de dados de saúde de forma \textbf{não invasiva} e longe do \textbf{contexto de tratamento de saúde}.
@@ -239,6 +227,6 @@ O restante deste documento está organizado da seguinte forma:
 	\item No Capítulo~\ref{chapter:abordagem_gahme} está definida a abordagem \ac{jogue-me} de monitoramento de dados motores não invasivo usando jogos eletrônicos.
 	\item No Capítulo~\ref{chapter:arquitetura_captura} é demonstrada uma implementação da abordagem.
 	%\item No Capítulo~\ref{chap:processo_desenvolvimento}, é apresentado um processo de desenvolvimento de jogos eletrônicos para monitoramento de dados de saúde.
-	\item No Capítulo~\ref{chap:avaliacao} são apresentados os experimentos para validar o trabalho.
-	%\item No Capítulo~\ref{chapter:trabalhos_futuros}, é mostrado o estado atual do trabalho e propostos temas para discussão e finalização do mesmo.
+	\item No Capítulo~\ref{chap:avaliacao} são apresentados os experimentos realizados para validar a tese.
+	\item No Capítulo~\ref{chapter:conclusoes_futuros} são apresentadas as conclusões do trabalho e, propostos temas para trabalhos futuros.
 \end{itemize}
