@@ -8,11 +8,11 @@
 \contentsline {section}{\numberline {1.1}Problem\IeC {\'a}tica}{3}
 \contentsline {section}{\numberline {1.2}Objetivos}{4}
 \contentsline {subsection}{\numberline {1.2.1}Objetivo Principal}{4}
-\contentsline {section}{\numberline {1.3}Metodologia}{5}
+\contentsline {section}{\numberline {1.3}Metodologia}{4}
 \contentsline {subsection}{\numberline {1.3.1}Etapas da Pesquisa}{5}
 \contentsline {section}{\numberline {1.4}Trabalhos Relacionados}{6}
 \contentsline {section}{\numberline {1.5}Contribui\IeC {\c c}\IeC {\~o}es}{7}
-\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{7}
+\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{8}
 \contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{9}
 \contentsline {section}{\numberline {2.1}Doen\IeC {\c c}a de Parkinson}{9}
 \contentsline {subsection}{\numberline {2.1.1}Diagn\IeC {\'o}stico}{10}
@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {2.1.3}Escalas e os Est\IeC {\'a}gios da Doen\IeC {\c c}a}{12}
 \contentsline {section}{\numberline {2.2}Cinemetria}{13}
 \contentsline {subsection}{\numberline {2.2.1}Movimento Angular}{13}
-\contentsline {subsection}{\numberline {2.2.2}M\IeC {\'a}quinas de Vetor de Suporte (SVM)}{14}
+\contentsline {section}{\numberline {2.3}M\IeC {\'a}quinas de Vetor de Suporte (SVM)}{14}
 \contentsline {chapter}{\numberline {3}Abordagem~\textit {JOGUE-ME}}{17}
 \contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o de Requisitos da Solu\IeC {\c c}\IeC {\~a}o}{17}
 \contentsline {section}{\numberline {3.2}Vis\IeC {\~a}o geral da solu\IeC {\c c}\IeC {\~a}o}{18}
@@ -45,7 +45,7 @@
 \contentsline {subsection}{\numberline {4.2.3}Filtragem de Dados}{36}
 \contentsline {section}{\numberline {4.3}Classificador de Dados}{37}
 \contentsline {chapter}{\numberline {5}Avalia\c {c}\~{a}o Experimental}{39}
-\contentsline {section}{\numberline {5.1}ETAPA 1 - Entrevista Semi-Estruturada com Profissionais de Sa\IeC {\'u}de}{39}
+\contentsline {section}{\numberline {5.1}ETAPA 1 - Entrevista Semiestruturada com Profissionais de Sa\IeC {\'u}de}{39}
 \contentsline {subsection}{\numberline {5.1.1}Objetivo da Pesquisa}{40}
 \contentsline {subsubsection}{Instrumento de An\IeC {\'a}lise dos Dados da Pesquisa Qualitativa}{40}
 \contentsline {subsection}{\numberline {5.1.2}Perfil dos Participantes}{40}

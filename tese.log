@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.4.24)  28 MAR 2016 11:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.4.24)  29 MAR 2016 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -533,23 +533,42 @@ Underfull \hbox (badness 3098) in paragraph at lines 134--136
  []
 
 
+Underfull \hbox (badness 8113) in paragraph at lines 142--143
+[]\T1/ptm/m/n/12 Definir a ar-qui-te-tura de software que vi-a-bi-li-zou tec-ni
+-ca-mente a abor-da-
+ []
+
+
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [5]
+! Missing } inserted.
+<inserted text> 
+                }
+l.151 \end{enumerate}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-LaTeX Warning: Citation `Papastergiou:2009:EPC:1570538. 1570707' on page 6 unde
-fined on input line 195.
+! Too many }'s.
+l.196 ... de repouso~\cite{national2006parkinson}}
+                                                  . Logo, quando o usuário ...
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[6]) (./cap3-fundamentacao.tex
+[6]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[7]
+[7]) (./cap3-fundamentacao.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1162,7 +1181,7 @@ and I'll forget about whatever was undefined.
 [68
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
+Underfull \hbox (badness 10000) in paragraph at lines 150--154
 []\T1/ptm/m/n/12 Billauer, Eli: \T1/ptm/m/it/12 Peak de-tec-tion in mat-lab\T1/
 ptm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Dispon�-vel em:
  []
@@ -1185,26 +1204,26 @@ See the ucs package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160   Linear E AplicaÃ§Ãµes}
+l.170   Linear E AplicaÃ§Ãµes}
                                   .
 Unicode character 65533 = U+FFFD:
 REPLACEMENT CHARACTER
 Character is not defined in uni-*.def files.
 Enter I!<RET> to define the glyph.
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 160.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 170.
 
 (c:/texlive/2012/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 160.
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 170.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [69]
-Underfull \hbox (badness 4181) in paragraph at lines 272--281
+Underfull \hbox (badness 4181) in paragraph at lines 282--291
 []\T1/ptm/m/n/12 Gonßalves, Val-ter Fil-ipe Carnim: \T1/ptm/m/it/12 Anýlise c
 om-par-a-tiva dos clas-si-fi-cadores
  []
@@ -1212,7 +1231,7 @@ om-par-a-tiva dos clas-si-fi-cadores
 ! Undefined control sequence.
 \u-default-162 #1->\textcent 
                              
-l.317 ...ases BiomecÃ¢nicas do Movimento Humano}
+l.327 ...ases BiomecÃ¢nicas do Movimento Humano}
                                                   }.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1228,7 +1247,7 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 ! Undefined control sequence.
 \u-default-8364 ...ifx \euro \undefined \texteuro 
                                                   \else \euro \fi 
-l.337 ...isease: clinical features and diagnosis}}
+l.347 ...isease: clinical features and diagnosis}}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1246,19 +1265,19 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 File: uni-1.def 2012/04/20 UCS: Unicode data U+0100..U+01FF
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 481.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 491.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [72]
-Underfull \hbox (badness 8075) in paragraph at lines 546--552
+Underfull \hbox (badness 8075) in paragraph at lines 556--562
 []\T1/ptm/m/n/12 Research, Provalis: \T1/ptm/m/it/12 Qda miner lite v1.2.2\T1/p
 tm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Dispon�-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--552
+Underfull \hbox (badness 10000) in paragraph at lines 556--562
 \T1/ptm/m/n/12 http://provalisresearch.com/products/qualitative-data-analysis-s
 oftware/.  òl-timo
  []
@@ -1271,7 +1290,7 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 ! Undefined control sequence.
 \u-default-162 #1->\textcent 
                              
-l.684   pela ressonÃ¢ncia magnÃ©tica}}
+l.694   pela ressonÃ¢ncia magnÃ©tica}}
                                           .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1280,7 +1299,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 681--686
+Underfull \hbox (badness 2707) in paragraph at lines 691--696
 []\T1/ptm/m/n/12 Vedolin, Leonardo: \T1/ptm/m/it/12 Avaliaßÿo da doenßa de p
 arkin-son pela resson�n-cia
  []
@@ -1288,7 +1307,7 @@ arkin-son pela resson�n-cia
 ! Undefined control sequence.
 \u-default-8364 ...ifx \euro \undefined \texteuro 
                                                   \else \euro \fi 
-l.690 ...Multivariada Da Teoria Ã€ PrÃ¡tica}}
+l.700 ...Multivariada Da Teoria Ã€ PrÃ¡tica}}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1380,7 +1399,7 @@ ar-kin-son pela
 
 
 Underfull \hbox (badness 1466) in paragraph at lines 2--3
-[] \T1/ptm/m/n/12 de Lon-dres [] 33[]. O pa-ci-ente ser�
+[] \T1/ptm/m/n/12 de Lon-dres [] 34[]. O pa-ci-ente ser�
  []
 
 [89
@@ -1431,10 +1450,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9669 strings out of 493488
- 132220 string characters out of 3144748
- 303045 words of memory out of 3000000
- 12724 multiletter control sequences out of 15000+200000
+ 9670 strings out of 493488
+ 132208 string characters out of 3144748
+ 303048 words of memory out of 3000000
+ 12725 multiletter control sequences out of 15000+200000
  59462 words of font info for 75 fonts, out of 3000000 for 9000
  958 hyphenation exceptions out of 8191
  38i,13n,43p,1211b,1885s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1450,7 +1469,7 @@ t/fonts/type1/urw/courier/ucrro8a.pfb><c:/texlive/2012/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb><c:/texlive/2012/texmf-dist/fonts/type1/urw/times/utmbi8a.p
 fb><c:/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/201
 2/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (103 pages, 2476761 bytes).
+Output written on tese.pdf (103 pages, 2477743 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  270 compressed objects within 3 object streams
