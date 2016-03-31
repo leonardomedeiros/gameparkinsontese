@@ -8,7 +8,7 @@ A realização do monitoramento dos sinais motores de uma maneira não-invasiva 
 
 
 
-\section{ETAPA 1 - Entrevista Semi-Estruturada com Profissionais de Saúde}\label{chapter:entrevista_semi_estruturada}
+\section{ETAPA 1 - Entrevista Semiestruturada com Profissionais de Saúde}\label{chapter:entrevista_semi_estruturada}
 
 A interpretação de dados é o cerne da pesquisa qualitativa, esse método tem como função desenvolver a teoria, servindo ao mesmo tempo de base para a decisão sobre quais dados adicionais devem ser coletados, por meio de codificação seletiva~\cite{FLI04}. Esta técnica, permite elaborar uma categorização nos dados, demonstrando ao pesquisador quais são os fenômenos mais preponderantes da pesquisa. O procedimento da interpretação dos dados, assim como a integração de material adicional são encerrados quando se atinge a "saturação teórica", ou seja quando o avanço na codificação não resulta na aquisição de novos conhecimentos~\cite{FLI04}.
 
@@ -18,14 +18,14 @@ Para auxiliar no processo de: análise, seleção e codificação. Foi utilizado
 
 
 \subsection{Objetivo da Pesquisa}
-O objetivo da entrevista semi-estruturada~\cite{FLI04} foi entender como é feito o acompanhamento do paciente com sintomatologia do~\ac{dp}, juntamente aos profissionais de saúde: neurologistas que prescrevem a dosagem medicamentosa e fisioterapeutas que fazem o tratamento  de reabilitação e acompanhamento motor do paciente. Esse profissionais de saúde, foram indagados se haveria melhora na tomada de decisão caso estes pudessem acompanhar os sinais motores em diariamente. Procurou-se encontrar dentro do contexto de estudo, a importância do monitoramento de dados de saúde e os benefícios trazidos por este.
+O objetivo da entrevista semiestruturada~\cite{FLI04} foi entender como é feito o acompanhamento do paciente com sintomatologia do~\ac{dp}, juntamente aos profissionais de saúde: neurologistas que prescrevem a dosagem medicamentosa e fisioterapeutas que fazem o tratamento  de reabilitação e acompanhamento motor do paciente. Esse profissionais de saúde, foram indagados se haveria melhora na tomada de decisão caso estes pudessem acompanhar os sinais motores em diariamente. Procurou-se encontrar dentro do contexto de estudo, a importância do monitoramento de dados de saúde e os benefícios trazidos por este.
 
 As entrevistas foram realizadas presencialmente, com perguntas não estruturadas e, com uma maior estruturação no decorrer da entrevista preocupando-se em evitar a referência do entrevistador sobre os pontos de vista do entrevistado, conforme sugere o método científico~\cite{FLI04}. 
 
 \subsubsection{Instrumento de Análise dos Dados da Pesquisa Qualitativa} \label{section:analise_dados} 
 A pesquisa qualitativa assistida por computador permite uma melhor categorização das informações obtidas em modo texto. O \textit{software} QDA Miner~\cite{qda13} auxilia o pesquisador na organização dos registros da pesquisa e das interpretações dos mesmos, justificando-se o uso da ferramenta devido a dificuldade de classificar e analisar os dados obtidos. Nessa análise, foram consideradas as atividades referentes ao acompanhamento dos sinais motores em pacientes com~\ac{dp}. Buscou-se durante a pesquisa avaliar se um cenário de monitoramento dos sinais motores por meio de jogos eletrônicos auxiliaria os profissionais de saúde quanto ao tratamento de seus pacientes.
 
-Nesta seção, faz-se um detalhamento do resultado da entrevista semi-estruturada, descrevendo a opinião dos entrevistados e coletando requisitos baseado nas necessidades expostas pelos mesmos. Por meio desta etapa da pesquisa foi avaliada a \textbf{ETAPA 1} da pesquisa: \textit{Quais os benefícios de acompanhar diariamente os sinais motores do paciente do ponto de vista do profissional da saúde}.
+Nesta seção, faz-se um detalhamento do resultado da entrevista semiestruturada, descrevendo a opinião dos entrevistados e coletando requisitos baseado nas necessidades expostas pelos mesmos. Por meio desta etapa da pesquisa foi avaliada a \textbf{ETAPA 1} da pesquisa: \textit{Quais os benefícios de acompanhar diariamente os sinais motores do paciente do ponto de vista do profissional da saúde}.
 
 %	\begin{description}
 
@@ -163,7 +163,7 @@ Os sinais mais frequentes a gente tem a bradicinesia que é a lentificação do 
 
 
 \subsubsection{Monitoramento Motor}
-Nesta seção está exposta a importância do monitoramento dos sinais capturados no estudo analítico de caso controle definido no método de pesquisa na Seção~\ref{section:estudo_caso_controle}. Nesse estudo também pretende-se identificar as características dos movimentos que possam ser extraídos desses sinais, e que venham fornecer subsídios para diferenciar indivíduos diagnosticados com a ~\ac{dp} ante indivíduos sem o diagnóstico.
+Nesta seção está exposta a importância do monitoramento dos sinais capturados no estudo analítico de caso controle definido no método de pesquisa na Seção~\ref{section:estudo_caso_controle}. Nesse estudo também pretende-se identificar as características dos movimentos que possam ser extraídos desses sinais, e que venham fornecer subsídios para diferenciar indivíduos diagnosticados com~\ac{dp} ante indivíduos sem o diagnóstico.
 
 %\subsubsection{Amplitude do Movimento dos Braços}
 
@@ -226,7 +226,7 @@ No início. Geralmente o paciente se queixa de uma diminuição de força de um 
 
 
 %\subsubsection{Quantificação dos Sintomas}
-As relativas aos benefícios advindo do monitoramento, estavam relacionadas à quantificação dos sinais como: amplitude de movimento de adução e abdução do braço,  velocidade angular deste movimento e se estes valores permitem um monitoramento dos sinais. Essa análise trouxe dois grupos de respostas: o primeiro reconhecia da importância da quantificação dos dados para identificar a melhora ou piora do paciente [FRAGMENTO-17], e outro relatava que essa informação tinha mais validade científica do que prática [FRAGMENTO-18]. Todavia, caso esses profissionais tivessem acesso a um sistema que permitisse o monitoramento motor, possivelmente eles iriam perceber os benefícios da abordagem e modificar sua prática atual ao adotar uma nova proposta.
+Em relação aos benefícios advindo do monitoramento pudemos identificar: a quantificação dos sinais motores, amplitude de movimento de adução e abdução do braço,  velocidade angular destes movimentos. Essa análise trouxe dois grupos de respostas: o primeiro reconhecia da importância da quantificação dos dados para identificar a melhora ou piora do paciente [FRAGMENTO-17], e outro relatava que essa informação tinha mais validade científica do que prática [FRAGMENTO-18]. Todavia, caso esses profissionais tivessem acesso a um sistema que permitisse o monitoramento motor, possivelmente eles iriam perceber os benefícios da abordagem e modificar sua prática atual ao adotar uma nova proposta.
 
 \begin{quote}
 \textbf{[FRAGMENTO-17][FIS\_02]}-
@@ -243,7 +243,7 @@ As relativas aos benefícios advindo do monitoramento, estavam relacionadas à q
 \end{quote}
 
 %\subsubsection{Gerenciamento da Dosagem Medicamentosa}
-Foi indagado junto aos profissionais se monitoramento dos dados motores auxiliaria no gerenciamento da dosagem medicamentosa. Os profissionais informaram que sentem a necessidade de visualizar a eficácia do tratamento diante do paciente. O [FIS\_01] no [FRAGMENTO-19] cita a importância de avaliar tanto o tratamento medicamentoso quanto se a sua atividade fisioterápica traz benefícios ao paciente. Os neurologistas citam ([NEU\_01] e [NEU\_01]) a importância de reajustar a dosagem medicamentosa e que a quantificação do sintoma identifica o resultado do efeito medicamentoso. Outra opinião bastante pertinente é que o agravamento da ~\ac{dp} é bastante sutil do ponto de vista do [NEU\_01] no [FRAGMENTO-21]. Logo se for possível, mostrar a evolução da doença em períodos mais longos, o tratamento seria mais efetivo e, consequentemente, traria uma melhor qualidade de vida aos pacientes.
+Indagou-se aos profissionais se o monitoramento dos sinais motores auxiliaria no gerenciamento da dosagem medicamentosa. Os profissionais informaram que sentem a necessidade de visualizar a eficácia do tratamento diante do paciente. O [FIS\_01] no [FRAGMENTO-19] cita a importância de avaliar tanto o tratamento medicamentoso quanto se a sua atividade fisioterápica traz benefícios ao paciente. Os neurologistas citam ([NEU\_01] e [NEU\_01]) a importância de reajustar a dosagem medicamentosa e que a quantificação do sintoma identifica o resultado do efeito medicamentoso. Outra opinião bastante pertinente é que o agravamento da ~\ac{dp} é bastante sutil do ponto de vista do [NEU\_01] no [FRAGMENTO-21]. Logo se for possível, mostrar a evolução da doença em períodos mais longos, o tratamento seria mais efetivo e, consequentemente, traria uma melhor qualidade de vida aos pacientes.
 
 \begin{quote}
 \textbf{[FRAGMENTO-19][FIS\_01]} - 
@@ -271,8 +271,7 @@ Se esse mecanismo acontecesse. Você poderia avaliar a dosagem de um paciente po
 \subsection{Requisitos Identificados}
 A \ac{er} é o processo de descobrir o propósito do software, identificando os principais envolvidos do sistema com suas respectivas necessidades e documentando a análise para uma implementação posterior \cite{bas00}. Contudo, é um processo que deve ser continuamente repetido para que as necessidades dos envolvidos sejam satisfeitas. As técnicas para identificação de requisitos são derivadas principalmente das ciências sociais, que se baseiam em pesquisa qualitativa onde são analisados a teoria do objeto de estudo com a experiência prática dos envolvidos na pesquisa ~\cite{elicquest05,zowghi2005}.
 
-Uma das técnicas de identificação de requisitos, que é baseada em pesquisa qualitativa, é a entrevista semi-estruturada em que o entrevistador possui um conjunto de perguntas pré-definidas e guia a entrevista de acordo com a opinião do entrevistado ~\cite{FLI04}. A identificação dos requisitos de um sistema representa o início da elicitação das necessidades da solução proposta. Então, os requisitos definem quais serão os serviços que o sistema deve prover além de um conjunto de restrições existentes na operação do mesmo \cite{sommerville2011}. Logo, foi utilizada o resultado da análise da pesquisa qualitativa, para identificar os requisitos deste trabalho. Ficou definido, que cada requisito deve ser importante para os entrevistados e a nomenclatura estabelecida é de \textbf{REQ-ENTREVISTAS} seguida por um número sequencial correspondente à sua apresentação. Para demonstrar a relevância dos requisitos, a teoria foi confrontada com o que é aplicado na prática pelos profissionais de saúde, por esse motivo, 
-foram citadas referências científicas que corroboram com a análise. 
+A identificação dos requisitos de um sistema representa o início da elicitação das necessidades da solução proposta. Então, os requisitos definem quais serão os serviços que o sistema deve prover além de um conjunto de restrições existentes na operação do mesmo \cite{sommerville2011}. A técnica utilizada para a identificação dos requisitos desta pesquisa é baseada em pesquisa qualitativa, onde usou-se a entrevista semiestruturada na qual o entrevistador possui um conjunto de perguntas pré-definidas e guia a entrevista de acordo com a opinião do entrevistado~\cite{FLI04}. Ficou definido, que cada requisito deve ser importante para os entrevistados e a nomenclatura estabelecida é de \textbf{REQ-ENTREVISTAS} seguida por um número sequencial correspondente à sua apresentação. Para demonstrar a relevância dos requisitos, a teoria foi confrontada com o que é aplicado na prática pelos profissionais de saúde, por esse motivo, foram citadas referências científicas que corroboram com a análise. 
 
 
 
@@ -547,9 +546,9 @@ A matriz de confusão para duas classes consiste numa matriz $2$\ x $2$\, conten
 \begin{tabular}{ll|c|c|}
 \cline{3-4}
                                                                                                                & \multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{3-4} 
-                                                                                                               &                                              & \textbf{Parkinson}          & \textbf{Não Parkinson}     \\ \hline
+                                                                                                               &                                              & \textbf{Parkinson}          & \textbf{Controle}     \\ \hline
 \multicolumn{1}{|c}{\multirow{\textit{\textbf{\begin{tabular}[c]{@{}c@{}}Classe\\ Atual\end{tabular}}}}} & \multicolumn{1}{|l|}{\textbf{Parkinson}}     & Verdadeiros Positivos (VP)  & Falsos Negativos (FN)      \\ \cline{2-4} 
-\multicolumn{1}{|l}{\textit{\textbf{}}}                                                                        & \multicolumn{1}{|l|}{\textbf{Não Parkinson}} & Falsos Positivo (FP) & Verdadeiros Negativos (VN) \\ \hline
+\multicolumn{1}{|l}{\textit{\textbf{}}}                                                                        & \multicolumn{1}{|l|}{\textbf{Controle}} & Falsos Positivo (FP) & Verdadeiros Negativos (VN) \\ \hline
 \end{tabular}
 \end{table}
 
@@ -565,7 +564,7 @@ A matriz de confusão para duas classes consiste numa matriz $2$\ x $2$\, conten
 % \multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
 %                                              & \textbf{Parkinson}      & \textbf{Não-Parkinson}         \\ \hline
 % \multicolumn{1}{|l|}{\textbf{Parkinson}} & 429       & 71           \\ \hline
-% \multicolumn{1}{|l|}{\textbf{Não Parkinson}}     & 114           & 386     \\ \hline
+% \multicolumn{1}{|l|}{\textbf{Controle}}     & 114           & 386     \\ \hline
 % \end{tabular}
 % \end{table}
 % 
@@ -624,82 +623,55 @@ Como pode ser analisado na Figura~\ref{fig:gridaccuracy}, nós conseguimos uma c
 \end{figure}
 
 
-%As illustrated in Fig.~\ref{fig:gridaccuracy}, we achieved a good classification performance where the worst accuracy was 70.00$\%$ and the best was 86.67$\%$. We obtained very low values for False Positives (FP), with 6.67$\%$ of \textit{FPRate} on the best fit (Fig.~\ref{fig:gridfprate}). This way, $C = 2$ and $\gamma = 3$ were the best kernel parameters, achieving accurate classification and minimizing the \textit{FPRate}. 
-
-%The best classification performance of this study is presented in the confusion matrix for two classes that consist of a matrix $2$\ x $2$\, with (TP, FP, TN and FN) described in Table~\ref{table:resultadomatrizconfusaosvm}. True Positive (TP) indicates correctly classified with abnormal movement.  True Negative (TN) indicates correctly classified with normal movement. False Positives (FP) indicate the normal movement classified as abnormal ones and the False Negatives (FN) indicate the real abnormal movement not correctly detected. 
-
-%Table~\ref{table:metricas} shows the classification performance, where the \textit{TpRate} is TP divided by the total number of positives, which is TP + FN; the \textit{FpRate} is FP divided by the total number of negatives, which is FP + TN. The \textit{Accuracy} is the number of correct classifications divided by the total number of classifications~\citep{datamining2005}.
-
-%\subsection{Técnicas de Otimização da SVM}
-
-
-
-%
-%\begin{figure}
- %\centering
- %\includegraphics[scale=0.4]{./img/svmhyperplane.png}
- %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
- %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-%\caption{Hiperplano de Separação Linear Para Duas Classes}
-%%  \caption{Estágio desenvolvimento de jogos}ETAPA 3 - Avaliação Da Aceitação Da Abordagem Junto aos Pacientes de~\ac{dp} Utilizando \textit{Goal Question Metric}
- %\label{fig:hiperplano}
-%\end{figure}
-%
-%
-%
-%
-%A aprendizagem supervisionada consiste em que dado um conjunto de dados para treinamento 
-%
-%O modelo mais simples de ~\ac{svm},foi o primeiro a ser desenvolvido, foi chamado de Classificador de Margem Máxima, o qual trabalha apenas com dados linearmente separáveis, ficando restrito a essas aplicações. Contudo, apesar dessa restrição o Classificador de Margem Máxima possui propriedades importante que foram fundamentais para a elaboração de SVMs mais eficazes ~\cite{svm-cg-2002}. 
-%
-%\begin{figure}
- %\centering
- %\includegraphics[scale=0.4]{./img/svmhyperplane.png}
- %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
- %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-%\caption{Hiperplano de Separação Linear Para Duas Classes}
-%%  \caption{Estágio desenvolvimento de jogos}
- %\label{fig:hiperplano}
-%\end{figure}
-%
-%Pode ser visto na Figura ~\ref{fig:hiperplano_linear_separavel} uma projeção de dados bidimensionais temos a representação de um conjunto de dados de treinamento  bidimensional e sua separação linear a separação dos dados pode ser realizada linearmente 
-%
-%\begin{figure}
- %\centering
- %\includegraphics[scale=0.4]{./img/hiperplano-linear.png}
- %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
- %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
- %\caption{Espaço de Características Linearmente Separável ~\cite{svm-cg-2002}}
-%%  \caption{Estágio desenvolvimento de jogos}
- %\label{fig:hiperplano_linear_separavel}
-%\end{figure}
-%
-%\begin{figure}
- %\centering
- %\includegraphics[scale=0.4]{./img/hiperplano-linear.png}
- %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
- %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
- %\caption{Espaço de Características Linearmente Inseparável ~\cite{svm-cg-2002}}
-%%  \caption{Estágio desenvolvimento de jogos}
- %\label{fig:linear-inseparavel}
-%\end{figure}
-%
-%
-%
-%% Vapnik idealizou o princípio indutivo de Minimização do Risco Estrutural. Este princípio busca minimizar o erro do conjunto de treinamento (risco empírico), juntamente com o erro do conjunto de teste \cite{svm-cg-2002}.
-%
-%Formalmente, classificadores que separam os dados por meio de um hiperplano de Equação(~\ref{eq:hiperplano}) são denominados discriminante linear~\cite{valt2010}.
-%\linebreak
-%\begin{equation}
-%f(x)=w^Tx+b=0
-%\label{eq:hiperplano}
-%\end{equation}.
-
-
-
 \subsubsection{Resultados Obtidos}
-A Matriz de Confusão obtida indica que existem três indivíduos classificados como ``Não-Parkinson'' e que possuem a doença, no entanto analisando as características do movimento desses indivíduos ``Parkinsonianos'' percebemos que eles possuíam uma amplitude de movimento e uma velocidade angular bastante próximas dos indivíduos do Grupo Controle. Logo, estes não apresentam o sintoma de bradicinesia, o que pode indicar que o indivíduo esteja no início da doença, ou bem medicado, ou inclusive não apresentar este sinal motor o que está adequada a sintomatologia do~\ac{dp}. 
+
+
+
+
+A Matriz de Confusão obtida indica que existem três indivíduos classificados como ``Controle'' e que possuem a doença, no entanto analisando as características do movimento dos indivíduos com~\ac{dp} percebemos que eles apresentaram uma amplitude de movimento e uma velocidade angular bastante próximas dos indivíduos do Grupo Controle. Logo, estes não apresentam o sintoma de bradicinesia, o que pode indicar que o indivíduo esteja no início da doença, ou bem medicado, ou não apresentar este sinal motor o que corrobora com a sintomatologia do~\ac{dp}. 
 Um resultado, que não era esperado nesta pesquisa é a ocorrência de um indivíduo que não possui~\ac{dp} mas mesmo assim foi classificados com o sintoma. Analisando seus dados foi percebido que ele possuía sinais muito próximos do grupo dos indivíduos com~\ac{dp}, logo ele possivelmente apresenta algum déficit motor o que condiz com o resultado da classificação.
+
+\begin{table}[!h]
+\centering
+\caption{Results of Arm Abduction Amplitude}
+\label{table:amplitude}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Indivíduo} & \textbf{\begin{tabular}[c]{@{}l@{}}Média da\\ Amplitude \\ Braço Esquerdo(º)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Média da\\ Amplitude\\ Braço Direito(º) \end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Classe\\ Preditiva\end{tabular}} \\ \hline
+Controle 1         & \multicolumn{1}{r|}{153.62}                                                          & \multicolumn{1}{r|}{151.14}                                                          & Controle                                                            \\ \hline
+Controle 2         & \multicolumn{1}{r|}{165.31}                                                          & \multicolumn{1}{r|}{151.84}                                                          & Controle                                                            \\ \hline
+Controle 3         & \multicolumn{1}{r|}{155.44}                                                          & \multicolumn{1}{r|}{163.31}                                                          & Controle                                                            \\ \hline
+Controle 4         & \multicolumn{1}{r|}{169.12}                                                          & \multicolumn{1}{r|}{169.39}                                                          & Controle                                                            \\ \hline
+Controle 5         & \multicolumn{1}{r|}{157.20}                                                          & \multicolumn{1}{r|}{162.72}                                                          & Controle                                                            \\ \hline
+Controle 6         & \multicolumn{1}{r|}{162.99}                                                          & \multicolumn{1}{r|}{167.25}                                                          & Controle                                                            \\ \hline
+Controle 7         & \multicolumn{1}{r|}{166.90}                                                          & \multicolumn{1}{r|}{166.93}                                                          & Controle                                                            \\ \hline
+Controle 8         & \multicolumn{1}{r|}{154.68}                                                          & \multicolumn{1}{r|}{159.13}                                                          & Controle                                                            \\ \hline
+Controle 9         & \multicolumn{1}{r|}{162.31}                                                          & \multicolumn{1}{r|}{158.17}                                                          & Controle                                                            \\ \hline
+Controle 10         & \multicolumn{1}{r|}{135.22}                                                          & \multicolumn{1}{r|}{131.85}                                                          & \textbf{Parkinson}                                                            \\ \hline
+Controle 11         & \multicolumn{1}{r|}{162.13}                                                          & \multicolumn{1}{r|}{167.61}                                                          & Controle                                                            \\ \hline
+Controle 12         & \multicolumn{1}{r|}{161.69}                                                          & \multicolumn{1}{r|}{166.78}                                                          & Controle                                                            \\ \hline
+Controle 13         & \multicolumn{1}{r|}{160.47}                                                          & \multicolumn{1}{r|}{155.05}                                                          & Controle                                                            \\ \hline
+Controle 14         & \multicolumn{1}{r|}{174.37}                                                          & \multicolumn{1}{r|}{167.66}                                                          & Controle                                                            \\ \hline
+Controle 15         & \multicolumn{1}{r|}{155.08}                                                          & \multicolumn{1}{r|}{167.83}                                                          & Controle                                                            \\ \hline
+Parkinson 1         & \multicolumn{1}{r|}{125.80}                                                          & \multicolumn{1}{r|}{119.73}                                                          & Parkinson                                                            \\ \hline
+Parkinson 2         & \multicolumn{1}{r|}{131.28}                                                          & \multicolumn{1}{r|}{123.49}                                                          & Parkinson                                                            \\ \hline
+Parkinson 3         & \multicolumn{1}{r|}{156.66}                                                          & \multicolumn{1}{r|}{149.46}                                                          & \textbf{Controle}                                                            \\ \hline
+Parkinson 4         & \multicolumn{1}{r|}{139.90}                                                          & \multicolumn{1}{r|}{142.83}                                                          & Parkinson                                                            \\ \hline
+Parkinson 5         & \multicolumn{1}{r|}{147.37}                                                          & \multicolumn{1}{r|}{153.13}                                                          & Parkinson         \\ \hline
+Parkinson 6         & \multicolumn{1}{r|}{115.32}                                                          & \multicolumn{1}{r|}{123.56}                                                          & Parkinson                                                            \\ \hline
+Parkinson 7         & \multicolumn{1}{r|}{129.75}                                                          & \multicolumn{1}{r|}{133.04}                                                          & Parkinson                                                            \\ \hline
+Parkinson 8         & \multicolumn{1}{r|}{166.62}                                                          & \multicolumn{1}{r|}{165.63}                                                          & \textbf{Controle}                                                            \\ \hline
+Parkinson 9         & \multicolumn{1}{r|}{143.95}                                                          & \multicolumn{1}{r|}{140.45}                                                          & Parkinson                                                            \\ \hline
+Parkinson 10         & \multicolumn{1}{r|}{136.86}                                                          & \multicolumn{1}{r|}{151.03}                                                          & Parkinson                                                            \\ \hline
+Parkinson 11         & \multicolumn{1}{r|}{156.87}                                                          & \multicolumn{1}{r|}{142.93}                                                          & Parkinson                                                            \\ \hline
+Parkinson 12         & \multicolumn{1}{r|}{166.59}                                                          & \multicolumn{1}{r|}{157.81}                                                          & \textbf{Controle}                                                            \\ \hline
+Parkinson 13         & \multicolumn{1}{r|}{147.99}                                                          & \multicolumn{1}{r|}{142.02}                                                          & Parkinson                                                            \\ \hline
+Parkinson 14         & \multicolumn{1}{r|}{141.95}                                                          & \multicolumn{1}{r|}{150.60}                                                          & Parkinson                                                            \\ \hline
+Parkinson 15         & \multicolumn{1}{r|}{125.69}                                                          & \multicolumn{1}{r|}{140.62}                                                          & Parkinson                                                            
+\\ \hline
+\end{tabular}
+\end{table}
+
 
 \begin{table}[!htbp]
 \caption{Resultado da Matriz de Confusão SVM}
@@ -708,9 +680,9 @@ Um resultado, que não era esperado nesta pesquisa é a ocorrência de um indiv�
 \begin{tabular}{l|c|c|}
 \cline{2-3}
 \multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
-                                             & \textbf{Parkinson}      & \textbf{Não-Parkinson}         \\ \hline
+                                             & \textbf{Parkinson}      & \textbf{Controle}         \\ \hline
 \multicolumn{1}{|l|}{\textbf{Parkinson}} & 12       & 3           \\ \hline
-\multicolumn{1}{|l|}{\textbf{Não Parkinson}}     & 1           & 14     \\ \hline
+\multicolumn{1}{|l|}{\textbf{Controle}}     & 1           & 14     \\ \hline
 \end{tabular}
 
 \end{table}
@@ -732,6 +704,14 @@ Um resultado, que não era esperado nesta pesquisa é a ocorrência de um indiv�
 \caption{Métricas da Matriz de Confusão}
 \centering
 \begin{tabular}{|l|r|}
+
+
+
+
+
+
+
+
 \hline
 \multicolumn{2}{|l|}{\textbf{Métricas}} \\ \hline
 \textbf{TpRate}                    & 80,00$\%$\                 \\ \hline
@@ -902,7 +882,7 @@ Então, tem-se um percentual de 83\% de usuários que poderiam integrar o monito
                 %\caption{Pergunta 2 (Sim: 67\%; Não: 33\%)}
                 %\label{fig:question2}
         %\end{subfigure}
-        %~
+        %~ {[\degree]}
         %\begin{subfigure}[b]{0.3\textwidth}
                 %\centering
                 %\includegraphics[width=\textwidth]{./img/chart_3.png}
