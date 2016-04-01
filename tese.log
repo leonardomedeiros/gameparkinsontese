@@ -1,15 +1,25 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.17)  31 MAR 2016 10:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.4.24)  1 APR 2016 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tese.tex
 (./tese.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
 (./copin.cls
 Document Class: copin 1996/10/07 v1.0 Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(c:/texlive/2012/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -24,54 +34,53 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
+(c:/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(c:/texlive/2012/texmf-dist/tex/generic/babel/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
+(c:/texlive/2012/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 145.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
+(c:/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-))
-(./copin.sty) (./doutor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+)) (./copin.sty)
+(./doutor.sty) (c:/texlive/2012/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+(c:/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(c:/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(c:/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(c:/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(c:/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -82,59 +91,59 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen106
 \epsfysize=\dimen107
 )
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+(c:/texlive/2012/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 ) (./acronym.sty
 Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
 
-(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+(c:/texlive/2012/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5 Variant command support
 )
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+(c:/texlive/2012/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2012/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
 \integerpart=\count90
 \decimalpart=\count91
 )
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+Package: xstring 2010/03/28  v1.5d  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen108
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen109
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 211.
 \uproot@=\count93
 \leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count95
 \DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen110
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count97
 \c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
@@ -155,18 +164,18 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+(c:/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
  (./utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
-Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+(c:/texlive/2012/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2004/10/17 UCS: Unicode input support
  (./uni-global.def
 File: uni-global.def 2004/10/17 UCS: Unicode global data
 )
@@ -175,10 +184,10 @@ File: uni-global.def 2004/10/17 UCS: Unicode global data
 \uc@combtoksb=\toks24
 \uc@temptokena=\toks25
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(c:/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+(c:/texlive/2012/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 )) (./fancyheadings.sty
@@ -187,19 +196,18 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 \plainheadrulewidth=\dimen119
 \plainfootrulewidth=\dimen120
 \headwidth=\dimen121
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+)
+(c:/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+(c:/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \captionmargin=\dimen122
 \captionmargin@=\dimen123
 \captionwidth=\dimen124
-\caption@tempdima=\dimen125
-\caption@indent=\dimen126
-\caption@parindent=\dimen127
-\caption@hangindent=\dimen128
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -213,19 +221,19 @@ p \sbox \@tempboxa {#1: #2}\ifdim \wd \@tempboxa >\hsize #1: #2\par \else \glob
 al \@minipagefalse \hbox to\hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \bel
 owcaptionskip .
 \c@ContinuedFloat=\count105
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+) (c:/texlive/2012/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
 \c@subfigure=\count106
 \c@subtable=\count107
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+(c:/texlive/2012/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip46
 \LTright=\skip47
 \LTpre=\skip48
 \LTpost=\skip49
 \LTchunksize=\count108
-\LTcapwidth=\dimen129
+\LTcapwidth=\dimen128
 \LT@head=\box28
 \LT@firsthead=\box29
 \LT@foot=\box30
@@ -236,37 +244,37 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count112
 \LT@p@ftn=\toks26
 )
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+(c:/texlive/2012/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/babelbib/babelbib.sty
+(c:/texlive/2012/texmf-dist/tex/latex/babelbib/babelbib.sty
 Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 \c@btxromaniannumeral=\count113
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(c:/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count114
 \lst@gtempboxa=\box32
 \lst@token=\toks27
 \lst@length=\count115
-\lst@currlwidth=\dimen130
+\lst@currlwidth=\dimen129
 \lst@column=\count116
 \lst@pos=\count117
-\lst@lostspace=\dimen131
-\lst@width=\dimen132
+\lst@lostspace=\dimen130
+\lst@width=\dimen131
 \lst@newlines=\count118
 \lst@lineno=\count119
-\lst@maxwidth=\dimen133
+\lst@maxwidth=\dimen132
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+(c:/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count120
 \lst@skipnumbers=\count121
 \lst@framebox=\box33
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2014/09/06 1.5e listings configuration
+(c:/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
  (./tese.aux
 
 LaTeX Warning: Label `img:catch' multiply defined.
@@ -290,31 +298,31 @@ LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 70.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (c:/texlive/2012/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(c:/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
-\scratchdimen=\dimen134
+\scratchdimen=\dimen133
 \scratchbox=\box34
 \nofMPsegments=\count123
 \nofMParguments=\count124
 \everyMPshowfont=\toks28
 \MPscratchCnt=\count125
-\MPscratchDim=\dimen135
+\MPscratchDim=\dimen134
 \MPnumerator=\count126
 \makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks29
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -323,22 +331,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(c:/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -350,7 +358,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(c:/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -360,18 +368,19 @@ File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+ (c:/texlive/2012/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
+
 babelbib: Use citation-dependent languages in bibliography
 babelbib: Set bibliography fall-back language to english
-(/usr/share/texlive/texmf-dist/tex/latex/babelbib/english.bdf
+(c:/texlive/2012/texmf-dist/tex/latex/babelbib/english.bdf
 File: english.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 
 babelbib extension \bibsenglish added to \extrasenglish
 babelbib extension \btxifchangecaseon added to \extrasenglish
-) (/usr/share/texlive/texmf-dist/tex/latex/babelbib/portuguese.bdf
+) (c:/texlive/2012/texmf-dist/tex/latex/babelbib/portuguese.bdf
 File: portuguese.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH
 )
 
@@ -379,12 +388,12 @@ babelbib extension \bibsportuges added to \extrasportuges
 babelbib extension \btxifchangecaseoff added to \extrasportuges
 )
 \c@lstlisting=\count128
- (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+ (c:/texlive/2012/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2012/04/20 UCS: Unicode data U+0000..U+00FF
 )
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 85.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+(c:/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
@@ -404,14 +413,13 @@ and I'll forget about whatever was undefined.
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 88.
  (./resumo.tex) [1]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 93.
-
-(./abstract.tex) [1]
+ (./abstract.tex) [1]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 150.
  (./tese.toc
@@ -576,8 +584,8 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[11] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+[11] (c:/texlive/2012/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2012/04/20 UCS: Unicode data U+2000..U+20FF
 )
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
@@ -737,8 +745,8 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [25 <./img/amplitude-braco-picos.png (PNG copy)>]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/09/06 1.5e listings language file
+(c:/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 217.
@@ -840,7 +848,7 @@ Package acronym Warning: Acronym `JOGUE-ME' is not defined on input line 69.
 Package acronym Warning: Acronym `JOGUE-ME' is not defined on input line 69.
 
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 92.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+(c:/texlive/2012/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
@@ -1038,9 +1046,12 @@ Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
 [57]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 640.
 
+LaTeX Warning: Citation `kantardzic2011data' on page 58 undefined on input line
+ 635.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 643.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1049,7 +1060,11 @@ Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
 [58 <./img/gridsearch.png (PNG copy)>]
-Underfull \hbox (badness 1337) in paragraph at lines 733--733
+Overfull \vbox (18.75586pt too high) has occurred while \output is active []
+
+
+[59 <./img/gridsearchfprate.png (PNG copy)>]
+Underfull \hbox (badness 1337) in paragraph at lines 736--736
 \T1/ptm/b/n/17.28 Junto aos Pa-ci-en-tes de [][] Uti-li-zando \T1/ptm/b/it/17.2
 8 Goal
  []
@@ -1058,14 +1073,10 @@ Underfull \hbox (badness 1337) in paragraph at lines 733--733
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[59 <./img/gridsearchfprate.png (PNG copy)>]
-Overfull \vbox (18.75586pt too high) has occurred while \output is active []
-
-
 [60] <./img/gqm.png, id=269, 739.563pt x 357.9774pt>
 File: ./img/gqm.png Graphic file (type png)
  <use ./img/gqm.png>
-Package pdftex.def Info: ./img/gqm.png used on input line 742.
+Package pdftex.def Info: ./img/gqm.png used on input line 745.
 (pdftex.def)             Requested size: 369.7806pt x 178.98825pt.
 
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
@@ -1076,22 +1087,22 @@ Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
 [62 <./img/gqm.png>]
-Overfull \hbox (2.85274pt too wide) in paragraph at lines 830--830
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 833--833
 []\T1/ptm/m/n/12 91,67%| 
  []
 
 
-Overfull \hbox (2.85274pt too wide) in paragraph at lines 831--831
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 834--834
 []\T1/ptm/m/n/12 91,67%| 
  []
 
 
-Overfull \hbox (2.85274pt too wide) in paragraph at lines 832--832
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 835--835
 []\T1/ptm/m/n/12 41,67%| 
  []
 
 
-Overfull \hbox (2.85274pt too wide) in paragraph at lines 832--832
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 835--835
 []\T1/ptm/m/n/12 58,33%| 
  []
 
@@ -1102,20 +1113,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ./img/chart_1-.png Graphic file (type png)
 
 <use ./img/chart_1-.png>
-Package pdftex.def Info: ./img/chart_1-.png used on input line 844.
+Package pdftex.def Info: ./img/chart_1-.png used on input line 847.
 (pdftex.def)             Requested size: 342.0004pt x 249.25452pt.
  <./img/chart_3-.png, id=279, 445.665pt x 367.3725pt>
 File: ./img/chart_3-.png Graphic file (type png)
 
 <use ./img/chart_3-.png>
-Package pdftex.def Info: ./img/chart_3-.png used on input line 852.
+Package pdftex.def Info: ./img/chart_3-.png used on input line 855.
 (pdftex.def)             Requested size: 311.96336pt x 257.15898pt.
 
 <./img/chart_10-.png, id=280, 472.01344pt x 363.60844pt>
 File: ./img/chart_10-.png Graphic file (type png)
 
 <use ./img/chart_10-.png>
-Package pdftex.def Info: ./img/chart_10-.png used on input line 860.
+Package pdftex.def Info: ./img/chart_10-.png used on input line 863.
 (pdftex.def)             Requested size: 330.40715pt x 254.52417pt.
 
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
@@ -1137,8 +1148,11 @@ Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 ]
 Cap\'{\i }tulo 6.
+[67
+
+]
 ! Undefined control sequence.
-l.8 ...ese, concluímos que a abordagem de ~ac\sms
+l.10 ...se, concluímos que a abordagem de ~ac\sms
                                                   } baseada em jogos para ac...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1147,14 +1161,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Too many }'s.
-l.8 ...se, concluímos que a abordagem de ~ac\sms}
+l.10 ...e, concluímos que a abordagem de ~ac\sms}
                                                    baseada em jogos para aco...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-[67
-
-]) (./tese.bbl
+) (./tese.bbl
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1189,14 +1201,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--154
 ptm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Dispon�-vel em:
  []
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-255.def
-File: uni-255.def 2013/05/13 UCS: Unicode data U+FF00..U+FFFF
+(c:/texlive/2012/texmf-dist/tex/latex/ucs/data/uni-255.def
+File: uni-255.def 2012/04/20 UCS: Unicode data U+FF00..U+FFFF
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uninames.dat
-File: uninames.dat 2013/05/13 UCS: Unicode character names, compressed
+(c:/texlive/2012/texmf-dist/tex/latex/ucs/data/uninames.dat
+File: uninames.dat 2012/04/20 UCS: Unicode character names, compressed
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-255.def
-File: uni-255.def 2013/05/13 UCS: Unicode data U+FF00..U+FFFF
+(c:/texlive/2012/texmf-dist/tex/latex/ucs/data/uni-255.def
+File: uni-255.def 2012/04/20 UCS: Unicode data U+FF00..U+FFFF
 )
 
 ! Package ucs Error: Unknown Unicode character 65533 = U+FFFD,
@@ -1216,7 +1228,7 @@ Enter I!<RET> to define the glyph.
 
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 170.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+(c:/texlive/2012/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
@@ -1226,21 +1238,10 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [70]
-Underfull \hbox (badness 4181) in paragraph at lines 282--291
+Underfull \hbox (badness 4181) in paragraph at lines 293--302
 []\T1/ptm/m/n/12 Gonßalves, Val-ter Fil-ipe Carnim: \T1/ptm/m/it/12 Anýlise c
 om-par-a-tiva dos clas-si-fi-cadores
  []
-
-! Undefined control sequence.
-\u-default-162 #1->\textcent 
-                             
-l.327 ...ases BiomecÃ¢nicas do Movimento Humano}
-                                                  }.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
@@ -1248,9 +1249,20 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 [71]
 ! Undefined control sequence.
+\u-default-162 #1->\textcent 
+                             
+l.338 ...ases BiomecÃ¢nicas do Movimento Humano}
+                                                  }.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
 \u-default-8364 ...ifx \euro \undefined \texteuro 
                                                   \else \euro \fi 
-l.347 ...isease: clinical features and diagnosis}}
+l.358 ...isease: clinical features and diagnosis}}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1258,29 +1270,29 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-33.def
-File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
+(c:/texlive/2012/texmf-dist/tex/latex/ucs/data/uni-33.def
+File: uni-33.def 2012/04/20 UCS: Unicode data U+2100..U+21FF
 )
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[72] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
-File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
+[72] (c:/texlive/2012/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2012/04/20 UCS: Unicode data U+0100..U+01FF
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 491.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 502.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [73]
-Underfull \hbox (badness 8075) in paragraph at lines 556--562
+Underfull \hbox (badness 8075) in paragraph at lines 567--573
 []\T1/ptm/m/n/12 Research, Provalis: \T1/ptm/m/it/12 Qda miner lite v1.2.2\T1/p
 tm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Dispon�-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--562
+Underfull \hbox (badness 10000) in paragraph at lines 567--573
 \T1/ptm/m/n/12 http://provalisresearch.com/products/qualitative-data-analysis-s
 oftware/.  òl-timo
  []
@@ -1293,7 +1305,7 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 ! Undefined control sequence.
 \u-default-162 #1->\textcent 
                              
-l.694   pela ressonÃ¢ncia magnÃ©tica}}
+l.705   pela ressonÃ¢ncia magnÃ©tica}}
                                           .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1302,7 +1314,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 691--696
+Underfull \hbox (badness 2707) in paragraph at lines 702--707
 []\T1/ptm/m/n/12 Vedolin, Leonardo: \T1/ptm/m/it/12 Avaliaßÿo da doenßa de p
 arkin-son pela resson�n-cia
  []
@@ -1310,7 +1322,7 @@ arkin-son pela resson�n-cia
 ! Undefined control sequence.
 \u-default-8364 ...ifx \euro \undefined \texteuro 
                                                   \else \euro \fi 
-l.700 ...Multivariada Da Teoria Ã€ PrÃ¡tica}}
+l.711 ...Multivariada Da Teoria Ã€ PrÃ¡tica}}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1402,7 +1414,7 @@ ar-kin-son pela
 
 
 Underfull \hbox (badness 1466) in paragraph at lines 2--3
-[] \T1/ptm/m/n/12 de Lon-dres [] 34[]. O pa-ci-ente ser�
+[] \T1/ptm/m/n/12 de Lon-dres [] 35[]. O pa-ci-ente ser�
  []
 
 [90
@@ -1453,27 +1465,26 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9854 strings out of 493105
- 135477 string characters out of 6137072
- 312982 words of memory out of 5000000
- 13062 multiletter control sequences out of 15000+600000
- 64987 words of font info for 79 fonts, out of 8000000 for 9000
- 1142 hyphenation exceptions out of 8191
- 38i,17n,44p,1211b,1896s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on tese.pdf (104 pages, 2480355 bytes).
+ 9680 strings out of 493488
+ 132339 string characters out of 3144748
+ 303073 words of memory out of 3000000
+ 12733 multiletter control sequences out of 15000+200000
+ 64987 words of font info for 79 fonts, out of 3000000 for 9000
+ 958 hyphenation exceptions out of 8191
+ 38i,17n,43p,1282b,1885s stack positions out of 5000i,500n,10000p,200000b,50000s
+{c:/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2012/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2012/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2012/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texliv
+e/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2012/texmf-dis
+t/fonts/type1/urw/courier/ucrro8a.pfb><c:/texlive/2012/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb><c:/texlive/2012/texmf-dist/fonts/type1/urw/times/utmbi8a.p
+fb><c:/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/201
+2/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tese.pdf (104 pages, 2482426 bytes).
 PDF statistics:
  427 PDF objects out of 1000 (max. 8388607)
  272 compressed objects within 3 object streams

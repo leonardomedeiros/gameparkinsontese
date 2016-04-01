@@ -170,6 +170,17 @@
   Linear E AplicaÃ§Ãµes}.
 \newblock \btxpublisherfont {Atual}, 1990.
 
+\bibitem {multisvm2011}
+\btxnamefont {\btxlastnamefont {Chamasemani}, F.\btxfnamespacelong F.}
+  \btxandlong {}\ \btxnamefont {Y.\btxfnamespacelong P. \btxlastnamefont
+  {Singh}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Multi-class support
+  vector machine (svm) classifiers -- an application in hypothyroid detection
+  and classification}{Multi-class Support Vector Machine (SVM) Classifiers --
+  An Application in Hypothyroid Detection and Classification}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Bio-Inspired Computing: Theories and
+  Applications (BIC-TA), 2011 Sixth International Conference on}, \btxpageslong
+  {}\ 351--356, \btxprintmonthyear{.}{Sept}{2011}{long}.
+
 \bibitem {sacsvmhms2014}
 \btxnamefont {\btxlastnamefont {Chen}, Huan}, \btxnamefont
   {Guo\btxfnamespacelong Tan \btxlastnamefont {Liao}}, \btxnamefont
