@@ -1,844 +1,768 @@
-% This file was created with JabRef 2.9.2.
+% This file was created with JabRef 2.10b2.
 % Encoding: UTF8
 
-@INPROCEEDINGS{aarhus_negotiating_2010,
-  author = {Aarhus, Rikke and Ballegaard, Stinne Aal{\o}kke},
-  title = {Negotiating boundaries: managing disease at home},
-  booktitle = {International Conference on Human Factors in Computing Systems},
-  year = {2010},
-  publisher = {ACM}
-}
-
-@BOOK{albanese2012,
-  title = {Hyperkinectic Movement Disorder - Diferential Diagnosis and Treatment},
-  publisher = {Wiley-Blackwell},
-  year = {2012},
-  author = {Albanese, Alberto and Jankovic, Joseph}
-}
-
-@ARTICLE{alemdar,
-  author = {Alemdar, Hande and Ersoy, Cem},
-  title = {Wireless Sensor Networks for Healthcare: A Survey},
-  journal = {Computer Networks},
-  year = {2010}
-}
-
-@ARTICLE{alemdar2015,
-  author = {Alemdar, Hande and Tunca, Can and Ersoy, Cem},
-  title = {Daily Life Behaviour Monitoring for Health Assessment Using Machine
-	Learning: Bridging the Gap Between Domains},
-  journal = {Personal Ubiquitous Computing},
-  year = {2015}
-}
-
-@ARTICLE{biomecanica99,
-  author = {Amadio, Armando and Costa, Paulo and Sacco, Isabel and SerrÃ£o, JÃºlio
-	and Araujo, Rubens and Mochizuki, Luiz},
-  title = {IntroduÃ§Ã£o Ã  BiomecÃ¢nica para AnÃ¡lise do Movimento Humano},
-  journal = {Revista Brasileira De Fisioterapia},
-  year = {1999}
-}
-
-@ARTICLE{bardram2010,
-  author = {Arnrich, Bert and Mayora, Oscar and Bardram, Jakob and e Tr{\"{o}}ster,
-	Gerhard},
-  title = {Pervasive Healthcare - Paving the Way for a Pervasive, User-Centered
-	and Preventive Healthcare Model},
-  journal = {Methods of Information in Medicine},
-  year = {2010}
-}
-
-@ARTICLE{arntzen2011,
-  author = {Aurelie Aurilla Bechina Arntzen},
-  title = {Game based Learning to Enhance Cognitive and Physical Capabilities
-	of Elderly People: Concepts and Requirements},
-  journal = {World Academy of Science Engineering and Technology},
-  year = {2011}
-}
-
-@MISC{esa2015,
-  author = {Entertainment Software Association},
-  title = {Essential Facts about the U.S. Computer and Video Game Industry:
-	Sales, Demophahy and Usage Data},
-  year = {2015}
-}
-
-@MISC{esa2011,
-  author = {Entertainment Software Association},
-  title = {Essential Facts about the U.S. Computer and Video Game Industry},
-  year = {2011},
-  owner = {leonardo},
-  timestamp = {2016.03.26}
-}
-
-@INPROCEEDINGS{atkinson2010,
-  author = {Atkinson, S.D. and Narasimhan, V.L.},
-  title = {Design of an introductory medical gaming environment for diagnosis
-	and management of Parkinson's disease},
-  booktitle = {Trendz in Information Sciences Computing},
-  year = {2010},
-  owner = {leonardo},
-  timestamp = {2015.10.03}
-}
-
-@INPROCEEDINGS{bachlin_parkinsons_2009,
-  author = {Bachlin, M. and Plotnik, M. and Roggen, D. and Inbar, N. and Giladi,
-	N. and Hausdorff, J. and Tr\"{o}ster, G.},
-  title = {Parkinsons disease patients perspective on context aware wearable
-	technology for auditive assistance},
-  booktitle = {International Conference on Pervasive Computing Technologies for
-	Healthcare},
-  year = {2009},
-  publisher = {IEEE}
-}
-
-@INPROCEEDINGS{Ballegaard:2008:HEL:1357054.1357336,
-  author = {Ballegaard, Stinne Aal{\o}kke and Hansen, Thomas Riisgaard and Kyng,
-	Morten},
-  title = {Healthcare in everyday life: designing healthcare services for daily
-	life},
-  booktitle = {Conference on Human factors in computing systems},
-  year = {2008},
-  publisher = {ACM}
-}
-
-@INPROCEEDINGS{berg03,
-  author = {Tracy Barger and Donald Brown and Majd Alwan},
-  title = {Health status monitoring through analysis of behavioral patterns},
-  booktitle = {Congress of the Italian Association for Artificial Intelligence on
-	Ambient Intelligence},
-  year = {2003},
-  publisher = {Springer-Verlag}
-}
-
-@INPROCEEDINGS{bartolome11,
-  author = {Bartolome, N.A. and Zorrilla, A.M. and Zapirain, B.G.},
-  title = {Can game-based therapies be trusted? Is game-based education effective?
-	A systematic review of the Serious Games for health and education},
-  booktitle = {International Conference on Computer Games},
-  year = {2011},
-  publisher = {ACM}
-}
-
-@MISC{peakdetect,
-  author = {Eli Billauer},
-  title = {Peak Detection in Matlab},
-  howpublished = {\textit{Software}, {D}isponÃ­vel em: http://www.billauer.co.il/peakdet.html},
-  year = {2012}
-}
-
-@INPROCEEDINGS{brox11,
-  author = {Brox, E. and Luque, L.F. and Evertsen, G.J. and Hernandez, J.E.G.},
-  title = {Exergames for elderly: Social exergames to persuade seniors to increase
-	physical activity},
-  booktitle = {International Conference on Pervasive Computing Technologies for
-	Healthcare},
-  year = {2011},
-  publisher = {IEEE}
-}
-
-@BOOK{algebra90,
-  title = {Ã�lgebra Linear E AplicaÃ§Ãµes},
-  publisher = {Atual},
-  year = {1990},
-  author = {Carlos Callioli and Hygino Domingues and Roberto Costa}
-}
-
-@INPROCEEDINGS{multisvm2011,
-  author = {F. F. Chamasemani and Y. P. Singh},
-  title = {Multi-class Support Vector Machine (SVM) Classifiers -- An Application
-	in Hypothyroid Detection and Classification},
-  booktitle = {Bio-Inspired Computing: Theories and Applications (BIC-TA), 2011
-	Sixth International Conference on},
-  year = {2011},
-  pages = {351-356},
-  month = {Sept},
-  abstract = {The paper presents a Multi-class Support Vector Machine classifier
-	and its application to hypothyroid detection and classification.
-	Support Vector Machines (SVM) have been well known method in the
-	machine learning community for binary classification problems. Multi-class
-	SVMs (MCSVM) are usually implemented by combining several binary
-	SVMs. The objective of this work is to show: first, robustness of
-	various kind of kernels for Multi-class SVM classifier, second, a
-	comparison of different constructing methods for Multi-class SVM,
-	such as One-Against-One and One-Against-All, and finally comparing
-	the classifiers' accuracy of Multi-class SVM classifier to AdaBoost
-	and Decision Tree. The simulation results show that One-Against-All
-	Support Vector Machines (OAASVM) are superior to One-Against-One
-	Support Vector Machines (OAOSVM) with polynomial kernels. The accuracy
-	of OAASVM is also higher than AdaBoost and Decision Tree classifier
-	on hypothyroid disease datasets from UCI machine learning dataset.},
-  doi = {10.1109/BIC-TA.2011.51},
-  keywords = {diseases;learning (artificial intelligence);medical computing;pattern
-	classification;support vector machines;MCSVM;OAASVM;UCI machine learning;hypothyroid
-	classification;hypothyroid detection;multiclass support vector machine
-	classifiers;one-against-all support vector machines;polynomial kernels;Accuracy;Kernel;Optimization;Particle
-	separators;Support vector machine classification;Training;Boosting;Multi-class
-	SVM;SVM Classification;Support vector machine},
-  owner = {leonardo},
-  timestamp = {2016.04.01}
-}
-
-@INPROCEEDINGS{sacsvmhms2014,
-  author = {Chen, Huan and Liao, Guo-Tan and Fan, Yao-Chung and Cheng, Bo-Chao
-	and Chen, Cheng-Min and Kuo, Ting-Chun},
-  title = {Design and Implementation of a Personal Health Monitoring System
-	with an Effective SVM-based PVC Detection Algorithm in Cardiology},
-  booktitle = {Symposium On Applied Computing},
-  year = {2014},
-  publisher = {ACM}
-}
-
-@ARTICLE{visionbased2009,
-  author = {Cho, Chien-Wen and Chao, Wen-Hung and Lin, Sheng-Huang and Chen,
-	You-Yin},
-  title = {A vision-based analysis system for gait recognition in patients with
-	Parkinson's disease},
-  journal = {Expert Syst. Appl.},
-  year = {2009}
-}
-
-@BOOK{statisticshandbook2009,
-  title = {Nist/Sematech Engineering Statistics Handbook},
-  year = {2003},
-  editor = {ITL Statistical Engineering Division},
-  author = {Charline Cleraux and Carroll Croarkin and James Filliben and Will
-	Guthrie and Alan Heckert and Mark Reeder and Tom Ryan and Jolene
-	Splett and Nien-Fan Zhang}
-}
-
-@ELECTRONIC{acm,
-  author = {Association for Computing Machinery},
-  month = {Maio},
-  year = {2013},
-  howpublished = {http://www.acm.org/},
-  owner = {leonardo},
-  timestamp = {2013.05.30}
-}
-
-@INPROCEEDINGS{quantitativeparkinson2011,
-  author = {Das, S. and Trutoiu, L. and Murai, A. and Alcindor, D. and Oh, M.
-	and De la Torre, F. and Hodgins, J.},
-  title = {Quantitative measurement of motor symptoms in Parkinson's disease:
-	A study with full-body motion capture data},
-  booktitle = {Engineering in Medicine and Biology Society,EMBC, 2011 Annual International
-	Conference of the IEEE},
-  year = {2011},
-  pages = {6789--6792},
-  month = sep,
-  citeulike-article-id = {11022204},
-  citeulike-linkout-0 = {http://dx.doi.org/10.1109/IEMBS.2011.6091674},
-  doi = {10.1109/IEMBS.2011.6091674},
-  file = {:C\:\\Users\\leonardo\\Dropbox\\Leonardo\\gaitdb\\articles\\Quantitative Parkinson Disease aa Study of Full-body motion capture data.pdf:PDF},
-  keywords = {kinematics, motion-capture, parkinsons},
-  owner = {leonardo},
-  posted-at = {2012-08-06 18:50:33},
-  priority = {2},
-  timestamp = {2013.08.28}
-}
-
-@BOOK{do2007parkinson,
-  title = {Parkinson's Disease: Diagnosis Clinical Management},
-  publisher = {Demos Medical Publishing},
-  year = {2007},
-  author = {Stewart Do and William Weiner}
-}
-
-@BOOK{statisticterms2006,
-  title = {The Oxford Dictionary of Statistical Terms},
-  publisher = {Oxford University Press},
-  year = {2006},
-  editor = {The Internationall Statistical Institute},
-  author = {Yadolah Dodge and David Cox and Daniel Commenges and Anthony Davison
-	and Patty Solomon and Suzan Wilson}
-}
-
-@ARTICLE{homecarebrazil2011,
-  author = {Elaine ThumÃ©, Luiz Augusto Facchini, Grace Wyshak and Paul Campbell},
-  title = {The Utilization of Home Care by the Elderly in Brazil's Primary Health
-	Care System},
-  journal = {Am J Public Health},
-  year = {2011}
-}
-
-@INCOLLECTION{updrs87,
-  author = {Fahn, S. and Elton, R.},
-  title = {Unified Parkinson's disease rating scale.},
-  booktitle = {Recent developments in Parkinson's disease},
-  publisher = {Macmillan Health Care Information},
-  year = {1987}
-}
-
-@ELECTRONIC{scielo,
-  author = {FAPESP, CNPq, BIREME/OPAS/OMS and FapUnifesp},
-  month = {Maio},
-  year = {2016},
-  title = {Scientific Eletronic Library Online},
-  url = {http://www.scielo.org/},
-  owner = {leonardo},
-  timestamp = {2013.05.30}
-}
-
-@BOOK{fli04,
-  title = {Pesquisa Qualitativa},
-  publisher = {Bookman},
-  year = {2004},
-  author = {Uwe Flick}
-}
-
-@ARTICLE{manumeterjbhi2014,
-  author = {Friedman, N. and Rowe, J.B. and Reinkensmeyer, D.J. and Bachman,
-	M.},
-  title = {The Manumeter: A Wearable Device for Monitoring Daily Use of the
-	Wrist and Fingers},
-  journal = {IEEE Journal of Biomedical and Health Informatics},
-  year = {2014}
-}
-
-@ARTICLE{gabel2012,
-  author = {Gabel, Moshe and Gilad-Bachrach, Ran and Renshaw, Erin and Schuster,
-	Assaf},
-  title = {Full body gait analysis with Kinect.},
-  journal = {Conf Proc IEEE Eng Med Biol Soc},
-  year = {2012}
-}
-
-@MASTERSTHESIS{valt2010,
-  author = {Valter Filipe Carnim GonÃ§alves},
-  title = {AnÃ¡lise Comparativa dos classificadores MÃ¡quinas de Suporte Vectorial
-	e Redes Neuronais Artificiais: AplicaÃ§Ã£o na detecÃ§Ã£o de PeÃµes
-	e VeÃ­culos},
-  school = {Universidade de Coimbra},
-  year = {2010},
-  type = {DissertaÃ§Ã£o de Mestrado},
-  owner = {leonardo},
-  timestamp = {2014.01.30}
-}
-
-@ARTICLE{goul05,
-  author = {FÃ¡tima Goulart and Luciana Xavier Pereira},
-  title = {Uso de escalas para avaliaÃ§Ã£o da doenÃ§a de Parkinson em fisioterapia},
-  journal = {Fisioterapia e Pesquisa},
-  year = {2005}
-}
-
-@INPROCEEDINGS{sacbespoke2014,
-  author = {Graziadio, S. and Davison, R. and Shalabi, K. and Sahota, K. M. A.
-	and Ushaw, G. and Morgan, G. and Eyre, J. A.},
-  title = {Bespoke Video Games to Provide Early Response Markers to Identify
-	the Optimal Strategies for Maximizing Rehabilitation},
-  booktitle = {Proceedings of the 29th Annual ACM Symposium on Applied Computing},
-  year = {2014},
-  series = {SAC '14},
-  owner = {leonardo},
-  timestamp = {2015.10.03}
-}
-
-@ARTICLE{stacey2011,
-  author = {Guy, Stacey and Ratzki-Leewing, Alexandria and Gwadry-Sridhar, Femida},
-  title = {Moving Beyond the Stigma: Systematic Review of Video Games and Their
-	Potential to Combat Obesity},
-  journal = {International Journal of Hypertension},
-  year = {2011}
-}
-
-@BOOK{hamill1999bases,
-  title = {Bases BiomecÃ¢nicas do Movimento Humano},
-  year = {2012},
-  editor = {Manole},
-  author = {Joseph Hamill and Kathleen Knutzen}
-}
-
-@BOOK{national2006parkinson,
-  title = {Parkinson's Disease: Diagnosis and Management in Primary and Secondary
-	Care},
-  year = {2006},
-  editor = {NICE clinical guideline},
-  author = {National Institute for Health and Clinical Excellence}
-}
-
-@ARTICLE{Hoehn_Yahr_2001,
-  author = {Hoehn, M M and Yahr, M D},
-  title = {Parkinsonism: onset, progression, and mortality. 1967.},
-  journal = {Neurology},
-  year = {2001}
-}
-
-@ARTICLE{jankovic2008,
-  author = {Jankovic, J},
-  title = {Parkinsonâ€™s disease: clinical features and diagnosis},
-  journal = {Journal of Neurology, Neurosurgery \& Psychiatry},
-  year = {2008}
-}
-
-@ARTICLE{keijsers2006,
-  author = {Keijsers, N. L. and Horstink, M. W. and Gielen, S. C.},
-  title = {Ambulatory motor assessment in Parkinson's disease.},
-  journal = {Movement disorders : official journal of the Movement Disorder Society},
-  year = {2006}
-}
-
-@ARTICLE{kostek12,
-  author = {Kostek, Bozena and Kaszuba, Katarzyna and Zwan, Pawel and Robowski,
-	Piotr and Slawek, Jaroslaw},
-  title = {Automatic assessment of the motor state of the Parkinson's disease
-	patient - a case study.},
-  journal = {Diagn Pathol},
-  year = {2012}
-}
-
-@ARTICLE{prevcronica2009,
-  author = {Christiane Leite-Cavalcanti and Maria da Concei{\c{c}}{\~a}o Rodrigues-Gon{\c{c}}alves
-	and Luiza Sonia Rios-Asciutti and Alessandro Leite-Cavalcanti},
-  title = {PrevalÃªncia de doenÃ§as crÃ´nicas e estado nutricional em um grupo
-	de idosos brasileiros},
-  journal = {Rev. salud p{\'u}blica.},
-  year = {2009}
-}
-
-@INPROCEEDINGS{LeMoyne2009,
-  author = {LeMoyne, R. and Coroian, C. and Mastroianni, T.},
-  title = {Quantification of Parkinson's disease characteristics using wireless
-	accelerometers},
-  booktitle = {International Conference on Complex Medical Engineering},
-  year = {2009},
-  publisher = {CME}
-}
-
-@INPROCEEDINGS{lemoyne2010,
-  author = {LeMoyne, R. and Mastroianni, T. and Cozza, M. and Coroian, C. and
-	Grundfest, W.},
-  title = {Implementation of an iPhone for characterizing Parkinson's disease
-	tremor through a wireless accelerometer application},
-  booktitle = {International Conference of Engineering in Medicine and Biology Society},
-  year = {2010},
-  publisher = {IEEE}
-}
-
-@ARTICLE{wiigraves2008,
-  author = {L Graves, G Stratton, ND Ridgers and NT Cable .},
-  title = {Energy expenditure in adolescents playing new generation computer
-	games},
-  journal = {Br J Sports Med},
-  year = {2008}
-}
-
-@INPROCEEDINGS{gridsearchsvm2010,
-  author = {Cheng-Hsuan Li and Chin-Teng Lin and Bor-Chen Kuo and Ho, H.-H.},
-  title = {An Automatic Method for Selecting the Parameter of the Normalized
-	Kernel Function to Support Vector Machines},
-  booktitle = {International Conference on Technologies and Applications of Artificial
-	Intelligence},
-  year = {2010},
-  publisher = {IEEE}
-}
-
-@INPROCEEDINGS{robotgait2014,
-  author = {Chien-Ke Liao and Chung Dial Lim and Ching-Ying Cheng and Cheng-Ming
-	Huang and Li-Chen Fu},
-  title = {Vision based gait analysis on robotic walking stabilization system
-	for patients with Parkinson's Disease},
-  booktitle = {International Conference on Automation Science and Engineering (CASE)},
-  year = {2014},
-  publisher = {IEEE}
-}
-
-@ELECTRONIC{ieee,
-  author = {IEEE Explorer Digital Library},
-  month = {Maio},
-  year = {2013},
-  howpublished = {http://ieeexplore.ieee.org},
-  owner = {leonardo},
-  timestamp = {2013.05.30}
-}
-
-@BOOK{limongi2002,
-  title = {Conhecendo Melhor A DoenÃ§a De Parkinson: Uma Abordagem Multidisciplinar
-	Com OrientaÃ§Ãµes PrÃ¡ticas Para O Dia-A-Dia},
-  year = {2001},
-  editor = {Plexus},
-  author = {JoÃ£o Carlos Papaterra Limongi}
-}
-
-@INPROCEEDINGS{maitland2009,
-  author = {Maitland, Julie and Siek, Katie A.},
-  title = {Technological Approaches to Promoting Physical Activity},
-  booktitle = {Conference of the Australian Computer-Human Interaction Special Interest
-	Group},
-  year = {2009},
-  publisher = {ACM}
-}
-
-@INCOLLECTION{Mandryk2014,
-  author = {Mandryk, ReganL. and Gerling, KathrinM. and Stanley, KevinG.},
-  title = {Designing Games to Discourage Sedentary Behaviour},
-  booktitle = {Playful User Interfaces},
-  publisher = {Springer Singapore},
-  year = {2014}
-}
-
-@ARTICLE{telesaude2014,
-  author = {Mariana Ribeiro Marques, Evelin Cristina Cadrieskt Ribeiro, Carla
-	Silva Santana and Valéria Meirelles Elui},
-  title = {Aplicações e benefícios dos programas de Telessaúde e Telerreabilitação:
-	uma revisão da literatura},
-  journal = {Revista Eletrônica de Comunicação, Informação e Inovação em Saúde
-	(Reciis)},
-  year = {2014},
-  volume = {1},
-  pages = {43-52},
-  owner = {leonardo},
-  timestamp = {2016.03.24}
-}
-
-@MISC{matlab2011,
-  author = {Mathworks},
-  title = {Matlab R2011a},
-  howpublished = {\textit{Software}, {D}isponÃ­vel em: http://mathworks.com/},
-  note = {Ãšltimo acesso: 23 de Novembro de 2015}
-}
-
-@ARTICLE{mazilu2015,
-  author = {Mazilu, Sinziana and Blanke, Ulf and Dorfman, Moran and Gazit, Eran
-	and Mirelman, Anat and M. Hausdorff, Jeffrey and Tr\"{o}ster, Gerhard},
-  title = {A Wearable Assistant for Gait Training for Parkinson\&Rsquo;s Disease
-	with Freezing of Gait in Out-of-the-Lab Environments},
-  journal = {ACM Transactions Interactive Intelligent Systems},
-  year = {2015}
-}
-
-@BOOK{mcginnis2013biomechanics,
-  title = {Biomechanics of Sport and Exercise},
-  publisher = {Human Kinetics},
-  year = {2013},
-  author = {Peter McGinnis}
-}
-
-@ELECTRONIC{pubmed,
-  author = {US National Library of Medicine National Institutes of Health},
-  month = {Maio},
-  year = {2016},
-  title = {PubMed.gov},
-  url = {http://www.ncbi.nlm.nih.gov/pubmed},
-  owner = {leonardo},
-  timestamp = {2013.05.30}
-}
-
-@BOOK{menezes2003,
-  title = {DoenÃ§a De Parkinson},
-  publisher = {Guanabara Koogan},
-  year = {2003},
-  author = {Murilo Meneses and HÃ©lio Teive}
-}
-
-@ELECTRONIC{kinnect2013,
-  author = {Microsoft},
-  title = {Ms-Kinnect},
-  howpublished = {{D}isponÃ­vel em: http://www.xbox.com/pt-BR/kinect}
-}
-
-@ARTICLE{rodrigues2006,
-  author = {Milena Rodrigues, Luciane Costa Campos},
-  title = {EstratÃ©gia Para O Tratamento Com Levodopa Na DoenÃ§a De Parkinson},
-  journal = {Revista Analytica},
-  year = {2006}
-}
-
-@ARTICLE{healthmonitoring2013,
-  author = {Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi},
-  title = {Health Monitoring for Elderly: An Application Using Case-Based Reasoning
-	and Cluster Analysis},
-  journal = {ISRN Artificial Intelligence},
-  year = {2013}
-}
-
-@BOOK{moore2011basics,
-  title = {Basics of Game Design},
-  publisher = {Taylor \& Francis Group},
-  year = {2011},
-  author = {Michael Moore}
-}
-
-@INPROCEEDINGS{bas00,
-  author = {Nuseibeh, Bashar and Easterbrook, Steve},
-  title = {Requirements Engineering: A Roadmap},
-  booktitle = {Proceedings of the Conference on The Future of Software Engineering},
-  year = {2000},
-  publisher = {ACM}
-}
-
-@MASTERSTHESIS{elicquest05,
-  author = {Paulo Roberto de Oliveira Bastos Junior},
-  title = {ElicitaÃ§Ã£o de Requisitos de Software AtravÃ©s da UtilizaÃ§Ã£o de
-	QuestionÃ¡rios},
-  school = {PUC-Rio},
-  year = {2005},
-  type = {DissertaÃ§Ã£o de Mestrado},
-  file = {:C\:\\Users\\leonardo\\Dropbox\\doutorado ufcg\\bibliografia\\gqm\\dissertacao - paulo - gqm - julio cesar leite.PDF:PDF},
-  owner = {leonardo},
-  timestamp = {2014.02.16}
-}
-
-@TECHREPORT{ageing2011,
-  author = {World Health Organization},
-  title = {Global Health and ageing},
-  institution = {Who; US National Institute of Aging},
-  year = {2011}
-}
-
-@ARTICLE{Papastergiou:2009:EPC:1570538.1570707,
-  author = {Papastergiou, Marina},
-  title = {Exploring the potential of computer and video games for health and
-	physical education: A literature review},
-  journal = {Computation Education},
-  year = {2009}
-}
-
-@ARTICLE{patel_monitoring_2009,
-  author = {Patel, S. and Lorincz, K. and Hughes, R. and Huggins, N. and Growdon,
-	J. and Standaert, D. and Akay, M. and Dy, J. and Welsh, M. and Bonato,
-	P.},
-  title = {Monitoring Motor Fluctuations in Patients With Parkinson's Disease
-	Using Wearable Sensors},
-  journal = {{IEEE} Transactions on Information Technology in Biomedicine},
-  year = {2009}
-}
-
-@BOOK{protpar010,
-  title = {Protocolo ClÃ­nico E Diretrizes TerapÃªutica - DoenÃ§a de Parkinson},
-  publisher = {MinistÃ©rio da SaÃºde},
-  year = {2010},
-  author = {Paulo Picon and Maria Gadelha and Alberto Beltrame}
-}
-
-@MISC{qda13,
-  author = {Provalis Research},
-  title = {QDA MINER Lite v1.2.2},
-  howpublished = {\textit{Software}, {D}isponÃ­vel em: http://provalisresearch.com/products/qualitative-data-analysis-software/},
-  note = {Ãšltimo acesso: 23 de Novembro de 2015}
-}
-
-@BOOK{rowlandtratado,
-  title = {Tratado De Neurologia},
-  publisher = {Guanabara Koogan},
-  year = {2011},
-  author = {Lewis Rowland}
-}
-
-@INPROCEEDINGS{finger2012,
-  author = {Sano, Y. and Kandori, A. and Miyoshi, T. and Tsuji, T. and Shima,
-	K. and Yokoe, M. and Sakoda, S.},
-  title = {Severity estimation of finger-tapping caused by Parkinson's disease
-	by using linear discriminant regression analysis},
-  booktitle = {International Conference of Engineering in Medicine and Biology Society,},
-  year = {2012},
-  publisher = {EMBC}
-}
-
-@MASTERSTHESIS{svm-cg-2002,
-  author = {Eulanda Miranda dos Santos},
-  title = {Teoria e AplicaÃ§Ã£o de Support Vector Machines Ã  Aprendizagem e
-	Reconhecimento de Objetos Baseado na AparÃªncia},
-  school = {Universidade Federal de Campina Grande},
-  year = {2002},
-  type = {DissertaÃ§Ã£o de Mestrado},
-  file = {:C\:\\Users\\leonardo\\Dropbox\\doutorado ufcg\\bibliografia\\svm\\Dissertacao_EulandaMirandadosSantos.pdf:PDF},
-  owner = {leonardo},
-  timestamp = {2013.06.18}
-}
-
-@MASTERSTHESIS{antonio2013,
-  author = {AntÃ´nio Dias dos Santos JÃºnior},
-  title = {ArcabouÃ§o de Software para a AquisiÃ§Ã£o de Dados de SaÃºde AtravÃ©s
-	de Jogos EletrÃ´nicos},
-  school = {Universidade Federal de Campina Grande},
-  year = {2013},
-  type = {DissertaÃ§Ã£o de Mestrado},
-  owner = {leonardo},
-  timestamp = {2013.05.18}
-}
-
-@MASTERSTHESIS{saraiva2006,
-  author = {Alessandra Vilches Saraiva},
-  title = {UtilizaÃ§Ã£o da Abordagem Goal-Question-Metrics (GQM) Na ElaboraÃ§Ã£o
-	e ExecuÃ§Ã£o de Planos de AvaliaÃ§Ã£o de Usabilidade de Software:
-	Um Estudo EmpÃ­rico Sobre Um Software AgropecuÃ¡rio},
-  school = {Universidade Metodista De Piracicaba},
-  year = {2006},
-  type = {DissertaÃ§Ã£o de Mestrado},
-  owner = {leonardo},
-  timestamp = {2014.02.16}
-}
-
-@TECHREPORT{sinclair07,
-  author = {Sinclair, Jeff and Hingston, Philip and Masek, Martin},
-  title = {Considerations for the design of exergames},
-  institution = {ACM Special Interest Group on Computer Graphics and Interactive Techniques},
-  year = {2007}
-}
-
-@ARTICLE{Sinclair:2009:UVB:1515604.1515617,
-  author = {Sinclair, Jeff and Hingston, Philip and Masek, Martin and Nosaka,
-	Kazunori (Ken)},
-  title = {Using a Virtual Body to Aid in Exergaming System Development},
-  journal = {IEEE Computer Graphics Applications},
-  year = {2009}
-}
-
-@BOOK{van1999goal,
-  title = {The Goal/Question/Metric Method: A Practical Guide for Quality Improvement
-	of Software Development},
-  publisher = {McGraw-Hill},
-  year = {1999},
-  author = {Rini Solingen and Egon Berghout}
-}
-
-@BOOK{sommerville2011,
-  title = {Engenharia de software},
-  publisher = {Pearson},
-  year = {2011},
-  author = {Ian Sommerville}
-}
-
-@ARTICLE{Storni:2014:DCU:2628458.2628474,
-  author = {Storni, Cristiano},
-  title = {Design Challenges for Ubiquitous and Personal Computing in Chronic
-	Disease Care and Patient Empowerment: A Case Study Rethinking Diabetes
-	Self-monitoring},
-  journal = {Personal Ubiquitous Computing},
-  year = {2014}
-}
-
-@INPROCEEDINGS{Suhonen:2008:SFE:1457199.1457204,
-  author = {Suhonen, Katja and V\"{a}\"{a}t\"{a}j\"{a}, Heli and Virtanen, Tytti
-	and Raisamo, Roope},
-  title = {Seriously fun: exploring how to combine promoting health awareness
-	and engaging gameplay},
-  booktitle = {International Conference on Entertainment and Media in the Ubiquitous
-	Era},
-  year = {2008},
-  publisher = {ACM}
-}
-
-@ARTICLE{sweetser2005-gameflow,
-  author = {Sweetser, Penelope and Wyeth, Peta},
-  title = {GameFlow: a model for evaluating player enjoyment in games},
-  journal = {Computation Entertainment},
-  year = {2005}
-}
-
-@ARTICLE{synnott_wiipd_2012,
-  author = {Synnott, J. and Chen, Liming and Nugent, {C.D.} and Moore, G.},
-  title = {WiiPD Objective Home Assessment of Parkinson's Disease Using the
-	Nintendo Wii Remote},
-  journal = {IEEE Transactions on Information Technology in Biomedicine},
-  year = {2012}
-}
-
-@ARTICLE{gaitusingsensorsreview2012,
-  author = {Tao, Weijun and Liu, Tao and Zheng, Rencheng and Feng, Hutian},
-  title = {Gait Analysis Using Wearable Sensors},
-  journal = {Sensors},
-  year = {2012}
-}
-
-@MISC{unity3d,
-  author = {Unity Technologies},
-  title = {Unity 3D 3.0},
-  howpublished = {\textit{Software}, {D}isponÃ­vel em: http://unity3d.com/},
-  note = {Ãšltimo acesso: 23 de Novembro de 2015}
-}
-
-@ARTICLE{tolosa06,
-  author = {Tolosa, Eduardo and Wenning, Gregor and Poewe, Werner},
-  title = {The Diagnosis Of Parkinson's Disease},
-  journal = {The Lancet Neurology},
-  year = {2006}
-}
-
-@BOOK{vapnik95,
-  title = {The Nature of Statistical Learning Theory},
-  publisher = {Springer-Verlag New York, Inc.},
-  year = {1995},
-  author = {Vladimir Vapnik}
-}
-
-@ARTICLE{vedolin2003,
-  author = {Leonardo Vedolin},
-  title = {AvaliaÃ§Ã£o da doenÃ§a de Parkinson pela ressonÃ¢ncia magnÃ©tica},
-  journal = {Radiologia Brasileira},
-  year = {2003}
-}
-
-@MASTERSTHESIS{vicini2005,
-  author = {Lorena Vicini},
-  title = {AnÃ¡lise Multivariada Da Teoria Ã€ PrÃ¡tica},
-  school = {Universidade Federal de Santa Maria},
-  year = {2005},
-  type = {DissertaÃ§Ã£o de Mestrado},
-  file = {:C\:\\Users\\leonardo\\Dropbox\\doutorado ufcg\\gaitdb\\pcatutorial\\analise multivariada da teoria a pratica -.pdf:PDF},
-  owner = {leonardo},
-  timestamp = {2014.01.09}
-}
-
-@INPROCEEDINGS{mhms2009,
-  author = {W. Walker and A. L. P. Aroul and D. Bhatia},
-  title = {Mobile health monitoring systems},
-  booktitle = {Engineering in Medicine and Biology Society, 2009. EMBC 2009. Annual
-	International Conference of the IEEE},
-  year = {2009},
-  pages = {5199-5202},
-  month = {Sept},
-  abstract = {Advancements are being made towards a cheap and effective means for
-	health monitoring. A mobile monitoring system is proposed for monitoring
-	a bicycle rider using light weight, low power wireless sensors. Biometric
-	and environmental information pertaining to the bicycle rider is
-	captured, transmitted to, and stored in a remote database with little
-	user interaction required. Remote users have real time access to
-	the captured information through a web application. Possible applications
-	for this system include the monitoring of a soldier in the battlefield
-	and the monitoring of a patient during an ambulance ride.},
-  doi = {10.1109/IEMBS.2009.5334583},
-  issn = {1557-170X},
-  keywords = {health care;patient monitoring;wireless sensor networks;ambulance
-	ride;battlefield;bicycle rider;biometric information;environmental
-	information;health care;light weight wireless sensor;low power wireless
-	sensor;mobile health monitoring systems;remote database;soldier;web
-	application;Bicycling;Health;Heart Rate;Humans;Oxygen;Telemedicine;Telemetry;User-Computer
-	Interface},
-  owner = {leonardo},
-  timestamp = {2016.03.24}
-}
-
-@BOOK{datamining2005,
-  title = {Data Mining: Practical Machine Learning Tools and Techniques},
-  publisher = {Morgan Kaufmann Publishers Inc.},
-  year = {2011},
-  author = {Ian Witten and Eibe Frank}
-}
-
-@ELECTRONIC{zigfu,
-  author = {Zigfu},
-  title = {Zigfu 4.0},
-  howpublished = {\textit{Software}, {D}isponÃ­vel em: http://zigfu.com/},
-  note = {Ãšltimo acesso: 23 de Novembro de 2015}
-}
-
-@INCOLLECTION{zowghi2005,
-  author = {Zowghi, Didar and Coulin, Chad},
-  title = {Requirements Elicitation: A Survey of Techniques, Approaches, and
-	Tools},
-  booktitle = {Engineering and Managing Software Requirements},
-  publisher = {Springer Berlin Heidelberg},
-  year = {2005}
-}
-
-@ARTICLE{ambulatoryparkinson2010,
-  author = {Zwartjes, D.G.M. and Heida, T. and van Vugt, J.P.P. and Geelen, J.A.G.
-	and Veltink, P.H.},
-  title = {Ambulatory Monitoring of Activities and Motor Symptoms in Parkinson's
-	Disease},
-  journal = {IEEE Transactions on Biomedical Engineering},
-  year = {2010}
+
+@InProceedings{aarhus_negotiating_2010,
+  Title                    = {Negotiating boundaries: managing disease at home},
+  Author                   = {Aarhus, Rikke and Ballegaard, Stinne Aal{\o}kke},
+  Booktitle                = {International Conference on Human Factors in Computing Systems},
+  Year                     = {2010},
+  Publisher                = {ACM}
+}
+
+@Book{albanese2012,
+  Title                    = {Hyperkinectic Movement Disorder - Diferential Diagnosis and Treatment},
+  Author                   = {Albanese, Alberto and Jankovic, Joseph},
+  Publisher                = {Wiley-Blackwell},
+  Year                     = {2012}
+}
+
+@Article{alemdar,
+  Title                    = {Wireless Sensor Networks for Healthcare: A Survey},
+  Author                   = {Alemdar, Hande and Ersoy, Cem},
+  Journal                  = {Computer Networks},
+  Year                     = {2010}
+}
+
+@Article{alemdar2015,
+  Title                    = {Daily Life Behaviour Monitoring for Health Assessment Using Machine Learning: Bridging the Gap Between Domains},
+  Author                   = {Alemdar, Hande and Tunca, Can and Ersoy, Cem},
+  Journal                  = {Personal Ubiquitous Computing},
+  Year                     = {2015}
+}
+
+@Article{biomecanica99,
+  Title                    = {IntroduÃ§Ã£o Ã  BiomecÃ¢nica para AnÃ¡lise do Movimento Humano},
+  Author                   = {Amadio, Armando and Costa, Paulo and Sacco, Isabel and SerrÃ£o, JÃºlio and Araujo, Rubens and Mochizuki, Luiz},
+  Journal                  = {Revista Brasileira De Fisioterapia},
+  Year                     = {1999}
+}
+
+@Article{bardram2010,
+  Title                    = {Pervasive Healthcare - Paving the Way for a Pervasive, User-Centered and Preventive Healthcare Model},
+  Author                   = {Arnrich, Bert and Mayora, Oscar and Bardram, Jakob and e Tr{\"{o}}ster, Gerhard},
+  Journal                  = {Methods of Information in Medicine},
+  Year                     = {2010}
+}
+
+@Article{arntzen2011,
+  Title                    = {Game based Learning to Enhance Cognitive and Physical Capabilities of Elderly People: Concepts and Requirements},
+  Author                   = {Aurelie Aurilla Bechina Arntzen},
+  Journal                  = {World Academy of Science Engineering and Technology},
+  Year                     = {2011}
+}
+
+@Misc{esa2015,
+  Title                    = {Essential Facts about the U.S. Computer and Video Game Industry: Sales, Demophahy and Usage Data},
+
+  Author                   = {Entertainment Software Association},
+  Year                     = {2015}
+}
+
+@Misc{esa2011,
+  Title                    = {Essential Facts about the U.S. Computer and Video Game Industry},
+
+  Author                   = {Entertainment Software Association},
+  Year                     = {2011},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2016.03.26}
+}
+
+@InProceedings{atkinson2010,
+  Title                    = {Design of an introductory medical gaming environment for diagnosis and management of Parkinson's disease},
+  Author                   = {Atkinson, S.D. and Narasimhan, V.L.},
+  Booktitle                = {Trendz in Information Sciences Computing},
+  Year                     = {2010},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2015.10.03}
+}
+
+@InProceedings{bachlin_parkinsons_2009,
+  Title                    = {Parkinsons disease patients perspective on context aware wearable technology for auditive assistance},
+  Author                   = {Bachlin, M. and Plotnik, M. and Roggen, D. and Inbar, N. and Giladi, N. and Hausdorff, J. and Tr\"{o}ster, G.},
+  Booktitle                = {International Conference on Pervasive Computing Technologies for Healthcare},
+  Year                     = {2009},
+  Publisher                = {IEEE}
+}
+
+@InProceedings{Ballegaard:2008:HEL:1357054.1357336,
+  Title                    = {Healthcare in everyday life: designing healthcare services for daily life},
+  Author                   = {Ballegaard, Stinne Aal{\o}kke and Hansen, Thomas Riisgaard and Kyng, Morten},
+  Booktitle                = {Conference on Human factors in computing systems},
+  Year                     = {2008},
+  Publisher                = {ACM}
+}
+
+@InProceedings{berg03,
+  Title                    = {Health status monitoring through analysis of behavioral patterns},
+  Author                   = {Tracy Barger and Donald Brown and Majd Alwan},
+  Booktitle                = {Congress of the Italian Association for Artificial Intelligence on Ambient Intelligence},
+  Year                     = {2003},
+  Publisher                = {Springer-Verlag}
+}
+
+@InProceedings{bartolome11,
+  Title                    = {Can game-based therapies be trusted? Is game-based education effective? A systematic review of the Serious Games for health and education},
+  Author                   = {Bartolome, N.A. and Zorrilla, A.M. and Zapirain, B.G.},
+  Booktitle                = {International Conference on Computer Games},
+  Year                     = {2011},
+  Publisher                = {ACM}
+}
+
+@Misc{peakdetect,
+  Title                    = {Peak Detection in Matlab},
+
+  Author                   = {Eli Billauer},
+  HowPublished             = {\textit{Software}, {D}isponÃ­vel em: http://www.billauer.co.il/peakdet.html},
+  Year                     = {2012}
+}
+
+@InProceedings{brox11,
+  Title                    = {Exergames for elderly: Social exergames to persuade seniors to increase physical activity},
+  Author                   = {Brox, E. and Luque, L.F. and Evertsen, G.J. and Hernandez, J.E.G.},
+  Booktitle                = {International Conference on Pervasive Computing Technologies for Healthcare},
+  Year                     = {2011},
+  Publisher                = {IEEE}
+}
+
+@Book{algebra90,
+  Title                    = {Ã�lgebra Linear E AplicaÃ§Ãµes},
+  Author                   = {Carlos Callioli and Hygino Domingues and Roberto Costa},
+  Publisher                = {Atual},
+  Year                     = {1990}
+}
+
+@InProceedings{multisvm2011,
+  Title                    = {Multi-class Support Vector Machine (SVM) Classifiers -- An Application in Hypothyroid Detection and Classification},
+  Author                   = {F. F. Chamasemani and Y. P. Singh},
+  Booktitle                = {Bio-Inspired Computing: Theories and Applications (BIC-TA), 2011 Sixth International Conference on},
+  Year                     = {2011},
+  Month                    = {Sept},
+  Pages                    = {351-356},
+
+  Abstract                 = {The paper presents a Multi-class Support Vector Machine classifier and its application to hypothyroid detection and classification. Support Vector Machines (SVM) have been well known method in the machine learning community for binary classification problems. Multi-class SVMs (MCSVM) are usually implemented by combining several binary SVMs. The objective of this work is to show: first, robustness of various kind of kernels for Multi-class SVM classifier, second, a comparison of different constructing methods for Multi-class SVM, such as One-Against-One and One-Against-All, and finally comparing the classifiers' accuracy of Multi-class SVM classifier to AdaBoost and Decision Tree. The simulation results show that One-Against-All Support Vector Machines (OAASVM) are superior to One-Against-One Support Vector Machines (OAOSVM) with polynomial kernels. The accuracy of OAASVM is also higher than AdaBoost and Decision Tree classifier on hypothyroid disease datasets from UCI machine learning dataset.},
+  Doi                      = {10.1109/BIC-TA.2011.51},
+  Keywords                 = {diseases;learning (artificial intelligence);medical computing;pattern classification;support vector machines;MCSVM;OAASVM;UCI machine learning;hypothyroid classification;hypothyroid detection;multiclass support vector machine classifiers;one-against-all support vector machines;polynomial kernels;Accuracy;Kernel;Optimization;Particle separators;Support vector machine classification;Training;Boosting;Multi-class SVM;SVM Classification;Support vector machine},
+  Owner                    = {leonardo},
+  Timestamp                = {2016.04.01}
+}
+
+@InProceedings{sacsvmhms2014,
+  Title                    = {Design and Implementation of a Personal Health Monitoring System with an Effective SVM-based PVC Detection Algorithm in Cardiology},
+  Author                   = {Chen, Huan and Liao, Guo-Tan and Fan, Yao-Chung and Cheng, Bo-Chao and Chen, Cheng-Min and Kuo, Ting-Chun},
+  Booktitle                = {Symposium On Applied Computing},
+  Year                     = {2014},
+  Publisher                = {ACM}
+}
+
+@Article{visionbased2009,
+  Title                    = {A vision-based analysis system for gait recognition in patients with Parkinson's disease},
+  Author                   = {Cho, Chien-Wen and Chao, Wen-Hung and Lin, Sheng-Huang and Chen, You-Yin},
+  Journal                  = {Expert Syst. Appl.},
+  Year                     = {2009}
+}
+
+@Book{statisticshandbook2009,
+  Title                    = {Nist/Sematech Engineering Statistics Handbook},
+  Author                   = {Charline Cleraux and Carroll Croarkin and James Filliben and Will Guthrie and Alan Heckert and Mark Reeder and Tom Ryan and Jolene Splett and Nien-Fan Zhang},
+  Editor                   = {ITL Statistical Engineering Division},
+  Year                     = {2003}
+}
+
+@Electronic{acm,
+  Author                   = {Association for Computing Machinery},
+  HowPublished             = {http://www.acm.org/},
+  Month                    = {Maio},
+  Year                     = {2013},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2013.05.30}
+}
+
+@InProceedings{quantitativeparkinson2011,
+  Title                    = {Quantitative measurement of motor symptoms in Parkinson's disease: A study with full-body motion capture data},
+  Author                   = {Das, S. and Trutoiu, L. and Murai, A. and Alcindor, D. and Oh, M. and De la Torre, F. and Hodgins, J.},
+  Booktitle                = {Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE},
+  Year                     = {2011},
+  Month                    = sep,
+  Pages                    = {6789--6792},
+
+  Citeulike-article-id     = {11022204},
+  Citeulike-linkout-0      = {http://dx.doi.org/10.1109/IEMBS.2011.6091674},
+  Doi                      = {10.1109/IEMBS.2011.6091674},
+  File                     = {:C\:\\Users\\leonardo\\Dropbox\\Leonardo\\gaitdb\\articles\\Quantitative Parkinson Disease aa Study of Full-body motion capture data.pdf:PDF},
+  Keywords                 = {kinematics, motion-capture, parkinsons},
+  Owner                    = {leonardo},
+  Posted-at                = {2012-08-06 18:50:33},
+  Priority                 = {2},
+  Timestamp                = {2013.08.28}
+}
+
+@Book{do2007parkinson,
+  Title                    = {Parkinson's Disease: Diagnosis Clinical Management},
+  Author                   = {Stewart Do and William Weiner},
+  Publisher                = {Demos Medical Publishing},
+  Year                     = {2007}
+}
+
+@Book{statisticterms2006,
+  Title                    = {The Oxford Dictionary of Statistical Terms},
+  Author                   = {Yadolah Dodge and David Cox and Daniel Commenges and Anthony Davison and Patty Solomon and Suzan Wilson},
+  Editor                   = {The Internationall Statistical Institute},
+  Publisher                = {Oxford University Press},
+  Year                     = {2006}
+}
+
+@Article{homecarebrazil2011,
+  Title                    = {The Utilization of Home Care by the Elderly in Brazil's Primary Health Care System},
+  Author                   = {Elaine ThumÃ©, Luiz Augusto Facchini, Grace Wyshak and Paul Campbell},
+  Journal                  = {Am J Public Health},
+  Year                     = {2011}
+}
+
+@InCollection{updrs87,
+  Title                    = {Unified Parkinson's disease rating scale.},
+  Author                   = {Fahn, S. and Elton, R.},
+  Booktitle                = {Recent developments in Parkinson's disease},
+  Publisher                = {Macmillan Health Care Information},
+  Year                     = {1987}
+}
+
+@Electronic{scielo,
+  Title                    = {Scientific Eletronic Library Online},
+  Author                   = {FAPESP, CNPq, BIREME/OPAS/OMS and FapUnifesp},
+  Month                    = {Maio},
+  Url                      = {http://www.scielo.org/},
+  Year                     = {2016},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2013.05.30}
+}
+
+@Book{fli04,
+  Title                    = {Pesquisa Qualitativa},
+  Author                   = {Uwe Flick},
+  Publisher                = {Bookman},
+  Year                     = {2004}
+}
+
+@Article{manumeterjbhi2014,
+  Title                    = {The Manumeter: A Wearable Device for Monitoring Daily Use of the Wrist and Fingers},
+  Author                   = {Friedman, N. and Rowe, J.B. and Reinkensmeyer, D.J. and Bachman, M.},
+  Journal                  = {IEEE Journal of Biomedical and Health Informatics},
+  Year                     = {2014}
+}
+
+@Article{gabel2012,
+  Title                    = {Full body gait analysis with Kinect.},
+  Author                   = {Gabel, Moshe and Gilad-Bachrach, Ran and Renshaw, Erin and Schuster, Assaf},
+  Journal                  = {Conf Proc IEEE Eng Med Biol Soc},
+  Year                     = {2012}
+}
+
+@MastersThesis{valt2010,
+  Title                    = {AnÃ¡lise Comparativa dos classificadores MÃ¡quinas de Suporte Vectorial e Redes Neuronais Artificiais: AplicaÃ§Ã£o na detecÃ§Ã£o de PeÃµes e VeÃ­culos},
+  Author                   = {Valter Filipe Carnim GonÃ§alves},
+  School                   = {Universidade de Coimbra},
+  Year                     = {2010},
+  Type                     = {DissertaÃ§Ã£o de Mestrado},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2014.01.30}
+}
+
+@Article{goul05,
+  Title                    = {Uso de escalas para avaliaÃ§Ã£o da doenÃ§a de Parkinson em fisioterapia},
+  Author                   = {FÃ¡tima Goulart and Luciana Xavier Pereira},
+  Journal                  = {Fisioterapia e Pesquisa},
+  Year                     = {2005}
+}
+
+@InProceedings{sacbespoke2014,
+  Title                    = {Bespoke Video Games to Provide Early Response Markers to Identify the Optimal Strategies for Maximizing Rehabilitation},
+  Author                   = {Graziadio, S. and Davison, R. and Shalabi, K. and Sahota, K. M. A. and Ushaw, G. and Morgan, G. and Eyre, J. A.},
+  Booktitle                = {Proceedings of the 29th Annual ACM Symposium on Applied Computing},
+  Year                     = {2014},
+  Series                   = {SAC '14},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2015.10.03}
+}
+
+@Article{stacey2011,
+  Title                    = {Moving Beyond the Stigma: Systematic Review of Video Games and Their Potential to Combat Obesity},
+  Author                   = {Guy, Stacey and Ratzki-Leewing, Alexandria and Gwadry-Sridhar, Femida},
+  Journal                  = {International Journal of Hypertension},
+  Year                     = {2011}
+}
+
+@Book{hamill1999bases,
+  Title                    = {Bases BiomecÃ¢nicas do Movimento Humano},
+  Author                   = {Joseph Hamill and Kathleen Knutzen},
+  Editor                   = {Manole},
+  Year                     = {2012}
+}
+
+@Book{national2006parkinson,
+  Title                    = {Parkinson's Disease: Diagnosis and Management in Primary and Secondary Care},
+  Author                   = {National Institute for Health and Clinical Excellence},
+  Editor                   = {NICE clinical guideline},
+  Year                     = {2006}
+}
+
+@Article{Hoehn_Yahr_2001,
+  Title                    = {Parkinsonism: onset, progression, and mortality. 1967.},
+  Author                   = {Hoehn, M M and Yahr, M D},
+  Journal                  = {Neurology},
+  Year                     = {2001}
+}
+
+@Article{jankovic2008,
+  Title                    = {Parkinsonâ€™s disease: clinical features and diagnosis},
+  Author                   = {Jankovic, J},
+  Journal                  = {Journal of Neurology, Neurosurgery \& Psychiatry},
+  Year                     = {2008}
+}
+
+@Book{kantardzic2011data,
+  Title                    = {Data Mining: Concepts, Models, Methods, and Algorithms},
+  Author                   = {Kantardzic, M.},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {2011},
+
+  Address                  = {Piscataway, NJ, USA},
+  Edition                  = {2nd},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2015.10.03}
+}
+
+@Article{keijsers2006,
+  Title                    = {Ambulatory motor assessment in Parkinson's disease.},
+  Author                   = {Keijsers, N. L. and Horstink, M. W. and Gielen, S. C.},
+  Journal                  = {Movement disorders : official journal of the Movement Disorder Society},
+  Year                     = {2006}
+}
+
+@Article{kostek12,
+  Title                    = {Automatic assessment of the motor state of the Parkinson's disease patient - a case study.},
+  Author                   = {Kostek, Bozena and Kaszuba, Katarzyna and Zwan, Pawel and Robowski, Piotr and Slawek, Jaroslaw},
+  Journal                  = {Diagn Pathol},
+  Year                     = {2012}
+}
+
+@Article{wiigraves2008,
+  Title                    = {Energy expenditure in adolescents playing new generation computer games},
+  Author                   = {L Graves, G Stratton, ND Ridgers and NT Cable .},
+  Journal                  = {Br J Sports Med},
+  Year                     = {2008}
+}
+
+@Article{prevcronica2009,
+  Title                    = {PrevalÃªncia de doenÃ§as crÃ´nicas e estado nutricional em um grupo de idosos brasileiros},
+  Author                   = {Christiane Leite-Cavalcanti and Maria da Concei{\c{c}}{\~a}o Rodrigues-Gon{\c{c}}alves and Luiza Sonia Rios-Asciutti and Alessandro Leite-Cavalcanti},
+  Journal                  = {Rev. salud p{\'u}blica.},
+  Year                     = {2009}
+}
+
+@InProceedings{LeMoyne2009,
+  Title                    = {Quantification of Parkinson's disease characteristics using wireless accelerometers},
+  Author                   = {LeMoyne, R. and Coroian, C. and Mastroianni, T.},
+  Booktitle                = {International Conference on Complex Medical Engineering},
+  Year                     = {2009},
+  Publisher                = {CME}
+}
+
+@InProceedings{lemoyne2010,
+  Title                    = {Implementation of an iPhone for characterizing Parkinson's disease tremor through a wireless accelerometer application},
+  Author                   = {LeMoyne, R. and Mastroianni, T. and Cozza, M. and Coroian, C. and Grundfest, W.},
+  Booktitle                = {International Conference of Engineering in Medicine and Biology Society},
+  Year                     = {2010},
+  Publisher                = {IEEE}
+}
+
+@InProceedings{gridsearchsvm2010,
+  Title                    = {An Automatic Method for Selecting the Parameter of the Normalized Kernel Function to Support Vector Machines},
+  Author                   = {Cheng-Hsuan Li and Chin-Teng Lin and Bor-Chen Kuo and Ho, H.-H.},
+  Booktitle                = {International Conference on Technologies and Applications of Artificial Intelligence},
+  Year                     = {2010},
+  Publisher                = {IEEE}
+}
+
+@InProceedings{robotgait2014,
+  Title                    = {Vision based gait analysis on robotic walking stabilization system for patients with Parkinson's Disease},
+  Author                   = {Chien-Ke Liao and Chung Dial Lim and Ching-Ying Cheng and Cheng-Ming Huang and Li-Chen Fu},
+  Booktitle                = {International Conference on Automation Science and Engineering (CASE)},
+  Year                     = {2014},
+  Publisher                = {IEEE}
+}
+
+@Electronic{ieee,
+  Author                   = {IEEE Explorer Digital Library},
+  HowPublished             = {http://ieeexplore.ieee.org},
+  Month                    = {Maio},
+  Year                     = {2013},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2013.05.30}
+}
+
+@Book{limongi2002,
+  Title                    = {Conhecendo Melhor A DoenÃ§a De Parkinson: Uma Abordagem Multidisciplinar Com OrientaÃ§Ãµes PrÃ¡ticas Para O Dia-A-Dia},
+  Author                   = {JoÃ£o Carlos Papaterra Limongi},
+  Editor                   = {Plexus},
+  Year                     = {2001}
+}
+
+@InProceedings{maitland2009,
+  Title                    = {Technological Approaches to Promoting Physical Activity},
+  Author                   = {Maitland, Julie and Siek, Katie A.},
+  Booktitle                = {Conference of the Australian Computer-Human Interaction Special Interest Group},
+  Year                     = {2009},
+  Publisher                = {ACM}
+}
+
+@InCollection{Mandryk2014,
+  Title                    = {Designing Games to Discourage Sedentary Behaviour},
+  Author                   = {Mandryk, ReganL. and Gerling, KathrinM. and Stanley, KevinG.},
+  Booktitle                = {Playful User Interfaces},
+  Publisher                = {Springer Singapore},
+  Year                     = {2014}
+}
+
+@Article{telesaude2014,
+  Title                    = {Aplicações e benefícios dos programas de Telessaúde e Telerreabilitação: uma revisão da literatura},
+  Author                   = {Mariana Ribeiro Marques, Evelin Cristina Cadrieskt Ribeiro, Carla Silva Santana and Valéria Meirelles Elui},
+  Journal                  = {Revista Eletrônica de Comunicação, Informação e Inovação em Saúde (Reciis)},
+  Year                     = {2014},
+  Pages                    = {43-52},
+  Volume                   = {1},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2016.03.24}
+}
+
+@Misc{matlab2011,
+  Title                    = {Matlab R2011a},
+
+  Author                   = {Mathworks},
+  HowPublished             = {\textit{Software}, {D}isponÃ­vel em: http://mathworks.com/},
+  Note                     = {Ãšltimo acesso: 23 de Novembro de 2015}
+}
+
+@Article{mazilu2015,
+  Title                    = {A Wearable Assistant for Gait Training for Parkinson\&Rsquo;s Disease with Freezing of Gait in Out-of-the-Lab Environments},
+  Author                   = {Mazilu, Sinziana and Blanke, Ulf and Dorfman, Moran and Gazit, Eran and Mirelman, Anat and M. Hausdorff, Jeffrey and Tr\"{o}ster, Gerhard},
+  Journal                  = {ACM Transactions Interactive Intelligent Systems},
+  Year                     = {2015}
+}
+
+@Book{mcginnis2013biomechanics,
+  Title                    = {Biomechanics of Sport and Exercise},
+  Author                   = {Peter McGinnis},
+  Publisher                = {Human Kinetics},
+  Year                     = {2013}
+}
+
+@Electronic{pubmed,
+  Title                    = {PubMed.gov},
+  Author                   = {US National Library of Medicine National Institutes of Health},
+  Month                    = {Maio},
+  Url                      = {http://www.ncbi.nlm.nih.gov/pubmed},
+  Year                     = {2016},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2013.05.30}
+}
+
+@Book{menezes2003,
+  Title                    = {DoenÃ§a De Parkinson},
+  Author                   = {Murilo Meneses and HÃ©lio Teive},
+  Publisher                = {Guanabara Koogan},
+  Year                     = {2003}
+}
+
+@Electronic{kinnect2013,
+  Title                    = {Ms-Kinnect},
+  Author                   = {Microsoft},
+  HowPublished             = {{D}isponÃ­vel em: http://www.xbox.com/pt-BR/kinect}
+}
+
+@Article{rodrigues2006,
+  Title                    = {EstratÃ©gia Para O Tratamento Com Levodopa Na DoenÃ§a De Parkinson},
+  Author                   = {Milena Rodrigues, Luciane Costa Campos},
+  Journal                  = {Revista Analytica},
+  Year                     = {2006}
+}
+
+@Article{healthmonitoring2013,
+  Title                    = {Health Monitoring for Elderly: An Application Using Case-Based Reasoning and Cluster Analysis},
+  Author                   = {Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi},
+  Journal                  = {ISRN Artificial Intelligence},
+  Year                     = {2013}
+}
+
+@Book{moore2011basics,
+  Title                    = {Basics of Game Design},
+  Author                   = {Michael Moore},
+  Publisher                = {Taylor \& Francis Group},
+  Year                     = {2011}
+}
+
+@InProceedings{bas00,
+  Title                    = {Requirements Engineering: A Roadmap},
+  Author                   = {Nuseibeh, Bashar and Easterbrook, Steve},
+  Booktitle                = {Proceedings of the Conference on The Future of Software Engineering},
+  Year                     = {2000},
+  Publisher                = {ACM}
+}
+
+@MastersThesis{elicquest05,
+  Title                    = {ElicitaÃ§Ã£o de Requisitos de Software AtravÃ©s da UtilizaÃ§Ã£o de QuestionÃ¡rios},
+  Author                   = {Paulo Roberto de Oliveira Bastos Junior},
+  School                   = {PUC-Rio},
+  Year                     = {2005},
+  Type                     = {DissertaÃ§Ã£o de Mestrado},
+
+  File                     = {:C\:\\Users\\leonardo\\Dropbox\\doutorado ufcg\\bibliografia\\gqm\\dissertacao - paulo - gqm - julio cesar leite.PDF:PDF},
+  Owner                    = {leonardo},
+  Timestamp                = {2014.02.16}
+}
+
+@TechReport{ageing2011,
+  Title                    = {Global Health and ageing},
+  Author                   = {World Health Organization},
+  Institution              = {Who; US National Institute of Aging},
+  Year                     = {2011}
+}
+
+@Article{Papastergiou:2009:EPC:1570538.1570707,
+  Title                    = {Exploring the potential of computer and video games for health and physical education: A literature review},
+  Author                   = {Papastergiou, Marina},
+  Journal                  = {Computation Education},
+  Year                     = {2009}
+}
+
+@Article{patel_monitoring_2009,
+  Title                    = {Monitoring Motor Fluctuations in Patients With Parkinson's Disease Using Wearable Sensors},
+  Author                   = {Patel, S. and Lorincz, K. and Hughes, R. and Huggins, N. and Growdon, J. and Standaert, D. and Akay, M. and Dy, J. and Welsh, M. and Bonato, P.},
+  Journal                  = {{IEEE} Transactions on Information Technology in Biomedicine},
+  Year                     = {2009}
+}
+
+@Book{protpar010,
+  Title                    = {Protocolo ClÃ­nico E Diretrizes TerapÃªutica - DoenÃ§a de Parkinson},
+  Author                   = {Paulo Picon and Maria Gadelha and Alberto Beltrame},
+  Publisher                = {MinistÃ©rio da SaÃºde},
+  Year                     = {2010}
+}
+
+@Misc{qda13,
+  Title                    = {QDA MINER Lite v1.2.2},
+
+  Author                   = {Provalis Research},
+  HowPublished             = {\textit{Software}, {D}isponÃ­vel em: http://provalisresearch.com/products/qualitative-data-analysis-software/},
+  Note                     = {Ãšltimo acesso: 23 de Novembro de 2015}
+}
+
+@Book{rowlandtratado,
+  Title                    = {Tratado De Neurologia},
+  Author                   = {Lewis Rowland},
+  Publisher                = {Guanabara Koogan},
+  Year                     = {2011}
+}
+
+@InProceedings{finger2012,
+  Title                    = {Severity estimation of finger-tapping caused by Parkinson's disease by using linear discriminant regression analysis},
+  Author                   = {Sano, Y. and Kandori, A. and Miyoshi, T. and Tsuji, T. and Shima, K. and Yokoe, M. and Sakoda, S.},
+  Booktitle                = {International Conference of Engineering in Medicine and Biology Society,},
+  Year                     = {2012},
+  Publisher                = {EMBC}
+}
+
+@MastersThesis{antonio2013,
+  Title                    = {ArcabouÃ§o de Software para a AquisiÃ§Ã£o de Dados de SaÃºde AtravÃ©s de Jogos EletrÃ´nicos},
+  Author                   = {AntÃ´nio Dias dos Santos JÃºnior},
+  School                   = {Universidade Federal de Campina Grande},
+  Year                     = {2013},
+  Type                     = {DissertaÃ§Ã£o de Mestrado},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2013.05.18}
+}
+
+@MastersThesis{svm-cg-2002,
+  Title                    = {Teoria e AplicaÃ§Ã£o de Support Vector Machines Ã  Aprendizagem e Reconhecimento de Objetos Baseado na AparÃªncia},
+  Author                   = {Eulanda Miranda dos Santos},
+  School                   = {Universidade Federal de Campina Grande},
+  Year                     = {2002},
+  Type                     = {DissertaÃ§Ã£o de Mestrado},
+
+  File                     = {:C\:\\Users\\leonardo\\Dropbox\\doutorado ufcg\\bibliografia\\svm\\Dissertacao_EulandaMirandadosSantos.pdf:PDF},
+  Owner                    = {leonardo},
+  Timestamp                = {2013.06.18}
+}
+
+@MastersThesis{saraiva2006,
+  Title                    = {UtilizaÃ§Ã£o da Abordagem Goal-Question-Metrics (GQM) Na ElaboraÃ§Ã£o e ExecuÃ§Ã£o de Planos de AvaliaÃ§Ã£o de Usabilidade de Software: Um Estudo EmpÃ­rico Sobre Um Software AgropecuÃ¡rio},
+  Author                   = {Alessandra Vilches Saraiva},
+  School                   = {Universidade Metodista De Piracicaba},
+  Year                     = {2006},
+  Type                     = {DissertaÃ§Ã£o de Mestrado},
+
+  Owner                    = {leonardo},
+  Timestamp                = {2014.02.16}
+}
+
+@TechReport{sinclair07,
+  Title                    = {Considerations for the design of exergames},
+  Author                   = {Sinclair, Jeff and Hingston, Philip and Masek, Martin},
+  Institution              = {ACM Special Interest Group on Computer Graphics and Interactive Techniques},
+  Year                     = {2007}
+}
+
+@Article{Sinclair:2009:UVB:1515604.1515617,
+  Title                    = {Using a Virtual Body to Aid in Exergaming System Development},
+  Author                   = {Sinclair, Jeff and Hingston, Philip and Masek, Martin and Nosaka, Kazunori (Ken)},
+  Journal                  = {IEEE Computer Graphics Applications},
+  Year                     = {2009}
+}
+
+@Book{van1999goal,
+  Title                    = {The Goal/Question/Metric Method: A Practical Guide for Quality Improvement of Software Development},
+  Author                   = {Rini Solingen and Egon Berghout},
+  Publisher                = {McGraw-Hill},
+  Year                     = {1999}
+}
+
+@Book{sommerville2011,
+  Title                    = {Engenharia de software},
+  Author                   = {Ian Sommerville},
+  Publisher                = {Pearson},
+  Year                     = {2011}
+}
+
+@Article{Storni:2014:DCU:2628458.2628474,
+  Title                    = {Design Challenges for Ubiquitous and Personal Computing in Chronic Disease Care and Patient Empowerment: A Case Study Rethinking Diabetes Self-monitoring},
+  Author                   = {Storni, Cristiano},
+  Journal                  = {Personal Ubiquitous Computing},
+  Year                     = {2014}
+}
+
+@InProceedings{Suhonen:2008:SFE:1457199.1457204,
+  Title                    = {Seriously fun: exploring how to combine promoting health awareness and engaging gameplay},
+  Author                   = {Suhonen, Katja and V\"{a}\"{a}t\"{a}j\"{a}, Heli and Virtanen, Tytti and Raisamo, Roope},
+  Booktitle                = {International Conference on Entertainment and Media in the Ubiquitous Era},
+  Year                     = {2008},
+  Publisher                = {ACM}
+}
+
+@Article{sweetser2005-gameflow,
+  Title                    = {GameFlow: a model for evaluating player enjoyment in games},
+  Author                   = {Sweetser, Penelope and Wyeth, Peta},
+  Journal                  = {Computation Entertainment},
+  Year                     = {2005}
+}
+
+@Article{synnott_wiipd_2012,
+  Title                    = {WiiPD Objective Home Assessment of Parkinson's Disease Using the Nintendo Wii Remote},
+  Author                   = {Synnott, J. and Chen, Liming and Nugent, {C.D.} and Moore, G.},
+  Journal                  = {IEEE Transactions on Information Technology in Biomedicine},
+  Year                     = {2012}
+}
+
+@Article{gaitusingsensorsreview2012,
+  Title                    = {Gait Analysis Using Wearable Sensors},
+  Author                   = {Tao, Weijun and Liu, Tao and Zheng, Rencheng and Feng, Hutian},
+  Journal                  = {Sensors},
+  Year                     = {2012}
+}
+
+@Misc{unity3d,
+  Title                    = {Unity 3D 3.0},
+
+  Author                   = {Unity Technologies},
+  HowPublished             = {\textit{Software}, {D}isponÃ­vel em: http://unity3d.com/},
+  Note                     = {Ãšltimo acesso: 23 de Novembro de 2015}
+}
+
+@Article{tolosa06,
+  Title                    = {The Diagnosis Of Parkinson's Disease},
+  Author                   = {Tolosa, Eduardo and Wenning, Gregor and Poewe, Werner},
+  Journal                  = {The Lancet Neurology},
+  Year                     = {2006}
+}
+
+@Book{vapnik95,
+  Title                    = {The Nature of Statistical Learning Theory},
+  Author                   = {Vladimir Vapnik},
+  Publisher                = {Springer-Verlag New York, Inc.},
+  Year                     = {1995}
+}
+
+@Article{vedolin2003,
+  Title                    = {AvaliaÃ§Ã£o da doenÃ§a de Parkinson pela ressonÃ¢ncia magnÃ©tica},
+  Author                   = {Leonardo Vedolin},
+  Journal                  = {Radiologia Brasileira},
+  Year                     = {2003}
+}
+
+@MastersThesis{vicini2005,
+  Title                    = {AnÃ¡lise Multivariada Da Teoria Ã€ PrÃ¡tica},
+  Author                   = {Lorena Vicini},
+  School                   = {Universidade Federal de Santa Maria},
+  Year                     = {2005},
+  Type                     = {DissertaÃ§Ã£o de Mestrado},
+
+  File                     = {:C\:\\Users\\leonardo\\Dropbox\\doutorado ufcg\\gaitdb\\pcatutorial\\analise multivariada da teoria a pratica -.pdf:PDF},
+  Owner                    = {leonardo},
+  Timestamp                = {2014.01.09}
+}
+
+@InProceedings{mhms2009,
+  Title                    = {Mobile health monitoring systems},
+  Author                   = {W. Walker and A. L. P. Aroul and D. Bhatia},
+  Booktitle                = {Engineering in Medicine and Biology Society, 2009. EMBC 2009. Annual International Conference of the IEEE},
+  Year                     = {2009},
+  Month                    = {Sept},
+  Pages                    = {5199-5202},
+
+  Abstract                 = {Advancements are being made towards a cheap and effective means for health monitoring. A mobile monitoring system is proposed for monitoring a bicycle rider using light weight, low power wireless sensors. Biometric and environmental information pertaining to the bicycle rider is captured, transmitted to, and stored in a remote database with little user interaction required. Remote users have real time access to the captured information through a web application. Possible applications for this system include the monitoring of a soldier in the battlefield and the monitoring of a patient during an ambulance ride.},
+  Doi                      = {10.1109/IEMBS.2009.5334583},
+  ISSN                     = {1557-170X},
+  Keywords                 = {health care;patient monitoring;wireless sensor networks;ambulance ride;battlefield;bicycle rider;biometric information;environmental information;health care;light weight wireless sensor;low power wireless sensor;mobile health monitoring systems;remote database;soldier;web application;Bicycling;Health;Heart Rate;Humans;Oxygen;Telemedicine;Telemetry;User-Computer Interface},
+  Owner                    = {leonardo},
+  Timestamp                = {2016.03.24}
+}
+
+@Book{datamining2005,
+  Title                    = {Data Mining: Practical Machine Learning Tools and Techniques},
+  Author                   = {Ian Witten and Eibe Frank},
+  Publisher                = {Morgan Kaufmann Publishers Inc.},
+  Year                     = {2011}
+}
+
+@Electronic{zigfu,
+  Title                    = {Zigfu 4.0},
+  Author                   = {Zigfu},
+  HowPublished             = {\textit{Software}, {D}isponÃ­vel em: http://zigfu.com/},
+  Note                     = {Ãšltimo acesso: 23 de Novembro de 2015}
+}
+
+@InCollection{zowghi2005,
+  Title                    = {Requirements Elicitation: A Survey of Techniques, Approaches, and Tools},
+  Author                   = {Zowghi, Didar and Coulin, Chad},
+  Booktitle                = {Engineering and Managing Software Requirements},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2005}
+}
+
+@Article{ambulatoryparkinson2010,
+  Title                    = {Ambulatory Monitoring of Activities and Motor Symptoms in Parkinson's Disease},
+  Author                   = {Zwartjes, D.G.M. and Heida, T. and van Vugt, J.P.P. and Geelen, J.A.G. and Veltink, P.H.},
+  Journal                  = {IEEE Transactions on Biomedical Engineering},
+  Year                     = {2010}
 }
 

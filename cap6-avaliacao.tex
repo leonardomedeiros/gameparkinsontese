@@ -271,19 +271,19 @@ Se esse mecanismo acontecesse. Você poderia avaliar a dosagem de um paciente po
 \subsection{Requisitos Identificados}
 A \ac{er} é o processo de descobrir o propósito do software, identificando os principais envolvidos do sistema com suas respectivas necessidades e documentando a análise para uma implementação posterior \cite{bas00}. Contudo, é um processo que deve ser continuamente repetido para que as necessidades dos envolvidos sejam satisfeitas. As técnicas para identificação de requisitos são derivadas principalmente das ciências sociais, que se baseiam em pesquisa qualitativa onde são analisados a teoria do objeto de estudo com a experiência prática dos envolvidos na pesquisa ~\cite{elicquest05,zowghi2005}.
 
-A identificação dos requisitos de um sistema representa o início da elicitação das necessidades da solução proposta. Então, os requisitos definem quais serão os serviços que o sistema deve prover além de um conjunto de restrições existentes na operação do mesmo \cite{sommerville2011}. A técnica utilizada para a identificação dos requisitos desta pesquisa é baseada em pesquisa qualitativa, onde usou-se a entrevista semiestruturada na qual o entrevistador possui um conjunto de perguntas pré-definidas e guia a entrevista de acordo com a opinião do entrevistado~\cite{FLI04}. Ficou definido, que cada requisito deve ser importante para os entrevistados e a nomenclatura estabelecida é de \textbf{REQ-ENTREVISTAS} seguida por um número sequencial correspondente à sua apresentação. Para demonstrar a relevância dos requisitos, a teoria foi confrontada com o que é aplicado na prática pelos profissionais de saúde, por esse motivo, foram citadas referências científicas que corroboram com a análise. 
+A identificação dos requisitos de um sistema representa o início da elicitação das necessidades da solução proposta. Então, os requisitos definem quais serão os serviços que o sistema deve prover além de um conjunto de restrições existentes na operação do mesmo~\cite{sommerville2011}. A técnica utilizada para a identificação dos requisitos desta pesquisa é baseada em pesquisa qualitativa, onde usou-se a entrevista semiestruturada na qual o entrevistador possui um conjunto de perguntas pré-definidas e guia a entrevista de acordo com a opinião do entrevistado~\cite{FLI04}. Ficou definido, que cada requisito deve ser importante para os entrevistados e a nomenclatura estabelecida é de \textbf{REQ-ENTREVISTAS} seguida por um número sequencial correspondente à sua apresentação. Para demonstrar a relevância dos requisitos, a teoria foi confrontada com o que é aplicado na prática pelos profissionais de saúde, por esse motivo, foram citadas referências científicas que corroboram com a análise. 
 
 
 
 %O uso do termo "Engenharia" implica que técnicas sistemáticas e repetidas devem ser aplicadas para certificar que os requisitos de um sistema estejam completos, consistentes e relevantes \cite{sommerville2011}. O emprego correto da Engenharia de Requisitos é um passo fundamental para o desenvolvimento de um bom  produto, onde a satisfação do usuário deve ser o principal objetivo a ser atingido \cite{zowghi2005}.
 
 \begin{description}
-	\item[REQ-ENTREVISTAS-01 :] Identificar e quantificar o tremor parkinsoniano ~\cite{tolosa06,keijsers2006,lemoyne2010}.
-	\item[REQ-ENTREVISTAS-02 :] Identificar a bradicinesia ~\cite{patel_monitoring_2009}. %Para identificar a bradicinesia pode ser calculada a velocidade angular do movimento de abdução e adução do braço.
+	\item[REQ-ENTREVISTAS-01 :] Identificar e quantificar o tremor parkinsoniano~\cite{tolosa06,keijsers2006,lemoyne2010}.
+	\item[REQ-ENTREVISTAS-02 :] Identificar a bradicinesia~\cite{patel_monitoring_2009}. %Para identificar a bradicinesia pode ser calculada a velocidade angular do movimento de abdução e adução do braço.
 	\item[REQ-ENTREVISTAS-03 :] Avaliar bradicinesia usando~\textit{finger-tapping}~\cite{finger2012}.
-	\item[REQ-ENTREVISTAS-04 :] Considerar e identificar a assimetria do movimento nos estágios iniciais ~\cite{national2006parkinson}.	%Além da velocidade angular podemos calcular a amplitude do movimento, assim identificarems a assimetria do movimento com mais clareza.
-	\item[REQ-ENTREVISTAS-05 :] Fornecer mecanismos para possibilitar o Diagnóstico Diferencial \cite{protpar010} da Doença de Parkinson. %caso os sinais de bradicinesia e marcha sejam identificados. Caso os indivíduos venham a surtir efeito ao medicamento e consequentemente reduzir a gravidade do sintoma, então foi possível realizar um diagnóstico diferencial.
-	\item[REQ-ENTREVISTAS-06 :] Analisar a Marcha ~\cite{gaitusingsensorsreview2012}. Medir a marcha e comparar o padrão do movimento com indivíduos com e sem o diagnóstico da ~\ac{dp} para classificar a marcha como saudável ou parkinsoniana.
+	\item[REQ-ENTREVISTAS-04 :] Considerar e identificar a assimetria do movimento nos estágios iniciais~\cite{national2006parkinson}.	%Além da velocidade angular podemos calcular a amplitude do movimento, assim identificarems a assimetria do movimento com mais clareza.
+	\item[REQ-ENTREVISTAS-05 :] Fornecer mecanismos para possibilitar o Diagnóstico Diferencial~\cite{protpar010} da Doença de Parkinson. %caso os sinais de bradicinesia e marcha sejam identificados. Caso os indivíduos venham a surtir efeito ao medicamento e consequentemente reduzir a gravidade do sintoma, então foi possível realizar um diagnóstico diferencial.
+	\item[REQ-ENTREVISTAS-06 :] Analisar a Marcha~\cite{gaitusingsensorsreview2012}. Medir a marcha e comparar o padrão do movimento com indivíduos com e sem o diagnóstico da ~\ac{dp} para classificar a marcha como saudável ou parkinsoniana.
 	\item[REQ-ENTREVISTAS-07 :] Calcular e armazenar a amplitude do movimento de adução e abdução dos braços, para realizar o monitoramento da saúde motora e poder acompanhar o tratamento.
 	\item[REQ-ENTREVISTAS-08 :] Calcular e armazenar a velocidade angular do movimento de adução e abdução dos braços. Para poder avaliar o sintoma da bradicinesia.
 	\item[REQ-ENTREVISTAS-09 :] Avaliar estado emocional baseado na ocorrência e comprometimento do tremor. 
@@ -393,14 +393,16 @@ Com base na rastreabilidade dos fragmentos da entrevista, pode-se concluir que e
 Partindo da importância de identificar o sintoma da bradicinesia e, consequentemente, avaliar a dificuldade do movimento (Seção ~\ref{section:analise_bradicinesia}), nessa pesquisa buscou-se avaliar esse sintoma com o movimento de adução e abdução dos braços (ver Figura ~\ref{fig:movabducaomet}). A abordagem de aprendizagem de máquina foi utilizada para classificar portadores do~\ac{dp} ante indivíduos sem o diagnóstico. Partiu-se do princípio que os indivíduos com~\ac{dp} teriam mais dificuldade ao levantar o Braço e a velocidade angular do mesmo seria reduzida ante os indivíduos que não desenvolveram a doença.
 
 \subsection{Estudo analítico de caso-controle}\label{section:estudo_caso_controle}
-Esta etapa da pesquisa foi pautada pelo protocolo de pesquisa submetido à avaliação do Comitê de Ética da UFCG. Somente após a aprovação deste (\textbf{CAAE: 14408213.9.1001.5182}) é que os dados foram coletados. 
+Esta etapa da pesquisa foi pautada pelo protocolo de pesquisa avaliado pelo Comitê de Ética da UFCG (Apêndice~\ref{sec:comite}). Somente, após a aprovação deste (\textbf{CAAE: 14408213.9.1001.5182}), é que os dados foram coletados. 
 
-Os resultados que se pretendem alcançar com a pesquisa são mecanismos para a identificação e classificação de pessoas saudáveis ante os portadores do~\ac{dp}. Durante a pesquisa também analisou-se o sensor de movimento MS-Kinnect~\cite{kinnect2013} para avaliar a possibilidade de aquisição de dados de saúde baseada na Cinemática Linear do Movimento Humano~\cite{mcginnis2013biomechanics}. A partir dos resultados obtidos, pretende-se avaliar e classificar a normalidade e dificuldade na execução de movimentos como, por exemplo, levantar um braço~\cite{mcginnis2013biomechanics}.
+Os resultados alcançados com a pesquisa foi avaliar técnicas de identificação e classificação de pessoas saudáveis ante os portadores do~\ac{dp}. Durante a pesquisa, analisamos o sensor de movimento MS-Kinnect~\cite{kinnect2013} para avaliar a possibilidade de aquisição de dados de saúde, baseada na Cinemática Linear do Movimento Humano~\cite{mcginnis2013biomechanics}. A partir dos resultados obtidos, pudemos avaliar a normalidade e dificuldade na execução de movimentos como, por exemplo, levantar um braço~\cite{mcginnis2013biomechanics}.
 
-A coleta de dados foi realizada no Hospital Universitário da UFAL, e na Fundação Pestalozzi em Maceió, ambas sob a tutela da Profa. e Neurologista Dra. Cícera Pontes; e na Clínica de Fisioterapia do CESMAC, sob a tutela do Prof. de Fisioterapia Jean Charles Santos. As coletas foram realizadas em local reservado e de forma individual, com a anuência do sujeito pesquisado através da assinatura do Termo de Consentimento.
+A coleta de dados foi realizada no Hospital Universitário da UFAL e, na Fundação Pestalozzi em Maceió. Para estas coletas, obtivemos a tutela da Profa. e Neurologista Dra. Cícera Pontes; e na Clínica de Fisioterapia do CESMAC, sob a tutela do Prof. de Fisioterapia Jean Charles Santos. As coletas foram realizadas em local reservado e, de forma individual, com a anuência do sujeito pesquisado através da assinatura do Termo de Consentimento.
 
 \subsubsection{Amostra}
-Foram selecionados por disponibilidade um total de 30 sujeitos da pesquisa. O grupo previamente diagnosticado por neurologistas com~\ac{dp} consistiu de 15 indivíduos , 10 homens e 5 mulheres, entre 51 e 65 anos (média : 58 anos) . O grupo controle foi composto por 15 indivíduos sem diagnóstico PD , 11 homens e 4 mulheres , entre 50 e 65 anos (média : 57 anos). Todos os indivíduos fizeram uso da abordagem de monitoramento baseada em jogos proposta neste trabalho. Os sujeitos da pesquisa foram solicitados a executarem os movimentos de abdução e adução dos braços de acordo com a proposta do jogo onde todas as sessões foram feitas sob supervisão de um neurologista e fisioterapeuta onde foi verificado o estado de saúde do indivíduo continuamente. Durante as coletas, não houve a necessidade de nenhuma interrupção da coleta devido a problemas de saúde ou qualquer outra eventualidade.
+Foram selecionados por disponibilidade, um total de 30 sujeitos da pesquisa. O grupo previamente diagnosticado por neurologistas com~\ac{dp}, consistiu de 15 indivíduos. Destes, 10 eram homens e 5 mulheres, entre 51 e 65 anos (média : 58 anos). O grupo controle foi composto por 15 indivíduos sem diagnóstico PD, destes 11 eram homens e 4 mulheres, entre 50 e 65 anos (média : 57 anos). Todos os indivíduos fizeram uso da abordagem de monitoramento baseada em jogos proposta neste trabalho. Os sujeitos da pesquisa foram solicitados a executarem os movimentos de abdução e adução dos braços de acordo com a proposta do jogo. Todas as sessões foram realizadas sob supervisão de um neurologista ou fisioterapeuta onde foi verificado o estado de saúde. 
+
+%Durante as coletas, não houve a necessidade de nenhuma interrupção da coleta devido a problemas de saúde ou qualquer outra eventualidade.
 
 %A total number of 30 subjects participated in the study. The group previously diagnosed by neurologists with PD consisted of 15 subjects, 10 men and 5 women, between 51 and 65 years (mean: 58). The control group was composed of 15 subjects without a PD diagnosis, 11 men and 4 women, between 50 and 65 years (mean: 57). All subjects were interacting with exactly the same system in both hardware and software, and were prompted to seamlessly perform abduction and adduction of the arms according to the game's context. All sessions were made in a medical institution under the supervision of a neurologist or physiotherapist to continuously check the subject's health condition. No subject needed to interrupt the experiment to ensure safety.
 
@@ -408,18 +410,18 @@ Foram selecionados por disponibilidade um total de 30 sujeitos da pesquisa. O gr
 
 
 \subsubsection{Recrutamento dos Sujeitos e Aquisição do Consentimento Livre e Esclarecido}
-A forma de recrutamento deste protocolo será circunscrita por intermédio de um profissional de saúde. O profissional conhecia a história clínica do paciente e obteve a permissão do mesmo para que a equipe de pesquisa entrasse em contato. A equipe de pesquisa explicitou os riscos e benefícios da participação da pesquisa buscando a arbitrariedade e espontaneidade da decisão. Depois foi oferecido para assinatura o Termo de Consentimento Livre e Esclarecido.
+O recrutamento deste protocolo estava circunscrita por intermédio de um profissional de saúde. O profissional conhecia a história clínica do paciente e obteve a permissão do mesmo. No momento da coleta, a equipe de pesquisa explicitou os riscos e benefícios na participação da pesquisa e, buscou a arbitrariedade e espontaneidade da decisão. Depois, foi oferecido para assinatura, o Termo de Consentimento Livre e Esclarecido.
 
 \subsubsection{Critérios de Inclusão}
-Foram inclusos na pesquisa, os indivíduos do grupo diagnosticados com~\ac{dp} no estágio 3 segundo a UPDRS~\cite{updrs87}, sem distinção de gênero ou cor. Os indivíduos, ficaram dentro das facilidades da clínica onde a coleta foi realizada e aceitaram participar do estudo. O grupo de indivíduos que não possuíam diagnóstico do \ac{dp}, informaram que nunca receberam o diagnóstico da doença e que aceitariam participar do estudo como grupo controle.
+Foram inclusos na pesquisa, os indivíduos do grupo diagnosticados com~\ac{dp} no estágio 3 segundo a UPDRS~\cite{updrs87}, sem distinção de gênero ou cor. Os indivíduos ficaram dentro das facilidades da clínica onde a coleta foi realizada e aceitaram participar do estudo. O grupo de indivíduos que não estavam diagnosticados com~\ac{dp} informaram: que nunca receberam o diagnóstico da doença e aceitariam participar do estudo como grupo controle.
 
 \subsubsection{Critérios de Exclusão}
-Foram excluídos das pesquisas os indivíduos com sinais motores e que tivessem problemas de equilíbrio ou questionamento de dores ao executar os procedimentos. Foram excluídos também, o indivíduo que por qualquer motivo se negou a participar do estudo.
+Foram excluídos das pesquisas: os indivíduos com sinais motores, com problemas de equilíbrio ou questionamento de dores ao executar os procedimentos. Foram excluídos também, os indivíduos que por qualquer motivo se negaram a participar do estudo.
 
 \subsubsection{Materiais}
-Para a presente pesquisa, foram coletados movimentos de abdução e adução dos braços~\cite{mcginnis2013biomechanics}, os quais poderiam ser incorporados a um jogo eletrônico. Foi utilizado um jogo com o arcabouço de software de captura de dados desenvolvido por um aluno de Mestrado da Universidade Federal de Campina Grande~\cite{antonio2013}, juntamente a um aluno de iniciação científica do Instituto Federal de Alagoas. 
+Para a presente pesquisa foram coletados movimentos de abdução e adução dos braços~\cite{mcginnis2013biomechanics}, que podem ser incorporados a um jogo eletrônico. Foi utilizado um jogo com o arcabouço de software de captura de dados, desenvolvido por um aluno de Mestrado da Universidade Federal de Campina Grande~\cite{antonio2013}, juntamente a um aluno de iniciação científica do Instituto Federal de Alagoas. 
 
-Durante a execução da coleta, houve uma preocupação com a integridade física dos participantes. Então, os movimentos utilizados no jogo foram apenas de adução e abdução dos braços~\cite{mcginnis2013biomechanics}, proporcionado a segurança dos participantes. 
+Durante a execução da coleta, houve uma preocupação com a integridade física dos participantes. Então, os movimentos utilizados no jogo foram apenas de adução e abdução dos braços~\cite{mcginnis2013biomechanics}, isto proporcionou a devida segurança aos participantes. 
 
 %\subsubsection{Infra-Estrutura}
 %A pesquisa será realizada na Clínica em que o paciente está em tratamento, onde são realizados tratamentos fisioterápicos ou consultas. O espaço físico forneceu condições favoráveis e adequadas para aplicação dos jogos. Para a realização da pesquisa foram utilizados:
@@ -431,14 +433,14 @@ Durante a execução da coleta, houve uma preocupação com a integridade físic
 %\end{itemize}
 
 \subsubsection{Métodos}
-Nesta pesquisa foi realizada uma análise de um sensor de movimento utilizado em jogos eletrônicos, e avaliada a possibilidade de aquisição de dados de saúde baseada na Cinemática Angular do Movimento Humano~\cite{hamill1999bases}.  Através dos resultados obtidos avaliou-se a possibilidade de classificar a normalidade e dificuldade na execução de movimentos como abdução e adução dos braços.
+Nesta pesquisa, foi realizada uma análise de um sensor de movimento utilizado em jogos eletrônicos e, avaliada a possibilidade de aquisição de dados de saúde baseada na Cinemática Angular do Movimento Humano~\cite{hamill1999bases}.  Através dos resultados obtidos, conseguimos classificar: a normalidade e dificuldade na execução de movimentos como abdução e adução dos braços.
 
-A coleta de dados foi realizada no próprio espaço de tratamento do indivíduo em local reservado e de forma individual. A participação do indivíduo foi consentida por meio da assinatura do Termo de Consentimento. Devido as restrições de tempo (1 minuto e 30 segundos) e da execução de um mesmo movimento por todos os participantes, foram solicitados dos voluntários a execução dos seguintes procedimentos:
+A coleta de dados foi realizada: no próprio espaço de tratamento do indivíduo, em local reservado e de forma individual. A participação do indivíduo foi consentida por meio da assinatura do Termo de Consentimento. Devido as restrições de tempo (1 minuto e 30 segundos), e da execução de um mesmo movimento por todos os participantes, foram solicitados dos voluntários a execução dos seguintes procedimentos:
 \begin{enumerate}
 	\item O voluntário se posiciona a uma distância de 2 metros do sensor de movimento, de modo a conseguir capturar toda a extensão superior do braço durante o movimento de abdução; 	
 	\item O voluntário inicia o jogo \textit{Catch the Spheres} usando a mão esquerda conforme a interface da aplicação;
-	\item O voluntário abduz e aduz 10 vezes o braço esquerdo, e depois o braço direito o mais alto e o mais rápido que consegue, de modo a permitir que fossem capturadas a amplitude de movimento e a velocidade angular do mesmo. 
-	\item O voluntário fecha a aplicação e esta realiza o armazenamento dos dados.
+	\item O voluntário abduz e aduz 10 vezes o braço esquerdo e, depois o braço direito o mais alto e o mais rápido possível, de modo a permitir que fossem capturadas a amplitude de movimento e a velocidade angular do mesmo. 
+	\item O voluntário fecha a aplicação, e esta realiza o armazenamento dos dados.
 \end{enumerate}
 
 \begin{figure}[!htbp]
@@ -451,19 +453,17 @@ A coleta de dados foi realizada no próprio espaço de tratamento do indivíduo 
  \label{fig:movabducaomet}
 \end{figure}
 
-Durante a análise foram comparados os Ângulos Relativos do Tronco e do Levantamento de Braços dos Indivíduos. As grandezas cinemáticas coletadas nesses estudo foram:
+Durante a análise, foram comparados os Ângulos Relativos do Tronco e do Levantamento de Braços dos Indivíduos. As grandezas cinemáticas coletadas nesses estudo foram:
 \begin{enumerate}
-	\item Do movimento de abdução, a máxima amplitude atingida pelos membros superiores;
+	\item A máxima amplitude atingida pelo movimento de abdução dos membros superiores;
 	\item velocidade angular de abdução membros esquerdo e direito;
 	\item velocidade angular de adução membros esquerdo e direito.
 \end{enumerate}
 
-Os dados capturados desta fase resultaram na extração de características do movimento incluindo: a amplitude do movimento dos braços do lado esquerdo e direito, a velocidade angular dos movimentos de adução e abdução. A descrição dos vetores de características estão descritos na Tabela~\ref{table:features}.
-
-
+Os dados capturados desta fase resultaram na extração de características do movimento, incluindo: a amplitude do movimento dos braços do lado esquerdo e direito, a velocidade angular dos movimentos de adução e abdução. Na Tabela~\ref{table:features} estão descritos os vetores de características:
 \begin{table}[h]
 \centering
-\caption{Detalhamento do vetor de características extraído da coleta de dados.}
+\caption{Descrição do vetor de características extraído da coleta de dados.}
 \label{table:features}
 \begin{tabular}{|l|l|}
 \hline
@@ -484,17 +484,17 @@ AngVelAdDireito & Velocidade angular do movimento de adução do braço direito.
 	\label{fig:signalamplitudepeakvaley}
 \end{figure}
 
-A partir da extração das características do movimento, a próxima etapa da pesquisa é classificar os dados de movimento e identificar a ocorrência do sintoma de bradicinesia. Por meio das teorias estatísticas de aprendizagem de máquina, foi realizado uma análise dos dados para aquisição de conhecimento utilizando técnicas de aprendizagem supervisionada. 
+A partir da extração das características do movimento, a próxima etapa da pesquisa, é classificar os dados de movimento e identificar a ocorrência do sintoma de bradicinesia. Por meio das teorias estatísticas de aprendizagem de máquina, foi realizado uma análise dos dados para aquisição de conhecimento utilizando aprendizagem supervisionada~\cite{kantardzic2011data}. 
 
 %Logo, os dados biomecânicos~\cite{hamill1999bases} coletados foram utilizados com a \ac{dp} ante os indivíduos sem o diagnóstico estabelecido. Pelo quantitativo da pesquisa ter sido de 30 indivíduos, a abordagem de aprendizagem de máquina usando \ac{svm} ~\cite{vapnik95} foi utilizada juntamente com a técnica de validação-cruzada \textit{leave-one-out}, essa técnica será explicada com mais detalhes na Seção \ref{validacao_cruzada_svm}.
 
 
 \subsubsection{Relação Risco e Benefício da Pesquisa}
-Os riscos inerentes podem decorrer da exposição de dados dos sujeitos da pesquisa, o que pode acarretar danos morais e/ou psicológicos. Logo, teve-se um cuidado de preservar a integridade física e psicológica dos sujeitos da pesquisa, garantindo assim, a privacidade e confidencialidade das informações.
+Os riscos inerentes podem decorrer da exposição de dados dos sujeitos da pesquisa. Isto, pode pode acarretar em danos morais e/ou psicológicos. Logo, teve-se um cuidado de preservar a integridade física e psicológica dos sujeitos da pesquisa, garantindo assim: a privacidade e confidencialidade das informações.
 
-Caso houvesse algum constrangimento por parte do sujeito da pesquisa, ao não conseguir realizá-la ou responder alguma pergunta devido ao comprometimento da doença, os pesquisadores prestaram total assistência, orientando-o adequadamente para prosseguir ou encerrar o procedimento.
+Caso ocorresse algum constrangimento por parte do sujeito da pesquisa, ao não conseguir realizá-la, os pesquisadores prestariam total assistência, orientando-o adequadamente para prosseguir ou encerrar o procedimento. Os presentes riscos fazem jus aos benefícios que a pesquisa venha a trazer com a possibilidade de monitoramento dos sinais dp~\ac{dp}. A identificação dos sinais motores e classificação desses dados através do computador podem: permitir avanços para um melhor acompanhamento da evolução da doença e possibilitar o monitoramento não invasivo dos pacientes.
 
-%Os presentes riscos fazem jus aos benefícios que a pesquisa venha a trazer com a possibilidade de monitoramento dos sinais da \ac{dp}. A identificação dos sinais motores e classificação desses dados através do computador podem permitir avanços para um melhor acompanhamento da evolução da doença além de possibilitar que os pacientes venham a ser monitorados de forma não invasiva através de um jogo eletrônico. Os pacientes deverão ter o seu estágio da \ac{dp} previamente diagnosticada por um médico para ser possível comparar os dados do monitoramento com a classificação obtida.
+%Os pacientes deverão ter o seu estágio da \ac{dp} previamente diagnosticada por um médico para ser possível comparar os dados do monitoramento com a classificação obtida.
 
 
 
@@ -519,23 +519,9 @@ Nessa etapa da pesquisa foi calculado o Vetor Médio (Seção~\ref{section:filtr
  \label{fig:vetor_medio_abducao}
 \end{figure}
 
-% 
-% 
-% \subsubsection{Validação Cruzada}\label{validacao_cruzada_svm}
-% Para verificar a precisão da classificação de indivíduos saudáveis perante os parkinsonianos foi aplicada a técnica de Validação Cruzada (cross-validation) ~\cite{datamining2005}. A validação cruzada é uma técnica empregada para avaliar a capacidade de generalização de um modelo de predição em um conjunto de dados. Em um primeiro momento, realiza-se a partição do conjunto de dados em subconjuntos mutualmente exclusivos e ,posteriormente, usa-se este subconjunto para verificar a acurácia do modelo ~\cite{datamining2005}. 
-% %O conceito central das técnicas de validação cruzada é o particionamento do conjunto de dados em subconjuntos mutualmente exclusivos, e posteriormente, usar alguns destes subconjuntos como dados de treinamento para encontrar valores que permitam a predição. O restante dos subconjuntos serão usados como dados de teste utilizados para avaliar o modelo preditivo.
-% 
-% A escolha do grupo de treinamento deve contemplar todas as classes no conjunto de dados, este procedimento é chamado de estratificação ou \textbf{Validação Cruzada Estratificada}~\cite{datamining2005}. Essa técnica é muito utilizada para mitigar a ocorrência de viés na pesquisa, pois o processo de treinamento é repetido por várias vezes com amostras diferentes incluindo diferentes casos em cada classe. Dada uma amostra única, um método de predição de taxa de erro na aprendizagem de máquina é usar a Validação-Cruzada dez vezes (\textit{10 K-Fold Cross-Validation})~\cite{datamining2005}, onde os dados são aleatórios e divididos em 10 grupos com a mesma proporção de classe. O processo de aprendizagem é executado por 10 vezes onde 1 grupo é selecionado como grupo de teste e os demais são selecionados como grupo de treinamento. A taxa de erro é calculada em cada processo de aprendizagem executado e no final é calculada a taxa de erro global. 
-% 
-% A escolha do número 10 para a quantidade de grupos não foi de forma aleatória, a literatura recomenda que sejam utilizados 10 grupos para obter a melhor estimativa de erro ~\cite{datamining2005}. Contudo, é reconhecido que esse número de 10 não é único ou insubstituível e em determinados casos, grupos de 5, 20 ou quaisquer outros números podem trazer melhores resultados.
-% 
-% Outro dado relevante para a escolha da técnica da estimativa de erro, é que uma única aplicação de Validação Cruzada \textit{10 K-Fold} pode não ser o suficiente para uma taxa de erro confiável. Pois, diferentes experimentos de Validação Cruzada podem produzir resultados distintos devido a natureza aleatória da escolha dos grupos. A estratificação reduz essa variação, contudo não a elimina completamente. Na busca por uma estimativa de erro mais exata, um procedimento que tem se transformado padrão nas técnicas de aprendizagem de máquina é repetir o processo de Validação Cruzada \textit{10 K-Fold} por 10 vezes. Ou seja, consiste em invocar o algoritmo de aprendizagem 100 vezes em um conjunto de dados, dessa forma aumenta-se a amostra de forma considerável e por consequência reduz-se a variação da taxa de erro na execução dos experimentos.
-% 
-% Desta maneira, o método escolhido de validação cruzada foi repetir e calcular por 10 vezes a \textit{10 K-Fold}. Os subjconjuntos são estratificados antes de cada um dos 10 processos de aprendizagem e a taxa de erro estimada em cada etapa processo de aprendizagem está exposta na Figura \ref{fig:erroestimadopca}. A taxa de classificação global é a média da taxa de acerto calculada em todo o processo.
-
 
 \subsubsection{Matriz de Confusão e Suas Métricas}
-Para avaliar o resultado da classificação, será apresentada a \textbf{matriz de confusão}~\cite{datamining2005}, que permite comparar os valores reais da classe com os valores obtidos no modelo de predição. 
+Para avaliar o resultado da classificação, será apresentada a \textbf{matriz de confusão}~\cite{kantardzic2011data}, que permite comparar os valores reais da classe com os valores obtidos no modelo de predição. 
 
 A matriz de confusão para duas classes consiste numa matriz $2$\ x $2$\, contendo os \textit{Verdadeiros Positivos} (\textbf{TP}) e \textit{Verdadeiro Negativo} (\textbf{TN}), que são as classificações corretas. Os \textit{Falsos Negativos} (\textbf{FN}) contém a predição incorreta de um valor que deveria ser positivo e os \textit{Falsos Positivos} (\textbf{FP}) contém os valores positivos quando deveriam ser negativos como pode ser visto na Tabela~\ref{table:descricaomatrizconfusao}.
 
@@ -552,36 +538,21 @@ A matriz de confusão para duas classes consiste numa matriz $2$\ x $2$\, conten
 \end{tabular}
 \end{table}
 
-% 
-% A matriz de confusão é uma ferramenta importante para avaliar os resultados de predição, pois facilita o entendimento do que está sendo avaliado e como se comporta o classificador em relação aos erros de classificação obtidos. Esta matriz serve como base para métricas que podem ser aplicadas a classificação e,  consequentemente, exibem a precisão do modelo. A matriz desta pesquisa (Tabela ~\ref{table:resultadomatrizconfusaopca}) foi gerada a partir da repetição de dez vezes da técnica de Validação Cruzada \textit{10-K-Fold}, conforme a Seção \ref{sec:validacao_cruzada_database}.
-% 
-% \begin{table}[!htbp]
-% \caption{Resultado da Matriz de Confusão}
-% \label{table:resultadomatrizconfusaopca}
-% \centering
-% \begin{tabular}{l|c|c|}
-% \cline{2-3}
-% \multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
-%                                              & \textbf{Parkinson}      & \textbf{Não-Parkinson}         \\ \hline
-% \multicolumn{1}{|l|}{\textbf{Parkinson}} & 429       & 71           \\ \hline
-% \multicolumn{1}{|l|}{\textbf{Controle}}     & 114           & 386     \\ \hline
-% \end{tabular}
-% \end{table}
-% 
+
 
 
 \subsection{Aprendizagem de Máquina (SVM)}
 
-Para uma base de dados pequena contendo 30 indivíduos, o método de Validação Cruzada escolhido deve tentar maximizar o conjunto de treinamento para atingir um melhor resultado de teste. Por esse motivo, foi escolhido o método de validação cruzada \textit{leave-one-out}. 
+Para uma base de dados pequena contendo 30 indivíduos, o método de Validação Cruzada escolhido deve tentar maximizar o conjunto de treinamento para atingir um melhor resultado de teste. Por esse motivo, foi escolhido o método de validação cruzada \textit{leave-one-out}~\cite{kantardzic2011data}. 
 
 O método \textit{leave-one-out} é um método de validação cruzada \textit{k-fold} com o mesmo número de \textit{n} indivíduos. Logo, apenas um indivíduo será considerado teste e os demais serão de treinamento. Desta maneira não existe estratificação nos dados, tornando o processo determinístico e repetível com a mesma base de dados, pois não existe o problema de viés na seleção dos dados. A taxa de erro obtida da classificação é a taxa de erro do modelo para aquela base de dados. 
 
 \subsubsection{Otimização dos Parâmetros da SVM - Método Grid-Search}
 
-Para identificar os melhores parâmetros~\ac{svm}, foi aplicada a técnica~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{datamining2005}. Esta técnica avalia a precisão do modelo prevista , evita o problema superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro , nós aplicamos uma abordagem minimax para maximizar a margem sobre os coeficientes hiperplano ea classificação correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foi de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ] usando assim uma exponencial de base 2. Por meio desta técnica foi possível identificar uma região em que o classificador possuía a melhor acurácia e menor taxa de \textit{FpRate}. Após identificar essa região realizamos uma busca mais detalhada utilizando a técnica de \textit{grid-search} com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10] como 
+Para identificar os melhores parâmetros~\ac{svm}, foi aplicada a técnica~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Esta técnica avalia a precisão do modelo prevista , evita o problema superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro , nós aplicamos uma abordagem minimax para maximizar a margem sobre os coeficientes hiperplano ea classificação correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foi de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ] usando assim uma exponencial de base 2. Por meio desta técnica foi possível identificar uma região em que o classificador possuía a melhor acurácia e menor taxa de \textit{FpRate}. Após identificar essa região realizamos uma busca mais detalhada utilizando a técnica de \textit{grid-search} com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10] como 
 pode ser visto na Figura~\ref{fig:gridaccuracy}.
 
-%To identify the best SVM parameters, we applied the grid search technique~\citep{gridsearchsvm2010} using Leave-One-Out Cross-Validation (LOOCV)~\citep{datamining2005}. This technique assesses the accuracy of the predicted model, prevents the overfitting problem in the binary classification and is a practical method to identify the SVM parameters. In this study, to reduce the error rate, we applied a minimax approach to maximize the margin over the hyperplane coefficients and the correct classification. The parameters values of grid search for $C$ = [$2^5$, ... ,$2^2$] and $\gamma$ = [$2^{15}$, ... ,$2^3$ ], the step length was $2^2$, and with the identification and selection of a “better” region on the grid. So, we did a finer 
+%To identify the best SVM parameters, we applied the grid search technique~\citep{gridsearchsvm2010} using Leave-One-Out Cross-Validation (LOOCV)~\citep{kantardzic2011data}. This technique assesses the accuracy of the predicted model, prevents the overfitting problem in the binary classification and is a practical method to identify the SVM parameters. In this study, to reduce the error rate, we applied a minimax approach to maximize the margin over the hyperplane coefficients and the correct classification. The parameters values of grid search for $C$ = [$2^5$, ... ,$2^2$] and $\gamma$ = [$2^{15}$, ... ,$2^3$ ], the step length was $2^2$, and with the identification and selection of a “better” region on the grid. So, we did a finer 
 
 
 \begin{figure}[!h]
@@ -594,21 +565,7 @@ pode ser visto na Figura~\ref{fig:gridaccuracy}.
  \label{fig:gridaccuracy}
 \end{figure}
 
-
-
-% \begin{figure*}[htbp!]
-% \subfigure[\textit{Grid-Search} - Acurácia da Classificação.]{
-% \includegraphics[scale=0.4]{./img/gridsearch.png}
-% \label{fig:gridaccuracy}
-% }
-% \subfigure[Grid Search - FPRate.]{
-% \includegraphics[scale=0.4]{./img/gridsearchfprate.png}
-% \label{fig:gridfprate}
-% }
-% \label{fig:gridsearch}
-% \caption{GridSearch for SVM Parameter Optimization.}
-% \end{figure*}
-% 
+ 
 Como pode ser analisado na Figura~\ref{fig:gridaccuracy}, nós conseguimos uma classificação nos dados em que a pior seleção obteve uma acurácia de 70,00\% e melhor de 86,67\%. Conseguimos também um baixo valor de \textit{FpRate} com 6,67\% no melhor dos casos (Figura~\ref{fig:gridfprate}). Usando a técnica de \textit{grid-search} nós encontramos como melhor valor para os parâmetros: $C = 2$ and $\gamma = 3$. Como podemos analisar nos nossos resultados, por meio da técnica \textit{grid-search} foi possível identificar parâmetros para o classificador~\ac{svm} com uma boa generalização e que foi capaz de identificar a maior \textit{acurácia} e e menor nível de \textit{FpRate}.
 
 
@@ -626,17 +583,29 @@ Como pode ser analisado na Figura~\ref{fig:gridaccuracy}, nós conseguimos uma c
 \subsubsection{Resultados Obtidos}
 
 
-
-
 A Matriz de Confusão obtida indica que existem três indivíduos classificados como ``Controle'' e que possuem a doença, no entanto analisando as características do movimento dos indivíduos com~\ac{dp} percebemos que eles apresentaram uma amplitude de movimento e uma velocidade angular bastante próximas dos indivíduos do Grupo Controle. Logo, estes não apresentam o sintoma de bradicinesia, o que pode indicar que o indivíduo esteja no início da doença, ou bem medicado, ou não apresentar este sinal motor o que corrobora com a sintomatologia do~\ac{dp}. 
-Um resultado, que não era esperado nesta pesquisa é a ocorrência de um indivíduo que não possui~\ac{dp} mas mesmo assim foi classificados com o sintoma. Analisando seus dados foi percebido que ele possuía sinais muito próximos do grupo dos indivíduos com~\ac{dp}, logo ele possivelmente apresenta algum déficit motor o que condiz com o resultado da classificação.
+%Um resultado, que não era esperado nesta pesquisa é a ocorrência de um indivíduo que não possui~\ac{dp} mas mesmo assim foi classificados com o sintoma. Analisando seus dados foi percebido que ele possuía sinais muito próximos do grupo dos indivíduos com~\ac{dp}, logo ele possivelmente apresenta algum déficit motor o que condiz com o resultado da classificação.
 
-
-We assessed bradykinesia by measuring the amplitude and angular velocities in the adduction and abduction movements of the subjects. Therefore, the amplitude and angular velocities were the feature vectors for data classification~\cite{kantardzic2011data}. In Table~\ref{table:amplitude}, we show the severity of motor disorder caused by bradykinesia, in which PD's patients present lower amplitudes. Notice that subject Control 10 presents amplitude values similar to the PD's patients. In this case, we checked that this subject has an uninformed motor disorder that caused the incorrect classification. Furthermore, some PD's patients, namely Parkinson 3,8 and 12, did not present the bradykinesia symptom. In this case, we assumed that these subjects did not have the symptom or it was successfully suppressed by medication. 
-
-\begin{table}[!h]
+\begin{table}[!htbp] 
+\caption{Resultado da Matriz de Confusão SVM}
+\label{table:resultadomatrizconfusaosvm}
 \centering
-\caption{Results of Arm Abduction Amplitude}
+\begin{tabular}{l|c|c|}
+\cline{2-3}
+\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
+                                             & \textbf{Parkinson}      & \textbf{Controle}         \\ \hline
+\multicolumn{1}{|l|}{\textbf{Parkinson}} & 12       & 3           \\ \hline
+\multicolumn{1}{|l|}{\textbf{Controle}}     & 1           & 14     \\ \hline
+\end{tabular}
+
+\end{table}
+
+O sinal da bradicinesia presente no~\ac{dp} foi quantificado pela amplitude do movimento de abdução dos braços e sua respectiva velocidade angular. Na análise destes sinais, foi possível extrair os vetores de características par a classificação dos dados~\cite{kantardzic2011data}. Na Tabela~\ref{table:amplitude}, podemos demonstrar a severidade do sinal motor causado pela bradicinesia, onde o Grupo com~\ac{dp} apresentaram amplitudes bem menores ante os indivíduos do Grupo Controle. Notamos também, que o indivíduo ``Controle 10'' apresentou uma amplitude muito semelhante aos do Grupo com~\ac{dp}. Neste caso, nós identificamos que o mesmo, apresentava uma problema motor e que isto causou a classificação incorreta pela~\ac{svm}. Além disto, 3 indivíduos do Grupo com~\ac{dp} (3,8 e 12), não apresentavam o sinal da bradicinesia durante a coleta. Nestes casos, podemos assumir que: os mesmos não possuem a bradicinesia ou o sinal estava suprimido pela medicação.
+
+
+\begin{table}[!htp]
+\centering
+\caption{Média da Amplitude do Movimento de Abdução do Braço}
 \label{table:amplitude}
 \begin{tabular}{|l|l|l|l|}
 \hline
@@ -676,22 +645,10 @@ Parkinson 15         & \multicolumn{1}{r|}{125.69}                              
 \end{table}
 
 
-\begin{table}[!htbp]
-\caption{Resultado da Matriz de Confusão SVM}
-\label{table:resultadomatrizconfusaosvm}
-\centering
-\begin{tabular}{l|c|c|}
-\cline{2-3}
-\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
-                                             & \textbf{Parkinson}      & \textbf{Controle}         \\ \hline
-\multicolumn{1}{|l|}{\textbf{Parkinson}} & 12       & 3           \\ \hline
-\multicolumn{1}{|l|}{\textbf{Controle}}     & 1           & 14     \\ \hline
-\end{tabular}
-
-\end{table}
 
 
- Para demonstrar a avaliação do modelo de forma quantitativa usou-se um conjunto de métricas derivadas da matriz de confusão ~\cite{datamining2005}.
+
+ Para demonstrar a avaliação do modelo de forma quantitativa usou-se um conjunto de métricas derivadas da matriz de confusão ~\cite{kantardzic2011data}.
  \begin{description}
  	\item [\textit{TpRate}] taxa de acerto obtido: $ TpRate = TP/P $\ ;
  	\item [\textit{FpRate}]: taxa de falso alarme obtido: $ FpRate = FP/N $\ ;
@@ -736,9 +693,9 @@ O método utilizado para diferenciar os movimentos executados de indivíduos dia
 \section{ETAPA 3 - Avaliação Da Aceitação Da Abordagem Junto aos Pacientes de~\ac{dp} Utilizando \textit{Goal Question Metric}}\label{gqm_usuarios}
 %Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM). GQM ~\cite{basili94} é uma abordagem hierárquica que inicia com objetivo principal e o divide em atividades que podem ser mensuradas durante a execução do projeto. É uma abordagem para integrar objetivos a e perspectivas de qualidade de interesse, baseado nas necessidades do projeto~\cite{van1999goal}. Foi preparado o questionário GQM mostrado no Apêndice~\ref{apend:gqm} para avaliar a possibilidade de monitorar dados motores de forma não invasiva e integrada a rotina diária das pessoas.
 
-Com o objetivo de averiguar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM)~\cite{van1999goal}. Essa abordagem é um paradigma de pesquisa utilizado na Engenharia de Software para medição de processos de software e melhoria contínua dos produtos ~\cite{saraiva2006,elicquest05}. A qualidade do produto de software~\cite{saraiva2006} pode ser compreendida como a adequação a um conjunto de características atingidas em maior ou menor grau para que o produto final venha atender as necessidades do usuário final, identificadas na fase de elicitação de requisitos ~\cite{elicquest05}.
+Com o objetivo de averiguar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM)~\cite{van1999goal}. Essa abordagem é um paradigma de pesquisa utilizado na Engenharia de Software para medição de processos de software e melhoria contínua dos produtos~\cite{saraiva2006,elicquest05}. A qualidade do produto de software~\cite{saraiva2006} pode ser compreendida como a adequação a um conjunto de características atingidas em maior ou menor grau para que o produto final venha atender as necessidades do usuário final, identificadas na fase de elicitação de requisitos ~\cite{elicquest05}.
 
-O~\ac{gqm} é um paradigma de avaliação orientado por metas e tem como componentes elementares: objetivos, questionamentos e a métricas ~\cite{saraiva2006}. Nesse paradigma de pesquisa é definido um objetivo principal, onde são refinados em perguntas que venham extrair as métricas da pesquisa que fornecem informações. De posse das respostas baseada em métricas, estas são comparadas com o objetivo da pesquisa no intuito de identificar se ele foi alcançado. Logo, o paradigma~\ac{gqm} busca definir métricas partindo de uma perspectiva de ``de cima para baixo''; analisa, interpreta e mensura dados de maneira ``de baixo para cima'' como pode ser graficamente visualizado na Figura~\ref{fig:gqm} ~\cite{van1999goal}. 
+O~\ac{gqm} é um paradigma de avaliação orientado por metas e tem como componentes elementares: objetivos, questionamentos e métricas~\cite{saraiva2006}. Nesse paradigma de pesquisa é definido um objetivo principal, onde são refinados em perguntas que venham extrair as métricas da pesquisa que fornecem informações. De posse das respostas baseada em métricas, estas são comparadas com o objetivo da pesquisa no intuito de identificar se ele foi alcançado. Logo, o paradigma~\ac{gqm} busca definir métricas partindo de uma perspectiva de ``de cima para baixo''; analisa, interpreta e mensura dados de maneira ``de baixo para cima'' como pode ser graficamente visualizado na Figura~\ref{fig:gqm} ~\cite{van1999goal}. 
 
 \begin{figure}[!htbp]
  \centering
@@ -802,7 +759,7 @@ O questionário consistiu de um conjunto de 10 questões de resposta fechada (qu
 
 %Essa etapa da pesquisa foi realizada em colaboração com o trabalho de Santos Jr. ~\cite{antonio2013}, que desenvolveu também o mecanismo de captura dos dados Seção~\ref{sec:cliente_game}.  Tendo como objetivo avaliar se possíveis usuários do sistema iriam aprovar o monitoramento motor usando jogos eletrônicos. Essa avaliação vai ao encontro do usuário final e principal beneficiado pela abordagem apresentada nessa proposta de Tese.
 
-Nessa etapa da pesquisa foram entrevistadas 24 pessoas do Laboratório Embedded da Universidade Federal de Campina Grande, do Instituto Federal de Alagoas, e em pacientes da Fundação Pestalozzi e da clínica de Fisioterapia do CESMAC (ambas em Maceió). Os usuários foram selecionados para jogar o \emph{Catch the Spheres} (Seção ~\ref{jogo_catch}), testaram e responderam o questionário para verificar a aceitabilidade da solução junto aos usuários. 
+Nessa etapa da pesquisa foram entrevistadas 24 pessoas do Laboratório \textit{Embedded} da Universidade Federal de Campina Grande, do Instituto Federal de Alagoas, e em pacientes da Fundação Pestalozzi e da clínica de Fisioterapia do CESMAC (ambas em Maceió). Os usuários foram selecionados para jogar o \emph{Catch the Spheres} (Seção ~\ref{jogo_catch}), testaram e responderam o questionário para verificar a aceitabilidade da solução junto aos usuários. 
 
 %Buscou-se também validar a viabilidade da Arquitetura de Software do \textit{\textit{HGMS-E}}, verificando a possibilidade de capturar dados motores. 
 O procedimento para executar as sessões de teste foi:

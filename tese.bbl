@@ -146,6 +146,16 @@
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference on Computer
   Games}. \btxpublisherfont {ACM}, 2011.
 
+\bibitem {basili94}
+\btxnamefont {\btxlastnamefont {Basili}, Victor}, \btxnamefont {Gianluigi
+  \btxlastnamefont {Caldiera}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Dieter\btxfnamespacelong H. \btxlastnamefont {Rombach}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {The goal question metric approach}{The goal
+  question metric approach}}.
+\newblock \Btxinlong {}\ \btxnamefont {\btxlastnamefont {Marciniak}, J.}\
+  (\btxeditorlong {}): \btxtitlefont {Encyclopedia of Software Engineering}.
+  \btxpublisherfont {Wiley}, 1994.
+
 \bibitem {peakdetect}
 \btxnamefont {\btxlastnamefont {Billauer}, Eli}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Peak detection in matlab}{Peak Detection in Matlab}}.
@@ -358,6 +368,12 @@
   diagnosis}{Parkinsonâ€™s disease: clinical features and diagnosis}}.
 \newblock \btxjournalfont {Journal of Neurology, Neurosurgery \& Psychiatry},
   2008.
+
+\bibitem {kantardzic2011data}
+\btxnamefont {\btxlastnamefont {Kantardzic}, M.}\btxauthorcolon\ \btxtitlefont
+  {Data Mining: Concepts, Models, Methods, and Algorithms}.
+\newblock \btxpublisherfont {John Wiley \& Sons}, Piscataway, NJ, USA,
+  \btxeditionnumlong {2nd}{}, 2011.
 
 \bibitem {keijsers2006}
 \btxnamefont {\btxlastnamefont {Keijsers}, N.\btxfnamespacelong L.},
