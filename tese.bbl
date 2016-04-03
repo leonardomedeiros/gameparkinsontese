@@ -49,12 +49,11 @@
 \bibitem {biomecanica99}
 \btxnamefont {\btxlastnamefont {Amadio}, Armando}, \btxnamefont {Paulo
   \btxlastnamefont {Costa}}, \btxnamefont {Isabel \btxlastnamefont {Sacco}},
-  \btxnamefont {JÃºlio \btxlastnamefont {SerrÃ£o}}, \btxnamefont {Rubens
+  \btxnamefont {Júlio \btxlastnamefont {Serrão}}, \btxnamefont {Rubens
   \btxlastnamefont {Araujo}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Luiz
   \btxlastnamefont {Mochizuki}}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {IntroduÃ§Ã£o Ã  biomecÃ¢nica para anÃ¡lise do
-  movimento humano}{IntroduÃ§Ã£o Ã  BiomecÃ¢nica para AnÃ¡lise do
-  Movimento Humano}}.
+  {\btxifchangecase {Introdução à biomecânica para análise do movimento
+  humano}{Introdução à Biomecânica para Análise do Movimento Humano}}.
 \newblock \btxjournalfont {Revista Brasileira De Fisioterapia}, 1999.
 
 \bibitem {bardram2010}
@@ -159,7 +158,7 @@
 \bibitem {peakdetect}
 \btxnamefont {\btxlastnamefont {Billauer}, Eli}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Peak detection in matlab}{Peak Detection in Matlab}}.
-\newblock \textit{Software}, {D}isponÃ­vel em:
+\newblock \textit{Software}, {D}isponível em:
   http://www.billauer.co.il/peakdet.html, 2012.
 
 \bibitem {brox11}
@@ -176,8 +175,8 @@
 \bibitem {algebra90}
 \btxnamefont {\btxlastnamefont {Callioli}, Carlos}, \btxnamefont {Hygino
   \btxlastnamefont {Domingues}}\btxandcomma {} \btxandlong {}\ \btxnamefont
-  {Roberto \btxlastnamefont {Costa}}\btxauthorcolon\ \btxtitlefont {Ã�lgebra
-  Linear E AplicaÃ§Ãµes}.
+  {Roberto \btxlastnamefont {Costa}}\btxauthorcolon\ \btxtitlefont {Álgebra
+  Linear E Aplicações}.
 \newblock \btxpublisherfont {Atual}, 1990.
 
 \bibitem {multisvm2011}
@@ -259,7 +258,7 @@
 \newblock \btxpublisherfont {Oxford University Press}, 2006.
 
 \bibitem {homecarebrazil2011}
-\btxnamefont {\btxlastnamefont {Elaine~ThumÃ©},~Luiz Augusto~Facchini,
+\btxnamefont {\btxlastnamefont {Elaine~Thumé},~Luiz Augusto~Facchini,
   Grace\btxfnamespacelong Wyshak} \btxandlong {}\ \btxnamefont {Paul
   \btxlastnamefont {Campbell}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
   {The utilization of home care by the elderly in brazil's primary health care
@@ -300,22 +299,22 @@
 \newblock \btxjournalfont {Conf Proc IEEE Eng Med Biol Soc}, 2012.
 
 \bibitem {valt2010}
-\btxnamefont {\btxlastnamefont {GonÃ§alves}, Valter\btxfnamespacelong
+\btxnamefont {\btxlastnamefont {Gonçalves}, Valter\btxfnamespacelong
   Filipe\btxfnamespacelong Carnim}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {AnÃ¡lise comparativa dos classificadores mÃ¡quinas de
-  suporte vectorial e redes neuronais artificiais: AplicaÃ§Ã£o na
-  detecÃ§Ã£o de peÃµes e veÃ­culos}{AnÃ¡lise Comparativa dos
-  classificadores MÃ¡quinas de Suporte Vectorial e Redes Neuronais
-  Artificiais: AplicaÃ§Ã£o na detecÃ§Ã£o de PeÃµes e VeÃ­culos}}.
-\newblock \btxifchangecase {DissertaÃ§Ã£o de mestrado}{DissertaÃ§Ã£o de
+  {\btxifchangecase {Análise comparativa dos classificadores máquinas de
+  suporte vectorial e redes neuronais artificiais: Aplicação na detecção de
+  peões e veículos}{Análise Comparativa dos classificadores Máquinas de
+  Suporte Vectorial e Redes Neuronais Artificiais: Aplicação na detecção de
+  Peões e Veículos}}.
+\newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade de Coimbra, 2010.
 
 \bibitem {goul05}
-\btxnamefont {\btxlastnamefont {Goulart}, FÃ¡tima} \btxandlong {}\
-  \btxnamefont {Luciana\btxfnamespacelong Xavier \btxlastnamefont
-  {Pereira}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Uso de escalas
-  para avaliaÃ§Ã£o da doenÃ§a de parkinson em fisioterapia}{Uso de
-  escalas para avaliaÃ§Ã£o da doenÃ§a de Parkinson em fisioterapia}}.
+\btxnamefont {\btxlastnamefont {Goulart}, Fátima} \btxandlong {}\ \btxnamefont
+  {Luciana\btxfnamespacelong Xavier \btxlastnamefont {Pereira}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Uso de escalas para avaliação da doença
+  de parkinson em fisioterapia}{Uso de escalas para avaliação da doença de
+  Parkinson em fisioterapia}}.
 \newblock \btxjournalfont {Fisioterapia e Pesquisa}, 2005.
 
 \bibitem {sacbespoke2014}
@@ -345,7 +344,7 @@
 \bibitem {hamill1999bases}
 \btxnamefont {\btxlastnamefont {Hamill}, Joseph} \btxandlong {}\ \btxnamefont
   {Kathleen \btxlastnamefont {Knutzen}}\btxauthorcolon\ \btxpublisherfont
-  {\btxtitlefont {Bases BiomecÃ¢nicas do Movimento Humano}}.
+  {\btxtitlefont {Bases Biomecânicas do Movimento Humano}}.
 \newblock 2012.
 
 \bibitem {national2006parkinson}
@@ -364,8 +363,8 @@
 
 \bibitem {jankovic2008}
 \btxnamefont {\btxlastnamefont {Jankovic}, J}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {Parkinsonâ€™s disease: clinical features and
-  diagnosis}{Parkinsonâ€™s disease: clinical features and diagnosis}}.
+  {\btxifchangecase {Parkinson’s disease: clinical features and
+  diagnosis}{Parkinson’s disease: clinical features and diagnosis}}.
 \newblock \btxjournalfont {Journal of Neurology, Neurosurgery \& Psychiatry},
   2008.
 
@@ -410,9 +409,9 @@
   \btxnamefont {Luiza\btxfnamespacelong Sonia \btxlastnamefont
   {Rios-Asciutti}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Alessandro
   \btxlastnamefont {Leite-Cavalcanti}}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {PrevalÃªncia de doenÃ§as crÃ´nicas e estado
-  nutricional em um grupo de idosos brasileiros}{PrevalÃªncia de doenÃ§as
-  crÃ´nicas e estado nutricional em um grupo de idosos brasileiros}}.
+  {\btxifchangecase {Prevalência de doenças crônicas e estado nutricional em
+  um grupo de idosos brasileiros}{Prevalência de doenças crônicas e estado
+  nutricional em um grupo de idosos brasileiros}}.
 \newblock \btxjournalfont {Rev. salud p{\'u}blica.}, 2009.
 
 \bibitem {LeMoyne2009}
@@ -464,10 +463,10 @@
   Science and Engineering (CASE)}. \btxpublisherfont {IEEE}, 2014.
 
 \bibitem {limongi2002}
-\btxnamefont {\btxlastnamefont {Limongi}, JoÃ£o\btxfnamespacelong
+\btxnamefont {\btxlastnamefont {Limongi}, João\btxfnamespacelong
   Carlos\btxfnamespacelong Papaterra}\btxauthorcolon\ \btxpublisherfont
-  {\btxtitlefont {Conhecendo Melhor A DoenÃ§a De Parkinson: Uma Abordagem
-  Multidisciplinar Com OrientaÃ§Ãµes PrÃ¡ticas Para O Dia-A-Dia}}.
+  {\btxtitlefont {Conhecendo Melhor A Doença De Parkinson: Uma Abordagem
+  Multidisciplinar Com Orientações Práticas Para O Dia-A-Dia}}.
 \newblock 2001.
 
 \bibitem {maitland2009}
@@ -491,8 +490,8 @@
 \bibitem {matlab2011}
 \btxnamefont {\btxlastnamefont {Mathworks}}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Matlab r2011a}{Matlab R2011a}}.
-\newblock \textit{Software}, {D}isponÃ­vel em: http://mathworks.com/.
-\newblock Ãšltimo acesso: 23 de Novembro de 2015.
+\newblock \textit{Software}, {D}isponível em: http://mathworks.com/.
+\newblock Último acesso: 23 de Novembro de 2015.
 
 \bibitem {mcginnis2013biomechanics}
 \btxnamefont {\btxlastnamefont {McGinnis}, Peter}\btxauthorcolon\ \btxtitlefont
@@ -501,20 +500,20 @@
 
 \bibitem {menezes2003}
 \btxnamefont {\btxlastnamefont {Meneses}, Murilo} \btxandlong {}\ \btxnamefont
-  {HÃ©lio \btxlastnamefont {Teive}}\btxauthorcolon\ \btxtitlefont {DoenÃ§a
-  De Parkinson}.
+  {Hélio \btxlastnamefont {Teive}}\btxauthorcolon\ \btxtitlefont {Doença De
+  Parkinson}.
 \newblock \btxpublisherfont {Guanabara Koogan}, 2003.
 
 \bibitem {kinnect2013}
 \btxnamefont {\btxlastnamefont {Microsoft}}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Ms-kinnect}{Ms-Kinnect}}.
-\newblock {D}isponÃ­vel em: http://www.xbox.com/pt-BR/kinect.
+\newblock {D}isponível em: http://www.xbox.com/pt-BR/kinect.
 
 \bibitem {rodrigues2006}
 \btxnamefont {\btxlastnamefont {Milena~Rodrigues}, Luciane\btxfnamespacelong
   Costa\btxfnamespacelong Campos}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {EstratÃ©gia para o tratamento com levodopa na doenÃ§a
-  de parkinson}{EstratÃ©gia Para O Tratamento Com Levodopa Na DoenÃ§a De
+  {\btxifchangecase {Estratégia para o tratamento com levodopa na doença de
+  parkinson}{Estratégia Para O Tratamento Com Levodopa Na Doença De
   Parkinson}}.
 \newblock \btxjournalfont {Revista Analytica}, 2006.
 
@@ -538,10 +537,10 @@
 \bibitem {elicquest05}
 \btxnamefont {\btxlastnamefont {Oliveira Bastos~Junior},
   Paulo\btxfnamespacelong Roberto~de}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {ElicitaÃ§Ã£o de requisitos de software atravÃ©s da
-  utilizaÃ§Ã£o de questionÃ¡rios}{ElicitaÃ§Ã£o de Requisitos de
-  Software AtravÃ©s da UtilizaÃ§Ã£o de QuestionÃ¡rios}}.
-\newblock \btxifchangecase {DissertaÃ§Ã£o de mestrado}{DissertaÃ§Ã£o de
+  {\btxifchangecase {Elicitação de requisitos de software através da
+  utilização de questionários}{Elicitação de Requisitos de Software
+  Através da Utilização de Questionários}}.
+\newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, PUC-Rio, 2005.
 
 \bibitem {ageing2011}
@@ -576,16 +575,16 @@
 \btxnamefont {\btxlastnamefont {Picon}, Paulo}, \btxnamefont {Maria
   \btxlastnamefont {Gadelha}}\btxandcomma {} \btxandlong {}\ \btxnamefont
   {Alberto \btxlastnamefont {Beltrame}}\btxauthorcolon\ \btxtitlefont
-  {Protocolo ClÃ­nico E Diretrizes TerapÃªutica - DoenÃ§a de Parkinson}.
-\newblock \btxpublisherfont {MinistÃ©rio da SaÃºde}, 2010.
+  {Protocolo Clínico E Diretrizes Terapêutica - Doença de Parkinson}.
+\newblock \btxpublisherfont {Ministério da Saúde}, 2010.
 
 \bibitem {qda13}
 \btxnamefont {\btxlastnamefont {Research}, Provalis}\btxauthorcolon\
   \btxtitlefont {\btxifchangecase {Qda miner lite v1.2.2}{QDA MINER Lite
   v1.2.2}}.
-\newblock \textit{Software}, {D}isponÃ­vel em:
+\newblock \textit{Software}, {D}isponível em:
   http://provalisresearch.com/products/qualitative-data-analysis-software/.
-\newblock Ãšltimo acesso: 23 de Novembro de 2015.
+\newblock Último acesso: 23 de Novembro de 2015.
 
 \bibitem {rowlandtratado}
 \btxnamefont {\btxlastnamefont {Rowland}, Lewis}\btxauthorcolon\ \btxtitlefont
@@ -606,24 +605,23 @@
   in Medicine and Biology Society,}. \btxpublisherfont {EMBC}, 2012.
 
 \bibitem {antonio2013}
-\btxnamefont {\btxlastnamefont {Santos~JÃºnior}, AntÃ´nio\btxfnamespacelong
-  Dias~dos}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {ArcabouÃ§o de
-  software para a aquisiÃ§Ã£o de dados de saÃºde atravÃ©s de jogos
-  eletrÃ´nicos}{ArcabouÃ§o de Software para a AquisiÃ§Ã£o de Dados de
-  SaÃºde AtravÃ©s de Jogos EletrÃ´nicos}}.
-\newblock \btxifchangecase {DissertaÃ§Ã£o de mestrado}{DissertaÃ§Ã£o de
+\btxnamefont {\btxlastnamefont {Santos~Júnior}, Antônio\btxfnamespacelong
+  Dias~dos}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Arcabouço de
+  software para a aquisição de dados de saúde através de jogos
+  eletrônicos}{Arcabouço de Software para a Aquisição de Dados de Saúde
+  Através de Jogos Eletrônicos}}.
+\newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade Federal de Campina Grande, 2013.
 
 \bibitem {saraiva2006}
 \btxnamefont {\btxlastnamefont {Saraiva}, Alessandra\btxfnamespacelong
-  Vilches}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {UtilizaÃ§Ã£o da
-  abordagem goal-question-metrics (gqm) na elaboraÃ§Ã£o e execuÃ§Ã£o de
-  planos de avaliaÃ§Ã£o de usabilidade de software: Um estudo empÃ­rico
-  sobre um software agropecuÃ¡rio}{UtilizaÃ§Ã£o da Abordagem
-  Goal-Question-Metrics (GQM) Na ElaboraÃ§Ã£o e ExecuÃ§Ã£o de Planos de
-  AvaliaÃ§Ã£o de Usabilidade de Software: Um Estudo EmpÃ­rico Sobre Um
-  Software AgropecuÃ¡rio}}.
-\newblock \btxifchangecase {DissertaÃ§Ã£o de mestrado}{DissertaÃ§Ã£o de
+  Vilches}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Utilização da
+  abordagem goal-question-metrics (gqm) na elaboração e execução de planos
+  de avaliação de usabilidade de software: Um estudo empírico sobre um
+  software agropecuário}{Utilização da Abordagem Goal-Question-Metrics (GQM)
+  Na Elaboração e Execução de Planos de Avaliação de Usabilidade de
+  Software: Um Estudo Empírico Sobre Um Software Agropecuário}}.
+\newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade Metodista De Piracicaba, 2006.
 
 \bibitem {sinclair07}
@@ -698,8 +696,8 @@
 \bibitem {unity3d}
 \btxnamefont {\btxlastnamefont {Technologies}, Unity}\btxauthorcolon\
   \btxtitlefont {\btxifchangecase {Unity 3d 3.0}{Unity 3D 3.0}}.
-\newblock \textit{Software}, {D}isponÃ­vel em: http://unity3d.com/.
-\newblock Ãšltimo acesso: 23 de Novembro de 2015.
+\newblock \textit{Software}, {D}isponível em: http://unity3d.com/.
+\newblock Último acesso: 23 de Novembro de 2015.
 
 \bibitem {tolosa06}
 \btxnamefont {\btxlastnamefont {Tolosa}, Eduardo}, \btxnamefont {Gregor
@@ -716,16 +714,16 @@
 
 \bibitem {vedolin2003}
 \btxnamefont {\btxlastnamefont {Vedolin}, Leonardo}\btxauthorcolon\
-  \btxjtitlefont {\btxifchangecase {AvaliaÃ§Ã£o da doenÃ§a de parkinson
-  pela ressonÃ¢ncia magnÃ©tica}{AvaliaÃ§Ã£o da doenÃ§a de Parkinson
-  pela ressonÃ¢ncia magnÃ©tica}}.
+  \btxjtitlefont {\btxifchangecase {Avaliação da doença de parkinson pela
+  ressonância magnética}{Avaliação da doença de Parkinson pela
+  ressonância magnética}}.
 \newblock \btxjournalfont {Radiologia Brasileira}, 2003.
 
 \bibitem {vicini2005}
 \btxnamefont {\btxlastnamefont {Vicini}, Lorena}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {AnÃ¡lise multivariada da teoria Ã€
-  prÃ¡tica}{AnÃ¡lise Multivariada Da Teoria Ã€ PrÃ¡tica}}.
-\newblock \btxifchangecase {DissertaÃ§Ã£o de mestrado}{DissertaÃ§Ã£o de
+  {\btxifchangecase {Análise multivariada da teoria À prática}{Análise
+  Multivariada Da Teoria À Prática}}.
+\newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade Federal de Santa Maria, 2005.
 
 \bibitem {datamining2005}
@@ -737,8 +735,8 @@
 \bibitem {zigfu}
 \btxnamefont {\btxlastnamefont {Zigfu}}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Zigfu 4.0}{Zigfu 4.0}}.
-\newblock \textit{Software}, {D}isponÃ­vel em: http://zigfu.com/.
-\newblock Ãšltimo acesso: 23 de Novembro de 2015.
+\newblock \textit{Software}, {D}isponível em: http://zigfu.com/.
+\newblock Último acesso: 23 de Novembro de 2015.
 
 \bibitem {zowghi2005}
 \btxnamefont {\btxlastnamefont {Zowghi}, Didar} \btxandlong {}\ \btxnamefont
