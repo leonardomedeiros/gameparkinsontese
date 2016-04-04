@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  3 APR 2016 16:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  4 APR 2016 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,12 +546,6 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-! Too many }'s.
-l.196 ... de repouso~\cite{national2006parkinson}}
-                                                  . Logo, quando o usuÃ¡rio ...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
@@ -589,7 +583,7 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 [13] <./img/abducao.png, id=87, 289.08pt x 410.2828pt>
 File: ./img/abducao.png Graphic file (type png)
  <use ./img/abducao.png>
-Package pdftex.def Info: ./img/abducao.png used on input line 251.
+Package pdftex.def Info: ./img/abducao.png used on input line 253.
 (pdftex.def)             Requested size: 144.53964pt x 205.1409pt.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
@@ -600,14 +594,14 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 File: ./img/svmhyperplane.png Graphic file (type png)
 
 <use ./img/svmhyperplane.png>
-Package pdftex.def Info: ./img/svmhyperplane.png used on input line 275.
+Package pdftex.def Info: ./img/svmhyperplane.png used on input line 277.
 (pdftex.def)             Requested size: 244.91066pt x 204.76137pt.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [15 <./img/svmhyperplane.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
@@ -620,24 +614,19 @@ Cap\'{\i }tulo 3.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 1.
 
-Underfull \hbox (badness 2717) in paragraph at lines 55--56
+Underfull \hbox (badness 2717) in paragraph at lines 59--60
 []\T1/ptm/m/n/12 : O jo-ga-dor
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 57--58
+Underfull \hbox (badness 5711) in paragraph at lines 61--62
 []\T1/ptm/m/n/12 : Pro-mo-ver
  []
 
 [17
 
 ]
-Underfull \hbox (badness 1400) in paragraph at lines 59--60
-[]\T1/ptm/m/n/12 : Ba-se-a-dos
- []
-
-
-Overfull \hbox (14.14534pt too wide) in paragraph at lines 60--61
+Overfull \hbox (14.14534pt too wide) in paragraph at lines 64--65
 []
  []
 
@@ -645,7 +634,7 @@ Overfull \hbox (14.14534pt too wide) in paragraph at lines 60--61
 File: ./img/visaosistema.png Graphic file (type png)
 
 <use ./img/visaosistema.png>
-Package pdftex.def Info: ./img/visaosistema.png used on input line 69.
+Package pdftex.def Info: ./img/visaosistema.png used on input line 73.
 (pdftex.def)             Requested size: 343.99327pt x 279.1306pt.
 
 
@@ -664,7 +653,7 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 File: ./img/biomecprocessor2.png Graphic file (type png)
 
 <use ./img/biomecprocessor2.png>
-Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 94.
+Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 98.
 (pdftex.def)             Requested size: 352.8155pt x 460.83961pt.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
@@ -676,14 +665,14 @@ File: ./img/exsinalposicaoypunhodireito.png Graphic file (type png)
 
 <use ./img/exsinalposicaoypunhodireito.png>
 Package pdftex.def Info: ./img/exsinalposicaoypunhodireito.png used on input li
-ne 106.
+ne 112.
 (pdftex.def)             Requested size: 441.01772pt x 274.34529pt.
 
 <./img/deteccaopicosvales.png, id=122, 599.23875pt x 402.75468pt>
 File: ./img/deteccaopicosvales.png Graphic file (type png)
 
 <use ./img/deteccaopicosvales.png>
-Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 115.
+Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 121.
 (pdftex.def)             Requested size: 441.01772pt x 296.41751pt.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
@@ -694,11 +683,11 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 File: ./img/remocaoruidociclo.png Graphic file (type png)
 
 <use ./img/remocaoruidociclo.png>
-Package pdftex.def Info: ./img/remocaoruidociclo.png used on input line 134.
+Package pdftex.def Info: ./img/remocaoruidociclo.png used on input line 141.
 (pdftex.def)             Requested size: 441.01772pt x 299.81737pt.
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 141
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 148
 .
 
 
@@ -707,21 +696,21 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 [22 <./img/deteccaopicosvales.png (PNG copy)>]
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 144
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 151
 .
 
 <./img/amplitude-braco.png, id=130, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco.png Graphic file (type png)
 
 <use ./img/amplitude-braco.png>
-Package pdftex.def Info: ./img/amplitude-braco.png used on input line 166.
+Package pdftex.def Info: ./img/amplitude-braco.png used on input line 173.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
 <./img/amplitude-braco-picos.png, id=131, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco-picos.png Graphic file (type png)
 
 <use ./img/amplitude-braco-picos.png>
-Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 189
+Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 196
 .
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
@@ -733,43 +722,43 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [24 <./img/amplitude-braco.png (PNG copy)>]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [25 <./img/amplitude-braco-picos.png (PNG copy)>]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
-)
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 217.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 224.
 
 <./img/vetormedionormalozadoescalonado.png, id=143, 421.575pt x 316.18124pt>
 File: ./img/vetormedionormalozadoescalonado.png Graphic file (type png)
 
 <use ./img/vetormedionormalozadoescalonado.png>
 Package pdftex.def Info: ./img/vetormedionormalozadoescalonado.png used on inpu
-t line 224.
+t line 231.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
 <./img/ciclomovimentoremovido.png, id=144, 421.575pt x 316.18124pt>
 File: ./img/ciclomovimentoremovido.png Graphic file (type png)
 
 <use ./img/ciclomovimentoremovido.png>
-Package pdftex.def Info: ./img/ciclomovimentoremovido.png used on input line 24
-6.
+Package pdftex.def Info: ./img/ciclomovimentoremovido.png used on input line 25
+3.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 260.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 260.
+
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [26 <./img/vetormedionormalozadoescalonado.png (PNG copy)>]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 276.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 276.
-
-
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -778,13 +767,16 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 1199) in paragraph at lines 306--307
+[]\T1/ptm/m/n/12 Como pode ser visto nes-ses da-dos, a am-pli-tude de um in-di-
+ví-duo di-ag-nos-ti-cado
+ []
 
-) (./cap_implementacao.tex
+
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[28]
+[28]) (./cap_implementacao.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -803,14 +795,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
 File: ./img/articulacoes.png Graphic file (type png)
 
 <use ./img/articulacoes.png>
-Package pdftex.def Info: ./img/articulacoes.png used on input line 27.
+Package pdftex.def Info: ./img/articulacoes.png used on input line 34.
 (pdftex.def)             Requested size: 277.63232pt x 205.66473pt.
 
 <./img/diagclasszigfu.png, id=162, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
 <use ./img/diagclasszigfu.png>
-Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 39.
+Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 46.
 (pdftex.def)             Requested size: 352.51747pt x 338.06345pt.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
@@ -825,15 +817,11 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 File: ./img/catch-the-spheres.png Graphic file (type png)
 
 <use ./img/catch-the-spheres.png>
-Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 63.
+Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 70.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 68.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 92.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 75.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -847,33 +835,33 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 [35]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 236.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 208.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[36]
+[36]) (./cap6-avaliacao.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[37]) (./cap6-avaliacao.tex
-Overfull \vbox (5.39993pt too high) has occurred while \output is active []
-
-
-[38]
+[37]
 Cap\'{\i }tulo 5.
-[39
+[38
 
 ]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[40]
-Overfull \hbox (8.11433pt too wide) in paragraph at lines 47--55
+[39]
+Overfull \hbox (8.11433pt too wide) in paragraph at lines 49--57
 [][] 
  []
 
 
+Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[40]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -894,24 +882,20 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [45]
-Overfull \vbox (5.39993pt too high) has occurred while \output is active []
-
-
-[46]
 Package acronym Info: Label `acro:er' newly defined as it shall be overridden
-although it is yet undefined on input line 272.
+although it is yet undefined on input line 275.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[47] <./img/gametremor.png, id=221, 388.45125pt x 579.16376pt>
+[46] <./img/gametremor.png, id=217, 388.45125pt x 579.16376pt>
 File: ./img/gametremor.png Graphic file (type png)
 
 <use ./img/gametremor.png>
-Package pdftex.def Info: ./img/gametremor.png used on input line 298.
+Package pdftex.def Info: ./img/gametremor.png used on input line 301.
 (pdftex.def)             Requested size: 194.22514pt x 289.58116pt.
 
-Underfull \hbox (badness 1102) in paragraph at lines 307--308
+Underfull \hbox (badness 1102) in paragraph at lines 310--311
 []\T1/ptm/m/n/12 O \T1/ptm/b/n/12 REQ-ENTREVISTAS-01\T1/ptm/m/n/12 , o tre-mor 
 de re-pouso é um dos prin-ci-pais si-nais
  []
@@ -920,18 +904,22 @@ de re-pouso é um dos prin-ci-pais si-nais
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[48 <./img/gametremor.png>]
+[47 <./img/gametremor.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 388--389
+Underfull \hbox (badness 1132) in paragraph at lines 391--392
 []\T1/ptm/m/n/12 Com base na ras-tre-a-bi-li-dade dos frag-men-tos da en-tre-vi
 sta, pode-se con-cluir que
  []
 
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[48]
+Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
 [49]
@@ -942,19 +930,15 @@ Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[51]
-Overfull \vbox (18.75586pt too high) has occurred while \output is active []
-
-
-[52] <./img/movaddcutctionartist2.png, id=239, 1062.97125pt x 804.00375pt>
+[51] <./img/movaddcutctionartist2.png, id=235, 1062.97125pt x 804.00375pt>
 File: ./img/movaddcutctionartist2.png Graphic file (type png)
 
 <use ./img/movaddcutctionartist2.png>
-Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 448
+Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 451
 .
 (pdftex.def)             Requested size: 265.74216pt x 201.00044pt.
 
-Overfull \hbox (1.70758pt too wide) in paragraph at lines 468--478
+Overfull \hbox (1.70758pt too wide) in paragraph at lines 471--481
  [][] 
  []
 
@@ -962,37 +946,37 @@ Overfull \hbox (1.70758pt too wide) in paragraph at lines 468--478
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[53 <./img/movaddcutctionartist2.png (PNG copy)>]
-<img/signalamplitudepeakvaley-2.png, id=243, 719.68875pt x 446.41782pt>
+[52 <./img/movaddcutctionartist2.png (PNG copy)>]
+<img/signalamplitudepeakvaley-2.png, id=239, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
 
 <use img/signalamplitudepeakvaley-2.png>
 Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 
-482.
+485.
 (pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
 
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[54 <./img/signalamplitudepeakvaley-2.png (PNG copy)>]
+[53 <./img/signalamplitudepeakvaley-2.png (PNG copy)>]
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[55] <./img/vetormedioaducao.png, id=250, 743.02594pt x 453.19313pt>
+[54] <./img/vetormedioaducao.png, id=246, 743.02594pt x 453.19313pt>
 File: ./img/vetormedioaducao.png Graphic file (type png)
 
 <use ./img/vetormedioaducao.png>
-Package pdftex.def Info: ./img/vetormedioaducao.png used on input line 517.
+Package pdftex.def Info: ./img/vetormedioaducao.png used on input line 520.
 (pdftex.def)             Requested size: 482.96114pt x 294.57204pt.
 
-Overfull \hbox (41.94342pt too wide) in paragraph at lines 517--518
+Overfull \hbox (41.94342pt too wide) in paragraph at lines 520--521
  [][] 
  []
 
 ! Undefined control sequence.
 \@sharp ->\multirow 
                     {\textit {\textbf {\begin {tabular}[c]{@{}c@{}}Classe\\ ...
-l.536 ...]{@{}c@{}}Classe\\ Atual\end{tabular}}}}}
+l.539 ...]{@{}c@{}}Classe\\ Atual\end{tabular}}}}}
                                                    & \multicolumn{1}{|l|}{\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1004,22 +988,22 @@ and I'll forget about whatever was undefined.
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[56 <./img/vetormedioaducao.png (PNG copy)>]
-<./img/gridsearch.png, id=255, 558.888pt x 428.802pt>
+[55 <./img/vetormedioaducao.png (PNG copy)>]
+<./img/gridsearch.png, id=250, 558.888pt x 428.802pt>
 File: ./img/gridsearch.png Graphic file (type png)
 
 <use ./img/gridsearch.png>
-Package pdftex.def Info: ./img/gridsearch.png used on input line 560.
+Package pdftex.def Info: ./img/gridsearch.png used on input line 563.
 (pdftex.def)             Requested size: 391.21893pt x 300.15935pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/gridsearchfprate.png, id=256, 515.526pt x 445.665pt>
+<./img/gridsearchfprate.png, id=251, 515.526pt x 445.665pt>
 File: ./img/gridsearchfprate.png Graphic file (type png)
 
 <use ./img/gridsearchfprate.png>
-Package pdftex.def Info: ./img/gridsearchfprate.png used on input line 574.
+Package pdftex.def Info: ./img/gridsearchfprate.png used on input line 577.
 (pdftex.def)             Requested size: 360.86574pt x 311.96336pt.
 
 
@@ -1029,110 +1013,104 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[57]
+[56]
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[58 <./img/gridsearch.png (PNG copy)>]
+[57 <./img/gridsearch.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 612.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 615.
 
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[59 <./img/gridsearchfprate.png (PNG copy)>]
+[58 <./img/gridsearchfprate.png (PNG copy)>]
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[60]
-Underfull \hbox (badness 1337) in paragraph at lines 693--693
-\T1/ptm/b/n/17.28 Junto aos Pa-ci-en-tes de [][] Uti-li-zando \T1/ptm/b/it/17.2
-8 Goal
- []
-
-
+[59]
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[61] <./img/gqm.png, id=272, 739.563pt x 357.9774pt>
+[60] <./img/gqm.png, id=268, 739.563pt x 357.9774pt>
 File: ./img/gqm.png Graphic file (type png)
  <use ./img/gqm.png>
-Package pdftex.def Info: ./img/gqm.png used on input line 702.
+Package pdftex.def Info: ./img/gqm.png used on input line 705.
 (pdftex.def)             Requested size: 369.7806pt x 178.98825pt.
 
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[62 <./img/gqm.png>]
+[61 <./img/gqm.png>]
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[63]
-Overfull \hbox (2.85274pt too wide) in paragraph at lines 790--790
+[62]
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 793--793
 []\T1/ptm/m/n/12 91,67%| 
  []
 
 
-Overfull \hbox (2.85274pt too wide) in paragraph at lines 791--791
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 794--794
 []\T1/ptm/m/n/12 91,67%| 
  []
 
 
-Overfull \hbox (2.85274pt too wide) in paragraph at lines 792--792
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 795--795
 []\T1/ptm/m/n/12 41,67%| 
  []
 
 
-Overfull \hbox (2.85274pt too wide) in paragraph at lines 792--792
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 795--795
 []\T1/ptm/m/n/12 58,33%| 
  []
 
-<./img/chart_1-.png, id=281, 488.57532pt x 356.0803pt>
+<./img/chart_1-.png, id=277, 488.57532pt x 356.0803pt>
 File: ./img/chart_1-.png Graphic file (type png)
 
 <use ./img/chart_1-.png>
-Package pdftex.def Info: ./img/chart_1-.png used on input line 804.
+Package pdftex.def Info: ./img/chart_1-.png used on input line 807.
 (pdftex.def)             Requested size: 342.0004pt x 249.25452pt.
- <./img/chart_3-.png, id=282, 445.665pt x 367.3725pt>
+ <./img/chart_3-.png, id=278, 445.665pt x 367.3725pt>
 File: ./img/chart_3-.png Graphic file (type png)
 
 <use ./img/chart_3-.png>
-Package pdftex.def Info: ./img/chart_3-.png used on input line 812.
+Package pdftex.def Info: ./img/chart_3-.png used on input line 815.
 (pdftex.def)             Requested size: 311.96336pt x 257.15898pt.
 
-<./img/chart_10-.png, id=283, 472.01344pt x 363.60844pt>
+<./img/chart_10-.png, id=279, 472.01344pt x 363.60844pt>
 File: ./img/chart_10-.png Graphic file (type png)
 
 <use ./img/chart_10-.png>
-Package pdftex.def Info: ./img/chart_10-.png used on input line 820.
+Package pdftex.def Info: ./img/chart_10-.png used on input line 823.
 (pdftex.def)             Requested size: 330.40715pt x 254.52417pt.
 
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[64]
+[63]
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[65 <./img/chart_1-.png> <./img/chart_3-.png>]
+[64 <./img/chart_1-.png> <./img/chart_3-.png>]
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[66 <./img/chart_10-.png>]) (./cap6-conclusoes.tex
+[65 <./img/chart_10-.png>]) (./cap6-conclusoes.tex
 Overfull \vbox (18.75586pt too high) has occurred while \output is active []
 
 
-[67
+[66
 
 ]
 Cap\'{\i }tulo 6.
-[68
+[67
 
 ]) (./tese.bbl
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[69]
+[68]
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1144,7 +1122,7 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-[70
+[69
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 159--163
@@ -1153,6 +1131,10 @@ ptm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Disponível em:
  []
 
 
+Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[70]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1165,10 +1147,6 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [73]
-Overfull \vbox (5.39993pt too high) has occurred while \output is active []
-
-
-[74]
 Underfull \hbox (badness 10000) in paragraph at lines 582--588
 []\T1/ptm/m/n/12 Research, Provalis: \T1/ptm/m/it/12 Qda miner lite v1.2.2\T1/p
 tm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Disponível em:
@@ -1184,19 +1162,23 @@ oftware/.  Úl-timo
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[75]
+[74]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[76]) (./apend_comite.tex
+[75]) (./apend_comite.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[77]
+[76]
 Ap\^endice A.
-[78
+[77
 
 ]
+Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[78]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1213,15 +1195,15 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [82]
-Overfull \vbox (5.39993pt too high) has occurred while \output is active []
-
-
-[83]
 File: ./img/catch-the-spheres.png Graphic file (type png)
  <use ./img/catch-the-spheres.png>
 Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 140.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
 
+Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[83]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1234,10 +1216,6 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [86]
-Overfull \vbox (5.39993pt too high) has occurred while \output is active []
-
-
-[87]
 Overfull \hbox (3.61714pt too wide) in paragraph at lines 247--254
  [][] 
  []
@@ -1246,19 +1224,19 @@ Overfull \hbox (3.61714pt too wide) in paragraph at lines 247--254
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[88]
+[87]
 Ap\^endice B.
-[89
+[88
 
 ]) (./apendice-diagnostico.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[90]
+[89]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[91]
+[90]
 Ap\^endice C.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -1271,13 +1249,13 @@ Underfull \hbox (badness 1466) in paragraph at lines 2--3
 [] \T1/ptm/m/n/12 de Lon-dres [] 36[]. O pa-ci-ente será
  []
 
-[92
+[91
 
 ]) (./questionario-gqm.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[93]
+[92]
 Ap\^endice D.
 
 Overfull \hbox (12.0pt too wide) in alignment at lines 5--8
@@ -1304,25 +1282,25 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 16--31
  [] 
  []
 
-[94
+[93
 
 ])
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[95] (./tese.aux)
+[94] (./tese.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8861 strings out of 493304
- 124497 string characters out of 6139871
- 310802 words of memory out of 5000000
- 12082 multiletter control sequences out of 15000+600000
- 64370 words of font info for 77 fonts, out of 8000000 for 9000
+ 8828 strings out of 493304
+ 124037 string characters out of 6139871
+ 307721 words of memory out of 5000000
+ 12054 multiletter control sequences out of 15000+600000
+ 63749 words of font info for 75 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 38i,17n,44p,1282b,1896s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,17n,44p,1212b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1330,15 +1308,14 @@ f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on tese.pdf (106 pages, 2475530 bytes).
+/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tese.pdf (105 pages, 2462164 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
+ 422 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

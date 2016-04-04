@@ -1,7 +1,7 @@
 \chapter{Avalia\c{c}\~{a}o Experimental} \label{chap:avaliacao}
-Neste capítulo são descritos os experimentos realizados para a validação deste trabalho.
+Neste capítulo, são descritos os experimentos realizados para a validação deste trabalho.
 
-A realização do monitoramento dos sinais motores de uma maneira não-invasiva é um desafio, logo esta tese fornece uma forma lúdica de monitorar os dados de saúde por meio de jogos eletrônicos que podem ser integrados à rotina diária dos usuários. %Pois, a partir de um \textit{HGMS-E} é possível capturar, processar e classificar os movimentos cinéticos exercidos pelos usuários.
+A realização do monitoramento dos sinais motores, de uma maneira não invasiva é um desafio, logo, esta tese fornece uma forma lúdica de monitorar os dados de saúde, por meio de jogos eletrônicos que podem ser integrados à rotina diária dos usuários. %Pois, a partir de um \textit{HGMS-E} é possível capturar, processar e classificar os movimentos cinéticos exercidos pelos usuários.
 
 %Sabendo que o acompanhamento de sinais motores, integrados à rotina diária do paciente traz benefícios ao tratamento e qualidade de vida do mesmo do ponto de vista do profissional da saúde. Por intermédio desse trabalho, conseguimos capturar dados motores utilizando sensores de movimento. Esses dados permitem auxiliar no acompanhamento de doenças com comprometimento motor tal como o~\ac{dp}. Então, neste trabalho nós desenvolvemos um mecanismo de de captura de dados motores embutidos num jogo eletrônico, o qual permite monitorar e quantificar os sinais motores de uma forma lúdica e não-invasiva.
 
@@ -10,22 +10,24 @@ A realização do monitoramento dos sinais motores de uma maneira não-invasiva 
 
 \section{ETAPA 1 - Entrevista Semiestruturada com Profissionais de Saúde}\label{chapter:entrevista_semi_estruturada}
 
-A interpretação de dados é o cerne da pesquisa qualitativa, esse método tem como função desenvolver a teoria, servindo ao mesmo tempo de base para a decisão sobre quais dados adicionais devem ser coletados, por meio de codificação seletiva~\cite{FLI04}. Esta técnica, permite elaborar uma categorização nos dados, demonstrando ao pesquisador quais são os fenômenos mais preponderantes da pesquisa. O procedimento da interpretação dos dados, assim como a integração de material adicional são encerrados quando se atinge a "saturação teórica", ou seja quando o avanço na codificação não resulta na aquisição de novos conhecimentos~\cite{FLI04}.
 
-Para análise dos textos provenientes da pesquisa foram transcritos as entrevistas com: neurologistas e fisioterapeutas especialistas em neurologia. Com  a codificação seletiva foi possível categorizar os as ocorrências de acordo com o conteúdo de cada texto. Ou seja, as respostas de cada participante foram analisadas incluídas na árvore de categorias como sugere o método de pesquisa~\cite{FLI04}. 
 
-Para auxiliar no processo de: análise, seleção e codificação. Foi utilizado uma ferramenta de suporte à pesquisa qualitativa (\textit{QDA Miner}~\cite{qda13}), por meio desta, foi possível categorizar e reformular a árvore de categorias~\cite{FLI04} diversas vezes durante o processo de análise~\cite{FLI04}.
+A interpretação de dados é o cerne da pesquisa qualitativa, tem como função desenvolver a teoria e servir, ao mesmo tempo, de base para a decisão sobre quais dados adicionais devem ser coletados, por meio de codificação seletiva~\cite{FLI04}. Esta técnica permite elaborar uma categorização nos dados e demonstrar ao pesquisador quais são os fenômenos mais preponderantes da pesquisa. O procedimento da interpretação dos dados, assim como a integração de material adicional, são encerrados quando se atinge a "saturação teórica", ou seja, quando o avanço na codificação não resulta na aquisição de novos conhecimentos~\cite{FLI04}.
+
+Para análise dos textos provenientes da pesquisa, foram transcritos as entrevistas com: neurologistas e fisioterapeutas especialistas em neurologia. Com  a codificação seletiva, foi possível categorizar as ocorrências de acordo com o conteúdo de cada texto. Ou seja, as respostas de cada participante foram analisadas, incluídas na árvore de categorias como sugere o método de pesquisa~\cite{FLI04}. 
+
+Para auxiliar no processo de análise, seleção e codificação, foi utilizado uma ferramenta de suporte à pesquisa qualitativa (\textit{QDA Miner}~\cite{qda13}) e, por meio desta, foi possível categorizar e reformular a árvore de categorias~\cite{FLI04} diversas vezes durante o processo de análise~\cite{FLI04}.
 
 
 \subsection{Objetivo da Pesquisa}
-O objetivo da entrevista semiestruturada~\cite{FLI04} foi entender como é feito o acompanhamento do paciente com sintomatologia do~\ac{dp}, juntamente aos profissionais de saúde: neurologistas que prescrevem a dosagem medicamentosa e fisioterapeutas que fazem o tratamento  de reabilitação e acompanhamento motor do paciente. Esse profissionais de saúde, foram indagados se haveria melhora na tomada de decisão caso estes pudessem acompanhar os sinais motores em diariamente. Procurou-se encontrar dentro do contexto de estudo, a importância do monitoramento de dados de saúde e os benefícios trazidos por este.
+O objetivo da entrevista semiestruturada~\cite{FLI04} foi entender como é feito o acompanhamento do paciente com sintomatologia do~\ac{dp}, juntamente aos profissionais de saúde: neurologistas que prescrevem a dosagem medicamentosa; fisioterapeutas que fazem o tratamento de reabilitação e acompanhamento motor do paciente. Esses profissionais de saúde foram indagados se haveria melhora na tomada de decisão, caso estes pudessem acompanhar os sinais motores diariamente. Procurou-se encontrar, dentro do contexto de estudo, a importância do monitoramento de dados de saúde e os benefícios trazidos por este.
 
-As entrevistas foram realizadas presencialmente, com perguntas não estruturadas e, com uma maior estruturação no decorrer da entrevista preocupando-se em evitar a referência do entrevistador sobre os pontos de vista do entrevistado, conforme sugere o método científico~\cite{FLI04}. 
+As entrevistas foram realizadas presencialmente, com perguntas não estruturadas e, com uma maior estruturação no decorrer da entrevista, preocupando-se em evitar a referência do entrevistador sobre os pontos de vista do entrevistado, conforme sugere o método científico~\cite{FLI04}. 
 
 \subsubsection{Instrumento de Análise dos Dados da Pesquisa Qualitativa} \label{section:analise_dados} 
-A pesquisa qualitativa assistida por computador permite uma melhor categorização das informações obtidas em modo texto. O \textit{software} QDA Miner~\cite{qda13} auxilia o pesquisador na organização dos registros da pesquisa e das interpretações dos mesmos, justificando-se o uso da ferramenta devido a dificuldade de classificar e analisar os dados obtidos. Nessa análise, foram consideradas as atividades referentes ao acompanhamento dos sinais motores em pacientes com~\ac{dp}. Buscou-se durante a pesquisa avaliar se um cenário de monitoramento dos sinais motores por meio de jogos eletrônicos auxiliaria os profissionais de saúde quanto ao tratamento de seus pacientes.
+A pesquisa qualitativa assistida por computador permite uma melhor categorização das informações obtidas em modo texto. O \textit{software} QDA Miner~\cite{qda13} auxilia o pesquisador na organização dos registros da pesquisa e em suas interpretações, justificando-se o uso da ferramenta devido a dificuldade de classificar e analisar os dados obtidos. Nessa análise, foram consideradas as atividades referentes ao acompanhamento dos sinais motores em pacientes com~\ac{dp}. Buscou-se, durante a pesquisa, avaliar se um cenário de monitoramento dos sinais motores, por meio de jogos eletrônicos, auxiliaria os profissionais de saúde quanto ao tratamento de seus pacientes.
 
-Nesta seção, faz-se um detalhamento do resultado da entrevista semiestruturada, descrevendo a opinião dos entrevistados e coletando requisitos baseado nas necessidades expostas pelos mesmos. Por meio desta etapa da pesquisa foi avaliada a \textbf{ETAPA 1} da pesquisa: \textit{Quais os benefícios de acompanhar diariamente os sinais motores do paciente do ponto de vista do profissional da saúde}.
+Nesta seção, faz-se um detalhamento do resultado da entrevista semiestruturada, que descreve a opinião dos entrevistados e coleta requisitos baseados em suas necessidades, devidamente, expostas. Por meio desta etapa da pesquisa, foi avaliada a \textbf{ETAPA 1}: \textit{Quais os benefícios de acompanhar os sinais motores do paciente diariamente, do ponto de vista do profissional da saúde?}
 
 %	\begin{description}
 
@@ -37,9 +39,9 @@ Nesta seção, faz-se um detalhamento do resultado da entrevista semiestruturada
 
 
 \subsection{Perfil dos Participantes}
-O perfil dos participantes é composto por quatro profissionais da saúde, dos quais: dois são fisioterapeutas com especialização em neurologia, e dois são médicos neurologistas. A escolha desse perfil se fez de acordo com seus ofícios e responsabilidades e complementaridade quanto ao tratamento do paciente. Os neurologistas realizam o diagnóstico e acompanham os sinais motores juntamente com as informações obtidas do paciente ou de seu cuidador, e baseado nas informações realiza o gerenciamento da dosagem medicamentosa da doença. Por outro lado, os fisioterapeutas fazem o acompanhamento dos sinais motores em sessões de fisioterapia promovendo a aprendizagem motora desses pacientes. Logo, esses profissionais possuem visões e preocupações distintas e inerentes a seu ofício. 
+O perfil dos participantes é composto por quatro profissionais da saúde, dos quais: dois são fisioterapeutas, com especialização em neurologia; dois são médicos neurologistas. A escolha desse perfil se fez de acordo com seus ofícios, responsabilidades e complementaridade quanto ao tratamento do paciente. Os neurologistas realizam o diagnóstico e acompanham os sinais motores juntamente com as informações obtidas do paciente ou de seu cuidador e, baseado nas informações realiza o gerenciamento da dosagem medicamentosa da doença. Por outro lado, os fisioterapeutas fazem o acompanhamento dos sinais motores em sessões de fisioterapia e, promovem a aprendizagem motora desses pacientes. Logo, esses profissionais possuem visões e preocupações distintas, inerentes ao seu ofício. 
 
-Para manter a confidencialidade de informação, os entrevistados receberam uma \textbf{LEGENDA} que identifica o perfil profissional seguido por um número sequencial, o qual identifica o entrevistado mas preserva sua identidade (Tabela~\ref{table:perfil_analise_participantes}).
+Para manter a confidencialidade de informação, os entrevistados receberam uma \textbf{LEGENDA} que identifica o perfil profissional seguido por um número sequencial, o qual identifica o entrevistado, mas preserva sua identidade (Tabela~\ref{table:perfil_analise_participantes}).
 
 \begin{table}[h]
 \caption{Perfil dos Participantes}
@@ -56,22 +58,24 @@ NEU\_02          & Médico Neurologista            & 67                         
 \end{table}
 
 \subsubsection{Questionário de Pesquisa}
-Para a formulação do questionário foram realizadas análises nas diretrizes médicas ~\cite{protpar010,national2006parkinson} e na tabela UPDRS ~\cite{updrs87} sobre o progresso da ~\ac{dp} e dos sinais monitoráveis por sensores de movimento. Para a entrevista foram elaboradas 15 perguntas agrupadas em 3 seções (Apêndice \ref{apendice:entrevista-semi-estruturada}) com os seguintes temas: sinais do~\ac{dp}, monitoramento da saúde motora e os benefícios advindos do monitoramento. Onde o entrevistador selecionou as questões de acordo com o perfil profissional.
+Para a formulação do questionário, foram realizadas análises nas diretrizes médicas ~\cite{protpar010,national2006parkinson} e na tabela UPDRS ~\cite{updrs87}, sobre o progresso do~\ac{dp} e dos sinais monitoráveis por sensores de movimento. Para a entrevista, foram elaboradas 15 perguntas, agrupadas em 3 seções (Apêndice \ref{apendice:entrevista-semi-estruturada}), com os seguintes temas: sinais do~\ac{dp}, monitoramento da saúde motora e os benefícios advindos do monitoramento, onde o entrevistador selecionou as questões de acordo com o perfil profissional.
 
 \subsection{Análise}
-Durante a análise das entrevistas foram extraídos fragmentos, e a nomenclatura utilizada contém o prefixo \textbf{FRAGMENTO} mais um número sequencial identificando o mesmo. Esse procedimento permite identificar \textbf{requisitos} que orientem a proposta de monitoramento de dados motores por intermédio de jogos eletrônicos. Logo, os requisitos extraídos nesta abordagem foram obtidos a partir da perspectiva do profissional de saúde em relação ao tratamento e acompanhamento da~\ac{dp}. 
+Durante a análise das entrevistas, foram extraídos fragmentos e a nomenclatura utilizada contém o prefixo \textbf{FRAGMENTO} mais um número sequencial identificando o mesmo. Esse procedimento permite identificar \textbf{requisitos} que orientem a proposta de monitoramento de dados motores por intermédio de jogos eletrônicos. Logo, os requisitos extraídos nesta abordagem foram obtidos a partir da perspectiva do profissional de saúde em relação ao tratamento e acompanhamento do~\ac{dp}. 
 
 \subsubsection{Diagnóstico}\label{section:analise_diagnostico}
 
-Na entrevista junto aos neurologistas, foi indagado como o diagnostico da~\ac{dp} é realizado.  A entrevista corroborou com a literatura médica~\cite{tolosa06,vedolin2003} em relação ao diagnóstico de exclusão do \ac{dp}~\cite{protpar010,national2006parkinson}.  
+Na entrevista junto aos neurologistas, foi indagado como o diagnostico do~\ac{dp} é realizado.  A entrevista corroborou com a literatura médica~\cite{tolosa06,vedolin2003} em relação ao diagnóstico de exclusão do \ac{dp}~\cite{protpar010,national2006parkinson}.  
 
-Todos os profissionais informaram que o sintoma mais comum é o tremor de repouso, e que este inicialmente é unilateral e seguido de uma bradicinesia como podemos perceber nos ([FRAGMENTO-01][FRAGMENTO-02]). Ainda no ([FRAGMENTO-01]), existe uma ocorrência do \textbf{[NEU\_01]} em que o mesmo evoca sobre a importância da técnica de \textit{Finger Taps} ~\cite{updrs87} para avaliação da bradicinesia.
+Todos os profissionais informaram que o sintoma mais comum é o tremor de repouso, e que este é inicialmente unilateral, seguido de uma bradicinesia, como podemos perceber nos fragmentos ([FRAGMENTO-01], FRAGMENTO-02]). Ainda no ([FRAGMENTO-01]), existe uma ocorrência do \textbf{[NEU\_01]}, em que o mesmo evoca sobre a importância da técnica de \textit{Finger Taps} ~\cite{updrs87} para avaliação da bradicinesia.
+
+
 
 
 \begin{quote}
 \textbf{[FRAGMENTO-01][NEU\_01]} - 
 \emph{
-O diagnóstico da doença de Parkinson é quando o paciente chega se queixando de tremor. Esse sintoma começa com um tremor unilateral geralmente pelas mãos, lentamente progressivo e de repouso. Além do tremor esse paciente exibe também uma lentidão que a gente consegue detectar pelo \textit{Finger Taps}. Essa técnica consiste em tocar o polegar ao primeiro e segundo dedo simultaneamente para ver se há ou não lentidão. Faz-se uma comparação sempre com o outro lado para visualizar possíveis diferenças. 
+O diagnóstico da doença de Parkinson é dado, principalmente, quando o paciente chega se queixando de tremor. Esse sintoma começa com um tremor unilateral, geralmente, pelas mãos, lentamente progressivo e de repouso. Além do tremor esse paciente exibe também uma lentidão que a gente consegue detectar pelo \textit{Finger Taps}. Essa técnica consiste em tocar o polegar ao primeiro e segundo dedo simultaneamente para ver se há ou não lentidão. Faz-se uma comparação sempre com o outro lado para visualizar possíveis diferenças. 
 Existe também uma rigidez no braço, quando faz-se uma flexão e extensão do membro e percebe-se que o tônus desse paciente comparado com o outro lado exibe uma diferença.
 }
 \end{quote}
@@ -93,10 +97,10 @@ Então os sinais é o tremor em repouso, a lentidão e a rigidez. Inicialmente a
 \end{quote}
 
 \subsubsection{Sintomas}
-Nesta seção estão expostos sinais para o acompanhamento da sintomatologia da ~\ac{dp}.
+Nesta seção estão expostos sinais para o acompanhamento da sintomatologia do~\ac{dp}.
 
 %\subsubsection{Tremor}
-O sintoma de tremor, além de ter sido referenciado durante o diagnóstico da doença na Seção ~\ref{section:analise_diagnostico} por todos os entrevistados, possui particularidades como a dificuldade de controlar o sintoma por intermédio do tratamento medicamentoso ([FRAGMENTO-04]), e não é tão incapacitante quanto a bradicinesia ~\ac{dp}. No ([FRAGMENTO-05]) o [NEU\_01] reforçou sobre a importância de controlar os sinais de lentidão do movimento ante os de tremor ~\cite{do2007parkinson}.
+O sintoma de tremor, além de ter sido referenciado durante o diagnóstico da doença na Seção ~\ref{section:analise_diagnostico} por todos os entrevistados, possui particularidades como a dificuldade de controlar o sintoma por intermédio do tratamento medicamentoso ([FRAGMENTO-04]), e não é tão incapacitante quanto a bradicinesia. No ([FRAGMENTO-05]) o [NEU\_01] reforçou sobre a importância de controlar os sinais de lentidão do movimento ante os de tremor ~\cite{do2007parkinson}.
 
 \begin{quote}
 \textbf{[FRAGMENTO-04][NEU\_01]} - 
@@ -115,7 +119,7 @@ O controle do tremor é um pouco complicado porque é um sintoma mais difícil d
 
 %\subsubsection{Bradicinesia}\label{section:analise_bradicinesia}
 
-O pesquisador indagou se o sintoma da bradicinesia era considerado o mais debilitante da ~\ac{dp} e como resposta ele obteve a afirmação de que a bradicinesia impacta diretamente na qualidade de vida do paciente, privando-o de realizar atividades diárias ([FRAGMENTO-06]).
+O pesquisador indagou se o sintoma da bradicinesia era considerado o mais debilitante do~\ac{dp} e como resposta ele obteve a afirmação de que a bradicinesia impacta diretamente na qualidade de vida do paciente, privando-o de realizar atividades diárias ([FRAGMENTO-06]).
 
 \begin{quote}
 \textbf{[FRAGMENTO-06][NEU\_01]} - 
@@ -124,7 +128,7 @@ O pesquisador indagou se o sintoma da bradicinesia era considerado o mais debili
 }
 \end{quote}
 
-Ao indagar se o movimento de adução e abdução do braço seria relevante para a identificação da~\ac{dp}, o [NEU\_01] informou que a bradicinesia é um sintoma que traz lentidão em todo o corpo e possivelmente seria afetada por este movimento. Pois, devido à redução dos movimentos automáticos ([FRAGMENTO-07]), traz outros impactos físicos ao paciente ([FRAGMENTO-08]).
+Ao indagar se o movimento de adução e abdução do braço seria relevante para a identificação do~\ac{dp}, o [NEU\_01] informou que a bradicinesia é um sintoma que traz lentidão em todo o corpo e possivelmente seria afetada por este movimento. Pois, devido à redução dos movimentos automáticos ([FRAGMENTO-07]), traz outros impactos físicos ao paciente ([FRAGMENTO-08]).
 
 \begin{quote}
 \textbf{[FRAGMENTO-07][NEU\_01]} - 
@@ -167,7 +171,7 @@ Nesta seção está exposta a importância do monitoramento dos sinais capturado
 
 %\subsubsection{Amplitude do Movimento dos Braços}
 
-Ao indagar ao [FIS\_02] se o movimento de adução e abdução do braço seria relevante para a identificação da~\ac{dp}, este informou que mesmo não sendo um teste específico para a identificação da doença, existem diferenças significativas encontradas em indivíduos diagnosticados com parkinson [FRAGMENTO-11].
+Ao indagar ao [FIS\_02] se o movimento de adução e abdução do braço seria relevante para a identificação do~\ac{dp}, este informou que mesmo não sendo um teste específico para a identificação da doença, existem diferenças significativas encontradas em indivíduos diagnosticados com parkinson [FRAGMENTO-11].
 \begin{quote}
 \textbf{[FRAGMENTO-11][FIS\_02]}-
 \emph{
@@ -213,7 +217,7 @@ Um ponto de convergência, entre os profissionais entrevistados, é a importânc
 
 %\subsubsection{Assimetria do Movimento}
 
-A assimetria do movimento acomete os pacientes que estão nos estágios iniciais da doença. Por esse motivo, geralmente ela é identificada durante o diagnóstico [FRAGMENTO-03]. Porém, alguns pacientes parkinsonianos apresentam a assimetria do movimento quando um dos lados é mais comprometido que o outro. Por essa razão é que o [NEU\_01] afirmou \textit{``Se através dessa amplitude você conseguir por intermédio do computador identificar que ele está mais lento de um lado do que do outro''}. Pois, a tendência natural da evolução da ~\ac{dp} é a redução na assimetria do movimento conforme a opinião do [NEU\_01] no [FRAGMENTO-16] e na tabela UPDRS ~\cite{updrs87} em sua escala de avaliação do progresso da doença (Seção ~\ref{section:escalas_avaliacao}).
+A assimetria do movimento acomete os pacientes que estão nos estágios iniciais da doença. Por esse motivo, geralmente ela é identificada durante o diagnóstico [FRAGMENTO-03]. Porém, alguns pacientes parkinsonianos apresentam a assimetria do movimento quando um dos lados é mais comprometido que o outro. Por essa razão é que o [NEU\_01] afirmou \textit{``Se através dessa amplitude você conseguir por intermédio do computador identificar que ele está mais lento de um lado do que do outro''}. Pois, a tendência natural da evolução do~\ac{dp} é a redução na assimetria do movimento conforme a opinião do [NEU\_01] no [FRAGMENTO-16] e na tabela UPDRS ~\cite{updrs87} em sua escala de avaliação do progresso da doença (Seção ~\ref{section:escalas_avaliacao}).
 
 \begin{quote}
 \textbf{[FRAGMENTO-16][NEU\_01]}-
@@ -243,7 +247,7 @@ Em relação aos benefícios advindo do monitoramento pudemos identificar: a qua
 \end{quote}
 
 %\subsubsection{Gerenciamento da Dosagem Medicamentosa}
-Indagou-se aos profissionais se o monitoramento dos sinais motores auxiliaria no gerenciamento da dosagem medicamentosa. Os profissionais informaram que sentem a necessidade de visualizar a eficácia do tratamento diante do paciente. O [FIS\_01] no [FRAGMENTO-19] cita a importância de avaliar tanto o tratamento medicamentoso quanto se a sua atividade fisioterápica traz benefícios ao paciente. Os neurologistas citam ([NEU\_01] e [NEU\_01]) a importância de reajustar a dosagem medicamentosa e que a quantificação do sintoma identifica o resultado do efeito medicamentoso. Outra opinião bastante pertinente é que o agravamento da ~\ac{dp} é bastante sutil do ponto de vista do [NEU\_01] no [FRAGMENTO-21]. Logo se for possível, mostrar a evolução da doença em períodos mais longos, o tratamento seria mais efetivo e, consequentemente, traria uma melhor qualidade de vida aos pacientes.
+Indagou-se aos profissionais se o monitoramento dos sinais motores auxiliaria no gerenciamento da dosagem medicamentosa. Os profissionais informaram que sentem a necessidade de visualizar a eficácia do tratamento diante do paciente. O [FIS\_01] no [FRAGMENTO-19] cita a importância de avaliar tanto o tratamento medicamentoso quanto se a sua atividade fisioterápica traz benefícios ao paciente. Os neurologistas citam ([NEU\_01] e [NEU\_01]) a importância de reajustar a dosagem medicamentosa e que a quantificação do sintoma identifica o resultado do efeito medicamentoso. Outra opinião bastante pertinente é que o agravamento do~\ac{dp} é bastante sutil do ponto de vista do [NEU\_01] no [FRAGMENTO-21]. Logo se for possível, mostrar a evolução da doença em períodos mais longos, o tratamento seria mais efetivo e, consequentemente, traria uma melhor qualidade de vida aos pacientes.
 
 \begin{quote}
 \textbf{[FRAGMENTO-19][FIS\_01]} - 
@@ -283,7 +287,7 @@ A identificação dos requisitos de um sistema representa o início da elicitaç
 	\item[REQ-ENTREVISTAS-03 :] Avaliar bradicinesia usando~\textit{finger-tapping}~\cite{finger2012}.
 	\item[REQ-ENTREVISTAS-04 :] Considerar e identificar a assimetria do movimento nos estágios iniciais~\cite{national2006parkinson}.	%Além da velocidade angular podemos calcular a amplitude do movimento, assim identificarems a assimetria do movimento com mais clareza.
 	\item[REQ-ENTREVISTAS-05 :] Fornecer mecanismos para possibilitar o Diagnóstico Diferencial~\cite{protpar010} da Doença de Parkinson. %caso os sinais de bradicinesia e marcha sejam identificados. Caso os indivíduos venham a surtir efeito ao medicamento e consequentemente reduzir a gravidade do sintoma, então foi possível realizar um diagnóstico diferencial.
-	\item[REQ-ENTREVISTAS-06 :] Analisar a Marcha~\cite{gaitusingsensorsreview2012}. Medir a marcha e comparar o padrão do movimento com indivíduos com e sem o diagnóstico da ~\ac{dp} para classificar a marcha como saudável ou parkinsoniana.
+	\item[REQ-ENTREVISTAS-06 :] Analisar a Marcha~\cite{gaitusingsensorsreview2012}. Medir a marcha e comparar o padrão do movimento com indivíduos com e sem o diagnóstico do~\ac{dp} para classificar a marcha como saudável ou parkinsoniana.
 	\item[REQ-ENTREVISTAS-07 :] Calcular e armazenar a amplitude do movimento de adução e abdução dos braços, para realizar o monitoramento da saúde motora e poder acompanhar o tratamento.
 	\item[REQ-ENTREVISTAS-08 :] Calcular e armazenar a velocidade angular do movimento de adução e abdução dos braços. Para poder avaliar o sintoma da bradicinesia.
 	\item[REQ-ENTREVISTAS-09 :] Avaliar estado emocional baseado na ocorrência e comprometimento do tremor. 
@@ -484,7 +488,7 @@ AngVelAdDireito & Velocidade angular do movimento de adução do braço direito.
 	\label{fig:signalamplitudepeakvaley}
 \end{figure}
 
-A partir da extração das características do movimento, a próxima etapa da pesquisa, é classificar os dados de movimento e identificar a ocorrência do sintoma de bradicinesia. Por meio das teorias estatísticas de aprendizagem de máquina, foi realizado uma análise dos dados para aquisição de conhecimento utilizando aprendizagem supervisionada~\cite{datamining2005}. 
+A partir da extração das características do movimento, a próxima etapa da pesquisa, é classificar os dados de movimento e identificar a ocorrência do sintoma de bradicinesia. Por meio das teorias estatísticas de aprendizagem de máquina, foi realizado uma análise dos dados para aquisição de conhecimento utilizando aprendizagem supervisionada~\cite{kantardzic2011data}. 
 
 %Logo, os dados biomecânicos~\cite{hamill1999bases} coletados foram utilizados com a \ac{dp} ante os indivíduos sem o diagnóstico estabelecido. Pelo quantitativo da pesquisa ter sido de 30 indivíduos, a abordagem de aprendizagem de máquina usando \ac{svm} ~\cite{vapnik95} foi utilizada juntamente com a técnica de validação-cruzada \textit{leave-one-out}, essa técnica será explicada com mais detalhes na Seção \ref{validacao_cruzada_svm}.
 
@@ -492,7 +496,7 @@ A partir da extração das características do movimento, a próxima etapa da pe
 \subsubsection{Relação Risco e Benefício da Pesquisa}
 Os riscos inerentes podem decorrer da exposição de dados dos sujeitos da pesquisa. Isto, pode pode acarretar em danos morais e/ou psicológicos. Logo, teve-se um cuidado de preservar a integridade física e psicológica dos sujeitos da pesquisa, garantindo assim: a privacidade e confidencialidade das informações.
 
-Caso ocorresse algum constrangimento por parte do sujeito da pesquisa, ao não conseguir realizá-la, os pesquisadores prestariam total assistência, orientando-o adequadamente para prosseguir ou encerrar o procedimento. Os presentes riscos fazem jus aos benefícios que a pesquisa venha a trazer com a possibilidade de monitoramento dos sinais dp~\ac{dp}. A identificação dos sinais motores e classificação desses dados através do computador podem: permitir avanços para um melhor acompanhamento da evolução da doença e possibilitar o monitoramento não invasivo dos pacientes.
+Caso ocorresse algum constrangimento por parte do sujeito da pesquisa, ao não conseguir realizá-la, os pesquisadores prestariam total assistência, orientando-o adequadamente para prosseguir ou encerrar o procedimento. Os presentes riscos fazem jus aos benefícios que a pesquisa venha a trazer com a possibilidade de monitoramento dos sinais do~\ac{dp}. A identificação dos sinais motores e classificação desses dados através do computador podem: permitir avanços para um melhor acompanhamento da evolução da doença e possibilitar o monitoramento não invasivo dos pacientes.
 
 %Os pacientes deverão ter o seu estágio da \ac{dp} previamente diagnosticada por um médico para ser possível comparar os dados do monitoramento com a classificação obtida.
 
@@ -510,7 +514,7 @@ Durante a pesquisa, partiu-se do princípio, que através da análise do movimen
 Conforme a abordagem~\ac{jogue-me} apresentada no Capítulo~\ref{chapter:abordagem_gahme}, os dados adquiridos foram processados, extraídas as características do movimento angular, filtrados e postos em uma Máquina de Vetor de Suporte, para realizar a classificação entra as duas classes de dados. Para a classificação dos dados foi utilizado um \textit{kernel} Linear (Seção~\ref{sec:svm_linear}) por ter obtido os melhores resultados dentre os \textit{kernels} presentes no Matlab~\cite{matlab2011}: Polinomial, Radial e de MLP. O resultado do \textit{kernel} linear foi o mais expressivo entre os demais devido a separação linear ter dividido bem as duas classes. 
 
 \subsubsection{Vetor Médio}
-Nessa etapa da pesquisa foi calculado o Vetor Médio (Seção~\ref{section:filtro_dados}), para entender melhor a diferença de movimento entre os sujeitos diagnosticados com a \ac{dp} e sujeitos sem o diagnóstico. Como pode ser visto na Figura~\ref{fig:vetor_medio_abducao}, a amplitude de movimento de um indivíduo diagnosticado com ~\ac{dp} é bem menor do que a de um indivíduo sem o diagnóstico. Entretanto, por ter sido escalonado em 20 \textit{frames}, esse vetor médio perdeu a informação da velocidade do movimento.
+Nessa etapa da pesquisa foi calculado o Vetor Médio (Seção~\ref{section:filtro_dados}), para entender melhor a diferença de movimento entre os sujeitos diagnosticados com a \ac{dp} e sujeitos sem o diagnóstico. Como pode ser visto na Figura~\ref{fig:vetor_medio_abducao}, a amplitude de movimento de um indivíduo diagnosticado com~\ac{dp} é bem menor do que a de um indivíduo sem o diagnóstico. Entretanto, por ter sido escalonado em 20 \textit{frames}, esse vetor médio perdeu a informação da velocidade do movimento.
 
 \begin{figure}[!htbp]
  \centering
@@ -521,7 +525,7 @@ Nessa etapa da pesquisa foi calculado o Vetor Médio (Seção~\ref{section:filtr
 
 
 \subsubsection{Matriz de Confusão e Suas Métricas}
-Para avaliar o resultado da classificação, será apresentada a \textbf{matriz de confusão}~\cite{datamining2005}, que permite comparar os valores reais da classe com os valores obtidos no modelo de predição. 
+Para avaliar o resultado da classificação, será apresentada a \textbf{matriz de confusão}~\cite{kantardzic2011data}, que permite comparar os valores reais da classe com os valores obtidos no modelo de predição. 
 
 A matriz de confusão para duas classes consiste numa matriz $2$\ x $2$\, contendo os \textit{Verdadeiros Positivos} (\textbf{TP}) e \textit{Verdadeiro Negativo} (\textbf{TN}), que são as classificações corretas. Os \textit{Falsos Negativos} (\textbf{FN}) contém a predição incorreta de um valor que deveria ser positivo e os \textit{Falsos Positivos} (\textbf{FP}) contém os valores positivos quando deveriam ser negativos como pode ser visto na Tabela~\ref{table:descricaomatrizconfusao}.
 
@@ -543,16 +547,16 @@ A matriz de confusão para duas classes consiste numa matriz $2$\ x $2$\, conten
 
 \subsection{Aprendizagem de Máquina (SVM)}
 
-Para uma base de dados pequena contendo 30 indivíduos, o método de Validação Cruzada escolhido deve tentar maximizar o conjunto de treinamento para atingir um melhor resultado de teste. Por esse motivo, foi escolhido o método de validação cruzada \textit{leave-one-out}~\cite{datamining2005}. 
+Para uma base de dados pequena contendo 30 indivíduos, o método de Validação Cruzada escolhido deve tentar maximizar o conjunto de treinamento para atingir um melhor resultado de teste. Por esse motivo, foi escolhido o método de validação cruzada \textit{leave-one-out}~\cite{kantardzic2011data}. 
 
 O método \textit{leave-one-out} é um método de validação cruzada \textit{k-fold} com o mesmo número de \textit{n} indivíduos. Logo, apenas um indivíduo será considerado teste e os demais serão de treinamento. Desta maneira não existe estratificação nos dados, tornando o processo determinístico e repetível com a mesma base de dados, pois não existe o problema de viés na seleção dos dados. A taxa de erro obtida da classificação é a taxa de erro do modelo para aquela base de dados. 
 
 \subsubsection{Otimização dos Parâmetros da SVM - Método Grid-Search}
 
-Para identificar os melhores parâmetros~\ac{svm}, foi aplicada a técnica~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{datamining2005}. Esta técnica avalia a precisão do modelo prevista , evita o problema superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro , nós aplicamos uma abordagem minimax para maximizar a margem sobre os coeficientes hiperplano ea classificação correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foi de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ] usando assim uma exponencial de base 2. Por meio desta técnica foi possível identificar uma região em que o classificador possuía a melhor acurácia e menor taxa de \textit{FpRate}. Após identificar essa região realizamos uma busca mais detalhada utilizando a técnica de \textit{grid-search} com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10] como 
+Para identificar os melhores parâmetros~\ac{svm}, foi aplicada a técnica~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Esta técnica avalia a precisão do modelo prevista , evita o problema superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro , nós aplicamos uma abordagem minimax para maximizar a margem sobre os coeficientes hiperplano ea classificação correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foi de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ] usando assim uma exponencial de base 2. Por meio desta técnica foi possível identificar uma região em que o classificador possuía a melhor acurácia e menor taxa de \textit{FpRate}. Após identificar essa região realizamos uma busca mais detalhada utilizando a técnica de \textit{grid-search} com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10] como 
 pode ser visto na Figura~\ref{fig:gridaccuracy}.
 
-%To identify the best SVM parameters, we applied the grid search technique~\citep{gridsearchsvm2010} using Leave-One-Out Cross-Validation (LOOCV)~\citep{datamining2005}. This technique assesses the accuracy of the predicted model, prevents the overfitting problem in the binary classification and is a practical method to identify the SVM parameters. In this study, to reduce the error rate, we applied a minimax approach to maximize the margin over the hyperplane coefficients and the correct classification. The parameters values of grid search for $C$ = [$2^5$, ... ,$2^2$] and $\gamma$ = [$2^{15}$, ... ,$2^3$ ], the step length was $2^2$, and with the identification and selection of a “better” region on the grid. So, we did a finer 
+%To identify the best SVM parameters, we applied the grid search technique~\citep{gridsearchsvm2010} using Leave-One-Out Cross-Validation (LOOCV)~\citep{kantardzic2011data}. This technique assesses the accuracy of the predicted model, prevents the overfitting problem in the binary classification and is a practical method to identify the SVM parameters. In this study, to reduce the error rate, we applied a minimax approach to maximize the margin over the hyperplane coefficients and the correct classification. The parameters values of grid search for $C$ = [$2^5$, ... ,$2^2$] and $\gamma$ = [$2^{15}$, ... ,$2^3$ ], the step length was $2^2$, and with the identification and selection of a “better” region on the grid. So, we did a finer 
 
 
 \begin{figure}[!h]
@@ -582,11 +586,25 @@ Como pode ser analisado na Figura~\ref{fig:gridaccuracy}, nós conseguimos uma c
 
 \subsubsection{Resultados Obtidos}
 
-O sinal da bradicinesia presente no~\ac{dp} foi quantificado pela amplitude do movimento de abdução dos braços e sua respectiva velocidade angular. Na análise destes sinais, foi possível extrair os vetores de características par a classificação dos dados~\cite{kantardzic2011data}. Na Tabela~\ref{table:amplitude}, podemos demonstrar a severidade do sinal motor causado pela bradicinesia, onde o Grupo com~\ac{dp} apresentaram amplitudes bem menores ante os indivíduos do Grupo Controle.
 
+A Matriz de Confusão obtida indica que existem três indivíduos classificados como ``Controle'' e que possuem a doença, no entanto analisando as características do movimento dos indivíduos com~\ac{dp} percebemos que eles apresentaram uma amplitude de movimento e uma velocidade angular bastante próximas dos indivíduos do Grupo Controle. Logo, estes não apresentam o sintoma de bradicinesia, o que pode indicar que o indivíduo esteja no início da doença, ou bem medicado, ou não apresentar este sinal motor o que corrobora com a sintomatologia do~\ac{dp}. 
+%Um resultado, que não era esperado nesta pesquisa é a ocorrência de um indivíduo que não possui~\ac{dp} mas mesmo assim foi classificados com o sintoma. Analisando seus dados foi percebido que ele possuía sinais muito próximos do grupo dos indivíduos com~\ac{dp}, logo ele possivelmente apresenta algum déficit motor o que condiz com o resultado da classificação.
 
-We assessed bradykinesia by measuring the amplitude and angular velocities in the adduction and abduction movements of the subjects. Therefore, the amplitude and angular velocities were the feature vectors for data classification~\cite{kantardzic2011data}. In Table~\ref{table:amplitude}, we show the severity of motor disorder caused by bradykinesia, in which PD's patients present lower amplitudes. Notice that subject Control 10 presents amplitude values similar to the PD's patients. In this case, we checked that this subject has an uninformed motor disorder that caused the incorrect classification. Furthermore, some PD's patients, namely Parkinson 3,8 and 12, did not present the bradykinesia symptom. In this case, we assumed that these subjects did not have the symptom or it was successfully suppressed by medication. 
+\begin{table}[!htbp] 
+\caption{Resultado da Matriz de Confusão SVM}
+\label{table:resultadomatrizconfusaosvm}
+\centering
+\begin{tabular}{l|c|c|}
+\cline{2-3}
+\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
+                                             & \textbf{Parkinson}      & \textbf{Controle}         \\ \hline
+\multicolumn{1}{|l|}{\textbf{Parkinson}} & 12       & 3           \\ \hline
+\multicolumn{1}{|l|}{\textbf{Controle}}     & 1           & 14     \\ \hline
+\end{tabular}
 
+\end{table}
+
+O sinal da bradicinesia presente no~\ac{dp} foi quantificado pela amplitude do movimento de abdução dos braços e sua respectiva velocidade angular. Na análise destes sinais, foi possível extrair os vetores de características par a classificação dos dados~\cite{kantardzic2011data}. Na Tabela~\ref{table:amplitude}, podemos demonstrar a severidade do sinal motor causado pela bradicinesia, onde o Grupo com~\ac{dp} apresentaram amplitudes bem menores ante os indivíduos do Grupo Controle. Notamos também, que o indivíduo ``Controle 10'' apresentou uma amplitude muito semelhante aos do Grupo com~\ac{dp}. Neste caso, nós identificamos que o mesmo, apresentava uma problema motor e que isto causou a classificação incorreta pela~\ac{svm}. Além disto, 3 indivíduos do Grupo com~\ac{dp} (3,8 e 12), não apresentavam o sinal da bradicinesia durante a coleta. Nestes casos, podemos assumir que: os mesmos não possuem a bradicinesia ou o sinal estava suprimido pela medicação.
 
 
 \begin{table}[!htp]
@@ -631,25 +649,10 @@ Parkinson 15         & \multicolumn{1}{r|}{125.69}                              
 \end{table}
 
 
-A Matriz de Confusão obtida indica que existem três indivíduos classificados como ``Controle'' e que possuem a doença, no entanto analisando as características do movimento dos indivíduos com~\ac{dp} percebemos que eles apresentaram uma amplitude de movimento e uma velocidade angular bastante próximas dos indivíduos do Grupo Controle. Logo, estes não apresentam o sintoma de bradicinesia, o que pode indicar que o indivíduo esteja no início da doença, ou bem medicado, ou não apresentar este sinal motor o que corrobora com a sintomatologia do~\ac{dp}. 
-Um resultado, que não era esperado nesta pesquisa é a ocorrência de um indivíduo que não possui~\ac{dp} mas mesmo assim foi classificados com o sintoma. Analisando seus dados foi percebido que ele possuía sinais muito próximos do grupo dos indivíduos com~\ac{dp}, logo ele possivelmente apresenta algum déficit motor o que condiz com o resultado da classificação.
-
-\begin{table}[!htbp]
-\caption{Resultado da Matriz de Confusão SVM}
-\label{table:resultadomatrizconfusaosvm}
-\centering
-\begin{tabular}{l|c|c|}
-\cline{2-3}
-\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
-                                             & \textbf{Parkinson}      & \textbf{Controle}         \\ \hline
-\multicolumn{1}{|l|}{\textbf{Parkinson}} & 12       & 3           \\ \hline
-\multicolumn{1}{|l|}{\textbf{Controle}}     & 1           & 14     \\ \hline
-\end{tabular}
-
-\end{table}
 
 
- Para demonstrar a avaliação do modelo de forma quantitativa usou-se um conjunto de métricas derivadas da matriz de confusão ~\cite{datamining2005}.
+
+ Para demonstrar a avaliação do modelo de forma quantitativa usou-se um conjunto de métricas derivadas da matriz de confusão ~\cite{kantardzic2011data}.
  \begin{description}
  	\item [\textit{TpRate}] taxa de acerto obtido: $ TpRate = TP/P $\ ;
  	\item [\textit{FpRate}]: taxa de falso alarme obtido: $ FpRate = FP/N $\ ;
@@ -691,12 +694,12 @@ Um resultado, que não era esperado nesta pesquisa é a ocorrência de um indiv�
 \subsubsection{Limitações do Método}
 O método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com \ac{dp} ante os indivíduos sem o diagnóstico estabelecido, foi uma técnica estatística de aprendizagem denominada de~\ac{svm}. Nesse estudo não se pretende estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstra que existem diferenças entre essas duas classes, e estas podem ser capturadas por um sensor de movimento usado em jogos eletrônicos, e que essas diferenças podem ser classificadas utilizando uma abordagem de aprendizagem de máquina. 
 
-\section{ETAPA 3 - Avaliação Da Aceitação Da Abordagem Junto aos Pacientes de~\ac{dp} Utilizando \textit{Goal Question Metric}}\label{gqm_usuarios}
+\section{ETAPA 3 - Avaliação Da Aceitação Da Abordagem Junto aos Pacientes com~\ac{dp} Utilizando \textit{Goal Question Metric}}\label{gqm_usuarios}
 %Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM). GQM ~\cite{basili94} é uma abordagem hierárquica que inicia com objetivo principal e o divide em atividades que podem ser mensuradas durante a execução do projeto. É uma abordagem para integrar objetivos a e perspectivas de qualidade de interesse, baseado nas necessidades do projeto~\cite{van1999goal}. Foi preparado o questionário GQM mostrado no Apêndice~\ref{apend:gqm} para avaliar a possibilidade de monitorar dados motores de forma não invasiva e integrada a rotina diária das pessoas.
 
 Com o objetivo de averiguar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM)~\cite{van1999goal}. Essa abordagem é um paradigma de pesquisa utilizado na Engenharia de Software para medição de processos de software e melhoria contínua dos produtos ~\cite{saraiva2006,elicquest05}. A qualidade do produto de software~\cite{saraiva2006} pode ser compreendida como a adequação a um conjunto de características atingidas em maior ou menor grau para que o produto final venha atender as necessidades do usuário final, identificadas na fase de elicitação de requisitos ~\cite{elicquest05}.
 
-O~\ac{gqm} é um paradigma de avaliação orientado por metas e tem como componentes elementares: objetivos, questionamentos e a métricas ~\cite{saraiva2006}. Nesse paradigma de pesquisa é definido um objetivo principal, onde são refinados em perguntas que venham extrair as métricas da pesquisa que fornecem informações. De posse das respostas baseada em métricas, estas são comparadas com o objetivo da pesquisa no intuito de identificar se ele foi alcançado. Logo, o paradigma~\ac{gqm} busca definir métricas partindo de uma perspectiva de ``de cima para baixo''; analisa, interpreta e mensura dados de maneira ``de baixo para cima'' como pode ser graficamente visualizado na Figura~\ref{fig:gqm} ~\cite{van1999goal}. 
+O~\ac{gqm} é um paradigma de avaliação orientado por metas e tem como componentes elementares: objetivos, questionamentos e métricas~\cite{saraiva2006}. Nesse paradigma de pesquisa é definido um objetivo principal, onde são refinados em perguntas que venham extrair as métricas da pesquisa que fornecem informações. De posse das respostas baseada em métricas, estas são comparadas com o objetivo da pesquisa no intuito de identificar se ele foi alcançado. Logo, o paradigma~\ac{gqm} busca definir métricas partindo de uma perspectiva de ``de cima para baixo''; analisa, interpreta e mensura dados de maneira ``de baixo para cima'' como pode ser graficamente visualizado na Figura~\ref{fig:gqm} ~\cite{van1999goal}. 
 
 \begin{figure}[!htbp]
  \centering
