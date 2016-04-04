@@ -115,41 +115,6 @@ O envio dos dados dos usuários coletados com os dispositivos é feito através 
 \label{tab:operations}
 \end{table}
 
-% \subsubsection{Gerenciador de Dados}
-% O \emph{Gerenciador de Dados} possui submódulos responsáveis por fazer leitura, separação e filtragem dos dados, além do gerenciamento destes no Banco de Dados com a escrita dos resultados disponibilizados pelo \emph{Analisador de Dados}. A classe \texttt{DataManager} implementa as funcionalidades do \emph{Gerenciador de Dados}, referenciando os quatro módulos: \emph{Gerenciador de Arquivos}, \emph{Módulo de Escrita}, \emph{Módulo de Filtragem} e \emph{Gerenciador do Banco de Dados}. Estes módulos serão explicados nas subseções a seguir. A classe \texttt{DataManager} possui um construtor \texttt{DataManager(DatabaseManager, FileManager, WriterModule, FilterModule)}, que recebe como parâmetros os quatro módulos. Dessa forma, é possível aumentar a funcionalidade de cada um dos módulos estendendo suas respectivas classes por herança e adicionando a elas novos métodos. A classe \texttt{MovementDataFileManager}, tratada mais adiante, é um exemplo de extensão do \texttt{FileManager}.
-% 
-% O \emph{webservice}, implementado utilizou a biblioteca Jersey\footnote{Disponível em: http://jersey.java.net/}, que facilita o desenvolvimento de \textit{RESTful webservices}. As requisições são enviadas para serem processadas pela classe \texttt{ReadingResource}, que é um \textit{web resource}, uma entidade que recebe requisições HTTP e envia respostas. Esta classe possui dois métodos, o \texttt{get()} que trata requisições \emph{GET}, retornando o identificador do último conjunto de leituras para controle do armazenamento no banco de dados; e o método \texttt{post(List<Reading> readings)} processa os dados das leituras enviados através de requisições \emph{POST}, e convertidos de JSON para objetos Java pela biblioteca Jersey. A classe \texttt{ReadingResource} está acoplada à classe \texttt{DataManager} e, através dela, tem acesso ao \emph{Gerenciador do Banco de Dados}. O \emph{webservice} pode ser instalado em qualquer \textit{web container}, como o Apache Tomcat\footnote{Disponível em: http://tomcat.
-% apache.org/} e o GlassFish\footnote{Disponível em: http://glassfish.
-% java.net/}.
-% 
-% \subsubsection{Gerenciador de Arquivos}
-% 
-% A classe \texttt{FileManager} implementa o módulo \emph{Gerenciador de Arquivos}, que processa as operações de abertura de arquivos de dados delegadas pelo \emph{Gerenciador de Dados}. Esse módulo processa os dados recebidos, armazenando-os em dados estruturados para serem processado posteriormente pelo \emph{Analisador de Dados}. O dado estruturado aceito pelo \emph{Analisador de Dados} é composto por um rótulo identificador do dado, uma marca de tempo com precisão de milissegundos, e coordenadas x, y e z, cujo significado depende do tipo de sensor que as gera.
-% 
-% Os métodos da classe \texttt{FileManager} são:
-% \begin{enumerate}
-% 	\item \texttt{getLabelData(List<Reading> data, String... labels)} filtra os dados da lista de leituras \texttt{data}, retornando uma nova lista \texttt{List<Reading>} contendo apenas os dados com os rótulos definidos em \texttt{labels}.
-% 	\item \texttt{getDataFromFile(String path, String separator, boolean hasHeader)} lê os dados de um arquivo localizado no caminho \texttt{path}, cujos dados estão separados pelo separador \texttt{separator} e definidos linha a linha. O parâmetro \texttt{hasHeader} indica se o método deve procurar por uma linha de cabeçalho na primeira linha do arquivo. Retorna uma \texttt{List<Reading>} com os dados.
-% 	\item \label{getdatamethod} \texttt{getDataFromFile(String path, String separator, boolean hasHeader, String... labels)} estende a funcionalidade do método anterior, retornando uma \texttt{List<Reading>} com os dados que possuem os rótulos definidos em \texttt{labels}.
-% 	\item \texttt{getMultipleData(String path, String separator, boolean hasHeader, String... labels)} possui a mesma função que o método~\ref{getdatamethod}, mas, diferente deste, retorna um \texttt{Map<String, List<Reading>>} onde cada chave do mapa é um rótulo e indexa uma lista de eventos identificados pelo rótulo.
-% 	\item \texttt{getBufferedReader(String path)} retorna um \texttt{BufferedReader} para manipular o arquivo cujo caminho é especificado dem \texttt{path}.
-% \end{enumerate}
-% 
-% A classe \texttt{MovementDataFileManager} estende as funcionalidades do \texttt{FileManager}, adicionando um método para leitura de eventos oriundos de jogos. Os eventos marcam o início ou fim de um momento específico do jogo no qual o jogador estará executando um movimento que será enviado para análise.
-% 
-% \subsection{Módulo de Escrita}
-% 
-% O \emph{Módulo de Escrita} é implementado pela classe \texttt{WriterModule}, que é responsável pela saída dos dados processados pelo \emph{Analisador de Dados}. Os dados podem ser estruturados para serem para servirem como entrada para mecanismos de aprendizado de máquina. Os dados são escritos em CSV (\textit{Comma-separated Values}) ou em qualquer outro formato definido pelo usuário do arcabouço. O módulo de escrita também suporta a escrita de arquivos \textit{ARFF}, para serem processados pelo Weka\footnote{Disponível em: http://www.cs.waikato.ac.nz/ml/weka/}. O \emph{Módulo de Escrita} é extensível para permitir a geração de um formato de arquivo específico. A criação de um novo arquivo de dados é feita através da extensão da classe \texttt{WriterImpl} pela classe que se está criando.
-% A interface \texttt{IWriter} define três métodos para manipular arquivos de dados:
-% 
-% \begin{enumerate}
-% 	\item \label{formatlinemethod} \texttt{formatLine(Object... items)} formata os itens \texttt{items} adicionando separadores ou qualquer outra formatação adicional definida na classe específica de escrita que implementa \texttt{IWriter} ou estende \texttt{WriterImpl}.
-% 	\item \texttt{writeLine(Object... items)} escreve uma nova linha no arquivo, seguindo a formatação definida pelo método~\ref{formatlinemethod}.
-% 	\item \texttt{save()} fecha a \textit{stream} de escrita dedicada ao arquivo e salva o arquivo em disco.
-% \end{enumerate}
-% 
-% A classe \texttt{WriterImpl} implementa os métodos comuns a todas as classes de escrita, definidos pela interface \texttt{IWriter}, fornecendo um método adicional para incluir separadores entre os elementos de uma linha. Para definir um comportamento diferente daquele implementado por \texttt{WriterImpl}, deve-se implementar diretamente a interface \texttt{IWriter}.
-% 
 \section{Processador de Dados Biomecânicos}
 Os sinais dos usuários ficam armazenados no servidor. Porém, para transformar os sinais em informação tanto para o profissional de saúde quanto para máquinas de aprendizagem é necessário fazer o processamento desse sinal. Neste trabalho, implementamos o \textit{Processador de Dados Biomecânicos} em MATLAB 2011~\cite{matlab2011} como definido na ~\ref{sec:processador_bio}, o qual consiste de três passos: Identificação dos Ciclos, Extração de Características e Filtragem de Dados.
 
