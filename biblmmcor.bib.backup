@@ -659,19 +659,28 @@ Publisher = {ACM}
 
 
 @InProceedings{multisvm2011,
-Title = {Multi-class Support Vector Machine (SVM) Classifiers - An Application in Hypothyroid Detection and Classification},
+Title = {Multi-class Support Vector Machine (SVM) Classifiers -- An Application in Hypothyroid Detection and Classification},
 Author = {F. F. Chamasemani and Y. P. Singh},
 Booktitle = {Sixth International Conference on Bio-Inspired Computing: Theories and Applications},
 Year = {2011},
-Publisher = {IEEE}
+
 }
 
 @InCollection{basili94,
 Title = {The goal question metric approach},
 Author = {Basili, Victor and Caldiera, Gianluigi and Rombach, Dieter H.},
 Booktitle = {Encyclopedia of Software Engineering},
+Publisher = {Wiley},
 Year = {1994},
-Publisher = {Wiley}
+Editor = {Marciniak, J.},
+Citeulike-article-id = {4186285},
+Citeulike-linkout-0 = {https://docweb.lrz-muenchen.de/cgi-bin/doc/nph-webdoc.cgi/000110A/http/scholar.google.de/scholar=3fhl=3dde\&\#38;lr=3d\&\#38;cluster=3d4068380033007143449},
+Keywords = {goal, gqm, metric, question},
+Owner = {leonardo},
+Posted-at = {2009-03-17 12:14:35},
+Priority = {2},
+Review = {O processo de definição dos objetivos é crucial para o sucesso da abordagem GQM. Para o desenvolvimento dos objetivos são necessárias três informações básicas: 1. As políticas e estratégias da organização. Dessa informação serão derivadas o problema e o propósito do objetivo de acordo com as políticas e estratégias da empresa segundo a ótica de indivíduos relevantes na organização. 2. descrição do processo e produto da organização, inserido no escopo analisado. 3. Modelo de organização que provê o ponto de vista para a coordenação do objetivo.},
+Timestamp = {2013.01.23}
 }
 
 @InProceedings{atkinson2010,
@@ -679,5 +688,6 @@ Title = {Design of an introductory medical gaming environment for diagnosis and 
 Author = {Atkinson, S.D. and Narasimhan, V.L.},
 Booktitle = {Trendz in Information Sciences Computing},
 Year = {2010},
-Publisher = {IEEE}
+Owner = {leonardo},
+Timestamp = {2015.10.03}
 }

@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {2.1.3}Escalas e os Est\IeC {\'a}gios da Doen\IeC {\c c}a}{12}
 \contentsline {section}{\numberline {2.2}Cinemetria}{13}
 \contentsline {subsection}{\numberline {2.2.1}Movimento Angular}{13}
-\contentsline {section}{\numberline {2.3}M\IeC {\'a}quinas de Vetor de Suporte (SVM)}{15}
+\contentsline {section}{\numberline {2.3}M\IeC {\'a}quina de Vetor de Suporte (SVM)}{14}
 \contentsline {chapter}{\numberline {3}Abordagem~\textit {JOGUE-ME}}{17}
 \contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o de Requisitos da Solu\IeC {\c c}\IeC {\~a}o}{17}
 \contentsline {section}{\numberline {3.2}Vis\IeC {\~a}o geral da solu\IeC {\c c}\IeC {\~a}o}{18}
