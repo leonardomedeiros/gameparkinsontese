@@ -276,10 +276,6 @@ A \ac{er} é o processo de descobrir o propósito do software, identificando os 
 
 A identificação dos requisitos de um sistema representa o início da elicitação das necessidades da solução proposta. Então, os requisitos definem quais serão os serviços que o sistema deve prover além de um conjunto de restrições existentes na operação do mesmo~\cite{sommerville2011}. A técnica utilizada para a identificação dos requisitos desta pesquisa é baseada em pesquisa qualitativa, onde usou-se a entrevista semiestruturada na qual o entrevistador possui um conjunto de perguntas pré-definidas e guia a entrevista de acordo com a opinião do entrevistado~\cite{FLI04}. Ficou definido, que cada requisito deve ser importante para os entrevistados e a nomenclatura estabelecida é de \textbf{REQ-ENTREVISTAS} seguida por um número sequencial correspondente à sua apresentação. Para demonstrar a relevância dos requisitos, a teoria foi confrontada com o que é aplicado na prática pelos profissionais de saúde, por esse motivo, foram citadas referências científicas que corroboram com a análise. 
 
-
-
-%O uso do termo "Engenharia" implica que técnicas sistemáticas e repetidas devem ser aplicadas para certificar que os requisitos de um sistema estejam completos, consistentes e relevantes \cite{sommerville2011}. O emprego correto da Engenharia de Requisitos é um passo fundamental para o desenvolvimento de um bom  produto, onde a satisfação do usuário deve ser o principal objetivo a ser atingido \cite{zowghi2005}.
-
 \begin{description}
 	\item[REQ-ENTREVISTAS-01 :] Identificar e quantificar o tremor parkinsoniano~\cite{tolosa06,keijsers2006,lemoyne2010}.
 	\item[REQ-ENTREVISTAS-02 :] Identificar a bradicinesia~\cite{patel_monitoring_2009}. %Para identificar a bradicinesia pode ser calculada a velocidade angular do movimento de abdução e adução do braço.
@@ -404,12 +400,6 @@ A coleta de dados foi realizada no Hospital Universitário da UFAL e, na Fundaç
 
 \subsubsection{Amostra}
 Foram selecionados por disponibilidade, um total de 30 sujeitos da pesquisa. O grupo previamente diagnosticado por neurologistas com~\ac{dp}, consistiu de 15 indivíduos. Destes, 10 eram homens e 5 mulheres, entre 51 e 65 anos (média : 58 anos). O grupo controle foi composto por 15 indivíduos sem diagnóstico PD, destes 11 eram homens e 4 mulheres, entre 50 e 65 anos (média : 57 anos). Todos os indivíduos fizeram uso da abordagem de monitoramento baseada em jogos proposta neste trabalho. Os sujeitos da pesquisa foram solicitados a executarem os movimentos de abdução e adução dos braços de acordo com a proposta do jogo. Todas as sessões foram realizadas sob supervisão de um neurologista ou fisioterapeuta onde foi verificado o estado de saúde. 
-
-%Durante as coletas, não houve a necessidade de nenhuma interrupção da coleta devido a problemas de saúde ou qualquer outra eventualidade.
-
-%A total number of 30 subjects participated in the study. The group previously diagnosed by neurologists with PD consisted of 15 subjects, 10 men and 5 women, between 51 and 65 years (mean: 58). The control group was composed of 15 subjects without a PD diagnosis, 11 men and 4 women, between 50 and 65 years (mean: 57). All subjects were interacting with exactly the same system in both hardware and software, and were prompted to seamlessly perform abduction and adduction of the arms according to the game's context. All sessions were made in a medical institution under the supervision of a neurologist or physiotherapist to continuously check the subject's health condition. No subject needed to interrupt the experiment to ensure safety.
-
-
 
 
 \subsubsection{Recrutamento dos Sujeitos e Aquisição do Consentimento Livre e Esclarecido}
@@ -555,16 +545,11 @@ O método \textit{leave-one-out} é um método de validação cruzada \textit{k-
 Para identificar os melhores parâmetros~\ac{svm}, foi aplicada a técnica~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Esta técnica avalia a precisão do modelo prevista , evita o problema superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro , nós aplicamos uma abordagem minimax para maximizar a margem sobre os coeficientes hiperplano ea classificação correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foi de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ] usando assim uma exponencial de base 2. Por meio desta técnica foi possível identificar uma região em que o classificador possuía a melhor acurácia e menor taxa de \textit{FpRate}. Após identificar essa região realizamos uma busca mais detalhada utilizando a técnica de \textit{grid-search} com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10] como 
 pode ser visto na Figura~\ref{fig:gridaccuracy}.
 
-%To identify the best SVM parameters, we applied the grid search technique~\citep{gridsearchsvm2010} using Leave-One-Out Cross-Validation (LOOCV)~\citep{kantardzic2011data}. This technique assesses the accuracy of the predicted model, prevents the overfitting problem in the binary classification and is a practical method to identify the SVM parameters. In this study, to reduce the error rate, we applied a minimax approach to maximize the margin over the hyperplane coefficients and the correct classification. The parameters values of grid search for $C$ = [$2^5$, ... ,$2^2$] and $\gamma$ = [$2^{15}$, ... ,$2^3$ ], the step length was $2^2$, and with the identification and selection of a “better” region on the grid. So, we did a finer 
-
 
 \begin{figure}[!h]
  \centering
- \includegraphics[scale=0.7]{./img/gridsearch.png}
- % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
- %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-\caption{\textit{Grid-Search} - Acurácia da Classificação}
-%  \caption{Estágio desenvolvimento de jogos}
+  \includegraphics[scale=0.7]{./img/gridsearch.png} 
+  \caption{\textit{Grid-Search} - Acurácia da Classificação}
  \label{fig:gridaccuracy}
 \end{figure}
 
@@ -690,8 +675,8 @@ Parkinson 15         & \multicolumn{1}{r|}{125.69}                              
 
 
 
-\subsubsection{Limitações do Método}
-O método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com \ac{dp} ante os indivíduos sem o diagnóstico estabelecido, foi uma técnica estatística de aprendizagem denominada de~\ac{svm}. Nesse estudo não se pretende estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstra que existem diferenças entre essas duas classes, e estas podem ser capturadas por um sensor de movimento usado em jogos eletrônicos, e que essas diferenças podem ser classificadas utilizando uma abordagem de aprendizagem de máquina. 
+%\subsubsection{Limitações do Método}
+%O método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com \ac{dp} ante os indivíduos sem o diagnóstico estabelecido, foi uma técnica estatística de aprendizagem denominada de~\ac{svm}. Nesse estudo não se pretende estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstra que existem diferenças entre essas duas classes, e estas podem ser capturadas por um sensor de movimento usado em jogos eletrônicos, e que essas diferenças podem ser classificadas utilizando uma abordagem de aprendizagem de máquina. 
 
 \section{ETAPA 3 - Avaliação Da Aceitação Da Abordagem Junto aos Pacientes com~\ac{dp} Utilizando \textit{Goal Question Metric}}\label{gqm_usuarios}
 %Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM). GQM ~\cite{basili94} é uma abordagem hierárquica que inicia com objetivo principal e o divide em atividades que podem ser mensuradas durante a execução do projeto. É uma abordagem para integrar objetivos a e perspectivas de qualidade de interesse, baseado nas necessidades do projeto~\cite{van1999goal}. Foi preparado o questionário GQM mostrado no Apêndice~\ref{apend:gqm} para avaliar a possibilidade de monitorar dados motores de forma não invasiva e integrada a rotina diária das pessoas.
@@ -762,7 +747,7 @@ O questionário consistiu de um conjunto de 10 questões de resposta fechada (qu
 
 %Essa etapa da pesquisa foi realizada em colaboração com o trabalho de Santos Jr. ~\cite{antonio2013}, que desenvolveu também o mecanismo de captura dos dados Seção~\ref{sec:cliente_game}.  Tendo como objetivo avaliar se possíveis usuários do sistema iriam aprovar o monitoramento motor usando jogos eletrônicos. Essa avaliação vai ao encontro do usuário final e principal beneficiado pela abordagem apresentada nessa proposta de Tese.
 
-Nessa etapa da pesquisa foram entrevistadas 24 pessoas do Laboratório \textit{Embedded} da Universidade Federal de Campina Grande, do Instituto Federal de Alagoas, e em pacientes da Fundação Pestalozzi e da clínica de Fisioterapia do CESMAC (ambas em Maceió). Os usuários foram selecionados para jogar o \emph{Catch the Spheres} (Seção ~\ref{jogo_catch}), testaram e responderam o questionário para verificar a aceitabilidade da solução junto aos usuários. 
+Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: do Laboratório \textit{Embedded} da Universidade Federal de Campina Grande, do Instituto Federal de Alagoas, da Fundação Pestalozzi e da clínica de Fisioterapia do CESMAC. Os usuários foram selecionados para jogar o \emph{Catch the Spheres} (Seção ~\ref{jogo_catch}), testaram e responderam o questionário para verificar a aceitabilidade da abordagem. 
 
 %Buscou-se também validar a viabilidade da Arquitetura de Software do \textit{\textit{HGMS-E}}, verificando a possibilidade de capturar dados motores. 
 O procedimento para executar as sessões de teste foi:
@@ -816,7 +801,7 @@ Então, tem-se um percentual de 83\% de usuários que poderiam integrar o monito
      \caption{Resultado da Pergunta 3}
      \label{fig:question3}
 \end{figure}
-
+cathocatho
 
 \begin{figure}[!htb]
      \centering
@@ -911,10 +896,9 @@ Então, tem-se um percentual de 83\% de usuários que poderiam integrar o monito
         %\caption{Gráficos das Respostas do questionário}\label{result}
 %\end{figure}
 
-\subsection{Conclusão} 
-Nessa etapa, buscou-se demonstrar que podemos desenvolver um jogo com mecanismos de captura de dados motores embutidos e que permita monitorar e quantificar sinais do Parkinson de uma maneira não-invasiva. 
+%\subsection{Conclusão} 
+%Nessa etapa, buscou-se demonstrar que podemos desenvolver um jogo com mecanismos de captura de dados motores embutidos e que permita monitorar e quantificar sinais do Parkinson de uma maneira não-invasiva. 
 
-Apesar do questionário ter avaliado a opinião dos jogadores quanto ao jogo apresentado, pode-se generalizar que as opiniões são válidas para outros jogos usando a abordagem~\ac{jogue-me}. Deve-se levar em consideração, também, que as métricas obtidas nessa pesquisa foram extraídas de um jogo na fase de protótipo. Caso ele fosse aperfeiçoado é possível que sua aceitabilidade seria ainda maior. Por esse motivo, o resultado obtido com a pesquisa~\ac{gqm} foi positivo, e considera-se que é viável desenvolver um jogo com o objetivo de monitorar dados motores, de forma não invasiva, e integrada à rotina diária dos usuários.
 
 
 

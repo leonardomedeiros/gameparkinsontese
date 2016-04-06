@@ -1,13 +1,76 @@
 \chapter{Conclusões e Trabalhos Futuros}\label{chapter:conclusoes_futuros}
-Nos experimentos realizados, conseguimos demonstrar importância de monitorar os sinais motores, integrados a rotina diária do paciente. De acordo com as entrevistas com profissionais de saúde, identificamos: a importância de acompanhar a amplitude do movimento e a velocidade angular para acompanhar a saúde motora.
+Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado. Na Seção~\ref{sec:contribuicoes} são apresentadas as contribuições deste trabalho juntamente com os resultados alcançados e uma breve discussão sobre os mesmos. Na Seção~\ref{sec:limitacoes} são apresentadas as limitações encontradas durante o processo de avaliação do trabalho. Já na Seção~\ref{sec:trab_futuros} são propostos possíveis trabalhos futuros. Por fim, as considerações finais são descritas na Seção~\ref{sec:cons_finais}.
 
-Atualmente, a análise da biomecânica do movimento humano faz parte da avaliação clínica quanto diagnóstico e tratamento do~\ac{dp}. Durante as consultas, os médicos solicitam aos pacientes levantar e baixar os braços para: identificar a amplitude do movimento, velocidade angular e habilidade motora. Desta maneira, os médicos conseguem avaliar clinicamente o progresso do sintoma da bradicinesia. No entanto, em entrevistas, os médicos informaram sobre a necessidade de quantificar esses movimentos para um melhor acompanhamento do tratamento. Por este motivo, foi aplicado os conceitos da cinemática do movimento angular para: quantificar a bradicinesia utilizando o movimento de adução e abdução dos braços.
+\subsubsection{Publicações}
+Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
+  \begin{itemize}
+   \item \textit{Abstract}: \textit{Monitoring Parkinson related Gait Disorders with Eigengaits}, no, \textit{XX World Congress on Parkinson's Disease and Related Disorders} (2013)~\cite{lmmeigengaits2013};
+   \item \textit{Full Paper}: \textit{A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgame2016};
+   \item \textit{Full Paper}: \textit{A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgait2016}.
+  \end{itemize}
 
-Para quantificar o movimento da adução e abdução do braço, utilizou-se como referência as articulações da bacia, ombro e punho. Através de um estudo caso-controle com 30 sujeitos (15 com~\ac{dp} e 15 indivíduos saudáveis), pudemos avaliar os movimentos desses indivíduos e identificamos consideráveis diferenças na execução dos movimentos. Os dados obtidos foram aplicados em um estudo de aprendizagem de máquina, no qual obtivemos uma taxa de acurácia de 86,67\% e falsos positivos de 6,67\% . O propósito desta classificação foi avaliar a acurácia da identificação de um sinal de~\ac{dp} a partir de um sensor de captura de movimento usado em jogos eletrônicos. Desta maneira, pudemos desenvolver um jogo eletrônico  capaz de: adquirir sinais biomecânicos, processá-los, e identificar características de sinais do~\ac{dp} a partir do movimento angular. A presente abordagem pode ser aplicada a outras doenças motoras, mas no entanto, testamos somente com indivíduos com~\ac{dp} e grupo controle.
 
-A avaliação dos usuários por~\ac{gqm} forneceu suporte ao: monitoramento de sinais motores de forma não invasiva e de fácil integrar à rotina diária dos usuários. Desta maneira, concluímos que a abordagem de um~\ac{sms} dos sinais motores como interface de entrada de dados (\ac{jogue-me}), conseguiu: motivar o usuário  a fornecer sinais motores e permitir o acompanhamento do tratamento a partir dos dados biomecânicos fornecidos. Logo, conseguimos atingir o principal objetivo da tese, ao permitir que os pacientes do~\ac{dp} pudessem ser monitorados de maneira não-invasiva e no conforto de seus lares.
+\subsection{Contribuições}\label{sec:contribuicoes}
 
-Como trabalhos futuros pretendemos: identificar o progresso do~\ac{dp} de acordo com as fases da doença~\cite{protpar010}, monitorar um indivíduo em diferentes momentos do dia e, realizar estudos de multiclassificação perante outras doenças motoras.
+Durante as coletas, não houve a necessidade de nenhuma interrupção da coleta devido a problemas de saúde ou qualquer outra eventualidade.
+
+\subsection{Limitações Do Trabalho}\label{sec:limitacoes}
+
+O método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com \ac{dp} ante os indivíduos sem o diagnóstico estabelecido, foi uma técnica estatística de aprendizagem denominada de~\ac{svm}. Nesse estudo não se pretende estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstra que existem diferenças entre essas duas classes, e estas podem ser capturadas por um sensor de movimento usado em jogos eletrônicos, e que essas diferenças podem ser classificadas utilizando uma abordagem de aprendizagem de máquina. 
+
+Apesar do questionário ter avaliado a opinião dos jogadores quanto ao jogo apresentado, pode-se generalizar que as opiniões são válidas para outros jogos usando a abordagem~\ac{jogue-me}. Deve-se levar em consideração, também, que as métricas obtidas nessa pesquisa foram extraídas de um jogo na fase de protótipo. Caso ele fosse aperfeiçoado é possível que sua aceitabilidade seria ainda maior. Por esse motivo, o resultado obtido com a pesquisa~\ac{gqm} foi positivo, e considera-se que é viável desenvolver um jogo com o objetivo de monitorar dados motores, de forma não invasiva, e integrada à rotina diária dos usuários.
+
+
+\subsection{Trabalhos Futuros}\label{sec:trab_futuros}
+
+Como trabalhos futuros pretendemos identificar o progresso do~\ac{dp} de acordo com as fases da doença~\cite{protpar010}, monitorar um indivíduo em diferentes momentos do dia e realizar estudos de multiclassificação perante outras doenças motoras.
+
+
+Alguns trabalhos podem ser desenvolvidos a partir do que fora apresentado nesta tese.
+
+É preciso realizar um estudo comparativo entre os modelos de referência gerados uti-
+lizando os diferentes procedimentos para classificação de estados marcados e proibidos,
+apresentados na Seção 3.6. Sabe-se que o principal parâmetro para comparação é a permis-
+sividade em relação ao que é considerado seguro/perigoso. Contudo, faz-se necessário o
+acompanhamento de ao menos um profissional de saúde durante o processo de comparação.
+Seja este processo simulado ou não.
+
+É preciso implementar as soluções desenhadas para os problemas da ordem de emissão
+de recomendações e da emissão de recomendações contraditórias. Além disso, é necessário
+disponibilizar na ferramenta SupervisorD a opção de escolha entre os diferentes tipos de
+procedimentos para classificação de estados do modelo final. Por enquanto, esta escolha vem
+sendo feita ao nível de código fonte. Outro componente a ser implementado é o de tradução
+do modelo de referência para um modelo no formato do UPPAAL.
+
+O trabalho apresentado não fez uso de sensores com capacidade para comunicação sem fio.
+Um possível trabalho futuro poderia ser a implementação da comunicação entre a ferramenta
+móvel e os sensores que venham sendo disponibilizados no mercado. Somado a isto, os
+experimentos podem ser refeitos sempre que um sensor for acoplado à solução. Assim que
+todos os sensores estiverem disponíveis e conectados, haverá um produto mais preparado
+para testes em outros ambientes, tais como espaços abertos.
+
+Uma vez que o método faz uso de autômatos para construir o modelo de referência,
+este trabalho poderia ser estendido usando conceitos da teoria do controle supervisório [22]:
+suprema sublinguagem controlada, onde o sujeito receberia recomendações mais restritivas
+do que o seu perfil exigiria, contudo, o exercício ainda surtiria algum efeito; e ínfima
+superlinguagem controlável, onde as recomendações seriam mais permissivas ao sujeito,
+contudo, sem expor o indivíduo a situações perigosas. Estas situações podem ocorrer devido
+à falha de algum sensor ou mesmo devido à impossibilidade de seguir alguma recomendação
+por causa de imprevistos. Tais imprevistos podem ocorrer principalmente em ambientes não
+controlados, como é o caso de ambientes abertos.
+Outro possível trabalho futuro é o estudo de técnicas automáticas para contornar o problema da obsolescência do modelo de referência. O modelo poderia se adaptar à evolução do sujeito na medida em que as variáveis fisiológicas forem apresentado valores diferentes apesar das variáveis comportamentais se manterem as mesmas. Isto pode representar tanto adaptação aos exercícios quanto despreparo para os mesmos.
+\subsection{Considerações Finais}\label{sec:cons_finais}
+
+
+
+Nos experimentos realizados, conseguimos demonstrar a importância de monitorar os sinais motores, de forma integrada à rotina diária do paciente. De acordo com as entrevistas com profissionais de saúde, identificamos a importância de acompanhar a amplitude do movimento e a velocidade angular para monitorar os sinais de doenças motoras como o~\ac{dp}.
+
+Atualmente, a análise da biomecânica do movimento humano faz parte da avaliação clínica para diagnóstico e tratamento do~\ac{dp}. Durante as consultas, os médicos solicitam aos pacientes levantar e baixar os braços para identificar a amplitude do movimento, a velocidade angular e a habilidade motora. Dessa maneira, conseguem avaliar clinicamente o progresso do sintoma da bradicinesia. Em entrevistas, os médicos informaram sobre a necessidade de quantificar esses movimentos para um melhor acompanhamento do tratamento. Por este motivo, foram aplicados os conceitos da cinemática do movimento angular para quantificar a bradicinesia, utilizando o movimento de adução e abdução dos braços.
+
+Para quantificar o movimento da adução e abdução do braço, utilizou-se como referência as articulações do quadril, do ombro e do punho. Através de um estudo caso-controle com 30 sujeitos (15 com~\ac{dp} e 15 indivíduos saudáveis), pudemos avaliar os movimentos desses indivíduos e identificamos consideráveis diferenças na execução dos movimentos. Os dados obtidos foram aplicados em um estudo de aprendizagem de máquina, no qual obtivemos uma taxa de acurácia de 86,67\% e falsos positivos de 6,67\% . O propósito desta classificação foi avaliar a acurácia da identificação de um sinal do~\ac{dp}, a partir de um sensor de aquisição de movimento usado em jogos eletrônicos. Dessa maneira, pudemos desenvolver um jogo eletrônico  capaz de adquirir sinais biomecânicos, processá-los e identificar características de sinais do~\ac{dp} a partir do movimento angular. A presente abordagem pode ser aplicada a outras doenças motoras; no entanto, testamos somente com indivíduos com~\ac{dp} e grupo controle.
+
+A avaliação dos usuários por~\ac{gqm} forneceu suporte ao monitoramento de sinais motores de forma não invasiva, o que facilita sua integração à rotina diária dos usuários. Assim, a abordagem de um~\ac{sms} dos sinais motores, como interface de entrada de dados (\ac{jogue-me}), conseguiu motivar o usuário  a fornecer sinais motores e permitir o acompanhamento do tratamento a partir dos dados biomecânicos fornecidos. Logo, conseguimos atingir o principal objetivo da tese, ao permitir que os pacientes do~\ac{dp} pudessem ser monitorados de maneira não-invasiva e no conforto de seus lares.
+
 
 
 %In this work we presented a game-based approach to monitor the motor symptoms of Parkinson's Disease. The game was applied to motivate the user to be monitored, allowing the collection of biomechanical data measurements. We monitored PD symptoms through the abduction and adduction arm movements, calculating the amplitude and its respective angular velocity to assess bradykinesia motor symptom. This method is commonly applied by neurologists at consultation to distinguish normal and abnormal movements. In this way, we enable the monitoring of PD patients at home, increasing the frequency of symptoms measurement.

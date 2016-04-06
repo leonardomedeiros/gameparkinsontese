@@ -97,7 +97,7 @@
   medical gaming environment for diagnosis and management of Parkinson's
   disease}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Trendz in Information Sciences
-  Computing}, 2010.
+  Computing}. \btxpublisherfont {IEEE}, 2010.
 
 \bibitem {bachlin_parkinsons_2009}
 \btxnamefont {\btxlastnamefont {Bachlin}, M.}, \btxnamefont {M.
@@ -151,8 +151,7 @@
   {Dieter\btxfnamespacelong H. \btxlastnamefont {Rombach}}\btxauthorcolon\
   \btxtitlefont {\btxifchangecase {The goal question metric approach}{The goal
   question metric approach}}.
-\newblock \Btxinlong {}\ \btxnamefont {\btxlastnamefont {Marciniak}, J.}\
-  (\btxeditorlong {}): \btxtitlefont {Encyclopedia of Software Engineering}.
+\newblock \Btxinlong {}\ \btxtitlefont {Encyclopedia of Software Engineering}.
   \btxpublisherfont {Wiley}, 1994.
 
 \bibitem {peakdetect}
@@ -183,12 +182,12 @@
 \btxnamefont {\btxlastnamefont {Chamasemani}, F.\btxfnamespacelong F.}
   \btxandlong {}\ \btxnamefont {Y.\btxfnamespacelong P. \btxlastnamefont
   {Singh}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Multi-class support
-  vector machine (svm) classifiers -- an application in hypothyroid detection
-  and classification}{Multi-class Support Vector Machine (SVM) Classifiers --
-  An Application in Hypothyroid Detection and Classification}}.
-\newblock \Btxinlong {}\ \btxtitlefont {Bio-Inspired Computing: Theories and
-  Applications (BIC-TA), 2011 Sixth International Conference on}, \btxpageslong
-  {}\ 351--356, \btxprintmonthyear{.}{Sept}{2011}{long}.
+  vector machine (svm) classifiers - an application in hypothyroid detection
+  and classification}{Multi-class Support Vector Machine (SVM) Classifiers - An
+  Application in Hypothyroid Detection and Classification}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Sixth International Conference on
+  Bio-Inspired Computing: Theories and Applications}. \btxpublisherfont {IEEE},
+  2011.
 
 \bibitem {sacsvmhms2014}
 \btxnamefont {\btxlastnamefont {Chen}, Huan}, \btxnamefont
@@ -239,8 +238,8 @@
   data}{Quantitative measurement of motor symptoms in Parkinson's disease: A
   study with full-body motion capture data}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Engineering in Medicine and Biology
-  Society,EMBC, 2011 Annual International Conference of the IEEE},
-  \btxpageslong {}\ 6789--6792, \btxprintmonthyear{.}{9}{2011}{long}.
+  Society,EMBC, 2011 Annual International Conference of the IEEE}.
+  \btxpublisherfont {EMBC}, 2011.
 
 \bibitem {do2007parkinson}
 \btxnamefont {\btxlastnamefont {Do}, Stewart} \btxandlong {}\ \btxnamefont
@@ -329,7 +328,7 @@
   rehabilitation}{Bespoke Video Games to Provide Early Response Markers to
   Identify the Optimal Strategies for Maximizing Rehabilitation}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 29th Annual ACM
-  Symposium on Applied Computing}, SAC '14, 2014.
+  Symposium on Applied Computing}. \btxpublisherfont {ACM}, 2014.
 
 \bibitem {stacey2011}
 \btxnamefont {\btxlastnamefont {Guy}, Stacey}, \btxnamefont {Alexandria
@@ -497,6 +496,41 @@
 \btxnamefont {\btxlastnamefont {McGinnis}, Peter}\btxauthorcolon\ \btxtitlefont
   {Biomechanics of Sport and Exercise}.
 \newblock \btxpublisherfont {Human Kinetics}, 2013.
+
+\bibitem {lmmcbmsgait2016}
+\btxnamefont {\btxlastnamefont {Medeiros}, Leonardo}, \btxnamefont {Hyggo
+  \btxlastnamefont {Almeida}}, \btxnamefont {Leandro \btxlastnamefont {Silva}},
+  \btxnamefont {Mirko \btxlastnamefont {Perkusich}}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {Robert \btxlastnamefont {Fischer}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {A gait analysis approach to track
+  parkinson’s disease evolution using principal component analysis}{A Gait
+  Analysis Approach to Track Parkinson’s Disease Evolution Using Principal
+  Component Analysis}}.
+\newblock \Btxinlong {}\ \btxtitlefont {The 29th International Symposium on
+  Computer-Based Medical Systems (CBMS 2016)}. \btxpublisherfont {IEEE}, 2016.
+
+\bibitem {lmmcbmsgame2016}
+\btxnamefont {\btxlastnamefont {Medeiros}, Leonardo}, \btxnamefont {Hyggo
+  \btxlastnamefont {Almeida}}, \btxnamefont {Leandro \btxlastnamefont {Silva}},
+  \btxnamefont {Mirko \btxlastnamefont {Perkusich}}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {Robert \btxlastnamefont {Fischer}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {A game-based approach to monitor
+  parkinson’s disease: The bradykinesia}{A Game-Based Approach to Monitor
+  Parkinson’s Disease: The bradykinesia}}.
+\newblock \Btxinlong {}\ \btxtitlefont {The 29th International Symposium on
+  Computer-Based Medical Systems (CBMS 2016)}. \btxpublisherfont {IEEE}, 2016.
+
+\bibitem {lmmeigengaits2013}
+\btxnamefont {\btxlastnamefont {Medeiros}, Leonardo}, \btxnamefont {Robert
+  \btxlastnamefont {Fischer}}, \btxnamefont {Hyggo \btxlastnamefont {Almeida}},
+  \btxnamefont {Leandro \btxlastnamefont {Silva}}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {Angelo \btxlastnamefont {Perkusich}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Monitoring parkinson related gait disorders
+  with eigengaits}{Monitoring Parkinson related Gait Disorders with
+  Eigengaits}}.
+\newblock \Btxinlong {}\ \btxtitlefont {XX World Congress on Parkinson's
+  Disease and Related Disorders}. \btxpublisherfont {Keynes International},
+  2013.
 
 \bibitem {menezes2003}
 \btxnamefont {\btxlastnamefont {Meneses}, Murilo} \btxandlong {}\ \btxnamefont

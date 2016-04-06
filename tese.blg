@@ -1,6 +1,10 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tese.aux
+White space in argument---line 189 of file tese.aux
+ : \citation{
+ :            national2006parkinson}
+I'm skipping whatever remains of this command
 The style file: babplain.bst
 Database file #1: biblmmcor.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
@@ -24,45 +28,45 @@ Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the e
 while executing---line 1380 of file babplain.bst
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1380 of file babplain.bst
-You've used 84 entries,
+You've used 87 entries,
             2788 wiz_defined-function locations,
-            1010 strings with 20781 characters,
-and the built_in function-call counts, 30651 in all, are:
-= -- 2452
-> -- 1410
-< -- 2
-+ -- 566
-- -- 473
-* -- 3308
-:= -- 4492
-add.period$ -- 189
-call.type$ -- 84
-change.case$ -- 476
+            1017 strings with 21351 characters,
+and the built_in function-call counts, 31795 in all, are:
+= -- 2539
+> -- 1490
+< -- 0
++ -- 600
+- -- 502
+* -- 3475
+:= -- 4670
+add.period$ -- 202
+call.type$ -- 87
+change.case$ -- 500
 chr.to.int$ -- 0
-cite$ -- 94
-duplicate$ -- 1706
-empty$ -- 2914
-format.name$ -- 920
-if$ -- 6282
+cite$ -- 97
+duplicate$ -- 1768
+empty$ -- 3020
+format.name$ -- 978
+if$ -- 6499
 int.to.chr$ -- 0
-int.to.str$ -- 84
-missing$ -- 115
-newline$ -- 354
-num.names$ -- 170
-pop$ -- 845
+int.to.str$ -- 87
+missing$ -- 118
+newline$ -- 366
+num.names$ -- 174
+pop$ -- 880
 preamble$ -- 1
-purify$ -- 404
+purify$ -- 425
 quote$ -- 0
-skip$ -- 745
+skip$ -- 735
 stack$ -- 0
-substring$ -- 497
-swap$ -- 699
-text.length$ -- 2
+substring$ -- 446
+swap$ -- 723
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 300
+type$ -- 312
 warning$ -- 10
 while$ -- 174
-width$ -- 86
-write$ -- 797
-(There were 3 error messages)
+width$ -- 89
+write$ -- 828
+(There were 4 error messages)
