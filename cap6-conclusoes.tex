@@ -1,6 +1,15 @@
 \chapter{Conclusões e Trabalhos Futuros}\label{chapter:conclusoes_futuros}
 Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado. Na Seção~\ref{sec:contribuicoes} são apresentadas as contribuições deste trabalho juntamente com os resultados alcançados e uma breve discussão sobre os mesmos. Na Seção~\ref{sec:limitacoes} são apresentadas as limitações encontradas durante o processo de avaliação do trabalho. Já na Seção~\ref{sec:trab_futuros} são propostos possíveis trabalhos futuros. Por fim, as considerações finais são descritas na Seção~\ref{sec:cons_finais}.
 
+
+
+Nos experimentos realizados, conseguimos demonstrar a importância do acompanhamento dos sinais motores, integrados à rotina diária do paciente do ponto de vista do profissional de saúde Hipótese \textit{H1}. Identificou-se nessa pesquisa a importância de acompanhar a amplitude do movimento e a sua respectiva velocidade angular para acompanhamento da saúde motora.
+
+Os estudos de aprendizagem de máquina com os dados motores adquiridos por meio de sensores de movimento usados em jogos eletrônicos, identificou a viabilidade do desenvolvimento de jogos para o monitoramento, ois, obtivemos uma taxa de identificação de verdadeiros positivos de 86,67\% e falsos positivos de 6,67\% .
+
+A Hipótese \textit{H3}, foi validada por meio de uma análise~\ac{gqm} aplicada a possíveis usuários finais da abordagem. Essa pesquisa forneceu indícios de que a abordagem \textit{GAHME} apresentada nessa Proposta permite o monitoramento de dados de forma não invasiva, e factível de integrar a solução a rotina diária dos usuários. Entretanto, o tempo utilizado para jogar foi insuficiente para aplicar as técnicas de processamento dos dados apresentados nesta abordagem, pois os jogadores tiveram bastante liberdade de movimento e poucos efetuaram os movimentos de abdução e adução do braço. Caso, os mesmos indivíduos participassem de um tempo maior no jogo, consequentemente eles poderiam efetuar o movimento e seria possível adquirir esses dados. Para chegarmos a resultados semelhantes aos apresentados na Seção~\ref{sec:resultado_svm} em um espaço de tempo menor, é necessário desenvolver um novo jogo com as ações específicas de realização do movimento de adução e abdução do braço, além de realizar uma nova coleta 
+de dados.
+
 \subsubsection{Publicações}
 Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
   \begin{itemize}
@@ -13,6 +22,11 @@ Foram publicados três artigos, em conferências internacionais, relacionados à
 \subsection{Contribuições}\label{sec:contribuicoes}
 
 Durante as coletas, não houve a necessidade de nenhuma interrupção da coleta devido a problemas de saúde ou qualquer outra eventualidade.
+
+Este capítulo apresentou a estrutura geral do arcabouço, detalhando suas partes e operações. Foram apresentadas as operações disponibilizadas pelo \emph{webservice} e as classes, e seus respectivos métodos, que fazem parte do arcabouço. Por fim, foram descritas a forma de utilização do arcabouço na construção de um jogo e a forma de extensão do arcabouço, para adicionar novas funcionalidades.
+
+
+Este capítulo mostrou como exemplos de jogos simples podem explorar superficialmente o potencial do arcabouço. Jogos mais complexos podem contemplar ações para prover um suporte mais completo ao monitoramento da saúde. Um projeto de jogo mais elaborado, aliado a uma melhor apresentação gráfica, entre outros itens de projetos de jogos que mantém a atenção do jogador, podem criar uma experiência de monitoramento contínua e prolongada.
 
 \subsection{Limitações Do Trabalho}\label{sec:limitacoes}
 
@@ -28,6 +42,8 @@ Alguns trabalhos podem ser desenvolvidos a partir do que fora apresentado nesta 
 Como trabalhos futuros pretendemos identificar o progresso do~\ac{dp} de acordo com as fases da doença~\cite{protpar010}, monitorar um indivíduo em diferentes momentos do dia e realizar estudos de multiclassificação perante outras doenças motoras.
 
 É necessário comparar o sinal da bradicinesia em diferentes momentos do dia, para verificar o efeito do tratamento medicamentoso~\cite{protpar010} e, o poder 
+
+Nos estudos realizados com os dados do MS-Kinnect, conseguimos identificar que ele consegue capturar dados com amplitude como apresentamos o movimento de abdução e adução do braço. Todavia, a captura de um movimento mais sutil como um tremor é um desafio. Por esse motivo, foi desenvolvido e testado um jogo para celular que pudesse capturar o sintoma de tremor. Contudo, como o tremor da doença de parkinson é de repouso não obtivemos sucesso com a captura do sintoma. Ao analisarmos os vídeos dos pacientes de parkinson, notamos que ao levantar um dos membros alguns indivíduos iniciava o sintoma de tremor no membro parado. Pretendemos então, na Tese analisar esse membro parado e comparar os resultados com os indivíduos sem o diagnóstico da~\ac{dp}. Contudo, devido ao ruído existente no sinal do MS-Kinnect a captura do tremor pode ser inviável.
 
 
 %É preciso realizar um estudo comparativo entre os modelos de referência gerados utilizando os diferentes procedimentos para classificação de estados marcados e proibidos, apresentados na Seção 3.6. Sabe-se que o principal parâmetro para comparação é a permissividade em relação ao que é considerado seguro/perigoso. Contudo, faz-se necessário o acompanhamento de ao menos um profissional de saúde durante o processo de comparação. Seja este processo simulado ou não.

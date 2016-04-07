@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.17)  6 APR 2016 15:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  7 APR 2016 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tese.tex
 (./tese.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (./copin.cls
 Document Class: copin 1996/10/07 v1.0 Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -25,13 +25,13 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
+Package: babel 2013/12/03 3.9h The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
@@ -48,10 +48,10 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -159,7 +159,7 @@ LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
  (./utf8x.def
@@ -219,7 +219,7 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subtable=\count107
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip46
 \LTright=\skip47
 \LTpre=\skip48
@@ -258,15 +258,15 @@ Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 \lst@maxwidth=\dimen133
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count120
 \lst@skipnumbers=\count121
 \lst@framebox=\box33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2014/09/06 1.5e listings configuration
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
  (./tese.aux
 
 LaTeX Warning: Label `img:catch' multiply defined.
@@ -424,7 +424,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 
 ]
 Package acronym Info: Label `acro:dp' newly defined as it shall be overridden
-although it is yet undefined on input line 81.
+although it is yet undefined on input line 80.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
@@ -554,7 +554,7 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[7]) (./cap3-fundamentacao.tex
+[7]) (./cap2-fundamentacao.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -610,7 +610,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-) (./cap4-arquitetura.tex
+) (./cap3-abordagemjogueme.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -728,7 +728,7 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 [24 <./img/amplitude-braco.png (PNG copy)>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/09/06 1.5e listings language file
+File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
@@ -781,7 +781,7 @@ ví-duo di-ag-nos-ti-cado
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[28]) (./cap_implementacao.tex
+[28]) (./cap4_arquitetura.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -845,7 +845,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[36]) (./cap6-avaliacao.tex
+[36]) (./cap5-avaliacao.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1109,11 +1109,15 @@ Cap\'{\i }tulo 6.
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[66]) (./tese.bbl
+[66]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[67]
+[67]) (./tese.bbl
+Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[68]
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1125,7 +1129,7 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-[68
+[69
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 158--162
@@ -1134,10 +1138,6 @@ ptm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Disponível em:
  []
 
 
-Overfull \vbox (5.39993pt too high) has occurred while \output is active []
-
-
-[69]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1150,6 +1150,10 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [72]
+Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 616--622
 []\T1/ptm/m/n/12 Research, Provalis: \T1/ptm/m/it/12 Qda miner lite v1.2.2\T1/p
 tm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Disponível em:
@@ -1165,23 +1169,19 @@ oftware/.  Úl-timo
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[73]
+[74]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[74]) (./apend_comite.tex
+[75]) (./apend_comite.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[75]
+[76]
 Ap\^endice A.
-[76
+[77
 
 ]
-Overfull \vbox (5.39993pt too high) has occurred while \output is active []
-
-
-[77]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1198,15 +1198,15 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [81]
+Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[82]
 File: ./img/catch-the-spheres.png Graphic file (type png)
  <use ./img/catch-the-spheres.png>
 Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 140.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
 
-Overfull \vbox (5.39993pt too high) has occurred while \output is active []
-
-
-[82]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
@@ -1219,6 +1219,10 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
 [85]
+Overfull \vbox (5.39993pt too high) has occurred while \output is active []
+
+
+[86]
 Overfull \hbox (3.61714pt too wide) in paragraph at lines 247--254
  [][] 
  []
@@ -1227,19 +1231,19 @@ Overfull \hbox (3.61714pt too wide) in paragraph at lines 247--254
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[86]
+[87]
 Ap\^endice B.
-[87
+[88
 
 ]) (./apendice-diagnostico.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[88]
+[89]
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[89]
+[90]
 Ap\^endice C.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -1252,13 +1256,13 @@ Underfull \hbox (badness 1466) in paragraph at lines 2--3
 [] \T1/ptm/m/n/12 de Lon-dres [] 36[]. O pa-ci-ente será
  []
 
-[90
+[91
 
 ]) (./questionario-gqm.tex
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[91]
+[92]
 Ap\^endice D.
 
 Overfull \hbox (12.0pt too wide) in alignment at lines 5--8
@@ -1285,24 +1289,24 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 16--31
  [] 
  []
 
-[92
+[93
 
 ])
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
 
-[93] (./tese.aux)
+[94] (./tese.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8862 strings out of 493105
- 124557 string characters out of 6137072
- 308976 words of memory out of 5000000
- 12094 multiletter control sequences out of 15000+600000
+ 8843 strings out of 493304
+ 124319 string characters out of 6139871
+ 307799 words of memory out of 5000000
+ 12069 multiletter control sequences out of 15000+600000
  63749 words of font info for 75 fonts, out of 8000000 for 9000
- 1142 hyphenation exceptions out of 8191
+ 958 hyphenation exceptions out of 8191
  38i,17n,44p,1206b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
@@ -1315,10 +1319,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (104 pages, 2463329 bytes).
+Output written on tese.pdf (105 pages, 2466466 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
+ 422 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

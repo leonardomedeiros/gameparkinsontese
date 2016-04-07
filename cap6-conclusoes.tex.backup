@@ -1,6 +1,15 @@
 \chapter{Conclusões e Trabalhos Futuros}\label{chapter:conclusoes_futuros}
 Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado. Na Seção~\ref{sec:contribuicoes} são apresentadas as contribuições deste trabalho juntamente com os resultados alcançados e uma breve discussão sobre os mesmos. Na Seção~\ref{sec:limitacoes} são apresentadas as limitações encontradas durante o processo de avaliação do trabalho. Já na Seção~\ref{sec:trab_futuros} são propostos possíveis trabalhos futuros. Por fim, as considerações finais são descritas na Seção~\ref{sec:cons_finais}.
 
+
+
+Nos experimentos realizados, conseguimos demonstrar a importância do acompanhamento dos sinais motores, integrados à rotina diária do paciente do ponto de vista do profissional de saúde Hipótese \textit{H1}. Identificou-se nessa pesquisa a importância de acompanhar a amplitude do movimento e a sua respectiva velocidade angular para acompanhamento da saúde motora.
+
+Os estudos de aprendizagem de máquina com os dados motores adquiridos por meio de sensores de movimento usados em jogos eletrônicos, identificou a viabilidade do desenvolvimento de jogos para o monitoramento, ois, obtivemos uma taxa de identificação de verdadeiros positivos de 86,67\% e falsos positivos de 6,67\% .
+
+A Hipótese \textit{H3}, foi validada por meio de uma análise~\ac{gqm} aplicada a possíveis usuários finais da abordagem. Essa pesquisa forneceu indícios de que a abordagem \textit{GAHME} apresentada nessa Proposta permite o monitoramento de dados de forma não invasiva, e factível de integrar a solução a rotina diária dos usuários. Entretanto, o tempo utilizado para jogar foi insuficiente para aplicar as técnicas de processamento dos dados apresentados nesta abordagem, pois os jogadores tiveram bastante liberdade de movimento e poucos efetuaram os movimentos de abdução e adução do braço. Caso, os mesmos indivíduos participassem de um tempo maior no jogo, consequentemente eles poderiam efetuar o movimento e seria possível adquirir esses dados. Para chegarmos a resultados semelhantes aos apresentados na Seção~\ref{sec:resultado_svm} em um espaço de tempo menor, é necessário desenvolver um novo jogo com as ações específicas de realização do movimento de adução e abdução do braço, além de realizar uma nova coleta 
+de dados.
+
 \subsubsection{Publicações}
 Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
   \begin{itemize}
@@ -14,6 +23,11 @@ Foram publicados três artigos, em conferências internacionais, relacionados à
 
 Durante as coletas, não houve a necessidade de nenhuma interrupção da coleta devido a problemas de saúde ou qualquer outra eventualidade.
 
+Este capítulo apresentou a estrutura geral do arcabouço, detalhando suas partes e operações. Foram apresentadas as operações disponibilizadas pelo \emph{webservice} e as classes, e seus respectivos métodos, que fazem parte do arcabouço. Por fim, foram descritas a forma de utilização do arcabouço na construção de um jogo e a forma de extensão do arcabouço, para adicionar novas funcionalidades.
+
+
+Este capítulo mostrou como exemplos de jogos simples podem explorar superficialmente o potencial do arcabouço. Jogos mais complexos podem contemplar ações para prover um suporte mais completo ao monitoramento da saúde. Um projeto de jogo mais elaborado, aliado a uma melhor apresentação gráfica, entre outros itens de projetos de jogos que mantém a atenção do jogador, podem criar uma experiência de monitoramento contínua e prolongada.
+
 \subsection{Limitações Do Trabalho}\label{sec:limitacoes}
 
 O método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com \ac{dp} ante os indivíduos sem o diagnóstico estabelecido, foi uma técnica estatística de aprendizagem denominada de~\ac{svm}. Nesse estudo não se pretende estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstra que existem diferenças entre essas duas classes, e estas podem ser capturadas por um sensor de movimento usado em jogos eletrônicos, e que essas diferenças podem ser classificadas utilizando uma abordagem de aprendizagem de máquina. 
@@ -23,42 +37,22 @@ Apesar do questionário ter avaliado a opinião dos jogadores quanto ao jogo apr
 
 \subsection{Trabalhos Futuros}\label{sec:trab_futuros}
 
-Como trabalhos futuros pretendemos identificar o progresso do~\ac{dp} de acordo com as fases da doença~\cite{protpar010}, monitorar um indivíduo em diferentes momentos do dia e realizar estudos de multiclassificação perante outras doenças motoras.
-
-
 Alguns trabalhos podem ser desenvolvidos a partir do que fora apresentado nesta tese.
 
-É preciso realizar um estudo comparativo entre os modelos de referência gerados uti-
-lizando os diferentes procedimentos para classificação de estados marcados e proibidos,
-apresentados na Seção 3.6. Sabe-se que o principal parâmetro para comparação é a permis-
-sividade em relação ao que é considerado seguro/perigoso. Contudo, faz-se necessário o
-acompanhamento de ao menos um profissional de saúde durante o processo de comparação.
-Seja este processo simulado ou não.
+Como trabalhos futuros pretendemos identificar o progresso do~\ac{dp} de acordo com as fases da doença~\cite{protpar010}, monitorar um indivíduo em diferentes momentos do dia e realizar estudos de multiclassificação perante outras doenças motoras.
 
-É preciso implementar as soluções desenhadas para os problemas da ordem de emissão
-de recomendações e da emissão de recomendações contraditórias. Além disso, é necessário
-disponibilizar na ferramenta SupervisorD a opção de escolha entre os diferentes tipos de
-procedimentos para classificação de estados do modelo final. Por enquanto, esta escolha vem
-sendo feita ao nível de código fonte. Outro componente a ser implementado é o de tradução
-do modelo de referência para um modelo no formato do UPPAAL.
+É necessário comparar o sinal da bradicinesia em diferentes momentos do dia, para verificar o efeito do tratamento medicamentoso~\cite{protpar010} e, o poder 
 
-O trabalho apresentado não fez uso de sensores com capacidade para comunicação sem fio.
-Um possível trabalho futuro poderia ser a implementação da comunicação entre a ferramenta
-móvel e os sensores que venham sendo disponibilizados no mercado. Somado a isto, os
-experimentos podem ser refeitos sempre que um sensor for acoplado à solução. Assim que
-todos os sensores estiverem disponíveis e conectados, haverá um produto mais preparado
-para testes em outros ambientes, tais como espaços abertos.
 
-Uma vez que o método faz uso de autômatos para construir o modelo de referência,
-este trabalho poderia ser estendido usando conceitos da teoria do controle supervisório [22]:
-suprema sublinguagem controlada, onde o sujeito receberia recomendações mais restritivas
-do que o seu perfil exigiria, contudo, o exercício ainda surtiria algum efeito; e ínfima
-superlinguagem controlável, onde as recomendações seriam mais permissivas ao sujeito,
-contudo, sem expor o indivíduo a situações perigosas. Estas situações podem ocorrer devido
-à falha de algum sensor ou mesmo devido à impossibilidade de seguir alguma recomendação
-por causa de imprevistos. Tais imprevistos podem ocorrer principalmente em ambientes não
-controlados, como é o caso de ambientes abertos.
-Outro possível trabalho futuro é o estudo de técnicas automáticas para contornar o problema da obsolescência do modelo de referência. O modelo poderia se adaptar à evolução do sujeito na medida em que as variáveis fisiológicas forem apresentado valores diferentes apesar das variáveis comportamentais se manterem as mesmas. Isto pode representar tanto adaptação aos exercícios quanto despreparo para os mesmos.
+%É preciso realizar um estudo comparativo entre os modelos de referência gerados utilizando os diferentes procedimentos para classificação de estados marcados e proibidos, apresentados na Seção 3.6. Sabe-se que o principal parâmetro para comparação é a permissividade em relação ao que é considerado seguro/perigoso. Contudo, faz-se necessário o acompanhamento de ao menos um profissional de saúde durante o processo de comparação. Seja este processo simulado ou não.
+
+%É preciso implementar as soluções desenhadas para os problemas da ordem de emissão de recomendações e da emissão de recomendações contraditórias. Além disso, é necessário disponibilizar na ferramenta SupervisorD a opção de escolha entre os diferentes tipos de procedimentos para classificação de estados do modelo final. Por enquanto, esta escolha vem sendo feita ao nível de código fonte. Outro componente a ser implementado é o de tradução do modelo de referência para um modelo no formato do UPPAAL.
+
+%O trabalho apresentado não fez uso de sensores com capacidade para comunicação sem fio. Um possível trabalho futuro poderia ser a implementação da comunicação entre a ferramenta móvel e os sensores que venham sendo disponibilizados no mercado. Somado a isto, os experimentos podem ser refeitos sempre que um sensor for acoplado à solução. Assim que todos os sensores estiverem disponíveis e conectados, haverá um produto mais preparado para testes em outros ambientes, tais como espaços abertos.
+
+%Uma vez que o método faz uso de autômatos para construir o modelo de referência, este trabalho poderia ser estendido usando conceitos da teoria do controle supervisório [22]: suprema sublinguagem controlada, onde o sujeito receberia recomendações mais restritivas do que o seu perfil exigiria, contudo, o exercício ainda surtiria algum efeito; e ínfima superlinguagem controlável, onde as recomendações seriam mais permissivas ao sujeito, contudo, sem expor o indivíduo a situações perigosas. Estas situações podem ocorrer devido à falha de algum sensor ou mesmo devido à impossibilidade de seguir alguma recomendação por causa de imprevistos. Tais imprevistos podem ocorrer principalmente em ambientes não controlados, como é o caso de ambientes abertos.
+
+%Outro possível trabalho futuro é o estudo de técnicas automáticas para contornar o problema da obsolescência do modelo de referência. O modelo poderia se adaptar à evolução do sujeito na medida em que as variáveis fisiológicas forem apresentado valores diferentes apesar das variáveis comportamentais se manterem as mesmas. Isto pode representar tanto adaptação aos exercícios quanto despreparo para os mesmos.
 \subsection{Considerações Finais}\label{sec:cons_finais}
 
 
