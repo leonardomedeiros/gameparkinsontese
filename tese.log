@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  7 APR 2016 10:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  7 APR 2016 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1301,11 +1301,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8843 strings out of 493304
- 124319 string characters out of 6139871
- 307799 words of memory out of 5000000
- 12069 multiletter control sequences out of 15000+600000
- 63749 words of font info for 75 fonts, out of 8000000 for 9000
+ 8847 strings out of 493304
+ 124392 string characters out of 6139871
+ 307812 words of memory out of 5000000
+ 12072 multiletter control sequences out of 15000+600000
+ 66597 words of font info for 77 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
  38i,17n,44p,1206b,1894s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1319,7 +1319,7 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (105 pages, 2466466 bytes).
+Output written on tese.pdf (105 pages, 2466994 bytes).
 PDF statistics:
  422 PDF objects out of 1000 (max. 8388607)
  268 compressed objects within 3 object streams
