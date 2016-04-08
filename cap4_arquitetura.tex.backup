@@ -1,4 +1,4 @@
-  \chapter{Arquitetura de Software para~\textit{JOGUE-ME}}\label{chapter:arquitetura_captura}
+\chapter{Arquitetura de Software para~\textit{JOGUE-ME}}\label{chapter:arquitetura_captura}
 
 A arquitetura desenvolvida para o~\ac{jogue-me} busca abstrair das dificuldades existentes no desenvolvimento de um jogo para monitoramento de dados de saúde. Neste projeto foi desenvolvido um arcabouço de software, integrado a uma \textit{engine} de jogos bem difundida e utilizada por desenvolvedores de jogos. Devido a essa estrutura, buscamos facilitar a programação de jogos para a saúde, criando Componentes de \textit{Software} sobre a \textit{engine} de jogos Unity 3D~\cite{unity3d}. Assim, desenvolvedores de jogos podem criar \text{JOGUE-MEs}, usando esse arcabouço (Seção~\ref{sec:cliente_game}), o que permite o desenvolvedor encapsular os aspectos de processamento de sinal. 
 
@@ -119,7 +119,7 @@ Os usuários enviam seus sinais, utilizando um cliente ~\ac{jogue-me} através d
 % \label{tab:operations}
 % \end{table}
 
-\section{Processador de Dados Biomecânicos}\label{sec:processador_bio}
+\section{Processador de Dados Biomecânicos}
 Para transformar os sinais em informação, tanto para o profissional de saúde, quanto para máquinas de aprendizagem, é necessário fazer o processamento desse sinal. Implementamos, nesta Tese, o \textit{Processador de Dados Biomecânicos} em MATLAB 2011~\cite{matlab2011}, como definido na Seção~\ref{sec:processador_bio}. Este processador consiste de três passos: Identificação dos Ciclos, Extração de Características e Filtragem de Dados.
 
 \subsection{Identificação dos Ciclos de Movimento} 
@@ -239,7 +239,5 @@ classificationRate = sum(class~=realValues);
 errorRate = classificationRate/size(classereal,2);
 \end{lstlisting}
 
-%\section{Considerações Finais}
-Esse capítulo apresentou os passos da implementação de um~\ac{jogue-me} para o monitoramento do sinal da bradicinesia presente no~\ac{dp}. Demonstramos na Seção~\ref{sec:processador_bio} o processador de dados biomecânicos implementado para identificar o sinal da bradicinesia~\cite{protpar010} presente no~\ac{dp}. Na Seção~\ref{sec:resultado_svm} do Capítulo~\ref{chap:avaliacao} serão demonstrados os experimentos realizados para validar esta arquitetura do~\ac{jogue-me}.
-
-%Para reaplicar esta implementação em outros~\ac{sms}  Esta arquitetura pode ser reaplicada em outros contextos, mas como vimos na Seção
+\section{Considerações Finais}
+Esse capítulo apresentou os passos da implementação de um~\ac{jogue-me} para o monitoramento do sinal da bradicinesia presente no~\ac{dp}. Portanto, pode-se reaplicar 

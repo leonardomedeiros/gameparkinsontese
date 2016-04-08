@@ -2,6 +2,13 @@
 Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado. Na Seção~\ref{sec:contribuicoes} são apresentadas as contribuições deste trabalho juntamente com os resultados alcançados e uma breve discussão sobre os mesmos. Na Seção~\ref{sec:limitacoes} são apresentadas as limitações encontradas durante o processo de avaliação do trabalho. Já na Seção~\ref{sec:trab_futuros} são propostos possíveis trabalhos futuros. Por fim, as considerações finais são descritas na Seção~\ref{sec:cons_finais}.
 
 
+%O intuito dessa entrevista foi verificar junto aos profissionais de saúde, os benefícios trazidos pelo monitoramento em relação: a qualidade de vida e acompanhamento do tratamento do paciente.
+
+%Com base na rastreabilidade dos fragmentos da entrevista, pode-se concluir que existiram muitas ocorrências nos requisitos de Identificação de sinais como: tremores ([\textbf{REQ-ENTREVISTAS-01}]), bradicinesia [\textbf{REQ-ENTREVISTAS-02}] e análise da marcha [\textbf{REQ-ENTREVISTAS-06}]. Para o acompanhamento e monitoramento da doença, os profissionais de saúde citaram a importância de calcular, tanto a amplitude dos movimentos de abdução e adução dos braços ([\textbf{REQ-ENTREVISTAS-07}]), quanto a velocidade angular ([\textbf{REQ-ENTREVISTAS-08}]). Baseado nessas considerações, podemos validar qualitativamente a ETAPA 1 da pesquisa.
+
+%Nesta pesquisa, foi realizada uma análise de um sensor de movimento utilizado em jogos eletrônicos e avaliada a possibilidade de aquisição de dados de saúde baseada na Cinemática Angular do Movimento Humano~\cite{hamill1999bases}.  Através dos resultados obtidos, conseguimos classificar a normalidade e dificuldade na execução de movimentos como abdução e adução dos braços.
+
+%Logo, os dados biomecânicos~\cite{hamill1999bases} coletados foram utilizados com a \ac{dp} ante os indivíduos sem o diagnóstico estabelecido. Pelo quantitativo da pesquisa ter sido de 30 indivíduos, a abordagem de aprendizagem de máquina usando \ac{svm} ~\cite{vapnik95} foi utilizada juntamente com a técnica de validação-cruzada \textit{leave-one-out}, essa técnica será explicada com mais detalhes na Seção \ref{validacao_cruzada_svm}.
 
 Nos experimentos realizados, conseguimos demonstrar a importância do acompanhamento dos sinais motores, integrados à rotina diária do paciente do ponto de vista do profissional de saúde. Identificou-se nessa pesquisa a importância de acompanhar a amplitude do movimento e a sua respectiva velocidade angular para acompanhamento da saúde motora.
 
@@ -47,6 +54,11 @@ Em decorrência das ``Flutuações Motoras''~\footnote{Referente a respostas mot
 
 Nos estudos realizados com os sinais adquiridos pelo MS-Kinnect, foi possível identificar a amplitude como apresentamos no estudo do movimento de abdução e adução do braço (Seção~\ref{sec:resultado_obtido_svm}). Todavia, a captura de um movimento mais sutil como um tremor é um desafio. Por esse motivo, foi desenvolvido e testado um jogo para celular que pudesse adquiri o sinal de tremor(Seção~\ref{sec:tremor}). Contudo, como o tremor do~\ac{dp} é de repouso~\cite{protpar010}, não foi possível quantificar o sinal. No entanto, ao analisarmos os vídeos dos pacientes com~\ac{dp}, identificamos, que ao levantar um dos membros, alguns indivíduos iniciava o sinal de tremor no membro parado. Desta maneira, pode ser possível quantificar o sinal de tremor na análise do membro em repouso. No entanto, devido ao ruído existente na aquisição do sinal pelo MS-Kinnect~\cite{kinnect2013} pode inviabilizar a quantificação deste sinal.
 
+
+
+%Com base na rastreabilidade dos fragmentos da entrevista, pode-se concluir que existiram muitas ocorrências nos requisitos de Identificação de sinais como: tremores ([\textbf{REQ-ENTREVISTAS-01}]), bradicinesia [\textbf{REQ-ENTREVISTAS-02}] e análise da marcha [\textbf{REQ-ENTREVISTAS-06}]. Para o acompanhamento e monitoramento da doença, os profissionais de saúde citaram a importância de calcular, tanto a amplitude dos movimentos de abdução e adução dos braços ([\textbf{REQ-ENTREVISTAS-07}]), quanto a velocidade angular ([\textbf{REQ-ENTREVISTAS-08}]). Baseado nessas considerações, podemos validar qualitativamente a ETAPA 1 da pesquisa.
+
+
 \subsection{Considerações Finais}\label{sec:cons_finais}
 
 Nos experimentos realizados, conseguimos demonstrar a importância de monitorar os sinais motores, de forma integrada à rotina diária do paciente. De acordo com as entrevistas com profissionais de saúde, identificamos a importância de acompanhar a amplitude do movimento e a velocidade angular para monitorar os sinais de doenças motoras como o~\ac{dp}.
@@ -58,3 +70,7 @@ Para quantificar o movimento da adução e abdução do braço, utilizou-se como
 A avaliação dos usuários por~\ac{gqm} forneceu suporte ao monitoramento de sinais motores de forma não invasiva, o que facilita sua integração à rotina diária dos usuários. Assim, a abordagem de um~\ac{sms} dos sinais motores, como interface de entrada de dados (\ac{jogue-me}), conseguiu motivar o usuário  a fornecer sinais motores e permitir o acompanhamento do tratamento a partir dos dados biomecânicos fornecidos. Logo, conseguimos atingir o principal objetivo da tese, ao permitir que os pacientes do~\ac{dp} pudessem ser monitorados de maneira não-invasiva e no conforto de seus lares.
 
 
+%Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM). GQM ~\cite{basili94} é uma abordagem hierárquica que inicia com objetivo principal e o divide em atividades que podem ser mensuradas durante a execução do projeto. É uma abordagem para integrar objetivos a e perspectivas de qualidade de interesse, baseado nas necessidades do projeto~\cite{van1999goal}. Foi preparado o questionário GQM mostrado no Apêndice~\ref{apend:gqm} para avaliar a possibilidade de monitorar dados motores de forma não invasiva e integrada a rotina diária das pessoas.
+
+%\subsubsection{Limitações do Método}
+%O método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com \ac{dp} ante os indivíduos sem o diagnóstico estabelecido, foi uma técnica estatística de aprendizagem denominada de~\ac{svm}. Nesse estudo não se pretende estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstra que existem diferenças entre essas duas classes, e estas podem ser capturadas por um sensor de movimento usado em jogos eletrônicos, e que essas diferenças podem ser classificadas utilizando uma abordagem de aprendizagem de máquina. 

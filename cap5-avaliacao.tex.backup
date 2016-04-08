@@ -701,18 +701,26 @@ O questionário consistiu de um conjunto de 10 questões de resposta fechada (qu
 
 
 \subsection{Aplicação do Método}
-Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: Hospital Universitário da UFAL, Fundação Pestalozzi e clínica de Fisioterapia do CESMAC. Os usuários foram selecionados para jogar o \emph{Catch the Spheres} (Seção ~\ref{jogo_catch}), testaram e responderam o questionário para verificar a aceitabilidade da abordagem. 
+Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: Hospital Universitário da UFAL, da Fundação Pestalozzi e da clínica de Fisioterapia do CESMAC. Os usuários foram selecionados para jogar o \emph{Catch the Spheres} (Seção ~\ref{jogo_catch}), testaram e responderam o questionário para verificar a aceitabilidade da abordagem. 
 
+%Buscou-se também validar a viabilidade da Arquitetura de Software do \textit{\textit{HGMS-E}}, verificando a possibilidade de capturar dados motores. 
+O procedimento para executar as sessões de teste foi:
+\begin{enumerate}
+	\item O usuário se posicionou a uma distância de 2 metros do sensor de movimento, de modo a adquirir toda a extensão superior do braço; 	
+	\item O usuário iniciou o jogo \textit{Catch the Spheres}, conforme a interface da aplicação;
+	\item O usuário utilizou o jogo \textit{Catch the Spheres} por volta de 00:01:30s;
+	\item O usuário fechou a aplicação.
+\end{enumerate}
 
 \subsection{Resultados}
-Os resultados do questionário são apresentados na Tabela ~\ref{table:resultados_gqm}, contendo as respostas binárias ``Sim/Não'', e nas Figuras~\ref{fig:question1}, \ref{fig:question3} e \ref{fig:question10}, com a reposta das perguntas de questões com múltipla escolha.
+Os resultados do questionário são apresentados na Tabela ~\ref{table:resultados_gqm} contendo as respostas binárias ``Sim/Não'' e nas Figuras~\ref{fig:question1},\ref{fig:question3},\ref{fig:question10} nas perguntas de questões com múltipla escolha.
 
-\textit{Questão 1 - O usuário poderia integrar a abordagem~\ac{jogue-me} à sua rotina diária ?}: os 24 usuários deram as seguintes respostas nas Métricas (1.1, 1.2, 1.3,1.4,1.5 e 1.6): 75\% dos usuário atribuíram ao menos nota 4 (de 1 a 5) ao grau de diversão do jogo; 91,67\% sentiram-se motivados com o jogo; 58\% dos usuários jogariam 3 vezes por semana, 25\% jogariam todos os dias e apenas 17\% jogariam uma vez por semana. 
+\textit{Questão 1 - O usuário poderia integrar a abordagem~\ac{jogue-me} à sua rotina diária ?}: os 24 usuários deram as seguintes respostas nas Métricas (1.1, 1.2, 1.3,1.4,1.5 e 1.6): 75\% dos usuário atribuíram ao menos nota 4 (de 1 a 5) ao grau de diversão do jogo; 91,67\% sentiram motivados com o jogo; 58\% dos usuários jogariam 3 vezes por semana, 25\% jogariam todos os dias e apenas 17\% jogariam uma vez por semana. 
 
-Então, tem-se um percentual de 83\% de usuários que poderiam integrar o monitoramento motor a sua rotina; 91,67\% consideraram o jogo simples e de fácil entendimento, e isso permite o uso de um maior número de usuários. Uma métrica desfavorável foi que apenas 41,67\% dos usuários possuem o costume de usar jogos casuais em casa. Mas, devido à expectativa de melhora do estado de saúde, 75\% dos usuários responderam que agregariam o jogo a sua rotina diária.
+Então, tem-se um percentual de 83\% de usuários que poderiam integrar o monitoramento motor a sua rotina; 91,67\% consideraram o jogo simples e de fácil entendimento, e isso permite o uso de um maior número de usuários. Uma métrica desfavorável foi que apenas 41,67\% dos usuários possuem o costume de usar jogos casuais em casa. Mas, devido a expectativa de melhora do estado de saúde, 75\% dos usuários responderam que agregariam o jogo a sua rotina diária.
 
 \textit{Questão 2 - A segurança com a integridade física está de acordo com a faixa etária do usuário
-?}: nesta questão, percebe-se uma grande preocupação dos usuários quanto ao risco de quedas. Inicialmente, a pesquisa seria destinada para o movimento de braços e pernas. Devido aos riscos, foi modificada para a movimentação somente dos braços, reduzindo a preocupação dos usuários. Mesmo assim, as métricas obtidas demonstraram que o jogo é seguro para crianças e adultos. No caso dos idosos, 75\% dos usuários consideraram o jogo seguro para essa faixa etária, muito embora os mesmos usuários classificaram o jogo com a faixa etária ``livre'', com 88\% de ocorrência.
+?}: nesta questão percebe-se uma grande preocupação dos usuários quanto a risco de quedas. Inicialmente, a pesquisa seria destinada para o movimento de braços e pernas. Devido aos riscos, foi modificada para movimentação somente dos braços, reduzindo a preocupação dos usuários. Mesmo assim, as métricas obtidas demonstraram que o jogo é seguro para crianças e adultos. No caso dos idosos, 75\% dos usuários consideraram o jogo seguro para essa faixa etária, muito embora os mesmos usuários classificaram o jogo com a faixa etária ``livre'', com 88\% de ocorrência.
 
 % Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
 \begin{table}[h]
