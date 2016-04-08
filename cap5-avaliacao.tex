@@ -8,7 +8,7 @@ A realização do monitoramento dos sinais motores, de uma maneira não invasiva
 
 
 
-\section{ETAPA 1 - Entrevista Semiestruturada com Profissionais de Saúde}\label{chapter:entrevista_semi_estruturada}
+\section{ETAPA 1 - Entrevista Semiestruturada com Profissionais de Saúde}\label{sec:entrevista_semi_estruturada}
 
 
 
@@ -361,11 +361,11 @@ A Matriz de Rastreabilidade (Fragmento x Requisitos) mapeia os \textbf{REQUISITO
 %\end{center}
 
 \subsubsection{Matriz de Rastreabilidade - Requisitos x Implementação}
+
+
 A Matriz de Rastreabilidade (Tabela~\ref{table:RequisitoImplementado}) mapeia os \textbf{REQUISITOS} implementados neste trabalho e os que, devido a restrições técnicas, ainda estão em aberto. Isso demonstra também o estado atual do trabalho e pode direcionar os trabalhos futuros.
 
-% Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
-% Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
-\begin{table}[h]
+\begin{table}[!h]
 \centering
 \caption{Requisitos Implementados}
 \label{table:RequisitoImplementado}
@@ -383,6 +383,9 @@ REQ-ENTREVISTA-08                   & X                                         
 REQ-ENTREVISTA-09                   &                                                             & X                                                                                                                \\ \hline
 \end{tabular}
 \end{table}
+% Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
+% Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
+
 
 
 
@@ -542,7 +545,8 @@ O \textit{leave-one-out} é um método de validação cruzada \textit{k-fold} co
 
 \subsubsection{Otimização dos Parâmetros da SVM - Método Grid-Search}
 
-Para identificar os melhores parâmetros~\ac{svm}, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Este método avalia a precisão do modelo previsto, evita o problema do superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro, nós aplicamos uma abordagem de \textit{minimax} visando maximizar a margem sobre os coeficientes hiperplano para obter uma classificação mais correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foram de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ], usando assim uma exponencial de base 2. Por meio deste método, foi possível identificar uma região em que o classificador possuía a melhor acurácia e a menor taxa de \textit{FpRate}. Após identificar essa região, realizamos uma busca mais detalhada com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10], como pode ser visto na Figura~\ref{fig:gridaccuracy}.
+Para identificar os melhores parâmetros~\ac{svm}, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Este método avalia a precisão do modelo previsto, evita o problema do superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro, nós aplicamos uma abordagem de \textit{minimax} visando maximizar a margem sobre os coeficientes hiperplano para obter uma classificação mais correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foram de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ], usando assim uma exponencial de base 2. Por meio deste método, foi possível identificar uma região em que o classificador possuía a melhor acurácia e a menor taxa de \textit{FpRate}. Após identificar essa região, realizamos uma busca mais detalhada com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2,
+ ...,10], como pode ser visto na Figura~\ref{fig:gridaccuracy}.
 
 
 \begin{figure}[!h]
@@ -705,7 +709,7 @@ Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: Hospi
 
 
 \subsection{Resultados}
-Os resultados do questionário são apresentados na Tabela ~\ref{table:resultados_gqm}, contendo as respostas binárias ``Sim/Não'', e nas Figuras~\ref{fig:question1}, \ref{fig:question3} e \ref{fig:question10}, com a reposta das perguntas de questões com múltipla escolha.
+Os resultados do questionário são apresentados na Tabela~\ref{table:resultados_gqm}, contendo as respostas binárias ``Sim/Não'', e nas Figuras~\ref{fig:question1}, \ref{fig:question3} e \ref{fig:question10}, com a reposta das perguntas de questões com múltipla escolha.
 
 \textit{Questão 1 - O usuário poderia integrar a abordagem~\ac{jogue-me} à sua rotina diária ?}: os 24 usuários deram as seguintes respostas nas Métricas (1.1, 1.2, 1.3,1.4,1.5 e 1.6): 75\% dos usuário atribuíram ao menos nota 4 (de 1 a 5) ao grau de diversão do jogo; 91,67\% sentiram-se motivados com o jogo; 58\% dos usuários jogariam 3 vezes por semana, 25\% jogariam todos os dias e apenas 17\% jogariam uma vez por semana. 
 
@@ -757,6 +761,7 @@ cathocatho
 \end{figure}
 \FloatBarrier
 
+De acordo com o resultado da avaliação dos usuários usando~\ac{gqm}, identificamos que a abordagem de um~\ac{sms} dos sinais motores usando jogos, como interface de entrada de dados, conseguiu motivar o usuário  a fornecer sinais motores e permite o acompanhar o tratamento a partir dos dados biomecânicos adquiridos. Logo, conseguimos atingir o principal objetivo da tese, ao demonstrar o monitoramento dos pacientes com~\ac{dp} de uma maneira não invasiva e no conforto de seus lares.
 
 %\subsection{Conclusão} 
 %Nessa etapa, buscou-se demonstrar que podemos desenvolver um jogo com mecanismos de captura de dados motores embutidos e que permita monitorar e quantificar sinais do Parkinson de uma maneira não-invasiva. 
