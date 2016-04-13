@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  8 APR 2016 17:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  8 APR 2016 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,27 +474,27 @@ although it is yet undefined on input line 7.
 
 
 ]
-Underfull \hbox (badness 1107) in paragraph at lines 14--15
+Underfull \hbox (badness 1107) in paragraph at lines 13--14
 []\T1/ptm/m/n/12 Nesta tese, é apre-sen-tada uma abor-da-gem de mo-ni-to-ra-men
 to dos si-nais mo-to-res
  []
 
 Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
+although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:gqm' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
+although it is yet undefined on input line 15.
 <./img/patel-shimmer.png, id=46, 599.23875pt x 496.10344pt>
 File: ./img/patel-shimmer.png Graphic file (type png)
 
 <use ./img/patel-shimmer.png>
-Package pdftex.def Info: ./img/patel-shimmer.png used on input line 29.
+Package pdftex.def Info: ./img/patel-shimmer.png used on input line 28.
 (pdftex.def)             Requested size: 179.77301pt x 148.83217pt.
 
 <./img/quantif-parkinson.png, id=47, 344.78813pt x 454.69875pt>
 File: ./img/quantif-parkinson.png Graphic file (type png)
 
 <use ./img/quantif-parkinson.png>
-Package pdftex.def Info: ./img/quantif-parkinson.png used on input line 39.
+Package pdftex.def Info: ./img/quantif-parkinson.png used on input line 38.
 (pdftex.def)             Requested size: 103.43723pt x 136.41068pt.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
@@ -509,10 +509,10 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 File: ./img/moyne-iphone.png Graphic file (type png)
 
 <use ./img/moyne-iphone.png>
-Package pdftex.def Info: ./img/moyne-iphone.png used on input line 55.
+Package pdftex.def Info: ./img/moyne-iphone.png used on input line 54.
 (pdftex.def)             Requested size: 137.5399pt x 102.08215pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 65.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 64.
 
 Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 
@@ -520,15 +520,15 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 [4 <./img/moyne-iphone.png>]
 Package acronym Info: Label `acro:jogue-me' newly defined as it shall be overri
 dden
-although it is yet undefined on input line 86.
+although it is yet undefined on input line 85.
 
-Underfull \hbox (badness 3098) in paragraph at lines 86--88
+Underfull \hbox (badness 3098) in paragraph at lines 85--87
 []\T1/ptm/m/n/12 Definir a abor-da-gem de um [][] Jogo com Mo-ni-to-ra-mento de
  Saúde Em-bu-tido
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 94--95
+Underfull \hbox (badness 8113) in paragraph at lines 93--94
 []\T1/ptm/m/n/12 Definir a ar-qui-te-tura de software que vi-a-bi-li-zou tec-ni
 -ca-mente a abor-da-
  []
@@ -541,7 +541,7 @@ Overfull \vbox (5.39993pt too high) has occurred while \output is active []
 ! Missing } inserted.
 <inserted text> 
                 }
-l.103 \end{enumerate}
+l.102 \end{enumerate}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1328,7 +1328,7 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (104 pages, 2462370 bytes).
+Output written on tese.pdf (104 pages, 2462616 bytes).
 PDF statistics:
  419 PDF objects out of 1000 (max. 8388607)
  266 compressed objects within 3 object streams

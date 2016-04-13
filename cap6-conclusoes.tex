@@ -16,9 +16,11 @@ Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado e 
 
 Nos experimentos realizados, conseguimos demonstrar junto à comunidade de saúde (Seção~\ref{sec:entrevista_semi_estruturada}), a importância do acompanhamento dos sinais motores integrados à rotina diária do paciente. Identificou-se também, a importância de acompanhar a amplitude do movimento e a sua respectiva velocidade angular para acompanhamento da saúde motora.
 
-Os estudos de aprendizagem de máquina com os dados motores adquiridos por meio de sensores de movimento usados em jogos eletrônicos, identificou a viabilidade do desenvolvimento de jogos para o monitoramento, ois, obtivemos uma taxa de identificação de verdadeiros positivos de 86,67\% e falsos positivos de 6,67\% . O~\ac{svm} foi a técnica estatística de aprendizagem utilizada para distinguir os movimentos executados por indivíduos diagnosticados com~\ac{dp} ante os indivíduos de grupo controle. Esse estudo não teve a pretensão de estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstrou que as diferenças nos movimentos, entre essas duas classes, permitem a identificação do sinal da bradicinesia, e que essas diferenças podem ser adquiridas por um sensor de movimento usado em jogos eletrônicos. 
+Os estudos de aprendizagem de máquina com os dados motores adquiridos por meio de sensores de movimento usados em jogos eletrônicos, identificou a viabilidade do desenvolvimento de jogos para o monitoramento, ois, obtivemos uma taxa de acurácia de 86,67\% e falsos positivos de 6,67\% . O~\ac{svm} foi a técnica estatística de aprendizagem utilizada para distinguir os movimentos executados por indivíduos diagnosticados com~\ac{dp} ante os indivíduos de grupo controle. Esse estudo não teve a pretensão de estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstrou que as diferenças nos movimentos, entre essas duas classes, permitem a identificação do sinal da bradicinesia, e que essas diferenças podem ser adquiridas por um sensor de movimento usado em jogos eletrônicos. A presente abordagem pode ser aplicada a outras doenças motoras; no entanto, testamos somente com indivíduos com~\ac{dp} e grupo controle.
 
-Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a análise \textit{Goal, Question, Metric} (GQM)~\cite{basili94} para avaliar a possibilidade de monitorar dados motores de forma não invasiva e integrada a rotina diária das pessoas. As métricas da análise nos informaram que um percentual de 83\% de usuários integrariam em sua rotina a solução de monitoramento proposta. Deve-se levar em consideração, também, que as métricas obtidas nessa pesquisa foram extraídas de um protótipo de jogo, e, caso este fosse aperfeiçoado é possível que a aceitabilidade da abordagem seja ainda maior. 
+Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a análise \textit{Goal, Question, Metric} (GQM)~\cite{basili94} para avaliar a possibilidade de monitorar dados motores de forma não invasiva e integrada a rotina diária das pessoas. As métricas da análise quantificou que um percentual de 83\% de usuários integrariam em sua rotina a solução de monitoramento proposta. Deve-se levar em consideração, também, que as métricas obtidas nessa pesquisa foram extraídas de um protótipo de jogo, e, caso este fosse aperfeiçoado é possível que a aceitabilidade da abordagem seja ainda maior. Desta maneira, conseguimos atingir o principal objetivo deste trabalho, ao permitir que indivíduos com comprometimento motor pudessem ser monitorados de maneira não-invasiva e no conforto de seus lares.
+
+
 
 
 \subsubsection{Publicações}
@@ -33,13 +35,17 @@ Foram publicados três artigos, em conferências internacionais, relacionados à
 
 \subsection{Trabalhos Futuros}\label{sec:trab_futuros}
 
-Alguns trabalhos podem ser desenvolvidos a partir do que fora apresentado nesta tese.
+A partir dos resultados apresentados nesta tese e extensão da mesma, propomos trabalhos futuros para contribuição científica.
 
-O progresso do~\ac{dp} é avaliado por escalas, como foi explanado na Seção~\ref{section:escalas_avaliacao}, pois permitem monitorar a progressão da doença e a eficácia do tratamento medicamentoso~\cite{updrs87,goul05}. Desta forma, é importante coletar uma amostra maior de pacientes com~\ac{dp}, agrupa-los de acordo com o estágio da doença~\cite{goul05}, e aplicar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o seu estágio.
+Como foi explanado na Seção~\ref{section:escalas_avaliacao}, pois permitem monitorar a progressão da doença e a eficácia do tratamento medicamentoso~\cite{updrs87,goul05}. Desta forma, é importante coletar uma amostra maior de pacientes com~\ac{dp}, agrupa-los de acordo com o estágio da doença~\cite{goul05}, e aplicar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do~\ac{dp} de acordo com as escalas de avaliação.
 
 Em decorrência das ``Flutuações Motoras''~\footnote{Referente a respostas motoras flutuantes ao tratamento medicamentoso, com encurtamento da duração de seu efeito (fenômeno do \textit{wearing off}) e interrupção súbita de sua ação.}~\cite{protpar010},  é necessário comparar o sinal da bradicinesia em diferentes momentos do dia, para verificar a eficácia do tratamento medicamentoso~\cite{protpar010}.
 
 Nos estudos realizados com os sinais adquiridos pelo MS-Kinnect, foi possível identificar a amplitude como apresentamos no estudo do movimento de abdução e adução do braço (Seção~\ref{sec:resultado_obtido_svm}). Todavia, a captura de um movimento mais sutil como um tremor é um desafio. Por esse motivo, foi desenvolvido e testado um jogo para celular que pudesse adquiri o sinal de tremor(Seção~\ref{sec:tremor}). Contudo, como o tremor do~\ac{dp} é de repouso~\cite{protpar010}, não foi possível quantificar o sinal. No entanto, ao analisarmos os vídeos dos pacientes com~\ac{dp}, identificamos, que ao levantar um dos membros, alguns indivíduos iniciava o sinal de tremor no membro parado. Desta maneira, pode ser possível quantificar o sinal de tremor na análise do membro em repouso. No entanto, devido ao ruído existente na aquisição do sinal pelo MS-Kinnect~\cite{kinnect2013} pode inviabilizar a quantificação deste sinal.
+
+
+
+
 
 
 

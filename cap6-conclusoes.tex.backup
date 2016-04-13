@@ -1,7 +1,10 @@
 \chapter{Conclusões e Trabalhos Futuros}\label{chapter:conclusoes_futuros}
-Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado.  Na Seção~\ref{sec:limitacoes} são apresentadas as limitações encontradas durante o processo de avaliação do trabalho. Já na Seção~\ref{sec:trab_futuros} são propostos possíveis trabalhos futuros. Por fim, no final do capítulo apresentamos as considerações finais na Seção~\ref{sec:cons_finais}.
+Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado e propostos trabalhos.  
+
+%Já na Seção~\ref{sec:trab_futuros} são propostos possíveis trabalhos futuros. Por fim, no final do capítulo apresentamos as considerações finais na Seção~\ref{sec:cons_finais}.
 
 %Na Seção~\ref{sec:contribuicoes} são apresentadas as contribuições deste trabalho juntamente com uma discussão sobre os resultados alcançados.
+%Na Seção~\ref{sec:limitacoes} são apresentadas as limitações encontradas durante o processo de avaliação do trabalho. 
 
 %O intuito dessa entrevista foi verificar junto aos profissionais de saúde, os benefícios trazidos pelo monitoramento em relação: a qualidade de vida e acompanhamento do tratamento do paciente.
 
@@ -11,7 +14,7 @@ Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado.  
 
 %Logo, os dados biomecânicos~\cite{hamill1999bases} coletados foram utilizados com a \ac{dp} ante os indivíduos sem o diagnóstico estabelecido. Pelo quantitativo da pesquisa ter sido de 30 indivíduos, a abordagem de aprendizagem de máquina usando \ac{svm} ~\cite{vapnik95} foi utilizada juntamente com a técnica de validação-cruzada \textit{leave-one-out}, essa técnica será explicada com mais detalhes na Seção \ref{validacao_cruzada_svm}.
 
-Nos experimentos realizados, conseguimos demonstrar junto à comunidade de saúde(Seção ~\ref{sec:entrevista_semi_estruturada}), a importância do acompanhamento dos sinais motores integrados à rotina diária do paciente. Identificou-se também, a importância de acompanhar a amplitude do movimento e a sua respectiva velocidade angular para acompanhamento da saúde motora.
+Nos experimentos realizados, conseguimos demonstrar junto à comunidade de saúde (Seção~\ref{sec:entrevista_semi_estruturada}), a importância do acompanhamento dos sinais motores integrados à rotina diária do paciente. Identificou-se também, a importância de acompanhar a amplitude do movimento e a sua respectiva velocidade angular para acompanhamento da saúde motora.
 
 Os estudos de aprendizagem de máquina com os dados motores adquiridos por meio de sensores de movimento usados em jogos eletrônicos, identificou a viabilidade do desenvolvimento de jogos para o monitoramento, ois, obtivemos uma taxa de identificação de verdadeiros positivos de 86,67\% e falsos positivos de 6,67\% . O~\ac{svm} foi a técnica estatística de aprendizagem utilizada para distinguir os movimentos executados por indivíduos diagnosticados com~\ac{dp} ante os indivíduos de grupo controle. Esse estudo não teve a pretensão de estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstrou que as diferenças nos movimentos, entre essas duas classes, permitem a identificação do sinal da bradicinesia, e que essas diferenças podem ser adquiridas por um sensor de movimento usado em jogos eletrônicos. 
 
@@ -27,31 +30,10 @@ Foram publicados três artigos, em conferências internacionais, relacionados à
   \end{itemize}
 
 
-%\subsection{Contribuições}\label{sec:contribuicoes}
-
-%Este capítulo apresentou a estrutura geral do arcabouço, detalhando suas partes e operações. Foram apresentadas as operações disponibilizadas pelo \emph{webservice} e as classes, e seus respectivos métodos, que fazem parte do arcabouço. Por fim, foram descritas a forma de utilização do arcabouço na construção de um jogo e a forma de extensão do arcabouço, para adicionar novas funcionalidades.
-
-
-%Este capítulo mostrou como exemplos de jogos simples podem explorar superficialmente o potencial do arcabouço. Jogos mais complexos podem contemplar ações para prover um suporte mais completo ao monitoramento da saúde. Um projeto de jogo mais elaborado, aliado a uma melhor apresentação gráfica, entre outros itens de projetos de jogos que mantém a atenção do jogador, podem criar uma experiência de monitoramento contínua e prolongada.
-
-%Durante as coletas, não houve a necessidade de nenhuma interrupção da coleta devido a problemas de saúde ou qualquer outra eventualidade.
-
-%\subsection{Limitações Do Trabalho}\label{sec:limitacoes}
-
-O~\ac{svm} foi a técnica estatística de aprendizagem utilizada para distinguir os movimentos executados por indivíduos diagnosticados com~\ac{dp} ante os indivíduos de grupo controle. Esse estudo não teve a pretensão de estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstrou que as diferenças nos movimentos, entre essas duas classes, permitem a identificação do sinal da bradicinesia, e que essas diferenças podem ser adquiridas por um sensor de movimento usado em jogos eletrônicos. 
-
-Apesar do questionário ter avaliado a opinião dos jogadores quanto ao jogo apresentado, pode-se generalizar que as opiniões são válidas para outros jogos usando a abordagem~\ac{jogue-me}. Deve-se levar em consideração, também, que as métricas obtidas nessa pesquisa foram extraídas de um protótipo de jogo. Caso ele fosse aperfeiçoado é possível que a aceitabilidade da abordagem usando~\ac{gqm} fosse ainda maior. 
-
-%Logo, Desta maneira, o resultado obtido com a pesquisa~\ac{gqm} foi positivo, e considera-se que é viável desenvolver um jogo com o objetivo de monitorar dados motores, de forma não invasiva, e integrada à rotina diária dos usuários.
-
-
-%O método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com \ac{dp} ante os indivíduos sem o diagnóstico estabelecido, foi uma técnica estatística de aprendizagem denominada de~\ac{svm}. Nesse estudo não se pretende estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstra que existem diferenças entre essas duas classes, e estas podem ser capturadas por um sensor de movimento usado em jogos eletrônicos, e 
-
-
 
 \subsection{Trabalhos Futuros}\label{sec:trab_futuros}
 
-Alguns trabalhos podem ser desenvolvidos a partir do que fora apresentado nesta tese.
+A partir dos resultados apresentados nesta tese e extensão da mesma, propomos trabalhos futuros para contribuição científica.
 
 O progresso do~\ac{dp} é avaliado por escalas, como foi explanado na Seção~\ref{section:escalas_avaliacao}, pois permitem monitorar a progressão da doença e a eficácia do tratamento medicamentoso~\cite{updrs87,goul05}. Desta forma, é importante coletar uma amostra maior de pacientes com~\ac{dp}, agrupa-los de acordo com o estágio da doença~\cite{goul05}, e aplicar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o seu estágio.
 
@@ -61,19 +43,14 @@ Nos estudos realizados com os sinais adquiridos pelo MS-Kinnect, foi possível i
 
 
 
-%Com base na rastreabilidade dos fragmentos da entrevista, pode-se concluir que existiram muitas ocorrências nos requisitos de Identificação de sinais como: tremores ([\textbf{REQ-ENTREVISTAS-01}]), bradicinesia [\textbf{REQ-ENTREVISTAS-02}] e análise da marcha [\textbf{REQ-ENTREVISTAS-06}]. Para o acompanhamento e monitoramento da doença, os profissionais de saúde citaram a importância de calcular, tanto a amplitude dos movimentos de abdução e adução dos braços ([\textbf{REQ-ENTREVISTAS-07}]), quanto a velocidade angular ([\textbf{REQ-ENTREVISTAS-08}]). Baseado nessas considerações, podemos validar qualitativamente a ETAPA 1 da pesquisa.
-
-
-\subsection{Considerações Finais}\label{sec:cons_finais}
-
-Nos experimentos realizados, conseguimos demonstrar a importância de monitorar os sinais motores, de forma integrada à rotina diária do paciente. De acordo com as entrevistas com profissionais de saúde, identificamos a importância de acompanhar a amplitude do movimento e a velocidade angular para monitorar os sinais de doenças motoras como o~\ac{dp}.
-
-Atualmente, a análise da biomecânica do movimento humano faz parte da avaliação clínica para diagnóstico e tratamento do~\ac{dp}. Durante as consultas, os médicos solicitam aos pacientes levantar e baixar os braços para identificar a amplitude do movimento, a velocidade angular e a habilidade motora. Dessa maneira, conseguem avaliar clinicamente o progresso do sintoma da bradicinesia. Em entrevistas, os médicos informaram sobre a necessidade de quantificar esses movimentos para um melhor acompanhamento do tratamento. Por este motivo, foram aplicados os conceitos da cinemática do movimento angular para quantificar a bradicinesia, utilizando o movimento de adução e abdução dos braços.
-
-Para quantificar o movimento da adução e abdução do braço, utilizou-se como referência as articulações do quadril, do ombro e do punho. Através de um estudo caso-controle com 30 sujeitos (15 com~\ac{dp} e 15 indivíduos saudáveis), pudemos avaliar os movimentos desses indivíduos e identificamos consideráveis diferenças na execução dos movimentos. Os dados obtidos foram aplicados em um estudo de aprendizagem de máquina, no qual obtivemos uma taxa de acurácia de 86,67\% e falsos positivos de 6,67\% . O propósito desta classificação foi avaliar a acurácia da identificação de um sinal do~\ac{dp}, a partir de um sensor de aquisição de movimento usado em jogos eletrônicos. Dessa maneira, pudemos desenvolver um jogo eletrônico  capaz de adquirir sinais biomecânicos, processá-los e identificar características de sinais do~\ac{dp} a partir do movimento angular. A presente abordagem pode ser aplicada a outras doenças motoras; no entanto, testamos somente com indivíduos com~\ac{dp} e grupo controle.
-
-A avaliação dos usuários por~\ac{gqm} forneceu suporte ao monitoramento de sinais motores de forma não invasiva, o que facilita sua integração à rotina diária dos usuários. Assim, a abordagem de um~\ac{sms} dos sinais motores, como interface de entrada de dados (\ac{jogue-me}), conseguiu motivar o usuário  a fornecer sinais motores e permitir o acompanhamento do tratamento a partir dos dados biomecânicos fornecidos. Logo, conseguimos atingir o principal objetivo da tese, ao permitir que os pacientes do~\ac{dp} pudessem ser monitorados de maneira não-invasiva e no conforto de seus lares.
-
+% \subsection{Considerações Finais}\label{sec:cons_finais}
+% 
+% Atualmente, a análise da biomecânica do movimento humano faz parte da avaliação clínica para diagnóstico e tratamento do~\ac{dp}. Durante as consultas, os médicos solicitam aos pacientes levantar e baixar os braços para identificar a amplitude do movimento, a velocidade angular e a habilidade motora. Dessa maneira, conseguem avaliar clinicamente o progresso do sintoma da bradicinesia. Em entrevistas, os médicos informaram sobre a necessidade de quantificar esses movimentos para um melhor acompanhamento do tratamento. Por este motivo, foram aplicados os conceitos da cinemática do movimento angular para quantificar a bradicinesia, utilizando o movimento de adução e abdução dos braços.
+% 
+% Para quantificar o movimento da adução e abdução do braço, utilizou-se como referência as articulações do quadril, do ombro e do punho. Através de um estudo caso-controle com 30 sujeitos (15 com~\ac{dp} e 15 indivíduos saudáveis), pudemos avaliar os movimentos desses indivíduos e identificamos consideráveis diferenças na execução dos movimentos. Os dados obtidos foram aplicados em um estudo de aprendizagem de máquina, no qual obtivemos uma taxa de acurácia de 86,67\% e falsos positivos de 6,67\% . O propósito desta classificação foi avaliar a acurácia da identificação de um sinal do~\ac{dp}, a partir de um sensor de aquisição de movimento usado em jogos eletrônicos. Dessa maneira, pudemos desenvolver um jogo eletrônico  capaz de adquirir sinais biomecânicos, processá-los e identificar características de sinais do~\ac{dp} a partir do movimento angular. A presente abordagem pode ser aplicada a outras doenças motoras; no entanto, testamos somente com indivíduos com~\ac{dp} e grupo controle.
+% 
+% A avaliação dos usuários por~\ac{gqm} forneceu suporte ao monitoramento de sinais motores de forma não invasiva, o que facilita sua integração à rotina diária dos usuários. Assim, a abordagem de um~\ac{sms} dos sinais motores, como interface de entrada de dados (\ac{jogue-me}), conseguiu motivar o usuário  a fornecer sinais motores e permitir o acompanhamento do tratamento a partir dos dados biomecânicos fornecidos. Logo, conseguimos atingir o principal objetivo da tese, ao permitir que os pacientes do~\ac{dp} pudessem ser monitorados de maneira não-invasiva e no conforto de seus lares.
+% 
 
 %Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a abordagem \textit{Goal, Question, Metric} (GQM). GQM ~\cite{basili94} é uma abordagem hierárquica que inicia com objetivo principal e o divide em atividades que podem ser mensuradas durante a execução do projeto. É uma abordagem para integrar objetivos a e perspectivas de qualidade de interesse, baseado nas necessidades do projeto~\cite{van1999goal}. Foi preparado o questionário GQM mostrado no Apêndice~\ref{apend:gqm} para avaliar a possibilidade de monitorar dados motores de forma não invasiva e integrada a rotina diária das pessoas.
 
