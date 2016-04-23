@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  23 APR 2016 17:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  23 APR 2016 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,7 +449,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 150.
  (./tese.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 23.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 26.
  [1
 
 
@@ -457,7 +457,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 
 ]
 Package acronym Info: Label `acro:dp' newly defined as it shall be overridden
-although it is yet undefined on input line 76.
+although it is yet undefined on input line 79.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -499,48 +499,54 @@ although it is yet undefined on input line 7.
 
 ] [2] [3]
 Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
-although it is yet undefined on input line 67.
+although it is yet undefined on input line 70.
 Package acronym Info: Label `acro:gqm' newly defined as it shall be overridden
-although it is yet undefined on input line 67.
- [4]
+although it is yet undefined on input line 70.
+
+Underfull \hbox (badness 1472) in paragraph at lines 73--74
+\T1/ptm/m/n/12 Esta pes-quisa foi sub-me-tida à ava-li-a-ção pelo Co-mitê de Ét
+ica da UFCG (\T1/ptm/b/n/12 CAAE:
+ []
+
+[4]
 Package acronym Info: Label `acro:jogue-me' newly defined as it shall be overri
 dden
-although it is yet undefined on input line 87.
+although it is yet undefined on input line 88.
 
-Underfull \hbox (badness 8113) in paragraph at lines 95--96
+Underfull \hbox (badness 8113) in paragraph at lines 96--97
 []\T1/ptm/m/n/12 Definir a ar-qui-te-tura de software que vi-a-bi-li-zou tec-ni
 -ca-mente a abor-da-
  []
 
-[5]) (./cap2-fundamentacao.tex [6]
-Cap\'{\i }tulo 2.
-[7
-
-]
+[5]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
- [8] [9] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 104.
+ [6]) (./cap2-fundamentacao.tex [7]
+Cap\'{\i }tulo 2.
+[8
+
+] [9] [10] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-[10] [11] <./img/abducao.png, id=75, 289.08pt x 410.2828pt>
+[11] [12] <./img/abducao.png, id=78, 289.08pt x 410.2828pt>
 File: ./img/abducao.png Graphic file (type png)
 
 <use ./img/abducao.png>
 Package pdftex.def Info: ./img/abducao.png used on input line 83.
 (pdftex.def)             Requested size: 144.53964pt x 205.1409pt.
- [12 <./img/abducao.png>]
-<./img/svmhyperplane.png, id=80, 612.2875pt x 511.9125pt>
+ [13 <./img/abducao.png>]
+<./img/svmhyperplane.png, id=83, 612.2875pt x 511.9125pt>
 File: ./img/svmhyperplane.png Graphic file (type png)
 
 <use ./img/svmhyperplane.png>
 Package pdftex.def Info: ./img/svmhyperplane.png used on input line 104.
 (pdftex.def)             Requested size: 244.91066pt x 204.76137pt.
- [13 <./img/svmhyperplane.png>]
+ [14 <./img/svmhyperplane.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
-) (./cap3-abordagemjogueme.tex [14]
+) (./cap3-abordagemjogueme.tex [15]
 Cap\'{\i }tulo 3.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 1.
@@ -571,7 +577,7 @@ Underfull \hbox (badness 2762) in paragraph at lines 12--13
 []\T1/ptm/m/n/12 O jogo deve
  []
 
-[15
+[16
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
@@ -583,7 +589,7 @@ Overfull \hbox (18.1413pt too wide) in paragraph at lines 14--15
 []
  []
 
-<./img/visaosistema.png, id=95, 429.2838pt x 348.3414pt>
+<./img/visaosistema.png, id=98, 429.2838pt x 348.3414pt>
 File: ./img/visaosistema.png Graphic file (type png)
 
 <use ./img/visaosistema.png>
@@ -593,30 +599,30 @@ Package pdftex.def Info: ./img/visaosistema.png used on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16] [17 <./img/visaosistema.png>]
-<./img/biomecprocessor2.png, id=103, 330.5148pt x 431.6928pt>
+[17] [18 <./img/visaosistema.png>]
+<./img/biomecprocessor2.png, id=106, 330.5148pt x 431.6928pt>
 File: ./img/biomecprocessor2.png Graphic file (type png)
 
 <use ./img/biomecprocessor2.png>
 Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 44.
 (pdftex.def)             Requested size: 352.8155pt x 460.83961pt.
 
-<./img/exsinalposicaoypunhodireito.png, id=104, 545.78906pt x 339.51843pt>
+<./img/exsinalposicaoypunhodireito.png, id=107, 545.78906pt x 339.51843pt>
 File: ./img/exsinalposicaoypunhodireito.png Graphic file (type png)
 
 <use ./img/exsinalposicaoypunhodireito.png>
 Package pdftex.def Info: ./img/exsinalposicaoypunhodireito.png used on input li
 ne 56.
 (pdftex.def)             Requested size: 441.01772pt x 274.34529pt.
- [18 <./img/biomecprocessor2.png>]
-<./img/deteccaopicosvales.png, id=109, 599.23875pt x 402.75468pt>
+ [19 <./img/biomecprocessor2.png>]
+<./img/deteccaopicosvales.png, id=112, 599.23875pt x 402.75468pt>
 File: ./img/deteccaopicosvales.png Graphic file (type png)
 
 <use ./img/deteccaopicosvales.png>
 Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 65.
 (pdftex.def)             Requested size: 441.01772pt x 296.41751pt.
- [19 <./img/exsinalposicaoypunhodireito.png (PNG copy)>] <./img/remocaoruidocic
-lo.png, id=113, 458.46281pt x 311.66437pt>
+ [20 <./img/exsinalposicaoypunhodireito.png (PNG copy)>] <./img/remocaoruidocic
+lo.png, id=116, 458.46281pt x 311.66437pt>
 File: ./img/remocaoruidociclo.png Graphic file (type png)
 
 <use ./img/remocaoruidociclo.png>
@@ -631,30 +637,30 @@ LaTeX Warning: Command \textordmasculine invalid in math mode on input line 91.
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 94.
 
 
-[20 <./img/deteccaopicosvales.png (PNG copy)>]
-<./img/amplitude-braco.png, id=117, 421.575pt x 316.18124pt>
+[21 <./img/deteccaopicosvales.png (PNG copy)>]
+<./img/amplitude-braco.png, id=121, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco.png Graphic file (type png)
 
 <use ./img/amplitude-braco.png>
 Package pdftex.def Info: ./img/amplitude-braco.png used on input line 115.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
-<./img/amplitude-braco-picos.png, id=118, 421.575pt x 316.18124pt>
+<./img/amplitude-braco-picos.png, id=122, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco-picos.png Graphic file (type png)
 
 <use ./img/amplitude-braco-picos.png>
 Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 124
 .
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
- [21 <./img/remocaoruidociclo.png (PNG copy)>] [22 <./img/amplitude-braco.png (
+ [22 <./img/remocaoruidociclo.png (PNG copy)>] [23 <./img/amplitude-braco.png (
 PNG copy)>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
-) [23 <./img/amplitude-braco-picos.png (PNG copy)>]
+) [24 <./img/amplitude-braco-picos.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 152.
 
-<./img/vetormedionormalozadoescalonado.png, id=131, 421.575pt x 316.18124pt>
+<./img/vetormedionormalozadoescalonado.png, id=134, 421.575pt x 316.18124pt>
 File: ./img/vetormedionormalozadoescalonado.png Graphic file (type png)
 
 <use ./img/vetormedionormalozadoescalonado.png>
@@ -662,7 +668,7 @@ Package pdftex.def Info: ./img/vetormedionormalozadoescalonado.png used on inpu
 t line 159.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
-<./img/ciclomovimentoremovido.png, id=132, 421.575pt x 316.18124pt>
+<./img/ciclomovimentoremovido.png, id=135, 421.575pt x 316.18124pt>
 File: ./img/ciclomovimentoremovido.png Graphic file (type png)
 
 <use ./img/ciclomovimentoremovido.png>
@@ -676,7 +682,7 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 177.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 177.
 
-[24 <./img/vetormedionormalozadoescalonado.png (PNG copy)>] [25 <./img/ciclomov
+[25 <./img/vetormedionormalozadoescalonado.png (PNG copy)>] [26 <./img/ciclomov
 imentoremovido.png (PNG copy)>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -687,7 +693,7 @@ Underfull \hbox (badness 1199) in paragraph at lines 223--224
 ví-duo di-ag-nos-ti-cado
  []
 
-) (./cap4_arquitetura.tex [26] [27]
+) (./cap4_arquitetura.tex [27] [28]
 Cap\'{\i }tulo 4.
 File: ./img/visaosistema.png Graphic file (type png)
 <use ./img/visaosistema.png>
@@ -695,88 +701,88 @@ Package pdftex.def Info: ./img/visaosistema.png used on input line 8.
 (pdftex.def)             Requested size: 343.4275pt x 278.6735pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 16.
- [28
+ [29
 
 ]
-<./img/articulacoes.png, id=149, 694.09312pt x 514.17094pt>
+<./img/articulacoes.png, id=152, 694.09312pt x 514.17094pt>
 File: ./img/articulacoes.png Graphic file (type png)
 
 <use ./img/articulacoes.png>
 Package pdftex.def Info: ./img/articulacoes.png used on input line 31.
 (pdftex.def)             Requested size: 277.63232pt x 205.66473pt.
 
-<./img/diagclasszigfu.png, id=150, 440.64626pt x 422.57875pt>
+<./img/diagclasszigfu.png, id=153, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
 <use ./img/diagclasszigfu.png>
 Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 43.
 (pdftex.def)             Requested size: 352.51747pt x 338.06345pt.
- [29] [30 <./img/articulacoes.png> <./img/diagclasszigfu.png>]
-<./img/catch-the-spheres.png, id=158, 1063.72406pt x 557.08125pt>
+ [30] [31 <./img/articulacoes.png> <./img/diagclasszigfu.png>]
+<./img/catch-the-spheres.png, id=161, 1063.72406pt x 557.08125pt>
 File: ./img/catch-the-spheres.png Graphic file (type png)
 
 <use ./img/catch-the-spheres.png>
 Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 67.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
- [31 <./img/catch-the-spheres.png (PNG copy)>] [32] [33]
+ [32 <./img/catch-the-spheres.png (PNG copy)>] [33] [34]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
- [34]) (./cap5-avaliacao.tex [35]
+ [35]) (./cap5-avaliacao.tex [36]
 Cap\'{\i }tulo 5.
-[36
+[37
 
-] [37]
+] [38]
 Overfull \hbox (8.11433pt too wide) in paragraph at lines 39--47
 [][] 
  []
 
-[38] [39] [40] [41] [42] [43]
+[39] [40] [41] [42] [43] [44]
 Package acronym Info: Label `acro:er' newly defined as it shall be overridden
 although it is yet undefined on input line 240.
- [44]
-<./img/gametremor.png, id=204, 388.45125pt x 579.16376pt>
+ [45]
+<./img/gametremor.png, id=208, 388.45125pt x 579.16376pt>
 File: ./img/gametremor.png Graphic file (type png)
 
 <use ./img/gametremor.png>
 Package pdftex.def Info: ./img/gametremor.png used on input line 265.
 (pdftex.def)             Requested size: 194.22514pt x 289.58116pt.
- [45 <./img/gametremor.png>]
+ [46 <./img/gametremor.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[46]
-
-LaTeX Warning: Text page 47 contains only floats.
-
 [47]
+
+LaTeX Warning: Text page 48 contains only floats.
+
+[48]
 
 Package Fancyhdr Warning: \headheight is too small (15.02399pt): 
  Make it at least 26.98592pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48] [49]
-<./img/movaddcutctionartist2.png, id=222, 1062.97125pt x 804.00375pt>
+[49] [50]
+<./img/movaddcutctionartist2.png, id=225, 1062.97125pt x 804.00375pt>
 File: ./img/movaddcutctionartist2.png Graphic file (type png)
 
 <use ./img/movaddcutctionartist2.png>
 Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 396
 .
 (pdftex.def)             Requested size: 265.74216pt x 201.00044pt.
- [50 <./img/movaddcutctionartist2.png (PNG copy)>]
+ [51 <./img/movaddcutctionartist2.png (PNG copy)>]
 Overfull \hbox (1.70758pt too wide) in paragraph at lines 414--424
  [][] 
  []
 
-<img/signalamplitudepeakvaley-2.png, id=226, 719.68875pt x 446.41782pt>
+<img/signalamplitudepeakvaley-2.png, id=230, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
 
 <use img/signalamplitudepeakvaley-2.png>
 Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 
 428.
 (pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
- [51 <./img/signalamplitudepeakvaley-2.png (PNG copy)>] [52]
-<./img/vetormedioaducao.png, id=234, 743.02594pt x 453.19313pt>
+ [52 <./img/signalamplitudepeakvaley-2.png (PNG copy)>] [53]
+<./img/vetormedioaducao.png, id=237, 743.02594pt x 453.19313pt>
 File: ./img/vetormedioaducao.png Graphic file (type png)
 
 <use ./img/vetormedioaducao.png>
@@ -790,8 +796,8 @@ Overfull \hbox (41.94342pt too wide) in paragraph at lines 458--459
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53 <./img/vetormedioaducao.png (PNG copy)>]
-<./img/gridsearch.png, id=238, 558.888pt x 428.802pt>
+[54 <./img/vetormedioaducao.png (PNG copy)>]
+<./img/gridsearch.png, id=241, 558.888pt x 428.802pt>
 File: ./img/gridsearch.png Graphic file (type png)
 
 <use ./img/gridsearch.png>
@@ -801,7 +807,7 @@ Package pdftex.def Info: ./img/gridsearch.png used on input line 499.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/gridsearchfprate.png, id=239, 515.526pt x 445.665pt>
+<./img/gridsearchfprate.png, id=242, 515.526pt x 445.665pt>
 File: ./img/gridsearchfprate.png Graphic file (type png)
 
 <use ./img/gridsearchfprate.png>
@@ -811,48 +817,48 @@ Package pdftex.def Info: ./img/gridsearchfprate.png used on input line 510.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54] [55 <./img/gridsearch.png (PNG copy)>]
+[55] [56 <./img/gridsearch.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 545.
- [56 <./img/gridsearchfprate.png (PNG copy)>] [57] <./img/gqm.png, id=253, 739.
+ [57 <./img/gridsearchfprate.png (PNG copy)>] [58] <./img/gqm.png, id=256, 739.
 563pt x 357.9774pt>
 File: ./img/gqm.png Graphic file (type png)
 
 <use ./img/gqm.png>
 Package pdftex.def Info: ./img/gqm.png used on input line 622.
 (pdftex.def)             Requested size: 369.7806pt x 178.98825pt.
- [58]
+ [59]
 
-LaTeX Warning: Reference `table:resultados_gqm' on page 59 undefined on input l
+LaTeX Warning: Reference `table:resultados_gqm' on page 60 undefined on input l
 ine 649.
 
-[59 <./img/gqm.png>] <./img/chart_1-.png, id=261, 488.57532pt x 356.0803pt>
+[60 <./img/gqm.png>] <./img/chart_1-.png, id=264, 488.57532pt x 356.0803pt>
 File: ./img/chart_1-.png Graphic file (type png)
 
 <use ./img/chart_1-.png>
 Package pdftex.def Info: ./img/chart_1-.png used on input line 679.
 (pdftex.def)             Requested size: 342.0004pt x 249.25452pt.
- <./img/chart_3-.png, id=262, 445.665pt x 367.3725pt>
+ <./img/chart_3-.png, id=265, 445.665pt x 367.3725pt>
 File: ./img/chart_3-.png Graphic file (type png)
 
 <use ./img/chart_3-.png>
 Package pdftex.def Info: ./img/chart_3-.png used on input line 687.
 (pdftex.def)             Requested size: 311.96336pt x 257.15898pt.
 
-<./img/chart_10-.png, id=263, 472.01344pt x 363.60844pt>
+<./img/chart_10-.png, id=266, 472.01344pt x 363.60844pt>
 File: ./img/chart_10-.png Graphic file (type png)
 
 <use ./img/chart_10-.png>
 Package pdftex.def Info: ./img/chart_10-.png used on input line 695.
 (pdftex.def)             Requested size: 330.40715pt x 254.52417pt.
- [60] [61 <./img/chart_1-.png> <./img/chart_3-.png>]
-[62 <./img/chart_10-.png>]) (./cap6-conclusoes.tex [63
+ [61] [62 <./img/chart_1-.png> <./img/chart_3-.png>]
+[63 <./img/chart_10-.png>]) (./cap6-conclusoes.tex [64
 
 ]
 Cap\'{\i }tulo 6.
-[64
+[65
 
-]) (./tese.bbl [65]
+]) (./tese.bbl [66]
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -864,7 +870,7 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-[66
+[67
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 158--162
@@ -872,7 +878,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--162
 ptm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Disponível em:
  []
 
-[67] [68] [69] [70]
+[68] [69] [70] [71]
 Underfull \hbox (badness 10000) in paragraph at lines 606--612
 []\T1/ptm/m/n/12 Research, Provalis: \T1/ptm/m/it/12 Qda miner lite v1.2.2\T1/p
 tm/m/n/12 .  \T1/ptm/m/it/12 Soft-ware\T1/ptm/m/n/12 , Disponível em:
@@ -884,26 +890,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 606--612
 oftware/.  Úl-timo
  []
 
-[71] [72]) (./apend_comite.tex [73]
+[72] [73]) (./apend_comite.tex [74]
 Ap\^endice A.
-[74
 
-] [75] [76] [77] [78] [79]
+LaTeX Warning: Citation `synnott_wiipd_ 2012' on page 75 undefined on input lin
+e 4.
+
+[75
+
+] [76] [77] [78] [79] [80]
 File: ./img/catch-the-spheres.png Graphic file (type png)
  <use ./img/catch-the-spheres.png>
-Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 139.
+Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 140.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
- [80] [81]
-[82] [83]
-Overfull \hbox (3.61714pt too wide) in paragraph at lines 246--253
+ [81] [82]
+[83] [84]
+Overfull \hbox (3.61714pt too wide) in paragraph at lines 247--254
  [][] 
  []
 
-) (./apend3-entrevista-semi.tex [84]
+) (./apend3-entrevista-semi.tex [85]
 Ap\^endice B.
-[85
+[86
 
-]) (./apendice-diagnostico.tex [86] [87]
+]) (./apendice-diagnostico.tex [87] [88]
 Ap\^endice C.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -916,9 +926,9 @@ Underfull \hbox (badness 1466) in paragraph at lines 2--3
 [] \T1/ptm/m/n/12 de Lon-dres [] 36[]. O pa-ci-ente será
  []
 
-[88
+[89
 
-]) (./questionario-gqm.tex [89]
+]) (./questionario-gqm.tex [90]
 Ap\^endice D.
 
 Overfull \hbox (12.0pt too wide) in alignment at lines 5--8
@@ -945,9 +955,9 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 16--31
  [] 
  []
 
-[90
+[91
 
-]) [91] (./tese.aux)
+]) [92] (./tese.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -956,13 +966,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8894 strings out of 493304
- 125202 string characters out of 6139871
- 308721 words of memory out of 5000000
- 12116 multiletter control sequences out of 15000+600000
+ 8895 strings out of 493304
+ 125223 string characters out of 6139871
+ 308723 words of memory out of 5000000
+ 12117 multiletter control sequences out of 15000+600000
  63829 words of font info for 75 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 38i,17n,45p,1378b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,17n,45p,1386b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -974,10 +984,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (101 pages, 1789794 bytes).
+Output written on tese.pdf (102 pages, 1792567 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
+ 409 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
