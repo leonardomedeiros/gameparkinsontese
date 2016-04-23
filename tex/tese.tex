@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Para utilizar ese modelo sao necessarios os seguintes arquivos:
+%%
+%% copin.cls
+%% copin.sty
+%% mestre.sty
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,titlepage]{copin}
+\usepackage[portuges,english]{babel}
+\usepackage{copin,doutor,epsfig}
+\usepackage{times}
+%\usepackage{kpfonts}
+%\usepackage{fouriernc}
+\usepackage{acronym}
+\usepackage{amsmath}
+
+%-------------------------- Para usar acentuacaoo em sistemas ISO8859-1 ------------------------------------
+% Se estiver usando o Microsoft Windows ou linux com essa codificacao, descomente essa linhas abaixo
+% e comente as linhas referentes ao UTF8
+%\usepackage[latin1]{inputenc} % Usar acentuacao em sistemas ISO8859-1, comentar a linha com  \usepackage[utf8x]{inputenc}
+%-----------------------------------------------------------------------------------------------------
+
+%-------------------------- Para usar acentuacao em sistemas UTF8 ------------------------------------
+% Para a maior parte das distribuicoes linux, usar a opcao utf8x (lembrar de comentar as linha referente a ISO8859-1 acima)
+%\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+% \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%-----------------------------------------------------------------------------------------------------
+
+
+\usepackage{fancyheadings}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{longtable} %tabelas longas, para tabelas que ultrapassam uma pagina
+\usepackage{placeins}
+
+%\usepackage{abntex2cite}
+%\usepackage[num]{abntex2cite}
+
+\usepackage{babelbib}
+
+%\input{psfig.sty}
+
+\usepackage{multirow}
+% ----------------- Para inserir codigo fonte de linguagens de programacao no documento -------------
+\usepackage{listings}
+\lstset{numbers=left,
+stepnumber=1,
+firstnumber=1,
+%numberstyle=\tiny,
+extendedchars=true,
+breaklines=true,	
+frame=tb,
+basicstyle=\footnotesize,
+stringstyle=\ttfamily,
+showstringspaces=false
+}
+\renewcommand{\lstlistingname}{C\'odigo Fonte}
+\renewcommand{\lstlistlistingname}{Lista de C\'odigos Fonte}
+% ---------------------------------------------------------------------------------------------------
+
+\selectlanguage{portuges}
+\sloppy
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\Titulo{Abordagem não Invasiva de Monitoramento de Sinais Biomecânicos Baseada em Jogos Eletrônicos: Um Estudo de Caso com a Doença de Parkinson}
+%\Titulo{Abordagem de Monitoramento de Sinais Motores da Doença de Parkinson Baseada em Jogos Eletrônicos} \Autor{Leonardo Melo de Medeiros} \Data{Março de 2014}
+\Titulo{Uma Abordagem de Monitoramento dos Sinais Motores da Doença de Parkinson Baseada em Jogos Eletrônicos}
+\Area{Ciência da Computação}
+\Pesquisa{Engenharia de Software}
+\Autor{Leonardo Melo de Medeiros}
+\Orientadores{Leandro Dias da Silva (Orientador)\linebreak
+Hyggo Oliveira de Almeida (Orientador)}
+
+\newpage
+\cleardoublepage	
+
+\PaginadeRosto
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{resumo} 
+\input{resumo.tex}
+\end{resumo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+\input{abstract.tex}
+\end{abstract}
+
+\newpage	
+\cleardoublepage	
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{resumo} 
+% \input{resumo.tex}
+% \end{resumo}
+% 
+% \newpage
+% \cleardoublepage
+% 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{summary}
+% \input{abstract.tex}
+% \end{summary}
+
+
+\newpage
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{agradecimentos}
+% \input{agradecimentos.tex}
+% \end{agradecimentos}
+
+\clearpage
+
+
+%--- Acronyms -----------------------------------------------------------------%
+% how to use acronyms:
+% \ac = use acronym, first time write both, full name and acronym
+% \acf = use full name (text + acronym)
+% \acs = only use acronym
+% \acl = only use long text
+% \acp, acfp, acsp, aclp = use plural form for acronym (append 's')
+% \acsu, aclu = write + mark as used
+% \acfi = write full name in italics and acronym in normal style
+% \acused = mark acronym as used
+% \acfip = full, emphasized, plural, used
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Definicao do cabecalho: secao do lado esquerdo e numero da pagina do lado direito
+\pagestyle{fancy}
+\addtolength{\headwidth}{\marginparsep}\addtolength{\headwidth}{\marginparwidth}\headwidth = \textwidth
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}\lhead[\fancyplain{}{\bfseries\thepage}]%
+	     {\fancyplain{}{\emph{\rightmark}}}\rhead[\fancyplain{}{\bfseries\leftmark}]%
+             {\fancyplain{}{\bfseries\thepage}}\cfoot{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\selectlanguage{portuges}
+
+\Sumario
+%\ListadeSimbolos
+%\section{Lista de Acrônimos}
+\ListadeSimbolos
+%\newpage
+%\textbf{Lista de Acrônimos} \\
+\begin{acronym}
+%         \acro{ban}[BAN]{Body Area Network}
+	\acro{cep} [CEP] {Comitê de Ética em Pesquisa}
+	%\acro{cbse} [CBSE] {Component Based Software Engineer}
+	\acro{dp}[Parkinson]{Doença de Parkinson}
+	\acro{er}[ER]{Engenharia de Requisitos}
+	%\acro{ecg} [ECG] {Eletrocardiograma}
+	%\acro{epf}[EPF]{\textit{Eclipse Process Framework}}
+	%\acro{fps} [FPS] {First-person shooter}
+	\acro{gqm} [GQM] {\textit{Goal-Question-Metric}}
+	\acro{oms} [OMS] {Organização Mundial de Saúde}	
+	%\acro{spem} [SPEM]{\textit{Software Process Engineering Metamodel}}
+	\acro{sms} [SMS]{Sistemas de Monitoramento da Saúde}
+	\acro{svm} [SVM]{Máquina de Vetor de Suporte}
+	%\acro{fvrs} [FVRS] {Força Vertical de Reação do Solo}
+	\acro{jogue-me} [JOGUE-ME] {Jogo com Monitoramento de Saúde Embutido}
+	\acro{pca} [PCA] {Análise de Componentes Principais}
+	
+	
+% 	\acro{ecg}[ECG]{Eletrocardiograma}
+% 	\acro{eeg}[EEG]{Eletroencefalograma}
+% 	\acro{emf}[EMF]{Eletromagnetic Fields}        
+% 	\acro{hcd}[HCD]{Human Centered Design}               
+% 	\acro{hci}[HCI]{Human Computer Interaction}
+% 	\acro{jss}[JSS]{Jogos Sérios Aplicados a Saúde}
+% 	\acro{msn} [MSN] {Mobile Sensor Network}
+% 	\acro{marks} [MARKS] {Middleware Adaptability for Resource Discovery, Knowledge Usability and Self-healing}
+% 	\acro{pan} [PAN] {Patient Area Network}        
+%         \acro{nfc}[NFC]{Near Field Communication}
+% 	\acro{rfid}[RFID]{Radio Frequency IDentification}
+%         \acro{wan}[WAN]{Wide Area Network}
+\end{acronym}
+
+\listoffigures
+\listoftables
+\lstlistoflistings %lista de codigos fonte - Para inserir a listagem de codigos fonte
+\newpage
+\cleardoublepage
+
+\Introducao
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Hifenizacao - Colocar lista de palavras que nao devem ser separadas e que 
+% nao estao no dicionario portugues.
+% As palavras do dicionario portugues ja sao separadas corretamente pelo lateX
+%
+\hyphenation{ Hardware Software etc  }
+
+\input{cap1-introducao}
+\input{cap2-fundamentacao}
+\input{cap3-abordagemjogueme}
+\input{cap4_arquitetura}	
+\input{cap5-avaliacao}
+\input{cap6-conclusoes}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliografia
+%% Coloque suas referencias no arquivo ref.bib e descomente as proximas duas linhas
+%\bibliographystyle{plain}
+%\bibliographystyle{unsrt}
+\bibliographystyle{babplain}
+
+
+%\bibliographystyle{plain}
+\bibliography{biblmmcor}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Apendice
+% Caso seja necessario algum apendice, descomente a proxima linha.
+\appendix
+\input{apend_comite}
+\input{apend3-entrevista-semi}
+\input{apendice-diagnostico}
+\input{questionario-gqm}
+
+\end{document}
+
+
