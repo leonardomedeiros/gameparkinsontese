@@ -39,19 +39,53 @@ O cliente \ac{jogue-me} é um jogo com funcionalidades de aquisição de dados m
 
 Um~\ac{jogue-me} para o monitoramento do~\ac{dp}
 
-baseado em jogos Sistema de Monitoramento da Doença de Parkinson (SMDP) permitirá avaliar os sinais motores dos pacientes de Parkinson, segundo a terceira parte do exame Motor da UPDRS [8]. O SMDP consiste numa arquitetura Cliente/Servidor (Figura 1), onde o Cliente fará uso de sensores de movimento para a captura dos dados. Esses dados serão enviados para o Serviço Avançado da RNP por meio de requisições WS-Security. O servidor do SMDP estará hospedado no Internet Data Center da Rede Nacional de Ensino e Pesquisa (RNP-IDC). O servidor será composto por quatro módulos principais: processamento de sinais biomecânicos, extração de características do movimento, classificação dos dados por meio de
-aprendizagem de máquina e visualização das informações motoras. Para mensurar os movimentos do paciente, serão utilizadas as técnicas motoras da UPDRS [8] que permitem diagnosticar e acompanhar o progresso da doença, por meio de movimentos que mensuram: rigidez do corpo, toque dos dedos (Finger Tapping), movimentos de abdução e adução dos membros superiores e inferiores. Os movimentos serão capturados por meio de um aparato tecnológico que será desenvolvido neste projeto e que fará uso dos
-sensores: movimento MS– Kinnect e o sensor de gesto Intel Creative Gesture.
+baseado em jogos Sistema de Monitoramento da Doença de Parkinson (SMDP)
+permitirá avaliar os sinais motores dos pacientes de Parkinson, segundo a
+terceira parte do exame Motor da UPDRS [8]. O SMDP consiste numa
+arquitetura Cliente/Servidor (Figura 1), onde o Cliente fará uso de sensores
+de movimento para a captura dos dados. Esses dados serão enviados para o
+Serviço Avançado da RNP por meio de requisições WS-Security. O servidor
+do SMDP estará hospedado no Internet Data Center da Rede Nacional de
+Ensino e Pesquisa (RNP-IDC). O servidor será composto por quatro módulos
+principais: processamento de sinais biomecânicos, extração de
+características do movimento, classificação dos dados por meio de
+aprendizagem de máquina e visualização das informações motoras. Para
+mensurar os movimentos do paciente, serão utilizadas as técnicas motoras
+da UPDRS [8] que permitem diagnosticar e acompanhar o progresso da
+doença, por meio de movimentos que mensuram: rigidez do corpo, toque dos
+dedos (Finger Tapping), movimentos de abdução e adução dos membros
+superiores e inferiores. Os movimentos serão capturados por meio de um
+aparato tecnológico que será desenvolvido neste projeto e que fará uso dos
+sensores: movimento MS– Kinnect e o sensor de gesto Intel Creative
+Gesture.
 
-O sensor de movimento MS-Kinect possui uma câmera infravermelho capaz de reconhecer os movimentos de todo o corpo humano, identificando as posições das articulações anatômicas [4], que são utilizadas na análise da cinemática do movimento humano [5]. Esta análise permite identificar o progresso dos sintomas motores do Parkinson. O sensor de gestos, Intel Creative Interactive, permite capturar os dedos das mãos dos usuários isto torna factível a mensuração do exame clínico de Toque dos Dedos aplicados em parkinsonianos para avaliar o progresso da doença [8]. Este é um exame necessário, realizado esporadicamente e sem dados quantitativos durante a consulta ao neurologista.
+O sensor de movimento MS-Kinect possui uma câmera infravermelho
+capaz de reconhecer os movimentos de todo o corpo humano, identificando
+as posições das articulações anatômicas [4], que são utilizadas na análise da
+cinemática do movimento humano [5]. Esta análise permite identificar o
+progresso dos sintomas motores do Parkinson.
+O sensor de gestos, Intel Creative Interactive, permite capturar os
+dedos das mãos dos usuários isto torna factível a mensuração do exame
+clínico de Toque dos Dedos aplicados em parkinsonianos para avaliar o
+progresso da doença [8]. Este é um exame necessário, realizado
+esporadicamente e sem dados quantitativos durante a consulta ao
+neurologista.
 
 Com a captura destes dados será possível quantificar o movimento e
 acompanhar o progresso dos sintomas e disponibilizar os resultados para o
 sistema de Telesaúde. Logo, o~\ac{jogue-me} permitirá uma participação mais efetiva do profissional de saúde. Logo, com o uso do~\ac{jogue-me} é possível adquirir os movimentos do paciente que permitirão identificar a evolução dos sintomas do Parkinson, quantificando a sua saúde motora. Atualmente, a análise dos sintomas motores é feita de forma subjetiva pelo cuidador ou esporádica pelo neurologista quando o paciente está em atendimento clínico, visto que, atualmente não existem mecanismos disponíveis em larga escala que permitam quantificar os sintomas motores e acompanhar o tratamento a distância. Este projeto pretende atender a esta demanda e auxiliar a prática dos profissionais de saúde melhorando a qualidade de vida dos pacientes com~\ac{dp}.
 
 
-Os dados adquiridos pelos sensores serão mensurados por meio de técnicas de processamento de sinais, onde os sintomas motores serão identificados por reconhecimento de padrão e métodos de regressão linear capazes de quantificar os sintomas motores. Além disso, utilizaremos máquinas de vetor de suporte (SVM) para identificar indivíduos
-parkinsonianos e possibilitar o diagnóstico precoce da doença. Estas técnicas foram avaliadas por nosso grupo de pesquisa em um trabalho preliminar [1], neste estudo foi realizada uma análise da marcha de indivíduos parkinsonianos com grupo de controle, onde obteve-se uma taxa de acerto de 81,66\% na classificação dos indivíduos.
+Os dados adquiridos pelos sensores serão mensurados por meio de
+técnicas de processamento de sinais, onde os sintomas motores serão
+identificados por reconhecimento de padrão e métodos de regressão linear
+capazes de quantificar os sintomas motores. Além disso, utilizaremos
+máquinas de vetor de suporte (SVM) para identificar indivíduos
+parkinsonianos e possibilitar o diagnóstico precoce da doença. Estas técnicas
+foram avaliadas por nosso grupo de pesquisa em um trabalho preliminar [1],
+neste estudo foi realizada uma análise da marcha de indivíduos
+parkinsonianos com grupo de controle, onde obteve-se uma taxa de acerto
+de 81,66\% na classificação dos indivíduos.
 
 
 \section{Processamento de Dados Biomecânicos}\label{sec:processador_bio}
