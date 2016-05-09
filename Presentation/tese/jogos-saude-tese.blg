@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: jogos-saude-tese.aux
+The style file: authordate2.bst
+Database file #1: biblmm.bib
+You've used 10 entries,
+            2455 wiz_defined-function locations,
+            636 strings with 5982 characters,
+and the built_in function-call counts, 4183 in all, are:
+= -- 415
+> -- 147
+< -- 36
++ -- 44
+- -- 42
+* -- 330
+:= -- 684
+add.period$ -- 45
+call.type$ -- 10
+change.case$ -- 80
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 157
+empty$ -- 306
+format.name$ -- 58
+if$ -- 871
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 13
+newline$ -- 57
+num.names$ -- 32
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 74
+quote$ -- 0
+skip$ -- 160
+stack$ -- 0
+substring$ -- 252
+swap$ -- 43
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 70
+warning$ -- 0
+while$ -- 32
+width$ -- 0
+write$ -- 134
