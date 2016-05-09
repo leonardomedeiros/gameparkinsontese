@@ -521,131 +521,9 @@ Neste trabalho, tem-se como objetivo a concepção de uma abordagem computaciona
 \end{frame}
 
 
-\begin{frame}{Análise da Marcha por Base de Dados Pública (\textit{Parkinson Disease}~\cite{physionet}}
-  \begin{block}{Objetivo do Estudo}
-      \begin{itemize}[<+->]
-				\item Aumentar o número de indivíduos da amostra;
-						\begin{itemize}
-							\item 50 Indivíduos Parkinsonianos;
-							\item 50 Indivíduos Grupo Controle.
-						\end{itemize}
-				\item estudo de um movimento característico da doença;
-				\item preservar a integridade física dos indivíduos;
-				\item comparar os resultados obtidos.
-			\end{itemize}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  \end{block}
-\end{frame}
-
-\begin{frame}{Sensor de Captura da FVRS \textit{Ultraflex Computer Dyno Graphy}}
-      \center \includegraphics[height=2.8 in]{img/ultraflexdinografia.png}
-\end{frame}
-
-\begin{frame}{Análise da Marcha~\cite{neumann2012cinesiologia}}
-      \center \includegraphics[height=2.2 in]{img/analisemarcha.png}			
-\end{frame}
 
 
 
-
-
-
-
-\begin{frame}{Classificador: Análise de Componentes Principais (PCA)}
-\begin{block}{}
-			A PCA consiste em aplicar uma transformação linear nos dados de modo que o resultado desta transformação demonstre suas componentes mais relevantes ~\cite{smith2002}.
-\end{block}
-
-\begin{block}{Passos Para Execução:}
-	\begin{enumerate}[<+->]
-		\item Obter dados;
-		\item subtrair a média;
-		\item calcular a matriz de covariância;
-		\item calcular autovalores e autovetores da matriz de covariância;
-		\item escolher os componentes e formar os vetores de características;
-		\item projetar no autoespaço;
-		\item identificar indivíduo mais próximo por distância euclidiana.
-	\end{enumerate}			
-\end{block}
-\end{frame}
-
-\begin{frame}{Vetor Médio dos Ciclos da Marcha}
-  %\begin{block}{}
-      \center \includegraphics[height=2.6 in]{img/vetormediociclosdamarcha.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
-\end{frame}
-
-\begin{frame}{Projeção dos Indivíduos no Autoespaço}
-      \center \includegraphics[height=2.6 in]{img/projecao-pca-parkinson-healthy.png}
-\end{frame}
-
-\begin{frame}{Resultado da Classificação}
-   \begin{block}{PCA com validação cruzada com a repetição de 10 vezes o 10-K-Fold}   
-   \begin{columns}[c]
-     \begin{column}{0.5\linewidth}
-				\includegraphics[width=5cm]{img/boxplot-eigengaits-parkinsondatabase-error-kfold.png}
-     \end{column}
-
-     \begin{column}{0.5\linewidth}
-				\includegraphics[width=5cm]{img/boxplot-eigengaits-parkinsondatabase.png}
-    \end{column}
-\end{columns}
-\end{block}
-\end{frame}
-
-\begin{frame}{Matriz de Confusão}
-	\begin{block}{Resultado da Matriz de Confusão da PCA na Base de Dados \textit{Parkinson Disease}}
-\begin{table}[!htbp]
-\label{table:resultadomatrizconfusaopca}
-\centering
-\begin{tabular}{l|c|c|}
-\cline{2-3}
-\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Classe Preditiva}}} \\ \cline{2-3} 
-                                             & \textbf{Parkinson}      & \textbf{Não-Parkinson}         \\ \hline
-\multicolumn{1}{|l|}{\textbf{Parkinson}} & 429       & 71           \\ \hline
-\multicolumn{1}{|l|}{\textbf{Não Parkinson}}     & 114           & 386     \\ \hline
-\end{tabular}
-\end{table}
-	\end{block}
-\end{frame}
-
-
-\begin{frame}
-   \frametitle{Validação Hipótese H2 - Matriz Confusão (Marcha-PCA e Movimento Adução-SVM)}
-		\begin{block}{}
-				\begin{table}
-				\label{table:metricasmatrizconfusaosvm}
-				\centering
-				\begin{tabular}{|l|r|}
-				\hline
-				\multicolumn{2}{|l|}{\textbf{Métricas - PCA Base de Dados}} \\ \hline
-				\textbf{TpRate}                    & 85,80$\%$\                 \\ \hline
-				\textbf{FpRate}                    & 22,80$\%$\                \\ \hline
-				\textbf{Precision}                 & 79,01$\%$\                \\ \hline
-				\textbf{Accuracy}                  & 81,50$\%$\                \\ \hline
-				\textbf{F-Measure}                 & 82,26$\%$\                \\ \hline
-				\end{tabular}
-				\end{table}
-    \end{block} 
-	
-	\begin{block}{}
-   		\begin{table}[!htbp]
-				\label{table:metricasmatrizconfusao}
-				\centering
-				\begin{tabular}{|l|r|}
-				\hline
-				\multicolumn{2}{|l|}{\textbf{Métricas - SVM Caso-Controle}} \\ \hline
-				\textbf{TpRate}                    & 80,00$\%$\                 \\ \hline
-				\textbf{FpRate}                    & 16,67$\%$\                \\ \hline
-				\textbf{Precision}                 & 85,71$\%$\                \\ \hline
-				\textbf{Accuracy}                  & 81,48$\%$\                \\ \hline
-				\textbf{F-Measure}                 & 82,76$\%$\                \\ \hline
-				\end{tabular}
-				\end{table}
-	\end{block}
-
-\end{frame}
 
 \section{GQM}
 \subsection{}
@@ -706,20 +584,33 @@ Neste trabalho, tem-se como objetivo a concepção de uma abordagem computaciona
 
 \section{Finalização}
 \subsection{}
-\begin{frame}{Publicação}
+\begin{frame}{Publicações}
 \begin{block}{}
-Medeiros L., Fischer. R., Oliveira H., Silva L, and Perkusich A. \textbf{Monitoring parkinson
-related gait disorder with eigengaits} - \textit{XX World Congress on Parkinson Disease and Related Disorders} - 2013.
+Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
+  \begin{itemize}
+   \item \textit{Abstract}: \textit{Monitoring Parkinson related Gait Disorders with Eigengaits}, no, \textit{XX World Congress on Parkinson's Disease and Related Disorders} (2013)~\cite{lmmeigengaits2013};
+   \item \textit{Full Paper}: \textit{A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgame2016};
+   \item \textit{Full Paper}: \textit{A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgait2016}.
+  \end{itemize}
 \end{block}
 \end{frame}
 
-\begin{frame}{Finalização do Trabalho}
+\begin{frame}{Trabalhos Futuros}
 \begin{enumerate}[<+->]
 	\item Realizar estudo de Regressão Linear nos Dados do estudo Caso-Controle (Ms-Kinnect);
 	\item Realizar estudos de curva de aprendizagem nos Dados do estudo Caso-Controle;
 	\item Refinar o processo de desenvolvimento para as fases de Construção e Pós-Validação;
 	\item Analisar o motivo da ocorrência de 2 indivíduos de controle que foram classificados como Parkinsonianos.
 \end{enumerate}
+\end{frame}
+\begin{block}{}
+A partir dos resultados apresentados nesta tese e extensão da mesma, alguns trabalhos futuros são propostos para contribuição científica:
+  \begin{itemize}
+   \item Coletar uma amostra maior de pacientes com~\ac{dp}, e agrupá-los de acordo com o estágio da doença~\cite{goul05};
+   \item Usar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do~\ac{dp} de acordo com as escalas de avaliação (ex.: UPDRS~\cite{UPDRS};
+   \item Avaliar o sinal da bradicinesia em diferentes momentos do dia, para verificar a eficácia do tratamento medicamentoso~\cite{protpar010}.   
+  \end{itemize}
+\end{block}
 \end{frame}
 
 
