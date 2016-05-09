@@ -19,30 +19,8 @@ basicstyle=\footnotesize, stringstyle=\ttfamily,
 showstringspaces=false }
 
 
-\usetheme{Frankfurt} %LEGAL     !!!
-% \usetheme{Madrid}     %LEGAL/L%IMPO/COM CAIXA     (sem barra de desenvolvimento)
+\usetheme{Frankfurt} 
 
-% \usetheme{Antibes} %NAO
-% \usetheme{Berlin} %PODE SER...     (BARRA DE DESENVOLVIMANTO)
-% \usetheme{Berkeley}     %FEIO
-% \usetheme{Boadilla} %TUDO BRANCO...
-% \usetheme{Copenhagen}     %NAO
-% \usetheme{Darmstadt} %LEGAL!     !!!
-% \usetheme{Dresden}     %LEGAL/LIMPO/SEM CAIXA     (sem caixa fica ruim...)
-
-% \usetheme{Goettingen}     %FEIO DEMAIS!
-%\usetheme{Ilmenau} %LEGAL (forte candidato)
-% \usetheme{JuanLesPins} %BACANA
-% \usetheme{Luebeck}     %FEIO
-
-% \usetheme{Malmoe}     %FEIO
-% \usetheme{Warsaw} %NAO...
-% \usetheme{Seattle}
-% \usetheme{CambridgeUS}
-% \usetheme{Singapore}
-
-% \usecolortheme[RGB={130,35,150}]{structure}
-% \usecolortheme[RGB={33,33,94}]{structure}
 \usecolortheme[RGB={134,153,188}]{structure}
 \setbeamertemplate{footline}[frame number]
 \setbeamertemplate{navigation symbols}{}
@@ -50,11 +28,11 @@ showstringspaces=false }
 \author[L. Medeiros]{Aluno: Leonardo Melo de Medeiros}
 \date{\today}
 \institute[]{Orientador: Leandro Dias da Silva\\
-						 Co-orientador: Hyggo Oliveira de Almeida \\ 
+						 Orientador: Hyggo Oliveira de Almeida \\ 
 						 Universidade Federal de Campina Grande - UFCG}
-    \title{Monitoramento de Dados Motores Por Intermédio de Jogos Eletrônicos}
+    \title{Uma Abordagem de Monitoramento dos Sinais Motores da Doença de Parkinson Baseada em Jogos Eletrônicos}
 \logo{\includegraphics[width=0.2\linewidth]{img/logo.png}}
-\subtitle{Proposta de Tese}
+\subtitle{Defesa de Tese}
 
 \begin{document}
 
@@ -62,8 +40,7 @@ showstringspaces=false }
   \titlepage
 \end{frame}
 
-% \section{Roteiro}
-% \AtBeginSection[]
+[]
 {\frame{
 \frametitle{Roteiro}
 \tableofcontents
@@ -72,15 +49,15 @@ showstringspaces=false }
 
 \section{Introdução}
 \subsection{}
-%\subsection{Problemática}
-\begin{frame}{Sistemas de Monitoramento de Saúde}
-  \begin{block}{}
-      \center \includegraphics[height=1.8 in]{img/sismonsaude.png}
-  \end{block}
-  \begin{block}{}
-A computação pervasiva aplicada ao contexto de saúde permite monitorar remotamente o estado de saúde dos usuários. Entretanto, a concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar}.
-  \end{block}
-\end{frame}
+	%TODO REMOVER COMPUTACAO PERVASIVA E ALTERAR PARA SMS
+% \begin{frame}{Sistemas de Monitoramento de Saúde}
+%   \begin{block}{}
+%       \center \includegraphics[height=1.8 in]{img/sismonsaude.png}
+%   \end{block}
+%   \begin{block}{}
+% A computação pervasiva aplicada ao contexto de saúde permite monitorar remotamente o estado de saúde dos usuários. Entretanto, a concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar}.
+%   \end{block}
+% \end{frame}
 
 \begin{frame}{Estratégias de Monitoramento da Saúde}
   \begin{block}{}
@@ -94,45 +71,48 @@ As tecnologias de monitoramento para serem aceitas precisam preservar a privacid
 \begin{frame}{Motivação para uso de jogos para monitoramento dos dados motores}
 	\begin{block}{}
 	\begin{itemize}[<+->]
+	%TODO NOVA REFERENCIA da ESA 2014
 			\item Percentual expressivo de adultos e idosos que são usuários de jogos, e os utiliza em sua rotina diária (29\% acima dos 50 anos);
       \item O  jogo é uma experiência autotélica, logo o usuário joga por puro prazer, sem esperar qualquer benefício por seu uso ~\cite{sweetser2005-gameflow};
 			\item As tecnologias de sensores de movimento estão presentes no contexto dos jogos eletrônicos;
+			%TODO: Nova motivação
 			\item Possibilita a reprodução de movimentos específicos em um ambiente controlado, o qual permite a aquisição de dados motores.
 	\end{itemize}
 	\end{block}
 \end{frame}
 
 
-%\subsection{Objetivos}
 \begin{frame}{Objetivo Principal}
   \begin{block}{}<1->
 Neste trabalho, tem-se como objetivo a concepção de uma abordagem computacional para o monitoramento de dados motores. Pretende-se usar jogos eletrônicos como forma de motivar e abstrair o monitoramento de dados de saúde de uma maneira não invasiva e longe do contexto de tratamento de saúde.
   \end{block}
 \end{frame}
 
-
-\begin{frame}{Hipóteses do Trabalho}
-	\begin{block}{}
-			\begin{itemize}[<+->]
-       \item \textbf{H1} - O acompanhamento de sintomas motores, integrados à rotina diária do paciente traz benefícios ao tratamento e qualidade de vida do mesmo do ponto de vista do profissional da saúde.
-       \item \textbf{H2} - É possível capturar dados motores por meio de sensores de movimento utilizados em jogos eletrônicos. Esses dados auxiliam no acompanhamento de doenças com comprometimento motor.
-			\item \textbf{H3} - É possível desenvolver um jogo que tenha mecanismos de captura de dados motores embutidos, e que permita monitorar e quantificar esses dados de maneira não-invasiva.
-			\end{itemize}
-	\end{block}
+%REMOVER HIPOTESES E ADICIONAR ETAPAS
+% \begin{frame}{Hipóteses do Trabalho}
+% 	\begin{block}{}
+% 			\begin{itemize}[<+->]
+%        \item \textbf{H1} - O acompanhamento de sintomas motores, integrados à rotina diária do paciente traz benefícios ao tratamento e qualidade de vida do mesmo do ponto de vista do profissional da saúde.
+%        \item \textbf{H2} - É possível capturar dados motores por meio de sensores de movimento utilizados em jogos eletrônicos. Esses dados auxiliam no acompanhamento de doenças com comprometimento motor.
+% 			\item \textbf{H3} - É possível desenvolver um jogo que tenha mecanismos de captura de dados motores embutidos, e que permita monitorar e quantificar esses dados de maneira não-invasiva.
+% 			\end{itemize}
+% 	\end{block}
 \end{frame}
 
-\begin{frame}{Objetivos Específicos}
-	\begin{block}{}
-	\begin{itemize}[<+->]
-      \item Identificar a importância de realizar monitoramento de dados junto a profissionais de saúde;
-			\item Usar bases de dados de saúde já consolidadas para testar abordagens de monitoramento;
-			\item Identificar viabilidade técnica da aquisição de sintomas por sensores de movimento utilizados em jogos eletrônicos;
-			\item Definir e implementar a arquitetura de software da abordagem;
-			\item Realizar experimentos para validar as hipóteses.
-	\end{itemize}
-	\end{block}
-\end{frame}
+%TODO:  Remover menção a base de dados de marcha
+% \begin{frame}{Objetivos Específicos}
+% 	\begin{block}{}
+% 	\begin{itemize}[<+->]
+%       \item Identificar a importância de realizar monitoramento de dados junto a profissionais de saúde;
+% 			\item Usar bases de dados de saúde já consolidadas para testar abordagens de monitoramento;
+% 			\item Identificar viabilidade técnica da aquisição de sintomas por sensores de movimento utilizados em jogos eletrônicos;
+% 			\item Definir e implementar a arquitetura de software da abordagem;
+% 			\item Realizar experimentos para validar as hipóteses.
+% 	\end{itemize}
+% 	\end{block}
+% \end{frame}
 
+%TODO: Foi utilzado estudo de caso ou objeto de estudo ?
 \section{Estudo de Caso}
 \subsection{}
 \begin{frame}{Doença de Parkinson}
@@ -144,15 +124,16 @@ Neste trabalho, tem-se como objetivo a concepção de uma abordagem computaciona
       \end{itemize}
   \end{block}
 
-  \begin{block}{Termos: Tremor de Repouso e Bradicinesia}<3->
-      \begin{itemize}
-       \item \textbf{Tremor de Repouso:} sintoma mais frequente e perceptível;
-       \item \textbf{Bradicinesia:} lentidão na execução do movimento;
-      \end{itemize}
-  \end{block}
+  
+  %TODO: Reforçar da Bradicinesia
+%   \begin{block}{Termos: Tremor de Repouso e Bradicinesia}<3->
+%       \begin{itemize}
+%        \item \textbf{Tremor de Repouso:} sintoma mais frequente e perceptível;
+%        \item \textbf{Bradicinesia:} lentidão na execução do movimento;
+%       \end{itemize}
+%   \end{block}
 \end{frame}
 
-%\subsection{Monitoramento Sintomas}
 \begin{frame}{Estágios da Doença}
   \begin{block}{Escala Unificada de Avaliação da Doença de Parkinson (UPDRS)}
     A escala UPDRS ~\cite{updrs87} avalia tanto o nível de estrutura e função corporal quanto o nível das atividades.
@@ -178,10 +159,10 @@ Neste trabalho, tem-se como objetivo a concepção de uma abordagem computaciona
     \end{block}
 \end{frame}
 
-%\subsection{Entrevista Semi-Estruturada}
 \begin{frame}{Entrevista Semi-Estruturada com Profissionais de Saúde} 
     \begin{block}{Objetivo da Pesquisa}
-      Validar a Hipótese \textbf{H1}: O acompanhamento de sintomas motores, integrados à rotina diária do paciente, traz benefícios ao tratamento e qualidade de vida do mesmo, do ponto de vista do profissional da saúde.
+    %TODO:Remover hipótese e colocar etapa
+      %Validar a Hipótese \textbf{H1}: O acompanhamento de sintomas motores, integrados à rotina diária do paciente, traz benefícios ao tratamento e qualidade de vida do mesmo, do ponto de vista do profissional da saúde.
     \end{block}
 		\begin{block}{Participantes}
 			\begin{table}[h]
@@ -206,7 +187,8 @@ Neste trabalho, tem-se como objetivo a concepção de uma abordagem computaciona
 					\begin{enumerate}
 						\item tremor;
 						\item bradicinesia;
-						\item análise da marcha.
+						%TODO remover análise de marcha
+						%\item análise da marcha.
 					\end{enumerate}
 				\item Para o acompanhamento e monitoramento da doença, os profissionais de saúde citaram a importância de calcular:
 					\begin{enumerate}
@@ -221,79 +203,73 @@ Neste trabalho, tem-se como objetivo a concepção de uma abordagem computaciona
 \section{Desenv. de Jogos}
 \subsection{}
 
+%TODO Remover o processo de desenvolvimento
+% \begin{frame}{Processo de Desenvolvimento de um Jogo para Monitoramento de Dados de Saúde}
+% \begin{block}{}
+% Este trabalho pretende usar um ambiente de jogo para a execução de movimentos específicos com o propósito de quantificar os sinais motores dos usuários e consequentemente realizar o monitoramento. 
+% \end{block}
+% \begin{block}{}
+% O ambiente será denominado de \textbf{GAHME}.
+% \end{block}
+% \end{frame}
+% 
+% \begin{frame}{Fases de Um Processo de Desenvolvimento de Jogos}
+%   \begin{block}{}
+%       \center \includegraphics[height=2.8 in]{img/stages-game-development.png}
+% 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+%   \end{block}
+% \end{frame}
+% 
+% \begin{frame}{Fase de Conceito de um GAHME}
+%   %\begin{block}{}
+%       \center \includegraphics[height=2.8 in]{img/gahme-fase-conceito.png}
+% 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+%   %\end{block}
+% \end{frame}
+% 
+% \begin{frame}{Fase de Pré-Produção de um GAHME}
+%   %\begin{block}{}
+%       \center \includegraphics[height=2.1 in]{img/gahme-fase-pre-producao.png}
+% 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+%   %\end{block}
+% \end{frame}
 
-%\subsection{Jogos Para Monitoramento da Saúde}
-\begin{frame}{Processo de Desenvolvimento de um Jogo para Monitoramento de Dados de Saúde}
-\begin{block}{}
-Este trabalho pretende usar um ambiente de jogo para a execução de movimentos específicos com o propósito de quantificar os sinais motores dos usuários e consequentemente realizar o monitoramento. 
-\end{block}
-\begin{block}{}
-O ambiente será denominado de \textbf{GAHME}.
-\end{block}
-\end{frame}
-
-%\subsection{Desenvolvimento de Jogos}
-\begin{frame}{Fases de Um Processo de Desenvolvimento de Jogos}
-  \begin{block}{}
-      \center \includegraphics[height=2.8 in]{img/stages-game-development.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  \end{block}
-\end{frame}
-
-\begin{frame}{Fase de Conceito de um GAHME}
-  %\begin{block}{}
-      \center \includegraphics[height=2.8 in]{img/gahme-fase-conceito.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
-\end{frame}
-
-\begin{frame}{Fase de Pré-Produção de um GAHME}
-  %\begin{block}{}
-      \center \includegraphics[height=2.1 in]{img/gahme-fase-pre-producao.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
-\end{frame}
-
-
-\section{GAHME}
-\subsection{}
-%\subsection{Concepção}
-\begin{frame}{GAHME – \textit{Health Monitor Environment}}
-  %\begin{block}{}
-      \top \includegraphics[height=2.6 in]{img/systemoverview.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
-\end{frame}
-
-\begin{frame}{GAHME – \textit{Health Monitor Environment}}
-	\begin{block}{}
-		\begin{itemize}[<+->]
-			\item	\textbf{REQ-GAHME-01} - Pontuação e Taxa de Acerto;
-			\item	\textbf{REQ-GAHME-02} - Progresso e Evolução do Jogador e dos Desafios;
-			\item	\textbf{REQ-GAHME-03} - Estado de Fluxo;
-			\item	\textbf{REQ-GAHME-04} - Preocupação com Integridade Física do Jogador;
-			\item	\textbf{REQ-GAHME-05} - Captura e Armazenamento de Sinais Motores;
-			\item	\textbf{REQ-GAHME-06} - Mecanismo de Identificação de Sintomas Motores;
-			\item	\textbf{REQ-GAHME-07} - Mecanismo de Visualização dos Parâmetros Motores do Usuário.
-		\end{itemize}
-	\end{block}
-\end{frame}
-
-\begin{frame}{Arquitetura GAHME}
-  \begin{block}{}
-      \center \includegraphics[height=2.0 in]{img/arquitetura.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  \end{block}
-\end{frame}
-
-%\subsection{Processamento de Dados}
-\begin{frame}{Cinemetria}
-  \begin{block}{}
-      \begin{itemize}
-				\item A Cinemetria consiste de um conjunto de métodos para medir os valores dos parâmetros cinemáticos;
-				\item Movimento Cinético é o estudo das forças e momentos que resultam no movimento do corpo e seus segmentos, incluindo a mensuração da Força Vertical de Reação ao Solo (FVRS) e análise cinética.
-			\end{itemize}
-  \end{block}
+%TODO Definir o JOGUE-ME
+%TODO Alterar para Jogueme
+% \section{GAHME}
+% \subsection{}
+% \begin{frame}{GAHME – \textit{Health Monitor Environment}}
+%       \top \includegraphics[height=2.6 in]{img/systemoverview.png}
+% \end{frame}
+% 
+%TODO verificar se os requisitos batem  
+% \begin{frame}{GAHME – \textit{Health Monitor Environment}}
+% 	\begin{block}{}
+% 		\begin{itemize}[<+->]
+% 			\item	\textbf{REQ-GAHME-01} - Pontuação e Taxa de Acerto;
+% 			\item	\textbf{REQ-GAHME-02} - Progresso e Evolução do Jogador e dos Desafios;
+% 			\item	\textbf{REQ-GAHME-03} - Estado de Fluxo;
+% 			\item	\textbf{REQ-GAHME-04} - Preocupação com Integridade Física do Jogador;
+% 			\item	\textbf{REQ-GAHME-05} - Captura e Armazenamento de Sinais Motores;
+% 			\item	\textbf{REQ-GAHME-06} - Mecanismo de Identificação de Sintomas Motores;
+% 			\item	\textbf{REQ-GAHME-07} - Mecanismo de Visualização dos Parâmetros Motores do Usuário.
+% 		\end{itemize}
+% 	\end{block}
+% \end{frame}
+% 
+% \begin{frame}{Arquitetura GAHME}
+%   \begin{block}{}
+%       \center \includegraphics[height=2.0 in]{img/arquitetura.png}
+%   \end{block}
+% \end{frame}
+% 
+% \begin{frame}{Cinemetria}
+%   \begin{block}{}
+%       \begin{itemize}
+% 				\item A Cinemetria consiste de um conjunto de métodos para medir os valores dos parâmetros cinemáticos;
+% 				\item Movimento Cinético é o estudo das forças e momentos que resultam no movimento do corpo e seus segmentos, incluindo a mensuração da Força Vertical de Reação ao Solo (FVRS) e análise cinética.
+% 			\end{itemize}
+%   \end{block}
 \end{frame}
 
 \begin{frame}{Sensor de Captura de Movimentos}
@@ -306,58 +282,29 @@ O ambiente será denominado de \textbf{GAHME}.
 \begin{frame}{Movimento Angular}
   \begin{block}{Movimento de Abdução e Adução do Braço ~\cite{mcginnis2013biomechanics}}
       \center \includegraphics[width=4cm]{img/abducao-angulo.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
   \end{block}
 \end{frame}
 
 \begin{frame}{Mecanismo de Identificação de Sintomas Motores}
-  %\begin{block}{}
       \center \includegraphics[height=3 in]{img/exsinalposicaoypunhodireito.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 \begin{frame}{Técnicas de Picos e Vales do Sinal}
-  %\begin{block}{}
       \center \includegraphics[height=3 in]{img/deteccaopicosvales.png}
 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 \begin{frame}{Extração de Início e Fim dos Ciclos de Movimento}
-  %\begin{block}{}
       \center \includegraphics[height=3 in]{img/remocaoruidociclo.png}
 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 
-%\begin{frame}
-   %\frametitle{Cálculo do Ângulo Relativo de Abdução e Adução do Braço}
-   %\begin{block}{Produto Escalar}
-   %
-   %\begin{columns}[c]
-     %\begin{column}{0.5\linewidth}
-           %\begin{itemize}
-           %\item O produto escalar é uma operação entre dois vetores cujo resultado é um escalar;
-					 %\item O produto escalar é o ângulo de $ \theta$ formado entre os vetores $ v $ e $ w $;					 
-           %\end{itemize}
-				%%	\item \begin{math} cos(\theta) = (v . w) /  (||v|| ||w||) \end{math}
-     %\end{column}
-%
-     %\begin{column}{0.5\linewidth}
-				%\includegraphics[width=4cm]{img/abducao-angulo.png}
-    %\end{column}
-%\end{columns}
-%\end{block}
-%\end{frame}
 
 
 \begin{frame}{Cálculo da Velocidade Angular do Movimento de Abdução e Adução}
-  %\begin{block}{}
       \center \includegraphics[height=2.8 in]{img/amplitude-braco.png}
 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 \begin{frame}{Filtragem de Dados: Remoção de Ciclos Incompletos}
@@ -381,7 +328,6 @@ O ambiente será denominado de \textbf{GAHME}.
 \end{block}
 \end{frame}
 
-%\subsection{Aprendizagem de Máquina Supervisionada}
 \begin{frame}
    \frametitle{Máquina de Vetor de Suporte (SVM)}
    \begin{block}{}
@@ -408,25 +354,17 @@ O ambiente será denominado de \textbf{GAHME}.
 \end{frame}
 
 \begin{frame}{Visualização do Vetor Médio do Movimento de Abdução e Adução do Braço}
-  %\begin{block}{}
       \center \includegraphics[height=2.6 in]{img/vetormedioaducao.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
-%\subsection{Visualização}
 \begin{frame}{Ciclos de Movimento de Abdução e Adução do Braço}
-  %\begin{block}{}
       \center \includegraphics[height=3 in]{img/ciclosmovimentokinnect-2.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 
 \begin{frame}{Visualização das Características do Movimento}
   \begin{block}{}
       \center \includegraphics[height=2.8 in]{img/caracteristicas-tabela.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
   \end{block}
 \end{frame}
 
@@ -467,10 +405,7 @@ O ambiente será denominado de \textbf{GAHME}.
 \end{frame}
 
 \begin{frame}{Coleta dos Dados Utilizando o Jogo: \textit{Catch the Spheres}}
-  %\begin{block}{}
       \center \includegraphics[height=2.2 in]{img/catch-the-spheres.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 \begin{frame}{Processo de Coleta de Dados}
@@ -497,8 +432,6 @@ O ambiente será denominado de \textbf{GAHME}.
 \begin{frame}{Processo de Coleta de Dados}
   %\begin{block}{}
       \center \includegraphics[height=2.6 in]{img/capturaducaokinnect.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 \begin{frame}{Características Extraídas do Movimento}
@@ -571,12 +504,9 @@ O ambiente será denominado de \textbf{GAHME}.
 	\end{block}
   \begin{block}{}
       \center \includegraphics[height=1 in]{img/visualizacaomedico.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
   \end{block}
 \end{frame}
 
-%\section{Outros Experimentos}
-%\subsection{Identificação de Tremor}
 \begin{frame}{Outros Experimentos}
 	\begin{block}{Uso de Jogo em \textit{Smartphone} Para Detecção de Tremor}
 	\center \includegraphics[height=1 in]{img/pinball_world.png}
@@ -591,7 +521,6 @@ O ambiente será denominado de \textbf{GAHME}.
 \end{frame}
 
 
-%\subsection{Análise da Marcha}
 \begin{frame}{Análise da Marcha por Base de Dados Pública (\textit{Parkinson Disease}~\cite{physionet}}
   \begin{block}{Objetivo do Estudo}
       \begin{itemize}[<+->]
@@ -609,17 +538,11 @@ O ambiente será denominado de \textbf{GAHME}.
 \end{frame}
 
 \begin{frame}{Sensor de Captura da FVRS \textit{Ultraflex Computer Dyno Graphy}}
-  %\begin{block}{}
       \center \includegraphics[height=2.8 in]{img/ultraflexdinografia.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 \begin{frame}{Análise da Marcha~\cite{neumann2012cinesiologia}}
-  %\begin{block}{}
-      \center \includegraphics[height=2.2 in]{img/analisemarcha.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
+      \center \includegraphics[height=2.2 in]{img/analisemarcha.png}			
 \end{frame}
 
 
@@ -654,10 +577,7 @@ O ambiente será denominado de \textbf{GAHME}.
 \end{frame}
 
 \begin{frame}{Projeção dos Indivíduos no Autoespaço}
-  %\begin{block}{}
       \center \includegraphics[height=2.6 in]{img/projecao-pca-parkinson-healthy.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-  %\end{block}
 \end{frame}
 
 \begin{frame}{Resultado da Classificação}
@@ -693,7 +613,6 @@ O ambiente será denominado de \textbf{GAHME}.
 
 \begin{frame}
    \frametitle{Validação Hipótese H2 - Matriz Confusão (Marcha-PCA e Movimento Adução-SVM)}
-    %\begin{block}{PCA - Base de Dados \textit{Parkinson Disease}}
 		\begin{block}{}
 				\begin{table}
 				\label{table:metricasmatrizconfusaosvm}
@@ -710,7 +629,6 @@ O ambiente será denominado de \textbf{GAHME}.
 				\end{table}
     \end{block} 
 	
-	%\begin{block}{SVM - Estudo Analítico Caso Controle}
 	\begin{block}{}
    		\begin{table}[!htbp]
 				\label{table:metricasmatrizconfusao}
@@ -785,28 +703,6 @@ O ambiente será denominado de \textbf{GAHME}.
     \end{block}
 \end{frame}
 
-%\begin{frame}{Segurança à Integridade Física} 
-	%\begin{table}[h]
-	%\centering
-	%\begin{tabular}{|p{10cm}|p{1.2cm}|p{1.2cm}|}
-	%\hline
-	%\textbf{Métrica} & \textbf{Sim} & \textbf{Não} \\ \hline
-%\begin{tabular}[c]{@{}c@{}}2.1: Uma criança estaria segura jogando esse\\ jogo, ao efetuar os movimentos dos braços e\\ das pernas ?\end{tabular}                              & 100\%                                              & 0\%                                                 \\ \hline
-%\begin{tabular}[c]{@{}c@{}}2.2: Um adulto estaria seguro ao jogar esse\\ jogo, ao efetuar os movimentos dos braços\\ e das pernas ?\end{tabular}                               & 100\%                                              & 0\%                                                 \\ \hline
-%\begin{tabular}[c]{@{}c@{}}2.3: Um idoso estaria seguro ao jogar esse jogo, ao efetuar os\\ movimentos dos braços e das pernas?\end{tabular}                                   & \multicolumn{1}{|l|}{75\%}                         & 0\%                                                 \\ \hline
-%
-	%\end{tabular}
-	%\label{table:resultados_gqm}
-	%\end{table}
-%\end{frame}
-
-%\section{Comparativo}
-%\subsection{Análise da Marcha x Adução e Abdução do Braço}
-%
-%
-%\section{GQM}
-%
-%\section{Estado Atual}
 
 \section{Finalização}
 \subsection{}
@@ -834,11 +730,7 @@ related gait disorder with eigengaits} - \textit{XX World Congress on Parkinson 
   \end{center}
 \end{frame}
 
-%\subsection{Bibliografia}
-%\bibliographystyle{alpha}
 \bibliographystyle{authordate2}
-%\bibliographystyle{plain} % estilo de bibliografia   plain,unsrt,alpha,abbrv.
-%\bibliography{../../tex/bibtex/biblmm} % arquivos com as entradas bib.
 \bibliography{biblmm} % arquivos com as entradas bib.
 
 \end{document}
