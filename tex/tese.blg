@@ -1,8 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tese.aux
 The style file: babplain.bst
-White space in argument---line 723 of file tese.aux
+White space in argument---line 724 of file tese.aux
  : \citation{synnott_wiipd_
  :                          2012,lemoyne2010}
 I'm skipping whatever remains of this command
@@ -11,7 +11,6 @@ Warning--entry type for "kinnect2013" isn't style-file defined
 --line 368 of file biblmmcor.bib
 Warning--entry type for "zigfu" isn't style-file defined
 --line 612 of file biblmmcor.bib
-Warning--I didn't find a database entry for "dp"
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1325 of file babplain.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -31,7 +30,7 @@ Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the e
 while executing---line 1380 of file babplain.bst
 You've used 86 entries,
             2788 wiz_defined-function locations,
-            1012 strings with 21143 characters,
+            1011 strings with 21141 characters,
 and the built_in function-call counts, 31388 in all, are:
 = -- 2505
 > -- 1472
