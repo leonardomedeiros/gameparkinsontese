@@ -1,8 +1,8 @@
 \beamer@endinputifotherversion {3.33pt}
 \select@language {portuguese}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{4}{0}{1}
-\beamer@sectionintoc {2}{Estudo de Caso}{10}{0}{2}
-\beamer@sectionintoc {3}{Desenv. de Jogos}{25}{0}{3}
-\beamer@sectionintoc {4}{Experimentos}{37}{0}{4}
-\beamer@sectionintoc {5}{GQM}{58}{0}{5}
-\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{65}{0}{6}
+\beamer@sectionintoc {2}{Estudo de Caso}{13}{0}{2}
+\beamer@sectionintoc {3}{Desenv. de Jogos}{28}{0}{3}
+\beamer@sectionintoc {4}{Experimentos}{40}{0}{4}
+\beamer@sectionintoc {5}{GQM}{61}{0}{5}
+\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{68}{0}{6}

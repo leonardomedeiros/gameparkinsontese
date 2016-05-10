@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.17)  9 MAY 2016 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.17)  10 MAY 2016 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1187,7 +1187,7 @@ LaTeX Info: Redefining \includegraphics on input line 37.
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 41.
 
-<img/logo.png, id=97, 314.6154pt x 81.4242pt>
+<img/logo.png, id=98, 314.6154pt x 81.4242pt>
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
 Package pdftex.def Info: img/logo.png used on input line 41.
@@ -1211,7 +1211,32 @@ File: img/logo.png Graphic file (type png)
 Package pdftex.def Info: img/logo.png used on input line 47.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [3]
-<img/estrategmonitorament.png, id=314, 514.0806pt x 273.1806pt>
+<img/sismonsaude.png, id=319, 597.432pt x 287.6346pt>
+File: img/sismonsaude.png Graphic file (type png)
+
+<use img/sismonsaude.png>
+Package pdftex.def Info: img/sismonsaude.png used on input line 59.
+(pdftex.def)             Requested size: 270.20021pt x 130.08621pt.
+
+! Undefined control sequence.
+<argument> \relax \citename 
+                            {Alemdar \& Ersoy, }2010
+l.59 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 59.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [4
+
+ <./img/sismonsaude.png>]
+<img/estrategmonitorament.png, id=378, 514.0806pt x 273.1806pt>
 File: img/estrategmonitorament.png Graphic file (type png)
 
 <use img/estrategmonitorament.png>
@@ -1233,13 +1258,13 @@ File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png used on input line 69.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [4
+ [5
 
  <./img/estrategmonitorament.png>]
 ! Undefined control sequence.
-<argument> \relax \citename 
-                            {Sweetser \& Wyeth, }2005
-l.82 \end{frame}
+\beamer@doifinframe ...lock}{} Atualmente, os~\ac 
+                                                  {sms} permitem ao médico ...
+l.81 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1247,35 +1272,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 82.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [5
 
-]
-! Undefined control sequence.
-<argument> \relax \citename 
-                            {Sweetser \& Wyeth, }2005
-l.82 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Citation `healthmonitoring2013' on page 6 undefined on input lin
+e 81.
+
+
+LaTeX Warning: Citation `bardram2010' on page 6 undefined on input line 81.
+
+
+LaTeX Warning: Citation `sacbespoke2014' on page 6 undefined on input line 81.
+
+
+LaTeX Warning: Citation `sacsvmhms2014' on page 6 undefined on input line 81.
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 82.
+Package pdftex.def Info: img/logo.png used on input line 81.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [6
 
 ]
 ! Undefined control sequence.
-<argument> \relax \citename 
-                            {Sweetser \& Wyeth, }2005
-l.82 \end{frame}
+\beamer@doifinframe ...dos sinais motores, os~\ac 
+                                                  {sms}: \begin {itemize} \i...
+l.99 \end{frame}
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1283,18 +1303,39 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Citation `manumeterjbhi2014' on page 7 undefined on input line 9
+9.
+
+
+LaTeX Warning: Citation `patel_monitoring_2009' on page 7 undefined on input li
+ne 99.
+
+
+LaTeX Warning: Citation `robotgait2014' on page 7 undefined on input line 99.
+
+
+LaTeX Warning: Citation `ambulatoryparkinson2010' on page 7 undefined on input 
+line 99.
+
+
+LaTeX Warning: Citation `alemdar2015' on page 7 undefined on input line 99.
+
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 82.
+Package pdftex.def Info: img/logo.png used on input line 99.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [7
 
 ]
+
+LaTeX Warning: Citation `esa2015' on page 8 undefined on input line 114.
+
 ! Undefined control sequence.
 <argument> \relax \citename 
                             {Sweetser \& Wyeth, }2005
-l.82 \end{frame}
-                
+l.114 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1303,22 +1344,85 @@ and I'll forget about whatever was undefined.
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 82.
+Package pdftex.def Info: img/logo.png used on input line 114.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [8
 
 ]
+
+LaTeX Warning: Citation `esa2015' on page 9 undefined on input line 114.
+
+! Undefined control sequence.
+<argument> \relax \citename 
+                            {Sweetser \& Wyeth, }2005
+l.114 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 89.
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 114.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [9
+
+]
+
+LaTeX Warning: Citation `esa2015' on page 10 undefined on input line 114.
+
+! Undefined control sequence.
+<argument> \relax \citename 
+                            {Sweetser \& Wyeth, }2005
+l.114 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 114.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [10
+
+]
+
+LaTeX Warning: Citation `esa2015' on page 11 undefined on input line 114.
+
+! Undefined control sequence.
+<argument> \relax \citename 
+                            {Sweetser \& Wyeth, }2005
+l.114 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 114.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [11
+
+]
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 121.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [12
 
 ]
 ! Too many }'s.
 \endframe ->\egroup 
                     \begingroup \def \@currenvir {frame}
-l.100 \end{frame}
+l.132 \end{frame}
                  
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1326,7 +1430,7 @@ Such booboos are generally harmless, so keep going.
 ! Undefined control sequence.
 <argument> \relax \citename 
                             {Picon {\em et~al.\ }\relax , }2010
-l.135 \end{frame}
+l.167 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1337,7 +1441,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \relax \citename 
                             {Teive, }2003
-l.135 \end{frame}
+l.167 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1347,80 +1451,26 @@ and I'll forget about whatever was undefined.
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 135.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [10
-
-]
-! Undefined control sequence.
-<argument> \relax \citename 
-                            {Picon {\em et~al.\ }\relax , }2010
-l.135 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \relax \citename 
-                            {Teive, }2003
-l.135 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 135.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [11
-
-]
-! Undefined control sequence.
-<argument> \relax \citename 
-                            {Fahn \& Elton, }1987
-l.148 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 148.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [12
-
-]
-! Undefined control sequence.
-<argument> \relax \citename 
-                            {Fahn \& Elton, }1987
-l.148 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 148.
+Package pdftex.def Info: img/logo.png used on input line 167.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [13
 
 ]
 ! Undefined control sequence.
 <argument> \relax \citename 
-                            {Fahn \& Elton, }1987
-l.148 \end{frame}
+                            {Picon {\em et~al.\ }\relax , }2010
+l.167 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \relax \citename 
+                            {Teive, }2003
+l.167 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1430,7 +1480,7 @@ and I'll forget about whatever was undefined.
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 148.
+Package pdftex.def Info: img/logo.png used on input line 167.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [14
 
@@ -1438,7 +1488,7 @@ Package pdftex.def Info: img/logo.png used on input line 148.
 ! Undefined control sequence.
 <argument> \relax \citename 
                             {Fahn \& Elton, }1987
-l.148 \end{frame}
+l.180 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1448,48 +1498,102 @@ and I'll forget about whatever was undefined.
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 148.
+Package pdftex.def Info: img/logo.png used on input line 180.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [15
 
-] <img/updr1-sel.png, id=981, 858.20625pt x 644.4075pt>
-File: img/updr1-sel.png Graphic file (type png)
+]
+! Undefined control sequence.
+<argument> \relax \citename 
+                            {Fahn \& Elton, }1987
+l.180 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-<use img/updr1-sel.png>
-Package pdftex.def Info: img/updr1-sel.png used on input line 154.
-(pdftex.def)             Requested size: 230.99855pt x 173.44756pt.
 File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 154.
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 180.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [16
 
+]
+! Undefined control sequence.
+<argument> \relax \citename 
+                            {Fahn \& Elton, }1987
+l.180 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 180.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [17
+
+]
+! Undefined control sequence.
+<argument> \relax \citename 
+                            {Fahn \& Elton, }1987
+l.180 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 180.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [18
+
+] <img/updr1-sel.png, id=1164, 858.20625pt x 644.4075pt>
+File: img/updr1-sel.png Graphic file (type png)
+
+<use img/updr1-sel.png>
+Package pdftex.def Info: img/updr1-sel.png used on input line 186.
+(pdftex.def)             Requested size: 230.99855pt x 173.44756pt.
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 186.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [19
+
  <./img/updr1-sel.png>]
-<img/updr2-sel.png, id=1034, 862.22125pt x 467.7475pt>
+<img/updr2-sel.png, id=1219, 862.22125pt x 467.7475pt>
 File: img/updr2-sel.png Graphic file (type png)
  <use img/updr2-sel.png>
-Package pdftex.def Info: img/updr2-sel.png used on input line 160.
+Package pdftex.def Info: img/updr2-sel.png used on input line 192.
 (pdftex.def)             Requested size: 266.44382pt x 144.54pt.
 File: img/logo.png Graphic file (type png)
 
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 160.
+Package pdftex.def Info: img/logo.png used on input line 192.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [17
+ [20
 
  <./img/updr2-sel.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 181.
+LaTeX Font Info:    Try loading font information for U+msa on input line 213.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 181.
+LaTeX Font Info:    Try loading font information for U+msb on input line 213.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 181.
+line 213.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1498,43 +1602,21 @@ thkerncmss.
 File: img/logo.png Graphic file (type png)
 
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 181.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [18
-
-]
-File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 200.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [19
-
-]
-File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 200.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [20
-
-]
-File: img/logo.png Graphic file (type png)
-
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 200.
+Package pdftex.def Info: img/logo.png used on input line 213.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [21
 
 ]
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 200.
+Package pdftex.def Info: img/logo.png used on input line 232.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [22
 
 ]
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 200.
+Package pdftex.def Info: img/logo.png used on input line 232.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [23
 
@@ -1542,36 +1624,58 @@ Package pdftex.def Info: img/logo.png used on input line 200.
 File: img/logo.png Graphic file (type png)
 
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 200.
+Package pdftex.def Info: img/logo.png used on input line 232.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [24
+
+]
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 232.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [25
+
+]
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 232.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [26
+
+]
+File: img/logo.png Graphic file (type png)
+
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 232.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [27
 
 ]
 ! Too many }'s.
 \endframe ->\egroup 
                     \begingroup \def \@currenvir {frame}
-l.273 \end{frame}
+l.305 \end{frame}
                  
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-<img/articulacoes-sel.png, id=1462, 526.1256pt x 490.4724pt>
+<img/articulacoes-sel.png, id=1654, 526.1256pt x 490.4724pt>
 File: img/articulacoes-sel.png Graphic file (type png)
 
 <use img/articulacoes-sel.png>
-Package pdftex.def Info: img/articulacoes-sel.png used on input line 280.
+Package pdftex.def Info: img/articulacoes-sel.png used on input line 312.
 (pdftex.def)             Requested size: 201.5595pt x 187.90244pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 280.
+Package pdftex.def Info: img/logo.png used on input line 312.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [25
+ [28
 
  <./img/articulacoes-sel.png>]
 ! Undefined control sequence.
 <argument> \relax \citename 
                             {McGinnis, }2013
-l.286 \end{frame}
+l.318 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1579,339 +1683,317 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<img/abducao-angulo.png, id=1520, 244.2726pt x 347.3778pt>
+<img/abducao-angulo.png, id=1712, 244.2726pt x 347.3778pt>
 File: img/abducao-angulo.png Graphic file (type png)
 
 <use img/abducao-angulo.png>
-Package pdftex.def Info: img/abducao-angulo.png used on input line 286.
+Package pdftex.def Info: img/abducao-angulo.png used on input line 318.
 (pdftex.def)             Requested size: 113.81102pt x 161.85234pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 286.
+Package pdftex.def Info: img/logo.png used on input line 318.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [26
+ [29
 
- <./img/abducao-angulo.png>] <img/exsinalposicaoypunhodireito.png, id=1576, 545
+ <./img/abducao-angulo.png>] <img/exsinalposicaoypunhodireito.png, id=1768, 545
 .78906pt x 339.51843pt>
 File: img/exsinalposicaoypunhodireito.png Graphic file (type png)
 
 <use img/exsinalposicaoypunhodireito.png>
 Package pdftex.def Info: img/exsinalposicaoypunhodireito.png used on input line
- 290.
+ 322.
 (pdftex.def)             Requested size: 348.5293pt x 216.81pt.
 
-Overfull \hbox (41.23943pt too wide) in paragraph at lines 290--290
+Overfull \hbox (41.23943pt too wide) in paragraph at lines 322--322
  [] 
  []
 
 
-Overfull \vbox (18.33412pt too high) detected at line 290
+Overfull \vbox (18.33412pt too high) detected at line 322
  []
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 290.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [27
-
- <./img/exsinalposicaoypunhodireito.png (PNG copy)>]
-<img/deteccaopicosvales.png, id=1629, 599.23875pt x 402.75468pt>
-File: img/deteccaopicosvales.png Graphic file (type png)
-
-<use img/deteccaopicosvales.png>
-Package pdftex.def Info: img/deteccaopicosvales.png used on input line 295.
-(pdftex.def)             Requested size: 322.57831pt x 216.81pt.
-
-Overfull \hbox (15.28844pt too wide) in paragraph at lines 295--295
- [] 
- []
-
-
-Overfull \vbox (18.33412pt too high) detected at line 295
- []
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 295.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [28
-
- <./img/deteccaopicosvales.png (PNG copy)>]
-<img/remocaoruidociclo.png, id=1683, 458.46281pt x 311.66437pt>
-File: img/remocaoruidociclo.png Graphic file (type png)
-
-<use img/remocaoruidociclo.png>
-Package pdftex.def Info: img/remocaoruidociclo.png used on input line 300.
-(pdftex.def)             Requested size: 318.93503pt x 216.81pt.
-
-Overfull \hbox (11.64516pt too wide) in paragraph at lines 300--300
- [] 
- []
-
-
-Overfull \vbox (18.33412pt too high) detected at line 300
- []
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 300.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [29
-
- <./img/remocaoruidociclo.png (PNG copy)>]
-<img/amplitude-braco.png, id=1736, 421.575pt x 316.18124pt>
-File: img/amplitude-braco.png Graphic file (type png)
-
-<use img/amplitude-braco.png>
-Package pdftex.def Info: img/amplitude-braco.png used on input line 308.
-(pdftex.def)             Requested size: 269.8135pt x 202.35622pt.
-
-Overfull \vbox (5.68037pt too high) detected at line 308
- []
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 308.
+Package pdftex.def Info: img/logo.png used on input line 322.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [30
 
+ <./img/exsinalposicaoypunhodireito.png (PNG copy)>]
+<img/deteccaopicosvales.png, id=1823, 599.23875pt x 402.75468pt>
+File: img/deteccaopicosvales.png Graphic file (type png)
+
+<use img/deteccaopicosvales.png>
+Package pdftex.def Info: img/deteccaopicosvales.png used on input line 327.
+(pdftex.def)             Requested size: 322.57831pt x 216.81pt.
+
+Overfull \hbox (15.28844pt too wide) in paragraph at lines 327--327
+ [] 
+ []
+
+
+Overfull \vbox (18.33412pt too high) detected at line 327
+ []
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 327.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [31
+
+ <./img/deteccaopicosvales.png (PNG copy)>]
+<img/remocaoruidociclo.png, id=1878, 458.46281pt x 311.66437pt>
+File: img/remocaoruidociclo.png Graphic file (type png)
+
+<use img/remocaoruidociclo.png>
+Package pdftex.def Info: img/remocaoruidociclo.png used on input line 332.
+(pdftex.def)             Requested size: 318.93503pt x 216.81pt.
+
+Overfull \hbox (11.64516pt too wide) in paragraph at lines 332--332
+ [] 
+ []
+
+
+Overfull \vbox (18.33412pt too high) detected at line 332
+ []
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 332.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [32
+
+ <./img/remocaoruidociclo.png (PNG copy)>]
+<img/amplitude-braco.png, id=1933, 421.575pt x 316.18124pt>
+File: img/amplitude-braco.png Graphic file (type png)
+
+<use img/amplitude-braco.png>
+Package pdftex.def Info: img/amplitude-braco.png used on input line 340.
+(pdftex.def)             Requested size: 269.8135pt x 202.35622pt.
+
+Overfull \vbox (5.68037pt too high) detected at line 340
+ []
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 340.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [33
+
  <./img/amplitude-braco.png (PNG copy)>]
-<img/ciclonormalizadoescalonado.png, id=1790, 421.575pt x 316.18124pt>
+<img/ciclonormalizadoescalonado.png, id=1987, 421.575pt x 316.18124pt>
 File: img/ciclonormalizadoescalonado.png Graphic file (type png)
 
 <use img/ciclonormalizadoescalonado.png>
 Package pdftex.def Info: img/ciclonormalizadoescalonado.png used on input line 
-323.
+355.
 (pdftex.def)             Requested size: 156.49014pt x 117.36636pt.
 
-Overfull \hbox (2.84521pt too wide) in paragraph at lines 323--323
+Overfull \hbox (2.84521pt too wide) in paragraph at lines 355--355
 [][]  
  []
 
-<img/ciclomovimentoremovido.png, id=1791, 421.575pt x 316.18124pt>
+<img/ciclomovimentoremovido.png, id=1988, 421.575pt x 316.18124pt>
 File: img/ciclomovimentoremovido.png Graphic file (type png)
 
 <use img/ciclomovimentoremovido.png>
-Package pdftex.def Info: img/ciclomovimentoremovido.png used on input line 323.
+Package pdftex.def Info: img/ciclomovimentoremovido.png used on input line 355.
 
 (pdftex.def)             Requested size: 156.49014pt x 117.36636pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 323.
+Package pdftex.def Info: img/logo.png used on input line 355.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [31
+ [34
 
  <./img/ciclonormalizadoescalonado.png (PNG copy)> <./img/ciclomovimentoremovid
 o.png (PNG copy)>]
 File: img/logo.png Graphic file (type png)
 
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 329.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [32
-
-]
-<img/svmhyperplane.png, id=1899, 612.2875pt x 511.9125pt>
-File: img/svmhyperplane.png Graphic file (type png)
-
-<use img/svmhyperplane.png>
-Package pdftex.def Info: img/svmhyperplane.png used on input line 354.
-(pdftex.def)             Requested size: 113.81102pt x 95.14755pt.
-File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 354.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [33
-
- <./img/svmhyperplane.png>]
-<img/vetormedioaducao.png, id=1956, 743.02594pt x 453.19313pt>
-File: img/vetormedioaducao.png Graphic file (type png)
-
-<use img/vetormedioaducao.png>
-Package pdftex.def Info: img/vetormedioaducao.png used on input line 358.
-(pdftex.def)             Requested size: 308.06657pt x 187.90244pt.
-
-Overfull \hbox (0.7767pt too wide) in paragraph at lines 358--358
- [] 
- []
-
-
-Overfull \vbox (4.8266pt too high) detected at line 358
- []
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 358.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [34
-
- <./img/vetormedioaducao.png (PNG copy)>]
-<img/ciclosmovimentokinnect-2.png, id=2010, 1001.24063pt x 695.59875pt>
-File: img/ciclosmovimentokinnect-2.png Graphic file (type png)
-
-<use img/ciclosmovimentokinnect-2.png>
-Package pdftex.def Info: img/ciclosmovimentokinnect-2.png used on input line 36
-2.
-(pdftex.def)             Requested size: 312.06194pt x 216.81pt.
-
-Overfull \hbox (4.77206pt too wide) in paragraph at lines 362--362
- [] 
- []
-
-
-Overfull \vbox (18.33412pt too high) detected at line 362
- []
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 362.
+Package pdftex.def Info: img/logo.png used on input line 361.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [35
 
- <./img/ciclosmovimentokinnect-2.png (PNG copy)>]
-<img/caracteristicas-tabela.png, id=2063, 495.2904pt x 445.665pt>
-File: img/caracteristicas-tabela.png Graphic file (type png)
+]
+<img/svmhyperplane.png, id=2098, 612.2875pt x 511.9125pt>
+File: img/svmhyperplane.png Graphic file (type png)
 
-<use img/caracteristicas-tabela.png>
-Package pdftex.def Info: img/caracteristicas-tabela.png used on input line 369.
-
-(pdftex.def)             Requested size: 224.88892pt x 202.35622pt.
-
-Overfull \vbox (1.31033pt too high) detected at line 369
- []
-
+<use img/svmhyperplane.png>
+Package pdftex.def Info: img/svmhyperplane.png used on input line 386.
+(pdftex.def)             Requested size: 113.81102pt x 95.14755pt.
 File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 369.
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 386.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [36
 
- <./img/caracteristicas-tabela.png>]
-Overfull \vbox (12.64108pt too high) detected at line 392
+ <./img/svmhyperplane.png>]
+<img/vetormedioaducao.png, id=2156, 743.02594pt x 453.19313pt>
+File: img/vetormedioaducao.png Graphic file (type png)
+
+<use img/vetormedioaducao.png>
+Package pdftex.def Info: img/vetormedioaducao.png used on input line 390.
+(pdftex.def)             Requested size: 308.06657pt x 187.90244pt.
+
+Overfull \hbox (0.7767pt too wide) in paragraph at lines 390--390
+ [] 
+ []
+
+
+Overfull \vbox (4.8266pt too high) detected at line 390
  []
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 392.
+Package pdftex.def Info: img/logo.png used on input line 390.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [37
 
-]
-Overfull \vbox (12.64108pt too high) detected at line 392
+ <./img/vetormedioaducao.png (PNG copy)>]
+<img/ciclosmovimentokinnect-2.png, id=2212, 1001.24063pt x 695.59875pt>
+File: img/ciclosmovimentokinnect-2.png Graphic file (type png)
+
+<use img/ciclosmovimentokinnect-2.png>
+Package pdftex.def Info: img/ciclosmovimentokinnect-2.png used on input line 39
+4.
+(pdftex.def)             Requested size: 312.06194pt x 216.81pt.
+
+Overfull \hbox (4.77206pt too wide) in paragraph at lines 394--394
+ [] 
+ []
+
+
+Overfull \vbox (18.33412pt too high) detected at line 394
  []
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 392.
+Package pdftex.def Info: img/logo.png used on input line 394.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [38
 
-]
+ <./img/ciclosmovimentokinnect-2.png (PNG copy)>]
+<img/caracteristicas-tabela.png, id=2267, 495.2904pt x 445.665pt>
+File: img/caracteristicas-tabela.png Graphic file (type png)
+
+<use img/caracteristicas-tabela.png>
+Package pdftex.def Info: img/caracteristicas-tabela.png used on input line 401.
+
+(pdftex.def)             Requested size: 224.88892pt x 202.35622pt.
+
+Overfull \vbox (1.31033pt too high) detected at line 401
+ []
+
 File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 405.
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 401.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [39
 
-]
-<img/catch-the-spheres.png, id=2278, 1063.72406pt x 557.08125pt>
-File: img/catch-the-spheres.png Graphic file (type png)
+ <./img/caracteristicas-tabela.png>]
+Overfull \vbox (12.64108pt too high) detected at line 424
+ []
 
-<use img/catch-the-spheres.png>
-Package pdftex.def Info: img/catch-the-spheres.png used on input line 409.
-(pdftex.def)             Requested size: 303.58652pt x 158.99377pt.
 File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 409.
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 424.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [40
 
- <./img/catch-the-spheres.png (PNG copy)>]
-<img/capturaducaokinnect.png, id=2333, 715.17188pt x 495.35063pt>
-File: img/capturaducaokinnect.png Graphic file (type png)
+]
+Overfull \vbox (12.64108pt too high) detected at line 424
+ []
 
-<use img/capturaducaokinnect.png>
-Package pdftex.def Info: img/capturaducaokinnect.png used on input line 428.
-(pdftex.def)             Requested size: 156.49014pt x 108.38791pt.
 File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 428.
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 424.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [41
 
- <./img/capturaducaokinnect.png>]
-File: img/capturaducaokinnect.png Graphic file (type png)
- <use img/capturaducaokinnect.png>
-Package pdftex.def Info: img/capturaducaokinnect.png used on input line 428.
-(pdftex.def)             Requested size: 156.49014pt x 108.38791pt.
+]
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 428.
+Package pdftex.def Info: img/logo.png used on input line 437.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [42
 
 ]
-File: img/capturaducaokinnect.png Graphic file (type png)
+<img/catch-the-spheres.png, id=2485, 1063.72406pt x 557.08125pt>
+File: img/catch-the-spheres.png Graphic file (type png)
 
-<use img/capturaducaokinnect.png>
-Package pdftex.def Info: img/capturaducaokinnect.png used on input line 428.
-(pdftex.def)             Requested size: 156.49014pt x 108.38791pt.
+<use img/catch-the-spheres.png>
+Package pdftex.def Info: img/catch-the-spheres.png used on input line 441.
+(pdftex.def)             Requested size: 303.58652pt x 158.99377pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 428.
+Package pdftex.def Info: img/logo.png used on input line 441.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [43
 
-]
+ <./img/catch-the-spheres.png (PNG copy)>]
+<img/capturaducaokinnect.png, id=2543, 715.17188pt x 495.35063pt>
 File: img/capturaducaokinnect.png Graphic file (type png)
 
 <use img/capturaducaokinnect.png>
-Package pdftex.def Info: img/capturaducaokinnect.png used on input line 428.
+Package pdftex.def Info: img/capturaducaokinnect.png used on input line 460.
 (pdftex.def)             Requested size: 156.49014pt x 108.38791pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 428.
+Package pdftex.def Info: img/logo.png used on input line 460.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [44
 
-]
+ <./img/capturaducaokinnect.png>]
 File: img/capturaducaokinnect.png Graphic file (type png)
-
-<use img/capturaducaokinnect.png>
-Package pdftex.def Info: img/capturaducaokinnect.png used on input line 435.
-(pdftex.def)             Requested size: 271.28798pt x 187.90244pt.
+ <use img/capturaducaokinnect.png>
+Package pdftex.def Info: img/capturaducaokinnect.png used on input line 460.
+(pdftex.def)             Requested size: 156.49014pt x 108.38791pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 435.
+Package pdftex.def Info: img/logo.png used on input line 460.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [45
 
 ]
+File: img/capturaducaokinnect.png Graphic file (type png)
+
+<use img/capturaducaokinnect.png>
+Package pdftex.def Info: img/capturaducaokinnect.png used on input line 460.
+(pdftex.def)             Requested size: 156.49014pt x 108.38791pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 446.
+Package pdftex.def Info: img/logo.png used on input line 460.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
-
-[46
+ [46
 
 ]
+File: img/capturaducaokinnect.png Graphic file (type png)
+
+<use img/capturaducaokinnect.png>
+Package pdftex.def Info: img/capturaducaokinnect.png used on input line 460.
+(pdftex.def)             Requested size: 156.49014pt x 108.38791pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 446.
+Package pdftex.def Info: img/logo.png used on input line 460.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [47
 
 ]
+File: img/capturaducaokinnect.png Graphic file (type png)
+
+<use img/capturaducaokinnect.png>
+Package pdftex.def Info: img/capturaducaokinnect.png used on input line 467.
+(pdftex.def)             Requested size: 271.28798pt x 187.90244pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 446.
+Package pdftex.def Info: img/logo.png used on input line 467.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [48
 
 ]
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 446.
+Package pdftex.def Info: img/logo.png used on input line 478.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
 
 [49
@@ -1919,234 +2001,256 @@ Package pdftex.def Info: img/logo.png used on input line 446.
 ]
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 455.
+Package pdftex.def Info: img/logo.png used on input line 478.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [50
 
 ]
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 455.
+Package pdftex.def Info: img/logo.png used on input line 478.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [51
 
 ]
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 471.
-
 File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 471.
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 478.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [52
+
+[52
 
 ]
-Overfull \vbox (4.11737pt too high) detected at line 499
- []
-
 File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 499.
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 487.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [53
 
 ]
-<img/visualizacaomedico.png, id=3028, 451.4466pt x 203.8014pt>
-File: img/visualizacaomedico.png Graphic file (type png)
-
-<use img/visualizacaomedico.png>
-Package pdftex.def Info: img/visualizacaomedico.png used on input line 508.
-(pdftex.def)             Requested size: 160.08899pt x 72.26999pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 508.
+Package pdftex.def Info: img/logo.png used on input line 487.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [54
 
- <./img/visualizacaomedico.png>] <img/pinball_world.png, id=3082, 602.25pt x 34
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 503.
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 503.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [55
+
+]
+Overfull \vbox (4.11737pt too high) detected at line 531
+ []
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 531.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [56
+
+]
+<img/visualizacaomedico.png, id=3250, 451.4466pt x 203.8014pt>
+File: img/visualizacaomedico.png Graphic file (type png)
+
+<use img/visualizacaomedico.png>
+Package pdftex.def Info: img/visualizacaomedico.png used on input line 540.
+(pdftex.def)             Requested size: 160.08899pt x 72.26999pt.
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 540.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [57
+
+ <./img/visualizacaomedico.png>] <img/pinball_world.png, id=3306, 602.25pt x 34
 3.2825pt>
 File: img/pinball_world.png Graphic file (type png)
 
 <use img/pinball_world.png>
-Package pdftex.def Info: img/pinball_world.png used on input line 521.
+Package pdftex.def Info: img/pinball_world.png used on input line 553.
 (pdftex.def)             Requested size: 126.78867pt x 72.26999pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 521.
+Package pdftex.def Info: img/logo.png used on input line 553.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [55
+ [58
 
  <./img/pinball_world.png>]
 File: img/pinball_world.png Graphic file (type png)
 
 <use img/pinball_world.png>
-Package pdftex.def Info: img/pinball_world.png used on input line 521.
+Package pdftex.def Info: img/pinball_world.png used on input line 553.
 (pdftex.def)             Requested size: 126.78867pt x 72.26999pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 521.
+Package pdftex.def Info: img/logo.png used on input line 553.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [56
+ [59
 
 ]
 File: img/pinball_world.png Graphic file (type png)
 
 <use img/pinball_world.png>
-Package pdftex.def Info: img/pinball_world.png used on input line 521.
+Package pdftex.def Info: img/pinball_world.png used on input line 553.
 (pdftex.def)             Requested size: 126.78867pt x 72.26999pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 521.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [57
-
-]
-File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 543.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [58
-
-]
-File: img/logo.png Graphic file (type png)
-
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 552.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [59
-
-] <img/chart_1-.png, id=3350, 488.57532pt x 356.0803pt>
-File: img/chart_1-.png Graphic file (type png)
-
-<use img/chart_1-.png>
-Package pdftex.def Info: img/chart_1-.png used on input line 558.
-(pdftex.def)             Requested size: 257.81798pt x 187.90244pt.
-
-Overfull \vbox (0.58987pt too high) detected at line 558
- []
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 558.
+Package pdftex.def Info: img/logo.png used on input line 553.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [60
 
- <./img/chart_1-.png>]
-<img/chart_3-.png, id=3403, 445.665pt x 367.3725pt>
-File: img/chart_3-.png Graphic file (type png)
- <use img/chart_3-.png>
-Package pdftex.def Info: img/chart_3-.png used on input line 564.
-(pdftex.def)             Requested size: 227.95256pt x 187.90244pt.
-
-Overfull \vbox (3.32738pt too high) detected at line 564
- []
-
+]
 File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 564.
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 575.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [61
 
- <./img/chart_3-.png>]
-<img/metricasq1.png, id=3458, 450.18187pt x 184.43906pt>
-File: img/metricasq1.png Graphic file (type png)
-
-<use img/metricasq1.png>
-Package pdftex.def Info: img/metricasq1.png used on input line 570.
-(pdftex.def)             Requested size: 246.95508pt x 101.17755pt.
+]
 File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 570.
+
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 584.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [62
 
- <./img/metricasq1.png>]
-<img/chart_10-.png, id=3511, 472.01344pt x 363.60844pt>
-File: img/chart_10-.png Graphic file (type png)
+] <img/chart_1-.png, id=3577, 488.57532pt x 356.0803pt>
+File: img/chart_1-.png Graphic file (type png)
 
-<use img/chart_10-.png>
-Package pdftex.def Info: img/chart_10-.png used on input line 576.
-(pdftex.def)             Requested size: 243.92871pt x 187.90244pt.
+<use img/chart_1-.png>
+Package pdftex.def Info: img/chart_1-.png used on input line 590.
+(pdftex.def)             Requested size: 257.81798pt x 187.90244pt.
 
-Overfull \vbox (0.58987pt too high) detected at line 576
+Overfull \vbox (0.58987pt too high) detected at line 590
  []
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 576.
+Package pdftex.def Info: img/logo.png used on input line 590.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [63
 
- <./img/chart_10-.png>]
-<img/metricasq2.png, id=3565, 449.42906pt x 146.79843pt>
-File: img/metricasq2.png Graphic file (type png)
+ <./img/chart_1-.png>]
+<img/chart_3-.png, id=3631, 445.665pt x 367.3725pt>
+File: img/chart_3-.png Graphic file (type png)
+ <use img/chart_3-.png>
+Package pdftex.def Info: img/chart_3-.png used on input line 596.
+(pdftex.def)             Requested size: 227.95256pt x 187.90244pt.
 
-<use img/metricasq2.png>
-Package pdftex.def Info: img/metricasq2.png used on input line 582.
-(pdftex.def)             Requested size: 309.75662pt x 101.17755pt.
-
-Overfull \hbox (2.46675pt too wide) in paragraph at lines 582--582
- [] 
+Overfull \vbox (3.32738pt too high) detected at line 596
  []
-
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 582.
-(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [64
-
- <./img/metricasq2.png>]
-
-LaTeX Warning: Citation `lmmeigengaits2013' on page 65 undefined on input line 
-596.
-
-
-LaTeX Warning: Citation `lmmcbmsgame2016' on page 65 undefined on input line 59
-6.
-
-
-LaTeX Warning: Citation `lmmcbmsgait2016' on page 65 undefined on input line 59
-6.
 
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png used on input line 596.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [65
+ [64
 
-]
+ <./img/chart_3-.png>]
+<img/metricasq1.png, id=3686, 450.18187pt x 184.43906pt>
+File: img/metricasq1.png Graphic file (type png)
+
+<use img/metricasq1.png>
+Package pdftex.def Info: img/metricasq1.png used on input line 602.
+(pdftex.def)             Requested size: 246.95508pt x 101.17755pt.
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 605.
+Package pdftex.def Info: img/logo.png used on input line 602.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [65
+
+ <./img/metricasq1.png>]
+<img/chart_10-.png, id=3741, 472.01344pt x 363.60844pt>
+File: img/chart_10-.png Graphic file (type png)
+
+<use img/chart_10-.png>
+Package pdftex.def Info: img/chart_10-.png used on input line 608.
+(pdftex.def)             Requested size: 243.92871pt x 187.90244pt.
+
+Overfull \vbox (0.58987pt too high) detected at line 608
+ []
+
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 608.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [66
 
-]
+ <./img/chart_10-.png>]
+<img/metricasq2.png, id=3795, 449.42906pt x 146.79843pt>
+File: img/metricasq2.png Graphic file (type png)
+
+<use img/metricasq2.png>
+Package pdftex.def Info: img/metricasq2.png used on input line 614.
+(pdftex.def)             Requested size: 309.75662pt x 101.17755pt.
+
+Overfull \hbox (2.46675pt too wide) in paragraph at lines 614--614
+ [] 
+ []
+
 File: img/logo.png Graphic file (type png)
- <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 605.
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 614.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [67
 
-]
-File: img/logo.png Graphic file (type png)
+ <./img/metricasq2.png>]
 
+LaTeX Warning: Citation `lmmeigengaits2013' on page 68 undefined on input line 
+628.
+
+
+LaTeX Warning: Citation `lmmcbmsgame2016' on page 68 undefined on input line 62
+8.
+
+
+LaTeX Warning: Citation `lmmcbmsgait2016' on page 68 undefined on input line 62
+8.
+
+File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 605.
+Package pdftex.def Info: img/logo.png used on input line 628.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [68
 
 ]
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 605.
+Package pdftex.def Info: img/logo.png used on input line 637.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
  [69
 
 ]
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 637.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [70
+
+]
+File: img/logo.png Graphic file (type png)
+
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 637.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [71
+
+]
+File: img/logo.png Graphic file (type png)
+ <use img/logo.png>
+Package pdftex.def Info: img/logo.png used on input line 637.
+(pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
+ [72
+
+]
 ! Undefined control sequence.
-l.609 ...ar uma amostra maior de pacientes com~\ac
+l.641 ...ar uma amostra maior de pacientes com~\ac
                                                   {dp}, e agrupá-los de aco...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2155,13 +2259,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `goul05' on page 70 undefined on input line 609.
+LaTeX Warning: Citation `goul05' on page 73 undefined on input line 641.
 
 
-LaTeX Warning: Citation `multisvm2011' on page 70 undefined on input line 610.
+LaTeX Warning: Citation `multisvm2011' on page 73 undefined on input line 642.
 
 ! Undefined control sequence.
-l.610 ...2011} para identificar o progresso do~\ac
+l.642 ...2011} para identificar o progresso do~\ac
                                                   {dp} de acordo com as esca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2170,12 +2274,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `UPDRS' on page 70 undefined on input line 610.
+LaTeX Warning: Citation `UPDRS' on page 73 undefined on input line 642.
 
 ! Undefined control sequence.
 <argument> \relax \citename 
                             {Picon {\em et~al.\ }\relax , }2010
-l.611 ...ratamento medicamentoso~\cite{protpar010}
+l.643 ...ratamento medicamentoso~\cite{protpar010}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2186,7 +2290,7 @@ and I'll forget about whatever was undefined.
 ! Too many }'s.
 \endframe ->\egroup 
                     \begingroup \def \@currenvir {frame}
-l.614 \end{frame}
+l.646 \end{frame}
                  
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -2197,16 +2301,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: img/logo.png Graphic file (type png)
 
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 622.
+Package pdftex.def Info: img/logo.png used on input line 654.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [70
+ [73
 
 ]
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 622.
+Package pdftex.def Info: img/logo.png used on input line 654.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [71] (./jogos-saude-tese.bbl
+ [74] (./jogos-saude-tese.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: img/logo.png Graphic file (type png)
@@ -2214,7 +2318,7 @@ File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png used on input line 28.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [72
+ [75
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2224,12 +2328,12 @@ File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png used on input line 48.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [73])
+ [76])
 File: img/logo.png Graphic file (type png)
  <use img/logo.png>
-Package pdftex.def Info: img/logo.png used on input line 627.
+Package pdftex.def Info: img/logo.png used on input line 659.
 (pdftex.def)             Requested size: 61.45703pt x 15.90436pt.
- [74]
+ [77]
 \tf@nav=\write6
 \openout6 = `jogos-saude-tese.nav'.
 
@@ -2239,11 +2343,11 @@ Package pdftex.def Info: img/logo.png used on input line 627.
 \tf@snm=\write8
 \openout8 = `jogos-saude-tese.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 627.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 627.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 659.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 659.
  (./jogos-saude-tese.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 627.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 627.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 659.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 659.
 Package rerunfilecheck Info: File `jogos-saude-tese.out' has not changed.
 (rerunfilecheck)             Checksum: 703EABCAC757AB71295D726AF72C3849;288.
 
@@ -2257,13 +2361,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 627.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 659.
  ) 
 Here is how much of TeX's memory you used:
- 19372 strings out of 493105
- 361383 string characters out of 6137072
- 476378 words of memory out of 5000000
- 22186 multiletter control sequences out of 15000+600000
+ 19416 strings out of 493105
+ 362376 string characters out of 6137072
+ 478261 words of memory out of 5000000
+ 22223 multiletter control sequences out of 15000+600000
  11704 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,21n,60p,396b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2274,10 +2381,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on jogos-saude-tese.pdf (74 pages, 3665209 bytes).
+Output written on jogos-saude-tese.pdf (77 pages, 4355695 bytes).
 PDF statistics:
- 4234 PDF objects out of 4296 (max. 8388607)
- 4011 compressed objects within 41 object streams
- 174 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4477 PDF objects out of 5155 (max. 8388607)
+ 4246 compressed objects within 43 object streams
+ 180 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 

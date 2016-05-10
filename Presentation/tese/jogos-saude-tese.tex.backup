@@ -53,10 +53,11 @@ showstringspaces=false }
   \begin{block}{}
       \center \includegraphics[height=1.8 in]{img/sismonsaude.png}
   \end{block}
-  \begin{block}{}
+  \begin{block}{}  
 A computação aplicada ao contexto de saúde permite monitorar remotamente o estado de saúde dos usuários. Entretanto, a concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar}.
   \end{block}
 \end{frame}
+
 
 \begin{frame}{Estratégias de Monitoramento da Saúde}
   \begin{block}{}
@@ -67,15 +68,48 @@ As tecnologias de monitoramento para serem aceitas precisam preservar a privacid
   \end{block}
 \end{frame}
 
+
+\begin{frame}{Aplicações dos SMS}  
+  \begin{block}{}
+  Atualmente, os~\ac{sms} permitem ao médico acompanhar à distância o estado de saúde de seus pacientes colaborativamente~\cite{healthmonitoring2013}, realizando:  
+  \begin{itemize}
+   \item Tratamento preventivo e pró-ativo do estado de saúde~\cite{bardram2010}; 
+   \item suporte à reabilitação do paciente~\cite{sacbespoke2014};
+   \item auxílio para o paciente atingir uma melhor qualidade de vida~\cite{sacsvmhms2014}. 
+  \end{itemize} 
+  \end{block} 
+\end{frame}
+
+
+\begin{frame}{SMS da Saúde Motora}  
+  \begin{block}{}
+  
+  Referente ao monitoramento dos sinais motores, os~\ac{sms}:  
+  \begin{itemize}
+   \item quantificam as habilidades motoras~\cite{manumeterjbhi2014,patel_monitoring_2009};
+   \item efetuam análise da marcha \cite{robotgait2014}
+   \item identificam sinais de bradicinesia~\cite{ambulatoryparkinson2010}. 
+  \end{itemize}   
+  \end{block} 
+  
+  \begin{alertblock}{}
+   Contudo, o maior desafio dessas abordagens é a aceitação do usuário e a consequente inserção na rotina diária~\cite{alemdar2015}.
+  \end{alertblock}
+ 
+\end{frame}
+
+
+
+
+
 \begin{frame}{Motivação para uso de jogos para monitoramento dos dados motores}
 	\begin{block}{}
 	\begin{itemize}[<+->]
-	%TODO NOVA REFERENCIA da ESA 2014
-			\item Percentual expressivo de adultos e idosos que são usuários de jogos, e os utiliza em sua rotina diária (29\% acima dos 50 anos);
-      \item O  jogo é uma experiência autotélica, logo o usuário joga por puro prazer, sem esperar qualquer benefício por seu uso ~\cite{sweetser2005-gameflow};
-			\item As tecnologias de sensores de movimento estão presentes no contexto dos jogos eletrônicos;
+	    \item Percentual expressivo de adultos e idosos que são usuários de jogos, e os utiliza em sua rotina diária (27\% acima dos 50 anos~\cite{esa2015});
+	    \item O jogo é uma experiência autotélica, logo o usuário joga por puro prazer, sem esperar qualquer benefício por seu uso ~\cite{sweetser2005-gameflow};
+	    \item As tecnologias de sensores de movimento estão presentes no contexto dos jogos eletrônicos;
 			%TODO: Nova motivação
-			\item Possibilita a reprodução de movimentos específicos em um ambiente controlado, o qual permite a aquisição de dados motores.
+			\item Possibilita a reprodução de movimentos específicos em um ambiente controlado para a aquisição de sinais motores.
 	\end{itemize}
 	\end{block}
 \end{frame}
