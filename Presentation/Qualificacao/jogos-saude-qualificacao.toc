@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {portuguese}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@sectionintoc {2}{Estudo de Caso}{18}{0}{2}
+\beamer@sectionintoc {3}{Desenv. de Jogos}{35}{0}{3}
+\beamer@sectionintoc {4}{GAHME}{39}{0}{4}
+\beamer@sectionintoc {5}{Experimentos}{61}{0}{5}
+\beamer@sectionintoc {6}{GQM}{102}{0}{6}
+\beamer@sectionintoc {7}{Finaliza\IeC {\c c}\IeC {\~a}o}{109}{0}{7}

@@ -13,55 +13,86 @@ Alemdar, Hande, \& Ersoy, Cem. 2010.
 \newblock Wireless sensor networks for healthcare: A survey.
 \newblock {\em Computer networks}, {\bf 54}(15), 2688--2710.
 
-\bibitem[\protect\citename{Fahn \& Elton, }1987]{updrs87}
-Fahn, S., \& Elton, R. 1987.
-\newblock Unified parkinson's disease rating scale.
-\newblock {\em Pages  153--63 of:} et~al Fahn, S. (ed), {\em Recent
-  developments in parkinson's disease}.
-\newblock New Jersey: Macmillan Health Care Information.
+\bibitem[\protect\citename{Alemdar {\em et~al.\ }\relax, }2015]{alemdar2015}
+Alemdar, Hande, Tunca, Can, \& Ersoy, Cem. 2015.
+\newblock Daily life behaviour monitoring for health assessment using machine
+  learning: Bridging the gap between domains.
+\newblock {\em Personal ubiquitous computing}.
 
-\bibitem[\protect\citename{Goldberger {\em et~al.\ }\relax, }2004,
-  Novembro]{physionet}
-Goldberger, A.~L., Amaral, L. A.~N., Glass, L., Hausdorff, J.~M., Ivanov,
-  P.~Ch., Mark, R.~G., Mietus, J.~E., Moody, G.~B., Peng, C.-K., \& Stanley,
-  H.~E. 2004, Novembro.
-\newblock Physiobank, physiotoolkit, and physionet: Components of a new
-  research resource for complex physiologic signals.
-\newblock {\em Circulation}, {\bf 101}(23), e215--e220.
-\newblock Circulation Electronic Pages:
-  http://circ.ahajournals.org/cgi/content/full/101/23/e215 PMID:1085218; doi:
-  10.1161/01.CIR.101.23.e215.
+\bibitem[\protect\citename{Arnrich {\em et~al.\ }\relax, }2010]{bardram2010}
+Arnrich, Bert, Mayora, Oscar, Bardram, Jakob, \& e~Tr{\"{o}}ster, Gerhard.
+  2010.
+\newblock Pervasive healthcare - paving the way for a pervasive, user-centered
+  and preventive healthcare model.
+\newblock {\em Methods of information in medicine}.
 
-\bibitem[\protect\citename{McGinnis, }2013]{mcginnis2013biomechanics}
-McGinnis, P. 2013.
-\newblock {\em Biomechanics of sport and exercise}.
-\newblock Human Kinetics.
+\bibitem[\protect\citename{Association, }2015]{esa2015}
+Association, Entertainment~Software. 2015.
+\newblock {\em Essential facts about the u.s. computer and video game industry:
+  Sales, demophahy and usage data}.
 
-\bibitem[\protect\citename{Neumann, }2012]{neumann2012cinesiologia}
-Neumann, D.A. 2012.
-\newblock {\em Cinesiologia do aparelho musculoesquelético: Fundamentos para
-  reabilitação}.
-\newblock Elsevier Health Sciences.
+\bibitem[\protect\citename{Chen {\em et~al.\ }\relax, }2014]{sacsvmhms2014}
+Chen, Huan, Liao, Guo-Tan, Fan, Yao-Chung, Cheng, Bo-Chao, Chen, Cheng-Min, \&
+  Kuo, Ting-Chun. 2014.
+\newblock Design and implementation of a personal health monitoring system with
+  an effective svm-based pvc detection algorithm in cardiology.
+\newblock {\em In:} {\em Symposium on applied computing}.
+\newblock ACM.
 
-\bibitem[\protect\citename{Picon {\em et~al.\ }\relax, }2010]{protpar010}
-Picon, Paulo~Dornelles, Gadelha, Maria Inez~Pordeu, \& Beltrame, Alberto. 2010.
-\newblock {\em Protocolo clínico e diretrizes terapêutica - doença de
-  parkinson}.
-\newblock Ministério da Saúde.
+\bibitem[\protect\citename{Friedman {\em et~al.\ }\relax,
+  }2014]{manumeterjbhi2014}
+Friedman, N., Rowe, J.B., Reinkensmeyer, D.J., \& Bachman, M. 2014.
+\newblock The manumeter: A wearable device for monitoring daily use of the
+  wrist and fingers.
+\newblock {\em Ieee journal of biomedical and health informatics}.
 
-\bibitem[\protect\citename{Smith, }2002]{smith2002}
-Smith, Lindsay~I. 2002 (February 26).
-\newblock {\em A tutorial on principal components analysis}.
-\newblock Tech. rept. Cornell University, USA.
+\bibitem[\protect\citename{Graziadio {\em et~al.\ }\relax,
+  }2014]{sacbespoke2014}
+Graziadio, S., Davison, R., Shalabi, K., Sahota, K. M.~A., Ushaw, G., Morgan,
+  G., \& Eyre, J.~A. 2014.
+\newblock Bespoke video games to provide early response markers to identify the
+  optimal strategies for maximizing rehabilitation.
+\newblock {\em In:} {\em Proceedings of the 29th annual acm symposium on
+  applied computing}.
+\newblock ACM.
+
+\bibitem[\protect\citename{Liao {\em et~al.\ }\relax, }2014]{robotgait2014}
+Liao, Chien-Ke, Lim, Chung~Dial, Cheng, Ching-Ying, Huang, Cheng-Ming, \& Fu,
+  Li-Chen. 2014.
+\newblock Vision based gait analysis on robotic walking stabilization system
+  for patients with parkinson's disease.
+\newblock {\em In:} {\em International conference on automation science and
+  engineering (case)}.
+\newblock IEEE.
+
+\bibitem[\protect\citename{Mobyen Uddin~Ahmed \& Loutfi,
+  }2013]{healthmonitoring2013}
+Mobyen Uddin~Ahmed, Hadi~Banaee, \& Loutfi, Amy. 2013.
+\newblock Health monitoring for elderly: An application using case-based
+  reasoning and cluster analysis.
+\newblock {\em Isrn artificial intelligence}.
+
+\bibitem[\protect\citename{Patel {\em et~al.\ }\relax,
+  }2009]{patel_monitoring_2009}
+Patel, S., Lorincz, K., Hughes, R., Huggins, N., Growdon, J., Standaert, D.,
+  Akay, M., Dy, J., Welsh, M., \& Bonato, P. 2009.
+\newblock Monitoring motor fluctuations in patients with parkinson's disease
+  using wearable sensors.
+\newblock {\em {IEEE} transactions on information technology in biomedicine},
+  {\bf 13}(6), 864--873.
 
 \bibitem[\protect\citename{Sweetser \& Wyeth, }2005]{sweetser2005-gameflow}
 Sweetser, Penelope, \& Wyeth, Peta. 2005.
 \newblock Gameflow: a model for evaluating player enjoyment in games.
 \newblock {\em Comput. entertain.}, {\bf 3}(3), 3--3.
 
-\bibitem[\protect\citename{Teive, }2003]{menezes2003}
-Teive, Hélio A.~G. 2003.
-\newblock {\em Doença de parkinson - meneses}.
-\newblock Guanabara Koogan.
+\bibitem[\protect\citename{Zwartjes {\em et~al.\ }\relax,
+  }2010]{ambulatoryparkinson2010}
+Zwartjes, D.G.M., Heida, T., van Vugt, J.P.P., Geelen, J.A.G., \& Veltink, P.H.
+  2010.
+\newblock Ambulatory monitoring of activities and motor symptoms in parkinson's
+  disease.
+\newblock {\em Biomedical engineering, ieee transactions on}, {\bf 57}(11),
+  2778--2786.
 
 \end{thebibliography}

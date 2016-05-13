@@ -1,0 +1,165 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{GWMH08}
+
+\bibitem[AB10]{aarh10}
+Rikke Aarhus and Stinne~Aal{\o}kke Ballegaard.
+\newblock Negotiating boundaries: managing disease at home.
+\newblock In {\em Proceedings of the 28th international conference on Human
+  factors in computing systems}, CHI '10, pages 1223--1232, New York, NY, USA,
+  2010. ACM.
+
+\bibitem[AE10]{alemdar}
+Hande Alemdar and Cem Ersoy.
+\newblock Wireless sensor networks for healthcare: A survey.
+\newblock {\em Computer Networks}, 54(15):2688--2710, October 2010.
+
+\bibitem[Aha07]{ah07}
+N.~Kameas Ahamed, S.I.~Talukder.
+\newblock Towards privacy protection in pervasive healthcare.
+\newblock {\em IET International Conference on Intelligent Environments}, 3:296
+  -- 303, 2007.
+
+\bibitem[And09]{and09}
+Jacob Andersen.
+\newblock Secure group formation protocol for a medical sensor network
+  prototype.
+\newblock In {\em 5th International Conference on Intelligent Sensors}, pages
+  343--348. IEEE Computer Society, 2009.
+
+\bibitem[AT08]{ter08}
+J.~Jeng B.-R. Chen K. Lorincz-M.~Welsh A.~Terzis, A.~Watt.
+\newblock Wireless medical sensor networks in emergency response:
+  Implementation and pilot results.
+\newblock {\em Second International Conference on Pervasive Computing
+  Technologies for Healthcare}, 2008.
+
+\bibitem[DB07]{bha07}
+S.~Rao D.~Bhatia, L.~Estevez.
+\newblock Energy efficient contextual sensing for elderly care.
+\newblock {\em 29th Annual International Conference of the IEEE EMBS}, pages
+  4052--4055, 2007.
+
+\bibitem[DK03]{mobhealth}
+R.~Herzog D.~Konstantas.
+\newblock Continuous monitoring of vital constants for mobile users: the
+  mobihealth approach.
+\newblock {\em 25th Annual International Conference of the IEEE EMBS}, 2003.
+
+\bibitem[DPS{\etalchar{+}}08]{dag08}
+S.~Da\v{g}tas, G.~Pekhteryev, Z.~Sahino\v{g}lu, H.~\c{C}am, and N.~Challa.
+\newblock Real-time and secure wireless health monitoring.
+\newblock {\em Int. J. Telemedicine Appl.}, 2008:1:1--1:10, January 2008.
+
+\bibitem[GS09]{sae09}
+Hernando M.E. Martínez-Sarriegu García-Sáez, G.
+\newblock Architecture of a wireless personal assistant for telemedical
+  diabetes care.
+\newblock {\em International Journal of Medical Informatics}, v78:391--403,
+  2009.
+
+\bibitem[GWMH08]{giet08}
+M.~Gietzelt, K.-H. Wolf, M.~Marschollek, and R.~Haux.
+\newblock Automatic self-calibration of body worn triaxial-accelerometers for
+  application in healthcare.
+\newblock In {\em Pervasive Computing Technologies for Healthcare, 2008.
+  PervasiveHealth 2008. Second International Conference on}, pages 177 --180,
+  30 2008-feb. 1 2008.
+
+\bibitem[HMW{\etalchar{+}}05]{Ho:2005:PRS:1080148.1080164}
+Loc Ho, Melody Moh, Zachary Walker, Takeo Hamada, and Ching-Fong Su.
+\newblock A prototype on rfid and sensor networks for elder healthcare:
+  progress report.
+\newblock In {\em Proceedings of the 2005 ACM SIGCOMM workshop on Experimental
+  approaches to wireless network design and analysis}, E-WIND '05, pages
+  70--75, New York, NY, USA, 2005. ACM.
+
+\bibitem[HR06]{ren06}
+M.Q.H.~Meng H.~Ren.
+\newblock Bioeffects control in wireless biomedical sensor networks.
+\newblock {\em 3rd Annual IEEE Communications Society on Sensor and Ad Hoc
+  Communications and Networks}, vol. 3:896--904, 2006.
+
+\bibitem[JS07]{seo07}
+S.~Lim-J. Ahn W.~Kim J.~Seo, J.~Heo.
+\newblock A study on the implementation of a portable u-healthcare system using
+  snmp and aodv.
+\newblock {\em 29th Annual International Conference of the IEEE EMBS}, 2007.
+
+\bibitem[KP05]{aging05}
+Kevin Kinsella and David~R. Phillips.
+\newblock Global aging: The challenge of success.
+\newblock Technical report, Population Reference Bureau,
+  http://www.prb.org/Publications/PopulationBulletins/2005/GlobalAgingTheChallengeofSuccessPDF575KB.aspx,
+  2005.
+
+\bibitem[LF]{lu}
+C.~Lu and L.~Fu.
+\newblock Robust location-aware activity recognition using wireless sensor
+  network in an attentive home.
+\newblock {\em IEEE Transactions on Automation Science and Engineering}, pages
+  598--609.
+
+\bibitem[MLn08]{lop08}
+J.~García-duque Y. Blanco-fernández M.~López-nores, J.J. Pazos-arias.
+\newblock Monitoring medicine intake in the networked home: the icabinet
+  solution.
+\newblock {\em Second International Conference on Pervasive Computing
+  Technologies for Healthcare}, 2008.
+
+\bibitem[MP]{phi04}
+I.~Smith D. Fox-H. Kautz D.~Patterson M.~Philipose, S.~Consolvo.
+\newblock Fast, detailed inference of diverse daily human activities.
+\newblock {\em Sixth International Conference on Ubiquitous Computing}, page
+  2004.
+
+\bibitem[MRF{\etalchar{+}}03]{mug03}
+Miguel~A. Munoz, Marcela Rodriguez, Jesus Favela, Ana~I. Martinez-Garcia, and
+  Victor~M. Gonzalez.
+\newblock Context-aware mobile communication in hospitals.
+\newblock {\em Computer}, 36(9):38--46, 2003.
+
+\bibitem[NSTW06]{witeleme}
+H.~S. Ng, M.~L. Sim, C.~M. Tan, and C.~C. Wong.
+\newblock Wireless technologies for telemedicine.
+\newblock {\em BT Technology Journal}, 24:130--137, April 2006.
+
+\bibitem[OEB07]{ome07}
+O.~C. Omeni, O.~Eljamaly, and A.~J. Burdett.
+\newblock Energy efficient medium access protocol for wireless medical body
+  area sensor networks.
+\newblock pages 29--32, August 2007.
+
+\bibitem[PIk08]{ket08}
+J.~Vanhala P.~Iso-ketola, T.~Karinsalo.
+\newblock Hipguard: a wearable measurement system for patients recovering from
+  a hip operation.
+\newblock {\em Second International Conference on Pervasive Computing
+  Technologies for Healthcare}, 2008.
+
+\bibitem[SB05]{bao05}
+L.~Shen S.~Bao, Y.~Zhang.
+\newblock Physiological signal based entity authentication for body area sensor
+  networks and mobile healthcare systems.
+\newblock {\em 27th Annual International Conference of the IEEE EMBS}, 2005.
+
+\bibitem[SCD{\etalchar{+}}05]{stan05}
+J.~A. Stankovic, Q.~Cao, T.~Doan, L.~Fang, Z.~He, R.~Kiran, S.~Lin, S.~Son,
+  R.~Stoleru, and A.~Wood.
+\newblock Wireless sensor networks for in-home healthcare:.
+\newblock In {\em in HCMDSS}, pages 2--3, 2005.
+
+\bibitem[SCL{\etalchar{+}}05]{codeblue}
+Victor Shnayder, Bor-rong Chen, Konrad Lorincz, Thaddeus R. F.~Fulford Jones,
+  and Matt Welsh.
+\newblock Sensor networks for medical care.
+\newblock In {\em Proceedings of the 3rd international conference on Embedded
+  networked sensor systems}, SenSys '05, pages 314--314, New York, NY, USA,
+  2005. ACM.
+
+\bibitem[TH05]{han05}
+J.~Sprinkle R. Bajcsy-S.~Sastry T.R.~Hansen, J.M.~Eklund.
+\newblock Using smart sensors and a camera phone to detect and verify the fall
+  of elderly persons.
+\newblock {\em European Medicine, Biology and Engineering Conference}, 2005.
+
+\end{thebibliography}

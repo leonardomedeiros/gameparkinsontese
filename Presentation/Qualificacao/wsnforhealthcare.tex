@@ -1,0 +1,626 @@
+%%\documentclass[t,handout]{beamer}
+\documentclass{beamer}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[tight]{subfigure}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{url}
+% \usepackage{listings}
+
+%Pacote de listagem de c�digo
+\usepackage{listings}
+\lstset{numbers=left, stepnumber=1, firstnumber=1,
+numberstyle=\tiny, extendedchars=true, breaklines=true, frame=tb,
+basicstyle=\footnotesize, stringstyle=\ttfamily,
+showstringspaces=false }
+
+
+ \usetheme{Frankfurt} %LEGAL     !!!
+% \usetheme{Madrid}     %LEGAL/L%IMPO/COM CAIXA     (sem barra de desenvolvimento)
+
+% \usetheme{Antibes} %NAO
+% \usetheme{Berlin} %PODE SER...     (BARRA DE DESENVOLVIMANTO)
+% \usetheme{Berkeley}     %FEIO
+% \usetheme{Boadilla} %TUDO BRANCO...
+% \usetheme{Copenhagen}     %NAO
+% \usetheme{Darmstadt} %LEGAL!     !!!
+% \usetheme{Dresden}     %LEGAL/LIMPO/SEM CAIXA     (sem caixa fica ruim...)
+
+% \usetheme{Goettingen}     %FEIO DEMAIS!
+% \usetheme{Ilmenau} %LEGAL (forte candidato)
+% \usetheme{JuanLesPins} %BACANA
+% \usetheme{Luebeck}     %FEIO
+
+% \usetheme{Malmoe}     %FEIO
+% \usetheme{Warsaw} %NAO...
+% \usetheme{Seattle}
+% \usetheme{CambridgeUS}
+% \usetheme{Singapore}
+
+% \usecolortheme[RGB={130,35,150}]{structure}
+% \usecolortheme[RGB={33,33,94}]{structure}
+\usecolortheme[RGB={134,153,188}]{structure}
+\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{navigation symbols}{}
+
+\author[L. Medeiros]{Leonardo Medeiros}
+\date{\today}
+\institute[IFAL, UFCG, UFAL]{IFAL, UFCG, UFAL}
+    \title{Wireless Sensor Networks for Healthcare: A Survey}
+\logo{\includegraphics[width=0.2\linewidth]{img/logo.png}}
+\subtitle{Hande Alemdar, Cem Ersoy}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% \section{Roteiro}
+% \AtBeginSection[]
+{\frame{
+\frametitle{Roteiro}
+\tableofcontents
+}
+}
+
+\section{Introdução}
+\begin{frame}{Pervasive Healthcare}
+  \begin{block}{Dados}
+  O contínuo envelhecimento populacional mundial ocorrido nas últimas décadas tem se tornado um dos principais problemas dos países desenvolvidos. Previsões do Population Reference Bureau ~\cite{aging05} informam que nos próximos 20 anos, 20 $\%$ da população terá acima dos 65 anos de idade.
+  \end{block}
+\end{frame}
+
+\subsection{Pervasive Healthcare}
+\begin{frame}{Pervasive Healthcare}
+  \begin{block}{}
+   O uso da computação pervasiva aplicada ao auxílio ao tratamento de saúde é denominado de \textit{pervasive healthcare} ~\cite{ah07}. 
+  \end{block}
+
+  \begin{block}{}
+  Essa tecnologia pode fornecer informação baseada no contexto e na rotina do paciente provendo um monitoramento contínuo do mesmo. 
+  \end{block}
+\end{frame}
+
+\begin{frame}{Monitoramento Contínuo} 
+  \begin{block}{}<1->
+   O monitoramento poderá prover alertas em situações iminentes de agudização ou crise. Tratando com antecedência e trazendo menos injúria ao paciente ~\cite{alemdar}.
+  \end{block}
+% 
+%   \begin{block}{}<2->
+%    Minimiza a necessidade de acompanhantes que auxiliem: pacientes crônicos, idosos  e crianças de berço ~\cite{alemdar}.
+%   \end{block}
+
+  \begin{block}{}<2->
+   O monitoramento constante irá aumentar a detecção prévia de situações de emergência para pacientes \textit{homecare} em risco ou que possuem níveis cognitivos e físicos comprometidos ~\cite{stan05}.
+  \end{block}
+\end{frame}
+
+
+% \begin{frame}{Tratamento Domiciliar}
+%  \begin{block}{}<1->
+%     Dentre os benefício do uso da \textit{pervasive healthcare} tem-se a melhoria do tratamento domiciliar do paciente ~\cite{aarh10}, a realização do monitoramento remoto ~\cite{lae04}, além da possibilidade de visualizar a situação clínica do paciente através da opinião de profissionais.  
+%  \end{block}
+% \end{frame}
+
+
+\subsection{Tecnologias}
+\begin{frame}{Tecnologias Existentes}
+  \begin{block}{}
+  Pesquisadores da área de computação, eletrônica, medicina estão juntos pensando nas possibilidades propiciadas pela computação pervasiva aplicada a saúde. 
+  \end{block}
+
+  \begin{block}{Larga-Escala (Grandes Áreas)}
+  A importância de integrar tecnologias wireless de larga escala como: 3G, Wi-Fi Mesh, WiMAX com a telemedicina têm endereçados diversas pesquisas por alguns pesquisadores.
+  \end{block}  
+\end{frame}
+
+\begin{frame}{Tecnologias Existentes}
+  \begin{block}{Pequena-Escala (Pequenas Áreas)}
+   Algumas melhorias para esse monitoramento podem ser efetuados por tecnologias de pequenas áreas ou até mesmo da distância do corpo humano como tecnologias: RFID(Identificação de Rádio-Freqüencia), Bluetooth, Zigbee e redes sensores sem-fio.
+  \end{block}
+
+  \begin{block}{Aplicações Baseadas em Contexto}
+  Através da integração das tecnologias \textit{wireless} de larga e pequena escala é possível prover aplicações sensíveis ao contexto monitorando o paciente onde quer que ele esteja ~\cite{witeleme}.
+  \end{block}  
+\end{frame}
+
+\begin{frame}{Facilidade de acesso à informação}
+    \begin{block}{}
+     Com o avanço das tecnologias e dos sistemas de informações médicas, torna-se possível que os profissionais da saúde tenham acesso à informação do paciente, bem como submeter seu próprio parecer clínico a respeito do estado de saúde atual desses ~\cite{mug03}. 
+    \end{block} 
+\end{frame}
+
+\begin{frame}{Protótipos e Produtos Comerciais}
+    \begin{block}{}
+      Já existem alguns protótipos e aplicações comerciais para atendimento à saúde que fazem uso de:
+	\begin{itemize}
+	 \item Body Area Network (BAN)
+	 \item Personal Area Network (PAN)
+	 \item Informações vitais do paciente em tempo-real visualizadas em Smartphones ou PDAs
+	\end{itemize}
+    \end{block} 
+\end{frame}
+
+
+\begin{frame}{}
+    \begin{block}{Overview de um Wireless Sensor Network Application for Healthcare}
+      \center \includegraphics[height=1.8 in]{../imagens/overwsn.png}
+    \end{block}
+\end{frame}
+
+
+% \subsection{Futuros Cenários}
+% \begin{frame}{Monitoramento Baseado no Paciente}
+% Given the importance of the subject, there are already
+% several applications and prototypes on the subject. For
+% example, some of them are devoted to continuous moni-
+% toring for cognitive disorders like Alzheimer’s, Parkinson’s
+% or similar cognitive diseases. Some focus on fall detection,
+% posture detection and location tracking and others make
+% use of biological and environmental sensors to identify pa-
+% tients’ health status. There is also significant research effort
+% in developing tiny wireless sensor devices, preferably inte-
+% grated into fabric or other substances and be implanted in
+% human body.
+% \end{frame}
+
+\section{Benefícios}
+\subsection{}
+\begin{frame}{Benefícios}
+\begin{block}{}
+   A identificação de situações de emergência como um ataque cardíaco ou morte súbita dentro de poucos segundos ou até mesmo minutos pode ser o suficiente para salvar vidas. Por esse motivo o monitoramento de pacientes em tempo real e ações reativas providas pelos sistemas pervasivos podem ser um dos principais benefícios. 
+\end{block}
+\end{frame}
+
+
+\begin{frame}{Avanços da Tecnologia e Redução de Custos}
+O avanço da tecnologia dos equipamentos eletrônicos têm reduzido o custo e tornado possível o sensoreamento a custos baixíssimos. Conjuntamente com as tecnologias de RFID que já está madura e têm seu custo inexpressivo, é possível ``etiquetar'' usuários, dispositivos e todo o ambiente trazendo precisão as soluções pervasivas.
+\end{frame}
+
+\begin{frame}{Identificação de Contexto}
+\begin{block}{Identificação de Contexto}
+  A identificação de contexto é outro benefício provido pelos sistemas pervasivos aplicados a saúde. O \textit{Context-awareness} permite entender as condições ambientais que as pessoas monitoradas foram submetidas identificando o ambiente (temperatura, pressão além dos sinais vitais capturados pelos sensores). 
+\end{block}
+
+\begin{alertblock}{Informação do Contexto}
+  A informação do contexto auxilia a entender e identificar padrões ainda não conhecidos, tornando mais precisas as inferências a respeito das situações monitoradas.
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{WSN for Healthcare}
+    \begin{block}{Possíveis Usuários}
+      \begin{itemize}[<+->]
+       \item \textbf{Crianças:} bebês e crianças dependentes que necessitem de um monitoramento constante;
+       \item \textbf{idosos e pacientes crônicos:} esse grupo incluem as pessoas que possuem dificuldades cognitivas ou alguma disfunção no coração, respiração, etc. Idosos com esses sintomas ou que sejam sucetíveis a morte súbita;
+      \item \textbf{acompanhantes:} familiares, babás e acompanhantes de idosos, crianças ou pacientes crônicos;
+      \item \textbf{profissionais de saúde:} Profissionais como médicos, enfermeiros e demais profissionais responsáveis pelo status clínico dos pacientes e que sejam capazes de dar respostas imediatas em casos de emergência. 
+      \end{itemize}
+    \end{block}
+\end{frame}
+
+\section{Design da Aplicação}
+\subsection{}
+\begin{frame}{} 
+    \begin{block}{Considerações de Design de Aplicações Pervasivas Aplicadas à Saúde}
+      \center \includegraphics[height=2.4 in]{../imagens/design.png}
+    \end{block}
+\end{frame}
+
+
+% \subsection{Body Area Network}
+\begin{frame}{Body Area Network}
+    \begin{block}{}
+      Body Area Network (BAN) é uma rede \textit{ad hoc} que crianças, idosos e pacientes crônicos podemo carregar em seus corpos.
+    \end{block}
+
+    \begin{block}{Exemplos:}
+     Etiquetas RFID, Sensor de Eletrocardiograma (ECG), acelerômetro, medidor de temperadura são exemplos de componentes de uma BAN.
+    \end{block}
+\end{frame}
+
+% \begin{frame}{Principais Problemas}
+%     \begin{block}{}<1->
+%      Um dos principais problemas de uma BAN é o consumo de energia, troca de baterias e recarga. Por conta disso a eficiência dos protocolos de Mediun Access Control (MAC) no que se refere a eficiência energética é crítica ~\cite{ome07}.      
+%     \end{block}
+% 
+%     \begin{block}{}<2->
+%      O estudo de Bhatia et. al. ~\cite{bha07}, demonstra que as tecnologias como Bluetooth e Wi-Fi falham no que se refere ao suporte a uma energia eficiente, desde que apenas conseguem oferecer apenas duas semanas em execução quando fazem uso de uma ``pilha de relógio''.
+%     \end{block}
+% \end{frame}
+
+\begin{frame}{Principais Problemas de uma BAN}
+    \begin{block}{}
+      \begin{itemize}[<+->]
+       \item Consumo de energia, troca de baterias e recarga. Eficiência no protocolo MAC ~\cite{ome07};
+       \item tecnologias como Bluetooth e Wi-Fi falham no que se refere ao suporte a uma energia eficiente ~\cite{bha07};
+       \item estudos ~\cite{ren06} investigam os efeitos biológicos causados pela transmissão de rádio freqüencia dos nós sensores e propõe um algoritmo para reduzir tais efeitos;
+       \item mobilidade e portabilidade devem er considerados para o design dos sensores  ~\cite{seo07}. Sendo necessário integrar com outras tecnologias de rede como RFID  e Near Field Communication (NFC);
+       \item sistemas de tempo-real disponíveis para a comunicação pode ser crítico.
+      \end{itemize}
+    \end{block}
+\end{frame}
+
+
+\begin{frame}{Problemas de Segurança de uma BAN}
+    \begin{block}{}
+      Problemas de segurança também devem ser considerados, pois os sinais vitais armazenados são confidenciais.
+      \begin{itemize}[<+->]
+       \item No trabalho de Bao ~\cite{bao05}, foi desenvolvido uma autenticação baseada nos sinais vitais. A informação extraída dos sinais fisiológicos são extraídas para gerar uma identidade para autênticação mútua;
+       \item Davgtas ~\cite{dag08}, usa um algoritmo de autenticação para transmitir informações clínicas pelos sensores sobre o corpo como ECG e dispositivos móveis do paciente.
+      \end{itemize}
+    \end{block}
+\end{frame}
+
+
+% \section{Personal Area Network}
+
+\begin{frame}{Personal Area Network}
+  \begin{block}{}
+      O subsistema é composto de um ambiente de sensores despostos ao redor do ambiente ou dispositovs móveis pertencentes ao paciente.  
+  \end{block}
+
+  \begin{block}{}
+    O ambiente de sensores como leitores de RFID, câmeras, som, pressão, temperatura, luminosidade, humidade. Auxiliam em prover a informação contextual do paciente e do ambiente monitorado.
+  \end{block}
+\end{frame}
+
+% \subsection{Aplicações}
+\begin{frame}{Aplicações}
+  \begin{block}{}
+    \begin{itemize}[<+->]
+     \item \textbf{Personal Assistant:} comunicação com três devices médicos: glicosímetro, bomba de insulina e sensor de glicose contínuo. Através de um PDA, o médico consegue controlar os dados do paciente numa aplicação sensível a contexto ~\cite{sae09};     
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Personal Area Network}
+  \begin{block}{Problemas}    
+     Além de alguns problemas já estarem presentes na BAN (consumo, segurança ...)
+  \end{block}
+
+  \begin{block}{A auto-organização dos nós é essencial}
+    No sistema miTag ~\cite{ter08}, o dado coletado de uma rede sensor auto-organizável a qual opera em \text{mesh mode} transferindo dados para a internet. 
+
+    O uso da operação em \textit{mesh mode} permite:
+      \begin{itemize}
+       \item extensibilidade
+       \item cobertura
+       \item distribuir processamento
+       \item recuperação de desastres
+       \item trabalhar em ambiente hostil
+      \end{itemize}
+  \end{block}
+\end{frame}
+
+% \section{Gateway para WAN}
+\begin{frame}{Gateway para WAN}
+  \begin{block}{}
+    O gateway é um subsistema responsável em conectar a BAN ou PAN em WANs. Um gateway pode ser um aparelho de celular, PDA, nó sensor no ambiente assim como um laptop ou servidor.
+  \end{block}
+
+  \begin{block}{}
+    A principal função de um gateway é prover uma conexão entre a rede sensor \textit{ad-hoc} e uma infraestrutura baseada numa WAN.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Gateway para WAN}
+  \begin{block}{Problemas de Segurança}
+   Os problemas de segurança também precisam ser tratados pelo \texit{gateway} do subsistema. Isso inclui: verficar a identidade da origem do dado, não motificar os dados do paciente, exceto se houver agregação de valor.
+  \end{block}
+\end{frame}
+
+\section{Projetos}
+\subsection{Monitoramento das atividades diárias}
+\begin{frame}{Usuários Finais das Aplicações de Monitoramento}
+  \begin{block}{}
+   O ponto principal de todo esse arcabouço tecnológico é conseguir coletar os dados, interpretar e tomar as decisões corretas. Como por exemplo entender o batimento cardíaco, algoritimos de aprendizagem para identificar situações inesperadas, etc. 
+  \end{block}
+\end{frame}
+
+% 
+% \subsection{Segurança}
+% \subsection{Privacidade}
+% \subsection{Recuperação a Desastres}
+% \subsection{Middleware Design}
+% \subsection{Seamless healthcare tracking and monitoring system}
+
+% \section{Aplicações de Monitoramento Healthcare e protótipos WSN}
+% \subsection{}
+\begin{frame}{Monitoramento \textit{Healthcare} e protótipos WSN}
+  \begin{block}{}
+    Existem algumas aplicações protótipos e comerciais para monitoramento de crianças, idosos e pacientes crônicos que incluem:
+      \begin{itemize}[<+->]
+       \item Monitoramento das atividades diárias;
+       \item detecção de movimento e quedas;
+       \item rastreamento;
+       \item ingestão e monitoramento de medicamentos;
+       \item status clínico.
+      \end{itemize}
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Monitoramento das atividades diárias}
+  \begin{block}{Activities of Daily Living (ADL)}
+    Lu e Fu ~\cite{lu} apresentam uma abordagem de reconhecimento de atividade baseada no contexto e localização. Eles usam uma rede sensor monitorando um ambiente inteligente integrado aos objetos domésticos.
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Monitoramento das atividades diárias} 
+    \begin{block}{Activities of Daily Living (ADL)}
+      \center \includegraphics[height=2.4 in]{../imagens/hierarqlocat.png}
+    \end{block}
+\end{frame}
+
+\begin{frame}{Monitoramento das atividades diárias}
+  \begin{block}{Activities of Daily Living (ADL)}<1->
+    Outra aplicação de monitoramento de atividade é o \textit{Caregiver’s Assistant} ~\cite{phi04}, desenvolvido para monitorar idosos em suas casas. Basicamente, o sistema funciona etiquetando com RFID diversos equipamentos (caixas de remédio, escovas de dentes, chaves, etc). 
+  \end{block}
+
+  \begin{block}{}<2->
+   As etiquetas permitem identificar o que o usuário está utilizando naquele momento. Permitindo que os médicos possam identificar desvios de padrões das atividades normais, para verificar os níveis de demência ou desvio das atividades normais dos idosos.
+  \end{block}
+\end{frame}
+
+\subsection{Detecção de movimentos e quedas}
+\begin{frame}{Aplicações de detecção de movimentos e quedas}
+  \begin{block}{}
+     Enquanto que a detecção de movimentos e quedas são casos específicos de classificação das atividades, existe pesquisas significantes e esforços focados na detecção de quedas e postura corpórea e análise de locomoção.
+  \end{block}
+
+  \begin{alertblock}{}
+     Acidentes provenientes de queda lideram as causas de morte de idosos (acima dos 65 anos de idade)
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{Aplicações de detecção de movimentos e quedas}
+  \begin{block}{}
+    O projeto Information Technology for Assisted Living at Home
+(ITALH) ~\cite{han05}, propõe habilitar o vídeo da câmera de celular somente em condições de emergência. Através de um sistema de detecção de quedas baseado no acelerômetro do celular em idosos. O nó sensor é capaz de analisar o acelerômetro em tempo real e classificar os eventos como variações normais(sentar, deitar, etc) ou anormais (quedas).
+  \end{block}
+\end{frame}
+
+\begin{frame}{Hipguard} 
+    \begin{block}{ADL de Análise de Postura}
+      O HipGuard ~\cite{ket08} é um sistema de deteção de postura, destinado ao período de recuperação de 8-12 semanas após uma operação no quadril. O sistema tem sete nós sensores: na cintura, coxas, canelas e pés.     
+    \end{block}
+
+    \begin{block}{}
+      A unidade de controle central coleta e processa os dados dos nós sensores e produz alarmes como sinal de áudio ou uma vibração háptica se a posição do quadril operado ou a carga colocada sobre os perna operada se aproxima dos limites estabelecidos pelos profissionais de saúde.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Hipguard} 
+    \begin{block}{ADL de Análise de Postura}
+      \center \includegraphics[height=2.4 in]{../imagens/hipguard.png}
+    \end{block}
+\end{frame}
+
+\subsection{Monitoramento de ingestão de medicamentos}
+\begin{frame}{Aplicações de Monitoramento de Ingestão de Medicamentos}
+  \begin{block}{}<1->
+   A não aderência da ingestão de medicamentos em idosos e pacientes crônicos é bastante freqüente. Portanto, o monitoramento e controle da ingestão da medicação torna-se essencial para um melhor acompanhamento do tratamento.
+  \end{block}
+
+  \begin{block}{}<2->
+    Um protótipo inicial desenvolvido por Moh et al. ~\cite{Ho:2005:PRS:1080148.1080164} permite o controle de ingestão de medicamento para idosos, combinando redes sensores sem fio e RFID.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Protótipo de RFID com RSSF para Ingestão de Medicamentos em Idosos}
+  \begin{block}{}
+  Esta aplicação consiste de três subsistemas: identificação do vasilhame, etiqueta RFID identificando o que foi ingerido pelo paciente medido por uma escala de peso.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Projeto \textit{iCabinet}}
+  \begin{block}{}
+   O Projeto iCabinet ~\cite{lop08} faz uso do RFID inteligentes nas embalagem de comprimidos que podem gravar a remoção de um comprimido simplesmente quebrando um fluxo elétrico no circuito integrado do RFID. iCabiNET é uma aplicação interna que também está com interface para uma rede residencial, desta forma, a ingestão de medicamento pode ser monitorada através da rede residencial por intermédio dos leitores RFID presentes na casa.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Projeto \textit{iCabinet}}
+  \begin{block}{Outras funções}
+   \begin{itemize}[<+->]
+    \item Monitoramento dos remédios adquiridos pelo paciente;
+    \item integração com a TV, provendo alarmes para ingestão de medicamentos;
+    \item integração com a TV para aquisição de novos equipamentos;
+    \item integração com o celular para lembrar o paciente para tomar a medicação.
+   \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Projeto \textit{iPackage}}
+  \begin{block}{}
+    O iPackage, é diferente de RFID inteligentes. Esse projeto usa uma matriz de filmes de laminados (CDM), identificando qual comprimido foi aberto.
+  \end{block}
+
+  \begin{block}{iPackage}
+      \center \includegraphics[height=1 in]{../imagens/intake.png}
+  \end{block}
+\end{frame}
+
+\subsection{Status clínico através de monitoramento}
+\begin{frame}{Status clínico através de monitoramento}
+  \begin{block}{}
+      Monitorar o estado de saúde de pacientes é uma das aplicações mais estudadas em computação pervasiva aplicada à saúde. Os sinais vitais são comumente usados através de ECG, pulso, oxímetros, freqüencia cardíaca, pressão arterial e etc.   
+  \end{block}
+
+  \begin{alertblock}{}
+    A maioria dos estudos focam em capturar e enviar o dado para outra avalição remota.
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{Mobihealth}
+  \begin{block}{}
+  O projeto Mobihealth ~\cite{mobhealth} é um dos primeiros a integrar vários dispositivos sensores vestíveis (Wearable).
+    Os sensores medem e transmitem dados fisiólogicos continuamente, juntamente com áudio e vídeo disponibilizando as gravações para os prestadores de serviços de saúde responsáveis por porporcionar uma assistência remota rápida e confiável em caso de acidente.
+  \end{block}
+\end{frame}
+
+\begin{frame}{MobiHealth}
+  \begin{block}{Convergência de Tecnologias}
+    O MobiHealth é importante por ser um dos primeiros estudos propor a convergência dos sistemas de rede diferentes como :
+    \begin{itemize}
+     \item BAN
+     \item PAN 
+     \item WAN 
+    \end{itemize}
+  \end{block}
+  \begin{block}{}
+   Com esse convergência foi possível habilitar uma saúde personalizada e móvel.
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Codeblue}
+  \begin{block}{}
+  O projeto Codeblue ~\cite{codeblue} é uma plataforma de hardware e software. O hardware consiste de um oxímetro, dois ECG e um sensor de movimento. O principal objetivo dessa plataforma é prover coordenação e comunicação entre os equipamentos wireless médicos de forma ad hoc. Provendo mecanismos de descobrimento de sensores e os canais de comunicação adequados.
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Lifeguard}
+  \begin{block}{}
+  O projeto Lifeguard inicialmente foi desenvolvido para os astronautas, e pode ser usado para o monitoramento dos sinais vitais.
+  A estação base parte é um Bluetooth Tablet PC que mostra e armazena os dados para avaliação futura.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Lifeguard}
+  \begin{block}{Lifeguard}
+      \center \includegraphics[height=2 in]{../imagens/lifeguard.png}
+  \end{block}
+\end{frame}
+
+
+\section{Problemas em Aberto}
+\subsection{}
+\begin{frame}{Solução Não-Invasiva}
+  \begin{block}{}
+    \begin{itemize}[<+->]
+     \item A concepção de um sistema de monitoramento vestível e que não seja invasivo ainda é um grande desafio; 
+     \item a necessidade de integrar diferentes sensores em uma única solução torna essa atividade mais difícil;
+     \item alguns desses dispositivos são pesados \textbf{visíveis e estereotipados}, como um ecg por exemplo ~\cite{aarh10}.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Precisão e Calibragem}
+  \begin{block}{}    
+    A precisão dos sensores é de extrema importância, especialmente quando os usuários estão com seus sensores em ambientes hostis ou praticando exercícios. O suor pode afetar negativamente na precisão dos dados requerendo uma recalibração dos sensores.
+
+    Gietzelt ~\cite{giet08}, propõe um algoritmo de calibração de acelerômetros triaxiais.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Energia}
+  \begin{block}{}    
+    O problema de eficiência energética é um dos principais problemas de RSSF. Para pacientes que têm acesso a energia pode-se utilizar baterias recarregáveis. Mas isso pode ser um problema comprometendo todo o monitoramento principalmente para idosos. Baixo consumo e um possível uso da energia solar pode ser uma das soluções.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Eficiência na Aquisição dos Dados}
+  \begin{block}{}    
+   É de extrema importância coletar os dados em sistemas de \textit{pervasive healthcare}. O desenvolvimento de técnicas de processamento desses dados é de suma importância. Em alguns casos 3 ECG não são suficientes para identificar uma doença cardíaca, ou 3 acelerômetros podem não ser capaz de identificar todas as atividades de uma pessoa. Nesses casos mais sensores são necessários e o conjunto de dados irá aumentar.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Eficiência na Aquisição dos Dados}
+  \begin{block}{}    
+  A aquisição e análise em tempo real dos dados fisiológicos é essencial. Além disso, o time-stamp e a ordenação dos eventos, sincronização dos diferentes sensores são problemas em aberto. Finalmente integrar diferentes tipos de sensores como: RFID, sensores implantados e sensores wirelesse necessitam do desenvolvimento de uma arquitetura modular.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Interoperabilidade}
+  \begin{block}{}
+    A integração de diversos tipos de sensores operando em freqüencias distintas elevam os problemas de interoperabilidade. A comunicação entre os diversos tipos de devices ocupando múltiplas bandas e usando os diferentes protocolos. Essa situação pode causar interferência, logo os sistemas de \textit{pervasive healthcare} devem ser interoperáveis entre os diferentes dispositivos.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Largura de Banda}
+  \begin{block}{}
+  A largura de banda disponível para comunicação numa Wireless Body Network é relativamente baixa. Devido a necessidade de baixo-consumo se os sensores se comunicarem em ciclos de 10$\%$ do seu tempo. Isso pode ser um complicador se estiver relacionado com o processamento de imagens o qual requer níveis de comunição na ordem do Mbit/s. Por esse motivo há a necessidade de algoritmos de compreessão para transmissão de dados multimídia. Levando em consideração que os nós sensores têm a capacidade de processamento bastante limitada, isso limita bastante o seu uso sendo um impreditivo para as tecnologias atuais.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Problemas no Protocolo de Acesso ao Meio (MAC)}
+  \begin{block}{}
+  Monitoramento de \textit{healthcare} requerem situações de emergência a eventos e reportagem de dados periodicamente. Sobre situações de emergência, o dado deve ser garantido e entregue dentro de um delay adequado. Para esse propósito, os dados em momentos de emergência devem ser priorizados.   
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Segurança}
+  \begin{block}{}<1->
+  Os requisitos de segurança são fundamentais para qualquer sistema, confidencialidade, integridade de dados, disponibilidade e controle de acessos. Para assegurar esses requisitos, métodos de criptografia podem ser usados para solucionar esses problemas.
+  \end{block}
+  
+  \begin{block}{}<2->
+   No trabalho de Andersen ~\cite{and09}, é proposto um mecanismo de criptografia baseada em curvas elípticas para a distribuição de chaves, buscando reduzir o consumo de energia.
+  \end{block}
+
+  \begin{block}{}<3->
+  Outro grande problema é quando o paciente está inconsciente, onde não é possível obter a senha nesses casos os dados biométricos podem ser utilizados.
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Privacidade}
+  \begin{block}{}<1->
+    Autorização do usuário no sistema não pode ser sobreposta dando total autonomia para o usuário controlar seus próprios dados.
+  \end{block}
+  
+  \begin{block}{}<2->
+   Aplicações de processamento de imagens devem prover o anônimato para os usuários.
+  \end{block}
+
+  \begin{block}{}<3->
+  Sistemas de ADL devem ter monitores anti-ataques às redes wireless.
+  \end{block}
+\end{frame}
+
+\begin{frame}{Facilidade ao Usuário}
+ \begin{block}{}
+  Sabendo que o sistema será utilizado, por idosos, pessoas com deficiência cognitiva, médicos, enfermeiros e pessoas com os diferentes perfis. É bastante complexo conseguir uma aplicação \textit{user friendly}.
+ \end{block}
+\end{frame}
+
+\begin{frame}{Fácil Implantação e Escalabilidade}
+  \begin{block}{}
+  Similar a facilidade ao usuário, desenvolver uma aplicação de fácil implantação para sistemas pervasivos é tão essencial como não-trivial. As plataformas de software distribuídas precisam monitorar e integrar hardware e software.
+  \end{block}
+\end{frame}
+
+\section{Conclusão}
+\subsection{Conclusão}
+\begin{frame}{Conclusão}
+  \begin{block}{}
+    O principal objetivo de monitorar a saúde é permitir que as pessoas sobrevivam de forma independente e com uma boa qualidade de vida através dos serviço de healthcare. O uso de sensores e redes-sensores com esse propósito não é novo, entretanto com o surgimento das redes sensor sem-fio foi possível o desenvolvimento de aplicações móveis para os usuários.
+  \end{block}
+
+  \begin{block}{}
+   As redes sensores podem prover a mobilidade e o monitoramento constante dos pacientes de forma ubíqua e pervasiva, possibilitando inclusive o desenvolvimento de aplicação baseadas em localidade e sensíveis ao contexto.
+  \end{block}
+\end{frame}
+
+
+\subsection{Dúvidas}
+\begin{frame}
+  \begin{center}
+  DÚVIDAS ?
+  \end{center}
+\end{frame}
+
+\subsection{Bibliografia}
+\bibliographystyle{alpha}
+%\bibliographystyle{plain} % estilo de bibliografia   plain,unsrt,alpha,abbrv.
+%\bibliography{../../tex/bibtex/biblmm} % arquivos com as entradas bib.
+\bibliography{wsnbibtex} % arquivos com as entradas bib.
+
+\end{document}

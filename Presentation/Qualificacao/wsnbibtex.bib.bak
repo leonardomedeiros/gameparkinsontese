@@ -1,0 +1,1247 @@
+% This file was created with JabRef 2.5.
+% Encoding: UTF-8
+
+@ARTICLE{ter08,
+  author = {A. Terzis, A. Watt, J. Jeng, B.-R. Chen, K. Lorincz, M. Welsh},
+  title = {Wireless medical sensor networks in emergency response: Implementation
+	and pilot results},
+  journal = {Second International Conference on Pervasive Computing Technologies
+	for Healthcare},
+  year = {2008},
+  owner = {leonardo},
+  timestamp = {2011.09.15}
+}
+
+@INPROCEEDINGS{aarh10,
+  author = {Aarhus, Rikke and Ballegaard, Stinne Aal{\o}kke},
+  title = {Negotiating boundaries: managing disease at home},
+  booktitle = {Proceedings of the 28th international conference on Human factors
+	in computing systems},
+  year = {2010},
+  series = {CHI '10},
+  pages = {1223--1232},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1753509},
+  doi = {http://doi.acm.org/10.1145/1753326.1753509},
+  isbn = {978-1-60558-929-9},
+  keywords = {boundary object, boundary work, compliance, disease management, healthcare
+	technology, home, self-care},
+  location = {Atlanta, Georgia, USA},
+  numpages = {10},
+  owner = {leonardo},
+  review = {@inproceedings{Aarhus:2010:NBM:1753326.1753509,
+	
+	 author = {Aarhus, Rikke and Ballegaard, Stinne Aal{\o}kke},
+	
+	 title = {Negotiating boundaries: managing disease at home},
+	
+	 booktitle = {Proceedings of the 28th international conference on
+	Human factors in computing systems},
+	
+	 series = {CHI '10},
+	
+	 year = {2010},
+	
+	 isbn = {978-1-60558-929-9},
+	
+	 location = {Atlanta, Georgia, USA},
+	
+	 pages = {1223--1232},
+	
+	 numpages = {10},
+	
+	 url = {http://doi.acm.org/10.1145/1753326.1753509},
+	
+	 doi = {http://doi.acm.org/10.1145/1753326.1753509},
+	
+	 acmid = {1753509},
+	
+	 publisher = {ACM},
+	
+	 address = {New York, NY, USA},
+	
+	 keywords = {boundary object, boundary work, compliance, disease management,
+	healthcare technology, home, self-care},
+	
+	} 
+	
+	
+	
+	
+	------------------------------------------------------
+	
+	Resumo
+	
+	------------------------------------------------------
+	
+	Para mover o tratatamento de saúde do hospital para as tecnologias
+	assistidas em casa é vital conhecer como as tecnologias podem ser
+	utilizadas.
+	
+	Baseado em pequisa qualitativa esse artigo busca encontrar o engajamento
+	dos envolvidos nas atividades de assistência médica e suas rotina
+	normal e como essas pessoas conseguem adotar a tecnologia de assistência
+	médica. Nessa pesquisa foram explorados cinco fatores: objetos, atividades,
+	lugares característica da da e a colaboração.
+	
+	
+	Considerações
+	
+	-------------
+	
+	O artigo é da área de HCI, e busca fazer uma análise qualitativa de
+	como 4 pacientes fazem o tratamento de sua doença crônica. O autor
+	faz a distinção em uma matriz de 4 tipos de pacientes: Visíveis e
+	invisíveis; segmentados e integrados.
+	
+	Para o autor existem os pacientes que fazem o tratamento de forma
+	invisível ou escondendo a doença e outros que o estado é tão grave
+	ou não se importam e deixam seu tratamento à vista de todos. Os pacientes
+	segmentados são aqueles que conseguem conciliar o seu tratamento
+	com outra atividade e o integrado é aquele que está em constante
+	tratamento.
+	
+	O autor reconhece que devido ao estado de saúde é bem provável que
+	o mesmo paciente vá migrando de um ponto a outro. Geralmente os pacientes
+	mais críticos são visíveis e integrados, como no caso de Poul, paciente
+	pesquisado que possui 65 anos com diabetes a vários e já anda de
+	cadeira de rodas devido as complicações.
+	
+	
+	O autor trata nesse artigo do self-care para ele isso significa que
+	a pessoa é tratada de fora da clínica médica, para ele isso não é
+	uma tarefa individual mas sim de todos os envolvidos como familiares
+	por exemplo. Por conta disso há uma distribuição de responsabilidade
+	entre os provedores de asssistência médica, pacientes e demais envolvidos
+	no tratamento.
+	
+	
+	
+	Método de pesquisa
+	
+	------------------
+	
+	O foco da pesquisa foi as tecnologias assistivas na saúde e seu gerenciamento
+	em casa. Esse artigo não se preocupa com as tecnologias utilizadas
+	mas sim na análise do próprio usuário.
+	
+	
+	Foram analisados 3 pacientes:
+	
+	- Karen- segundo a classificação do autor ela é segmentada e invisível:
+	63 anos, defeito no coração desde 2001 e elevado risco de ter aneurisma
+	cerebral. Seu esposo faz o acompanhamento baseado em anti-coagulante.
+	É facilmente gerenciado pois uma vez na semana ela faz exame de INR,
+	ajustando o medicamente de acordo com o resultado. Contudo a paciente
+	possui vaidade e às vezes não segue o tratamento à risca devido a
+	suas atividades. Eventualmente seu esposo a lembra de tomar a medicação.
+	Ela consegue deixa o tratamento invisível aos demais, poupando inclusive
+	outros familiares a respeito de noticias.
+	
+	
+	- Maja- devido ao seu trabalho ela gerencia a doença de forma invisível
+	e integrada a suas atividades e rotinas diárias. Maja é conhecida
+	do autor desde um projeto que ela participou de gerenciamento de
+	diabetes durante a gravidez. Maja possui 30 anos, é professora e
+	possui diagnostica a diabetes tipo I a alguns anos. É casada com
+	Thomas. Maja precisa tomar insulina antes de dormir para regular
+	os níveis de glicose. Com a gravidez ela nunca tinha passado por
+	um nível de glicose tão baixo. Maja eventualmente esquece do tratamento
+	e fica com os níves bastante desregulados. Preocupando Thomas que
+	sabe o quanto prejudica a criança que vai nascer.
+	
+	
+	Poul- 65 anos, estado avançado de diabetes. Participa de um projeto
+	de monitoria da pressão do sangue e ingestão de medicamentos. Ele
+	mora no primeiro andar mas não pode pegar elevador, logo sai de casa
+	uma vez na semana, justamente por conta do tratamento. Esse paciente
+	está num estágio que não tem como ficar invisível e devido a suas
+	complicações não tem como não ser integrado. Poul não possui convívio
+	social e seus familiares moram em outro país, eventualmente conversa
+	com os filhos ao telefone. Poul recebe diversos profissionais em
+	sua residência. Bastante atento com o gerenciamento da diabetes a
+	mantém os registros meticulosamente. Possuindo integrado o tratamento
+	da diabetes a outras atividades. A sua rotina está toda envolta da
+	doença.
+	
+	
+	===============================
+	
+	Fatores de pesquisa explorados:
+	
+	===============================
+	
+	Objetos
+	
+	-------
+	
+	As ferramentas, sensores, glucograma e demais objetos de tratamento
+	de saúde são bastante estigmatizados, e conseqüentemente existe toda
+	uma cultura que por questão de vaidade, sociedade ou outro motivo
+	venham a atrapalhar seu uso e conseqüenemente impactar no tratamento.
+	
+	Os pacientes informaram que o quanto as tecnologias pudessem se tornar
+	invisíveis seria melhor. Para eles isso os daria muita qualidade
+	de vida e o sentimento que sentiriam é q estavam com uma vida normal,
+	melhorando assim sua auto-estima e conseqüentemente o tratamento
+	seria mais eficaz.
+	
+	
+	Atividades
+	
+	----------
+	
+	Similaremente aos objetos as atividades relatadas durante o tratamento
+	são afetadas por questões culturais, de acordo com a atividade desempenhada,
+	instante de tratamento e o escopo da própria atividade.
+	
+	
+	Algumas atividades relatadas no tratamento da doença por vezes demandam
+	mais esforço do que outros, afetando em determinados momentos a própria
+	atividade. A análise de glicose no sangue por exemplo, durante a
+	gravidez MAJA tem que reavaliar o nível e ajustar com insulina a
+	cada uma hora e meia. Contudo nesse interstício ela esta em sala
+	de aula e ela não quer interromper para fazer a medição. Maja escolheu
+	segmentar seu tratamento nessa situação quando ela geralmente busca
+	a integração.
+	
+	
+	Karen faz a medição uma vez por semana, o que permite que ela tenha
+	total integração com suas atividades.
+	
+	
+	Localização
+	
+	-----------
+	
+	Como descrito anteriormente a residência está estruturada para ser
+	parte pública e parte privada.
+	
+	
+	Poul busca arranjar seus objetos
+	
+	
+	Característica da Doença
+	
+	------------------------
+	
+	Quando uma pessoa adoece e faz o atendimento em casa, é difícil aceitar
+	a doença detro de casa. O seriedade da doença afeta em como a pssoa
+	vai integrar ou segmentar a doença.
+	
+	
+	Colaboração
+	
+	-----------
+	
+	Todos os três casos demonstrou que o tratamento da saúde é uma atividade
+	colaborativa, envolvendo várias pessoas.
+	
+	
+	
+	-----------------
+	
+	Preceitos dos artigos:
+	
+	 1. Movimento crescente de levar os pacientes de casa ao hospital.
+	
+	 2. Crescimento da ocorrência de doenças crônicas e conseqüentemente
+	uma necessidade de prestar assistência em casa.
+	
+	 3. 
+	
+	
+	
+	
+	
+	Pontos positivos
+	
+	-----------------
+	
+	 1. O autor faz uma exploração em como as pessoas gerenciam a doença
+	em casa incluindo como as tecnologias de assistência médica são empregadas
+	e organizadas no dia a dia.
+	
+	 2. O artigo busca integrar a vida das pessoas nas atividades de assistência
+	médica e nas atividades que não dizem respeito à assistência médica.
+	
+	
+	Trabalhos futuros
+	
+	-----------------
+	
+	- Desenvolvimento de tecnologias de healthcare em casa para a casa.
+	
+	- Explorar o papel da severidade da doença e a dependência das tecnologias
+	para integrar ou segmentar o tratamento.
+	
+	
+	
+	Referências a serem estudadas:
+	
+	Davis Wagner (1999): Managing chronic diseases
+	
+	Bardram,J. (2005): Mobility Work: The Spatial Dimension
+	
+	Bossen (2006): Representation at Work: a national standard for eletronic
+	health records.
+	
+	Angus (2005): The Personal significance of home: habitus and the experience
+	of receiving long term home care.
+	
+	Nilson (2005): Negotiated rhytms of mobile work: time, place, and
+	work schedules
+	
+	Pope (1996): Qualitative Research in healthcare
+	
+	Wagner, E. (2001): Quality improvement in chronic illness care: a
+	collaborative approach.
+	
+	
+	
+	Insites
+	
+	-------
+	
+	1. Usar máquina de foto do celular, para avaliar: doenças, ferimentos
+	e talvez diagnósticos. Celular já está em rede e a tendência é q
+	a fidelidade aumente.
+	
+	2. Unidades de Atendimento móvel:
+	
+	- Roteamento de pacientes baseados em :
+	
+	i. disponibilidade
+	
+	ii. profissionais capacitados para aquela ocorrência
+	
+	iii. verificação de disponibilidade de exames, diagnósticos e maquinário
+	para realizar os procedimentos através da internet móvel},
+  timestamp = {2011.05.01},
+  url = {http://doi.acm.org/10.1145/1753326.1753509}
+}
+
+@ARTICLE{ah07,
+  author = {Ahamed, S.I. Talukder, N. Kameas},
+  title = {Towards privacy protection in pervasive healthcare},
+  journal = {IET International Conference on Intelligent Environments},
+  year = {2007},
+  volume = {3},
+  pages = {296 - 303},
+  owner = {leonardo},
+  review = {Towards privacy protection in pervasive healthcare
+	
+	-------------------------------------------------
+	
+	O termo pervasive health care é utilizado para descrever a integração
+	entre o uso da computação pervasiva na assistência médica. A necessidade
+	de sistemas de assistÊncia médica se deve ao fato de: profissionais
+	da saúde precisam de mobilidade além de terem que compartilhar suas
+	experiência e informações com os demais profissionais responsáveis
+	por determinado paciente. 
+	
+	Nos últimos anos houve um crescimento no atendimento médico domiciliar.
+	Em todos os casos há uma necessidade de acesso ubíquo às informações
+	do paciente.
+	
+	
+	É sabido que na relação médico-paciente existe um pacto de confidencialidade.
+	Logo se estamos num ambiente de computação ubíqua onde a informação
+	é trafegada através de ambientes sem-fio essa a securidade dessa
+	informação pode ficar comprometida.
+	
+	
+	Os sistemas de assistência médica, ficam na barreira da confidencialidade
+	da informação e compartilhamento da mesma, visto que os médicos devem
+	compartilhar opniões e status do pacientecom outros profissionais
+	da área, para que haja um diagnóstico correto. Por esse motivo faz-se
+	necessário o uso de um gerenciador de confidencialidade[31]. 
+	
+	
+	Nesse artigo o autor descreve, dois possíveis violações de privacidade:
+	atacar os registros individuais dos pacientes, ou violar todo o contexto
+	da informação através de vazamento de informação. A primeira corrobora
+	com o fato de quando e como a informação deve ser preservada, quem
+	são os donos da informação, quem deve implantar os meios de proteção
+	da informação. A segunda se deve ao fato de acessar toda a base de
+	dados do sistema.
+	
+	
+	O autor cria 4 possíveis cenários de violação da informação:
+	
+	Cenário 1:
+	
+	Paciente com problema de pressão alta, prefere estar em cas em detrimento
+	a um hospital. Médico concorda que tratá-lo não é perigoso desde
+	que haja um nível de supervisão, até ele voltar a sua vida normal.
+	
+	A computação pervasiva iraá permitir que o paciente instale um sistema
+	monitor em sua casa. O sistema irá monitorá-lo diariamente, e armazenar
+	todas suas informações em arquivos de log para ser avaliado pelo
+	médico no futuro.
+	
+	Problemas, O paciente é dono de suas informações e pode prover acesso
+	para outras pessoas. Ele não deve possuir acesso para modificar as
+	informações. 
+	
+	
+	Cenário 2:
+	
+	O sistema pervasivo de informações médicas fica instalado na casa
+	do paciente, e qualquer pessoa pode entrar na casa e pode ter acesso.
+	Logo para resolver os problemas de segurança é necessário haver mecanismos
+	de autênticação para permitir ou negar o acesso as informações.
+	
+	
+	Cenário 3:
+	
+	Um médico realiza as medições no pacientes e por motivos de tratamento
+	o médico não deseja que o paciente tenha acesso as próprias informações.
+	Então, é permitido que o médico negue o acesso à informação?
+	
+	
+	Cenário 4:
+	
+	Uma enfermeira é apontada para tomar conta do paciente. Ela precisa
+	de acesso a todo histórico de informação do paciente, contudo não
+	possui acesso de visualização. E o médico que poderia liberar essa
+	informação não está presente. Mesmo que o paciente libere a informação,
+	esta pode ser de propriedade do médico, o qual não concordaria em
+	disponibilizr o acesso.
+	
+	
+	----------------------------------------------------------------------
+	
+	Dificuldades encontradas na Pervasive Healthcare: Violação de Privacidade
+	
+	As violações de privacidade às vezes ignoradas nos modelos pervasivos,
+	deve ser tratada com muito cuidado no que se refere a sistemas de
+	assistência médica.
+	
+	1- Divulgação de informações indesejadas
+	
+	Aqui nos referimos ao direito à privacidade. Informações médicas são
+	direitos adquiridos inclusive por leis federais, ficando a indagação
+	quando e como a informação deve ser protegida.
+	
+	
+	2. Prevenção do vazamento de informação através do contexto
+	
+	Os sistemas de healthcare primam pela informação contextual condendo
+	detalhas como localidade, horário de acontecimento dos eventos. Isso
+	viola alguns dos direitos à privaciade individual.
+	
+	
+	
+	Divulgação de informações indesejadas
+	
+	--------------------------------------
+	
+	Nos Estados Unidos as leis federais garatem a privacidade das informações
+	no sistema de saúde. Os novos métodos de transações eletrônicas permitem
+	a porteção a securança e confidencialidade das informações médicas.
+	Planos de saúde e sistemas públicos conduzem seus acertos financeiros
+	eletrônicamente.},
+  timestamp = {2010.10.24}
+}
+
+@ARTICLE{alemdar,
+  author = {Alemdar, Hande and Ersoy, Cem},
+  title = {Wireless Sensor Networks for Healthcare: A Survey},
+  journal = {Computer Networks},
+  year = {2010},
+  volume = {54},
+  pages = {2688--2710},
+  number = {15},
+  month = oct,
+  abstract = {{Becoming mature enough to be used for improving the quality of life,
+	wireless sensor network technologies are considered as one of the
+	key research areas in computer science and healthcare application
+	industries. The pervasive healthcare systems provide rich contextual
+	information and alerting mechanisms against odd conditions with continuous
+	monitoring. This minimizes the need for caregivers and helps the
+	chronically ill and elderly to survive an independent life, besides
+	provides quality care for the babies and little children whose both
+	parents have to work. Although having significant benefits, the area
+	has still major challenges which are investigated in this paper.
+	We provide several state of the art examples together with the design
+	considerations like unobtrusiveness, scalability, energy efficiency,
+	security and also provide a comprehensive analysis of the benefits
+	and challenges of these systems.}},
+  citeulike-article-id = {7177549},
+  citeulike-linkout-0 = {http://dx.doi.org/10.1016/j.comnet.2010.05.003},
+  citeulike-linkout-1 = {http://linkinghub.elsevier.com/retrieve/pii/S1389128610001398},
+  day = {28},
+  doi = {10.1016/j.comnet.2010.05.003},
+  issn = {13891286},
+  keywords = {health, survey, wireless-sensor-networks},
+  owner = {leonardo},
+  posted-at = {2010-09-19 20:59:06},
+  priority = {2},
+  review = {The pervasive healthcare systems provide rich contextual information
+	and alerting mechanisms against odd conditions with continuous moni-
+	
+	toring. This minimizes the need for caregivers and helps the chronically
+	ill and elderly to survive an independent life, besides provides
+	quality care for the babies and little children whose both parents
+	have to work.
+	
+	
+	Dados:
+	
+	One of the major challenges of the world for the last decades has
+	been the continuous elderly population increase in the developed
+	countries. Pop-
+	
+	ulation Reference Bureau [2] forecasts that in the next 20 years,
+	the 65-and-over population in the developed countries will be nearly
+	20% of the overall population.
+	
+	
+	Motivação:
+	
+	One promising application in that area is the integration of sensing
+	and consumer electronics technologies which would allow people to
+	be
+	
+	constantly monitored. In-home pervasive networks may assist residents
+	and their caregivers by providing continuous medical monitoring,
+	memory enhancement, control of home appliances, medical data access,
+	and emergency communication.
+	
+	
+	Researchers in computer, networking, and medical fields are working
+	together in order to make the broad vision of smart healthcare possible.
+	The importance of integrating large-scale wireless telecommunication
+	technologies such as 3G, Wi-Fi Mesh, and WiMAX, with telemedicine
+	has already been addressed by some researchers.
+	
+	
+	Outras Tecnologias:
+	
+	Further improvements will be achieved by the coexistence of small-scale
+	personal area technologies like radio frequency identification (RFID),
+	Bluetooth, ZigBee, and wireless sensor networks, together with large-scale
+	wireless networks to provide context-aware applications
+	
+	
+	Monitoramento Contínuo Permitirá:
+	
+	Given the importance of the subject, there are already several applications
+	and prototypes on the subject. For example, some of them are devoted
+	to continuous monitoring for cognitive disorders like Alzheimer’s,
+	Parkinson’s or similar cognitive diseases. Some focus on fall detection,
+	
+	posture detection and location tracking and others make use of biological
+	and environmental sensors to identify patients’ health status.
+	
+	
+	
+	Benefícios e Considerações de Design para Sistemas de Monitoramento
+	para Healthcare
+	
+	In healthcare applications, a real-time system is actually a soft
+	real-time system, in which some latency is allowed [13]. Identifying
+	emergency situations like heart attacks or sudden falls in a few
+	seconds or even minutes will suffice for saving lives considering
+	that, without them
+	
+	these conditions will not be identified at all.
+	
+	
+	Together with the mature and also inexpensive RFID technology, the
+	costs for pervasive healthcare systems are within the affordable
+	range for many people. In Caregiver’s Assistant [14], inexpensive
+	RFID tags are placedon household object and the systems precision
+	can be in-
+	
+	creased at very low costs, by tagging more objects with these RFID
+	tags.
+	
+	
+	Most of the existing solutions include one or more types of sensors
+	carried by the patient, forming a Body Area Network (BAN), and one
+	or more types of sensors deployed in the environment forming a Personal
+	Area Network (PAN).
+	
+	
+	The emergency situations produce alerts by the application and these
+	alerts and other health status information can be reached via mo-
+	
+	bile devices like laptop computers, Personal Digital Assistants (PDAs)
+	and smart phones. The overview of a simple wireless sensor network
+	application scenario is depicted in Fig. 1.
+	
+	
+	Possíveis Usuários:
+	
+	
+	Children: this group consists of young people who are not capable
+	of taking care of themselves like babies,
+	
+	
+	Elderly and chronically ill: this group includes the chronically ill
+	people who have cognitive difficulties or other medical disorders
+	related with heart, respiration, etc.
+	
+	
+	Caregivers: this group is comprised of the parents and the baby-sitters
+	of the children group and also the caregivers and other care network
+	of the elderly and the chronically ill.
+	
+	
+	Healthcare professionals: these are the professional caregivers like
+	physicians and other medical staff who are responsible from the constant
+	health status monitoring of the elderly and the chronically ill people
+	and are capable of giving the immediate response in case of an emergency
+	situation.
+	
+	
+	COLOCAR A TABELA 1. Considerações de Design
+	
+	
+	
+	Body Area Network Subsystem
+	
+	The Body Area Network Subsystem is the ad hoc sensor network and tags
+	that the children and the elderly carry on their body. The RFID tags,
+	ElectroCardioGram (ECG) sensors, and accelerometers worn by the patient,
+	are example components of the body area network.
+	
+	
+	LER 
+	
+	-----
+	
+	Zhou et al. propose a three layer network structure for a pervasive
+	medical supervision system based on wireless sensor networks [86].
+	The first layer is the medical sensor layer providing information
+	such as the oximetry, the heart rate/pulse and the blood pressure.
+	The medical sensors
+	
+	form a star schema network with a gateway node elected by either a
+	self-organizing protocol or manual configura- tion. The second layer
+	provides reliable transmission. If the patient is at home, the physiological
+	data is transferred to one of the nearest wireless nodes that are
+	emplaced in
+	
+	the house. These nodes not only relay the data to the PC with an Internet
+	connection in a multi-hop manner but also provide contextual data
+	such as temperature, and the patient’s video/picture in emergency
+	situations. When the patient is outside, the relay mission is accomplished
+	by
+	
+	a mobile phone or a PDA device. The third layer of the system is responsible
+	for the aggregation of physiological data in a remote medical center
+	for analysis and providing feed-back data back to the patient through
+	a mobile phone, a PDA or web services.
+	
+	
+	Another example is the Baby Glove [87] which consists of two integrated
+	sensor plates placed on infant’s upper torso, which contain a temperature
+	sensor and electrodes that monitor the infant’s pulse rate and hydration.
+	The device is comprised of two motes. One is connected to the infant’s
+	clothing and the other to a base station computer. The first mote
+	collects the vital sign information coming from the sensors and transmits
+	
+	them wirelessly to the second mote which is connected to the base
+	station computer for processing. If the vital signs are over the
+	limits, the caregivers are alerted. LISTENse is a prototype that
+	enables the hearing impaired to perceive the critical sound information
+	like doorbell or
+	
+	smoke alarm. It is comprised of at least two wireless sensor network
+	motes.
+	
+	
+	There are also some studies for identification of complications of
+	some diseases such as epilepsy seizure. AWARENESS [90] is an example
+	context-aware health application that is designed to detect and react
+	to epilepsy seizures. In a neurological body area network prototype,
+	the ECG
+	
+	data captures an epilepsy seizure; however, without the context information
+	the change in the heart rate cannot be reliably attributed to an
+	epilepsy seizure since it may be due to motion.
+	
+	
+	Challenges and open research problems of the WSN solutions for healthcare
+	
+	-------------------------------------------------------------------------------------------------------------------------
+	
+	There are numerous challenges of wireless sensor networks in all layers
+	
+	
+	4.1 Hardware Challenges
+	
+	 4.1.1 Unobtrusiveness
+	
+	 4.1.2 Sensitivity and calibration
+	
+	 4.1.3. Energy
+	
+	 4.1.4 Data Efficiency 
+	
+	
+	4.2 Physical Layers Challenges
+	
+	 4.2.1. Error resilience and reliability
+	
+	 4.2.2. Interoperability
+	
+	 4.2.3. Badwidth
+	
+	
+	4.3 MAC Layer Challenger
+	
+	
+	4.4 Network Layer Challenges
+	
+	
+	4.5 Transport Layer Challenges
+	
+	
+	4.6 Application Layer Challenges},
+  timestamp = {2011.09.13},
+  url = {http://dx.doi.org/10.1016/j.comnet.2010.05.003}
+}
+
+@INPROCEEDINGS{and09,
+  author = {Jacob Andersen},
+  title = {Secure group formation protocol for a medical sensor network prototype},
+  booktitle = {5th International Conference on Intelligent Sensors },
+  year = {2009},
+  pages = {343--348},
+  publisher = {IEEE Computer Society},
+  abstract = {Designing security mechanisms such as privacy and access control for
+	medical sensor networks is a challenging task;
+	
+	as such systems may be operated very frequently, at a quick pace,
+	and at times in emergency situations. Understandably, clinicians
+	hold extra unproductive tasks in low regard, and experience from
+	user workshops and observations of clinicians at work on a hospital
+	ward show that if the security mechanisms are not well designed,
+	the technology is either rejected altogether, or they are circumvented
+	leaving the system wide open to attacks [1]. 
+	
+	
+	Our work targets the problem of designing wireless sensors to be both
+	secure and usable by exploring different solutions on a fully functional
+	prototype platform. In this paper, we present an Elliptic Curve Cryptography
+	(ECC) based protocol, which
+	
+	offers fully secure sensor set-up in a few seconds on standard (Telos)
+	hardware. We evaluate this protocol’s time and energy consumption,
+	and its impact on the battery lifetime.},
+  owner = {leonardo},
+  review = {In this paper, we present
+	
+	an Elliptic Curve Cryptography (ECC) based protocol,
+	
+	
+	Several experimental sensor network platforms have emerged in recent
+	years targeted at clinical use, but only few consider the importance
+	of security issues such as privacy and access control, which can
+	have a huge impact on usability.
+	
+	
+	Existem vários trabalhos de aplicação de redes sensores para monitoramento
+	clínico, porém somente alguns consideram a impertância dos problemas
+	de segurança e prviacidade e controle de acesso, os quais possuem
+	alto impacto de usabilidade.
+	
+	
+	Cálculos que podem ser realizados em frações de segundo em PCs, podem
+	levar vários segundos ou até mesmo minutos se forem realizados nos
+	sensores. Os maiores problemas podem ser a latencia da interface,
+	demora dos cálculos, demanda da rede, infraestrutura de rede e servidores
+	indisponíveis.
+	
+	
+	Os autores rejeitam qualquer solução de sensores que necessitem interferência
+	do departamento de ti do hospital. Os sensores devem estar prontos
+	diretamente da fábrica.
+	
+	
+	Trabalhos Relacionados
+	
+	------------------------------------
+	
+	Projeto CodeBlue: os desenvolvedores não incluíram nenhum mecanismo
+	de segurança ou autenticação na sua proposta.
+	
+	
+	Several public key cryptography (PKC) implementations for sensor networks
+	have appeared in recent years. Elliptic curve cryptography (ECC)
+	currently seems the most promising method. One of the most optimised
+	implementation for TinyOS is TinyECC [8], which can perform the basic
+	ECC point multiplication in less than 2 seconds on the MSP430x1 micro-controller
+	(MCU) family found on the Tmote Sky sensor nodes.
+	
+	
+	Conceitos Fundamentais
+	
+	---------------------------------------
+	
+	Sensor nodes are organised in groups around patients in a 1- to-1
+	relationship. In order to establish the various (symmetric) keys
+	necessary for wireless communication in the medical sensor network,
+	a few PKC based configuration change protocols are used whenever
+	a (clinical) user configures the network:
+	
+	• Add a new sensor to a patient.
+	
+	• Remove a sensor from a patient.
+	
+	• Change patient property (e.g. move to another hospital).
+	
+	
+	Como mencionado anteriormente os sensores não podem ser reprogramados
+	usando qualquer tecla. Antes disso, o sensor deve saber em quem confiar
+	e comunicar após ser ligado [10].
+	
+	
+	Descrição do Protocolo
+	
+	------------------------------------
+	
+	For the protocol, we use elliptic curve domain parameters
+	
+	over Fp (p, a, b, G, n, h) given by secp160r1 [12]. We also use
+	
+	a cryptographic hash function, H, described later.
+	
+	
+	All nodes on a patient share a public group-id and a
+	
+	private group-key used for internal group communication,
+	
+	such as property change dissemination. This key is created
+	
+	by the first member of the group in the bootstrap protocol
+	
+	described below, and is never changed. Of course this implies,
+	
+	that there are no forward secrecy for this internal group
+	
+	communication; however, data exchanged internally between
+	
+	nodes constitutes the group history, and will be summarised
+	
+	for new nodes anyway, so this should not be a problem.
+	
+	
+	In the following A, N and S denotes honest players,
+	
+	while A , N and S denotes arbitrary players, who may be
+	
+	dishonest (controlled by an attacking adversary). Due to our
+	
+	data-origin-authenticity assumption about the short-range link,
+	
+	the initial exchange of IDs, and the Diffie-Hellman symmetric
+	
+	key generation, an adversary must know the private key or
+	
+	choose the ID of each node, he is impersonating, to succeed.
+	
+	
+	
+	Notas de Implementação
+	
+	---------------------------------------
+	
+	
+	Our ECC implementation is shaped after the TinyECC [8]
+	
+	code and uses its large integer computation module (NNM.nc)
+	
+	unchanged. However, as communication and user interaction is
+	
+	needed in parallel with ECC calculations, we re-implemented
+	
+	the point calculations: an ECC calculation will be handed
+	
+	over to a task, performing one computation-step and re-posting
+	
+	itself until the computation is done.
+	
+	
+	
+	Avaliação
+	
+	--------------
+	
+	
+	We evaluated the time and energy consumption on the
+	
+	protocol as well as the different building blocks of the protocol
+	
+	using the “Energy Bucket” [15].
+	
+	
+	For comparison, a Panasonic CR1025 coin cell battery (1 cm
+	
+	in diameter) contains 324 J, while a tiny LR621 watch battery
+	
+	contains only 81 J, so 0.1 J can be quite a lot, if the procedure
+	
+	must be repeated often during the sensor’s lifetime. However,
+	
+	it would be fair to assume, that patients at hospitals—and at
+	
+	emergencies as well—would carry at least one big sensor or
+	
+	some kind of patient ID
+	
+	
+	Under this assumption,
+	
+	the protocol requires less than 1% of the energy of a watch
+	
+	battery, which should be an acceptable price. 
+	
+	
+	
+	[10] F. Stajano and R. Anderson, “The resurrecting duckling: Security
+	issues for ad-hoc wireless networks,” in Security Protocols, ser.
+	LNCS, no. 1796. Springer, 2000, pp. 172–182.},
+  timestamp = {2011.09.16}
+}
+
+@ARTICLE{bha07,
+  author = {D. Bhatia, L. Estevez, S. Rao,},
+  title = {Energy efficient contextual sensing for elderly care},
+  journal = {29th Annual International Conference of the IEEE EMBS},
+  year = {2007},
+  pages = {4052-4055},
+  owner = {leonardo},
+  timestamp = {2011.09.14}
+}
+
+@ARTICLE{mobhealth,
+  author = {D. Konstantas, R. Herzog,},
+  title = {Continuous monitoring of vital constants for mobile users: the MobiHealth
+	approach},
+  journal = {25th Annual International Conference of the IEEE EMBS},
+  year = {2003},
+  owner = {leonardo},
+  timestamp = {2011.09.16}
+}
+
+@ARTICLE{dag08,
+  author = {Da\v{g}tas, S. and Pekhteryev, G. and Sahino\v{g}lu, Z. and \c{C}am,
+	H. and Challa, N.},
+  title = {Real-time and secure wireless health monitoring},
+  journal = {Int. J. Telemedicine Appl.},
+  year = {2008},
+  volume = {2008},
+  pages = {1:1--1:10},
+  month = {January},
+  acmid = {1453677},
+  address = {New York, NY, United States},
+  articleno = {1},
+  doi = {http://dx.doi.org/10.1155/2008/135808},
+  issn = {1687-6415},
+  issue_date = {January 2008},
+  numpages = {10},
+  owner = {leonardo},
+  publisher = {Hindawi Publishing Corp.},
+  timestamp = {2011.09.14},
+  url = {http://dx.doi.org/10.1155/2008/135808}
+}
+
+@ARTICLE{sae09,
+  author = {García-Sáez, G., Hernando, M.E., Martínez-Sarriegu},
+  title = {Architecture of a wireless personal assistant for telemedical diabetes
+	care},
+  journal = {International Journal of Medical Informatics},
+  year = {2009},
+  volume = {v78},
+  pages = {391-403},
+  owner = {leonardo},
+  timestamp = {2011.09.15}
+}
+
+@INPROCEEDINGS{giet08,
+  author = {Gietzelt, M. and Wolf, K.-H. and Marschollek, M. and Haux, R.},
+  title = {Automatic self-calibration of body worn triaxial-accelerometers for
+	application in healthcare},
+  booktitle = {Pervasive Computing Technologies for Healthcare, 2008. PervasiveHealth
+	2008. Second International Conference on},
+  year = {2008},
+  pages = {177 -180},
+  month = {30 2008-feb. 1},
+  doi = {10.1109/PCTHEALTH.2008.4571063},
+  keywords = {acceleration sensors;automatic self-calibration;body worn triaxial-accelerometer;environmental
+	condition;health care;microprocessor;movements monitoring;sensor
+	system;accelerometers;biosensors;calibration;health care;patient
+	monitoring;},
+  owner = {leonardo},
+  timestamp = {2011.09.20}
+}
+
+@ARTICLE{ren06,
+  author = {H. Ren, M.Q.H. Meng},
+  title = {Bioeffects control in wireless biomedical sensor networks},
+  journal = {3rd Annual IEEE Communications Society on Sensor and Ad Hoc Communications
+	and Networks},
+  year = {2006},
+  volume = {vol. 3},
+  pages = {896-904},
+  owner = {leonardo},
+  timestamp = {2011.09.14}
+}
+
+@INPROCEEDINGS{Ho:2005:PRS:1080148.1080164,
+  author = {Ho, Loc and Moh, Melody and Walker, Zachary and Hamada, Takeo and
+	Su, Ching-Fong},
+  title = {A prototype on RFID and sensor networks for elder healthcare: progress
+	report},
+  booktitle = {Proceedings of the 2005 ACM SIGCOMM workshop on Experimental approaches
+	to wireless network design and analysis},
+  year = {2005},
+  series = {E-WIND '05},
+  pages = {70--75},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1080164},
+  doi = {http://doi.acm.org/10.1145/1080148.1080164},
+  isbn = {1-59593-026-4},
+  keywords = {RFID, healthcare, sensor networks},
+  location = {Philadelphia, Pennsylvania, USA},
+  numpages = {6},
+  owner = {leonardo},
+  timestamp = {2011.09.16},
+  url = {http://doi.acm.org/10.1145/1080148.1080164}
+}
+
+@ARTICLE{seo07,
+  author = {J. Seo, J. Heo, S. Lim, J. Ahn, W. Kim},
+  title = {A study on the implementation of a portable u-Healthcare system using
+	SNMP and AODV},
+  journal = {29th Annual International Conference of the IEEE EMBS},
+  year = {2007},
+  owner = {leonardo},
+  timestamp = {2011.09.14}
+}
+
+@TECHREPORT{aging05,
+  author = {Kevin Kinsella and David R. Phillips},
+  title = {Global Aging: The Challenge of Success},
+  institution = {Population Reference Bureau},
+  year = {2005},
+  address = {http://www.prb.org/Publications/PopulationBulletins/2005/GlobalAgingTheChallengeofSuccessPDF575KB.aspx},
+  owner = {leonardo},
+  timestamp = {2011.09.14}
+}
+
+@INPROCEEDINGS{lae04,
+  author = {Kristof Van Laerhoven and Benny P. L. Lo and Jason W. P. Ng and Surapa
+	Thiemjarus and Rachel King and Simon Kwan and Hans-werner Gellersen
+	and Morris Sloman and Oliver Wells and Phil Needham and Nick Peters
+	and Ara Darzi and Chris Toumazou and Guang-zhong Yang},
+  title = {Medical Healthcare Monitoring with Wearable and Implantable Sensors},
+  booktitle = {Proc. of the 3rd International Workshop on Ubiquitous Computing for
+	Healthcare Applications},
+  year = {2004}
+}
+
+@ARTICLE{lu,
+  author = {Lu, C. and Fu, L.},
+  title = {Robust location-aware activity recognition using wireless sensor
+	network in an attentive home.},
+  journal = {IEEE Transactions on Automation Science and Engineering},
+  pages = {598-609},
+  owner = {leonardo},
+  timestamp = {2011.09.16}
+}
+
+@ARTICLE{lop08,
+  author = {M. López-nores, J.J. Pazos-arias, J. García-duque, Y. Blanco-fernández},
+  title = {Monitoring medicine intake in the networked home: the iCabiNET solution},
+  journal = {Second International Conference on Pervasive Computing Technologies
+	for Healthcare},
+  year = {2008},
+  owner = {leonardo},
+  timestamp = {2011.09.16}
+}
+
+@ARTICLE{phi04,
+  author = {M. Philipose, S. Consolvo, I. Smith, D. Fox, H. Kautz, D. Patterson},
+  title = {Fast, detailed inference of diverse daily human activities},
+  journal = {Sixth International Conference on Ubiquitous Computing},
+  pages = {2004},
+  owner = {leonardo},
+  timestamp = {2011.09.16}
+}
+
+@ARTICLE{mug03,
+  author = {Munoz, Miguel A. and Rodriguez, Marcela and Favela, Jesus and Martinez-Garcia,
+	Ana I. and Gonzalez, Victor M.},
+  title = {Context-Aware Mobile Communication in Hospitals},
+  journal = {Computer},
+  year = {2003},
+  volume = {36},
+  pages = {38--46},
+  number = {9},
+  address = {Los Alamitos, CA, USA},
+  doi = {http://dx.doi.org/10.1109/MC.2003.1231193},
+  issn = {0018-9162},
+  owner = {leonardo},
+  publisher = {IEEE Computer Society Press},
+  timestamp = {2011.09.20}
+}
+
+@ARTICLE{witeleme,
+  author = {Ng, H. S. and Sim, M. L. and Tan, C. M. and Wong, C. C.},
+  title = {Wireless technologies for telemedicine},
+  journal = {BT Technology Journal},
+  year = {2006},
+  volume = {24},
+  pages = {130--137},
+  month = {April},
+  acmid = {1145511},
+  address = {Hingham, MA, USA},
+  doi = {10.1007/s10550-006-0050-9},
+  issn = {1358-3948},
+  issue = {2},
+  numpages = {8},
+  owner = {leonardo},
+  publisher = {Kluwer Academic Publishers},
+  timestamp = {2011.09.14},
+  url = {http://dl.acm.org/citation.cfm?id=1145488.1145511}
+}
+
+@INPROCEEDINGS{ome07,
+  author = {Omeni, O. C. and Eljamaly, O. and Burdett, A. J.},
+  title = {Energy Efficient Medium Access Protocol for Wireless Medical Body
+	Area Sensor Networks},
+  year = {2007},
+  pages = {29--32},
+  month = aug,
+  abstract = {{This paper presents a novel energy-efficient MAC Protocol designed
+	specifically for wireless body area sensor networks (WBASN) focused
+	towards pervasive healthcare applications. Wireless body area networks
+	consist of wireless sensor nodes attached to the human body to monitor
+	vital signs such as body temperature, activity or heart-rate. The
+	network adopts a master-slave architecture, where the body-worn slave
+	node periodically sends sensor readings to a central master node.
+	Unlike traditional peer-to-peer wireless sensor networks, the nodes
+	in this biomedical WBASN are not deployed in an ad hoc fashion. Joining
+	a network is centrally managed and all communications are single-hop.
+	To reduce energy consumption, all the sensor nodes are in standby
+	or sleep mode until the centrally assigned time slot. Once a node
+	has joined a network, there is no possibility of collision within
+	a cluster as all communication is initiated by the central node and
+	is addressed uniquely to a slave node. To avoid collisions with nearby
+	transmitters, a clear channel assessment algorithm based on standard
+	listen-before-transmit (LBT) is used. To handle time slot overlaps,
+	the novel concept of a wakeup fallback time is introduced. Using
+	single-hop communication and centrally controlled sleep/wakeup times
+	leads to significant energy reductions for this application compared
+	to more 'flexible' network MAC protocols such as 802.11 or Zigbee.
+	With longer sleep times, the overall power consumption approaches
+	the standby power. The protocol is implemented in hardware as part
+	of the Sensiumtrade system-on-chip WBASN ASIC, in a 0.13 um CMOS
+	process.}},
+  citeulike-article-id = {8400128},
+  citeulike-linkout-0 = {http://dx.doi.org/10.1109/ISSMDBS.2007.4338285},
+  citeulike-linkout-1 = {http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=4338285},
+  doi = {10.1109/ISSMDBS.2007.4338285},
+  keywords = {bsn, efficient, energy},
+  location = {Cambridge, UK},
+  owner = {leonardo},
+  posted-at = {2010-12-09 16:05:30},
+  priority = {3},
+  timestamp = {2011.09.14},
+  url = {http://dx.doi.org/10.1109/ISSMDBS.2007.4338285}
+}
+
+@ARTICLE{ket08,
+  author = {P. Iso-ketola, T. Karinsalo, J. Vanhala},
+  title = {HipGuard: a wearable measurement system for patients recovering from
+	a hip operation},
+  journal = {Second International Conference on Pervasive Computing Technologies
+	for Healthcare},
+  year = {2008},
+  owner = {leonardo},
+  timestamp = {2011.09.16}
+}
+
+@ARTICLE{bao05,
+  author = {S. Bao, Y. Zhang, L. Shen,},
+  title = {Physiological signal based entity authentication for body area sensor
+	networks and mobile healthcare systems},
+  journal = {27th Annual International Conference of the IEEE EMBS},
+  year = {2005},
+  owner = {leonardo},
+  timestamp = {2011.09.14}
+}
+
+@INPROCEEDINGS{codeblue,
+  author = {Shnayder, Victor and Chen, Bor-rong and Lorincz, Konrad and Jones,
+	Thaddeus R. F. Fulford and Welsh, Matt},
+  title = {Sensor networks for medical care},
+  booktitle = {Proceedings of the 3rd international conference on Embedded networked
+	sensor systems},
+  year = {2005},
+  series = {SenSys '05},
+  pages = {314--314},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1098979},
+  doi = {http://doi.acm.org/10.1145/1098918.1098979},
+  isbn = {1-59593-054-X},
+  keywords = {medical sensor networks, sensor query processing, wireless routing,
+	wireless sensor networks},
+  location = {San Diego, California, USA},
+  numpages = {1},
+  owner = {leonardo},
+  timestamp = {2011.09.16},
+  url = {http://doi.acm.org/10.1145/1098918.1098979}
+}
+
+@INPROCEEDINGS{stan05,
+  author = {Stankovic, J. A. and Cao, Q. and Doan, T. and Fang, L. and He, Z.
+	and Kiran, R. and Lin, S. and Son, S. and Stoleru, R. and Wood, A.},
+  title = {Wireless Sensor Networks for In-Home Healthcare:},
+  booktitle = {in HCMDSS},
+  year = {2005},
+  pages = {2--3},
+  abstract = {{for general telemetry or ISM equipment. Implanted medical devices
+	may use a licensed band allocated for that purpose by the FCC. In
+	order to avoid interference in the increasingly crowded unlicensed
+	ISM band, biomedical devices may use the WMTS band (wireless medical
+	telemetry services, at 608 MHz). [1] The homecare network must provide
+	middleware interoperability between disparate devices, and support
+	unique relationships among devices, such as implants and their outside
+	controllers. - Real-time data acquisition and analysis: The rate
+	of collection of data is higher in this type of network than in many
+	environmental studies. Efficient communication and processing will
+	be essential. Event ordering, time-stamping, synchronization, and
+	quick response in emergency situations will all be required. - Reliability
+	and robustness: Sensors and other devices must operate with enough
+	reliability to yield high-confidence data suitable for medical diagnosis
+	and treatment. Since the network will }},
+  citeulike-article-id = {5398709},
+  citeulike-linkout-0 = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.60.5768},
+  keywords = {sensor, telecare, wireless},
+  owner = {leonardo},
+  posted-at = {2009-08-08 20:09:09},
+  priority = {2},
+  timestamp = {2011.09.14},
+  url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.60.5768}
+}
+
+@ARTICLE{han05,
+  author = {T.R. Hansen, J.M. Eklund, J. Sprinkle, R. Bajcsy, S. Sastry},
+  title = {Using smart sensors and a camera phone to detect and verify the fall
+	of elderly persons},
+  journal = {European Medicine, Biology and Engineering Conference},
+  year = {2005},
+  owner = {leonardo},
+  timestamp = {2011.09.16}
+}
+

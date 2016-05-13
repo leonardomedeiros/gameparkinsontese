@@ -1,46 +1,69 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: jogos-saude-tese.aux
 The style file: authordate2.bst
-Database file #1: biblmm.bib
-You've used 10 entries,
+Database file #1: biblmmcor.bib
+Repeated entry---line 12116 of file biblmmcor.bib
+ : @article{alemdar
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12525 of file biblmmcor.bib
+ : @article{patel_monitoring_2009
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12639 of file biblmmcor.bib
+ : @article{sweetser2005-gameflow
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12723 of file biblmmcor.bib
+ : @article{ambulatoryparkinson2010
+ :                                 ,
+I'm skipping whatever remains of this entry
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+while executing---line 1229 of file authordate2.bst
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+while executing---line 1229 of file authordate2.bst
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+while executing---line 1303 of file authordate2.bst
+You've used 13 entries,
             2455 wiz_defined-function locations,
-            636 strings with 5982 characters,
-and the built_in function-call counts, 4183 in all, are:
-= -- 415
-> -- 147
-< -- 36
-+ -- 44
-- -- 42
-* -- 330
-:= -- 684
-add.period$ -- 45
-call.type$ -- 10
-change.case$ -- 80
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 157
-empty$ -- 306
-format.name$ -- 58
-if$ -- 871
+            643 strings with 7160 characters,
+and the built_in function-call counts, 5411 in all, are:
+= -- 499
+> -- 260
+< -- 44
++ -- 80
+- -- 78
+* -- 453
+:= -- 911
+add.period$ -- 56
+call.type$ -- 13
+change.case$ -- 107
+chr.to.int$ -- 13
+cite$ -- 13
+duplicate$ -- 195
+empty$ -- 373
+format.name$ -- 91
+if$ -- 1090
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 57
-num.names$ -- 32
-pop$ -- 67
+missing$ -- 12
+newline$ -- 72
+num.names$ -- 39
+pop$ -- 80
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 95
 quote$ -- 0
-skip$ -- 160
+skip$ -- 202
 stack$ -- 0
-substring$ -- 252
-swap$ -- 43
-text.length$ -- 2
+substring$ -- 281
+swap$ -- 41
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
+type$ -- 104
 warning$ -- 0
-while$ -- 32
+while$ -- 36
 width$ -- 0
-write$ -- 134
+write$ -- 170
+(There were 7 error messages)
