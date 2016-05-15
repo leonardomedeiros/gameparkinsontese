@@ -1,3 +1,8 @@
 \beamer@endinputifotherversion {3.24pt}
 \select@language {portuguese}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@sectionintoc {2}{Estudo de Caso}{27}{0}{2}
+\beamer@sectionintoc {3}{Abordagem JOGUE-ME}{45}{0}{3}
+\beamer@sectionintoc {4}{Experimentos}{68}{0}{4}
+\beamer@sectionintoc {5}{GQM}{90}{0}{5}
+\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{97}{0}{6}

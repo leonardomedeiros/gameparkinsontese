@@ -7,63 +7,105 @@ Repeated entry---line 12116 of file biblmmcor.bib
  : @article{alemdar
  :                 ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 12198 of file biblmmcor.bib
+ : @inproceedings{brox11
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12257 of file biblmmcor.bib
+ : @incollection{updrs87
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12297 of file biblmmcor.bib
+ : @article{goul05
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12450 of file biblmmcor.bib
+ : @book{mcginnis2013biomechanics
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12457 of file biblmmcor.bib
+ : @book{menezes2003
+ :                  ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 12525 of file biblmmcor.bib
  : @article{patel_monitoring_2009
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12639 of file biblmmcor.bib
- : @article{sweetser2005-gameflow
- :                               ,
+Repeated entry---line 12532 of file biblmmcor.bib
+ : @book{protpar010
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12603 of file biblmmcor.bib
+ : @article{Sinclair:2009:UVB:1515604.1515617
+ :                                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12646 of file biblmmcor.bib
+ : @article{synnott_wiipd_2012
+ :                            ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 12723 of file biblmmcor.bib
  : @article{ambulatoryparkinson2010
  :                                 ,
 I'm skipping whatever remains of this entry
-Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+Name 1 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
 while executing---line 1229 of file authordate2.bst
-Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+Too many commas in name 1 of "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," for entry UPDRS
 while executing---line 1229 of file authordate2.bst
-Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
+Name 2 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
+while executing---line 1229 of file authordate2.bst
+Name 2 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
+while executing---line 1229 of file authordate2.bst
+Name 1 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
+while executing---line 1229 of file authordate2.bst
+Too many commas in name 1 of "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," for entry UPDRS
+while executing---line 1229 of file authordate2.bst
+Name 2 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
+while executing---line 1229 of file authordate2.bst
+Name 1 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
 while executing---line 1303 of file authordate2.bst
-You've used 13 entries,
+Too many commas in name 1 of "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," for entry UPDRS
+while executing---line 1303 of file authordate2.bst
+Name 2 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
+while executing---line 1303 of file authordate2.bst
+You've used 27 entries,
             2455 wiz_defined-function locations,
-            643 strings with 7160 characters,
-and the built_in function-call counts, 5411 in all, are:
-= -- 499
-> -- 260
-< -- 44
-+ -- 80
-- -- 78
-* -- 453
-:= -- 911
-add.period$ -- 56
-call.type$ -- 13
-change.case$ -- 107
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 195
-empty$ -- 373
-format.name$ -- 91
-if$ -- 1090
-int.to.chr$ -- 1
+            719 strings with 9961 characters,
+and the built_in function-call counts, 11091 in all, are:
+= -- 1031
+> -- 496
+< -- 91
++ -- 156
+- -- 147
+* -- 897
+:= -- 1853
+add.period$ -- 120
+call.type$ -- 27
+change.case$ -- 219
+chr.to.int$ -- 26
+cite$ -- 27
+duplicate$ -- 407
+empty$ -- 806
+format.name$ -- 172
+if$ -- 2281
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 72
-num.names$ -- 39
-pop$ -- 80
+missing$ -- 30
+newline$ -- 149
+num.names$ -- 83
+pop$ -- 172
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 196
 quote$ -- 0
-skip$ -- 202
+skip$ -- 417
 stack$ -- 0
-substring$ -- 281
-swap$ -- 41
-text.length$ -- 1
+substring$ -- 558
+swap$ -- 90
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 104
+type$ -- 206
 warning$ -- 0
-while$ -- 36
+while$ -- 72
 width$ -- 0
-write$ -- 170
-(There were 7 error messages)
+write$ -- 356
+(There were 21 error messages)
