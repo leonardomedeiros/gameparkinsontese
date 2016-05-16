@@ -3,109 +3,52 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: jogos-saude-tese.aux
 The style file: authordate2.bst
 Database file #1: biblmmcor.bib
-Repeated entry---line 12116 of file biblmmcor.bib
- : @article{alemdar
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12198 of file biblmmcor.bib
- : @inproceedings{brox11
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12257 of file biblmmcor.bib
- : @incollection{updrs87
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12297 of file biblmmcor.bib
- : @article{goul05
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12450 of file biblmmcor.bib
- : @book{mcginnis2013biomechanics
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12457 of file biblmmcor.bib
- : @book{menezes2003
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12525 of file biblmmcor.bib
- : @article{patel_monitoring_2009
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12532 of file biblmmcor.bib
- : @book{protpar010
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12603 of file biblmmcor.bib
- : @article{Sinclair:2009:UVB:1515604.1515617
- :                                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12646 of file biblmmcor.bib
- : @article{synnott_wiipd_2012
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12723 of file biblmmcor.bib
- : @article{ambulatoryparkinson2010
- :                                 ,
-I'm skipping whatever remains of this entry
-Name 1 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
+Warning--I didn't find a database entry for "UPDRS"
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1229 of file authordate2.bst
-Too many commas in name 1 of "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," for entry UPDRS
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1229 of file authordate2.bst
-Name 2 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
-while executing---line 1229 of file authordate2.bst
-Name 2 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
-while executing---line 1229 of file authordate2.bst
-Name 1 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
-while executing---line 1229 of file authordate2.bst
-Too many commas in name 1 of "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," for entry UPDRS
-while executing---line 1229 of file authordate2.bst
-Name 2 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
-while executing---line 1229 of file authordate2.bst
-Name 1 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
+Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1303 of file authordate2.bst
-Too many commas in name 1 of "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," for entry UPDRS
-while executing---line 1303 of file authordate2.bst
-Name 2 in "B. Post, M. P. Merkus, R. M. de Bie, R. J. de Haan, and J. D. Speelman," has a comma at the end for entry UPDRS
-while executing---line 1303 of file authordate2.bst
-You've used 27 entries,
+You've used 21 entries,
             2455 wiz_defined-function locations,
-            719 strings with 9961 characters,
-and the built_in function-call counts, 11091 in all, are:
-= -- 1031
-> -- 496
-< -- 91
-+ -- 156
-- -- 147
-* -- 897
-:= -- 1853
-add.period$ -- 120
-call.type$ -- 27
-change.case$ -- 219
-chr.to.int$ -- 26
-cite$ -- 27
-duplicate$ -- 407
-empty$ -- 806
-format.name$ -- 172
-if$ -- 2281
+            669 strings with 8662 characters,
+and the built_in function-call counts, 7662 in all, are:
+= -- 687
+> -- 390
+< -- 67
++ -- 125
+- -- 116
+* -- 592
+:= -- 1356
+add.period$ -- 93
+call.type$ -- 21
+change.case$ -- 169
+chr.to.int$ -- 20
+cite$ -- 21
+duplicate$ -- 278
+empty$ -- 526
+format.name$ -- 132
+if$ -- 1535
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 149
-num.names$ -- 83
-pop$ -- 172
+missing$ -- 23
+newline$ -- 116
+num.names$ -- 63
+pop$ -- 132
 preamble$ -- 1
-purify$ -- 196
+purify$ -- 151
 quote$ -- 0
-skip$ -- 417
+skip$ -- 290
 stack$ -- 0
-substring$ -- 558
-swap$ -- 90
-text.length$ -- 3
+substring$ -- 239
+swap$ -- 42
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 206
+type$ -- 162
 warning$ -- 0
-while$ -- 72
+while$ -- 42
 width$ -- 0
-write$ -- 356
-(There were 21 error messages)
+write$ -- 271
+(There were 3 error messages)

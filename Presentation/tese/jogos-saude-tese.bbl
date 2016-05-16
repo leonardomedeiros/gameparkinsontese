@@ -1,33 +1,13 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{Aarhus \& Ballegaard, }2010]{aarh10}
-Aarhus, Rikke, \& Ballegaard, Stinne~Aal{\o}kke. 2010.
-\newblock Negotiating boundaries: managing disease at home.
-\newblock {\em Pages  1223--1232 of:} {\em Proceedings of the 28th
-  international conference on human factors in computing systems}.
-\newblock CHI '10.
-\newblock New York, NY, USA: ACM.
-
-\bibitem[\protect\citename{Alemdar \& Ersoy, }2010]{alemdar}
-Alemdar, Hande, \& Ersoy, Cem. 2010.
-\newblock Wireless sensor networks for healthcare: A survey.
-\newblock {\em Computer networks}, {\bf 54}(15), 2688--2710.
-
 \bibitem[\protect\citename{Alemdar {\em et~al.\ }\relax, }2015]{alemdar2015}
 Alemdar, Hande, Tunca, Can, \& Ersoy, Cem. 2015.
 \newblock Daily life behaviour monitoring for health assessment using machine
   learning: Bridging the gap between domains.
 \newblock {\em Personal ubiquitous computing}.
 
-\bibitem[\protect\citename{Arnrich {\em et~al.\ }\relax, }2010]{bardram2010}
-Arnrich, Bert, Mayora, Oscar, Bardram, Jakob, \& e~Tr{\"{o}}ster, Gerhard.
-  2010.
-\newblock Pervasive healthcare - paving the way for a pervasive, user-centered
-  and preventive healthcare model.
-\newblock {\em Methods of information in medicine}.
-
 \bibitem[\protect\citename{Association, }2015]{esa2015}
-Association, Entertainment~Software. 2015.
+Association, (ESA) Entertainment~Software. 2015.
 \newblock {\em Essential facts about the u.s. computer and video game industry:
   Sales, demophahy and usage data}.
 
@@ -37,20 +17,6 @@ Atkinson, S.D., \& Narasimhan, V.L. 2010.
   and management of parkinson's disease.
 \newblock {\em In:} {\em Trendz in information sciences computing}.
 \newblock IEEE.
-
-\bibitem[\protect\citename{B.~Post \& Speelman, }2005]{UPDRS}
-B.~Post, M. P.~Merkus, R. M. de Bie R. J. de~Haan, \& Speelman, J.~D. 2005.
-\newblock "unified parkinson's disease rating scale motor examination: Are
-  ratings of nurses, residents in neurology, and movement disorders specialists
-  interchangeable?,".
-\newblock {\em Mov. disord}, {\bf 20}, 1577--1584.
-
-\bibitem[\protect\citename{Brox {\em et~al.\ }\relax, }2011]{brox11}
-Brox, E., Luque, L.F., Evertsen, G.J., \& Hernandez, J.E.G. 2011.
-\newblock Exergames for elderly: Social exergames to persuade seniors to
-  increase physical activity.
-\newblock {\em Pages  546--549 of:} {\em Pervasive computing technologies for
-  healthcare (pervasivehealth), 2011 5th international conference on}.
 
 \bibitem[\protect\citename{Chamasemani \& Singh, }2011]{multisvm2011}
 Chamasemani, F.~F., \& Singh, Y.~P. 2011.
@@ -68,13 +34,6 @@ Chen, Huan, Liao, Guo-Tan, Fan, Yao-Chung, Cheng, Bo-Chao, Chen, Cheng-Min, \&
 \newblock {\em In:} {\em Symposium on applied computing}.
 \newblock ACM.
 
-\bibitem[\protect\citename{Fahn \& Elton, }1987]{updrs87}
-Fahn, S., \& Elton, R. 1987.
-\newblock Unified parkinson's disease rating scale.
-\newblock {\em Pages  153--63 of:} et~al Fahn, S. (ed), {\em Recent
-  developments in parkinson's disease}.
-\newblock New Jersey: Macmillan Health Care Information.
-
 \bibitem[\protect\citename{Friedman {\em et~al.\ }\relax,
   }2014]{manumeterjbhi2014}
 Friedman, N., Rowe, J.B., Reinkensmeyer, D.J., \& Bachman, M. 2014.
@@ -86,7 +45,7 @@ Friedman, N., Rowe, J.B., Reinkensmeyer, D.J., \& Bachman, M. 2014.
 Goulart, Fátima, \& Pereira, Luciana~Xavier. 2005.
 \newblock Uso de escalas para avaliação da doença de parkinson em
   fisioterapia.
-\newblock {\em Fisioterapia e pesquisa}, {\bf Volume II}.
+\newblock {\em Fisioterapia e pesquisa}.
 
 \bibitem[\protect\citename{Graziadio {\em et~al.\ }\relax,
   }2014]{sacbespoke2014}
@@ -97,6 +56,11 @@ Graziadio, S., Davison, R., Shalabi, K., Sahota, K. M.~A., Ushaw, G., Morgan,
 \newblock {\em In:} {\em Proceedings of the 29th annual acm symposium on
   applied computing}.
 \newblock ACM.
+
+\bibitem[\protect\citename{Jankovic, }2008]{jankovic2008}
+Jankovic, J. 2008.
+\newblock Parkinson’s disease: clinical features and diagnosis.
+\newblock {\em Journal of neurology, neurosurgery \& psychiatry}.
 
 \bibitem[\protect\citename{Kantardzic, }2011]{kantardzic2011data}
 Kantardzic, M. 2011.
@@ -122,7 +86,7 @@ Liao, Chien-Ke, Lim, Chung~Dial, Cheng, Ching-Ying, Huang, Cheng-Ming, \& Fu,
 \newblock IEEE.
 
 \bibitem[\protect\citename{McGinnis, }2013]{mcginnis2013biomechanics}
-McGinnis, P. 2013.
+McGinnis, Peter. 2013.
 \newblock {\em Biomechanics of sport and exercise}.
 \newblock Human Kinetics.
 
@@ -155,17 +119,23 @@ Medeiros, Leonardo, Almeida, Hyggo, Silva, Leandro, Perkusich, Mirko, \&
   medical systems (cbms 2016)}.
 \newblock IEEE.
 
+\bibitem[\protect\citename{Mobyen Uddin~Ahmed \& Loutfi,
+  }2013]{healthmonitoring2013}
+Mobyen Uddin~Ahmed, Hadi~Banaee, \& Loutfi, Amy. 2013.
+\newblock Health monitoring for elderly: An application using case-based
+  reasoning and cluster analysis.
+\newblock {\em Isrn artificial intelligence}.
+
 \bibitem[\protect\citename{Patel {\em et~al.\ }\relax,
   }2009]{patel_monitoring_2009}
 Patel, S., Lorincz, K., Hughes, R., Huggins, N., Growdon, J., Standaert, D.,
   Akay, M., Dy, J., Welsh, M., \& Bonato, P. 2009.
 \newblock Monitoring motor fluctuations in patients with parkinson's disease
   using wearable sensors.
-\newblock {\em {IEEE} transactions on information technology in biomedicine},
-  {\bf 13}(6), 864--873.
+\newblock {\em {IEEE} transactions on information technology in biomedicine}.
 
 \bibitem[\protect\citename{Picon {\em et~al.\ }\relax, }2010]{protpar010}
-Picon, Paulo~Dornelles, Gadelha, Maria Inez~Pordeu, \& Beltrame, Alberto. 2010.
+Picon, Paulo, Gadelha, Maria, \& Beltrame, Alberto. 2010.
 \newblock {\em Protocolo clínico e diretrizes terapêutica - doença de
   parkinson}.
 \newblock Ministério da Saúde.
@@ -175,20 +145,7 @@ Picon, Paulo~Dornelles, Gadelha, Maria Inez~Pordeu, \& Beltrame, Alberto. 2010.
 Sinclair, Jeff, Hingston, Philip, Masek, Martin, \& Nosaka, Kazunori~(Ken).
   2009.
 \newblock Using a virtual body to aid in exergaming system development.
-\newblock {\em Ieee comput. graph. appl.}, {\bf 29}(2), 39--48.
-
-\bibitem[\protect\citename{Synnott {\em et~al.\ }\relax,
-  }2012]{synnott_wiipd_2012}
-Synnott, J., Chen, Liming, Nugent, {C.D.}, \& Moore, G. 2012.
-\newblock Wiipd objective home assessment of parkinson's disease using the
-  nintendo wii remote.
-\newblock {\em {IEEE} transactions on information technology in biomedicine},
-  {\bf 16}(6), 1304--1312.
-
-\bibitem[\protect\citename{Teive, }2003]{menezes2003}
-Teive, Hélio A.~G. 2003.
-\newblock {\em Doença de parkinson - meneses}.
-\newblock Guanabara Koogan.
+\newblock {\em Ieee computer graphics applications}.
 
 \bibitem[\protect\citename{Zwartjes {\em et~al.\ }\relax,
   }2010]{ambulatoryparkinson2010}
@@ -196,7 +153,6 @@ Zwartjes, D.G.M., Heida, T., van Vugt, J.P.P., Geelen, J.A.G., \& Veltink, P.H.
   2010.
 \newblock Ambulatory monitoring of activities and motor symptoms in parkinson's
   disease.
-\newblock {\em Biomedical engineering, ieee transactions on}, {\bf 57}(11),
-  2778--2786.
+\newblock {\em Ieee transactions on biomedical engineering}.
 
 \end{thebibliography}
