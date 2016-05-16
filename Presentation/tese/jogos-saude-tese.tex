@@ -19,16 +19,16 @@ basicstyle=\footnotesize, stringstyle=\ttfamily,
 showstringspaces=false }
 
 
-\usetheme{Frankfurt} %LEGAL     !!!
+%\usetheme{Frankfurt} %LEGAL     !!!
 % \usetheme{Madrid}     %LEGAL/L%IMPO/COM CAIXA     (sem barra de desenvolvimento)
 
 % \usetheme{Antibes} %NAO
-% \usetheme{Berlin} %PODE SER...     (BARRA DE DESENVOLVIMANTO)
+%\usetheme{Berlin} %PODE SER...     (BARRA DE DESENVOLVIMANTO)
 % \usetheme{Berkeley}     %FEIO
 % \usetheme{Boadilla} %TUDO BRANCO...
 % \usetheme{Copenhagen}     %NAO
 % \usetheme{Darmstadt} %LEGAL!     !!!
-% \usetheme{Dresden}     %LEGAL/LIMPO/SEM CAIXA     (sem caixa fica ruim...)
+ \usetheme{Dresden}     %LEGAL/LIMPO/SEM CAIXA     (sem caixa fica ruim...)
 
 % \usetheme{Goettingen}     %FEIO DEMAIS!
 %\usetheme{Ilmenau} %LEGAL (forte candidato)
@@ -75,7 +75,7 @@ showstringspaces=false }
 
 
 \section{Introdução}
-\subsection{}
+\subsection{Motivação}
 
 \begin{frame}{Sistemas de Monitoramento de Saúde}
   \begin{block}{}
@@ -86,24 +86,12 @@ A computação aplicada ao contexto de saúde permite monitorar remotamente o es
   \end{block}
 \end{frame}
 
-\begin{frame}{Estratégias de Monitoramento da Saúde}
-  \begin{block}{}
-      \center \includegraphics[height=1.8 in]{img/estrategmonitorament.png}
-  \end{block}
-  \begin{block}{}
-As tecnologias de monitoramento para serem aceitas precisam preservar a privacidade do usuário e integrar-se à sua rotina diária~\cite{alemdar2015}.
-  \end{block}
-  
-%    \begin{alertblock}{}<4->
-%    Pois, o maior desafio dessas abordagens é a aceitação do usuário e sua consequente inserção na rotina diária~\cite{alemdar2015}.
-%   \end{alertblock}
 
-\end{frame}
 
 
 \begin{frame}{Aplicações dos Sistemas de Monitoramento da Saúde (SMS)}  
   \begin{block}{}
-  Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico acompanhar:  
+  Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico:
   \begin{itemize}[<+->]
    \item Tratar preventivamente e pró-ativamente o estado de saúde~\cite{healthmonitoring2013}; 
    \item Reabilitar o paciente~\cite{sacbespoke2014};
@@ -113,15 +101,14 @@ As tecnologias de monitoramento para serem aceitas precisam preservar a privacid
 \end{frame}
 
 
-\begin{frame}{Abordagem Proposta}
-  \begin{block}{Uso de Jogos Eletrônicos Para Monitorar a Saúde}
-      \center \includegraphics[height=1.8 in]{img/visaosistema.png}
+\begin{frame}{Estratégias de Monitoramento da Saúde}
+  \begin{block}{}
+      \center \includegraphics[height=1.8 in]{img/estrategmonitorament.png}
   \end{block}
-  \begin{block}{ }
-A abordagem proposta nesta tese permite integrar os benefícios dos SMS a jogos eletrônicos para capturar as ações cinéticas do usuário para monitorar a saúde. 
+  \begin{block}{}
+As tecnologias de monitoramento para serem aceitas precisam preservar a privacidade do usuário e integrar-se à sua rotina diária~\cite{alemdar2015}.
   \end{block}
 \end{frame}
-
 
 
 \begin{frame}{SMS da Saúde Motora}  
@@ -135,9 +122,17 @@ A abordagem proposta nesta tese permite integrar os benefícios dos SMS a jogos 
   \end{block}   
 \end{frame}
 
+\begin{frame}{Abordagem Proposta}
+  \begin{block}{Uso de Jogos Eletrônicos Para Monitorar a Saúde}
+      \center \includegraphics[height=1.8 in]{img/visaosistema.png}
+  \end{block}
+  \begin{block}{ }
+A abordagem proposta nesta tese permite integrar os benefícios dos SMS a jogos eletrônicos para capturar as ações cinéticas do usuário para monitorar a saúde. 
+  \end{block}
+\end{frame}
 
 
-
+\subsection{Jogos Para Saúde}
 \begin{frame}{Jogos Aplicados à Saúde}
 	\begin{block}{}	
 	Nos últimos anos, houve o surgimento de jogos para apoiar a prática de atividade física. Como por exemplo:
@@ -184,9 +179,8 @@ A abordagem proposta nesta tese permite integrar os benefícios dos SMS a jogos 
 	\end{block}
 \end{frame}
 
-
 \section{Estudo de Caso}
-\subsection{}
+\subsection{Parkinson}
 \begin{frame}{Estudo de Caso}
   \begin{block}{Doença de Parkinson}
    Como estudo de caso, escolhemos Parkinson por ser uma doença neurodegenerativa crônica, progressiva e com causa desconhecida. É uma doença mais comum em idosos; no
@@ -248,6 +242,8 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
     \end{block}
 \end{frame}
 
+
+\subsection{Entrevista}
 \begin{frame}{Entrevista Semi-Estruturada com Profissionais de Saúde} 
     \begin{block}{Objetivo da Pesquisa}
     O objetivo da entrevista semiestruturada foi entender como é feito o acompanhamento do paciente com sintomatologia do Parkinson, juntamente aos profissionais de saúde.
@@ -282,7 +278,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 \end{frame} 
 
 \section{Abordagem JOGUE-ME}
-\subsection{}
+\subsection{Apresentação}
 \begin{frame}{Abordagem JOGUE-ME}
     \begin{block}{}
     A abordagem \textbf{JOGUE-ME} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus dados motores, em comparação ao uso dos dispositivos vestíveis.
@@ -294,7 +290,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
     \end{block}
 \end{frame}
 
-\begin{frame}{Abordagem Proposta}
+\begin{frame}{Abordagem Proposta}Apresentação
   \begin{block}{Visão Geral da Abordagem~\textit{JOGUE-ME}}
       \center \includegraphics[height=1.8 in]{img/visaosistema.png}
   \end{block}
@@ -315,6 +311,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 	\end{block}
 \end{frame}
 
+\subsection{Processamento de Sinais}
 \begin{frame}{Processamento dos Sinais Biomecânicos}
   \begin{block}{}
       \center \includegraphics[height=2.4 in]{img/biomecprocessor2.png}
@@ -382,6 +379,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 \end{block}
 \end{frame}
 
+\subsection{Classificador de Dados}
 \begin{frame}{Classificador de Dados}
 \begin{block}{}
 			O classificador de dados, é utilizado na abordagem para identificar de possíveis usuários com problemas motores. Desta forma, o classificador irá auxiliar o profissional de saúde no acompanhamento de seus pacientes.
@@ -429,7 +427,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 \end{frame}
 
 \section{Experimentos}
-\subsection{}
+\subsection{Caso-Controle}
 %\subsection{Estudo Analítico de Caso-Controle}
 \begin{frame}{Estudo Analítico de Caso-Controle: Identificação da Bradicinesia} 
     \begin{block}{Objetivo da Pesquisa}<1->
@@ -520,6 +518,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 	\end{block}
 \end{frame}
 
+\subsection{Classificação dos Dados}
 \begin{frame}{Classificação dos Dados}
 	\begin{block}{}
 		\begin{itemize}[<+->]
@@ -576,7 +575,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 				\begin{tabular}{|l|r|}
 				\hline
 				\multicolumn{2}{|l|}{\textbf{Métricas}} \\ \hline
-				\textbf{TpRate}                    & 80,00$\%$\                 \\ \hline
+				\textbf{TpRate}                    & 80,00$\%$\               \\ \hline
 				\textbf{FpRate}                    & 6,67$\%$\                \\ \hline
 				\textbf{Precision}                 & 92,31$\%$\                \\ \hline
 				\textbf{Accuracy}                  & 86,67$\%$\                \\ \hline
@@ -595,6 +594,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
     \end{block}
 \end{frame}
 
+\subsection{Limitações}
 \begin{frame}{Limitações do Método}
 	\begin{block}{}
 	A aprendizagem estatística deste trabalho é apenas um indicador, o qual necessita da interpretação do profissional de saúde.
@@ -623,30 +623,31 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 
 
 \section{GQM}
-\subsection{}
+\subsection{Análise}
 \begin{frame}{Análise GQM com Usuários} 
     \begin{block}{Objetivo da Pesquisa}
-      Validar a Hipótese \textbf{H3}: É possível desenvolver um jogo que tenha mecanismos de captura de dados motores embutidos, e que permita monitorar e quantificar esses dados de maneira não-invasiva.
+      Etapa 3 da Pesquisam: Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
     \end{block}
 		\begin{block}{Participantes}
-		Foram entrevistados um total de 24 indivíduos das seguintes instituições:
+		Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: 
 			\begin{itemize}
-				\item Universidade Federal de Campina Grande;
-				\item Instituto Federal de Alagoas;
-				\item Clínica de Fisioterapia do CESMAC;
-				\item Fundação Pestalozzi.
+				\item Hospital Universitário da UFAL;
+				\item Fundação Pestalozzi;
+				\item Clínica de Fisioterapia do CESMAC.
 			\end{itemize}
     \end{block}
 \end{frame} 
 
+
 \begin{frame}{Questões da Pesquisa} 
     \begin{block}{}
 			\begin{enumerate}
-				\item Se o usuário integraria a abordagem GAHME à sua rotina diária.
-				\item Se a segurança com a integridade física está de acordo com a faixa etária do usuário.
+				\item O usuário poderia integrar a abordagem JOGUE-ME à sua rotina diária ?
+				\item A segurança com a integridade física está de acordo com a faixa etária do usuário ?
 			\end{enumerate}
     \end{block}
 \end{frame}
+
 
 \begin{frame}{Integrar a Abordagem à Rotina Diária} 
     \begin{block}{Métrica 1.1: Escala de Diversão do Jogo}
@@ -680,7 +681,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 
 
 \section{Finalização}
-\subsection{}
+\subsection{Publicações}
 \begin{frame}{Publicações}
 \begin{block}{}
 Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
@@ -693,6 +694,8 @@ Foram publicados três artigos, em conferências internacionais, relacionados à
 \end{frame}
 
 
+\subsection{Trabalhos Futuros}
+\begin{frame}{Trabalhos Futuros}
 \begin{block}{}
 A partir dos resultados apresentados nesta tese e extensão da mesma, alguns trabalhos futuros são propostos para contribuição científica:
   \begin{itemize}
@@ -704,7 +707,7 @@ A partir dos resultados apresentados nesta tese e extensão da mesma, alguns tra
 \end{frame}
 
 
-%\subsection{Dúvidas}
+\subsection{Dúvidas}
 \begin{frame}
   \begin{center}
   DÚVIDAS ?

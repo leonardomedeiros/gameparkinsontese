@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.17)  28 APR 2016 07:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.17)  16 MAY 2016 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tese.tex
 (./tese.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (./copin.cls
 Document Class: copin 1996/10/07 v1.0 Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -25,13 +25,13 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+Package: babel 2014/09/25 3.9l The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
@@ -48,10 +48,10 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -86,7 +86,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
-Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
+Package: acronym 2014/09/29 v1.40 Support for acronyms (Tobias Oetiker)
 
 (/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5 Variant command support
@@ -160,7 +160,7 @@ LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
 
@@ -244,7 +244,7 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subtable=\count107
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
 \LTpre=\skip57
@@ -286,15 +286,15 @@ Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 \lst@maxwidth=\dimen129
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count120
 \lst@skipnumbers=\count121
 \lst@framebox=\box33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
  (./tese.aux
 
 LaTeX Warning: Label `sec:processador_bio' multiply defined.
@@ -655,7 +655,7 @@ Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 134
  [22 <./img/deteccaopicosvales.png (PNG copy)>] [23 <./img/remocaoruidociclo.pn
 g (PNG copy)>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 162.
@@ -829,7 +829,30 @@ Package pdftex.def Info: ./img/gqm.png used on input line 622.
 LaTeX Warning: Reference `table:resultados_gqm' on page 61 undefined on input l
 ine 649.
 
-[61 <./img/gqm.png>] <./img/chart_1-.png, id=267, 488.57532pt x 356.0803pt>
+[61 <./img/gqm.png>]
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 665--665
+[]\T1/ptm/m/n/12 91,67%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 666--666
+[]\T1/ptm/m/n/12 91,67%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 667--667
+[]\T1/ptm/m/n/12 41,67%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 667--667
+[]\T1/ptm/m/n/12 58,33%| 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./img/chart_1-.png, id=267, 488.57532pt x 356.0803pt>
 File: ./img/chart_1-.png Graphic file (type png)
 
 <use ./img/chart_1-.png>
@@ -848,8 +871,8 @@ File: ./img/chart_10-.png Graphic file (type png)
 <use ./img/chart_10-.png>
 Package pdftex.def Info: ./img/chart_10-.png used on input line 695.
 (pdftex.def)             Requested size: 330.40715pt x 254.52417pt.
- [62] [63 <./img/chart_1-.png> <./img/chart_3-.png>]
-[64 <./img/chart_10-.png>]) (./cap6-conclusoes.tex [65
+ [62] [63 <./img/chart_1-.png>] [64 <./img/chart_3-.png> <./img/chart_10-.png>]
+) (./cap6-conclusoes.tex [65
 
 ]
 Cap\'{\i }tulo 6.
@@ -963,12 +986,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8895 strings out of 493304
- 125223 string characters out of 6139871
- 308775 words of memory out of 5000000
- 12117 multiletter control sequences out of 15000+600000
+ 8916 strings out of 493105
+ 125511 string characters out of 6137072
+ 309951 words of memory out of 5000000
+ 12144 multiletter control sequences out of 15000+600000
  63829 words of font info for 75 fonts, out of 8000000 for 9000
- 958 hyphenation exceptions out of 8191
+ 1142 hyphenation exceptions out of 8191
  38i,17n,45p,1378b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
@@ -981,7 +1004,7 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (103 pages, 1793820 bytes).
+Output written on tese.pdf (103 pages, 1794735 bytes).
 PDF statistics:
  413 PDF objects out of 1000 (max. 8388607)
  264 compressed objects within 3 object streams
