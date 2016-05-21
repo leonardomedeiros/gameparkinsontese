@@ -19,16 +19,16 @@ basicstyle=\footnotesize, stringstyle=\ttfamily,
 showstringspaces=false }
 
 
-\usetheme{Frankfurt} %LEGAL     !!!
+%\usetheme{Frankfurt} %LEGAL     !!!
 % \usetheme{Madrid}     %LEGAL/L%IMPO/COM CAIXA     (sem barra de desenvolvimento)
 
 % \usetheme{Antibes} %NAO
-% \usetheme{Berlin} %PODE SER...     (BARRA DE DESENVOLVIMANTO)
+%\usetheme{Berlin} %PODE SER...     (BARRA DE DESENVOLVIMANTO)
 % \usetheme{Berkeley}     %FEIO
 % \usetheme{Boadilla} %TUDO BRANCO...
 % \usetheme{Copenhagen}     %NAO
 % \usetheme{Darmstadt} %LEGAL!     !!!
-% \usetheme{Dresden}     %LEGAL/LIMPO/SEM CAIXA     (sem caixa fica ruim...)
+ \usetheme{Dresden}     %LEGAL/LIMPO/SEM CAIXA     (sem caixa fica ruim...)
 
 % \usetheme{Goettingen}     %FEIO DEMAIS!
 %\usetheme{Ilmenau} %LEGAL (forte candidato)
@@ -46,6 +46,12 @@ showstringspaces=false }
 \usecolortheme[RGB={134,153,188}]{structure}
 \setbeamertemplate{footline}[frame number]
 \setbeamertemplate{navigation symbols}{}
+
+%Hide subsections on teable of contents
+%\hypersetup{bookmarksopen=true,bookmarksopenlevel=4}
+%\setcounter{tocdepth}{2}
+
+
 
 \author[L. Medeiros]{Aluno: Leonardo Melo de Medeiros}
 \date{\today}
@@ -66,7 +72,8 @@ showstringspaces=false }
 % \AtBeginSection[]
 {\frame{
 \frametitle{Roteiro}
-\tableofcontents
+%\tableofcontents
+\tableofcontents[hideallsubsections]
 }
 }
 
@@ -75,35 +82,24 @@ showstringspaces=false }
 
 
 \section{Introdução}
-\subsection{}
+\subsection{Motivação}
 
 \begin{frame}{Sistemas de Monitoramento de Saúde}
   \begin{block}{}
+  \center
       \includegraphics[height=1.8 in]{img/sismonsaude.png}
   \end{block}
   \begin{block}{}  
-A computação aplicada ao contexto de saúde permite monitorar remotamente o estado de saúde dos usuários. Entretanto, a concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar2015}.
+  A concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar2015}.
   \end{block}
 \end{frame}
 
-\begin{frame}{Estratégias de Monitoramento da Saúde}
-  \begin{block}{}
-      \center \includegraphics[height=1.8 in]{img/estrategmonitorament.png}
-  \end{block}
-  \begin{block}{}
-As tecnologias de monitoramento para serem aceitas precisam preservar a privacidade do usuário e integrar-se à sua rotina diária~\cite{aarh10}.
-  \end{block}
-  
-%    \begin{alertblock}{}<4->
-%    Pois, o maior desafio dessas abordagens é a aceitação do usuário e sua consequente inserção na rotina diária~\cite{alemdar2015}.
-%   \end{alertblock}
 
-\end{frame}
 
 
 \begin{frame}{Aplicações dos Sistemas de Monitoramento da Saúde (SMS)}  
   \begin{block}{}
-  Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico acompanhar:  
+  Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico:
   \begin{itemize}[<+->]
    \item Tratar preventivamente e pró-ativamente o estado de saúde~\cite{healthmonitoring2013}; 
    \item Reabilitar o paciente~\cite{sacbespoke2014};
@@ -113,15 +109,14 @@ As tecnologias de monitoramento para serem aceitas precisam preservar a privacid
 \end{frame}
 
 
-\begin{frame}{Abordagem Proposta}
-  \begin{block}{Uso de Jogos Eletrônicos Para Monitorar a Saúde}
-      \center \includegraphics[height=1.8 in]{img/visaosistema.png}
+\begin{frame}{Estratégias de Monitoramento da Saúde}
+  \begin{block}{}
+      \center \includegraphics[height=2.2 in]{img/estrategmonitorament.png}
   \end{block}
-  \begin{block}{ }
-A abordagem proposta nesta Tese permite integrar a arquitetura dos SMS a jogos eletrônicos para capturar as ações cinéticas do usuário e monitorar a saúde motora. 
-  \end{block}
+%   \begin{block}{}
+% As tecnologias de monitoramento para serem aceitas precisam preservar a privacidade do usuário e integrar-se à sua rotina diária~\cite{alemdar2015}.
+%   \end{block}
 \end{frame}
-
 
 
 \begin{frame}{SMS da Saúde Motora}  
@@ -135,18 +130,25 @@ A abordagem proposta nesta Tese permite integrar a arquitetura dos SMS a jogos e
   \end{block}   
 \end{frame}
 
+\begin{frame}{Abordagem Proposta}
+  \begin{block}{}
+      \center \includegraphics[height=1.8 in]{img/visaosistema.png}
+  \end{block}
+  \begin{block}{ }
+Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos eletrônicos. 
+  \end{block}
+\end{frame}
 
 
-
+\subsection{Jogos Para Saúde}
 \begin{frame}{Jogos Aplicados à Saúde}
 	\begin{block}{}	
 	Nos últimos anos, houve o surgimento de jogos para apoiar a prática de atividade física. Como por exemplo:
 	
 	\begin{itemize}[<+->]
-	    \item Jogos para a melhoria da saúde do idoso com: visado a reabilitação motora dos idosos~\cite{brox11} e para a reeducação motora da Doença de Parkinson (Parkinson)~\cite{atkinson2010,synnott_wiipd_2012,sacbespoke2014};
-	    \item Jogos que utilizam sensores hápticos para quantificar a habilidade motora do paciente com Parkinson ~\cite{atkinson2010} .
-	    \item Jogos para identificaram efeitos positivos para a reabilitação através do uso do jogo \textit{Wii Sports} e um potencial mecanismo de prevenção e reeducação motora com o uso do \textit{Wii Fit}
-	    \item Jogos comerciais para prática de exercício físico com monitoramento dos sinais vitais(Batimento cardíaco)~\cite{Sinclair:2009:UVB:1515604.1515617}.
+	    \item Melhoria da saúde do idoso com: visado a reabilitação motora dos idosos~\cite{sacbespoke2014};
+	    \item Jogos com sensores hápticos para quantificar a habilidade motora do paciente com Parkinson ~\cite{atkinson2010};
+	    \item Jogos para o monitoramento dos sinais vitais(Batimento cardíaco)~\cite{Sinclair:2009:UVB:1515604.1515617}.
 	\end{itemize}
 	\end{block}
 \end{frame}
@@ -155,7 +157,7 @@ A abordagem proposta nesta Tese permite integrar a arquitetura dos SMS a jogos e
 \begin{frame}{Motivação para uso de jogos para monitoramento dos dados motores}
 	\begin{block}{}
 	\begin{itemize}[<+->]
-	    \item Percentual expressivo de adultos e idosos que usam jogos em sua rotina diária (27\% acima dos 50 anos~\cite{esa2015});
+	    \item Percentual expressivo de adultos e idosos que usam jogos em sua rotina diária (27\% acima dos 50 anos~\cite{});
 	    \item As tecnologias de sensores de movimento presentes nos jogos eletrônicos;
 	    \item Reprodução de movimentos específicos em um ambiente lúdico.
 	\end{itemize}
@@ -185,13 +187,15 @@ A abordagem proposta nesta Tese permite integrar a arquitetura dos SMS a jogos e
 	\end{block}
 \end{frame}
 
-
 \section{Estudo de Caso}
-\subsection{}
+\subsection{Parkinson}
 \begin{frame}{Estudo de Caso}
   \begin{block}{Doença de Parkinson}
-   Como estudo de caso, escolhemos Parkinson por ser uma doença neurodegenerativa crônica, progressiva e com causa desconhecida. É uma doença mais comum em idosos; no
-entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo abaixo dos 21.
+   Como estudo de caso, escolhemos Parkinson por ser uma doença neurodegenerativa crônica, progressiva e com causa desconhecida. 
+   \begin{itemize}
+    \item Comum em idosos;
+    \item Existem casos precoces em indivíduos antes dos 40 anos.
+   \end{itemize}
   \end{block}
 \end{frame}
 
@@ -204,12 +208,12 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
        \item Caracterizada pelos sinais cardinais de rigidez, bradicinesia, tremor e instabilidade postural ~\cite{jankovic2008}.
       \end{itemize}
   \end{block}
-  \begin{block}{Termos: Tremor de Repouso e Bradicinesia}<3->
-      \begin{itemize}
-       \item \textbf{Tremor de Repouso:} sintoma mais frequente e perceptível;
-       \item \textbf{Bradicinesia:} lentidão na execução do movimento;
-      \end{itemize}
-  \end{block}
+%   \begin{block}{Termos: Tremor de Repouso e Bradicinesia}<3->
+%       \begin{itemize}
+%        \item \textbf{Tremor de Repouso:} sintoma mais frequente e perceptível;
+%        \item \textbf{Bradicinesia:} lentidão na execução do movimento;
+%       \end{itemize}
+%   \end{block}
 \end{frame}
 
 
@@ -217,8 +221,8 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
   \begin{block}{Bradicinesia}
       \begin{itemize}[<+->]
 	\item Enquanto que o sintoma de tremor é o mais visível do Parkinson, a bradicinesia é o sintoma motor mais incapacitante. 
-	\item A bradicinesia consiste numa lentidão do movimento voluntário e num comprometimento de todos os movimentos associados a ele.
-	\item a bradicinesia é acompanhada de: rigidez dos músculos, assimetria dos movimentos entre os membros e dificuldade nos movimentos (por exemplo, levantar de uma cadeira, virar na cama ou andar).
+	%\item A bradicinesia consiste numa lentidão do movimento voluntário e num comprometimento de todos os movimentos associados a ele.
+	\item a bradicinesia é acompanhada de: rigidez dos músculos, assimetria dos movimentos entre os membros e dificuldade nos movimentos.
       \end{itemize}
   \end{block}
 \end{frame}
@@ -226,7 +230,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 
 \begin{frame}{Estágios da Doença}
   \begin{block}{Escala Unificada de Avaliação da Doença de Parkinson (UPDRS)}
-    A escala UPDRS avalia tanto o nível de estrutura e função corporal quanto o nível das atividades.
+    %A escala UPDRS avalia tanto o nível de estrutura e função corporal quanto o nível das atividades.
       A escala contém itens referentes a:
 	\begin{itemize}[<+->]
 	 \item Mental, comportamento e humor;
@@ -243,12 +247,14 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
     \end{block}		
 \end{frame}
 
-\begin{frame}{Escala (UPDRS)} 
-    \begin{block}{Impacto nas Atividades Diárias}
-      \center \includegraphics[height=2.0 in]{img/updr2-sel.png}
-    \end{block}
-\end{frame}
+% \begin{frame}{Escala (UPDRS)} 
+%     \begin{block}{Impacto nas Atividades Diárias}
+%       \center \includegraphics[height=2.0 in]{img/updr2-sel.png}
+%     \end{block}
+% \end{frame}
 
+
+\subsection{Entrevista}
 \begin{frame}{Entrevista Semi-Estruturada com Profissionais de Saúde} 
     \begin{block}{Objetivo da Pesquisa}
     O objetivo da entrevista semiestruturada foi entender como é feito o acompanhamento do paciente com sintomatologia do Parkinson, juntamente aos profissionais de saúde.
@@ -272,8 +278,8 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 \begin{frame}{Resultado da Entrevista} 
     \begin{block}{}
 			\begin{itemize}[<+->]
-				\item Com base na rastreabilidade dos fragmentos da entrevista, pode-se concluir que existiram muitas ocorrências sobre a importância do monitoramento da bradicinesia para acompanhar a evolução do Parkinson.
-				\item Para o acompanhamento e monitoramento da doença, os profissionais de saúde citaram a importância de calcular:
+				\item Identificamos a importância de \textbf{monitorar a bradicinesia para acompanhar a evolução do Parkinson}.
+				\item Os profissionais de saúde informaram da importância de calcular:
 					\begin{enumerate}
 						\item amplitude dos movimentos de abdução e adução dos braços;
 						\item a velocidade angular desse movimento.
@@ -283,7 +289,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 \end{frame} 
 
 \section{Abordagem JOGUE-ME}
-\subsection{}
+\subsection{Apresentação}
 \begin{frame}{Abordagem JOGUE-ME}
     \begin{block}{}
     A abordagem \textbf{JOGUE-ME} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus dados motores, em comparação ao uso dos dispositivos vestíveis.
@@ -295,7 +301,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
     \end{block}
 \end{frame}
 
-\begin{frame}{Abordagem Proposta}
+\begin{frame}{Abordagem Proposta}Apresentação
   \begin{block}{Visão Geral da Abordagem~\textit{JOGUE-ME}}
       \center \includegraphics[height=1.8 in]{img/visaosistema.png}
   \end{block}
@@ -316,6 +322,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 	\end{block}
 \end{frame}
 
+\subsection{Processamento de Sinais}
 \begin{frame}{Processamento dos Sinais Biomecânicos}
   \begin{block}{}
       \center \includegraphics[height=2.4 in]{img/biomecprocessor2.png}
@@ -335,7 +342,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 
 \begin{frame}{Sensor de Captura de Movimentos}
   \begin{block}{\textit{Ms-Kinnect 1.0} e os Pontos Selecionados}
-      \center \includegraphics[height=2.6 in]{img/articulacoes-sel.png}
+      \center \includegraphics[height=2.5 in]{img/articulacoes-sel.png}
 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
   \end{block}
 \end{frame}
@@ -346,26 +353,29 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
   \end{block}
 \end{frame}
 
-\begin{frame}{Mecanismo de Identificação de Sintomas Motores}
-      \center \includegraphics[height=3 in]{img/exsinalposicaoypunhodireito.png}
-\end{frame}
+% \begin{frame}{Mecanismo de Identificação de Sintomas Motores}
+%       \center \includegraphics[height=3 in]{img/exsinalposicaoypunhodireito.png}
+% \end{frame}
 
 \begin{frame}{Técnicas de Picos e Vales do Sinal}
-      \center \includegraphics[height=3 in]{img/deteccaopicosvales.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+  \begin{block}
+      \center 
+      \includegraphics[height=3 in]{img/deteccaopicosvales.png}
+  \end{block}
 \end{frame}
 
-\begin{frame}{Extração de Início e Fim dos Ciclos de Movimento}
-      \center \includegraphics[height=3 in]{img/remocaoruidociclo.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-\end{frame}
-
-
+% \begin{frame}{Extração de Início e Fim dos Ciclos de Movimento}
+%       \center \includegraphics[height=2.8 in]{img/remocaoruidociclo.png}
+% 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+% \end{frame}
 
 
 \begin{frame}{Cálculo da Velocidade Angular do Movimento de Abdução e Adução}
-      \center \includegraphics[height=2.8 in]{img/amplitude-braco.png}
+     \begin{block}{}
+      \center 
+      \includegraphics[height=2.2 in]{img/amplitude-braco.png}
 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+     \end{block}
 \end{frame}
 
 \begin{frame}{Filtragem de Dados: Remoção de Ciclos Incompletos}
@@ -383,14 +393,15 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 \end{block}
 \end{frame}
 
+\subsection{Classificador de Dados}
 \begin{frame}{Classificador de Dados}
 \begin{block}{}
-			O classificador de dados, é utilizado na abordagem para identificar de possíveis usuários com problemas motores. Desta forma, o classificador irá auxiliar o profissional de saúde no acompanhamento de seus pacientes.
+			O classificador de dados, é utilizado para identificar possíveis usuários com problemas motores. 			
+			
 \end{block}
 \end{frame}
 
-\begin{frame}
-   \frametitle{Máquina de Vetor de Suporte (SVM)}
+\begin{frame}{Máquina de Vetor de Suporte (SVM)}
    \begin{block}{}
    
    \begin{columns}[c]
@@ -414,23 +425,23 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 \end{block}
 \end{frame}
 
-\begin{frame}{Visualização do Vetor Médio do Movimento de Abdução e Adução do Braço}
-      \center \includegraphics[height=2.6 in]{img/vetormedioaducao.png}
-\end{frame}
+% \begin{frame}{Visualização do Vetor Médio do Movimento de Abdução e Adução do Braço}
+%       \center \includegraphics[height=2.6 in]{img/vetormedioaducao.png}
+% \end{frame}
 
 % \begin{frame}{Ciclos de Movimento de Abdução e Adução do Braço}
 %       \center \includegraphics[height=3 in]{img/ciclosmovimentokinnect-2.png}
 % \end{frame}
 
 
-\begin{frame}{Visualização das Características do Movimento}
-  \begin{block}{}
-      \center \includegraphics[height=3.2 in]{img/caracteristicas-tabela.png}
-  \end{block}
-\end{frame}
+% \begin{frame}{Visualização das Características do Movimento}
+%   \begin{block}{}
+%       \center \includegraphics[height=2.6 in]{img/caracteristicas-tabela.png}
+%   \end{block}
+% \end{frame}
 
 \section{Experimentos}
-\subsection{}
+\subsection{Caso-Controle}
 %\subsection{Estudo Analítico de Caso-Controle}
 \begin{frame}{Estudo Analítico de Caso-Controle: Identificação da Bradicinesia} 
     \begin{block}{Objetivo da Pesquisa}<1->
@@ -450,15 +461,11 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 				\end{enumerate}				
 			\end{itemize}
     \end{block}
-    
-    \begin{alertblock}{}
-     Esta etapa da pesquisa foi pautada pelo protocolo de pesquisa avaliado pelo Comitê de Ética da UFCG (CAAE: 14408213.9.1001.5182)
-    \end{alertblock}
 \end{frame}
 
 \begin{frame}{Amostra} 
     \begin{block}{}
-			\begin{itemize}
+			\begin{itemize}[<+->]
 				\item A técnica de amostragem utilizada para seleção, foi por conveniência, composta por:
 				\begin{enumerate}
 					\item 15 indivíduos portadores do Parkinson entre 51 e 65 anos (média de idade : 58 anos);
@@ -495,36 +502,37 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 % 
 % 
 % 
-\begin{frame}{Processo de Coleta de Dados}
-  %\begin{block}{}
-      \center \includegraphics[height=2.6 in]{img/capturaducaokinnect.png}
-\end{frame}
+% \begin{frame}{Processo de Coleta de Dados}
+%   %\begin{block}{}
+%       \center \includegraphics[height=2.6 in]{img/capturaducaokinnect.png}
+% \end{frame}
 
-\begin{frame}{Características Extraídas do Movimento}
-	\begin{block}{Descrição do vetor de características extraído da coleta de dados}
-	\begin{table}[h]
-	  \begin{tabular}{|l|l|}
-	  \hline
-	  {\bf Característica}  & {\bf Descrição}                                       \\ \hline
-	  MaxAmpEsquerdo     & Amp. máxima do braço esquerdo. \\ \hline
-	  MaxAmpDireito    & Amp. máxima do braço direito. \\ \hline
-	  AngVelAbdEsquerdo  & Vel. ang. abdução do braço esquerdo. \\ \hline
-	  AngVelAbdDireito & Vel. ang. da abdução do braço direito. \\ \hline
-	  AngVelAdEsquerdo  & Vel. ang. da adução do braço esquerdo. \\ \hline
-	  AngVelAdDireito & Vel. ang. de adução do braço direito. \\ \hline
-	  \end{tabular}
-	  \end{table}
+% \begin{frame}{Características Extraídas do Movimento}
+% 	\begin{block}{Descrição do vetor de características extraído da coleta de dados}
+% 	\begin{table}[h]
+% 	  \begin{tabular}{|l|l|}
+% 	  \hline
+% 	  {\bf Característica}  & {\bf Descrição}                                       \\ \hline
+% 	  MaxAmpEsquerdo     & Amp. máxima do braço esquerdo. \\ \hline
+% 	  MaxAmpDireito    & Amp. máxima do braço direito. \\ \hline
+% 	  AngVelAbdEsquerdo  & Vel. ang. abdução do braço esquerdo. \\ \hline
+% 	  AngVelAbdDireito & Vel. ang. da abdução do braço direito. \\ \hline
+% 	  AngVelAdEsquerdo  & Vel. ang. da adução do braço esquerdo. \\ \hline
+% 	  AngVelAdDireito & Vel. ang. de adução do braço direito. \\ \hline
+% 	  \end{tabular}
+% 	  \end{table}
+% 
+% 	
+% % 		\begin{itemize}[<+->]
+% % 			\item	Ciclo de movimento, normalizado e escalonado em 20 amostras;
+% % 			\item	amplitude do movimento de abdução do braço esquerdo e direito;
+% % 			\item	velocidade angular de abdução dos braços esquerdo e direito;
+% % 			\item velocidade angular de adução do braço esquerdo e direito.
+% % 		\end{itemize}
+% 	\end{block}
+% \end{frame}
 
-	
-% 		\begin{itemize}[<+->]
-% 			\item	Ciclo de movimento, normalizado e escalonado em 20 amostras;
-% 			\item	amplitude do movimento de abdução do braço esquerdo e direito;
-% 			\item	velocidade angular de abdução dos braços esquerdo e direito;
-% 			\item velocidade angular de adução do braço esquerdo e direito.
-% 		\end{itemize}
-	\end{block}
-\end{frame}
-
+\subsection{Classificação dos Dados}
 \begin{frame}{Classificação dos Dados}
 	\begin{block}{}
 		\begin{itemize}[<+->]
@@ -536,24 +544,30 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 
 \begin{frame}{Definição dos Parâmetros}
  \begin{block}{Aplicação do Método de \textit{Grid-Search}}
- Para identificar os melhores parâmetros~\ac{svm}, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Este método avalia a precisão do modelo previsto, evita o problema do superajuste na classificação binária e é um método prático para identificar os parâmetros SVM.  
+ Para identificar os melhores parâmetros da SVM, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}.   
  \end{block}
 \end{frame}
 
-\begin{frame}{Definição dos Parâmetros}
- \begin{block}{Parâmetros utilizados no \textit{Grid-Search}}
-    Os valores dos parâmetros de pesquisa do \textit{grid-search} foram de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ], usando assim uma exponencial de base 2. Por meio deste método, foi possível identificar uma região em que o classificador possuía a melhor acurácia e a menor taxa de \textit{FpRate}. Após identificar essa região, realizamos uma busca mais detalhada com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10].
- \end{block}
-\end{frame}
+% \begin{frame}{Definição dos Parâmetros}
+%  \begin{block}{Parâmetros utilizados no \textit{Grid-Search}}
+%     Os valores dos parâmetros de pesquisa do \textit{grid-search} foram de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ], usando assim uma exponencial de base 2. Por meio deste método, foi possível identificar uma região em que o classificador possuía a melhor acurácia e a menor taxa de \textit{FpRate}. Após identificar essa região, realizamos uma busca mais detalhada com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10].
+%  \end{block}
+% \end{frame}
 
 \begin{frame}{\textit{Grid-Search} - Acurácia da Classificação}
+  \begin{block}{}
+  \center  
   %\begin{block}{}
-      \includegraphics[scale=0.5]{./img/gridsearch.png}      
+      \includegraphics[scale=0.4]{./img/gridsearch.png}      
+  \end{block}
 \end{frame}
 
 \begin{frame}{\textit{Grid-Search} - \textit{FpRate}}
+   \begin{block}{}
+   \center
   %\begin{block}{}
-      \includegraphics[scale=0.5]{./img/gridsearchfprate.png}
+      \includegraphics[scale=0.4]{./img/gridsearchfprate.png}
+   \end{block}
 \end{frame}
 
 \begin{frame}{Matriz de Confusão}
@@ -581,7 +595,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 				\begin{tabular}{|l|r|}
 				\hline
 				\multicolumn{2}{|l|}{\textbf{Métricas}} \\ \hline
-				\textbf{TpRate}                    & 80,00$\%$\                 \\ \hline
+				\textbf{TpRate}                    & 80,00$\%$\               \\ \hline
 				\textbf{FpRate}                    & 6,67$\%$\                \\ \hline
 				\textbf{Precision}                 & 92,31$\%$\                \\ \hline
 				\textbf{Accuracy}                  & 86,67$\%$\                \\ \hline
@@ -600,12 +614,13 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
     \end{block}
 \end{frame}
 
+\subsection{Limitações}
 \begin{frame}{Limitações do Método}
 	\begin{block}{}
-	A aprendizagem estatística deste trabalho é apenas um indicador, o qual necessita da interpretação do profissional de saúde.
+	A aprendizagem estatística deste trabalho é apenas um indicador e necessita da interpretação do profissional de saúde.
 	\end{block}
   \begin{block}{}
-      \center \includegraphics[height=1 in]{img/visualizacaomedico.png}
+      \center \includegraphics[height=1.6 in]{img/visualizacaomedico.png}
   \end{block}
 \end{frame}
 
@@ -613,10 +628,10 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 	\begin{block}{Uso de Jogo em \textit{Smartphone} Para Detecção de Tremor}
 	\center \includegraphics[height=1 in]{img/pinball_world.png}
 	\end{block}
-	\begin{block}{Insucesso na Quantificação}
+	\begin{block}{Insucesso na Quantificação do Tremor}
 			\begin{itemize}[<+->]
-			\item Tremor do Parkinson é de repouso.
-			\item Indivíduos quando utilizavam o jogo reduziam drasticamente o sintoma.
+			\item Tremor do Parkinson é de repouso/
+			\item Indivíduos quando utilizavam o jogo reduziam drasticamente o sintoma/
 			\item Como os dados não seriam satisfatórios, logo a coleta tornou-se inviável.
 		\end{itemize}
 	\end{block}
@@ -628,40 +643,84 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 
 
 \section{GQM}
-\subsection{}
+\subsection{Análise}
 \begin{frame}{Análise GQM com Usuários} 
     \begin{block}{Objetivo da Pesquisa}
-      Validar a Hipótese \textbf{H3}: É possível desenvolver um jogo que tenha mecanismos de captura de dados motores embutidos, e que permita monitorar e quantificar esses dados de maneira não-invasiva.
+      Etapa 3 da Pesquisa: Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
     \end{block}
 		\begin{block}{Participantes}
-		Foram entrevistados um total de 24 indivíduos das seguintes instituições:
+		Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: 
 			\begin{itemize}
-				\item Universidade Federal de Campina Grande;
-				\item Instituto Federal de Alagoas;
-				\item Clínica de Fisioterapia do CESMAC;
-				\item Fundação Pestalozzi.
+				\item Hospital Universitário da UFAL;
+				\item Fundação Pestalozzi;
+				\item Clínica de Fisioterapia do CESMAC.
 			\end{itemize}
     \end{block}
 \end{frame} 
 
+
 \begin{frame}{Questões da Pesquisa} 
     \begin{block}{}
 			\begin{enumerate}
-				\item Se o usuário integraria a abordagem GAHME à sua rotina diária.
-				\item Se a segurança com a integridade física está de acordo com a faixa etária do usuário.
+				\item O usuário poderia integrar a abordagem JOGUE-ME à sua rotina diária ?
+				\item A segurança com a integridade física está de acordo com a faixa etária do usuário ?
 			\end{enumerate}
     \end{block}
 \end{frame}
 
+
+%  \begin{table}[h]
+%   \begin{tabular}{|p{10cm}|p{1.2cm}|p{1.2cm}|}
+%   \hline
+%   \textbf{Métrica} & \textbf{Sim} & \textbf{Não} \\ \hline
+%   1.2: O jogo traz motivação ao usuário? & 91,67\% & 8,33\% \\ \hline
+%   1.4: O usuário considera o jogo simples, sem muitas regras e de fácil entendimento? Ele pode ser aplicado em diferentes idades? & 91,67\% & 8,33\% \\ \hline
+%   1.5: O usuário tem o costume de jogar esses jogos casuais em casa? & 41,67\% & 58,33\% \\ \hline
+%   1.6: O usuário agregaria um jogo desse estilo em sua rotina diária? & 75\% & 25\% \\ \hline
+%   2.1: Uma criança estaria segura jogando esse jogo, ao efetuar os movimentos dos braços? & 100\% & 0\% \\ \hline
+%   2.2: Um adulto estaria seguro ao jogar esse jogo, ao efetuar os movimentos dos braços? & 100\% & 0\% \\ \hline
+%   2.3: Um idoso estaria seguro ao jogar esse jogo, ao efetuar os movimentos dos braços? & 75\% & 25\% \\ \hline
+%   \end{tabular}
+%   \end{table}
+
+% \begin{frame}{Métricas Avaliadas do \textit{GQM}} 
+%   \begin{block}{Questão 1: Integração à Rotina Diária}
+%     \begin{table}[h]
+%   \begin{tabular}{|p{8cm}|p{1.2cm}|p{1.2cm}|}
+%   \hline
+%   \textbf{Métrica} & \textbf{Sim} & \textbf{Não} \\ \hline
+%   1.2: O jogo traz motivação ao usuário? & 91,67\% & 8,33\% \\ \hline
+%   1.4: O usuário considera o jogo simples, sem muitas regras e de fácil entendimento? Ele pode ser aplicado em diferentes idades? & 91,67\% & 8,33\% \\ \hline
+%   1.5: O usuário tem o costume de jogar esses jogos casuais em casa? & 41,67\% & 58,33\% \\ \hline
+%   1.6: O usuário agregaria um jogo desse estilo em sua rotina diária? & 75\% & 25\% \\ \hline
+%   \end{tabular}
+%   \end{table}
+%   \end{block} 
+% \end{frame}
+% 
+% \begin{frame}{Métricas Avaliadas do \textit{GQM}} 
+%   \begin{block}{Questão 2: Segurança e Integridade Física}
+%     \begin{table}[h]
+%   \begin{tabular}{|p{8cm}|p{1.2cm}|p{1.2cm}|}
+%   \hline
+%   \textbf{Métrica} & \textbf{Sim} & \textbf{Não} \\ \hline
+%   2.1: Uma criança estaria segura jogando esse jogo, ao efetuar os movimentos dos braços? & 100\% & 0\% \\ \hline
+%   2.2: Um adulto estaria seguro ao jogar esse jogo, ao efetuar os movimentos dos braços? & 100\% & 0\% \\ \hline
+%   2.3: Um idoso estaria seguro ao jogar esse jogo, ao efetuar os movimentos dos braços? & 75\% & 25\% \\ \hline
+%   \end{tabular}
+%   \end{table}
+%   \end{block} 
+% \end{frame}
+
 \begin{frame}{Integrar a Abordagem à Rotina Diária} 
     \begin{block}{Métrica 1.1: Escala de Diversão do Jogo}
-			\center \includegraphics[height=2.6 in]{img/chart_1-.png}
+			\center \includegraphics[height=2.4 in]{img/chart_1-.png}
     \end{block}
 \end{frame}
 
 \begin{frame}{Integrar a Abordagem à Rotina Diária} 
     \begin{block}{Métrica 1.3: Integrar o Jogo À Rotina Diária}
-			\center \includegraphics[height=2.6 in]{img/chart_3-.png}
+			\center \includegraphics[height=2.4 in]{img/chart_3-.png}
     \end{block}
 \end{frame}
 
@@ -673,7 +732,7 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 
 \begin{frame}{Segurança à Integridade Física} 
     \begin{block}{Métrica 2.4: Faixa Etária do Jogo}
-			\center \includegraphics[height=2.6 in]{img/chart_10-.png}
+			\center \includegraphics[height=2.4 in]{img/chart_10-.png}
     \end{block}
 \end{frame}
 
@@ -685,19 +744,9 @@ entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo a
 
 
 \section{Finalização}
-\subsection{}
-\begin{frame}{Publicações}
-\begin{block}{}
-Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
-  \begin{itemize}
-   \item \textit{Abstract}: \textit{Monitoring Parkinson related Gait Disorders with Eigengaits}, no, \textit{XX World Congress on Parkinson's Disease and Related Disorders} (2013)~\cite{lmmeigengaits2013};
-   \item \textit{Full Paper}: \textit{A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgame2016};
-   \item \textit{Full Paper}: \textit{A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgait2016}.
-  \end{itemize}
-\end{block}
-\end{frame}
 
-
+\subsection{Trabalhos Futuros}
+\begin{frame}{Trabalhos Futuros}
 \begin{block}{}
 A partir dos resultados apresentados nesta tese e extensão da mesma, alguns trabalhos futuros são propostos para contribuição científica:
   \begin{itemize}
@@ -709,7 +758,19 @@ A partir dos resultados apresentados nesta tese e extensão da mesma, alguns tra
 \end{frame}
 
 
-%\subsection{Dúvidas}
+\subsection{Publicações}
+\begin{frame}{Publicações}
+\begin{block}{}
+Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
+  \begin{itemize}
+   \item \textit{Abstract}: \textit{Monitoring Parkinson related Gait Disorders with Eigengaits}, no, \textit{XX World Congress on Parkinson's Disease and Related Disorders} (2013)~\cite{lmmeigengaits2013};
+   \item \textit{Full Paper}: \textit{A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgame2016};
+   \item \textit{Full Paper}: \textit{A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgait2016}.
+  \end{itemize}
+\end{block}
+\end{frame}
+
+\subsection{Dúvidas}
 \begin{frame}
   \begin{center}
   DÚVIDAS ?

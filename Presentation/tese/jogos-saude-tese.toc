@@ -1,22 +1,22 @@
-\beamer@endinputifotherversion {3.33pt}
+\beamer@endinputifotherversion {3.24pt}
 \select@language {portuguese}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Motiva\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Jogos Para Sa\IeC {\'u}de}{12}{0}{1}
 \beamer@sectionintoc {2}{Estudo de Caso}{23}{0}{2}
 \beamer@subsectionintoc {2}{1}{Parkinson}{23}{0}{2}
-\beamer@subsectionintoc {2}{2}{Entrevista}{36}{0}{2}
-\beamer@sectionintoc {3}{Abordagem JOGUE-ME}{41}{0}{3}
-\beamer@subsectionintoc {3}{1}{Apresenta\IeC {\c c}\IeC {\~a}o}{41}{0}{3}
-\beamer@subsectionintoc {3}{2}{Processamento de Sinais}{50}{0}{3}
-\beamer@subsectionintoc {3}{3}{Classificador de Dados}{60}{0}{3}
-\beamer@sectionintoc {4}{Experimentos}{64}{0}{4}
-\beamer@subsectionintoc {4}{1}{Caso-Controle}{64}{0}{4}
-\beamer@subsectionintoc {4}{2}{Classifica\IeC {\c c}\IeC {\~a}o dos Dados}{77}{0}{4}
-\beamer@subsectionintoc {4}{3}{Limita\IeC {\c c}\IeC {\~o}es}{85}{0}{4}
-\beamer@sectionintoc {5}{GQM}{89}{0}{5}
-\beamer@subsectionintoc {5}{1}{An\IeC {\'a}lise}{89}{0}{5}
-\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{96}{0}{6}
-\beamer@subsectionintoc {6}{1}{Publica\IeC {\c c}\IeC {\~o}es}{96}{0}{6}
-\beamer@subsectionintoc {6}{2}{Trabalhos Futuros}{97}{0}{6}
-\beamer@subsectionintoc {6}{3}{D\IeC {\'u}vidas}{98}{0}{6}
+\beamer@subsectionintoc {2}{2}{Entrevista}{33}{0}{2}
+\beamer@sectionintoc {3}{Abordagem JOGUE-ME}{38}{0}{3}
+\beamer@subsectionintoc {3}{1}{Apresenta\IeC {\c c}\IeC {\~a}o}{38}{0}{3}
+\beamer@subsectionintoc {3}{2}{Processamento de Sinais}{47}{0}{3}
+\beamer@subsectionintoc {3}{3}{Classificador de Dados}{56}{0}{3}
+\beamer@sectionintoc {4}{Experimentos}{58}{0}{4}
+\beamer@subsectionintoc {4}{1}{Caso-Controle}{58}{0}{4}
+\beamer@subsectionintoc {4}{2}{Classifica\IeC {\c c}\IeC {\~a}o dos Dados}{69}{0}{4}
+\beamer@subsectionintoc {4}{3}{Limita\IeC {\c c}\IeC {\~o}es}{76}{0}{4}
+\beamer@sectionintoc {5}{GQM}{80}{0}{5}
+\beamer@subsectionintoc {5}{1}{An\IeC {\'a}lise}{80}{0}{5}
+\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{87}{0}{6}
+\beamer@subsectionintoc {6}{1}{Conclus\IeC {\~a}o e Trabalhos Futuros}{87}{0}{6}
+\beamer@subsectionintoc {6}{2}{Publica\IeC {\c c}\IeC {\~o}es}{89}{0}{6}
+\beamer@subsectionintoc {6}{3}{D\IeC {\'u}vidas}{90}{0}{6}

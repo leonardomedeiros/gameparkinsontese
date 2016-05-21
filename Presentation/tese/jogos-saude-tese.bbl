@@ -6,11 +6,6 @@ Alemdar, Hande, Tunca, Can, \& Ersoy, Cem. 2015.
   learning: Bridging the gap between domains.
 \newblock {\em Personal ubiquitous computing}.
 
-\bibitem[\protect\citename{Association, }2015]{esa2015}
-Association, (ESA) Entertainment~Software. 2015.
-\newblock {\em Essential facts about the u.s. computer and video game industry:
-  Sales, demophahy and usage data}.
-
 \bibitem[\protect\citename{Atkinson \& Narasimhan, }2010]{atkinson2010}
 Atkinson, S.D., \& Narasimhan, V.L. 2010.
 \newblock Design of an introductory medical gaming environment for diagnosis
@@ -33,6 +28,11 @@ Chen, Huan, Liao, Guo-Tan, Fan, Yao-Chung, Cheng, Bo-Chao, Chen, Cheng-Min, \&
   an effective svm-based pvc detection algorithm in cardiology.
 \newblock {\em In:} {\em Symposium on applied computing}.
 \newblock ACM.
+
+\bibitem[\protect\citename{ESA, }2015]{esa2015}
+ESA. 2015.
+\newblock {\em Essential facts about the u.s. computer and video game industry:
+  Sales, demophahy and usage data}.
 
 \bibitem[\protect\citename{Friedman {\em et~al.\ }\relax,
   }2014]{manumeterjbhi2014}
