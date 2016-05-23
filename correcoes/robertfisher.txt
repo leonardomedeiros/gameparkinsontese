@@ -1,0 +1,11 @@
+Estudar SVM - perguntas..
+
+liimites para aplicacao da tese
+
+verificar o funcionamento do kinnect (infrared)
+
+Página 19 
+
+problema picos e vales
+
+figuras iguais system overview e arquitetura

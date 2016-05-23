@@ -3,7 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: jogos-saude-tese.aux
 The style file: authordate2.bst
 Database file #1: biblmmcor.bib
-Warning--I didn't find a database entry for "UPDRS"
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1229 of file authordate2.bst
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
@@ -12,7 +11,7 @@ Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the e
 while executing---line 1303 of file authordate2.bst
 You've used 21 entries,
             2455 wiz_defined-function locations,
-            669 strings with 8625 characters,
+            667 strings with 8615 characters,
 and the built_in function-call counts, 7662 in all, are:
 = -- 687
 > -- 390
