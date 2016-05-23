@@ -18,5 +18,5 @@
 \beamer@subsectionintoc {5}{1}{An\IeC {\'a}lise}{79}{0}{5}
 \beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{86}{0}{6}
 \beamer@subsectionintoc {6}{1}{Conclus\IeC {\~a}o e Trabalhos Futuros}{86}{0}{6}
-\beamer@subsectionintoc {6}{2}{Publica\IeC {\c c}\IeC {\~o}es}{88}{0}{6}
-\beamer@subsectionintoc {6}{3}{D\IeC {\'u}vidas}{89}{0}{6}
+\beamer@subsectionintoc {6}{2}{Publica\IeC {\c c}\IeC {\~o}es}{92}{0}{6}
+\beamer@subsectionintoc {6}{3}{D\IeC {\'u}vidas}{93}{0}{6}
