@@ -6,17 +6,16 @@
 \beamer@sectionintoc {2}{Estudo de Caso}{12}{0}{2}
 \beamer@subsectionintoc {2}{1}{Parkinson}{12}{0}{2}
 \beamer@subsectionintoc {2}{2}{Entrevista}{17}{0}{2}
-\beamer@sectionintoc {3}{Abordagem JOGUE-ME}{19}{0}{3}
-\beamer@subsectionintoc {3}{1}{Apresenta\IeC {\c c}\IeC {\~a}o}{19}{0}{3}
-\beamer@subsectionintoc {3}{2}{Processamento de Sinais}{22}{0}{3}
-\beamer@subsectionintoc {3}{3}{Classificador de Dados}{29}{0}{3}
-\beamer@sectionintoc {4}{Experimentos}{31}{0}{4}
-\beamer@subsectionintoc {4}{1}{Caso-Controle}{31}{0}{4}
-\beamer@subsectionintoc {4}{2}{Classifica\IeC {\c c}\IeC {\~a}o dos Dados}{35}{0}{4}
-\beamer@subsectionintoc {4}{3}{Limita\IeC {\c c}\IeC {\~o}es}{41}{0}{4}
-\beamer@sectionintoc {5}{GQM}{43}{0}{5}
-\beamer@subsectionintoc {5}{1}{An\IeC {\'a}lise}{43}{0}{5}
-\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{50}{0}{6}
-\beamer@subsectionintoc {6}{1}{Conclus\IeC {\~a}o e Trabalhos Futuros}{50}{0}{6}
-\beamer@subsectionintoc {6}{2}{Publica\IeC {\c c}\IeC {\~o}es}{52}{0}{6}
-\beamer@subsectionintoc {6}{3}{D\IeC {\'u}vidas}{53}{0}{6}
+\beamer@sectionintoc {3}{Abordagem JOGUE-ME}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{Apresenta\IeC {\c c}\IeC {\~a}o}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{Processamento de Sinais}{24}{0}{3}
+\beamer@subsectionintoc {3}{3}{Classificador de Dados}{32}{0}{3}
+\beamer@sectionintoc {4}{Experimentos}{34}{0}{4}
+\beamer@subsectionintoc {4}{1}{Caso-Controle}{34}{0}{4}
+\beamer@subsectionintoc {4}{2}{Classifica\IeC {\c c}\IeC {\~a}o dos Dados}{38}{0}{4}
+\beamer@sectionintoc {5}{GQM}{44}{0}{5}
+\beamer@subsectionintoc {5}{1}{An\IeC {\'a}lise}{44}{0}{5}
+\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{52}{0}{6}
+\beamer@subsectionintoc {6}{1}{Conclus\IeC {\~a}o e Trabalhos Futuros}{52}{0}{6}
+\beamer@subsectionintoc {6}{2}{Publica\IeC {\c c}\IeC {\~o}es}{54}{0}{6}
+\beamer@subsectionintoc {6}{3}{D\IeC {\'u}vidas}{55}{0}{6}

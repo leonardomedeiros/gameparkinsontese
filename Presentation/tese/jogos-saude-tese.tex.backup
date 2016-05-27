@@ -90,7 +90,7 @@ showstringspaces=false }
       \includegraphics[height=1.8 in]{img/sismonsaude.png}
   \end{block}
   \begin{block}{}  
-  A concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar2015}.
+  A concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar2015}
   \end{block}
 \end{frame}
 
@@ -100,10 +100,10 @@ showstringspaces=false }
 \begin{frame}{Aplicações dos Sistemas de Monitoramento da Saúde (SMS)}  
   \begin{block}{}
   Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico:
-  \begin{itemize}[<+->]
-   \item Tratar preventivamente e pró-ativamente o estado de saúde~\cite{healthmonitoring2013}; 
-   \item Reabilitar o paciente~\cite{sacbespoke2014};
-   \item Melhorar a qualidade de vida~\cite{sacsvmhms2014}. 
+  \begin{itemize}
+   \item Tratar preventivamente e pró-ativamente o estado de saúde~\cite{healthmonitoring2013}
+   \item Reabilitar o paciente~\cite{sacbespoke2014}
+   \item Melhorar a qualidade de vida~\cite{sacsvmhms2014}
   \end{itemize} 
   \end{block} 
 \end{frame}
@@ -122,10 +122,10 @@ showstringspaces=false }
 \begin{frame}{SMS da Saúde Motora}  
   \begin{block}{}  
   Atualmente, os SMS da saúde motora permitem:  
-    \begin{itemize}[<+->]
-    \item quantificar as habilidades motoras dos usuários~\cite{manumeterjbhi2014,patel_monitoring_2009};
-    \item analisar a marcha dos usuários~\cite{robotgait2014}
-    \item identificar sinais de bradicinesia (lentidão dos movimentos) presente no Parkinson~\cite{ambulatoryparkinson2010}. 
+    \begin{itemize}
+    \item Quantificar as habilidades motoras dos usuários~\cite{manumeterjbhi2014,patel_monitoring_2009}
+    \item Analisar a marcha dos usuários~\cite{robotgait2014}
+    \item Identificar sinais de bradicinesia (lentidão dos movimentos) presente no Parkinson~\cite{ambulatoryparkinson2010}
     \end{itemize}   
   \end{block}   
 \end{frame}
@@ -145,10 +145,10 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 	\begin{block}{}	
 	Nos últimos anos, houve o surgimento de jogos para apoiar a prática de atividade física. Como por exemplo:
 	
-	\begin{itemize}[<+->]
-	    \item Melhoria da saúde do idoso com: visado a reabilitação motora dos idosos~\cite{sacbespoke2014};
-	    \item Jogos com sensores hápticos para quantificar a habilidade motora do paciente com Parkinson ~\cite{atkinson2010};
-	    \item Jogos para o monitoramento dos sinais vitais(Batimento cardíaco)~\cite{Sinclair:2009:UVB:1515604.1515617}.
+	\begin{itemize}
+	    \item Melhoria da saúde do idoso com: visado a reabilitação motora dos idosos~\cite{sacbespoke2014}
+	    \item Jogos com sensores hápticos para quantificar a habilidade motora do paciente com Parkinson ~\cite{atkinson2010}
+	    \item Jogos para o monitoramento dos sinais vitais(Batimento cardíaco)~\cite{Sinclair:2009:UVB:1515604.1515617}
 	\end{itemize}
 	\end{block}
 \end{frame}
@@ -156,22 +156,22 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Motivação para uso de jogos para monitoramento dos dados motores}
 	\begin{block}{}
-	\begin{itemize}[<+->]
-	    \item Percentual expressivo de adultos e idosos que usam jogos em sua rotina diária (27\% acima dos 50 anos~\cite{});
-	    \item As tecnologias de sensores de movimento presentes nos jogos eletrônicos;
-	    \item Reprodução de movimentos específicos em um ambiente lúdico.
+	\begin{itemize}
+	    \item Percentual expressivo de adultos e idosos que usam jogos em sua rotina diária (27\% acima dos 50 anos~\cite{esa2015})
+	    \item As tecnologias de sensores de movimento presentes nos jogos eletrônicos
+	    \item Reprodução de movimentos específicos em um ambiente lúdico
 	\end{itemize}
 	\end{block}
 	
-	\begin{alertblock}{}<4->
-	Monitorar os sinais em permite um melhor gerenciamento da doença e, por consequência, uma melhora na qualidade de vida.
+	\begin{alertblock}{}
+	Monitorar os sinais em permite um melhor gerenciamento da doença e, por consequência, uma melhora na qualidade de vida
 	\end{alertblock}
 \end{frame}
 
 
 \begin{frame}{Objetivo Principal}
   \begin{block}{}
-  Conceber um SMS embutido num jogo eletrônico para motivar e abstrair o monitoramento dos sinais motores de uma maneira não invasiva.
+  Conceber um SMS embutido num jogo eletrônico para motivar e abstrair o monitoramento dos sinais motores de uma maneira não invasiva
   \end{block}
 \end{frame}
 
@@ -179,7 +179,7 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \begin{frame}{Etapas do Trabalho}
 	\begin{block}{}
 	  A da metodologia deste trabalho consistiu de três etapas sequenciais:
-		  \begin{description}[<+->]
+		  \begin{description}
 		  \item[ETAPA 1] Quais os benefícios de acompanhar os sinais motores do paciente diariamente, do ponto de vista do profissional da saúde?
 		  \item[ETAPA 2] Como melhor adquirir e quantificar sinais motores utilizando sensores de movimento para monitorar os sinais do Parkinson?
 		  \item[ETAPA 3] Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
@@ -193,8 +193,8 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
   \begin{block}{Doença de Parkinson}
    Como estudo de caso, escolhemos Parkinson por ser uma doença neurodegenerativa crônica, progressiva e com causa desconhecida. 
    \begin{itemize}
-    \item Comum em idosos;
-    \item Existem casos precoces em indivíduos antes dos 40 anos.
+    \item Comum em idosos
+    \item Existem casos precoces em indivíduos antes dos 40 anos
    \end{itemize}
   \end{block}
 \end{frame}
@@ -203,9 +203,9 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \begin{frame}{Doença de Parkinson (Parkinson)}
   \begin{block}{}
     O Parkinson é uma afecção do sistema nervoso central, a qual é expressa de forma crônica e progressiva. 
-      \begin{itemize}[<+->]
-       \item Causada pela morte dos neurônios produtores de dopamina da substância negra ~\cite{protpar010}. 
-       \item Caracterizada pelos sinais cardinais de rigidez, bradicinesia, tremor e instabilidade postural ~\cite{jankovic2008}.
+      \begin{itemize}
+       \item Causada pela morte dos neurônios produtores de dopamina da substância negra ~\cite{protpar010}
+       \item Caracterizada pelos sinais cardinais de rigidez, bradicinesia, tremor e instabilidade postural ~\cite{jankovic2008}
       \end{itemize}
   \end{block}
 %   \begin{block}{Termos: Tremor de Repouso e Bradicinesia}<3->
@@ -219,11 +219,11 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Doença de Parkinson}
   \begin{block}{Bradicinesia}
-      \begin{itemize}[<+->]
-	\item Enquanto que o sintoma de tremor é o mais visível do Parkinson, a bradicinesia é o sintoma motor mais incapacitante. 
+      \begin{itemize}
+	\item Enquanto que o sintoma de tremor é o mais visível do Parkinson, a bradicinesia é o sintoma motor mais incapacitante
 	%\item A bradicinesia consiste numa lentidão do movimento voluntário e num comprometimento de todos os movimentos associados a ele.
-	\item a bradicinesia é acompanhada de: rigidez dos músculos, assimetria dos movimentos entre os membros e dificuldade nos movimentos.
-      \end{itemize}
+	\item A bradicinesia é acompanhada de: rigidez dos músculos, assimetria dos movimentos entre os membros e dificuldade nos movimentos
+	\end{itemize}
   \end{block}
 \end{frame}
   
@@ -232,11 +232,11 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
   \begin{block}{Escala Unificada de Avaliação da Doença de Parkinson (UPDRS)}
     %A escala UPDRS avalia tanto o nível de estrutura e função corporal quanto o nível das atividades.
       A escala contém itens referentes a:
-	\begin{itemize}[<+->]
-	 \item Mental, comportamento e humor;
-	 \item atividades da vida diária;
-	 \item exame motor;
-	 \item complicações no tratamento.
+	\begin{itemize}
+	 \item Mental, comportamento e humor
+	 \item Atividades da vida diária
+	 \item Exame motor
+	 \item Complicações no tratamento
 	\end{itemize}
  \end{block}
 \end{frame}
@@ -277,12 +277,12 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Resultado da Entrevista} 
     \begin{block}{}
-			\begin{itemize}[<+->]
+			\begin{itemize}
 				\item Identificamos a importância de \textbf{monitorar a bradicinesia para acompanhar a evolução do Parkinson}.
 				\item Os profissionais de saúde informaram da importância de calcular:
 					\begin{enumerate}
-						\item amplitude dos movimentos de abdução e adução dos braços;
-						\item a velocidade angular desse movimento.
+						\item amplitude dos movimentos de abdução e adução dos braços
+						\item a velocidade angular desse movimento
 					\end{enumerate}
 			\end{itemize}
     \end{block}
@@ -292,17 +292,17 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \subsection{Apresentação}
 \begin{frame}{Abordagem JOGUE-ME}
     \begin{block}{}
-    A abordagem \textbf{JOGUE-ME} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus dados motores, em comparação ao uso dos dispositivos vestíveis.
+    A abordagem \textbf{JOGUE-ME} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus dados motores, em comparação ao uso dos dispositivos vestíveis
     \end{block}
     
     
     \begin{block}{}
-    Este trabalho pretende usar um ambiente de jogo para a execução de movimentos específicos com o propósito de quantificar os sinais motores dos usuários e consequentemente realizar o monitoramento. 
+    Este trabalho pretende usar um ambiente de jogo para a execução de movimentos específicos com o propósito de quantificar os sinais motores dos usuários e consequentemente realizar o monitoramento
     \end{block}
 \end{frame}
 
-\begin{frame}{Abordagem Proposta}Apresentação
-  \begin{block}{Visão Geral da Abordagem~\textit{JOGUE-ME}}
+\begin{frame}{Visão Geral da Abordagem~\textit{JOGUE-ME}}
+  \begin{block}{}
       \center \includegraphics[height=1.8 in]{img/visaosistema.png}
   \end{block}
 \end{frame}
@@ -310,14 +310,14 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{JOGUE-ME - \textit{Jogo com Monitoramento de Saúde Embutido}}
 	\begin{block}{}
-		\begin{itemize}[<+->]
-			\item	\textbf{REQ-JOGUE-ME-01} - Pontuação e Taxa de Acerto;
-			\item	\textbf{REQ-JOGUE-ME-02} - Progresso e Evolução do Jogador e dos Desafios;
-			\item	\textbf{REQ-JOGUE-ME-03} - Estado de Fluxo;
-			\item	\textbf{REQ-JOGUE-ME-04} - Preocupação com Integridade Física do Jogador;
-			\item	\textbf{REQ-JOGUE-ME-05} - Aquisição e Armazenamento de Sinais Motoress;
-			\item	\textbf{REQ-JOGUE-ME-06} - Mecanismo de Identificação de Sintomas Motores;
-			\item	\textbf{REQ-JOGUE-ME-07} - Mecanismo de Visualização dos Parâmetros Motores do Usuário.
+		\begin{itemize}
+			\item	\textbf{REQ-JOGUE-ME-01} - Pontuação e Taxa de Acerto
+			\item	\textbf{REQ-JOGUE-ME-02} - Progresso e Evolução do Jogador e dos Desafios
+			\item	\textbf{REQ-JOGUE-ME-03} - Estado de Fluxo
+			\item	\textbf{REQ-JOGUE-ME-04} - Preocupação com Integridade Física do Jogador
+			\item	\textbf{REQ-JOGUE-ME-05} - Aquisição e Armazenamento de Sinais Motores
+			\item	\textbf{REQ-JOGUE-ME-06} - Mecanismo de Identificação de Sintomas Motores
+			\item	\textbf{REQ-JOGUE-ME-07} - Mecanismo de Visualização
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -332,16 +332,16 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Cinemetria}
   \begin{block}{}
-      \begin{itemize}[<+->]
-	 \item A Cinemetria consiste de um conjunto de métodos para medir os valores dos parâmetros cinemáticos;
-	 \item Movimento Cinético é o estudo das forças e momentos que resultam no movimento do corpo e seus segmentos.
+      \begin{itemize}
+	 \item A Cinemetria consiste de um conjunto de métodos para medir os valores dos parâmetros cinemáticos
+	 \item Movimento Cinético é o estudo das forças e momentos que resultam no movimento do corpo e seus segmentos
        \end{itemize}
   \end{block}
 \end{frame}
 
 
 \begin{frame}{Sensor de Captura de Movimentos}
-  \begin{block}{\textit{Ms-Kinnect 1.0} e os Pontos Selecionados}
+  \begin{block}{}
       \center \includegraphics[height=2.5 in]{img/articulacoes-sel.png}
 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
   \end{block}
@@ -357,20 +357,26 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 %       \center \includegraphics[height=3 in]{img/exsinalposicaoypunhodireito.png}
 % \end{frame}
 
-\begin{frame}{Técnicas de Picos e Vales do Sinal}
-  \begin{block}
+% \begin{frame}{Técnicas de Picos e Vales do Sinal}
+%   \begin{block}
+%       \center 
+%       \includegraphics[height=2.8 in]{img/deteccaopicosvales.png}
+%   \end{block}
+% \end{frame}
+% 
+% 
+% 
+
+\begin{frame}{Mecanismo de Identificação de Sintomas Motores}
+     \begin{block}{}
       \center 
-      \includegraphics[height=3 in]{img/deteccaopicosvales.png}
-  \end{block}
+      \includegraphics[height=2.2 in]{img/deteccaopicosvales.png}
+			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+     \end{block}
 \end{frame}
 
-% \begin{frame}{Extração de Início e Fim dos Ciclos de Movimento}
-%       \center \includegraphics[height=2.8 in]{img/remocaoruidociclo.png}
-% 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-% \end{frame}
 
-
-\begin{frame}{Cálculo da Velocidade Angular do Movimento de Abdução e Adução}
+\begin{frame}{Velocidade Angular do Movimento de Abdução e Adução}
      \begin{block}{}
       \center 
       \includegraphics[height=2.2 in]{img/amplitude-braco.png}
@@ -393,10 +399,17 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \end{block}
 \end{frame}
 
+\begin{frame}{Visualização das Características do Movimento}
+  \begin{block}{}
+      \center \includegraphics[height=2.2 in]{img/caracteristicas-tabela.png}
+			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+  \end{block}
+\end{frame}
+
 \subsection{Classificador de Dados}
 \begin{frame}{Classificador de Dados}
 \begin{block}{}
-			O classificador de dados, é utilizado para identificar possíveis usuários com problemas motores. 			
+			O classificador de dados, é utilizado para identificar possíveis usuários com problemas motores
 			
 \end{block}
 \end{frame}
@@ -407,15 +420,10 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
    \begin{columns}[c]
      \begin{column}{0.5\linewidth}
 			 \begin{itemize}
-				\item Uma SVM utiliza vetores de separação através de uma técnica de hiperplano de separação ótima.
+				\item Uma SVM utiliza vetores de separação através de uma técnica de hiperplano de separação ótima
 
-				\item Formalmente, classificadores que separam os dados por meio de um hiperplano utilizam um discriminante linear~\ref{eq:hiperplano}.
+				\item Formalmente, classificadores que separam os dados por meio de um hiperplano utilizam uma função discriminante
 			\end{itemize}
-
-			\begin{equation}
-			f(x)=w^Tx+b
-			\label{eq:hiperplano}
-			\end{equation}.
      \end{column}
 
      \begin{column}{0.5\linewidth}
@@ -444,20 +452,20 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \subsection{Caso-Controle}
 %\subsection{Estudo Analítico de Caso-Controle}
 \begin{frame}{Estudo Analítico de Caso-Controle: Identificação da Bradicinesia} 
-    \begin{block}{Objetivo da Pesquisa}<1->
+    \begin{block}{Objetivo da Pesquisa}
 
     
     Como melhor adquirir e quantificar sinais motores utilizando sensores de movimento para monitorar os sinais do Parkinson?
 
     \end{block}
-		\begin{block}{Coleta de Dados}<2->
+		\begin{block}{Coleta de Dados}
 			\begin{itemize}
 				\item Protocolo de pesquisa submetido aprovado junto ao CEP da UFCG (\textbf{CAAE: 14408213.9.1001.5182})
 				\item Coleta realizada nas instituições:
 					\begin{enumerate}
-						\item Hospital Universitário da UFAL;
-						\item Fundação Pestalozzi;
-						\item Clínica Fisioterapia do CESMAC;
+						\item Hospital Universitário da UFAL
+						\item Fundação Pestalozzi
+						\item Clínica Fisioterapia do CESMAC
 				\end{enumerate}				
 			\end{itemize}
     \end{block}
@@ -465,13 +473,13 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Amostra} 
     \begin{block}{}
-			\begin{itemize}[<+->]
+			\begin{itemize}
 				\item A técnica de amostragem utilizada para seleção, foi por conveniência, composta por:
 				\begin{enumerate}
-					\item 15 indivíduos portadores do Parkinson entre 51 e 65 anos (média de idade : 58 anos);
-					\item 15 sem o diagnostico, como grupo controle entre 50 e 65 anos (média : 57 anos).
+					\item 15 indivíduos portadores do Parkinson entre 51 e 65 anos (média de idade : 58 anos)
+					\item 15 sem o diagnostico, como grupo controle entre 50 e 65 anos (média : 57 anos)
 				\end{enumerate}
-					\item No grupo de portadores do Parkinson, foram inclusos indivíduos até o Estágio 3 (Doença bilateral leve a moderada com alguma instabilidade postural e capacidade para viver independente), segundo a UPDRS.
+					\item No grupo de portadores do Parkinson, foram inclusos indivíduos até o Estágio 3 (Doença bilateral leve a moderada com alguma instabilidade postural e capacidade para viver independente), segundo a UPDRS
 				\end{itemize}
     \end{block}
 \end{frame}
@@ -480,25 +488,30 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
       \center \includegraphics[height=2.2 in]{img/catch-the-spheres.png}
 \end{frame}
 
-
-\begin{frame}{Processo de Coleta de Dados}
-   \begin{block}{}   
-   \begin{columns}[c]
-     \begin{column}{0.5\linewidth}
-				\begin{itemize}[<+->]
-					\item Voluntário se posiciona a 2m. do sensor de movimento;
-					\item Voluntário inicia o jogo;
-					\item Voluntário abduz e aduz o braço esquerdo, e depois o direito 10 vezes o mais amplo e rápido possível;
-					\item Voluntário fecha o jogo.
-				\end{itemize}
-     \end{column}
-
-     \begin{column}{0.55\linewidth}
-				\includegraphics[width=5.5cm]{img/capturaducaokinnect.png}
-    \end{column}
-\end{columns}
-\end{block}
+\begin{frame}{Coleta de Dados}
+  \begin{block}{}
+  \center \includegraphics[height=2.4 in]{img/capturaducaokinnect.png} 
+  \end{block}
 \end{frame}
+
+% \begin{frame}{Processo de Coleta de Dados}
+%    \begin{block}{}   
+%    \begin{columns}[c]
+%      \begin{column}{0.5\linewidth}
+% 				\begin{itemize}
+% 					\item Voluntário se posiciona a 2m. do sensor de movimento
+% 					\item Voluntário inicia o jogo
+% 					\item Voluntário abduz e aduz o braço esquerdo, e depois o direito 10 vezes o mais amplo e rápido possível
+% 					\item Voluntário fecha o jogo
+% 				\end{itemize}
+%      \end{column}
+% 
+%      \begin{column}{0.55\linewidth}
+% 				\includegraphics[width=5.5cm]{img/capturaducaokinnect.png}
+%     \end{column}
+% \end{columns}
+% \end{block}
+% \end{frame}
 % 
 % 
 % 
@@ -533,26 +546,40 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 % \end{frame}
 
 \subsection{Classificação dos Dados}
-\begin{frame}{Classificação dos Dados}
-	\begin{block}{}
-		\begin{itemize}[<+->]
-			\item	Com os dados coletados, realizou-se uma classificação usando SVM com núcleo linear e \textit{bias} de 0,10.
-			\item	O resultado com o núcleo linear foi o mais expressivo ante o Polinomial, Radial e MLP.
-		\end{itemize}
-	\end{block}
-\end{frame}
+% \begin{frame}{Classificação dos Dados}
+% 	\begin{block}{}
+% 		\begin{itemize}
+% 			\item	Com os dados coletados, realizou-se uma classificação usando SVM
+% 			\item	Com os parâmetros de: $C = 2$ e $\gamma = 3$
+% 		\end{itemize}
+% 	\end{block}
+% \end{frame}
 
-\begin{frame}{Definição dos Parâmetros}
+\begin{frame}{Optimização dos Parâmetros da SVM}
  \begin{block}{Aplicação do Método de \textit{Grid-Search}}
  Para identificar os melhores parâmetros da SVM, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}.   
  \end{block}
 \end{frame}
 
-% \begin{frame}{Definição dos Parâmetros}
-%  \begin{block}{Parâmetros utilizados no \textit{Grid-Search}}
-%     Os valores dos parâmetros de pesquisa do \textit{grid-search} foram de: $C$ = [$2^5$, ... ,$2^2$] e $\gamma$ = [$2^{15}$, ... ,$2^3$ ], usando assim uma exponencial de base 2. Por meio deste método, foi possível identificar uma região em que o classificador possuía a melhor acurácia e a menor taxa de \textit{FpRate}. Após identificar essa região, realizamos uma busca mais detalhada com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10].
-%  \end{block}
-% \end{frame}
+\begin{frame}{Definição dos Parâmetros}
+ \begin{block}{}
+ Os valores dos parâmetros de pesquisa do \textit{grid-search} foram:
+ \begin{itemize}
+  \item $C$ = [$2^{-5}$, ... ,$2^2$]
+  \item $\gamma$ = [$2^{-15}$, ... ,$2^3$]
+ \end{itemize}
+
+ Valores da Busca Detalhada:
+  \begin{itemize}
+   \item $C$ = [0.25, 0.5, ... ,2.5]
+   \item $\gamma$ = [1, 2, ...,10]
+  \end{itemize}
+ \end{block}
+ 
+ \begin{block}{Parâmetros Encontrados}
+  Logo, usando o método \textit{grid-search}, encontramos os seguintes valores para os parâmetros: $C = 2$ e $\gamma = 3$
+ \end{block}
+\end{frame}
 
 \begin{frame}{\textit{Grid-Search} - Acurácia da Classificação}
   \begin{block}{}
@@ -562,16 +589,16 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
   \end{block}
 \end{frame}
 
-\begin{frame}{\textit{Grid-Search} - \textit{FpRate}}
-   \begin{block}{}
-   \center
-  %\begin{block}{}
-      \includegraphics[scale=0.4]{./img/gridsearchfprate.png}
-   \end{block}
-\end{frame}
+% \begin{frame}{\textit{Grid-Search} - \textit{FpRate}}
+%    \begin{block}{}
+%    \center
+%   %\begin{block}{}
+%       \includegraphics[scale=0.4]{./img/gridsearchfprate.png}
+%    \end{block}
+% \end{frame}
 
 \begin{frame}{Matriz de Confusão}
-	\begin{block}{Resultado da Matriz de Confusão do Estudo Analítico Caso-Controle Usando SVM Linear}
+	\begin{block}{Resultado da Matriz de Confusão do Estudo Analítico Caso-Controle Usando SVM}
 \begin{table}[!htbp]
 		\label{table:resultadomatrizconfusaosvm}
 		\centering
@@ -614,25 +641,16 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
     \end{block}
 \end{frame}
 
-\subsection{Limitações}
-\begin{frame}{Limitações do Método}
-	\begin{block}{}
-	A aprendizagem estatística deste trabalho é apenas um indicador e necessita da interpretação do profissional de saúde.
-	\end{block}
-  \begin{block}{}
-      \center \includegraphics[height=1.6 in]{img/visualizacaomedico.png}
-  \end{block}
-\end{frame}
 
 \begin{frame}{Outros Experimentos}
 	\begin{block}{Uso de Jogo em \textit{Smartphone} Para Detecção de Tremor}
 	\center \includegraphics[height=1 in]{img/pinball_world.png}
 	\end{block}
 	\begin{block}{Insucesso na Quantificação do Tremor}
-			\begin{itemize}[<+->]
-			\item Tremor do Parkinson é de repouso/
-			\item Indivíduos quando utilizavam o jogo reduziam drasticamente o sintoma/
-			\item Como os dados não seriam satisfatórios, logo a coleta tornou-se inviável.
+			\begin{itemize}
+			\item Tremor do Parkinson é de repouso
+			\item Indivíduos quando utilizavam o jogo reduziam drasticamente o sintoma
+			\item Como os dados não seriam satisfatórios, logo a coleta tornou-se inviável
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -648,14 +666,14 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
     \begin{block}{Objetivo da Pesquisa}
       Etapa 3 da Pesquisa: Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
     \end{block}
-		\begin{block}{Participantes}
-		Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: 
-			\begin{itemize}
-				\item Hospital Universitário da UFAL;
-				\item Fundação Pestalozzi;
-				\item Clínica de Fisioterapia do CESMAC.
-			\end{itemize}
-    \end{block}
+% 		\begin{block}{Participantes}
+% 		Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: 
+% 			\begin{itemize}
+% 				\item Hospital Universitário da UFAL
+% 				\item Fundação Pestalozzi
+% 				\item Clínica de Fisioterapia do CESMAC
+% 			\end{itemize}
+%     \end{block}
 \end{frame} 
 
 
@@ -713,27 +731,31 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 % \end{frame}
 
 \begin{frame}{Integrar a Abordagem à Rotina Diária} 
-    \begin{block}{Métrica 1.1: Escala de Diversão do Jogo}
-			\center \includegraphics[height=2.4 in]{img/chart_1-.png}
-    \end{block}
+    %\begin{block}{}
+			\center \includegraphics[height=2.8 in]{img/chartdiversao.png}
+    %\end{block}
+\end{frame}
+
+
+
+
+
+\begin{frame}{Integrar a Abordagem à Rotina Diária} 
+    %\begin{block}{Métrica 1.3: Integrar o Jogo À Rotina Diária}
+			\center \includegraphics[height=2.8 in]{img/chartfrequencia.png}
+    %\end{block}
 \end{frame}
 
 \begin{frame}{Integrar a Abordagem à Rotina Diária} 
-    \begin{block}{Métrica 1.3: Integrar o Jogo À Rotina Diária}
-			\center \includegraphics[height=2.4 in]{img/chart_3-.png}
-    \end{block}
-\end{frame}
-
-\begin{frame}{Integrar a Abordagem à Rotina Diária} 
-    \begin{block}{}
+    %\begin{block}{}
 			\center \includegraphics[height=1.4 in]{img/metricasq1.png}
-    \end{block}
+    %\end{block}
 \end{frame}
 
 \begin{frame}{Segurança à Integridade Física} 
-    \begin{block}{Métrica 2.4: Faixa Etária do Jogo}
-			\center \includegraphics[height=2.4 in]{img/chart_10-.png}
-    \end{block}
+    %\begin{block}{Métrica 2.4: Faixa Etária do Jogo}
+			\center \includegraphics[height=2.8 in]{img/chartfaixaetaria.png}
+    %\end{block}
 \end{frame}
 
 \begin{frame}{Segurança à Integridade Física} 
@@ -744,15 +766,26 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 
 \section{Finalização}
+\subsection{Conclusão e Trabalhos Futuros}
 
-\subsection{Trabalhos Futuros}
+\begin{frame}{Conclusão}
+\begin{block}{}
+Nos experimentos realizados, conseguimos demonstrar:
+  \begin{itemize}
+   \item A importância do acompanhamento dos sinais motores integrados à rotina diária do paciente
+   \item A viabilidade do desenvolvimento de jogos para o monitoramento, pois, obtivemos uma taxa de acurácia de 86,67\% e falsos positivos de 6,67\%
+   \item Um percentual de 83\% dos usuários integrariam a solução de monitoramento proposta em sua rotina diária
+  \end{itemize}
+\end{block}
+\end{frame}
+
 \begin{frame}{Trabalhos Futuros}
 \begin{block}{}
 A partir dos resultados apresentados nesta tese e extensão da mesma, alguns trabalhos futuros são propostos para contribuição científica:
   \begin{itemize}
-   \item Coletar uma amostra maior de pacientes com Parkinson, e agrupá-los de acordo com o estágio da doença~\cite{goul05};
-   \item Usar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do~\ac{dp} de acordo com as escalas de avaliação (ex.: UPDRS~\cite{UPDRS};
-   \item Avaliar o sinal da bradicinesia em diferentes momentos do dia, para verificar a eficácia do tratamento medicamentoso~\cite{protpar010}.   
+   \item Coletar uma amostra maior de pacientes com Parkinson, e agrupá-los de acordo com o estágio da doença~\cite{goul05}
+   \item Usar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do~\ac{dp} de acordo com as escalas de avaliação
+   \item Avaliar o sinal da bradicinesia em diferentes momentos do dia, para verificar a eficácia do tratamento medicamentoso~\cite{protpar010}
   \end{itemize}
 \end{block}
 \end{frame}
@@ -763,9 +796,9 @@ A partir dos resultados apresentados nesta tese e extensão da mesma, alguns tra
 \begin{block}{}
 Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
   \begin{itemize}
-   \item \textit{Abstract}: \textit{Monitoring Parkinson related Gait Disorders with Eigengaits}, no, \textit{XX World Congress on Parkinson's Disease and Related Disorders} (2013)~\cite{lmmeigengaits2013};
-   \item \textit{Full Paper}: \textit{A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgame2016};
-   \item \textit{Full Paper}: \textit{A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgait2016}.
+   \item \textit{Abstract}: \textit{Monitoring Parkinson related Gait Disorders with Eigengaits}, no, \textit{XX World Congress on Parkinson's Disease and Related Disorders} (2013)~\cite{lmmeigengaits2013}
+   \item \textit{Full Paper}: \textit{A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgame2016}
+   \item \textit{Full Paper}: \textit{A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgait2016}
   \end{itemize}
 \end{block}
 \end{frame}
