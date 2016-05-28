@@ -13,9 +13,9 @@
 \beamer@sectionintoc {4}{Experimentos}{34}{0}{4}
 \beamer@subsectionintoc {4}{1}{Caso-Controle}{34}{0}{4}
 \beamer@subsectionintoc {4}{2}{Classifica\IeC {\c c}\IeC {\~a}o dos Dados}{38}{0}{4}
-\beamer@sectionintoc {5}{GQM}{44}{0}{5}
-\beamer@subsectionintoc {5}{1}{An\IeC {\'a}lise}{44}{0}{5}
-\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{52}{0}{6}
-\beamer@subsectionintoc {6}{1}{Conclus\IeC {\~a}o e Trabalhos Futuros}{52}{0}{6}
-\beamer@subsectionintoc {6}{2}{Publica\IeC {\c c}\IeC {\~o}es}{54}{0}{6}
-\beamer@subsectionintoc {6}{3}{D\IeC {\'u}vidas}{55}{0}{6}
+\beamer@sectionintoc {5}{GQM}{45}{0}{5}
+\beamer@subsectionintoc {5}{1}{An\IeC {\'a}lise}{45}{0}{5}
+\beamer@sectionintoc {6}{Finaliza\IeC {\c c}\IeC {\~a}o}{53}{0}{6}
+\beamer@subsectionintoc {6}{1}{Conclus\IeC {\~a}o e Trabalhos Futuros}{53}{0}{6}
+\beamer@subsectionintoc {6}{2}{Publica\IeC {\c c}\IeC {\~o}es}{55}{0}{6}
+\beamer@subsectionintoc {6}{3}{D\IeC {\'u}vidas}{56}{0}{6}

@@ -164,7 +164,7 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 	\end{block}
 	
 	\begin{alertblock}{}
-	Monitorar os sinais em permite um melhor gerenciamento da doença e, por consequência, uma melhora na qualidade de vida
+	Monitorar os sinais permite um melhor gerenciamento da doença e, por consequência, uma melhora na qualidade de vida
 	\end{alertblock}
 \end{frame}
 
@@ -424,10 +424,13 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \subsection{Classificador de Dados}
 \begin{frame}{Classificador de Dados}
 \begin{block}{}
-			O classificador de dados, é utilizado para identificar possíveis usuários com problemas motores
+			Nesta Tese, o classificador de dados foi utilizado para identificar problemas motores
 			
 \end{block}
+
 \end{frame}
+
+
 
 \begin{frame}{Máquina de Vetor de Suporte (SVM)}
    \begin{block}{}
@@ -435,9 +438,11 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
    \begin{columns}[c]
      \begin{column}{0.5\linewidth}
 			 \begin{itemize}
-				\item Uma SVM utiliza vetores de separação através de uma técnica de hiperplano de separação ótima
+			        \item Uma SVM busca encontrar Vetores de Suporte que consiga separa duas classes
+			        
+				%\item Uma SVM utiliza vetores de separação através de uma técnica de hiperplano de separação ótima
 
-				\item Formalmente, classificadores que separam os dados por meio de um hiperplano utilizam uma função discriminante
+				\item Formalmente, classificadores que separam os dados por meio de um hiperplano com uma função discriminante
 			\end{itemize}
      \end{column}
 
@@ -447,6 +452,9 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \end{columns}
 \end{block}
 \end{frame}
+
+
+
 
 % \begin{frame}{Visualização do Vetor Médio do Movimento de Abdução e Adução do Braço}
 %       \center \includegraphics[height=2.6 in]{img/vetormedioaducao.png}
@@ -570,14 +578,52 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 % 	\end{block}
 % \end{frame}
 
+%http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
+%http://www.eletrica.ufpr.br/ufpr2/professor/36/TE808/8-SVM-AM.pdf
+%https://www.quora.com/What-are-C-and-gamma-with-regards-to-a-support-vector-machine
+
 \begin{frame}{Optimização dos Parâmetros da SVM}
  \begin{block}{Aplicação do Método de \textit{Grid-Search}}
  Para identificar os melhores parâmetros da SVM, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}.   
  \end{block}
 \end{frame}
 
-\begin{frame}{Definição dos Parâmetros}
+%A standard SVM seeks to find a margin that separates all positive and negative examples
+
+
+
+%C is the parameter for the soft margin cost function, which controls the influence of each individual support vector; this process involves trading error penalty for stability.
+
+% Gamma is the free parameter of the Gaussian radial basis function.
+
+%A small gamma means a Gaussian with a large variance so the influence of x_j is more, i.e. if x_j is a support vector, a small gamma implies the class of this support vector will have influence on deciding the class of the vector x_i even if the distance between them is large. If gamma is large, then variance is small implying the support vector does not have wide-spread influence. Technically speaking, large gamma leads to high bias and low variance models, and vice-versa.
+
+
+%Intuitively, the gamma parameter defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. The gamma parameters can be seen as the inverse of the radius of influence of samples selected by the model as support vectors.
+
+%The C parameter trades off misclassification of training examples against simplicity of the decision surface. A low C makes the decision surface smooth, while a high C aims at classifying all training examples correctly by giving the model freedom to select more samples as support vectors.
+
+\begin{frame}{Parâmetros da SVM}
+   \begin{block}{Custo ($C$)}
+   %$C$ (Custo) e $\gamma$ (Gamma) são os parâmetros de uma SVM não-linear RBF. \linebreak
+   
+   O $C$ é o parâmetro que controla a influência de individual de cada vetor de suporte no resultado da classificação. 
+   
+   %Um valor baixo do $C$ resulta numa superfície de decisão suave, enquanto que um alto valor para o $C$ dá mais liberdade para o modelo selecionar mais vetores de suporte.
+   
+   \end{block}
+   
+   \begin{block}{Gamma ($\gamma$)}
+   O parâmetro $\gamma$ controla a flexibilidade da função de \textit{kernel}, valores pequenos de $\gamma$ permitem ao classificador ajustar todos os rótulos havendo risco de sobre ajustamento. %(\textit{overfitting}). 
+   
+   %Nesse caso o kernel da matriz se aproxima da matriz de identidade. Por outro lado, valores grandes de $\gamma$  reduzem o \textit{kernel} para uma função constante, tornando impossível o processo de aprendizagem do classificador.   
+   \end{block}
+\end{frame}
+
+\begin{frame}{Optimização dos Parâmetros}
  \begin{block}{}
+ O objetivo da optimização dos parâmetros é encontrar no espaço formado por ($\gamma$, $C$) pontos nos quais a acurácia do classificador seja a maior possível.
+  
  Os valores dos parâmetros de pesquisa do \textit{grid-search} foram:
  \begin{itemize}
   \item $C$ = [$2^{-5}$, ... ,$2^2$]
