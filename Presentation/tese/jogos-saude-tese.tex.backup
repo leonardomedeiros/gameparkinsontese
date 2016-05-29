@@ -140,6 +140,15 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \end{frame}
 
 
+\begin{frame}{Cenário de Uso}
+  \begin{block}{}
+      \center \includegraphics[height=1.8 in]{img/visaosistema.png}
+  \end{block}
+  \begin{block}{ }
+Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos eletrônicos. 
+  \end{block}
+\end{frame}
+
 \subsection{Jogos Para Saúde}
 \begin{frame}{Jogos Aplicados à Saúde}
 	\begin{block}{}	
@@ -339,9 +348,9 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \subsection{Processamento de Sinais}
 \begin{frame}{Processamento dos Sinais Biomecânicos}
-  \begin{block}{}
-      \center \includegraphics[height=2.4 in]{img/biomecprocessor2.png}
-  \end{block}
+  
+      \left \includegraphics[height=1.9 in]{img/biomecprocessorh.png}
+  
 \end{frame}
 
 
@@ -424,7 +433,7 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \subsection{Classificador de Dados}
 \begin{frame}{Classificador de Dados}
 \begin{block}{}
-			Nesta Tese, o classificador de dados foi utilizado para identificar problemas motores
+			Nesta tese, o classificador de dados foi utilizado para identificar o sintoma da bradicinesia em pacientes com Parkinson
 			
 \end{block}
 
@@ -604,22 +613,26 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 %The C parameter trades off misclassification of training examples against simplicity of the decision surface. A low C makes the decision surface smooth, while a high C aims at classifying all training examples correctly by giving the model freedom to select more samples as support vectors.
 
 \begin{frame}{Parâmetros da SVM}
-   \begin{block}{}
-   $C$ (Custo) e $\gamma$ (Gamma) são os parâmetros de uma SVM não-linear RBF. \linebreak
-   O $C$ é o parâmetro que controla a influência de individual de cada vetor de suporte no resultado da classificação.
-   this process involves trading error penalty for stability.
+   \begin{block}{Custo ($C$)}
+   %$C$ (Custo) e $\gamma$ (Gamma) são os parâmetros de uma SVM não-linear RBF. \linebreak
    
-   %Um valor baixo do $C$ resulta numa superfície de decisão suave, enquanto que um alto valor para o $C$ dá mais liberdade para o modelo selecionar mais vetores de suporte.\linebreak
+   O $C$ é o parâmetro que controla a influência de individual de cada vetor de suporte no resultado da classificação. 
    
-   O $\gamma$ é o parâmetro que define 
+   %Um valor baixo do $C$ resulta numa superfície de decisão suave, enquanto que um alto valor para o $C$ dá mais liberdade para o modelo selecionar mais vetores de suporte.
    
-   Um valor de $C$ alto aumenta a margem de decisão e permite identificar 
-   %C and Gamma are the parameters for a nonlinear support vector machine (SVM) with a Gaussian radial basis function kernel.
+   \end{block}
+   
+   \begin{block}{Gamma ($\gamma$)}
+   O parâmetro $\gamma$ controla a flexibilidade da função de \textit{kernel}, valores pequenos de $\gamma$ permitem ao classificador ajustar todos os rótulos havendo risco de sobre ajustamento. %(\textit{overfitting}). 
+   
+   %Nesse caso o kernel da matriz se aproxima da matriz de identidade. Por outro lado, valores grandes de $\gamma$  reduzem o \textit{kernel} para uma função constante, tornando impossível o processo de aprendizagem do classificador.   
    \end{block}
 \end{frame}
 
 \begin{frame}{Optimização dos Parâmetros}
  \begin{block}{}
+ O objetivo da optimização dos parâmetros é encontrar no espaço formado por ($\gamma$, $C$) pontos nos quais a acurácia do classificador seja a maior possível.
+  
  Os valores dos parâmetros de pesquisa do \textit{grid-search} foram:
  \begin{itemize}
   \item $C$ = [$2^{-5}$, ... ,$2^2$]
