@@ -491,8 +491,7 @@ O \textit{leave-one-out} é um método de validação cruzada \textit{k-fold} co
 \subsubsection{Otimização dos Parâmetros da SVM - Método Grid-Search}
 
 Para identificar os melhores parâmetros~\ac{svm}, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Este método avalia a precisão do modelo previsto, evita o problema do superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro, nós aplicamos uma abordagem de \textit{minimax} visando maximizar a margem sobre os coeficientes hiperplano para obter uma classificação mais correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foram de: $C$ = [$2^{-5}$, ... ,$2^2$] e $\gamma$ = [$2^{-15}$, ... ,$2^3$ ], usando assim uma exponencial de base 2. Por meio deste método, foi possível identificar uma região em que o classificador possuía a melhor acurácia e a menor taxa de \textit{FpRate}. Após identificar essa região, realizamos uma busca mais detalhada com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [
-1, 2,
- ...,10], como pode ser visto na Figura~\ref{fig:gridaccuracy}.
+1, 2, ...,10], como pode ser visto na Figura~\ref{fig:gridaccuracy}.
 
 
 \begin{figure}[!h]

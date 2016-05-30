@@ -141,10 +141,10 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 
 \begin{frame}{Cenário de Uso}
-   \begin{block}{ }
+   \begin{block}{}
       Como possível cenário de uso para a pesquisa, supondo que:
       \begin{itemize}
-       \item Um paciente faz uso do cliente JOGUE-NE no conforto de seus lar e, consequentemente, fornece os sinais motores em diferentes momentos do dia
+       \item Um paciente faz uso do cliente JOGUE-ME no conforto de seus lar e, consequentemente, fornece os sinais motores em diferentes momentos do dia
        \item Logo, esses sinais motores são quantificados e enviados para o servidor JOGUE-ME
        \item O servidor JOGUE-ME analisa os sinais e identifica e quantificar a ocorrência dos sintomas motores
        \item Então, o médico recebe a informação sobre a saúde motora e consegue melhor gerenciar a saúde de seus pacientes 
@@ -202,22 +202,23 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \section{Estudo de Caso}
 \subsection{Parkinson}
 \begin{frame}{Estudo de Caso}
-  \begin{block}{Doença de Parkinson}
-   Como estudo de caso, escolhemos Parkinson por ser uma doença neurodegenerativa crônica, progressiva e com causa desconhecida. 
+  \begin{block}{}
+   Como estudo de caso, escolhemos a Doença de Parkinson (Parkinson) por ser uma doença neurodegenerativa crônica, progressiva 
    \begin{itemize}
     \item Comum em idosos
     \item Existem casos precoces em indivíduos antes dos 40 anos
+    \item \textbf{flutuabilidade dos sintomas devido o tratamento medicamentoso}
    \end{itemize}
   \end{block}
 \end{frame}
 
 
-\begin{frame}{Doença de Parkinson (Parkinson)}
+\begin{frame}{Parkinson}
   \begin{block}{}
     O Parkinson é uma afecção do sistema nervoso central, a qual é expressa de forma crônica e progressiva. 
       \begin{itemize}
-       \item Causada pela morte dos neurônios produtores de dopamina da substância negra ~\cite{protpar010}
-       \item Caracterizada pelos sinais cardinais de rigidez, bradicinesia, tremor e instabilidade postural ~\cite{jankovic2008}
+       \item Causada pela morte dos neurônios produtores de dopamina da substância negra~\cite{protpar010}
+       \item Caracterizada pelos sinais cardinais de rigidez, bradicinesia, tremor e instabilidade postural~\cite{jankovic2008}
       \end{itemize}
   \end{block}
 %   \begin{block}{Termos: Tremor de Repouso e Bradicinesia}<3->
@@ -254,9 +255,14 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \end{frame}
 
 \begin{frame}{Escala (UPDRS)} 
-    \begin{block}{Fenômeno (\textit{On/Off})}
-      \center \includegraphics[height=2.4 in]{img/updr1-sel.png}
-    \end{block}		
+%    \begin{block}{}
+      \center \includegraphics[height=2.0 in]{img/updr1-sel.png}
+     \begin{itemize}
+	\item Avaliação dos sintomas de maneira subjetiva e esporádica
+	\item Flutuação dos sintomas (fenômeno \textit{on/off})
+     \end{itemize}
+%    \end{block}
+
 \end{frame}
 
 % \begin{frame}{Escala (UPDRS)} 
@@ -275,7 +281,7 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Entrevista Semi-Estruturada com Profissionais de Saúde} 
     \begin{block}{Objetivo da Pesquisa}
-    O objetivo da entrevista semiestruturada foi entender como é feito o acompanhamento do paciente com sintomatologia do Parkinson, juntamente aos profissionais de saúde.
+    O objetivo da entrevista semiestruturada foi entender como é feito o acompanhamento do paciente com sintomatologia do Parkinson, juntamente aos profissionais de saúde
     \end{block}
 		\begin{block}{Participantes}
 			\begin{table}[h]
@@ -296,7 +302,7 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \begin{frame}{Resultado da Entrevista} 
     \begin{block}{}
 			\begin{itemize}
-				\item Identificamos a importância de \textbf{monitorar a bradicinesia para acompanhar a evolução do Parkinson}.
+				\item Identificamos a importância de \textbf{monitorar a bradicinesia para acompanhar a evolução do Parkinson}
 				\item Os profissionais de saúde informaram da importância de calcular:
 					\begin{enumerate}
 						\item amplitude dos movimentos de abdução e adução dos braços
@@ -330,7 +336,7 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Visão Geral da Abordagem~\textit{JOGUE-ME}}
   \begin{block}{}
-      \center \includegraphics[height=1.8 in]{img/visaosistema.png}
+      \center \includegraphics[height=2.2 in]{img/visaosistema.png}
   \end{block}
 \end{frame}
 
@@ -350,18 +356,20 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \end{frame}
 
 \subsection{Processamento de Sinais}
-\begin{frame}{Processamento dos Sinais Biomecânicos}
-  
-      \left \includegraphics[height=1.9 in]{img/biomecprocessorh.png}
-  
-\end{frame}
 
 
-\begin{frame}{Cinemetria}
+\begin{frame}{Estudo Biomecânico da Cinemática Angular}
   \begin{block}{}
       \begin{itemize}
-	 \item A Cinemetria consiste de um conjunto de métodos para medir os valores dos parâmetros cinemáticos
-	 \item Movimento Cinético é o estudo das forças e momentos que resultam no movimento do corpo e seus segmentos
+	 \item A cinemática angular permite examinar o movimento angular a partir de segmentos de um movimento, divididos em partes identificáveis que aumentam a compreensão do movimento humano  
+	 \item Estudo das forças e momentos que resultam no movimento do corpo e seus segmentos
+	 \item Processamento das grandezas cinemáticas considerando: 
+	    \begin{enumerate}
+	      \item tempo
+	      \item ângulos
+	      \item amplitude
+	      \item velocidade angular
+	    \end{enumerate}
        \end{itemize}
   \end{block}
 \end{frame}
@@ -450,11 +458,11 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
    \begin{columns}[c]
      \begin{column}{0.5\linewidth}
 			 \begin{itemize}
-			        \item Uma SVM busca encontrar Vetores de Suporte que consiga separa duas classes
+			        \item Uma SVM busca encontrar Vetores de Suporte que consigam separa duas classes
 			        
 				%\item Uma SVM utiliza vetores de separação através de uma técnica de hiperplano de separação ótima
 
-				\item Formalmente, classificadores que separam os dados por meio de um hiperplano com uma função discriminante
+				\item Formalmente, essa classificador separa os dados por meio de um hiperplano através de uma função discriminante
 			\end{itemize}
      \end{column}
 
@@ -466,6 +474,11 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \end{frame}
 
 
+\begin{frame}{Processamento dos Sinais Biomecânicos}
+  
+      \left \includegraphics[height=1.9 in]{img/biomecprocessorh.png}
+  
+\end{frame}
 
 
 % \begin{frame}{Visualização do Vetor Médio do Movimento de Abdução e Adução do Braço}
@@ -596,7 +609,7 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Optimização dos Parâmetros da SVM}
  \begin{block}{Aplicação do Método de \textit{Grid-Search}}
- Para identificar os melhores parâmetros da SVM, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}.   
+ Para identificar os melhores parâmetros da SVM, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out}~\cite{kantardzic2011data}.   
  \end{block}
 \end{frame}
 
@@ -670,8 +683,8 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 %    \end{block}
 % \end{frame}
 
-\begin{frame}{Matriz de Confusão}
-	\begin{block}{Resultado da Matriz de Confusão do Estudo Analítico Caso-Controle Usando SVM}
+\begin{frame}{Matriz de Confusão do Estudo Analítico Caso-Controle Usando SVM}
+	\begin{block}{}
 \begin{table}[!htbp]
 		\label{table:resultadomatrizconfusaosvm}
 		\centering
@@ -686,32 +699,42 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 	\end{block}
 \end{frame}
 
-\begin{frame}
-   \frametitle{Métricas da Classificação}
-   \begin{block}{}
-   		\begin{table}[!htbp]
+\begin{frame}{Métricas da Classificação}
+   %\begin{block}{}
+				
+		\begin{description}
+			\item [\textit{TpRate}]: taxa de amostras positivas corretamente classificadas
+			\item [\textit{FpRate}]: taxa de falso alarme obtido 
+			\item [\textit{Accuracy}]:  taxa de amostras classificadas corretamente 
+			\item [\textit{Precision}]: taxa de acerto de uma instância em determinada classe 
+			\item [\textit{F-Measure}]: considera a média harmônica da taxa de \textit{precision} e do \textit{tp rate} 
+		\end{description}
+
+		
+		\begin{table}[!htbp]
 				\label{table:metricasmatrizconfusao}
 				\centering
 				\begin{tabular}{|l|r|}
 				\hline
-				\multicolumn{2}{|l|}{\textbf{Métricas}} \\ \hline
+%				\multicolumn{2}{|l|}{\textbf{Métricas}} \\ \hline
 				\textbf{TpRate}                    & 80,00$\%$\               \\ \hline
 				\textbf{FpRate}                    & 6,67$\%$\                \\ \hline
-				\textbf{Precision}                 & 92,31$\%$\                \\ \hline
 				\textbf{Accuracy}                  & 86,67$\%$\                \\ \hline
+				\textbf{Precision}                 & 92,31$\%$\                \\ \hline
 				\textbf{F-Measure}                 & 85,71$\%$\                \\ \hline
 				\end{tabular}
-				\end{table}
-	\end{block}
-     \begin{block}{}
-				\begin{description}
-				\item [\textit{TpRate}]: taxa de acerto obtido;
-				\item [\textit{FpRate}]: taxa de falso alarme obtido;
-				\item [\textit{Precision}]: taxa de acerto de uma instância em determinada classe;
-				\item [\textit{Accuracy}]: taxa de acerto de todo o classificador;
-				\item [\textit{F-Measure}]: análise de classificador binário que mede a acurácia.
-				\end{description}
-    \end{block}
+		\end{table}
+% 		\begin{description}
+% 			\item [\textit{TpRate}]: taxa de acerto obtido  ($ TpRate = TP/P $\ )
+% 			\item [\textit{FpRate}]: taxa de falso alarme obtido : ($ FpRate = FP/N $\ ) 
+% 			\item [\textit{Accuracy}]:  taxa de amostras positivas e negativas classificadas corretamente ($ Accuracy = (TP+TN)/(P+N) $\ )
+% 			\item [\textit{Precision}]: taxa de acerto de uma instância em determinada classe ($ Precision =  TP/(TP +FP) $\ )
+% 			\item [\textit{F-Measure}]: considera a média harmônica da taxa de \textit{precision} e do \textit{tp rate} ($ F-Measure = 2 * (Precision * TpRate)/(Precision + TpRate $\ )
+% 		\end{description}
+
+%	\end{block}
+%     \begin{block}{}
+%    \end{block}
 \end{frame}
 
 
@@ -730,31 +753,27 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 
 
+\subsection{GQM}
 
-
-
-\section{GQM}
-
-\subsection{Análise}
 \begin{frame}
   \begin{block}{ETAPA 3}
    Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
   \end{block}
 \end{frame}
 
-\begin{frame}{Análise GQM com Usuários} 
-    \begin{block}{Objetivo da Pesquisa}
-      Etapa 3 da Pesquisa: Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
-    \end{block}
-% 		\begin{block}{Participantes}
-% 		Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: 
-% 			\begin{itemize}
-% 				\item Hospital Universitário da UFAL
-% 				\item Fundação Pestalozzi
-% 				\item Clínica de Fisioterapia do CESMAC
-% 			\end{itemize}
+% \begin{frame}{Análise GQM com Usuários} 
+%     \begin{block}{Objetivo da Pesquisa}
+%       Etapa 3 da Pesquisa: Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
 %     \end{block}
-\end{frame} 
+% % 		\begin{block}{Participantes}
+% % 		Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: 
+% % 			\begin{itemize}
+% % 				\item Hospital Universitário da UFAL
+% % 				\item Fundação Pestalozzi
+% % 				\item Clínica de Fisioterapia do CESMAC
+% % 			\end{itemize}
+% %     \end{block}
+% \end{frame} 
 
 
 \begin{frame}{Questões da Pesquisa} 
@@ -864,7 +883,7 @@ Nos experimentos realizados, conseguimos demonstrar:
 A partir dos resultados apresentados nesta tese e extensão da mesma, alguns trabalhos futuros são propostos para contribuição científica:
   \begin{itemize}
    \item Coletar uma amostra maior de pacientes com Parkinson, e agrupá-los de acordo com o estágio da doença~\cite{goul05}
-   \item Usar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do~\ac{dp} de acordo com as escalas de avaliação
+   \item Usar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do Parkinson de acordo com as escalas de avaliação
    \item Avaliar o sinal da bradicinesia em diferentes momentos do dia, para verificar a eficácia do tratamento medicamentoso~\cite{protpar010}
   \end{itemize}
 \end{block}
