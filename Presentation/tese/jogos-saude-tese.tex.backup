@@ -54,7 +54,8 @@ showstringspaces=false }
 
 
 \author[L. Medeiros]{Aluno: Leonardo Melo de Medeiros}
-\date{\today}
+%\date{\today}
+\date{03/06/2016}
 \institute[]{Orientador: Leandro Dias da Silva\\
 						 Orientador: Hyggo Oliveira de Almeida \\ 
 						 Universidade Federal de Campina Grande - UFCG}
@@ -119,9 +120,9 @@ showstringspaces=false }
 \end{frame}
 
 
-\begin{frame}{SMS da Saúde Motora}  
+\begin{frame}{SMS Motores}  
   \begin{block}{}  
-  Atualmente, os SMS da saúde motora permitem:  
+  Atualmente, os SMS motores permitem:  
     \begin{itemize}
     \item Quantificar as habilidades motoras dos usuários~\cite{manumeterjbhi2014,patel_monitoring_2009}
     \item Analisar a marcha dos usuários~\cite{robotgait2014}
@@ -135,7 +136,7 @@ showstringspaces=false }
       \center \includegraphics[height=1.8 in]{img/visaosistema.png}
   \end{block}
   \begin{block}{ }
-Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos eletrônicos. 
+Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos eletrônicos. 
   \end{block}
 \end{frame}
 
@@ -255,19 +256,19 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \end{frame}
 
 \begin{frame}{Escala (UPDRS)} 
-    \begin{block}{}
+%    \begin{block}{}
       \center \includegraphics[height=2.0 in]{img/updr1-sel.png}
-    \end{block}	
-    
-    \begin{block}{}
-     Avaliação dos sintomas de maneira subjetiva e esporádica
-    \end{block}
+     \begin{itemize}
+	\item Avaliação dos sintomas de maneira subjetiva e esporádica
+	\item Flutuação dos sintomas (fenômeno \textit{on/off})
+     \end{itemize}
+%    \end{block}
 
 \end{frame}
 
 % \begin{frame}{Escala (UPDRS)} 
 %     \begin{block}{Impacto nas Atividades Diárias}
-%       \center \includegraphics[height=2.0 in]{img/updr2-sel.png}
+%       \center \includegraphics[height=2.0 in]{img/updr2-sel.png}'
 %     \end{block}
 % \end{frame}
 
@@ -761,19 +762,19 @@ Nesta Tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
   \end{block}
 \end{frame}
 
-\begin{frame}{Análise GQM com Usuários} 
-    \begin{block}{Objetivo da Pesquisa}
-      Etapa 3 da Pesquisa: Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
-    \end{block}
-% 		\begin{block}{Participantes}
-% 		Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: 
-% 			\begin{itemize}
-% 				\item Hospital Universitário da UFAL
-% 				\item Fundação Pestalozzi
-% 				\item Clínica de Fisioterapia do CESMAC
-% 			\end{itemize}
+% \begin{frame}{Análise GQM com Usuários} 
+%     \begin{block}{Objetivo da Pesquisa}
+%       Etapa 3 da Pesquisa: Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
 %     \end{block}
-\end{frame} 
+% % 		\begin{block}{Participantes}
+% % 		Nessa etapa da pesquisa foram avaliados 30 sujeitos, dos seguintes locais: 
+% % 			\begin{itemize}
+% % 				\item Hospital Universitário da UFAL
+% % 				\item Fundação Pestalozzi
+% % 				\item Clínica de Fisioterapia do CESMAC
+% % 			\end{itemize}
+% %     \end{block}
+% \end{frame} 
 
 
 \begin{frame}{Questões da Pesquisa} 
