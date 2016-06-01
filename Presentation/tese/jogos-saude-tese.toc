@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.33pt}
+\beamer@endinputifotherversion {3.24pt}
 \select@language {portuguese}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Motiva\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
@@ -9,12 +9,9 @@
 \beamer@sectionintoc {3}{Abordagem JOGUE-ME}{21}{0}{3}
 \beamer@subsectionintoc {3}{1}{Apresenta\IeC {\c c}\IeC {\~a}o}{21}{0}{3}
 \beamer@subsectionintoc {3}{2}{Processamento de Sinais}{25}{0}{3}
-\beamer@subsectionintoc {3}{3}{Classificador de Dados}{32}{0}{3}
+\beamer@subsectionintoc {3}{3}{Classificador de Dados}{33}{0}{3}
 \beamer@sectionintoc {4}{Experimentos}{35}{0}{4}
 \beamer@subsectionintoc {4}{1}{Caso-Controle}{35}{0}{4}
 \beamer@subsectionintoc {4}{2}{Classifica\IeC {\c c}\IeC {\~a}o dos Dados}{39}{0}{4}
-\beamer@subsectionintoc {4}{3}{GQM}{46}{0}{4}
-\beamer@sectionintoc {5}{Finaliza\IeC {\c c}\IeC {\~a}o}{53}{0}{5}
-\beamer@subsectionintoc {5}{1}{Conclus\IeC {\~a}o e Trabalhos Futuros}{53}{0}{5}
-\beamer@subsectionintoc {5}{2}{Publica\IeC {\c c}\IeC {\~o}es}{55}{0}{5}
-\beamer@subsectionintoc {5}{3}{D\IeC {\'u}vidas}{56}{0}{5}
+\beamer@subsectionintoc {4}{3}{GQM}{47}{0}{4}
+\beamer@sectionintoc {5}{Conclus\IeC {\~a}o e Trabalhos Futuros}{54}{0}{5}

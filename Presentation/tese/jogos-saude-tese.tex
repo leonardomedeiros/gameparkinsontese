@@ -149,7 +149,7 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
        \item Logo, esses sinais motores são quantificados e enviados para o servidor JOGUE-ME
        \item O servidor JOGUE-ME analisa os sinais e identifica e quantificar a ocorrência dos sintomas motores
        \item Então, o médico recebe a informação sobre a saúde motora e consegue melhor gerenciar a saúde de seus pacientes 
-      \end{itemize}D
+      \end{itemize}
   \end{block}
 \end{frame}
 
@@ -234,9 +234,9 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \begin{frame}{Doença de Parkinson}
   \begin{block}{Bradicinesia}
       \begin{itemize}
-	\item Enquanto que o sintoma de tremor é o mais visível do Parkinson, a bradicinesia é o sintoma motor mais incapacitante
+	\item Enquanto que o tremor é o sintoma motor mais visível do Parkinson, a bradicinesia é o mais incapacitante
 	%\item A bradicinesia consiste numa lentidão do movimento voluntário e num comprometimento de todos os movimentos associados a ele.
-	\item A bradicinesia é acompanhada de: rigidez dos músculos, assimetria dos movimentos entre os membros e dificuldade nos movimentos
+	\item A bradicinesia é acompanhada de: rigidez dos músculos, assimetria dos movimentos e dificuldade nos movimentos
 	\end{itemize}
   \end{block}
 \end{frame}
@@ -389,35 +389,29 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
   \end{block}
 \end{frame}
 
-% \begin{frame}{Mecanismo de Identificação de Sintomas Motores}
-%       \center \includegraphics[height=3 in]{img/exsinalposicaoypunhodireito.png}
-% \end{frame}
 
-% \begin{frame}{Técnicas de Picos e Vales do Sinal}
-%   \begin{block}
-%       \center 
-%       \includegraphics[height=2.8 in]{img/deteccaopicosvales.png}
-%   \end{block}
-% \end{frame}
-% 
-% 
-% 
 
 \begin{frame}{Mecanismo de Identificação de Sintomas Motores}
-     \begin{block}{}
-      \center 
-      \includegraphics[height=2.2 in]{img/deteccaopicosvales.png}
-			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-     \end{block}
+      \center \includegraphics[height=2.8 in]{img/exsinalposicaoypunhodireito.png}
 \end{frame}
 
 
-\begin{frame}{Velocidade Angular do Movimento de Abdução e Adução}
-     \begin{block}{}
+
+\begin{frame}{Técnicas de Picos e Vales do Sinal}
+  %\begin{block}
       \center 
-      \includegraphics[height=2.2 in]{img/amplitude-braco.png}
+      \includegraphics[height=2.8 in]{img/deteccaopicosvales.png}
+  %\end{block}
+\end{frame}
+
+
+
+\begin{frame}{Velocidade Angular do Movimento de Abdução e Adução}
+     %\begin{block}{}
+      \center 
+      \includegraphics[height=2.8 in]{img/amplitude-braco.png}
 			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-     \end{block}
+     %\end{block}
 \end{frame}
 
 \begin{frame}{Filtragem de Dados: Remoção de Ciclos Incompletos}
@@ -453,26 +447,6 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 
 
-\begin{frame}{Máquina de Vetor de Suporte (SVM)}
-   \begin{block}{}
-   
-   \begin{columns}[c]
-     \begin{column}{0.5\linewidth}
-			 \begin{itemize}
-			        \item Uma SVM busca encontrar vetores de suporte que consigam separa duas classes
-			        
-				%\item Uma SVM utiliza vetores de separação através de uma técnica de hiperplano de separação ótima
-
-				\item Formalmente, essa classificador separa os dados por meio de um hiperplano através de uma função discriminante
-			\end{itemize}
-     \end{column}
-
-     \begin{column}{0.5\linewidth}
-				\includegraphics[width=4cm]{img/svmhyperplane.png}
-    \end{column}
-\end{columns}
-\end{block}
-\end{frame}
 
 
 \begin{frame}{Processamento dos Sinais Biomecânicos}
@@ -595,6 +569,27 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 % \end{frame}
 
 \subsection{Classificação dos Dados}
+\begin{frame}{Máquina de Vetor de Suporte (SVM)}
+   \begin{block}{}
+   
+   \begin{columns}[c]
+     \begin{column}{0.5\linewidth}
+			 \begin{itemize}
+			        \item Uma SVM busca encontrar vetores de suporte que consigam separa duas classes
+			        
+				%\item Uma SVM utiliza vetores de separação através de uma técnica de hiperplano de separação ótima
+
+				\item Formalmente, essa classificador separa os dados por meio de um hiperplano através de uma função discriminante
+			\end{itemize}
+     \end{column}
+
+     \begin{column}{0.5\linewidth}
+				\includegraphics[width=4cm]{img/svmhyperplane.png}
+    \end{column}
+\end{columns}
+\end{block}
+\end{frame}
+
 % \begin{frame}{Classificação dos Dados}
 % 	\begin{block}{}
 % 		\begin{itemize}
@@ -640,7 +635,7 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
    \end{block}
    
    \begin{block}{Gamma ($\gamma$)}
-   O parâmetro $\gamma$ controla a flexibilidade da função de \textit{kernel}, valores pequenos de $\gamma$ permitem ao classificador ajustar todos os rótulos havendo risco de sobre ajustamento. %(\textit{overfitting}). 
+   O parâmetro $\gamma$ controla a flexibilidade da função de \textit{kernel}, valores pequenos de $\gamma$ permitem ao classificador ajustar todos os rótulos havendo risco de sobre ajustamento (\textit{overfitting}). 
    
    %Nesse caso o kernel da matriz se aproxima da matriz de identidade. Por outro lado, valores grandes de $\gamma$  reduzem o \textit{kernel} para uma função constante, tornando impossível o processo de aprendizagem do classificador.   
    \end{block}
@@ -865,8 +860,8 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \end{frame}
 
 
-\section{Finalização}
-\subsection{Conclusão e Trabalhos Futuros}
+\section{Conclusão e Trabalhos Futuros}
+\subsection{}
 
 \begin{frame}{Conclusão}
 \begin{block}{}
@@ -891,19 +886,19 @@ A partir dos resultados apresentados nesta tese e extensão da mesma, alguns tra
 \end{frame}
 
 
-\subsection{Publicações}
+%\subsection{Publicações}
 \begin{frame}{Publicações}
 \begin{block}{}
 Foram publicados três artigos, em conferências internacionais, relacionados à tese: 
   \begin{itemize}
-   \item \textit{Abstract}: \textit{Monitoring Parkinson related Gait Disorders with Eigengaits}, no, \textit{XX World Congress on Parkinson's Disease and Related Disorders} (2013)~\cite{lmmeigengaits2013}
-   \item \textit{Full Paper}: \textit{A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgame2016}
-   \item \textit{Full Paper}: \textit{A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis}, no, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)~\cite{lmmcbmsgait2016}
+   \item \textit{Abstract}: \textbf{Monitoring Parkinson related Gait Disorders with Eigengaits}, \textit{XX World Congress on Parkinson's Disease and Related Disorders} (2013)%~\cite{lmmeigengaits2013}
+   \item \textit{Full Paper}: \textbf{A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification}, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)%~\cite{lmmcbmsgame2016}
+   \item \textit{Full Paper}: \textbf{A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis}, \textit{International Symposium on Computer-Based Medical Systems} (CBMS 2016)%~\cite{lmmcbmsgait2016}
   \end{itemize}
 \end{block}
 \end{frame}
 
-\subsection{Dúvidas}
+%\subsection{Dúvidas}
 \begin{frame}
   \begin{center}
   DÚVIDAS ?

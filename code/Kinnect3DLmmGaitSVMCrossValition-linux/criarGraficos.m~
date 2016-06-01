@@ -1,0 +1,122 @@
+%% Gr�fico Sinal do Punho Direito
+figure(100)
+hold on
+plot(signalRight,'DisplayName','signalRight','YDataSource','signalRight');
+title('Exemplo de Sinal da Posi��o Y do Punho Direito');
+xlabel('Timestamp (ms)');
+ylabel('Posi��o Y');
+hold off
+
+%% Gr�fico Detec��o de Picos e Vales
+figure(101)
+[maxtab, mintab] = peakdet(signalRight, 500);
+hold on;
+plot(signalRight);
+plot(mintab(:,1), mintab(:,2), 'g*');
+plot(maxtab(:,1), maxtab(:,2), 'r*');
+title('Técnica de Detecão Picos e Vales');
+xlabel('Timestamp (ms)');
+ylabel('Posição Y');
+legend('Sinal','Vale','Pico');
+hold off;
+
+%% Gr�fico Identifica��o In�cio e Fim dos Ciclos de Movimento]
+hold on
+plot(signalRight(WindowBeginRight:WindowLengthRight),'DisplayName','signalRight','YDataSource','signalRight');
+xlabel('Timestamp (ms)');
+ylabel('Posi��o Y');
+%title('Remo��o do Ru�dos com a Identifica��o do In�cio e Fim dos Ciclos de Movimento');
+hold off
+
+
+%% Gr�fico �ngulo relativo abdu��o e adu��o do bra�o
+hold on
+plot(rightArmAngle(:,1), rightArmAngle(:,2));
+xlabel('Timestamp (ms)');
+ylabel('Amplitude do Bra�o em �');
+hold off
+
+%% Detec��o de Picos e Vales Gr�fico �ngulo relativo abdu��o e adu��o do bra�o
+hold on
+signal = rightArmAngle(:,2);
+timestamp = rightArmAngle(:,1);
+timestamp = timestamp - timestamp(1);
+[maxtab, mintab] = peakdet(signal, 90);
+plot(signal);
+plot(mintab(:,1), mintab(:,2), 'g*');
+plot(maxtab(:,1), maxtab(:,2), 'r*');
+xlabel('Frame');
+ylabel('Amplitude do Bra�o em �');
+legend('Sinal','Vale','Pico');
+hold off
+
+%% Gr�fico Ciclo de Movimento Normalizado 
+hold on
+plot(normalization(2,1:40),'DisplayName','normalization(2,1:40)','YDataSource','normalization(2,1:40)');figure(gcf);
+title('Ciclos de Movimento Normalizados e Escalonados');
+%plot(normalization(2,:),'Ciclo de Movimento Normalizado e Escalonado');
+text(6,0.6,'Bra�o Esquerdo');
+text(26,0.6,'Bra�o Direito');
+axis
+xlabel('Frame');
+ylabel('Valores do Movimento Normalizados');
+hold off
+
+%% Gr�fico do Vetor M�dio do Ciclo de Movimento Normalizado e Escalonado
+hold on
+ plot(meanOfNormalization(1,1:40),'DisplayName','meanOfNormalization(1,1:40)','YDataSource','meanOfNormalization(1,1:40)');figure(gcf)
+title('Vetor M�dio do Ciclo de Movimento Normalizado e Escalonado');
+%plot(normalization(2,:),'Ciclo de Movimento Normalizado e Escalonado');
+text(6,0.6,'Bra�o Esquerdo');
+text(26,0.6,'Bra�o Direito');
+xlabel('Frame');
+ylabel('Valores do Movimento Normalizados');
+hold off
+
+
+%% Gr�fico do Vetor M�dio do Ciclo de Movimento Normalizado e Escalonado
+hold on
+plot(normalization(25,1:40),'DisplayName','normalization(25,1:40)','YDataSource','normalization(25,1:40)');figure(gcf)
+title('Gr�fico de Ciclo de Movimento Removido');
+%plot(normalization(2,:),'Ciclo de Movimento Normalizado e Escalonado');
+text(6,0.6,'Bra�o Esquerdo');
+text(26,0.6,'Bra�o Direito');
+xlabel('Frame');
+ylabel('Valores do Movimento Normalizados');
+hold off
+
+
+%%Gr�fico do GridSearching - Surf
+figure(1)
+hold on
+grid on
+load('GridSearch.mat')
+%surf(grid_searching_matrix(2:end,2:end));
+%axis([grid_searching_matrix(2:end,2) grid_searching_matrix(1,2:end)])
+grid_searching_matrix(2:end,2:end) = grid_searching_matrix(2:end,2:end)*100;
+surf(grid_searching_matrix(1,2:end),grid_searching_matrix(2:end,1),grid_searching_matrix(2:end,2:end))
+xlabel('(Y) Gamma Parameter', 'FontSize', 13);
+ylabel('(C) Cost Parameter','FontSize', 13);
+zlabel('Accuracy (%)','FontSize', 13);
+hold off
+
+
+%%Gr�fico do GridSearching - FP RATE
+figure(1)
+hold on
+grid on
+load('GridSearch.mat')
+%surf(grid_searching_matrix(2:end,2:end));
+%axis([grid_searching_matrix(2:end,2) grid_searching_matrix(1,2:end)])
+grid_error_matrix(2:end,2:end) = grid_error_matrix(2:end,2:end)*100;
+surf(grid_error_matrix(1,2:end),grid_error_matrix(2:end,1),grid_error_matrix(2:end,2:end))
+xlabel('(Y) Gamma Parameter', 'FontSize', 13);
+ylabel('(C) Cost Parameter','FontSize', 13);
+zlabel('FPRate (%)','FontSize', 13);
+hold off
+
+
+hold on
+load('GridSearch.mat')
+boxplot(grid_searching_matrix(2:11,2:11));
+hold off
