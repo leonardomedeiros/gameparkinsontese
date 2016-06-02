@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.4.24)  2 JUN 2016 16:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2013.4.24)  2 JUN 2016 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,7 +1365,18 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \Hy@safe@activesfalse \relax \citename 
                                                   {Jankovic, }2008
-l.228 \end{frame}
+l.230 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \Hy@safe@activesfalse \relax \citename 
+                                                  {Picon {\em et~al.\ }\rela...
+l.230 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1379,11 +1390,11 @@ and I'll forget about whatever was undefined.
 
 ] [16
 
-] <img/updr1-sel.png, id=1303, 858.20625pt x 644.4075pt>
+] <img/updr1-sel.png, id=1305, 858.20625pt x 644.4075pt>
 File: img/updr1-sel.png Graphic file (type png)
 
 <use img/updr1-sel.png>
-Package pdftex.def Info: img/updr1-sel.png used on input line 264.
+Package pdftex.def Info: img/updr1-sel.png used on input line 266.
 (pdftex.def)             Requested size: 192.4988pt x 144.54pt.
  [17
 
@@ -1394,7 +1405,7 @@ Package pdftex.def Info: img/updr1-sel.png used on input line 264.
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 315.
+(Font)              using `OT1/cmss/bx/n' instead on input line 317.
 
 [20
 
@@ -1407,26 +1418,26 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 ]
 File: img/visaosistema.png Graphic file (type png)
  <use img/visaosistema.png>
-Package pdftex.def Info: img/visaosistema.png used on input line 363.
+Package pdftex.def Info: img/visaosistema.png used on input line 365.
 (pdftex.def)             Requested size: 195.94016pt x 158.99377pt.
  [24
 
 ]
-Overfull \vbox (15.17336pt too high) detected at line 378
+Overfull \vbox (15.17336pt too high) detected at line 380
  []
 
 [25
 
 ] [26
 
-] <img/articulacoes-sel.png, id=1973, 526.1256pt x 490.4724pt>
+] <img/articulacoes-sel.png, id=1975, 526.1256pt x 490.4724pt>
 File: img/articulacoes-sel.png Graphic file (type png)
 
 <use img/articulacoes-sel.png>
-Package pdftex.def Info: img/articulacoes-sel.png used on input line 405.
+Package pdftex.def Info: img/articulacoes-sel.png used on input line 407.
 (pdftex.def)             Requested size: 193.80443pt x 180.67499pt.
 
-Overfull \vbox (9.38527pt too high) detected at line 405
+Overfull \vbox (9.38527pt too high) detected at line 407
  []
 
 [27
@@ -1435,7 +1446,7 @@ Overfull \vbox (9.38527pt too high) detected at line 405
 ! Undefined control sequence.
 <argument> \Hy@safe@activesfalse \relax \citename 
                                                   {McGinnis, }2013
-l.411 \end{frame}
+l.413 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1443,88 +1454,88 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<img/abducao-angulo.png, id=2043, 244.2726pt x 347.3778pt>
+<img/abducao-angulo.png, id=2045, 244.2726pt x 347.3778pt>
 File: img/abducao-angulo.png Graphic file (type png)
 
 <use img/abducao-angulo.png>
-Package pdftex.def Info: img/abducao-angulo.png used on input line 411.
+Package pdftex.def Info: img/abducao-angulo.png used on input line 413.
 (pdftex.def)             Requested size: 113.81102pt x 161.85234pt.
  [28
 
  <./img/abducao-angulo.png>]
-<img/exsinalposicaoypunhodireito.png, id=2113, 545.78906pt x 339.51843pt>
+<img/exsinalposicaoypunhodireito.png, id=2115, 545.78906pt x 339.51843pt>
 File: img/exsinalposicaoypunhodireito.png Graphic file (type png)
 
 <use img/exsinalposicaoypunhodireito.png>
 Package pdftex.def Info: img/exsinalposicaoypunhodireito.png used on input line
- 417.
+ 419.
 (pdftex.def)             Requested size: 325.294pt x 202.35622pt.
 
-Overfull \hbox (18.00414pt too wide) in paragraph at lines 417--417
+Overfull \hbox (18.00414pt too wide) in paragraph at lines 419--419
 []  
  []
 
 
-Overfull \vbox (19.28316pt too high) detected at line 417
+Overfull \vbox (19.28316pt too high) detected at line 419
  []
 
 [29
 
  <./img/exsinalposicaoypunhodireito.png (PNG copy)>]
-<img/deteccaopicosvales.png, id=2180, 599.23875pt x 402.75468pt>
+<img/deteccaopicosvales.png, id=2182, 599.23875pt x 402.75468pt>
 File: img/deteccaopicosvales.png Graphic file (type png)
 
 <use img/deteccaopicosvales.png>
-Package pdftex.def Info: img/deteccaopicosvales.png used on input line 426.
+Package pdftex.def Info: img/deteccaopicosvales.png used on input line 428.
 (pdftex.def)             Requested size: 301.07248pt x 202.35622pt.
 
-Overfull \vbox (5.68315pt too high) detected at line 426
+Overfull \vbox (5.68315pt too high) detected at line 428
  []
 
 [30
 
  <./img/deteccaopicosvales.png (PNG copy)>]
-<img/amplitude-braco.png, id=2248, 421.575pt x 316.18124pt>
+<img/amplitude-braco.png, id=2250, 421.575pt x 316.18124pt>
 File: img/amplitude-braco.png Graphic file (type png)
 
 <use img/amplitude-braco.png>
-Package pdftex.def Info: img/amplitude-braco.png used on input line 436.
+Package pdftex.def Info: img/amplitude-braco.png used on input line 438.
 (pdftex.def)             Requested size: 269.8135pt x 202.35622pt.
 
-Overfull \vbox (5.68315pt too high) detected at line 436
+Overfull \vbox (5.68315pt too high) detected at line 438
  []
 
 [31
 
  <./img/amplitude-braco.png (PNG copy)>]
-<img/ciclonormalizadoescalonado.png, id=2317, 421.575pt x 316.18124pt>
+<img/ciclonormalizadoescalonado.png, id=2319, 421.575pt x 316.18124pt>
 File: img/ciclonormalizadoescalonado.png Graphic file (type png)
 
 <use img/ciclonormalizadoescalonado.png>
 Package pdftex.def Info: img/ciclonormalizadoescalonado.png used on input line 
-451.
+453.
 (pdftex.def)             Requested size: 156.49014pt x 117.36636pt.
 
-Overfull \hbox (2.84521pt too wide) in paragraph at lines 451--451
+Overfull \hbox (2.84521pt too wide) in paragraph at lines 453--453
 [][]  
  []
 
-<img/ciclomovimentoremovido.png, id=2318, 421.575pt x 316.18124pt>
+<img/ciclomovimentoremovido.png, id=2320, 421.575pt x 316.18124pt>
 File: img/ciclomovimentoremovido.png Graphic file (type png)
 
 <use img/ciclomovimentoremovido.png>
-Package pdftex.def Info: img/ciclomovimentoremovido.png used on input line 451.
+Package pdftex.def Info: img/ciclomovimentoremovido.png used on input line 453.
 
 (pdftex.def)             Requested size: 156.49014pt x 117.36636pt.
  [32
 
  <./img/ciclonormalizadoescalonado.png (PNG copy)> <./img/ciclomovimentoremovid
 o.png (PNG copy)>]
-<img/caracteristicas-tabela.png, id=2385, 495.2904pt x 445.665pt>
+<img/caracteristicas-tabela.png, id=2387, 495.2904pt x 445.665pt>
 File: img/caracteristicas-tabela.png Graphic file (type png)
 
 <use img/caracteristicas-tabela.png>
-Package pdftex.def Info: img/caracteristicas-tabela.png used on input line 458.
+Package pdftex.def Info: img/caracteristicas-tabela.png used on input line 460.
 
 (pdftex.def)             Requested size: 176.69466pt x 158.99377pt.
  [33
@@ -1536,7 +1547,7 @@ Package pdftex.def Info: img/caracteristicas-tabela.png used on input line 458.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.475 \end{frame}
+l.477 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1544,7 +1555,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    \let 
-l.475 \end{frame}
+l.477 \end{frame}
                  
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -1553,17 +1564,17 @@ braces don't get unbalanced. Otherwise just proceed.
 Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
-<img/biomecprocessorh.png, id=2521, 560.3334pt x 240.9pt>
+<img/biomecprocessorh.png, id=2523, 560.3334pt x 240.9pt>
 File: img/biomecprocessorh.png Graphic file (type png)
 
 <use img/biomecprocessorh.png>
-Package pdftex.def Info: img/biomecprocessorh.png used on input line 475.
+Package pdftex.def Info: img/biomecprocessorh.png used on input line 477.
 (pdftex.def)             Requested size: 319.39336pt x 137.31255pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.475 \end{frame}
+l.477 \end{frame}
                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1571,7 +1582,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.475 \end{frame}
+l.477 \end{frame}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1580,7 +1591,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (14.50348pt too wide) in paragraph at lines 475--475
+Overfull \hbox (14.50348pt too wide) in paragraph at lines 477--477
 []$[]$  
  []
 
@@ -1591,33 +1602,33 @@ Overfull \hbox (14.50348pt too wide) in paragraph at lines 475--475
 ] [37
 
 ]
-<img/catch-the-spheres.png, id=2724, 1063.72406pt x 557.08125pt>
+<img/catch-the-spheres.png, id=2726, 1063.72406pt x 557.08125pt>
 File: img/catch-the-spheres.png Graphic file (type png)
 
 <use img/catch-the-spheres.png>
-Package pdftex.def Info: img/catch-the-spheres.png used on input line 532.
+Package pdftex.def Info: img/catch-the-spheres.png used on input line 534.
 (pdftex.def)             Requested size: 303.58652pt x 158.99377pt.
  [38
 
  <./img/catch-the-spheres.png (PNG copy)>]
-<img/capturaducaokinnect.png, id=2791, 715.17188pt x 495.35063pt>
+<img/capturaducaokinnect.png, id=2793, 715.17188pt x 495.35063pt>
 File: img/capturaducaokinnect.png Graphic file (type png)
 
 <use img/capturaducaokinnect.png>
-Package pdftex.def Info: img/capturaducaokinnect.png used on input line 538.
+Package pdftex.def Info: img/capturaducaokinnect.png used on input line 540.
 (pdftex.def)             Requested size: 250.41211pt x 173.44756pt.
 
-Overfull \vbox (2.15784pt too high) detected at line 538
+Overfull \vbox (2.15784pt too high) detected at line 540
  []
 
 [39
 
  <./img/capturaducaokinnect.png (PNG copy)>]
-<img/svmhyperplane.png, id=2859, 612.2875pt x 511.9125pt>
+<img/svmhyperplane.png, id=2861, 612.2875pt x 511.9125pt>
 File: img/svmhyperplane.png Graphic file (type png)
 
 <use img/svmhyperplane.png>
-Package pdftex.def Info: img/svmhyperplane.png used on input line 613.
+Package pdftex.def Info: img/svmhyperplane.png used on input line 615.
 (pdftex.def)             Requested size: 113.81102pt x 95.14755pt.
  [40
 
@@ -1625,7 +1636,7 @@ Package pdftex.def Info: img/svmhyperplane.png used on input line 613.
 ! Undefined control sequence.
 <argument> \Hy@safe@activesfalse \relax \citename 
                                                   {Li {\em et~al.\ }\relax ,...
-l.632 \end{frame}
+l.634 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1636,7 +1647,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \Hy@safe@activesfalse \relax \citename 
                                                   {Kantardzic, }2011
-l.632 \end{frame}
+l.634 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1649,19 +1660,19 @@ and I'll forget about whatever was undefined.
 ] [42
 
 ]
-Overfull \vbox (7.56035pt too high) detected at line 686
+Overfull \vbox (7.56035pt too high) detected at line 688
  []
 
 [43
 
-] <./img/gridsearch.png, id=3138, 558.888pt x 428.802pt>
+] <./img/gridsearch.png, id=3140, 558.888pt x 428.802pt>
 File: ./img/gridsearch.png Graphic file (type png)
 
 <use ./img/gridsearch.png>
-Package pdftex.def Info: ./img/gridsearch.png used on input line 694.
+Package pdftex.def Info: ./img/gridsearch.png used on input line 696.
 (pdftex.def)             Requested size: 223.55124pt x 171.51776pt.
 
-Overfull \vbox (0.22804pt too high) detected at line 694
+Overfull \vbox (0.22804pt too high) detected at line 696
  []
 
 [44
@@ -1671,14 +1682,14 @@ Overfull \vbox (0.22804pt too high) detected at line 694
 ] [46
 
 ]
-<img/pinball_world.png, id=3341, 602.25pt x 343.2825pt>
+<img/pinball_world.png, id=3343, 602.25pt x 343.2825pt>
 File: img/pinball_world.png Graphic file (type png)
 
 <use img/pinball_world.png>
-Package pdftex.def Info: img/pinball_world.png used on input line 770.
+Package pdftex.def Info: img/pinball_world.png used on input line 772.
 (pdftex.def)             Requested size: 126.78867pt x 72.26999pt.
 
-Overfull \vbox (10.73862pt too high) detected at line 770
+Overfull \vbox (10.73862pt too high) detected at line 772
  []
 
 [47
@@ -1688,62 +1699,62 @@ Overfull \vbox (10.73862pt too high) detected at line 770
 ] [49
 
 ]
-<img/chartdiversao.png, id=3543, 752.8125pt x 519.44063pt>
+<img/chartdiversao.png, id=3545, 752.8125pt x 519.44063pt>
 File: img/chartdiversao.png Graphic file (type png)
 
 <use img/chartdiversao.png>
-Package pdftex.def Info: img/chartdiversao.png used on input line 854.
+Package pdftex.def Info: img/chartdiversao.png used on input line 856.
 (pdftex.def)             Requested size: 293.26256pt x 202.35622pt.
 
-Overfull \vbox (5.68315pt too high) detected at line 854
+Overfull \vbox (5.68315pt too high) detected at line 856
  []
 
 [50
 
  <./img/chartdiversao.png (PNG copy)>]
-<img/chartfrequencia.png, id=3610, 752.8125pt x 519.44063pt>
+<img/chartfrequencia.png, id=3612, 752.8125pt x 519.44063pt>
 File: img/chartfrequencia.png Graphic file (type png)
 
 <use img/chartfrequencia.png>
-Package pdftex.def Info: img/chartfrequencia.png used on input line 864.
+Package pdftex.def Info: img/chartfrequencia.png used on input line 866.
 (pdftex.def)             Requested size: 293.26256pt x 202.35622pt.
 
-Overfull \vbox (5.68315pt too high) detected at line 864
+Overfull \vbox (5.68315pt too high) detected at line 866
  []
 
 [51
 
  <./img/chartfrequencia.png (PNG copy)>]
-<img/metricasq1.png, id=3678, 450.18187pt x 184.43906pt>
+<img/metricasq1.png, id=3680, 450.18187pt x 184.43906pt>
 File: img/metricasq1.png Graphic file (type png)
 
 <use img/metricasq1.png>
-Package pdftex.def Info: img/metricasq1.png used on input line 870.
+Package pdftex.def Info: img/metricasq1.png used on input line 872.
 (pdftex.def)             Requested size: 246.95508pt x 101.17755pt.
  [52
 
  <./img/metricasq1.png>]
-<img/chartfaixaetaria.png, id=3745, 752.8125pt x 519.44063pt>
+<img/chartfaixaetaria.png, id=3748, 752.8125pt x 519.44063pt>
 File: img/chartfaixaetaria.png Graphic file (type png)
 
 <use img/chartfaixaetaria.png>
-Package pdftex.def Info: img/chartfaixaetaria.png used on input line 876.
+Package pdftex.def Info: img/chartfaixaetaria.png used on input line 878.
 (pdftex.def)             Requested size: 293.26256pt x 202.35622pt.
 
-Overfull \vbox (5.68315pt too high) detected at line 876
+Overfull \vbox (5.68315pt too high) detected at line 878
  []
 
 [53
 
  <./img/chartfaixaetaria.png (PNG copy)>]
-<img/metricasq2.png, id=3813, 449.42906pt x 146.79843pt>
+<img/metricasq2.png, id=3815, 449.42906pt x 146.79843pt>
 File: img/metricasq2.png Graphic file (type png)
 
 <use img/metricasq2.png>
-Package pdftex.def Info: img/metricasq2.png used on input line 882.
+Package pdftex.def Info: img/metricasq2.png used on input line 884.
 (pdftex.def)             Requested size: 309.75662pt x 101.17755pt.
 
-Overfull \hbox (2.46675pt too wide) in paragraph at lines 882--882
+Overfull \hbox (2.46675pt too wide) in paragraph at lines 884--884
  [] 
  []
 
@@ -1755,7 +1766,7 @@ Overfull \hbox (2.46675pt too wide) in paragraph at lines 882--882
 ! Undefined control sequence.
 <argument> \Hy@safe@activesfalse \relax \citename 
                                                   {Goulart \& Pereira, }2005
-l.908 \end{frame}
+l.910 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1766,7 +1777,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \Hy@safe@activesfalse \relax \citename 
                                                   {Chamasemani \& Singh, }2011
-l.908 \end{frame}
+l.910 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1777,7 +1788,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \Hy@safe@activesfalse \relax \citename 
                                                   {Picon {\em et~al.\ }\rela...
-l.908 \end{frame}
+l.910 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1788,7 +1799,7 @@ and I'll forget about whatever was undefined.
 [56
 
 ]
-Overfull \vbox (7.24785pt too high) detected at line 921
+Overfull \vbox (7.24785pt too high) detected at line 923
  []
 
 [57
@@ -1823,11 +1834,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@snm=\write8
 \openout8 = `jogos-saude-tese.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 933.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 933.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 935.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 935.
  (./jogos-saude-tese.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 933.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 933.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 935.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 935.
 Package rerunfilecheck Info: File `jogos-saude-tese.out' has not changed.
 (rerunfilecheck)             Checksum: F90B935EEE4B3D794CB665CBC6632C10;932.
 
@@ -1838,7 +1849,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 933.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 935.
  ) 
 Here is how much of TeX's memory you used:
  18125 strings out of 493488
@@ -1857,10 +1868,10 @@ ic/amsfonts/cm/cmssbx10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmssi10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmssi12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on jogos-saude-tese.pdf (64 pages, 4022515 bytes).
+Output written on jogos-saude-tese.pdf (64 pages, 4022804 bytes).
 PDF statistics:
- 4644 PDF objects out of 5155 (max. 8388607)
- 4422 compressed objects within 45 object streams
+ 4645 PDF objects out of 5155 (max. 8388607)
+ 4423 compressed objects within 45 object streams
  165 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
