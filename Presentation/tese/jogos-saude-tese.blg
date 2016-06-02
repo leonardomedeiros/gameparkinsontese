@@ -9,45 +9,45 @@ Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the e
 while executing---line 1229 of file authordate2.bst
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1303 of file authordate2.bst
-You've used 21 entries,
+You've used 18 entries,
             2455 wiz_defined-function locations,
-            667 strings with 8615 characters,
-and the built_in function-call counts, 7662 in all, are:
-= -- 687
-> -- 390
-< -- 67
-+ -- 125
-- -- 116
-* -- 592
-:= -- 1356
-add.period$ -- 93
-call.type$ -- 21
-change.case$ -- 169
-chr.to.int$ -- 20
-cite$ -- 21
-duplicate$ -- 278
-empty$ -- 526
-format.name$ -- 132
-if$ -- 1535
-int.to.chr$ -- 2
+            655 strings with 7988 characters,
+and the built_in function-call counts, 6457 in all, are:
+= -- 585
+> -- 321
+< -- 58
++ -- 99
+- -- 95
+* -- 496
+:= -- 1146
+add.period$ -- 78
+call.type$ -- 18
+change.case$ -- 145
+chr.to.int$ -- 18
+cite$ -- 18
+duplicate$ -- 236
+empty$ -- 436
+format.name$ -- 111
+if$ -- 1289
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 23
-newline$ -- 116
-num.names$ -- 63
-pop$ -- 132
+missing$ -- 20
+newline$ -- 98
+num.names$ -- 54
+pop$ -- 114
 preamble$ -- 1
-purify$ -- 151
+purify$ -- 130
 quote$ -- 0
-skip$ -- 290
+skip$ -- 249
 stack$ -- 0
-substring$ -- 239
-swap$ -- 42
+substring$ -- 202
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
+type$ -- 138
 warning$ -- 0
-while$ -- 42
+while$ -- 36
 width$ -- 0
-write$ -- 271
+write$ -- 229
 (There were 3 error messages)

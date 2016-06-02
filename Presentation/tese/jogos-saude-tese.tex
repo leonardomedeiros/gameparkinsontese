@@ -85,7 +85,19 @@ showstringspaces=false }
 \section{Introdução}
 \subsection{Motivação}
 
-\begin{frame}{Sistemas de Monitoramento de Saúde}
+\begin{frame}{Sistemas de Monitoramento da Saúde (SMS)}  
+  \begin{block}{}
+  Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico:
+  \begin{itemize}
+   \item Tratar preventivamente e pró-ativamente o estado de saúde~\cite{healthmonitoring2013}
+   \item Reabilitar o paciente~\cite{sacbespoke2014}
+   \item Melhorar a qualidade de vida~\cite{sacsvmhms2014}
+  \end{itemize} 
+  \end{block} 
+\end{frame}
+
+
+\begin{frame}{Principais Desafios dos (SMS)}
   \begin{block}{}
   \center
       \includegraphics[height=1.8 in]{img/sismonsaude.png}
@@ -97,17 +109,6 @@ showstringspaces=false }
 
 
 
-
-\begin{frame}{Aplicações dos Sistemas de Monitoramento da Saúde (SMS)}  
-  \begin{block}{}
-  Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico:
-  \begin{itemize}
-   \item Tratar preventivamente e pró-ativamente o estado de saúde~\cite{healthmonitoring2013}
-   \item Reabilitar o paciente~\cite{sacbespoke2014}
-   \item Melhorar a qualidade de vida~\cite{sacsvmhms2014}
-  \end{itemize} 
-  \end{block} 
-\end{frame}
 
 
 \begin{frame}{Estratégias de Monitoramento da Saúde}
@@ -135,8 +136,8 @@ showstringspaces=false }
   \begin{block}{}
       \center \includegraphics[height=1.8 in]{img/visaosistema.png}
   \end{block}
-  \begin{block}{ }
-Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos eletrônicos. 
+  \begin{block}{}
+Nesta tese, propus monitorar a saúde de uma forma não invasiva usando jogos eletrônicos. 
   \end{block}
 \end{frame}
 
@@ -145,13 +146,14 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
    \begin{block}{}
       Como possível cenário de uso para a pesquisa, supondo que:
       \begin{itemize}
-       \item Um paciente faz uso do cliente JOGUE-ME no conforto de seus lar e, consequentemente, fornece os sinais motores em diferentes momentos do dia
-       \item Logo, esses sinais motores são quantificados e enviados para o servidor JOGUE-ME
-       \item O servidor JOGUE-ME analisa os sinais e identifica e quantificar a ocorrência dos sintomas motores
-       \item Então, o médico recebe a informação sobre a saúde motora e consegue melhor gerenciar a saúde de seus pacientes 
+       \item Um paciente faz uso do cliente JOGUE-ME no \textbf{conforto de seus lar} e, consequentemente, fornece os sinais motores em diferentes momentos do dia
+       \item Logo, esses sinais motores são \textbf{quantificados e enviados} para o servidor JOGUE-ME
+       \item O servidor \textbf{JOGUE-ME analisa os sinais e identifica a ocorrência} do sintomas motor
+       \item Então, o \textbf{médico acessa a informação} sobre a saúde motora e \textbf{consegue melhor gerenciar a saúde} de seus pacientes 
       \end{itemize}
   \end{block}
 \end{frame}
+
 
 \subsection{Jogos Para Saúde}
 \begin{frame}{Jogos Aplicados à Saúde}
@@ -159,8 +161,8 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 	Nos últimos anos, houve o surgimento de jogos para apoiar a prática de atividade física. Como por exemplo:
 	
 	\begin{itemize}
-	    \item Melhoria da saúde do idoso com: visado a reabilitação motora dos idosos~\cite{sacbespoke2014}
-	    \item Jogos com sensores hápticos para quantificar a habilidade motora do paciente com Parkinson ~\cite{atkinson2010}
+	    \item Melhoria da saúde do idoso com: visando a reabilitação motora~\cite{sacbespoke2014}
+	    \item Jogos com sensores hápticos para quantificar a habilidade motora do paciente com Parkinson~\cite{atkinson2010}
 	    \item Jogos para o monitoramento dos sinais vitais(Batimento cardíaco)~\cite{Sinclair:2009:UVB:1515604.1515617}
 	\end{itemize}
 	\end{block}
@@ -171,7 +173,7 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 	\begin{block}{}
 	\begin{itemize}
 	    \item Percentual expressivo de adultos e idosos que usam jogos em sua rotina diária (27\% acima dos 50 anos~\cite{esa2015})
-	    \item As tecnologias de sensores de movimento presentes nos jogos eletrônicos
+	    \item As tecnologias de sensores de movimento estão presentes nos jogos eletrônicos
 	    \item Reprodução de movimentos específicos em um ambiente lúdico
 	\end{itemize}
 	\end{block}
@@ -184,7 +186,7 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Objetivo Principal}
   \begin{block}{}
-  Conceber um SMS embutido num jogo eletrônico para motivar e abstrair o monitoramento dos sinais motores de uma maneira não invasiva
+  Conceber um SMS embutido num jogo eletrônico para \textbf{motivar e abstrair o monitoramento dos sinais motores de uma maneira não invasiva}
   \end{block}
 \end{frame}
 
@@ -204,35 +206,30 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \subsection{Parkinson}
 \begin{frame}{Estudo de Caso}
   \begin{block}{}
-   Como estudo de caso, escolhemos a Doença de Parkinson (Parkinson) por ser uma doença neurodegenerativa crônica, progressiva 
-   \begin{itemize}
-    \item Comum em idosos
-    \item Existem casos precoces em indivíduos antes dos 40 anos
-    \item \textbf{flutuabilidade dos sintomas devido o tratamento medicamentoso}
-   \end{itemize}
+   Como estudo de caso, escolhi a Doença de Parkinson (Parkinson) por ser uma doença debilitante, progressiva e que possui uma grande \textbf{flutuabilidade dos sintomas com o tratamento medicamentoso}
+   %\begin{itemize}
+    %\item Comum em idosos
+    %\item Existem casos precoces em indivíduos antes dos 40 anos
+    %\item 
+   %\end{itemize}
   \end{block}
 \end{frame}
 
 
 \begin{frame}{Parkinson}
   \begin{block}{}
-    O Parkinson é uma afecção do sistema nervoso central, a qual é expressa de forma crônica e progressiva. 
-      \begin{itemize}
-       \item Causada pela morte dos neurônios produtores de dopamina da substância negra~\cite{protpar010}
-       \item Caracterizada pelos sinais cardinais de rigidez, bradicinesia, tremor e instabilidade postural~\cite{jankovic2008}
-      \end{itemize}
-  \end{block}
+    O Parkinson é uma afecção do sistema nervoso central, que afeta aproximadamente a 2\% dos idosos. O Parkinson não possui diagnóstico estabelecido e é caracterizado principalmente pelos sinais cardinais de \textbf{rigidez, bradicinesia, tremor e instabilidade postural}~\cite{jankovic2008}.
 %   \begin{block}{Termos: Tremor de Repouso e Bradicinesia}<3->
 %       \begin{itemize}
 %        \item \textbf{Tremor de Repouso:} sintoma mais frequente e perceptível;
 %        \item \textbf{Bradicinesia:} lentidão na execução do movimento;
 %       \end{itemize}
-%   \end{block}
+   \end{block}
 \end{frame}
 
 
-\begin{frame}{Doença de Parkinson}
-  \begin{block}{Bradicinesia}
+\begin{frame}{Parkinson}
+  \begin{block}{Sintoma de bradicinesia}
       \begin{itemize}
 	\item Enquanto que o tremor é o sintoma motor mais visível do Parkinson, a bradicinesia é o mais incapacitante
 	%\item A bradicinesia consiste numa lentidão do movimento voluntário e num comprometimento de todos os movimentos associados a ele.
@@ -300,10 +297,32 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
     \end{block}
 \end{frame} 
 
+
+\begin{frame}{Análise dos fragmentos da entrevista} 
+    \begin{block}{}			
+			Um ponto de convergência entre os profissionais entrevistados é a importância de monitorar a velocidade angular dos pacientes.
+		\end{block}
+		
+		\begin{block}{}
+					Como pode ser analisado nesta citação de um dos neurologistas:
+			\begin{quote}
+				\textbf{[FRAGMENTO-14][NEU\_01]} 
+					\emph{
+						``É como eu falei, para mim seria melhor se capturássemos se ele está mais lento. Se através dessa amplitude, você conseguir por intermédio do computador identificar que ele está mais lento de um lado do que do outro, e conseguir visualizar a velocidade de um lado e do outro. Então, isso é interessante.''
+			}
+			\end{quote}			
+    \end{block}
+\end{frame} 
+
+
+
+
+
+
 \begin{frame}{Resultado da Entrevista} 
     \begin{block}{}
 			\begin{itemize}
-				\item Identificamos a importância de \textbf{monitorar a bradicinesia para acompanhar a evolução do Parkinson}
+				\item Identifiquei a importância de \textbf{monitorar a bradicinesia para acompanhar a evolução do Parkinson}
 				\item Os profissionais de saúde informaram da importância de calcular:
 					\begin{enumerate}
 						\item amplitude dos movimentos de abdução e adução dos braços
@@ -312,6 +331,8 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 			\end{itemize}
     \end{block}
 \end{frame} 
+
+
 
 
 \section{Abordagem JOGUE-ME}
@@ -326,12 +347,12 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 
 \begin{frame}{Abordagem JOGUE-ME}
     \begin{block}{}
-    A abordagem \textbf{JOGUE-ME} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus dados motores, em comparação ao uso dos dispositivos vestíveis
+    A abordagem \textbf{JOGUE-ME} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus dados motores
     \end{block}
     
     
     \begin{block}{}
-    Este trabalho pretende usar um ambiente de jogo para a execução de movimentos específicos com o propósito de quantificar os sinais motores dos usuários e consequentemente realizar o monitoramento
+    Este trabalho pretende usar um ambiente de jogo para a execução de movimentos específicos, com o propósito de quantificar os sinais motores dos usuários e, consequentemente, realizar o monitoramento
     \end{block}
 \end{frame}
 
@@ -439,13 +460,11 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 \subsection{Classificador de Dados}
 \begin{frame}{Classificador de Dados}
 \begin{block}{}
-			Nesta tese, o classificador de dados foi utilizado para identificar o sintoma da bradicinesia em pacientes com Parkinson
+			Nesta tese, a Máquina de Vetor de Suporte (SVM) foi usada como método de aprendizagem supervisionada para problemas de classificação.
 			
+			A escolha da SVM deveu-se a sua elevada capacidade de \textbf{generalização} na previsão de dados não treinados, e na \textbf{robustez} em grandes dimensões de dados, por ex., \textbf{análise de sinais} motores.			
 \end{block}
-
 \end{frame}
-
-
 
 
 
@@ -454,6 +473,7 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
       \left \includegraphics[height=1.9 in]{img/biomecprocessorh.png}
   
 \end{frame}
+
 
 
 % \begin{frame}{Visualização do Vetor Médio do Movimento de Abdução e Adução do Braço}
@@ -516,6 +536,8 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
   \center \includegraphics[height=2.4 in]{img/capturaducaokinnect.png} 
   \end{block}
 \end{frame}
+
+
 
 % \begin{frame}{Processo de Coleta de Dados}
 %    \begin{block}{}   
@@ -612,7 +634,7 @@ Nesta tese, propomos monitorar a saúde de uma forma não invasiva usando jogos 
 %A standard SVM seeks to find a margin that separates all positive and negative examples
 
 
-
+	
 %C is the parameter for the soft margin cost function, which controls the influence of each individual support vector; this process involves trading error penalty for stability.
 
 % Gamma is the free parameter of the Gaussian radial basis function.
