@@ -1,8 +1,30 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: healthgamecbms2016.aux
-I couldn't open style file authordate2.bst
----line 44 of file healthgamecbms2016.aux
- : \bibstyle{authordate2
- :                      }
+The style file: IEEEtran.bst
+I couldn't open database file IEEEFormat.bib
+---line 47 of file healthgamecbms2016.aux
+ : \bibdata{sigproc2,IEEEFormat
+ :                             }
 I'm skipping whatever remains of this command
-I found no style file---while reading file healthgamecbms2016.aux
-(There were 2 error messages)
+Database file #1: sigproc2.bib
+I was expecting a `,' or a `}'---line 30 of file sigproc2.bib
+ : 
+ : @Book{national2006parkinson,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 89 of file sigproc2.bib
+ : 
+ : @Article{alemdar2015,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 347 of file sigproc2.bib
+ : @inproceedings{sacsvmhms2014
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "healthmonitoring2013"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in sacsvmhms2014
+
+Done.
+(There were 4 error messages)

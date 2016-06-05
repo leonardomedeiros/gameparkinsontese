@@ -4,19 +4,12 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
-\usepackage[tight]{subfigure}
+%\usepackage[tight]{subfigure}
 \usepackage{graphicx}
 \usepackage{color}
 \usepackage{url}
 % \usepackage{listings}
 %\usepackage[alf]{abntcite}
-
-%Pacote de listagem de c�digo
-%\usepackage{listings}
-%\lstset{numbers=left, stepnumber=1, firstnumber=1,
-%numberstyle=\tiny, extendedchars=true, breaklines=true, frame=tb,
-%basicstyle=\footnotesize, stringstyle=\ttfamily,
-%showstringspaces=false }
 
 
 %\usetheme{Frankfurt} %LEGAL     !!!
@@ -53,15 +46,14 @@
 
 
 
-\author[L. Medeiros]{Aluno: Leonardo Melo de Medeiros}
+\author[]{\textbf{Leonardo Medeiros}, Hyggo Almeida, Leandro Da Silva, Mirko Perkusich and Robert Fischer}
+
 %\date{\today}
-\date{03/06/2016}
-\institute[]{Orientador: Leandro Dias da Silva\\
-						 Orientador: Hyggo Oliveira de Almeida \\ 
-						 Universidade Federal de Campina Grande - UFCG}
-\title{Uma Abordagem de Monitoramento dos Sinais Motores da Doença de Parkinson Baseada em Jogos Eletrônicos}
+\date{20/06/2016}
+\institute[]{Federal University Of Campina Grande}
+\title{A Game-Based Approach to Monitor Parkinson's Disease: The bradykinesia symptom classification}
 %\logo{\includegraphics[width=0.2\linewidth]{img/logo.png}}
-\subtitle{Defesa de Tese}
+\subtitle{CBMS 2016}
 
 \begin{document}
 
@@ -73,8 +65,8 @@
 % \AtBeginSection[]
 {\frame{
 \frametitle{Roteiro}
-\tableofcontents
-%\tableofcontents[hideallsubsections]
+%\tableofcontents
+\tableofcontents[hideallsubsections]
 }
 }
 
@@ -85,6 +77,23 @@
 \section{Introdução}
 \subsection{Motivação}
 
+
+
+
+
+
+
+\begin{frame}{Health Monitoring Systems (HMS)}  
+  \begin{block}{}
+Health Monitoring Systems (HMS) are designed to support continuous treatment by moving healthcare services from the hospital to the patients' home. 
+  \end{block} 
+\end{frame}
+
+\begin{frame}{Parkinson Disease (PD)}  
+  \begin{block}{}
+The symptoms associated with PD are caused by a degeneration of dopaminergic neurons in the substantia nigra. Common treatment focuses on drugs that activate dopamine receptors. However, the medication's effectiveness decreases over the years requiring higher dosages \cite{national2006parkinson}.
+  \end{block} 
+\end{frame}
 \begin{frame}{Sistemas de Monitoramento da Saúde (SMS)}  
   \begin{block}{}
   Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico:
@@ -96,16 +105,16 @@
   \end{block} 
 \end{frame}
 
-
-\begin{frame}{Principais Desafios dos (SMS)}
-  \begin{block}{}
-  \center
-      \includegraphics[height=1.8 in]{img/sismonsaude.png}
-  \end{block}
-  \begin{block}{}  
-  A concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar2015}
-  \end{block}
-\end{frame}
+%
+%\begin{frame}{Principais Desafios dos (SMS)}
+%  \begin{block}{}
+%  \center
+%      \includegraphics[height=1.8 in]{img/sismonsaude.png}
+%  \end{block}
+%  \begin{block}{}  
+%  A concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar2015}
+%  \end{block}
+%\end{frame}
 
 
 
@@ -929,8 +938,8 @@
   \end{center}
 \end{frame}
 
-\bibliographystyle{authordate2}
-\bibliography{biblmmcor} % arquivos com as entradas bib.
+\bibliographystyle{IEEEtran}
+\bibliography{sigproc2,IEEEFormat}
 
 \end{document}
 	
