@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.12pt}
+\select@language {portuguese}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Motiva\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
