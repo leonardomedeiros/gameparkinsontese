@@ -3,7 +3,7 @@
 
 
 \usepackage[utf8]{inputenc}
-\usepackage[portuguese]{babel}
+\usepackage[english]{babel}
 %\usepackage[tight]{subfigure}
 \usepackage{graphicx}
 \usepackage{color}
@@ -46,14 +46,15 @@
 
 
 
-\author[]{\textbf{Leonardo Medeiros}, Hyggo Almeida, Leandro Da Silva, Mirko Perkusich and Robert Fischer}
+\author[]{\textbf{Leonardo Medeiros}, Hyggo Almeida, Leandro da Silva, Mirko Perkusich and Robert Fischer}
 
 %\date{\today}
 \date{20/06/2016}
-\institute[]{Federal University Of Campina Grande}
+\institute[]{Federal University Of Campina Grande - BRAZIL
+}
 \title{A Game-Based Approach to Monitor Parkinson's Disease: The bradykinesia symptom classification}
 %\logo{\includegraphics[width=0.2\linewidth]{img/logo.png}}
-\subtitle{CBMS 2016}
+\subtitle{\textbf{CBMS 2016}}
 
 \begin{document}
 
@@ -64,9 +65,9 @@
 % \section{Roteiro}
 % \AtBeginSection[]
 {\frame{
-\frametitle{Roteiro}
+\frametitle{Summary}
 %\tableofcontents
-\tableofcontents[hideallsubsections]
+\tableofcontents
 }
 }
 
@@ -74,48 +75,220 @@
 
 
 
-\section{Introdução}
-\subsection{Motivação}
 
-
-
-
-
-
-
-\begin{frame}{Health Monitoring Systems (HMS)}  
-  \begin{block}{}
-Health Monitoring Systems (HMS) are designed to support continuous treatment by moving healthcare services from the hospital to the patients' home. 
+\section{Motivation}
+\begin{frame}
+  \begin{block}{Health Monitoring Systems (HMS)}
+Designed to support continuous treatment by moving healthcare services from the hospital to the patients' home. 
   \end{block} 
 \end{frame}
 
-\begin{frame}{Parkinson Disease (PD)}  
-  \begin{block}{}
-The symptoms associated with PD are caused by a degeneration of dopaminergic neurons in the substantia nigra. Common treatment focuses on drugs that activate dopamine receptors. However, the medication's effectiveness decreases over the years requiring higher dosages \cite{national2006parkinson}.
-  \end{block} 
-\end{frame}
-\begin{frame}{Sistemas de Monitoramento da Saúde (SMS)}  
-  \begin{block}{}
-  Atualmente, os Sistemas de Monitoramento da Saúde (SMS) permitem ao médico:
-  \begin{itemize}
-   \item Tratar preventivamente e pró-ativamente o estado de saúde~\cite{healthmonitoring2013}
-   \item Reabilitar o paciente~\cite{sacbespoke2014}
-   \item Melhorar a qualidade de vida~\cite{sacsvmhms2014}
-  \end{itemize} 
-  \end{block} 
+\begin{frame}{The HMS's Major Challenge}
+  \begin{block}{Non-Invasive and Integrated Into Daily Routine}
+  \center
+      \includegraphics[height=1.8 in]{img/sismonsaude.png}
+  \end{block}  
 \end{frame}
 
+%\subsection{Jogos Para Saúde}
+%\begin{frame}{Jogos Aplicados à Saúde}
+%	\begin{block}{}	
+%	Nos últimos anos, houve o surgimento de jogos para apoiar a prática de atividade física. Como por exemplo:
+%	
+%	\begin{itemize}
+%	    \item Melhoria da saúde do idoso com: visando a reabilitação motora~\cite{sacbespoke2014}
+%	    \item Jogo com sensor háptico para quantificar a habilidade motora do paciente com Parkinson~\cite{atkinson2010}
+%	    \item Jogo para o monitoramento dos sinais vitais(Batimento cardíaco)~\cite{Sinclair:2009:UVB:1515604.1515617}
+%	\end{itemize}
+%	\end{block}
+%\end{frame}
 %
-%\begin{frame}{Principais Desafios dos (SMS)}
-%  \begin{block}{}
-%  \center
-%      \includegraphics[height=1.8 in]{img/sismonsaude.png}
-%  \end{block}
-%  \begin{block}{}  
-%  A concepção de um sistema não invasivo de monitoramento é um grande desafio~\cite{alemdar2015}
-%  \end{block}
+%
+%\begin{frame}{Motivação para uso de jogos para monitoramento dos dados motores}
+%	\begin{block}{}
+%	\begin{itemize}
+%	    \item Percentual expressivo de adultos e idosos que usam jogos em sua rotina diária (27\% acima dos 50 anos~\cite{esa2015})
+%	    \item As tecnologias de sensores de movimento estão presentes nos jogos eletrônicos
+%	    \item Reprodução de movimentos específicos em um ambiente lúdico e longe do tratamento de saúde
+%	\end{itemize}
+%	\end{block}
+
+
+\begin{frame}{}  
+  \begin{block}{Parkinson Disease (PD)}
+The symptoms associated with PD are caused by a \textbf{degeneration of dopaminergic neurons} in the substantia nigra. Common treatment focuses on \textbf{drugs that activate dopamine receptors}. However, the medication's effectiveness decreases over the years \textbf{requiring higher dosages}
+  \end{block} 
+\end{frame}
+
+\begin{frame}{} 
+    \begin{block}{PD's Treatment and Disease Management}
+      \begin{itemize}
+					\item Clinical trial evaluation: subjectively and sporadically;
+					\item Motor fluctuations (\textit{on/off} phenomenon).
+     \end{itemize}
+  \end{block}
+\end{frame}
+
+
+
+\begin{frame}{}
+  \begin{block}{Bradykinesia Symptom}
+      \begin{itemize}
+				\item Bradykinesia describes a slowness in the execution of movement. It is one of the four key symptoms of parkinsonism, which are bradykinesia, tremor, rigidity, and postural instability
+				\item The tremmor is the most visible PD's motor symptom, but the bradykinesia is the most
+	\end{itemize}
+  \end{block}
+\end{frame}
+  
+
+
+\section{Objectives}
+\begin{frame}
+		 \begin{block}{Main Objective}
+				A non-invasive HMS for Parkinson's Disease motor symptoms based on games to continuously provide data regarding patient, without reminding the disease's treatment
+		 \end{block}
+     \begin{block}{}
+     \begin{center}		
+		
+      \end{center}
+    \end{block}
+		%\begin{alertblock}{}
+		%The monitoring at the patients' home provides more data regarding the patient's symptoms and improves the medication management mainly in the disease's intermediate stages
+ 	%\end{alertblock}
+\end{frame}
+
+%\begin{frame}
+    %\begin{block}{Main Requirements}
+		    %\begin{enumerate}[<+->]
+            %\item A contactless measurement of patient motor symptoms inside the game environment;
+						%\item Use of a popular consumer electronic devices as input to have a non-invasive, cost-effective solution for home use.
+        %\end{enumerate}
+    %\end{block}
 %\end{frame}
 
+
+\begin{frame}
+    \begin{block}{Main Requirements}
+		    \begin{enumerate}[<+->]
+            \item A contactless measurement of patient motor symptoms inside the game environment;
+						\item Use of a popular consumer electronic device as input to have a non-invasive, cost-effective solution for home use.
+        \end{enumerate}
+    \end{block}
+\end{frame}
+
+
+\begin{frame}
+    \begin{block}{Who will use the Game-Based Health Monitor Approach}
+        \begin{itemize}[<+->]
+            \item A person with age above 55 years old;
+            \item A person with Parkinson's disease;
+            \item Neurologist and physiotherapist responsible for patient's treatment.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+
+\begin{frame}{}
+   \begin{block}{Use Scenario}
+      \begin{itemize}[<+->]
+       \item A PD' patient play the HGM Client in home and seamlessly provide the motor data;
+       \item So, the motor signs are sent to HGM Server;
+       \item The HGM Server process the user's data and identify the occurrence of the PD's disease bradykinesia symptom;
+       \item Then, the neurologist visualize the user's health information to assess the patient's level of motor deficiency.
+      \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+		 \begin{block}{System Overview}
+			\begin{center}
+				\includegraphics[height=2.2 in]{img/systemoverview3.png}
+			\end{center}
+		 \end{block}
+\end{frame}
+
+
+\begin{frame}
+    \begin{block}{What was developed?}
+        \begin{itemize}[<+->]
+            \item  A semi-structured interview with healthcare professionals associated to scientific references to identify the system requirements;
+            \item The development of the Health Game Monitor (HGM) Client (Catch the Spheres' game);
+            \item The development of the HGM Server, responsible for processing the data and making the results available to the health professional;
+						\item Experimental studies with target users.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+\section{System Requirements}
+
+
+\begin{frame}{} 
+    \begin{block}{Qualitative Research Analysis}					
+		The respondents suggested focusing on the bradykinesia motor symptom due to its debilitating progress. Thus, treatment benefits could be correlated with the \textbf{increase of amplitude and angular velocities of an arm's adduction and abduction movements}.
+    \end{block}
+\end{frame} 
+
+
+
+
+\begin{frame}{}
+	\begin{block}{Some Elicited Requirements}
+		\begin{itemize}[<+->]
+			\item	Easy and safe to use equipment
+      \item Incite the player to perform specific movements that are required for the measurement 
+      \item Game with clear and entertaining goal and adapted to the user's skills
+			\item Provide a informative visual way to the healthcare professional
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+
+
+\section{System Development}
+
+\begin{frame}
+		 \begin{block}{System Architecture}
+			\begin{center}
+				\includegraphics[height=2.2 in]{img/systemarchitecture3.png}
+			\end{center}
+		 \end{block}
+\end{frame}
+
+
+\begin{frame}{}
+  \begin{block}{The Biomechanical Analysis of Human Movement}
+   The diagnosis and treatment process for PD uses the biomechanical analysis of human movement, where the patients are asked to lift their arms, one after the other, at the highest amplitude and velocity they are able to, in order to check the bradykinesia progress. 
+  \end{block}
+\end{frame}
+
+\begin{frame}{}
+  \begin{block}{Ms-Kinect Joints Acquisition}
+      \center \includegraphics[height=2.5 in]{img/articulacoes-sel.png}
+			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
+  \end{block}
+	
+	\begin{block}{}
+	Adduction and Abduction involves: \textbf{wrist, shoulder, and hip} joints.
+	\end{block}	
+\end{frame}
+
+
+
+\begin{frame}{}
+  \begin{block}{Angle over time with the peak and valley detection technique}
+      \center 
+      \includegraphics[height=1.6 in]{img/signalamplitudepeakvaley-2.png}
+  \end{block}
+	
+	\begin{block}{Angular motion calculation}
+	The cycle movement and transform the MS-Kinect data into angles. Thus, we calculate the \textbf{angular motion} of the adduction and abduction movements.
+	\end{block}
+\end{frame}
+
+\section{Data Classification}
+%
+%
 
 
 
@@ -151,41 +324,8 @@ The symptoms associated with PD are caused by a degeneration of dopaminergic neu
 %\end{frame}
 %
 %
-%\begin{frame}{Cenário de Uso}
-%   \begin{block}{}
-%      Como possível cenário de uso para a pesquisa, supondo que:
-%      \begin{itemize}
-%       \item Um paciente faz uso do cliente JOGUE-ME no \textbf{conforto de seus lar} e, consequentemente, fornece os sinais motores em diferentes momentos do dia
-%       \item Logo, esses sinais motores são \textbf{quantificados e enviados} para o servidor JOGUE-ME
-%       \item O servidor \textbf{JOGUE-ME analisa os sinais e identifica a ocorrência} do sintomas motor
-%       \item Então, o \textbf{médico acessa a informação} sobre a saúde motora e \textbf{consegue melhor gerenciar a saúde} de seus pacientes 
-%      \end{itemize}
-%  \end{block}
-%\end{frame}
 %
 %
-%\subsection{Jogos Para Saúde}
-%\begin{frame}{Jogos Aplicados à Saúde}
-%	\begin{block}{}	
-%	Nos últimos anos, houve o surgimento de jogos para apoiar a prática de atividade física. Como por exemplo:
-%	
-%	\begin{itemize}
-%	    \item Melhoria da saúde do idoso com: visando a reabilitação motora~\cite{sacbespoke2014}
-%	    \item Jogo com sensor háptico para quantificar a habilidade motora do paciente com Parkinson~\cite{atkinson2010}
-%	    \item Jogo para o monitoramento dos sinais vitais(Batimento cardíaco)~\cite{Sinclair:2009:UVB:1515604.1515617}
-%	\end{itemize}
-%	\end{block}
-%\end{frame}
-%
-%
-%\begin{frame}{Motivação para uso de jogos para monitoramento dos dados motores}
-%	\begin{block}{}
-%	\begin{itemize}
-%	    \item Percentual expressivo de adultos e idosos que usam jogos em sua rotina diária (27\% acima dos 50 anos~\cite{esa2015})
-%	    \item As tecnologias de sensores de movimento estão presentes nos jogos eletrônicos
-%	    \item Reprodução de movimentos específicos em um ambiente lúdico e longe do tratamento de saúde
-%	\end{itemize}
-%	\end{block}
 %	
 %% 	\begin{alertblock}{}
 %% 	Monitorar os sinais permite um melhor gerenciamento da doença e, por consequência, uma melhora na qualidade de vida
@@ -226,29 +366,6 @@ The symptoms associated with PD are caused by a degeneration of dopaminergic neu
 %
 %
 %\begin{frame}{Parkinson}
-%  \begin{block}{}
-%    O Parkinson é uma afecção do sistema nervoso central, que afeta aproximadamente a 2\% dos idosos e não possui ainda diagnóstico estabelecido. 
-%		
-%		O diagnóstico é dado pelo neurologista na análise clínica dos sinais cardinais de \textbf{rigidez, bradicinesia, tremor e instabilidade postural}~\cite{jankovic2008} e a resposta positiva ao tratamento medicamentoso~\cite{protpar010}
-%%   \begin{block}{Termos: Tremor de Repouso e Bradicinesia}<3->
-%%       \begin{itemize}
-%%        \item \textbf{Tremor de Repouso:} sintoma mais frequente e perceptível;
-%%        \item \textbf{Bradicinesia:} lentidão na execução do movimento;
-%%       \end{itemize}
-%   \end{block}
-%\end{frame}
-%
-%
-%\begin{frame}{Parkinson}
-%  \begin{block}{Sintoma de bradicinesia}
-%      \begin{itemize}
-%	\item Enquanto que o tremor é o sintoma motor mais visível do Parkinson, a bradicinesia é o mais incapacitante
-%	%\item A bradicinesia consiste numa lentidão do movimento voluntário e num comprometimento de todos os movimentos associados a ele.
-%	\item A bradicinesia é acompanhada de: rigidez dos músculos, assimetria dos movimentos e dificuldade nos movimentos
-%	\end{itemize}
-%  \end{block}
-%\end{frame}
-%  
 %
 %\begin{frame}{Estágios da Doença}
 %  \begin{block}{Escala Unificada de Avaliação da Doença de Parkinson (UPDRS)}
@@ -271,7 +388,6 @@ The symptoms associated with PD are caused by a degeneration of dopaminergic neu
 %	\item Flutuação dos sintomas (fenômeno \textit{on/off})
 %     \end{itemize}
 %%    \end{block}
-%
 %\end{frame}
 %
 %% \begin{frame}{Escala (UPDRS)} 
@@ -288,60 +404,12 @@ The symptoms associated with PD are caused by a degeneration of dopaminergic neu
 %  \end{block}
 %\end{frame}
 %
-%\begin{frame}{Entrevista Semi-Estruturada com Profissionais de Saúde} 
-%    \begin{block}{Objetivo da Pesquisa}
-%    O objetivo da entrevista semiestruturada foi entender como é feito o acompanhamento do paciente com sintomatologia do Parkinson, juntamente aos profissionais de saúde
-%    \end{block}
-%		\begin{block}{Participantes}
-%			\begin{table}[h]
-%			%\caption{Perfil dos Participantes}
-%			%\label{table:perfil_analise_participantes}
-%			\begin{tabular}{|l|l|c|c|}
-%			\hline
-%			\textbf{LEGENDA} & \textbf{PROFISSÃO}             & \multicolumn{1}{|l|}{\textbf{EXPERIÊNCIA (ANOS)}} \\ \hline
-%			FIS\_01          & Fisioterapeuta & 10                                                \\ \hline
-%			FIS\_02          & Fisioterapeuta    & 10                                                \\ \hline
-%			NEU\_01          & Neurologista            & 15                                                \\ \hline
-%			NEU\_02          & Neurologista            & 30                                                \\ \hline
-%			\end{tabular}
-%			\end{table}
-%    \end{block}
-%\end{frame} 
-%
-%
-%\begin{frame}{Análise dos fragmentos da entrevista} 
-%    \begin{block}{}			
-%			Um ponto de convergência entre os profissionais entrevistados é a importância de monitorar a velocidade angular dos pacientes.
-%		\end{block}
-%		
-%		\begin{block}{}
-%					Como pode ser analisado nesta citação de um dos neurologistas:
-%			\begin{quote}
-%				\textbf{[FRAGMENTO-14][NEU\_01]} 
-%					\emph{
-%						``É como eu falei, para mim seria melhor se capturássemos se ele está mais lento. Se através dessa amplitude, você conseguir por intermédio do computador identificar que ele está mais lento de um lado do que do outro, e conseguir visualizar a velocidade de um lado e do outro. Então, isso é interessante.''
-%			}
-%			\end{quote}			
-%    \end{block}
-%\end{frame} 
 %
 %
 %
 %
 %
 %
-%\begin{frame}{Resultado da Entrevista} 
-%    \begin{block}{}
-%			\begin{itemize}
-%				\item Identifiquei a importância de \textbf{monitorar a bradicinesia para acompanhar a evolução do Parkinson}
-%				\item Os profissionais de saúde informaram da importância de calcular:
-%					\begin{enumerate}
-%						\item amplitude dos movimentos de abdução e adução dos braços
-%						\item a velocidade angular desse movimento
-%					\end{enumerate}
-%			\end{itemize}
-%    \end{block}
-%\end{frame} 
 %
 %
 %
@@ -374,19 +442,6 @@ The symptoms associated with PD are caused by a degeneration of dopaminergic neu
 %\end{frame}
 %
 %
-%\begin{frame}{JOGUE-ME - \textit{Jogo com Monitoramento de Saúde Embutido}}
-%	\begin{block}{}
-%		\begin{itemize}
-%			\item	\textbf{REQ-JOGUE-ME-01} - Pontuação e taxa de acerto
-%			\item	\textbf{REQ-JOGUE-ME-02} - Progresso e evolução do jogador e dos desafios
-%			\item	\textbf{REQ-JOGUE-ME-03} - Estado de fluxo
-%			\item	\textbf{REQ-JOGUE-ME-04} - Preocupação com integridade física do jogador
-%			\item	\textbf{REQ-JOGUE-ME-05} - Aquisição e armazenamento de sinais motores
-%			\item	\textbf{REQ-JOGUE-ME-06} - Mecanismo de identificação de sintomas motores
-%			\item	\textbf{REQ-JOGUE-ME-07} - Mecanismo de visualização
-%		\end{itemize}
-%	\end{block}
-%\end{frame}
 %
 %\subsection{Processamento de Sinais}
 %
@@ -934,7 +989,7 @@ The symptoms associated with PD are caused by a degeneration of dopaminergic neu
 %\subsection{Dúvidas}
 \begin{frame}
   \begin{center}
-  DÚVIDAS ?
+  Questions ?
   \end{center}
 \end{frame}
 
