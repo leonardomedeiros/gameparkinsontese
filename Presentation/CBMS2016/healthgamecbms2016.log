@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  6 JUN 2016 11:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  6 JUN 2016 12:36
 entering extended mode
 **healthgamecbms2016.tex
 (C:\git\gameparkinsontese\Presentation\CBMS2016\healthgamecbms2016.tex
@@ -1109,7 +1109,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ] <img/systemoverview3.png, id=225, 726.46407pt x 432.86719pt>
 File: img/systemoverview3.png Graphic file (type png)
  <use img/systemoverview3.png>
-Package pdftex.def Info: img/systemoverview3.png used on input line 210.
+Package pdftex.def Info: img/systemoverview3.png used on input line 208.
 (pdftex.def)             Requested size: 266.83655pt x 158.99377pt.
  [18
 
@@ -1135,7 +1135,7 @@ Package pdftex.def Info: img/systemoverview3.png used on input line 210.
 <img/systemarchitecture3.png, id=328, 459.96844pt x 365.11406pt>
 File: img/systemarchitecture3.png Graphic file (type png)
  <use img/systemarchitecture3.png>
-Package pdftex.def Info: img/systemarchitecture3.png used on input line 258.
+Package pdftex.def Info: img/systemarchitecture3.png used on input line 256.
 (pdftex.def)             Requested size: 200.29521pt x 158.99377pt.
  [28
 
@@ -1145,10 +1145,10 @@ Package pdftex.def Info: img/systemarchitecture3.png used on input line 258.
 <img/articulacoes-sel.png, id=349, 526.1256pt x 490.4724pt>
 File: img/articulacoes-sel.png Graphic file (type png)
  <use img/articulacoes-sel.png>
-Package pdftex.def Info: img/articulacoes-sel.png used on input line 276.
+Package pdftex.def Info: img/articulacoes-sel.png used on input line 274.
 (pdftex.def)             Requested size: 193.80443pt x 180.67499pt.
 
-Overfull \vbox (23.62413pt too high) detected at line 276
+Overfull \vbox (44.16432pt too high) detected at line 274
  []
 
 [30
@@ -1157,8 +1157,11 @@ Overfull \vbox (23.62413pt too high) detected at line 276
 <img/signalamplitudepeakvaley-2.png, id=361, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
  <use img/signalamplitudepeakvaley-2.png>
-Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 289.
+Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 287.
 (pdftex.def)             Requested size: 186.41183pt x 115.63243pt.
+
+Overfull \vbox (10.92592pt too high) detected at line 287
+ []
 
 [31
 
@@ -1173,11 +1176,11 @@ LaTeX Warning: Empty `thebibliography' environment on input line 24.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1001.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1001.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 999.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 999.
  (C:\git\gameparkinsontese\Presentation\CBMS2016\healthgamecbms2016.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1001.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1001.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 999.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 999.
 Package rerunfilecheck Info: File `healthgamecbms2016.out' has not changed.
 (rerunfilecheck)             Checksum: 892847648773B624856674D7F5CF67C1;256.
 
@@ -1189,7 +1192,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  15940 strings out of 494045
  297971 string characters out of 3145961
- 370189 words of memory out of 3000000
+ 371189 words of memory out of 3000000
  18761 multiletter control sequences out of 15000+200000
  10607 words of font info for 39 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1198,7 +1201,7 @@ Here is how much of TeX's memory you used:
 type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmssi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on healthgamecbms2016.pdf (32 pages, 1640215 bytes).
+Output written on healthgamecbms2016.pdf (32 pages, 1639872 bytes).
 PDF statistics:
  419 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
