@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  6 JUN 2016 12:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  7 JUN 2016 12:54
 entering extended mode
 **healthgamecbms2016.tex
 (C:\git\gameparkinsontese\Presentation\CBMS2016\healthgamecbms2016.tex
@@ -1063,21 +1063,21 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [3
 
 ]
-<img/sismonsaude.png, id=79, 597.432pt x 287.6346pt>
+<img/sismonsaude.png, id=235, 597.432pt x 287.6346pt>
 File: img/sismonsaude.png Graphic file (type png)
  <use img/sismonsaude.png>
-Package pdftex.def Info: img/sismonsaude.png used on input line 91.
+Package pdftex.def Info: img/sismonsaude.png used on input line 92.
 (pdftex.def)             Requested size: 270.20021pt x 130.08621pt.
  [4
 
  <C:/git/gameparkinsontese/Presentation/CBMS2016/img/sismonsaude.png>] [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 130.
+LaTeX Font Info:    Try loading font information for U+msa on input line 131.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 130.
+LaTeX Font Info:    Try loading font information for U+msb on input line 131.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -1106,10 +1106,10 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ]
 [17
 
-] <img/systemoverview3.png, id=225, 726.46407pt x 432.86719pt>
+] <img/systemoverview3.png, id=823, 726.46407pt x 432.86719pt>
 File: img/systemoverview3.png Graphic file (type png)
  <use img/systemoverview3.png>
-Package pdftex.def Info: img/systemoverview3.png used on input line 208.
+Package pdftex.def Info: img/systemoverview3.png used on input line 210.
 (pdftex.def)             Requested size: 266.83655pt x 158.99377pt.
  [18
 
@@ -1132,43 +1132,177 @@ Package pdftex.def Info: img/systemoverview3.png used on input line 208.
 ] [27
 
 ]
-<img/systemarchitecture3.png, id=328, 459.96844pt x 365.11406pt>
+<img/systemarchitecture3.png, id=1244, 459.96844pt x 365.11406pt>
 File: img/systemarchitecture3.png Graphic file (type png)
  <use img/systemarchitecture3.png>
-Package pdftex.def Info: img/systemarchitecture3.png used on input line 256.
+Package pdftex.def Info: img/systemarchitecture3.png used on input line 257.
 (pdftex.def)             Requested size: 200.29521pt x 158.99377pt.
  [28
 
  <C:/git/gameparkinsontese/Presentation/CBMS2016/img/systemarchitecture3.png>] [29
 
 ]
-<img/articulacoes-sel.png, id=349, 526.1256pt x 490.4724pt>
+<img/articulacoes-sel.png, id=1329, 526.1256pt x 490.4724pt>
 File: img/articulacoes-sel.png Graphic file (type png)
  <use img/articulacoes-sel.png>
-Package pdftex.def Info: img/articulacoes-sel.png used on input line 274.
+Package pdftex.def Info: img/articulacoes-sel.png used on input line 275.
 (pdftex.def)             Requested size: 193.80443pt x 180.67499pt.
 
-Overfull \vbox (44.16432pt too high) detected at line 274
+Overfull \vbox (48.42397pt too high) detected at line 275
  []
 
 [30
 
  <C:/git/gameparkinsontese/Presentation/CBMS2016/img/articulacoes-sel.png>]
-<img/signalamplitudepeakvaley-2.png, id=361, 719.68875pt x 446.41782pt>
+<img/signalamplitudepeakvaley-2.png, id=1372, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
  <use img/signalamplitudepeakvaley-2.png>
-Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 287.
+Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 288.
 (pdftex.def)             Requested size: 186.41183pt x 115.63243pt.
 
-Overfull \vbox (10.92592pt too high) detected at line 287
+Overfull \vbox (15.18556pt too high) detected at line 288
  []
 
 [31
 
  <C:/git/gameparkinsontese/Presentation/CBMS2016/img/signalamplitudepeakvaley-2.png (PNG copy)>] [32
 
+] [33
+
+] [34
+
 ]
-(C:\git\gameparkinsontese\Presentation\CBMS2016\healthgamecbms2016.bbl
+[35
+
+] <img/catch_colour.png, id=1582, 846.91406pt x 481.8pt>
+File: img/catch_colour.png Graphic file (type png)
+ <use img/catch_colour.png>
+Package pdftex.def Info: img/catch_colour.png used on input line 305.
+(pdftex.def)             Requested size: 279.46957pt x 158.99377pt.
+ [36
+
+ <C:/git/gameparkinsontese/Presentation/CBMS2016/img/catch_colour.png>] [37
+
+]
+
+! LaTeX Error: Environment compactenum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 328
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 328
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 328
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 328
+[][]
+ []
+
+
+! LaTeX Error: \begin{beamercolorbox} on input line 328 ended by \end{compactenum}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[38
+
+] [39
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 381.
+
+
+Overfull \hbox (16.31363pt too wide) in paragraph at lines 381--381
+ [] 
+ []
+
+[40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
+
+] (C:\git\gameparkinsontese\Presentation\CBMS2016\healthgamecbms2016.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
@@ -1176,34 +1310,46 @@ LaTeX Warning: Empty `thebibliography' environment on input line 24.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 999.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 999.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 788.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 788.
  (C:\git\gameparkinsontese\Presentation\CBMS2016\healthgamecbms2016.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 999.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 999.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 788.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 788.
 Package rerunfilecheck Info: File `healthgamecbms2016.out' has not changed.
-(rerunfilecheck)             Checksum: 892847648773B624856674D7F5CF67C1;256.
+(rerunfilecheck)             Checksum: E35B838A89DF7123B2E3482FDC8288B7;294.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 15940 strings out of 494045
- 297971 string characters out of 3145961
- 371189 words of memory out of 3000000
- 18761 multiletter control sequences out of 15000+200000
- 10607 words of font info for 39 fonts, out of 3000000 for 9000
+ 16068 strings out of 494045
+ 300078 string characters out of 3145961
+ 407319 words of memory out of 3000000
+ 18853 multiletter control sequences out of 15000+200000
+ 11855 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 49i,15n,55p,506b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmssi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on healthgamecbms2016.pdf (32 pages, 1639872 bytes).
+ 49i,19n,57p,506b,809s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation47} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation46} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation45} has been referenced but does not exist, replaced by a fixed one
+
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmssi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on healthgamecbms2016.pdf (44 pages, 2067153 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2004 PDF objects out of 2073 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

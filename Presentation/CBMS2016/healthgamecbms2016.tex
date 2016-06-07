@@ -77,6 +77,7 @@
 
 
 \section{Motivation}
+\subsection{}
 \begin{frame}{Health Monitoring Systems (HMS)}
   \begin{block}{}
 Designed to support continuous treatment by moving healthcare services from the hospital to the patients' home. 
@@ -143,6 +144,7 @@ The symptoms associated with PD are caused by a \textbf{degeneration of dopamine
 
 
 \section{Objectives}
+\subsection{}
 \begin{frame}{Main Objective}
 		 \begin{block}{}
 				A non-invasive HMS for Parkinson's Disease motor symptoms based on games to continuously provide data regarding patient, without reminding the disease's treatment
@@ -220,8 +222,7 @@ The symptoms associated with PD are caused by a \textbf{degeneration of dopamine
 \end{frame}
 
 \section{System Requirements}
-
-
+\subsection{}
 \begin{frame}{Qualitative Research Analysis} 
     \begin{block}{}					
 		The respondents suggested focusing on the bradykinesia motor symptom due to its debilitating progress. Thus, treatment benefits could be correlated with the \textbf{increase of amplitude and angular velocities of an arm's adduction and abduction movements}.
@@ -246,7 +247,7 @@ The symptoms associated with PD are caused by a \textbf{degeneration of dopamine
 
 
 \section{System Development}
-
+\subsection{}
 \begin{frame}{System Architecture}
 		 \begin{block}{}
 			\begin{center}
@@ -286,375 +287,163 @@ The symptoms associated with PD are caused by a \textbf{degeneration of dopamine
 	\end{block}
 \end{frame}
 
-\section{Data Classification}
-%
-%
+\begin{frame}{Some Elicited Requirements}
+	\begin{block}{}
+		\begin{itemize}[<+->]
+			\item	Easy and safe to use equipment
+      \item Incite the player to perform specific movements that are required for the measurement 
+      \item Game with clear and entertaining goal and adapted to the user's skills
+			\item Provide a informative visual way to the healthcare professional
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Developed Health Game Monitor: Catch the Spheres}
+	\begin{center}
+      \center \includegraphics[height=2.2 in]{img/catch_colour.png}
+	\end{center}
+\end{frame}
+
+\section{Experiments}
+\subsection{}
+\begin{frame}{Case Control Study}
+	\begin{block}{}
+	A total number of 30 subjects participated where 15 subjects for each group.
+		\begin{itemize}
+			\item PD' Group: 10 men and 5 women, between 51 and 65 years (mean: 58);
+			\item Control Group: 11 men and 4 women, between 50 and 65 years (mean: 57).
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Procedure for Data Collection}
+	\begin{block}{}
+	\begin{compactenum}
+	\item The subject stands at distance of 2 meters from the motion sensor at a place marked for that purpose on the ground;
+	\item The subject faces a projection of the game on a wall, centered over the motion sensor;
+	\item The subject plays the game \textit{Catch the Spheres} for 5 minutes;
+	\item The subjects end the game by reaching the virtual exit button.
+\end{compactenum} 
+	\end{block}
+\end{frame}
 
 
+\begin{frame}{Data Classifier: SVM}
+\begin{block}{}
+	In this work, we used Support Vector Machine (SVM) as the supervised learning method. SVM seeks to find a margin that separates all positive and negative example.
+		
+	We choice this algorithm because he has \textbf{a good generalization to discriminate between two classes}.
+\end{block}
+\end{frame}
 
-%
-%\begin{frame}{Estratégias de Monitoramento da Saúde}
-%  \begin{block}{}
-%      \center \includegraphics[height=2.2 in]{img/estrategmonitorament.png}
-%  \end{block}
-%%   \begin{block}{}
-%% As tecnologias de monitoramento para serem aceitas precisam preservar a privacidade do usuário e integrar-se à sua rotina diária~\cite{alemdar2015}.
-%%   \end{block}
-%\end{frame}
-%
-%
-%\begin{frame}{SMS Motores}  
-%  \begin{block}{}  
-%  Atualmente, os SMS motores permitem:  
-%    \begin{itemize}
-%    \item Quantificar as habilidades motoras dos usuários~\cite{manumeterjbhi2014,patel_monitoring_2009}
-%    \item Analisar a marcha dos usuários~\cite{robotgait2014}
-%    \item Identificar sinais de bradicinesia (lentidão dos movimentos) presente no Parkinson~\cite{ambulatoryparkinson2010}
-%    \end{itemize}   
-%  \end{block}   
-%\end{frame}
-%
-%\begin{frame}{Abordagem Proposta}
-%  \begin{block}{}
-%      \center \includegraphics[height=1.8 in]{img/visaosistema.png}
-%  \end{block}
-%  \begin{block}{}
-%Nesta tese, propus monitorar a saúde de uma forma não invasiva usando jogos eletrônicos
-%  \end{block}
-%\end{frame}
-%
-%
-%
-%
-%	
-%% 	\begin{alertblock}{}
-%% 	Monitorar os sinais permite um melhor gerenciamento da doença e, por consequência, uma melhora na qualidade de vida
-%% 	\end{alertblock}
-%\end{frame}
-%
-%
-%\begin{frame}{Objetivo Principal}
-%  \begin{block}{}
-%  Conceber um SMS embutido num jogo eletrônico para \textbf{motivar e abstrair o monitoramento dos sinais motores de uma maneira não invasiva e integrada à rotina diária}
-%  \end{block}
-%\end{frame}
-%
-%
-%\begin{frame}{Etapas do Trabalho}
-%	\begin{block}{}
-%	  A da metodologia deste trabalho consistiu de três etapas sequenciais:
-%		  \begin{description}
-%		  \item[ETAPA 1] Quais os benefícios de acompanhar os sinais motores do paciente diariamente, do ponto de vista do profissional da saúde?
-%		  \item[ETAPA 2] Como melhor adquirir e quantificar sinais motores utilizando sensores de movimento para monitorar os sinais do Parkinson?
-%		  \item[ETAPA 3] Na perspectiva dos usuários, a abordagem de quantificar os sinais motores é considerada não-invasiva e aplicável à rotina diária?
-%		  \end{description}
-%	\end{block}
-%\end{frame}
-%
-%\section{Estudo de Caso}
-%\subsection{Parkinson}
-%\begin{frame}{Estudo de Caso}
-%  \begin{block}{}
-%   Como estudo de caso, foi utilizada a Doença de Parkinson (Parkinson) por ser uma doença debilitante, progressiva e que possui uma grande \textbf{flutuabilidade dos sintomas com o tratamento medicamentoso}
-%   %\begin{itemize}
-%    %\item Comum em idosos
-%    %\item Existem casos precoces em indivíduos antes dos 40 anos
-%    %\item 
-%   %\end{itemize}
-%  \end{block}
-%\end{frame}
-%
-%
-%\begin{frame}{Parkinson}
-%
-%\begin{frame}{Estágios da Doença}
-%  \begin{block}{Escala Unificada de Avaliação da Doença de Parkinson (UPDRS)}
-%    %A escala UPDRS avalia tanto o nível de estrutura e função corporal quanto o nível das atividades.
-%      A escala contém itens referentes a:
-%	\begin{itemize}
-%	 \item Mental, comportamento e humor
-%	 \item Atividades da vida diária
-%	 \item Exame motor
-%	 \item Complicações no tratamento
-%	\end{itemize}
-% \end{block}
-%\end{frame}
-%
-%\begin{frame}{Escala (UPDRS)} 
-%%    \begin{block}{}
-%      \center \includegraphics[height=2.0 in]{img/updr1-sel.png}
-%     \begin{itemize}
-%	\item Avaliação dos sintomas de maneira subjetiva e esporádica
-%	\item Flutuação dos sintomas (fenômeno \textit{on/off})
-%     \end{itemize}
-%%    \end{block}
-%\end{frame}
-%
-%% \begin{frame}{Escala (UPDRS)} 
-%%     \begin{block}{Impacto nas Atividades Diárias}
-%%       \center \includegraphics[height=2.0 in]{img/updr2-sel.png}'
-%%     \end{block}
-%% \end{frame}
-%
-%
-%\subsection{Entrevista}
-%\begin{frame}
-%  \begin{block}{ETAPA 1}
-%   Quais os benefícios de acompanhar os sinais motores do paciente diariamente, do ponto de vista do profissional da saúde?
-%  \end{block}
-%\end{frame}
-%
-%
-%
-%
-%
-%
-%
-%
-%
-%
-%
-%\section{Abordagem JOGUE-ME}
-%
-%
-%\subsection{Apresentação}
-%\begin{frame}
-%  \begin{block}{ETAPA 2}
-%   Como melhor adquirir e quantificar sinais motores utilizando sensores de movimento para monitorar os sinais do Parkinson?
-%  \end{block}
-%\end{frame}
-%
-%\begin{frame}{Abordagem JOGUE-ME}
-%    \begin{block}{}
-%    A abordagem \textbf{JOGUE-ME} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus dados motores
-%    \end{block}
-%    
-%    
-%    \begin{block}{}
-%    Este trabalho pretende usar um ambiente de jogo para a execução de movimentos específicos, com o propósito de quantificar os sinais motores dos usuários e, consequentemente, realizar o monitoramento
-%    \end{block}
-%\end{frame}
-%
-%\begin{frame}{Visão Geral da Abordagem~\textit{JOGUE-ME}}
-%  \begin{block}{}
-%      \center \includegraphics[height=2.2 in]{img/visaosistema.png}
-%  \end{block}
-%\end{frame}
-%
-%
-%
-%\subsection{Processamento de Sinais}
-%
-%
-%\begin{frame}{Estudo Biomecânico da Cinemática Angular}
-%  \begin{block}{}
-%      \begin{itemize}
-%	 \item A cinemática angular permite examinar o movimento angular a partir de segmentos de um movimento, divididos em partes identificáveis que aumentam a compreensão do movimento humano  
-%	 \item Estudo das forças e momentos que resultam no movimento do corpo e seus segmentos
-%	 \item Processamento das grandezas cinemáticas considerando: 
-%	    \begin{enumerate}
-%	      \item tempo
-%	      \item ângulo
-%	      \item amplitude
-%	      \item velocidade angular
-%	    \end{enumerate}
-%       \end{itemize}
-%  \end{block}
-%\end{frame}
-%
-%
-%\begin{frame}{Sensor de Captura de Movimentos}
-%  \begin{block}{}
-%      \center \includegraphics[height=2.5 in]{img/articulacoes-sel.png}
-%			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-%  \end{block}
-%\end{frame}
-%
-%\begin{frame}{Movimento Angular}
-%  \begin{block}{Movimento de Abdução e Adução do Braço ~\cite{mcginnis2013biomechanics}}
-%      \center \includegraphics[width=4cm]{img/abducao-angulo.png}
-%  \end{block}
-%\end{frame}
-%
-%
-%
-%\begin{frame}{Mecanismo de Identificação de Sintomas Motores}
-%      \center \includegraphics[height=2.8 in]{img/exsinalposicaoypunhodireito.png}
-%\end{frame}
-%
-%
-%
-%\begin{frame}{Técnicas de Picos e Vales do Sinal}
-%  %\begin{block}
-%      \center 
-%      \includegraphics[height=2.8 in]{img/deteccaopicosvales.png}
-%  %\end{block}
-%\end{frame}
-%
-%
-%
-%\begin{frame}{Velocidade Angular do Movimento de Abdução e Adução}
-%     %\begin{block}{}
-%      \center 
-%      \includegraphics[height=2.8 in]{img/amplitude-braco.png}
-%			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-%     %\end{block}
-%\end{frame}
-%
-%\begin{frame}{Filtragem de Dados: Remoção de Ciclos Incompletos}
-%   \begin{block}{}
-%   
-%   \begin{columns}[c]
-%     \begin{column}{0.5\linewidth}
-%				\includegraphics[width=5.5cm]{img/ciclonormalizadoescalonado.png}
-%     \end{column}
-%
-%     \begin{column}{0.55\linewidth}
-%				\includegraphics[width=5.5cm]{img/ciclomovimentoremovido.png}
-%    \end{column}
-%\end{columns}
-%\end{block}
-%\end{frame}
-%
-%\begin{frame}{Visualização das Características do Movimento}
-%  \begin{block}{}
-%      \center \includegraphics[height=2.2 in]{img/caracteristicas-tabela.png}
-%			%\caption{Modificações no Jogo ao Longo das Fases de Desenvolvimento~\cite{fullerton2008game}}
-%  \end{block}
-%\end{frame}
-%
-%\subsection{Classificador de Dados}
-%\begin{frame}{Classificador de Dados}
+
+%\begin{frame}{SVM Parameter Optimization}
 %\begin{block}{}
-%			Nesta tese, a Máquina de Vetor de Suporte (SVM) foi usada como método de aprendizagem supervisionada para problemas de classificação.
-%			
-%			A escolha da SVM deveu-se a sua elevada capacidade de \textbf{generalização} na previsão de dados não treinados, e na \textbf{robustez} em grandes dimensões de dados, por ex., \textbf{análise de sinais}.			
+%In this work, we applied the grid search technique to identify the best SVM parameters, using Leave-One-Out Cross-Validation (LOOCV).
 %\end{block}
 %\end{frame}
-%
-%
-%
-%\begin{frame}{Processamento dos Sinais Biomecânicos}
-%  
-%      \left \includegraphics[height=1.9 in]{img/biomecprocessorh.png}
-%  
+
+
+\begin{frame}{SVM Classifier Performance}
+   \begin{block}{}
+   
+   \begin{columns}[c]
+     \begin{column}{0.5\linewidth}
+				\begin{table}[!htbp]
+					\label{table:resultadomatrizconfusaosvm}
+					\centering
+					\begin{tabular}{l|c|c|}
+					\cline{2-3}
+					\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Predictive Class}}} \\ \cline{2-3} 
+																											 & \textbf{Parkinson}      & \textbf{Control}         \\ \hline
+					\multicolumn{1}{|l|}{\textbf{Parkinson}} & 12       & 3           \\ \hline
+					\multicolumn{1}{|l|}{\textbf{Control}}     & 1           & 14     \\ \hline
+					\end{tabular}
+			\end{table}
+
+     \end{column}
+
+     \begin{column}{0.55\linewidth}
+						\begin{table}[htbp!]
+						\begin{tabular}{|l|r|}
+						\hline
+						\multicolumn{2}{|l|}{\textbf{Classifier Metrics}} \\ \hline
+						\textbf{TpRate}                    & 80.00$\%$\                 \\ \hline
+						\textbf{FpRate}                    & 6.67$\%$\                \\ \hline
+						\textbf{Accuracy}                  & 86.67$\%$\                \\ \hline
+						\textbf{F-score}                   & 85.71$\%$\                \\ \hline
+						\textbf{Precision}                  & 92.31$\%$\                \\ \hline
+						\end{tabular}
+						\end{table}
+    \end{column}
+\end{columns}
+\end{block}
+\end{frame}
+
+%\begin{frame}{SVM Classifier Confusion Matrix}
+	%\begin{block}{}
+%\begin{table}[!htbp]
+		%\label{table:resultadomatrizconfusaosvm}
+		%\centering
+		%\begin{tabular}{l|c|c|}
+		%\cline{2-3}
+		%\multicolumn{1}{c}{}                         & \multicolumn{2}{|c|}{\textit{\textbf{Predictive Class}}} \\ \cline{2-3} 
+																								 %& \textbf{Parkinson}      & \textbf{Control}         \\ \hline
+		%\multicolumn{1}{|l|}{\textbf{Parkinson}} & 12       & 3           \\ \hline
+		%\multicolumn{1}{|l|}{\textbf{Control}}     & 1           & 14     \\ \hline
+		%\end{tabular}
+%\end{table}
+	%\end{block}
 %\end{frame}
 %
+%\begin{frame}{Classifier Metrics}
+   %%\begin{block}{}
+				%
+		%\begin{table}[htbp!]
+		%\begin{tabular}{|l|r|}
+		%\hline
+		%\multicolumn{2}{|l|}{\textbf{Classifier Metrics}} \\ \hline
+		%\textbf{TpRate}                    & 80.00$\%$\                 \\ \hline
+		%\textbf{FpRate}                    & 6.67$\%$\                \\ \hline
+		%\textbf{Accuracy}                  & 86.67$\%$\                \\ \hline
+		%\textbf{F-score}                   & 85.71$\%$\                \\ \hline
+		%\textbf{Precision}                  & 92.31$\%$\                \\ \hline
+		%\end{tabular}
+		%\end{table}
 %
-%
-%% \begin{frame}{Visualização do Vetor Médio do Movimento de Abdução e Adução do Braço}
-%%       \center \includegraphics[height=2.6 in]{img/vetormedioaducao.png}
-%% \end{frame}
-%
-%% \begin{frame}{Ciclos de Movimento de Abdução e Adução do Braço}
-%%       \center \includegraphics[height=3 in]{img/ciclosmovimentokinnect-2.png}
-%% \end{frame}
-%
-%
-%% \begin{frame}{Visualização das Características do Movimento}
-%%   \begin{block}{}
-%%       \center \includegraphics[height=2.6 in]{img/caracteristicas-tabela.png}
-%%   \end{block}
-%% \end{frame}
-%
-%\section{Experimentos}
-%\subsection{Caso-Controle}
-%%\subsection{Estudo Analítico de Caso-Controle}
-%\begin{frame}{Estudo Analítico de Caso-Controle: Identificação da Bradicinesia} 
-%    \begin{block}{Objetivo da Pesquisa}
-%
-%    
-%    Como melhor adquirir e quantificar sinais motores utilizando sensores de movimento para monitorar os sinais do Parkinson?
-%
-%    \end{block}
-%		\begin{block}{Coleta de Dados}
-%			\begin{itemize}
-%				\item Protocolo de pesquisa submetido aprovado junto ao CEP da UFCG (\textbf{CAAE: 14408213.9.1001.5182})
-%				\item Coleta realizada nas instituições:
-%					\begin{enumerate}
-%						\item Hospital Universitário da UFAL
-%						\item Fundação Pestalozzi
-%						\item Clínica Fisioterapia do CESMAC
-%				\end{enumerate}				
-%			\end{itemize}
-%    \end{block}
 %\end{frame}
-%
-%\begin{frame}{Amostra} 
-%    \begin{block}{}
-%			\begin{itemize}
-%				\item A técnica de amostragem utilizada para seleção, foi por conveniência, composta por:
-%				\begin{enumerate}
-%					\item 15 indivíduos portadores do Parkinson entre 51 e 65 anos (média de idade : 58 anos)
-%					\item 15 sem o diagnostico, como grupo controle entre 50 e 65 anos (média : 57 anos)
-%				\end{enumerate}
-%					\item No grupo de portadores do Parkinson, foram inclusos indivíduos até o Estágio 3 (Doença bilateral leve a moderada com alguma instabilidade postural e capacidade para viver independente), segundo a UPDRS
-%				\end{itemize}
-%    \end{block}
-%\end{frame}
-% 
-%\begin{frame}{Coleta dos Dados Utilizando o Jogo: \textit{Catch the Spheres}}
-%      \center \includegraphics[height=2.2 in]{img/catch-the-spheres.png}
-%\end{frame}
-%
-%\begin{frame}{Coleta de Dados}
-%  \begin{block}{}
-%  \center \includegraphics[height=2.4 in]{img/capturaducaokinnect.png} 
-%  \end{block}
-%\end{frame}
-%
-%
-%
-%% \begin{frame}{Processo de Coleta de Dados}
-%%    \begin{block}{}   
-%%    \begin{columns}[c]
-%%      \begin{column}{0.5\linewidth}
-%% 				\begin{itemize}
-%% 					\item Voluntário se posiciona a 2m. do sensor de movimento
-%% 					\item Voluntário inicia o jogo
-%% 					\item Voluntário abduz e aduz o braço esquerdo, e depois o direito 10 vezes o mais amplo e rápido possível
-%% 					\item Voluntário fecha o jogo
-%% 				\end{itemize}
-%%      \end{column}
-%% 
-%%      \begin{column}{0.55\linewidth}
-%% 				\includegraphics[width=5.5cm]{img/capturaducaokinnect.png}
-%%     \end{column}
-%% \end{columns}
-%% \end{block}
-%% \end{frame}
-%% 
-%% 
-%% 
-%% \begin{frame}{Processo de Coleta de Dados}
-%%   %\begin{block}{}
-%%       \center \includegraphics[height=2.6 in]{img/capturaducaokinnect.png}
-%% \end{frame}
-%
-%% \begin{frame}{Características Extraídas do Movimento}
-%% 	\begin{block}{Descrição do vetor de características extraído da coleta de dados}
-%% 	\begin{table}[h]
-%% 	  \begin{tabular}{|l|l|}
-%% 	  \hline
-%% 	  {\bf Característica}  & {\bf Descrição}                                       \\ \hline
-%% 	  MaxAmpEsquerdo     & Amp. máxima do braço esquerdo. \\ \hline
-%% 	  MaxAmpDireito    & Amp. máxima do braço direito. \\ \hline
-%% 	  AngVelAbdEsquerdo  & Vel. ang. abdução do braço esquerdo. \\ \hline
-%% 	  AngVelAbdDireito & Vel. ang. da abdução do braço direito. \\ \hline
-%% 	  AngVelAdEsquerdo  & Vel. ang. da adução do braço esquerdo. \\ \hline
-%% 	  AngVelAdDireito & Vel. ang. de adução do braço direito. \\ \hline
-%% 	  \end{tabular}
-%% 	  \end{table}
-%% 
-%% 	
-%% % 		\begin{itemize}[<+->]
-%% % 			\item	Ciclo de movimento, normalizado e escalonado em 20 amostras;
-%% % 			\item	amplitude do movimento de abdução do braço esquerdo e direito;
-%% % 			\item	velocidade angular de abdução dos braços esquerdo e direito;
-%% % 			\item velocidade angular de adução do braço esquerdo e direito.
-%% % 		\end{itemize}
-%% 	\end{block}
-%% \end{frame}
+
+
+%\subsection{User Acceptance}
+\begin{frame}{Goal Question Metric (GQM) for User Acceptance}
+	\begin{block}{}
+	Based on the GQM paradigm, we defined two goals:
+		\begin{description}
+			\item [G1]: Analyze our HMS PD approach for the purpose of evaluating with respect to usability from the view point of the patients in the context of the game \emph{Catch the Spheres}
+			\item [G2]: Analyze our HMS PD approach for the purpose of evaluating with respect to fit to daily routine from the view point of the patients in the context of the game \emph{Catch the Spheres}
+		\end{description}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}{GQM Results}
+	\begin{block}{}
+	The measurements were collected we obtained the following result indicating:
+		\begin{itemize}
+			\item 90\% of the users felt motivated with the game;
+			\item 80\% would add this game-based monitoring approach into their daily routine; 
+			\item 75\% considered it safe for elderly users.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Conclusion}
+\subsection{}
+\begin{frame}{Conclusion}
+	\begin{block}{}
+	In this work we presented a game-based approach to monitor with a symptom classification \textit{Precision} of 92.31\%. Moreover, 90,00\% of the patients considered our approach non-invasive and easy to integrate into their routine. 
+	\end{block}
+\end{frame}
 %
 %\subsection{Classificação dos Dados}
 %\begin{frame}{Máquina de Vetor de Suporte (SVM)}
