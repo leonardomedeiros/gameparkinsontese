@@ -33,8 +33,11 @@
 \btxnamefont {\btxlastnamefont {Alemdar}, Hande} \btxandlong {}\ \btxnamefont
   {Cem \btxlastnamefont {Ersoy}}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {Wireless sensor networks for healthcare: A
-  survey}{Wireless Sensor Networks for Healthcare: A Survey}}.
-\newblock \btxjournalfont {Computer Networks}, 2010.
+  survey}{Wireless Sensor Networks For Healthcare: A Survey}}.
+\newblock \btxjournalfont {Computer Networks}, 54(15):2688--2710,
+  2010\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1389-1286}}}.
+\newblock {\latintext
+  \btxurlfont{http://www.sciencedirect.com/science/article/pii/S1389128610001398}}.
 
 \bibitem {alemdar2015}
 \btxnamefont {\btxlastnamefont {Alemdar}, Hande}, \btxnamefont {Can
@@ -42,19 +45,12 @@
   \btxlastnamefont {Ersoy}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
   {Daily life behaviour monitoring for health assessment using machine
   learning: Bridging the gap between domains}{Daily Life Behaviour Monitoring
-  for Health Assessment Using Machine Learning: Bridging the Gap Between
+  For Health Assessment Using Machine Learning: Bridging The Gap Between
   Domains}}.
-\newblock \btxjournalfont {Personal Ubiquitous Computing}, 2015.
-
-\bibitem {biomecanica99}
-\btxnamefont {\btxlastnamefont {Amadio}, Armando}, \btxnamefont {Paulo
-  \btxlastnamefont {Costa}}, \btxnamefont {Isabel \btxlastnamefont {Sacco}},
-  \btxnamefont {Júlio \btxlastnamefont {Serrão}}, \btxnamefont {Rubens
-  \btxlastnamefont {Araujo}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Luiz
-  \btxlastnamefont {Mochizuki}}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {Introdução à biomecânica para análise do movimento
-  humano}{Introdução à Biomecânica para Análise do Movimento Humano}}.
-\newblock \btxjournalfont {Revista Brasileira De Fisioterapia}, 1999.
+\newblock \btxjournalfont {Personal and Ubiquitous Computing}, 19(2):303--315,
+  2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1617-4917}}}.
+\newblock {\latintext
+  \btxurlfont{http://dx.doi.org/10.1007/s00779-014-0823-y}}.
 
 \bibitem {bardram2010}
 \btxnamefont {\btxlastnamefont {Arnrich}, Bert}, \btxnamefont {Oscar
