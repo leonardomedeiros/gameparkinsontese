@@ -1,8 +1,8 @@
 \select@language {portuges}
-\select@language {english}
-\select@language {english}
 \select@language {portuges}
-\select@language {english}
+\select@language {portuges}
+\select@language {portuges}
+\select@language {portuges}
 \select@language {portuges}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -21,9 +21,9 @@
 \contentsline {table}{\numberline {5.8}{\ignorespaces M\IeC {\'e}tricas da Matriz de Confus\IeC {\~a}o\relax }}{60}
 \contentsline {table}{\numberline {5.9}{\ignorespaces M\IeC {\'e}tricas Avaliadas do \textit {GQM}\relax }}{63}
 \addvspace {10\p@ }
-\select@language {english}
-\select@language {english}
-\select@language {english}
+\select@language {portuges}
+\select@language {portuges}
+\select@language {portuges}
 \select@language {portuges}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {A.1}{\ignorespaces Etapas da Pesquisa\relax }}{85}
@@ -33,4 +33,4 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {D.1}{\ignorespaces O Question\IeC {\'a}rio GQM}}{92}
+\contentsline {table}{\numberline {D.1}{\ignorespaces O Question\IeC {\'a}rio GQM\relax }}{92}

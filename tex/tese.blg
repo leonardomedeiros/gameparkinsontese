@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: tese.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: tese.aux
 The style file: babplain.bst
 White space in argument---line 726 of file tese.aux
  : \citation{synnott_wiipd_
@@ -13,7 +11,6 @@ Warning--entry type for "zigfu" isn't style-file defined
 --line 612 of file biblmmcor.bib
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1325 of file babplain.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in aarhus_negotiating_2010
 Warning--can't use both author and editor fields in statisticshandbook2009
 Warning--empty publisher in statisticshandbook2009
@@ -28,45 +25,4 @@ Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the e
 while executing---line 1380 of file babplain.bst
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1380 of file babplain.bst
-You've used 86 entries,
-            2788 wiz_defined-function locations,
-            1011 strings with 21141 characters,
-and the built_in function-call counts, 31388 in all, are:
-= -- 2505
-> -- 1472
-< -- 0
-+ -- 593
-- -- 496
-* -- 3430
-:= -- 4613
-add.period$ -- 199
-call.type$ -- 86
-change.case$ -- 494
-chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 1744
-empty$ -- 2978
-format.name$ -- 966
-if$ -- 6412
-int.to.chr$ -- 0
-int.to.str$ -- 86
-missing$ -- 117
-newline$ -- 362
-num.names$ -- 172
-pop$ -- 869
-preamble$ -- 1
-purify$ -- 420
-quote$ -- 0
-skip$ -- 727
-stack$ -- 0
-substring$ -- 441
-swap$ -- 713
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 308
-warning$ -- 10
-while$ -- 172
-width$ -- 88
-write$ -- 818
 (There were 4 error messages)

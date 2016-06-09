@@ -9,11 +9,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[a4paper,titlepage]{copin}
-\usepackage[portuges,english]{babel}
+\usepackage[portuges]{babel}
 \usepackage{copin,doutor,epsfig}
 \usepackage{times}
 %\usepackage{kpfonts}
 %\usepackage{fouriernc}
+%\usepackage[nolist]{acronym}
 \usepackage{acronym}
 \usepackage{amsmath}
 
@@ -26,8 +27,8 @@
 %-------------------------- Para usar acentuacao em sistemas UTF8 ------------------------------------
 % Para a maior parte das distribuicoes linux, usar a opcao utf8x (lembrar de comentar as linha referente a ISO8859-1 acima)
 %\usepackage{ucs}
-\usepackage[utf8x]{inputenc}
-% \usepackage[utf8]{inputenc}
+%\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 %-----------------------------------------------------------------------------------------------------
 
@@ -39,10 +40,14 @@
 \usepackage{longtable} %tabelas longas, para tabelas que ultrapassam uma pagina
 \usepackage{placeins}
 
+%Bi
+\usepackage{babelbib}
+
 %\usepackage{abntex2cite}
 %\usepackage[num]{abntex2cite}
+%\usepackage[alf]{abntex2cite}
 
-\usepackage{babelbib}
+
 
 %\input{psfig.sty}
 
@@ -149,47 +154,28 @@ Hyggo Oliveira de Almeida (Orientador)
 \selectlanguage{portuges}
 
 \Sumario
-%\ListadeSimbolos
-%\section{Lista de Acrônimos}
 \ListadeSimbolos
-%\newpage
-%\textbf{Lista de Acrônimos} \\
 \begin{acronym}
-%         \acro{ban}[BAN]{Body Area Network}
 	\acro{cep} [CEP] {Comitê de Ética em Pesquisa}
-	%\acro{cbse} [CBSE] {Component Based Software Engineer}
 	\acro{dp}[Parkinson]{Doença de Parkinson}
 	\acro{er}[ER]{Engenharia de Requisitos}
-	%\acro{ecg} [ECG] {Eletrocardiograma}
-	%\acro{epf}[EPF]{\textit{Eclipse Process Framework}}
-	%\acro{fps} [FPS] {First-person shooter}
 	\acro{gqm} [GQM] {\textit{Goal-Question-Metric}}
 	\acro{oms} [OMS] {Organização Mundial de Saúde}	
-	%\acro{spem} [SPEM]{\textit{Software Process Engineering Metamodel}}
 	\acro{sms} [SMS]{Sistemas de Monitoramento da Saúde}
 	\acro{svm} [SVM]{Máquina de Vetor de Suporte}
-	%\acro{fvrs} [FVRS] {Força Vertical de Reação do Solo}
 	\acro{jogue-me} [JOGUE-ME] {Jogo com Monitoramento de Saúde Embutido}
 	\acro{pca} [PCA] {Análise de Componentes Principais}
-	
-	
-% 	\acro{ecg}[ECG]{Eletrocardiograma}
-% 	\acro{eeg}[EEG]{Eletroencefalograma}
-% 	\acro{emf}[EMF]{Eletromagnetic Fields}        
-% 	\acro{hcd}[HCD]{Human Centered Design}               
-% 	\acro{hci}[HCI]{Human Computer Interaction}
-% 	\acro{jss}[JSS]{Jogos Sérios Aplicados a Saúde}
-% 	\acro{msn} [MSN] {Mobile Sensor Network}
-% 	\acro{marks} [MARKS] {Middleware Adaptability for Resource Discovery, Knowledge Usability and Self-healing}
-% 	\acro{pan} [PAN] {Patient Area Network}        
-%         \acro{nfc}[NFC]{Near Field Communication}
-% 	\acro{rfid}[RFID]{Radio Frequency IDentification}
-%         \acro{wan}[WAN]{Wide Area Network}
 \end{acronym}
+
+%\section{Lista de Acrônimos}
+%\ListadeSimbolos
+%\newpage
+%\textbf{Lista de Acrônimos} \\
 
 \listoffigures
 \listoftables
 \lstlistoflistings %lista de codigos fonte - Para inserir a listagem de codigos fonte
+
 \newpage
 \cleardoublepage
 
@@ -219,10 +205,16 @@ Hyggo Oliveira de Almeida (Orientador)
 %% Coloque suas referencias no arquivo ref.bib e descomente as proximas duas linhas
 %\bibliographystyle{plain}
 %\bibliographystyle{unsrt}
-\bibliographystyle{babplain}
 
+
+%\bibliographystyle{babplain}
+%\bibliography{biblmm}
 
 %\bibliographystyle{plain}
+
+%\bibliographystyle{abbrv}
+
+\bibliographystyle{babplain}
 \bibliography{biblmmcor}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
