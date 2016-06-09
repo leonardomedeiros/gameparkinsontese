@@ -4,11 +4,11 @@ White space in argument---line 726 of file tese.aux
  : \citation{synnott_wiipd_
  :                          2012,lemoyne2010}
 I'm skipping whatever remains of this command
-Database file #1: biblmmcor.bib
+Database file #1: biblmmcorfinal.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
---line 368 of file biblmmcor.bib
+--line 368 of file biblmmcorfinal.bib
 Warning--entry type for "zigfu" isn't style-file defined
---line 612 of file biblmmcor.bib
+--line 612 of file biblmmcorfinal.bib
 Name 1 in "Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi" has a comma at the end for entry healthmonitoring2013
 while executing---line 1325 of file babplain.bst
 Warning--empty language in aarhus_negotiating_2010

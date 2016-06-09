@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  9 JUN 2016 08:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  9 JUN 2016 10:01
 entering extended mode
 **tese.tex
 (C:\git\gameparkinsontese\tex\tese.tex
@@ -464,9 +464,20 @@ Package: placeins 2005/04/18  v 2.2
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babelbib\babelbib.sty"
 Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
+
+
+! Package babelbib Error: Language definition file portuges.bdf not found.
+
+See the babelbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 \ProcessOptions*
+                     
+Maybe you misspelled the language option?
+
 \c@btxromaniannumeral=\count112
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen125
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
@@ -690,7 +701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 Underfull \hbox (badness 6078) in paragraph at lines 11--12
-\T1/ptm/m/n/12 como: mo-vi-men-tos de equi-lí-brio, mo-vi-men-tos re-pe-ti-ti-vos ou brus-cos [] 6;
+\T1/ptm/m/n/12 como: mo-vi-men-tos de equi-lí-brio, mo-vi-men-tos re-pe-ti-ti-vos ou brus-cos [] 7;
  []
 
 
@@ -844,38 +855,37 @@ Underfull \hbox (badness 1199) in paragraph at lines 233--234
 
 [28]) (C:\git\gameparkinsontese\tex\cap4_arquitetura.tex [29]
 Cap\'{\i }tulo 4.
-File: ./img/visaosistema.png Graphic file (type png)
-<use ./img/visaosistema.png>
-Package pdftex.def Info: ./img/visaosistema.png used on input line 8.
-(pdftex.def)             Requested size: 343.4275pt x 278.6735pt.
+<./img/arquitetura.png, id=153, 979.66pt x 486.81876pt>
+File: ./img/arquitetura.png Graphic file (type png)
+ <use ./img/arquitetura.png>
+Package pdftex.def Info: ./img/arquitetura.png used on input line 8.
+(pdftex.def)             Requested size: 391.85706pt x 194.72404pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 16.
  [30
 
-] <./img/articulacoes.png, id=156, 694.09312pt x 514.17094pt>
+ <C:/git/gameparkinsontese/tex/img/arquitetura.png>] <./img/articulacoes.png, id=157, 694.09312pt x 514.17094pt>
 File: ./img/articulacoes.png Graphic file (type png)
-
-<use ./img/articulacoes.png>
+ <use ./img/articulacoes.png>
 Package pdftex.def Info: ./img/articulacoes.png used on input line 31.
 (pdftex.def)             Requested size: 277.63232pt x 205.66473pt.
- <./img/diagclasszigfu.png, id=157, 440.64626pt x 422.57875pt>
+ [31 <C:/git/gameparkinsontese/tex/img/articulacoes.png>] <./img/diagclasszigfu.png, id=162, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
 <use ./img/diagclasszigfu.png>
 Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 43.
 (pdftex.def)             Requested size: 352.51747pt x 338.06345pt.
- [31] [32 <C:/git/gameparkinsontese/tex/img/articulacoes.png> <C:/git/gameparkinsontese/tex/img/diagclasszigfu.png>] <./
-img/catch-the-spheres.png, id=166, 1063.72406pt x 557.08125pt>
+ [32 <C:/git/gameparkinsontese/tex/img/diagclasszigfu.png>]
+<./img/catch-the-spheres.png, id=167, 1063.72406pt x 557.08125pt>
 File: ./img/catch-the-spheres.png Graphic file (type png)
-
-<use ./img/catch-the-spheres.png>
+ <use ./img/catch-the-spheres.png>
 Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 67.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
  [33 <C:/git/gameparkinsontese/tex/img/catch-the-spheres.png (PNG copy)>] [34] [35]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
-
-[36]) (C:\git\gameparkinsontese\tex\cap5-avaliacao.tex [37]
+ [36]) (C:\git\gameparkinsontese\tex\cap5-avaliacao.tex
+[37]
 Cap\'{\i }tulo 5.
 [38
 
@@ -887,7 +897,7 @@ Overfull \hbox (8.11433pt too wide) in paragraph at lines 39--47
 [40] [41] [42] [43] [44] [45]
 Package acronym Info: Label `acro:er' newly defined as it shall be overridden
 although it is yet undefined on input line 240.
- [46] <./img/gametremor.png, id=211, 388.45125pt x 579.16376pt>
+ [46] <./img/gametremor.png, id=212, 388.45125pt x 579.16376pt>
 File: ./img/gametremor.png Graphic file (type png)
  <use ./img/gametremor.png>
 Package pdftex.def Info: ./img/gametremor.png used on input line 265.
@@ -908,7 +918,7 @@ Package Fancyhdr Warning: \headheight is too small (15.02399pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50] [51] <./img/movaddcutctionartist2.png, id=229, 1062.97125pt x 804.00375pt>
+[50] [51] <./img/movaddcutctionartist2.png, id=230, 1062.97125pt x 804.00375pt>
 File: ./img/movaddcutctionartist2.png Graphic file (type png)
  <use ./img/movaddcutctionartist2.png>
 Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 396.
@@ -919,14 +929,14 @@ Overfull \hbox (1.70758pt too wide) in paragraph at lines 414--424
  [][] 
  []
 
-<img/signalamplitudepeakvaley-2.png, id=233, 719.68875pt x 446.41782pt>
+<img/signalamplitudepeakvaley-2.png, id=234, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
  <use img/signalamplitudepeakvaley-2.png>
 Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 428.
 (pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
 
 [53 <C:/git/gameparkinsontese/tex/img/signalamplitudepeakvaley-2.png (PNG copy)>] [54]
-<./img/vetormedioaducao.png, id=240, 743.02594pt x 453.19313pt>
+<./img/vetormedioaducao.png, id=241, 743.02594pt x 453.19313pt>
 File: ./img/vetormedioaducao.png Graphic file (type png)
  <use ./img/vetormedioaducao.png>
 Package pdftex.def Info: ./img/vetormedioaducao.png used on input line 458.
@@ -940,7 +950,7 @@ Overfull \hbox (41.94342pt too wide) in paragraph at lines 458--459
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [55 <C:/git/gameparkinsontese/tex/img/vetormedioaducao.png (PNG copy)>]
-<./img/gridsearch.png, id=244, 558.888pt x 428.802pt>
+<./img/gridsearch.png, id=245, 558.888pt x 428.802pt>
 File: ./img/gridsearch.png Graphic file (type png)
  <use ./img/gridsearch.png>
 Package pdftex.def Info: ./img/gridsearch.png used on input line 499.
@@ -949,7 +959,7 @@ Package pdftex.def Info: ./img/gridsearch.png used on input line 499.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/gridsearchfprate.png, id=245, 515.526pt x 445.665pt>
+<./img/gridsearchfprate.png, id=246, 515.526pt x 445.665pt>
 File: ./img/gridsearchfprate.png Graphic file (type png)
  <use ./img/gridsearchfprate.png>
 Package pdftex.def Info: ./img/gridsearchfprate.png used on input line 510.
@@ -961,7 +971,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [56] [57 <C:/git/gameparkinsontese/tex/img/gridsearch.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 545.
- [58 <C:/git/gameparkinsontese/tex/img/gridsearchfprate.png (PNG copy)>] [59] <./img/gqm.png, id=260, 739.563pt x 357.97
+ [58 <C:/git/gameparkinsontese/tex/img/gridsearchfprate.png (PNG copy)>] [59] <./img/gqm.png, id=261, 739.563pt x 357.97
 74pt>
 File: ./img/gqm.png Graphic file (type png)
  <use ./img/gqm.png>
@@ -990,19 +1000,19 @@ Overfull \hbox (2.85274pt too wide) in paragraph at lines 667--667
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./img/chart_1-.png, id=268, 488.57532pt x 356.0803pt>
+<./img/chart_1-.png, id=269, 488.57532pt x 356.0803pt>
 File: ./img/chart_1-.png Graphic file (type png)
  <use ./img/chart_1-.png>
 Package pdftex.def Info: ./img/chart_1-.png used on input line 679.
 (pdftex.def)             Requested size: 342.0004pt x 249.25452pt.
 
-<./img/chart_3-.png, id=269, 445.665pt x 367.3725pt>
+<./img/chart_3-.png, id=270, 445.665pt x 367.3725pt>
 File: ./img/chart_3-.png Graphic file (type png)
  <use ./img/chart_3-.png>
 Package pdftex.def Info: ./img/chart_3-.png used on input line 687.
 (pdftex.def)             Requested size: 311.96336pt x 257.15898pt.
 
-<./img/chart_10-.png, id=270, 472.01344pt x 363.60844pt>
+<./img/chart_10-.png, id=271, 472.01344pt x 363.60844pt>
 File: ./img/chart_10-.png Graphic file (type png)
  <use ./img/chart_10-.png>
 Package pdftex.def Info: ./img/chart_10-.png used on input line 695.
@@ -1052,24 +1062,7 @@ LaTeX Warning: Citation `synnott_wiipd_ 2012' on page 76 undefined on input line
 
 [76
 
-] [77] [78]
-
-LaTeX Warning: Citation `esa2011' on page 79 undefined on input line 48.
-
-[79]
-
-LaTeX Warning: Citation `Ballegaard:2008:HEL:1357054.1357336' on page 80 undefined on input line 55.
-
-
-LaTeX Warning: Citation `albanese2012' on page 80 undefined on input line 55.
-
-
-LaTeX Warning: Citation `bachlin_parkinsons_2009' on page 80 undefined on input line 55.
-
-
-LaTeX Warning: Citation `visionbased2009' on page 80 undefined on input line 55.
-
-[80] [81]
+] [77] [78] [79] [80] [81]
 File: ./img/catch-the-spheres.png Graphic file (type png)
  <use ./img/catch-the-spheres.png>
 Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 140.
@@ -1092,7 +1085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 
 Underfull \hbox (badness 1466) in paragraph at lines 2--3
-[] \T1/ptm/m/n/12 de Lon-dres [] 31[]. O pa-ci-ente será
+[] \T1/ptm/m/n/12 de Lon-dres [] 36[]. O pa-ci-ente será
  []
 
 [90
@@ -1132,13 +1125,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7643 strings out of 494045
- 107839 string characters out of 3145961
- 273074 words of memory out of 3000000
- 10741 multiletter control sequences out of 15000+200000
+ 7648 strings out of 494045
+ 107957 string characters out of 3145961
+ 273107 words of memory out of 3000000
+ 10745 multiletter control sequences out of 15000+200000
  63829 words of font info for 75 fonts, out of 3000000 for 9000
  716 hyphenation exceptions out of 8191
- 36i,17n,46p,1378b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,17n,46p,1378b,1912s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
@@ -1147,9 +1140,9 @@ s/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (104 pages, 1832663 bytes).
+Output written on tese.pdf (104 pages, 1865538 bytes).
 PDF statistics:
- 412 PDF objects out of 1000 (max. 8388607)
+ 413 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
