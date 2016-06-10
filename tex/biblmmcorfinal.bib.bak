@@ -1,5 +1,22 @@
 % Encoding: UTF-8
 
+@InProceedings{brox11,
+  author    = {Brox, Ellen and Fernández-Luque, Luis and Evertsen, Gunn J. and González-Hernández, Juan},
+  title     = {Exergames For Elderly: Social Exergames To Persuade Seniors To Increase Physical Activity},
+  booktitle = {PervasiveHealth},
+  year      = {2011},
+  publisher = {IEEE},
+  isbn      = {978-1-61284-767-2},
+  pages     = {546-549},
+  added-at  = {2015-03-23T00:00:00.000+0100},
+  crossref  = {conf/ph/2011},
+  ee        = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6038865},
+  interhash = {50180173c83b2bfb98817196a52719a9},
+  intrahash = {2e8f13a6277214eae1e9294b3c3ac557},
+  keywords  = {dblp},
+  timestamp = {2015-06-18T19:10:44.000+0200},
+}
+
 @InProceedings{aarhus_negotiating_2010,
   author    = {Aarhus, Rikke and Ballegaard, Stinne Aal{\o}kke},
   title     = {Negotiating Boundaries: Managing Disease at Home},
@@ -139,20 +156,19 @@ prototype related to sport and dance activities.},
   keywords  = {chronic disease, citizen, design methods, diabetes, elderly, healthcare technology, independent living, participatory design, patient, tele-medicine},
 }
 
-@InProceedings{berg03,
-  Title                    = {Health status monitoring through analysis of behavioral patterns},
-  Author                   = {Tracy Barger and Donald Brown and Majd Alwan},
-  Booktitle                = {Congress of the Italian Association for Artificial Intelligence on Ambient Intelligence},
-  Year                     = {2003},
-  Publisher                = {Springer-Verlag}
-}
-
 @InProceedings{bartolome11,
-  Title                    = {Can game-based therapies be trusted? Is game-based education effective? A systematic review of the Serious Games for health and education},
-  Author                   = {Bartolome, N.A. and Zorrilla, A.M. and Zapirain, B.G.},
-  Booktitle                = {International Conference on Computer Games},
-  Year                     = {2011},
-  Publisher                = {ACM}
+  author    = {Bartolome, N. A. and Zorrilla, A. M. and Zapirain, B. G.},
+  title     = {Can Game-based Therapies Be Trusted? Is Game-based Education Effective? A Systematic Review of the Serious Games for Health and Education},
+  booktitle = {Proceedings of the ICCG International Conference on Computer Games},
+  year      = {2011},
+  series    = {CGAMES '11},
+  publisher = {IEEE Computer Society},
+  isbn      = {978-1-4577-1451-1},
+  pages     = {275-282},
+  acmid     = {2192253},
+  address   = {Washington, DC, USA},
+  keywords  = {social care field, game-based therapy, game-based education, serious games, video games, software development, health care field},
+  numpages  = {8},
 }
 
 @Misc{peakdetect,
@@ -161,21 +177,6 @@ prototype related to sport and dance activities.},
   Author                   = {Eli Billauer},
   HowPublished             = {\textit{Software}, {D}isponível em: http://www.billauer.co.il/peakdet.html},
   Year                     = {2012}
-}
-
-@InProceedings{brox11,
-  Title                    = {Exergames for elderly: Social exergames to persuade seniors to increase physical activity},
-  Author                   = {Brox, E. and Luque, L.F. and Evertsen, G.J. and Hernandez, J.E.G.},
-  Booktitle                = {International Conference on Pervasive Computing Technologies for Healthcare},
-  Year                     = {2011},
-  Publisher                = {IEEE}
-}
-
-@Book{algebra90,
-  Title                    = {Álgebra Linear E Aplicações},
-  Author                   = {Carlos Callioli and Hygino Domingues and Roberto Costa},
-  Publisher                = {Atual},
-  Year                     = {1990}
 }
 
 @InProceedings{sacsvmhms2014,
@@ -187,281 +188,406 @@ prototype related to sport and dance activities.},
 }
 
 @Article{visionbased2009,
-  Title                    = {A vision-based analysis system for gait recognition in patients with Parkinson's disease},
-  Author                   = {Cho, Chien-Wen and Chao, Wen-Hung and Lin, Sheng-Huang and Chen, You-Yin},
-  Journal                  = {Expert Syst. Appl.},
-  Year                     = {2009}
+  author       = {Cho, Chien-Wen and Chao, Wen-Hung and Lin, Sheng-Huang and Chen, You-Yin},
+  title        = {A Vision-based Analysis System for Gait Recognition in Patients with Parkinson's Disease},
+  journaltitle = {Expert Systems with Applications},
+  year         = {2009},
+  volume       = {36},
+  number       = {3},
+  month        = apr,
+  pages        = {7033--7039},
+  issn         = {0957-4174},
+  acmid        = {1498190},
+  address      = {Tarrytown, NY, USA},
+  issue_date   = {April, 2009},
+  journal      = {Expert Systems with Applications},
+  keywords     = {Gait analysis, Linear discriminant analysis (LDA), Parkinson's disease, Principal component analysis (PCA), Vision-based},
+  numpages     = {7},
+  publisher    = {Pergamon Press, Inc.},
 }
 
 @Book{statisticshandbook2009,
-  Title                    = {Nist/Sematech Engineering Statistics Handbook},
-  Author                   = {Charline Cleraux and Carroll Croarkin and James Filliben and Will Guthrie and Alan Heckert and Mark Reeder and Tom Ryan and Jolene Splett and Nien-Fan Zhang},
-  Editor                   = {ITL Statistical Engineering Division},
-  Year                     = {2003}
+  author    = {Natrella, Mary},
+  title     = {NIST/SEMATECH e-Handbook of Statistical Methods},
+  year      = {2010},
+  editor    = {Croarkin, Carroll and Tobias, Paul and Filliben, James J. and Hembree, Barry and Guthrie, William and Trutna, Ledi and Prins, Jack},
+  edition   = {2},
+  publisher = {NIST/SEMATECH},
+  abstract  = {{The NIST/SEMATECH e-Handbook of Statistical Methods1, is a Web-based book whose goal is to help scientists and engineers incorporate statistical methods into their work as  efficiently as possible. Ideally it will serve as a reference that will help scientists and engineers design their own experiments and carry out the appropriate analyses when a statistician is not available to help. It is also hoped that it will serve as a useful educational tool that will help users of statistical methods and consumers of statistical information better understand statistical procedures and their underlying assumptions and more clearly interpret scientific and engineering results stated in statistical terms.}},
+  keywords  = {e-handbook, nist, sematech, statistical\_methods},
+  month     = jul,
+  posted-at = {2010-07-22 20:51:45},
 }
 
 @Book{do2007parkinson,
-  Title                    = {Parkinson's Disease: Diagnosis Clinical Management},
-  Author                   = {Stewart Do and William Weiner},
-  Publisher                = {Demos Medical Publishing},
-  Year                     = {2007}
+  author    = {Stewart Do and William Weiner},
+  title     = {Parkinson's Disease: Diagnosis Clinical Management},
+  year      = {2007},
+  edition   = {2},
+  publisher = {Demos Medical Publishing},
+  isbn      = {1933864001},
+  pages     = {819},
 }
 
-@Book{statisticterms2006,
-  Title                    = {The Oxford Dictionary of Statistical Terms},
-  Author                   = {Yadolah Dodge and David Cox and Daniel Commenges and Anthony Davison and Patty Solomon and Suzan Wilson},
-  Editor                   = {The Internationall Statistical Institute},
-  Publisher                = {Oxford University Press},
-  Year                     = {2006}
+@Article{statisticterms2006,
+  author       = {Espejo, Mariano Ruiz},
+  title        = {The Oxford Dictionary of Statistical Terms},
+  journaltitle = {Journal of the Royal Statistical Society Series A},
+  year         = {2004},
+  volume       = {167},
+  number       = {2},
+  pages        = {377-377},
+  journal      = {Journal of the Royal Statistical Society Series A},
 }
 
 @Article{homecarebrazil2011,
-  Title                    = {The Utilization of Home Care by the Elderly in Brazil's Primary Health Care System},
-  Author                   = {Elaine Thumé, Luiz Augusto Facchini, Grace Wyshak and Paul Campbell},
-  Journal                  = {Am J Public Health},
-  Year                     = {2011}
+  author       = {Elaine Thumé, Luiz Augusto Facchini, Grace Wyshak and Paul Campbell},
+  title        = {The Utilization of Home Care by the Elderly in Brazil's Primary Health Care System},
+  journaltitle = {American Journal Of Public Health},
+  year         = {2011},
+  volume       = {101},
+  pages        = {868-874},
+  issn         = {1541-0048},
+  journal      = {Am J Public Health},
 }
 
-@InCollection{updrs87,
-  Title                    = {Unified Parkinson's disease rating scale.},
-  Author                   = {Fahn, S. and Elton, R.},
-  Booktitle                = {Recent developments in Parkinson's disease},
-  Publisher                = {Macmillan Health Care Information},
-  Year                     = {1987}
+@InBook{updrs87,
+  author    = {Fish, Jessica},
+  title     = {Unified Parkinson's Disease Rating Scale},
+  booktitle = {Encyclopedia of Clinical Neuropsychology},
+  year      = {2011},
+  editor    = {Kreutzer, Jeffrey S. and DeLuca, John and Caplan, Bruce},
+  publisher = {Springer New York},
+  isbn      = {978-0-387-79948-3},
+  pages     = {2576-2577},
+  address   = {New York, NY},
 }
 
 @Book{fli04,
-  Title                    = {Pesquisa Qualitativa},
-  Author                   = {Uwe Flick},
-  Publisher                = {Bookman},
-  Year                     = {2004}
+  author    = {Flick, U.},
+  title     = {Uma Introdução à Pesquisa Qualitativa},
+  year      = {2004},
+  edition   = {2},
+  publisher = {Bookman},
+  isbn      = {9788536304144},
+  pages     = {312},
 }
 
 @Article{manumeterjbhi2014,
-  Title                    = {The Manumeter: A Wearable Device for Monitoring Daily Use of the Wrist and Fingers},
-  Author                   = {Friedman, N. and Rowe, J.B. and Reinkensmeyer, D.J. and Bachman, M.},
-  Journal                  = {IEEE Journal of Biomedical and Health Informatics},
-  Year                     = {2014}
+  author       = {N. Friedman and J. B. Rowe and D. J. Reinkensmeyer and M. Bachman},
+  title        = {The Manumeter: A Wearable Device for Monitoring Daily Use of the Wrist and Fingers},
+  journaltitle = {IEEE Journal of Biomedical and Health Informatics},
+  year         = {2014},
+  volume       = {18},
+  number       = {6},
+  pages        = {1804-1812},
+  issn         = {2168-2194},
+  abstract     = {Nonobtrusive options for monitoring the wrist and hand movement are needed for stroke rehabilitation and other applications. This paper describes the “manumeter,” a device that logs total angular distance travelled by wrist and finger joints using a magnetic ring worn on the index finger and two triaxial magnetometers mounted in a watch-like unit. We describe an approach to estimate the wrist and finger joint angles using a radial basis function network that maps differential magnetometer readings to joint angles. We tested this approach by comparing manumeter estimates of total angular excursion with those from a passive goniometric exoskeleton worn simultaneously as seven participants completed a set of 12 manual tasks at low-, medium-, and high-intensity conditions on a first testing day, 1-2 days later, and 6-8 days later, using only the original calibration from the first testing day. Manumeter estimates scaled proportionally to the intensity of hand activity. Estimates of angular excursion made with the manumeter were 92.5% ± 28.4 (SD), 98.3% ± 23.3, and 94.7% ± 19.3 of the goniometric exoskeleton across the three testing days, respectively. Magnetic sensing of wrist and finger movement is nonobtrusive and can quantify the amount of use of the hand across days.},
+  journal      = {IEEE Journal of Biomedical and Health Informatics},
+  keywords     = {biomechanics;biomedical measurement;body sensor networks;calibration;goniometers;magnetometers;patient rehabilitation;radial basis function networks;calibration;differential magnetometer;finger joint angle estimation;finger joint movement monitoring;hand movement monitoring;manumeter device;passive goniometric exoskeleton;radial basis function network;stroke rehabilitation;time 1 day to 2 day;time 6 day to 8 day;triaxial magnetometers;wearable device;wrist joint angle estimation;wrist joint movement monitoring;Accelerometers;Biomedical monitoring;Fingers;Magnetic field measurement;Magnetometers;Patient monitoring;Patient rehabilitation;Sensors;Wearable computers;Wrist;Accelerometers;arm monitoring;biomedical monitoring;hand monitoring;magnetic field measurement;magnetometers;patient monitoring;patient rehabilitation;sensors;wearable},
 }
 
-@Article{gabel2012,
-  Title                    = {Full body gait analysis with Kinect.},
-  Author                   = {Gabel, Moshe and Gilad-Bachrach, Ran and Renshaw, Erin and Schuster, Assaf},
-  Journal                  = {Conf Proc IEEE Eng Med Biol Soc},
-  Year                     = {2012}
+@InProceedings{gabel2012,
+  author    = {Gabel, Moshe and Gilad-Bachrach, Ran and Renshaw, Erin and Schuster, Assaf},
+  title     = {Full Body Gait Analysis With Kinect},
+  booktitle = {International Conference of Engineering in Medicine and Biology Society},
+  year      = {2012},
+  publisher = {EMBC},
+  journal   = {In Proceeedings of International Conference of the IEEE Engineering and Biology Society},
 }
 
 @MastersThesis{valt2010,
-  Title                    = {Análise Comparativa dos classificadores Máquinas de Suporte Vectorial e Redes Neuronais Artificiais: Aplicação na detecção de Peões e Veículos},
-  Author                   = {Valter Filipe Carnim Gonçalves},
-  School                   = {Universidade de Coimbra},
-  Year                     = {2010},
-  Type                     = {Dissertação de Mestrado},
-
-  Owner                    = {leonardo},
-  Timestamp                = {2014.01.30}
+  author      = {Valter Filipe Carnim Gonçalves},
+  title       = {Análise Comparativa Dos Classificadores Máquinas De Suporte Vectorial E Redes Neuronais Artificiais: Aplicação Na Detecção De Peões E Veículos},
+  institution = {Universidade de Coimbra},
+  year        = {2010},
+  type        = {Dissertação de Mestrado},
+  owner       = {leonardo},
+  school      = {Universidade de Coimbra},
+  timestamp   = {2014.01.30},
 }
 
 @Article{goul05,
-  Title                    = {Uso de escalas para avaliação da doença de Parkinson em fisioterapia},
-  Author                   = {Fátima Goulart and Luciana Xavier Pereira},
-  Journal                  = {Fisioterapia e Pesquisa},
-  Year                     = {2005}
+  author       = {Fátima Goulart e Luciana Pereira},
+  title        = {Uso de escalas para avaliação da doença de Parkinson em fisioterapia},
+  journaltitle = {Fisioterapia e Pesquisa},
+  year         = {2005},
+  volume       = {11},
+  number       = {1},
+  pages        = {49-56},
+  issn         = {2316-9117},
+  abstract     = {A Doença de Parkinson (DP) é uma enfermidade degenerativa do sistema nervoso central cujas características são tremor, rigidez e bradicinesia. Com o progresso terapêutico, desenvolveram-se várias escalas visando monitorar a evolução da doença e a eficácia de tratamentos. O objetivo desta revisão foi caracterizar as principais escalas usadas para avaliação da DP, discutindo sua aplicabilidade à prática fisioterapêutica. As escalas encontradas na literatura foram: a de estágios de incapacidade de Hoehn e Yahr; a Escala Unificada de Avaliação da DP (UPDRS); a escala de Webster de avaliação da DP; a escala de Sydney; a Escala de Incapacidade da Northwestern University (NUDS); os questionários da DP (PDQ-39) e de Qualidade de Vida na DP(PDQL); e a Escala de Atividade de Parkinson (PAS). A Webster permite classificar o paciente de acordo com seu nível de incapacidade, porém não há estudos conclusivos quanto a sua confiabilidade. A Sydney avalia o nível da estrutura e função corporal, enquanto o enfoque da NUDS é nas atividades funcionais diárias. O PDQ-39 e o PDQL são questionários específicos para avaliar a percepção do paciente sobre sua qualidade de vida. Sobre a PAS, desenvolvida recentemente com base em objetivos da fisioterapia, não há estudos suficientes para definir sua confiabilidade. Destacam-se as escalas de Hoehn e Yahr e a UPDRS, por sua confiabilidade, podendo ser usadas por fisioterapeutas para melhor avaliação do estado clínico-funcional do paciente.},
+  journal      = {Fisioterapia e Pesquisa},
+  keywords     = {doença de Parkinson/ diagnóstico; avaliação/ métodos; questionários/ métodos.},
 }
 
 @Article{stacey2011,
-  Title                    = {Moving Beyond the Stigma: Systematic Review of Video Games and Their Potential to Combat Obesity},
-  Author                   = {Guy, Stacey and Ratzki-Leewing, Alexandria and Gwadry-Sridhar, Femida},
-  Journal                  = {International Journal of Hypertension},
-  Year                     = {2011}
+  author       = {Guy, Stacey and Ratzki-Leewing, Alexandria and Gwadry-Sridhar, Femida},
+  title        = {Moving Beyond the Stigma: Systematic Review of Video Games and Their Potential to Combat Obesity},
+  journaltitle = {International Journal of Hypertension},
+  year         = {2011},
+  volume       = {2011},
+  pages        = {1-13},
+  issn         = {2090-0392},
+  journal      = {International Journal of Hypertension},
+  keywords     = {education\_games, exercise, obesity, physical\_activity, review, videogames},
+  posted-at    = {2011-04-18 13:51:21},
 }
 
 @Book{hamill1999bases,
-  Title                    = {Bases Biomecânicas do Movimento Humano},
-  Author                   = {Joseph Hamill and Kathleen Knutzen},
-  Editor                   = {Manole},
-  Year                     = {2012}
+  author = {Joseph Hamill and Kathleen Knutzen},
+  title  = {Bases Biomecânicas do Movimento Humano},
+  year   = {2012},
+  editor = {Manole},
+  isbn   = {9788520423561},
+  pages  = {494},
 }
 
 @Book{national2006parkinson,
-  Title                    = {Parkinson's Disease: Diagnosis and Management in Primary and Secondary Care},
-  Author                   = {National Institute for Health and Clinical Excellence},
-  Editor                   = {NICE clinical guideline},
-  Year                     = {2006}
-}
-
-@Article{Hoehn_Yahr_2001,
-  Title                    = {Parkinsonism: onset, progression, and mortality. 1967.},
-  Author                   = {Hoehn, M M and Yahr, M D},
-  Journal                  = {Neurology},
-  Year                     = {2001}
+  author  = {National Institute for Health and Clinical Excellence},
+  title   = {Parkinson's Disease: Diagnosis and Management in Primary and Secondary Care},
+  year    = {2006},
+  editor  = {NICE clinical guideline},
+  edition = {1},
+  isbn    = {1-86016-283-5},
+  pages   = {220},
 }
 
 @Article{jankovic2008,
-  Title                    = {Parkinson’s disease: clinical features and diagnosis},
-  Author                   = {Jankovic, J},
-  Journal                  = {Journal of Neurology, Neurosurgery \& Psychiatry},
-  Year                     = {2008}
+  author       = {Jankovic, J},
+  title        = {Parkinson’s Disease: Clinical Features And Diagnosis},
+  journaltitle = {Journal of Neurology, Neurosurgery and Psychiatry},
+  year         = {2008},
+  volume       = {79},
+  number       = {4},
+  pages        = {368-376},
+  issn         = {0022-3050},
+  abstract     = {Objective: Parkinson’s disease (PD) is a progressive neurological disorder characterised by a large number of motor and non-motor features that can impact on function to a variable degree. This review describes the clinical characteristics of PD with emphasis on those features that differentiate the disease from other parkinsonian disorders.Methods: A MedLine search was performed to identify studies that assess the clinical characteristics of PD. Search terms included “Parkinson’s disease”, “diagnosis” and “signs and symptoms”.Results: Because there is no definitive test for the diagnosis of PD, the disease must be diagnosed based on clinical criteria. Rest tremor, bradykinesia, rigidity and loss of postural reflexes are generally considered the cardinal signs of PD. The presence and specific presentation of these features are used to differentiate PD from related parkinsonian disorders. Other clinical features include secondary motor symptoms (eg, hypomimia, dysarthria, dysphagia, sialorrhoea, micrographia, shuffling gait, festination, freezing, dystonia, glabellar reflexes), non-motor symptoms (eg, autonomic dysfunction, cognitive/neurobehavioral abnormalities, sleep disorders and sensory abnormalities such as anosmia, paresthesias and pain). Absence of rest tremor, early occurrence of gait difficulty, postural instability, dementia, hallucinations, and the presence of dysautonomia, ophthalmoparesis, ataxia and other atypical features, coupled with poor or no response to levodopa, suggest diagnoses other than PD.Conclusions: A thorough understanding of the broad spectrum of clinical manifestations of PD is essential to the proper diagnosis of the disease. Genetic mutations or variants, neuroimaging abnormalities and other tests are potential biomarkers that may improve diagnosis and allow the identification of persons at risk.},
+  journal      = {Journal of Neurology, Neurosurgery and Psychiatry},
 }
 
 @Book{kantardzic2011data,
-  Title                    = {Data Mining: Concepts, Models, Methods, and Algorithms},
-  Author                   = {Kantardzic, M.},
-  Publisher                = {John Wiley \& Sons},
-  Year                     = {2011},
-
-  Address                  = {Piscataway, NJ, USA},
-  Edition                  = {2nd},
-
-  Owner                    = {leonardo},
-  Timestamp                = {2015.10.03}
+  author    = {Kantardzic, M.},
+  title     = {Data Mining: Concepts, Models, Methods, and Algorithms},
+  year      = {2011},
+  edition   = {3},
+  publisher = {Wiley},
+  isbn      = {9781118029138},
+  pages     = {534},
+  lccn      = {2011002190},
 }
 
 @Article{keijsers2006,
-  Title                    = {Ambulatory motor assessment in Parkinson's disease.},
-  Author                   = {Keijsers, N. L. and Horstink, M. W. and Gielen, S. C.},
-  Journal                  = {Movement disorders : official journal of the Movement Disorder Society},
-  Year                     = {2006}
+  author       = {Noël L.W. Keijsers and Martin W.I.M. Horstink and Stan C.A.M. Gielen},
+  title        = {Ambulatory Motor Assessment In Parkinson's Disease},
+  journaltitle = {Movement Disorders},
+  year         = {2006},
+  volume       = {21},
+  pages        = {34-44},
+  issn         = {1531-8257},
+  journal      = {Movement Disorders},
+  publisher    = {Wiley-Blackwell},
 }
 
 @Article{kostek12,
-  Title                    = {Automatic assessment of the motor state of the Parkinson's disease patient - a case study.},
-  Author                   = {Kostek, Bozena and Kaszuba, Katarzyna and Zwan, Pawel and Robowski, Piotr and Slawek, Jaroslaw},
-  Journal                  = {Diagn Pathol},
-  Year                     = {2012}
+  author       = {Kostek, Bozena and Kaszuba, Katarzyna and Zwan, Pawel and Robowski, Piotr and Slawek, Jaroslaw},
+  title        = {Automatic Assessment Of The Motor State Of The Parkinson's Disease Patient--a Case Study},
+  journaltitle = {Diagnostic Pathology},
+  year         = {2012},
+  volume       = {7},
+  number       = {1},
+  pages        = {1-8},
+  issn         = {1746-1596},
+  abstract     = {This paper presents a novel methodology in which the Unified Parkinson's Disease Rating Scale (UPDRS) data processed with a rule-based decision algorithm is used to predict the state of the Parkinson's Disease patients. The research was carried out to investigate whether the advancement of the Parkinson's Disease can be automatically assessed. For this purpose, past and current UPDRS data from 47 subjects were examined. The results show that, among other classifiers, the rough set-based decision algorithm turned out to be most suitable for such automatic assessment.},
+  journal      = {Diagnostic Pathology},
 }
 
 @Article{wiigraves2008,
-  Title                    = {Energy expenditure in adolescents playing new generation computer games},
-  Author                   = {L Graves, G Stratton, ND Ridgers and NT Cable .},
-  Journal                  = {Br J Sports Med},
-  Year                     = {2008}
+  author       = {L Graves, G Stratton, ND Ridgers and NT Cable .},
+  title        = {Energy Expenditure In Adolescents Playing New Generation Computer Games},
+  journaltitle = {British Journal of Sports Medicine},
+  year         = {2008},
+  editor       = {BMJ},
+  series       = {7},
+  volume       = {42},
+  pages        = {592-594},
+  issn         = {1473-0480},
+  journal      = {British Journal of Sports Medicine},
 }
 
 @Article{prevcronica2009,
-  Title                    = {Prevalência de doenças crônicas e estado nutricional em um grupo de idosos brasileiros},
-  Author                   = {Christiane Leite-Cavalcanti and Maria da Concei{\c{c}}{\~a}o Rodrigues-Gon{\c{c}}alves and Luiza Sonia Rios-Asciutti and Alessandro Leite-Cavalcanti},
-  Journal                  = {Rev. salud p{\'u}blica.},
-  Year                     = {2009}
+  author       = {Christiane Leite-Cavalcanti and Maria da Conceição Rodrigues-Gonçalves and Luiza Sonia Rios-Asciutti and Alessandro Leite-Cavalcanti},
+  title        = {Prevalência De Doenças Crônicas E Estado Nutricional Em Um Grupo De Idosos Brasileiros},
+  journaltitle = {Revista de Salud Pública},
+  year         = {2009},
+  volume       = {11},
+  pages        = {865-877},
+  issn         = {0124-0064},
+  journal      = {Revista de Salud Pública},
+  publisher    = {scieloco},
 }
 
 @InProceedings{LeMoyne2009,
-  Title                    = {Quantification of Parkinson's disease characteristics using wireless accelerometers},
-  Author                   = {LeMoyne, R. and Coroian, C. and Mastroianni, T.},
-  Booktitle                = {International Conference on Complex Medical Engineering},
-  Year                     = {2009},
-  Publisher                = {CME}
+  author    = {R. LeMoyne and C. Coroian and T. Mastroianni},
+  title     = {Quantification Of Parkinson's Disease Characteristics Using Wireless Accelerometers},
+  booktitle = {International Conference on Complex Medical Engineering},
+  year      = {2009},
+  publisher = {CME},
+  pages     = {1-5},
+  abstract  = {Parkinson's disease is classified as a chronic movement disorder. The incidence of Parkinson's disease is proportional to age. The status of Parkinson's disease is characterized through the Unified Parkinson's Disease Rating Scale. The Unified Parkinson's Disease Rating Scale is an ordinal scale, for which the scale is qualitatively evaluated. The inherent issue of the ordinal scale is the lack of a temporal parameter to evaluate the attributes of the movement disorder. The evaluation of the Parkinson's Disease Rating Scale requires clinical specialization, occurring in a clinical environment. Accelerometers, through the advent of miniaturization, have reached a capacity to advance the evaluation of Parkinson's disease. Tremor characteristics and temporal attributes of Parkinson's disease can be readily quantified. Accelerometer systems have been tested and evaluated for ascertaining general status, drug therapy efficacy, and amelioration of Parkinson's disease based on deep brain stimulation parameter settings. Further advance of the accelerometer characterization of Parkinson's disease attributes involves the incorporation of a fully wearable system. Such a system is possible with the integration of wireless 3D MEMS accelerometers. The device proposed incorporates a wireless and potentially wearable 3D MEMS accelerometer mounted on the dorsum of the hand. The wireless 3D MEMS accelerometer system can potentially track the Parkinson's disease status through out real time for a subject at the home-based setting of the subject. An implication of the device is a subject database can be generated quantifying the progression of Parkinson's disease. Drug therapy dosage may be optimized with quantified feedback from the wireless 3D MEMS accelerometer system. Deep brain stimulation parameters may be further refined, and the conceptual foundation for real time deep brain stimulation parameter optimization is established. Enclosed is the initial test and evaluati- - on of the wireless 3D MEMS accelerometer system through the quantification of simulated tremor.},
+  keywords  = {accelerometers;bioMEMS;diseases;patient monitoring;wearable computers;3D MEMS accelerometers;Unified Parkinson's Disease Rating Scale;amelioration;chronic movement disorder;drug therapy efficacy;miniaturization;wearable system;wireless accelerometers;Accelerometers;Brain stimulation;Databases;Drugs;Feedback;Medical treatment;Micromechanical devices;Parkinson's disease;Real time systems;System testing;Parkinson's disease quantification;accelerometer;wireless accelerometer},
 }
 
 @InProceedings{lemoyne2010,
-  Title                    = {Implementation of an iPhone for characterizing Parkinson's disease tremor through a wireless accelerometer application},
-  Author                   = {LeMoyne, R. and Mastroianni, T. and Cozza, M. and Coroian, C. and Grundfest, W.},
-  Booktitle                = {International Conference of Engineering in Medicine and Biology Society},
-  Year                     = {2010},
-  Publisher                = {IEEE}
+  author    = {R. LeMoyne and T. Mastroianni and M. Cozza and C. Coroian and W. Grundfest},
+  title     = {Implementation of an iPhone for characterizing Parkinson's disease tremor through a wireless accelerometer application},
+  booktitle = {2010 Annual International Conference of the IEEE Engineering in Medicine and Biology},
+  year      = {2010},
+  pages     = {4954-4958},
+  abstract  = {Parkinson's disease represents a chronic movement disorder, which is generally proportionally to age. The status of Parkinson's disease is traditionally classified through ordinal scale strategies, such as the Unified Parkinson's Disease Rating Scale. However, the application of the ordinal scale strategy inherently requires highly specialized and limited medical resources for interpretation. An alternative strategy involves the implementation of an iPhone application that enables the device to serve as a functional wireless accelerometer system. The Parkinson's disease tremor attributes may be recorded in either an effectively autonomous public or private setting, for which the resultant accelerometer signal of the tremor can be conveyed wireless and through email to a remote location for data post-processing. The initial testing and evaluation of the iPhone wireless accelerometer application for quantifying Parkinson's disease tremor successfully demonstrates the capacity to acquire tremor characteristics in an effectively autonomous environment, while potentially alleviating strain on limited and highly specialized medical resources.},
+  issn      = {1094-687X},
+  keywords  = {accelerometers;biomedical communication;biomedical equipment;diseases;medical diagnostic computing;medical disorders;mobile handsets;patient diagnosis;Parkinson's disease tremor;Unified Parkinson's Disease Rating Scale;autonomous environment;chronic movement disorder;data post-processing;iPhone;ordinal scale strategy;wireless accelerometer application;Acceleration;Accelerometers;Brain stimulation;Parkinson's disease;Wireless communication;Wireless sensor networks;Parkinson's disease;Parkinson's disease tremor quantification;iPhone;iPhone application;wireless accelerometer;Acceleration;Cellular Phone;Diagnosis, Computer-Assisted;Equipment Design;Equipment Failure Analysis;Monitoring, Ambulatory;Parkinson Disease;Software;Telemedicine;Telemetry;Transducers;Tremor},
 }
 
 @InProceedings{gridsearchsvm2010,
-  Title                    = {An Automatic Method for Selecting the Parameter of the Normalized Kernel Function to Support Vector Machines},
-  Author                   = {Cheng-Hsuan Li and Chin-Teng Lin and Bor-Chen Kuo and Ho, H.-H.},
-  Booktitle                = {International Conference on Technologies and Applications of Artificial Intelligence},
-  Year                     = {2010},
-  Publisher                = {IEEE}
+  author    = {C. H. Li and C. T. Lin and B. C. Kuo and H. H. Ho},
+  title     = {An Automatic Method for Selecting the Parameter of the Normalized Kernel Function to Support Vector Machines},
+  booktitle = {International Conference on Technologies and Applications of Artificial Intelligence},
+  year      = {2010},
+  pages     = {226-232},
+  abstract  = {Support vector machine (SVM) is one of the most powerful techniques for supervised classification. However, the performances of SVMs are based on choosing the proper kernel functions or proper parameters of a kernel function. It is extremely time consuming by applying the k-fold cross-validation (CV) to choose the almost best parameter. Nevertheless, the searching range and fineness of the grid method should be determined in advance. In this paper, an automatic method for selecting the parameter of the normalized kernel function is proposed. In the experimental results, it costs very little time than k-fold cross-validation for selecting the parameter by our proposed method. Moreover, the corresponding SVMs can obtain more accurate or at least equal performance than SVMs by applying k-fold cross-validation to determine the parameter.},
+  issn      = {2376-6816},
+  keywords  = {support vector machines;SVM;k-fold cross-validation;normalized kernel function;supervised classification;support vector machine;SVM;kernel method;normalized kernel;optimal kernel;support vector machine},
 }
 
 @InProceedings{robotgait2014,
-  Title                    = {Vision based gait analysis on robotic walking stabilization system for patients with Parkinson's Disease},
-  Author                   = {Chien-Ke Liao and Chung Dial Lim and Ching-Ying Cheng and Cheng-Ming Huang and Li-Chen Fu},
-  Booktitle                = {International Conference on Automation Science and Engineering (CASE)},
-  Year                     = {2014},
-  Publisher                = {IEEE}
-}
-
-@Book{limongi2002,
-  Title                    = {Conhecendo Melhor A Doença De Parkinson: Uma Abordagem Multidisciplinar Com Orientações Práticas Para O Dia-A-Dia},
-  Author                   = {João Carlos Papaterra Limongi},
-  Editor                   = {Plexus},
-  Year                     = {2001}
+  author    = {C. K. Liao and C. D. Lim and C. Y. Cheng and C. M. Huang and L. C. Fu},
+  title     = {Vision based gait analysis on robotic walking stabilization system for patients with Parkinson's Disease},
+  booktitle = {2014 IEEE International Conference on Automation Science and Engineering (CASE)},
+  year      = {2014},
+  pages     = {818-823},
+  abstract  = {In this paper, we propose a gait analysis based walking stabilization system on an active robotic walker for Parkinson's Disease patient. We developed a vision based gait analysis that lower limbs from the frontal view which is captured by single RGB-D camera on the robotic walker. Our system constructs the lower limbs skeleton and kinematic model for calculating the walking gait features such as average walking step length, velocity, width and joint angles. When the user suffer in abnormal gait, the robotic walker assists user to stabilize their gaits through the adjustable control motion of walker according to the user's walking gait and prompting user with auditory cues. In experiment, we had invited Parkinson's Disease patients to test our system in senior care unit, the experimental results show that when the patients have relatively stable gait than without using this system.},
+  issn      = {2161-8070},
+  keywords  = {cameras;diseases;gait analysis;medical image processing;medical robotics;mobile robots;motion control;robot kinematics;robot vision;stability;Parkinson disease patient;active robotic walker;adjustable motion control;auditory cues;kinematic model;lower limbs skeleton;robotic walking stabilization system;senior care unit;single RGB-D camera;vision based gait analysis;Cameras;Diseases;Joints;Legged locomotion;Monitoring;Three-dimensional displays},
 }
 
 @InProceedings{maitland2009,
-  Title                    = {Technological Approaches to Promoting Physical Activity},
-  Author                   = {Maitland, Julie and Siek, Katie A.},
-  Booktitle                = {Conference of the Australian Computer-Human Interaction Special Interest Group},
-  Year                     = {2009},
-  Publisher                = {ACM}
+  author    = {Maitland, Julie and Siek, Katie A.},
+  title     = {Technological Approaches to Promoting Physical Activity},
+  booktitle = {Proceedings of the 21st Annual Conference of the Australian Computer-Human Interaction Special Interest Group},
+  year      = {2009},
+  series    = {OZCHI '09},
+  publisher = {ACM},
+  isbn      = {978-1-60558-854-4},
+  pages     = {277-280},
+  acmid     = {1738873},
+  keywords  = {low-income, persuasive technology, physical activity},
+  numpages  = {4},
 }
 
 @InCollection{Mandryk2014,
-  Title                    = {Designing Games to Discourage Sedentary Behaviour},
-  Author                   = {Mandryk, ReganL. and Gerling, KathrinM. and Stanley, KevinG.},
-  Booktitle                = {Playful User Interfaces},
-  Publisher                = {Springer Singapore},
-  Year                     = {2014}
+  author    = {Mandryk, Regan L. and Gerling, Kathrin M. and Stanley, Kevin G.},
+  title     = {Designing Games to Discourage Sedentary Behaviour},
+  booktitle = {Playful User Interfaces: Interfaces that Invite Social and Physical Interaction},
+  year      = {2014},
+  editor    = {Nijholt, Anton},
+  publisher = {Springer Singapore},
+  isbn      = {978-981-4560-96-2},
+  pages     = {253-274},
+  address   = {Singapore},
 }
 
 @Misc{matlab2011,
-  Title                    = {Matlab R2011a},
-
-  Author                   = {Mathworks},
-  HowPublished             = {\textit{Software}, {D}isponível em: http://mathworks.com/},
-  Note                     = {Último acesso: 23 de Novembro de 2015}
+  author       = {Mathworks},
+  title        = {Matlab R2015a},
+  howpublished = {\textit{Software}, {D}isponível em: http://mathworks.com/},
+  note         = {Último acesso: 23 de Novembro de 2015},
 }
 
 @Article{mazilu2015,
-  Title                    = {A Wearable Assistant for Gait Training for Parkinson\&Rsquo;s Disease with Freezing of Gait in Out-of-the-Lab Environments},
-  Author                   = {Mazilu, Sinziana and Blanke, Ulf and Dorfman, Moran and Gazit, Eran and Mirelman, Anat and M. Hausdorff, Jeffrey and Tr\"{o}ster, Gerhard},
-  Journal                  = {ACM Transactions Interactive Intelligent Systems},
-  Year                     = {2015}
+  author    = {Mazilu, Sinziana and Blanke, Ulf and Dorfman, Moran and Gazit, Eran and Mirelman, Anat and M. Hausdorff, Jeffrey and Troster, Gerhard},
+  title     = {A Wearable Assistant for Gait Training for Parkinson's Disease with Freezing of Gait in Out-of-the-Lab Environments},
+  year      = {2015},
+  volume    = {5},
+  number    = {1},
+  month     = mar,
+  pages     = {1-31},
+  issn      = {2160-6455},
+  acmid     = {2701431},
+  articleno = {5},
+  journal   = {ACM Transactions Interactive Intelligent Systems},
+  keywords  = {Wearable assistant, freezing of gait, gait impairment, on-body sensors, out-of-the-lab studies, system's acceptance, user centered},
+  numpages  = {31},
+  publisher = {ACM},
 }
 
 @Book{mcginnis2013biomechanics,
-  Title                    = {Biomechanics of Sport and Exercise},
-  Author                   = {Peter McGinnis},
-  Publisher                = {Human Kinetics},
-  Year                     = {2013}
+  author    = {McGinnis, P.M.},
+  title     = {Biomechanics of Sport and Exercise},
+  year      = {2013},
+  edition   = {3},
+  publisher = {Human Kinetics},
+  isbn      = {9780736079662},
+  pages     = {444},
 }
 
 @Book{menezes2003,
-  Title                    = {Doença De Parkinson},
-  Author                   = {Murilo Meneses and Hélio Teive},
-  Publisher                = {Guanabara Koogan},
-  Year                     = {2003}
+  author    = {Murilo Meneses and Hélio Teive},
+  title     = {Doença De Parkinson},
+  year      = {2003},
+  edition   = {3},
+  publisher = {Guanabara Koogan},
+  isbn      = {8527708159},
+  pages     = {348},
 }
 
 @Electronic{kinnect2013,
-  Title                    = {Ms-Kinnect},
-  Author                   = {Microsoft},
-  HowPublished             = {{D}isponível em: http://www.xbox.com/pt-BR/kinect}
+  author       = {Microsoft},
+  title        = {Ms-Kinnect},
+  year         = {ms kinec},
+  date         = {2012},
+  howpublished = {{D}isponível em: http://www.xbox.com/pt-BR/kinect},
 }
 
-@Article{rodrigues2006,
-  Title                    = {Estratégia Para O Tratamento Com Levodopa Na Doença De Parkinson},
-  Author                   = {Milena Rodrigues, Luciane Costa Campos},
-  Journal                  = {Revista Analytica},
-  Year                     = {2006}
+@Book{abn2010,
+  author  = {Elza Dias-Tosta and Carlos Roberto de Mello Rieder and Vanderci Borges and Ylmar Correa Neto},
+  title   = {Doença de Parkinson - Recomendações da Academia Brasileira de Neurologia},
+  year    = {2010},
+  editor  = {Omnifarma},
+  edition = {1},
+  isbn    = {978-85-62477-05-8},
+  pages   = {142},
 }
 
 @Article{healthmonitoring2013,
-  Title                    = {Health Monitoring for Elderly: An Application Using Case-Based Reasoning and Cluster Analysis},
-  Author                   = {Mobyen Uddin Ahmed, Hadi Banaee, and Amy Loutfi},
-  Journal                  = {ISRN Artificial Intelligence},
-  Year                     = {2013}
+  author  = {Mobyen Uddin Ahmed and Hadi Banaee and Amy Loutfi},
+  title   = {Health Monitoring for Elderly: An Application Using Case-Based Reasoning and Cluster Analysis},
+  year    = {2013},
+  volume  = {2013},
+  pages   = {1-11},
+  journal = {ISRN Artificial Intelligence},
 }
 
 @Book{moore2011basics,
-  Title                    = {Basics of Game Design},
-  Author                   = {Michael Moore},
-  Publisher                = {Taylor \& Francis Group},
-  Year                     = {2011}
+  author    = {Michael Moore},
+  title     = {Basics of Game Design},
+  year      = {2011},
+  edition   = {1},
+  publisher = {Taylor \& Francis Group},
+  isbn      = {878-1-4398-6776-1},
+  pages     = {360},
 }
 
 @InProceedings{bas00,
-  Title                    = {Requirements Engineering: A Roadmap},
-  Author                   = {Nuseibeh, Bashar and Easterbrook, Steve},
-  Booktitle                = {Proceedings of the Conference on The Future of Software Engineering},
-  Year                     = {2000},
-  Publisher                = {ACM}
+  author    = {Nuseibeh, Bashar and Easterbrook, Steve},
+  title     = {Requirements Engineering: A Roadmap},
+  booktitle = {Proceedings of the Conference on The Future of Software Engineering},
+  year      = {2000},
+  publisher = {ACM},
+  isbn      = {1-58113-253-0},
+  pages     = {35-46},
+  acmid     = {336523},
+  address   = {New York, NY, USA},
 }
 
 @MastersThesis{elicquest05,
@@ -484,24 +610,33 @@ prototype related to sport and dance activities.},
 }
 
 @Article{Papastergiou:2009:EPC:1570538.1570707,
-  Title                    = {Exploring the potential of computer and video games for health and physical education: A literature review},
-  Author                   = {Papastergiou, Marina},
-  Journal                  = {Computation Education},
-  Year                     = {2009}
+  author    = {Papastergiou, Marina},
+  title     = {Exploring the Potential of Computer and Video Games for Health and Physical Education: A Literature Review},
+  year      = {2009},
+  volume    = {53},
+  number    = {3},
+  month     = nov,
+  pages     = {603-622},
+  issn      = {0360-1315},
+  acmid     = {1570707},
+  address   = {Oxford, UK, UK},
+  journal   = {Comput. Educ.},
+  keywords  = {Applications in subject areas, Human-computer interface, Interactive learning environments, Learning communities},
+  numpages  = {20},
+  publisher = {Elsevier Science Ltd.},
 }
 
 @Article{patel_monitoring_2009,
-  Title                    = {Monitoring Motor Fluctuations in Patients With Parkinson's Disease Using Wearable Sensors},
-  Author                   = {Patel, S. and Lorincz, K. and Hughes, R. and Huggins, N. and Growdon, J. and Standaert, D. and Akay, M. and Dy, J. and Welsh, M. and Bonato, P.},
-  Journal                  = {{IEEE} Transactions on Information Technology in Biomedicine},
-  Year                     = {2009}
-}
-
-@Book{protpar010,
-  Title                    = {Protocolo Clínico E Diretrizes Terapêutica - Doença de Parkinson},
-  Author                   = {Paulo Picon and Maria Gadelha and Alberto Beltrame},
-  Publisher                = {Ministério da Saúde},
-  Year                     = {2010}
+  author   = {S. Patel and K. Lorincz and R. Hughes and N. Huggins and J. Growdon and D. Standaert and M. Akay and J. Dy and M. Welsh and P. Bonato},
+  title    = {Monitoring Motor Fluctuations in Patients With Parkinson's Disease Using Wearable Sensors},
+  year     = {2009},
+  volume   = {13},
+  number   = {6},
+  pages    = {864-873},
+  issn     = {1089-7771},
+  abstract = {This paper presents the results of a pilot study to assess the feasibility of using accelerometer data to estimate the severity of symptoms and motor complications in patients with Parkinson's disease. A support vector machine (SVM) classifier was implemented to estimate the severity of tremor, bradykinesia and dyskinesia from accelerometer data features. SVM-based estimates were compared with clinical scores derived via visual inspection of video recordings taken while patients performed a series of standardized motor tasks. The analysis of the video recordings was performed by clinicians trained in the use of scales for the assessment of the severity of Parkinsonian symptoms and motor complications. Results derived from the accelerometer time series were analyzed to assess the effect on the estimation of clinical scores of the duration of the window utilized to derive segments (to eventually compute data features) from the accelerometer data, the use of different SVM kernels and misclassification cost values, and the use of data features derived from different motor tasks. Results were also analyzed to assess which combinations of data features carried enough information to reliably assess the severity of symptoms and motor complications. Combinations of data features were compared taking into consideration the computational cost associated with estimating each data feature on the nodes of a body sensor network and the effect of using such data features on the reliability of SVM-based estimates of the severity of Parkinsonian symptoms and motor complications.},
+  journal  = {IEEE Transactions on Information Technology in Biomedicine},
+  keywords = {accelerometers;biomedical transducers;body area networks;diseases;feature extraction;medical computing;neurophysiology;patient monitoring;pattern classification;support vector machines;time series;Parkinson's disease;SVM classifier;accelerometer data features;body sensor network;bradykinesia;clinical scores;dyskinesia;motor complications;motor fluctuation;patient monitoring;support vector machine;time series;tremor severity estimation;video recording;visual inspection;wearable sensors;Body sensor networks;Parkinson's disease;support vector machines (SVMs);wearable sensors;Acceleration;Aged;Algorithms;Artificial Intelligence;Clothing;Dyskinesias;Humans;Middle Aged;Monitoring, Ambulatory;Parkinson Disease;Severity of Illness Index;Signal Processing, Computer-Assisted;Telemetry;Video Recording},
 }
 
 @Misc{qda13,
@@ -513,18 +648,22 @@ prototype related to sport and dance activities.},
 }
 
 @Book{rowlandtratado,
-  Title                    = {Tratado De Neurologia},
-  Author                   = {Lewis Rowland},
-  Publisher                = {Guanabara Koogan},
-  Year                     = {2011}
+  author    = {Lewis Rowland},
+  title     = {Tratado De Neurologia},
+  year      = {2011},
+  edition   = {10},
+  publisher = {Guanabara Koogan},
+  isbn      = {8527707357},
+  pages     = {912},
 }
 
 @InProceedings{finger2012,
-  Title                    = {Severity estimation of finger-tapping caused by Parkinson's disease by using linear discriminant regression analysis},
-  Author                   = {Sano, Y. and Kandori, A. and Miyoshi, T. and Tsuji, T. and Shima, K. and Yokoe, M. and Sakoda, S.},
-  Booktitle                = {International Conference of Engineering in Medicine and Biology Society,},
-  Year                     = {2012},
-  Publisher                = {EMBC}
+  author    = {Sano, Y. and Kandori, A. and Miyoshi, T. and Tsuji, T. and Shima, K. and Yokoe, M. and Sakoda, S.},
+  title     = {Severity estimation of finger-tapping caused by Parkinson's disease by using linear discriminant regression analysis},
+  booktitle = {International Conference of Engineering in Medicine and Biology Society},
+  year      = {2012},
+  publisher = {EMBC},
+  isbn      = {9781424479276},
 }
 
 @MastersThesis{antonio2013,
@@ -561,68 +700,132 @@ prototype related to sport and dance activities.},
   Timestamp                = {2014.02.16}
 }
 
-@TechReport{sinclair07,
-  Title                    = {Considerations for the design of exergames},
-  Author                   = {Sinclair, Jeff and Hingston, Philip and Masek, Martin},
-  Institution              = {ACM Special Interest Group on Computer Graphics and Interactive Techniques},
-  Year                     = {2007}
+@InProceedings{sinclair07,
+  author    = {Sinclair, Jeff and Hingston, Philip and Masek, Martin},
+  title     = {Considerations for the Design of Exergames},
+  booktitle = {Proceedings of the 5th International Conference on Computer Graphics and Interactive Techniques in Australia and Southeast Asia},
+  year      = {2007},
+  series    = {GRAPHITE '07},
+  publisher = {ACM},
+  location  = {Perth, Australia},
+  isbn      = {978-1-59593-912-8},
+  pages     = {289-295},
+  acmid     = {1321313},
+  address   = {New York, NY, USA},
+  keywords  = {exergaming, games},
+  numpages  = {7},
 }
 
 @Article{Sinclair:2009:UVB:1515604.1515617,
-  Title                    = {Using a Virtual Body to Aid in Exergaming System Development},
-  Author                   = {Sinclair, Jeff and Hingston, Philip and Masek, Martin and Nosaka, Kazunori (Ken)},
-  Journal                  = {IEEE Computer Graphics Applications},
-  Year                     = {2009}
+  author    = {Sinclair, Jeff and Hingston, Philip and Masek, Martin and Nosaka, Ken},
+  title     = {Using a Virtual Body to Aid in Exergaming System Development},
+  year      = {2009},
+  volume    = {29},
+  number    = {2},
+  month     = mar,
+  pages     = {39-48},
+  issn      = {0272-1716},
+  acmid     = {1669289},
+  address   = {Los Alamitos, CA, USA},
+  journal   = {IEEE Computer Graphics Applications},
+  numpages  = {10},
+  publisher = {IEEE Computer Society Press},
 }
 
 @Book{van1999goal,
-  Title                    = {The Goal/Question/Metric Method: A Practical Guide for Quality Improvement of Software Development},
-  Author                   = {Rini Solingen and Egon Berghout},
-  Publisher                = {McGraw-Hill},
-  Year                     = {1999}
+  author    = {Rini Solingen and Egon Berghout},
+  title     = {The Goal/Question/Metric Method: A Practical Guide for Quality Improvement of Software Development},
+  year      = {1999},
+  publisher = {McGraw-Hill},
+  isbn      = {9780077095536},
+  pages     = {199},
 }
 
 @Book{sommerville2011,
-  Title                    = {Engenharia de software},
-  Author                   = {Ian Sommerville},
-  Publisher                = {Pearson},
-  Year                     = {2011}
+  author    = {Ian Sommerville},
+  title     = {Engenharia de Software},
+  year      = {2011},
+  publisher = {Addison Wesley Bra},
+  isbn      = {9788588639287},
+  pages     = {552},
 }
 
 @Article{Storni:2014:DCU:2628458.2628474,
-  Title                    = {Design Challenges for Ubiquitous and Personal Computing in Chronic Disease Care and Patient Empowerment: A Case Study Rethinking Diabetes Self-monitoring},
-  Author                   = {Storni, Cristiano},
-  Journal                  = {Personal Ubiquitous Computing},
-  Year                     = {2014}
+  author    = {Storni, Cristiano},
+  title     = {Design Challenges for Ubiquitous and Personal Computing in Chronic Disease Care and Patient Empowerment: A Case Study Rethinking Diabetes Self-monitoring},
+  year      = {2014},
+  volume    = {18},
+  number    = {5},
+  month     = jun,
+  pages     = {1277-1290},
+  issn      = {1617-4909},
+  acmid     = {2628474},
+  address   = {London, UK, UK},
+  journal   = {Personal Ubiquitous Comput.},
+  keywords  = {Chronic disease, Diabetes, Patient empowerment, Self-care, Self-monitoring},
+  numpages  = {14},
+  publisher = {Springer-Verlag},
 }
 
 @InProceedings{Suhonen:2008:SFE:1457199.1457204,
-  Title                    = {Seriously fun: exploring how to combine promoting health awareness and engaging gameplay},
-  Author                   = {Suhonen, Katja and V\"{a}\"{a}t\"{a}j\"{a}, Heli and Virtanen, Tytti and Raisamo, Roope},
-  Booktitle                = {International Conference on Entertainment and Media in the Ubiquitous Era},
-  Year                     = {2008},
-  Publisher                = {ACM}
+  author    = {Suhonen, Katja and V\"{a}\"{a}t\"{a}j\"{a}, Heli and Virtanen, Tytti and Raisamo, Roope},
+  title     = {Seriously Fun: Exploring How to Combine Promoting Health Awareness and Engaging Gameplay},
+  booktitle = {Proceedings of the International Conference on Entertainment and Media in the Ubiquitous Era},
+  year      = {2008},
+  series    = {MindTrek '08},
+  publisher = {ACM},
+  location  = {Tampere, Finland},
+  isbn      = {978-1-60558-197-2},
+  pages     = {18-22},
+  acmid     = {1457204},
+  address   = {New York, NY, USA},
+  keywords  = {adolescent, education, exercise, gaming, health, learning, mobile device, serious games},
+  numpages  = {5},
 }
 
 @Article{sweetser2005-gameflow,
-  Title                    = {GameFlow: a model for evaluating player enjoyment in games},
-  Author                   = {Sweetser, Penelope and Wyeth, Peta},
-  Journal                  = {Computation Entertainment},
-  Year                     = {2005}
+  author       = {Sweetser, Penelope and Wyeth, Peta},
+  title        = {GameFlow: A Model for Evaluating Player Enjoyment in Games},
+  journaltitle = {Computing Entertainment},
+  year         = {2005},
+  volume       = {3},
+  number       = {3},
+  month        = jul,
+  pages        = {3--3},
+  issn         = {1544-3574},
+  acmid        = {1077253},
+  address      = {New York, NY, USA},
+  journal      = {Computing Entertainment},
+  keywords     = {enjoyment, evaluation, flow, games},
+  numpages     = {1},
+  publisher    = {ACM},
 }
 
 @Article{synnott_wiipd_2012,
-  Title                    = {WiiPD Objective Home Assessment of Parkinson's Disease Using the Nintendo Wii Remote},
-  Author                   = {Synnott, J. and Chen, Liming and Nugent, {C.D.} and Moore, G.},
-  Journal                  = {IEEE Transactions on Information Technology in Biomedicine},
-  Year                     = {2012}
+  author       = {J. Synnott and L. Chen and C. D. Nugent and G. Moore},
+  title        = {WiiPD-Objective Home Assessment of Parkinson's Disease Using the Nintendo Wii Remote},
+  journaltitle = {IEEE Transactions on Information Technology in Biomedicine},
+  year         = {2012},
+  volume       = {16},
+  number       = {6},
+  month        = {Nov},
+  pages        = {1304-1312},
+  issn         = {1089-7771},
+  abstract     = {Current clinical methods for the assessment of Parkinson's disease (PD) suffer from inconvenience, infrequency, and subjectivity. WiiPD is an approach for the objective home-based assessment of PD which utilizes the intuitive and sensor-rich Nintendo Wii remote. Combined with an electronic patient diary, a suite of minigames, a metric analyzer, and a visualization engine, we propose that this system can complement existing clinical practice by providing objective metrics gathered frequently over extended periods of time. In this paper, we detail the approach and introduce a series of metrics deemed capable of quantifying the severity of tremor and bradykinesia in those with PD. The system has been tested on a 71-year-old participant with PD over a period of 15 days, a 72-year-old control user without PD, and a group of eight young adults. Results indicate a clear correlation between patient self-rating scores of tremor severity and metric values obtained, in addition to clear differences in metrics obtained from each user group. These results suggest that this approach is capable of indicating the presence and severity of the motor symptoms of PD that affect arm motor control.},
+  journal      = {IEEE Transactions on Information Technology in Biomedicine},
+  keywords     = {biomechanics;biomedical equipment;diseases;medical computing;medical information systems;neurophysiology;Nintendo Wii remote;WiiPD;age 71 yr;age 72 yr;arm motor control;bradykinesia;electronic patient diary;metric analyzer;minigames;motor symptoms;objective homebased Parkinson's disease assessment;objective metrics series;time 15 day;tremor severity;visualization engine;Accelerometers;Cameras;Games;Parkinson's disease;Performance evaluation;Visualization;Motor assessment;Parkinson's disease (PD);tremor;Adult;Age Factors;Aged;Female;Humans;Male;Parkinson Disease;Task Performance and Analysis;Video Games},
 }
 
 @Article{gaitusingsensorsreview2012,
-  Title                    = {Gait Analysis Using Wearable Sensors},
-  Author                   = {Tao, Weijun and Liu, Tao and Zheng, Rencheng and Feng, Hutian},
-  Journal                  = {Sensors},
-  Year                     = {2012}
+  author    = {Tao, Weijun and Liu, Tao and Zheng, Rencheng and Feng, Hutian},
+  title     = {Gait Analysis Using Wearable Sensors},
+  year      = {2012},
+  volume    = {12},
+  number    = {12},
+  pages     = {2255--2283},
+  issn      = {1424-8220},
+  journal   = {Sensors},
+  publisher = {MDPI-AG},
 }
 
 @Misc{unity3d,
@@ -634,24 +837,29 @@ prototype related to sport and dance activities.},
 }
 
 @Article{tolosa06,
-  Title                    = {The Diagnosis Of Parkinson's Disease},
-  Author                   = {Tolosa, Eduardo and Wenning, Gregor and Poewe, Werner},
-  Journal                  = {The Lancet Neurology},
-  Year                     = {2006}
+  author       = {Tolosa, Eduardo and Wenning, Gregor and Poewe, Werner},
+  title        = {The Diagnosis Of Parkinson's Disease},
+  journaltitle = {The Lancet Neurology},
+  year         = {2006},
+  volume       = {5},
+  number       = {1},
+  month        = {jan},
+  pages        = {75-86},
+  issn         = {1474-4422},
+  doi          = {10.1016/s1474-4422(05)70285-4},
+  url          = {http://dx.doi.org/10.1016/s1474-4422(05)70285-4},
+  journal      = {The Lancet Neurology},
+  publisher    = {Elsevier {BV}},
 }
 
 @Book{vapnik95,
-  Title                    = {The Nature of Statistical Learning Theory},
-  Author                   = {Vladimir Vapnik},
-  Publisher                = {Springer-Verlag New York, Inc.},
-  Year                     = {1995}
-}
-
-@Article{vedolin2003,
-  Title                    = {Avaliação da doença de Parkinson pela ressonância magnética},
-  Author                   = {Leonardo Vedolin},
-  Journal                  = {Radiologia Brasileira},
-  Year                     = {2003}
+  author    = {Vladimir Vapnik},
+  title     = {The Nature of Statistical Learning Theory},
+  year      = {2000},
+  edition   = {2},
+  publisher = {Springer-Verlag New York, Inc.},
+  isbn      = {978-1-4757-3264-1},
+  pages     = {314},
 }
 
 @MastersThesis{vicini2005,
@@ -667,10 +875,14 @@ prototype related to sport and dance activities.},
 }
 
 @Book{datamining2005,
-  Title                    = {Data Mining: Practical Machine Learning Tools and Techniques},
-  Author                   = {Ian Witten and Eibe Frank},
-  Publisher                = {Morgan Kaufmann Publishers Inc.},
-  Year                     = {2011}
+  author    = {Witten, Ian H. and Frank, Eibe and Hall, Mark A.},
+  title     = {Data Mining: Practical Machine Learning Tools and Techniques},
+  year      = {2011},
+  edition   = {3},
+  publisher = {Morgan Kaufmann Publishers Inc.},
+  isbn      = {9780123748560},
+  pages     = {629},
+  address   = {San Francisco, CA, USA},
 }
 
 @Electronic{zigfu,
@@ -681,54 +893,69 @@ prototype related to sport and dance activities.},
 }
 
 @InCollection{zowghi2005,
-  Title                    = {Requirements Elicitation: A Survey of Techniques, Approaches, and Tools},
-  Author                   = {Zowghi, Didar and Coulin, Chad},
-  Booktitle                = {Engineering and Managing Software Requirements},
-  Publisher                = {Springer Berlin Heidelberg},
-  Year                     = {2005}
+  author    = {Zowghi, Didar and Coulin, Chad},
+  title     = {Requirements Elicitation: A Survey of Techniques, Approaches, and Tools},
+  booktitle = {Engineering and Managing Software Requirements},
+  year      = {2005},
+  editor    = {Aurum, Ayb{\"u}ke and Wohlin, Claes},
+  publisher = {Springer Berlin Heidelberg},
+  isbn      = {978-3-540-28244-0},
+  pages     = {19-46},
+  address   = {Berlin, Heidelberg},
 }
 
 @Article{ambulatoryparkinson2010,
-  Title                    = {Ambulatory Monitoring of Activities and Motor Symptoms in Parkinson's Disease},
-  Author                   = {Zwartjes, D.G.M. and Heida, T. and van Vugt, J.P.P. and Geelen, J.A.G. and Veltink, P.H.},
-  Journal                  = {IEEE Transactions on Biomedical Engineering},
-  Year                     = {2010}
+  author   = {D. G. M. Zwartjes and T. Heida and J. P. P. van Vugt and J. A. G. Geelen and P. H. Veltink},
+  title    = {Ambulatory Monitoring of Activities and Motor Symptoms in Parkinson #x0027;s Disease},
+  year     = {2010},
+  volume   = {57},
+  number   = {11},
+  pages    = {2778-2786},
+  abstract = {Ambulatory monitoring of motor symptoms in Parkinson's disease (PD) can improve our therapeutic strategies, especially in patients with motor fluctuations. Previously published monitors usually assess only one or a few basic aspects of the cardinal motor symptoms in a laboratory setting. We developed a novel ambulatory monitoring system that provides a complete motor assessment by simultaneously analyzing current motor activity of the patient (e.g., sitting, walking, etc.) and the severity of many aspects related to tremor, bradykinesia, and hypokinesia. The monitor consists of a set of four inertial sensors. Validity of our monitor was established in seven healthy controls and six PD patients treated with deep brain stimulation (DBS) of the subthalamic nucleus. The patients were tested at three different levels of DBS treatment. Subjects were monitored while performing different tasks, including motor tests of the Unified PD Rating Scale (UPDRS). Output of the monitor was compared to simultaneously recorded videos. The monitor proved very accurate in discriminating between several motor activities. Monitor output correlated well with blinded UPDRS ratings during different DBS levels. The combined analysis of motor activity and symptom severity by our PD monitor brings true ambulatory monitoring of a wide variety of motor symptoms one step closer.},
+  journal  = {IEEE Transactions on Biomedical Engineering},
+  keywords = {diseases;gait analysis;patient monitoring;Parkinson's disease;UPDRS;Unified PD Rating Scale;activities;ambulatory monitoring;bradykinesia;deep brain stimulation;hypokinesia;inertial sensors;motor fluctuations;motor symptoms;sitting;subthalamic nucleus;therapeutic strategies;tremor;walking;Brain stimulation;Fluctuations;Laboratories;Legged locomotion;Medical treatment;PD control;Parkinson's disease;Patient monitoring;Satellite broadcasting;Testing;Activity classification;Parkinson’s disease (PD);ambulatory monitoring;bradykinesia;tremor;0},
 }
-
 
 @InProceedings{quantitativeparkinson2011,
-  Title = {Quantitative measurement of motor symptoms in Parkinson's disease: A study with full-body motion capture data},
-  Author = {Das, S. and Trutoiu, L. and Murai, A. and Alcindor, D. and Oh, M. and De la Torre, F. and Hodgins, J.},
-  Booktitle = {Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE},
-  Year = {2011},
-  Publisher = {EMBC}
+  author    = {Das, S. and Trutoiu, L. and Murai, A. and Alcindor, D. and Oh, M. and De la Torre, F. and Hodgins, J.},
+  title     = {Quantitative Measurement Of Motor Symptoms In Parkinson's Disease: A Study With Full-body Motion Capture Data},
+  booktitle = {International Conference of Engineering in Medicine and Biology Society},
+  year      = {2011},
+  publisher = {EMBC},
 }
-
 
 @InProceedings{sacbespoke2014,
-Title = {Bespoke Video Games to Provide Early Response Markers to Identify the Optimal Strategies for Maximizing Rehabilitation},
-Author = {Graziadio, S. and Davison, R. and Shalabi, K. and Sahota, K. M. A. and Ushaw, G. and Morgan, G. and Eyre, J. A.},
-Booktitle = {Proceedings of the 29th Annual ACM Symposium on Applied Computing},
-Year = {2014},
-Publisher = {ACM}
+  author    = {Graziadio, S. and Davison, R. and Shalabi, K. and Sahota, K. M. A. and Ushaw, G. and Morgan, G. and Eyre, J. A.},
+  title     = {Bespoke Video Games to Provide Early Response Markers to Identify the Optimal Strategies for Maximizing Rehabilitation},
+  booktitle = {Proceedings of the 29th Annual ACM Symposium on Applied Computing},
+  year      = {2014},
+  series    = {SAC '14},
+  publisher = {ACM},
+  location  = {Gyeongju, Republic of Korea},
+  isbn      = {978-1-4503-2469-4},
+  pages     = {20-24},
+  acmid     = {2554953},
+  address   = {New York, NY, USA},
+  keywords  = {motor learning, rehabilitation, video games},
+  numpages  = {5},
 }
 
-
-
 @InProceedings{multisvm2011,
-Title = {Multi-class Support Vector Machine (SVM) Classifiers - An Application in Hypothyroid Detection and Classification},
-Author = {F. F. Chamasemani and Y. P. Singh},
-Booktitle = {Sixth International Conference on Bio-Inspired Computing: Theories and Applications},
-Year = {2011},
-Publisher = {IEEE}
+  author    = {F. F. Chamasemani and Y. P. Singh},
+  title     = {Multi-class Support Vector Machine (SVM) Classifiers -- An Application in Hypothyroid Detection and Classification},
+  booktitle = {International Conference on Bio-Inspired Computing: Theories and Applications (BIC-TA)},
+  year      = {2011},
+  pages     = {351-356},
+  abstract  = {The paper presents a Multi-class Support Vector Machine classifier and its application to hypothyroid detection and classification. Support Vector Machines (SVM) have been well known method in the machine learning community for binary classification problems. Multi-class SVMs (MCSVM) are usually implemented by combining several binary SVMs. The objective of this work is to show: first, robustness of various kind of kernels for Multi-class SVM classifier, second, a comparison of different constructing methods for Multi-class SVM, such as One-Against-One and One-Against-All, and finally comparing the classifiers' accuracy of Multi-class SVM classifier to AdaBoost and Decision Tree. The simulation results show that One-Against-All Support Vector Machines (OAASVM) are superior to One-Against-One Support Vector Machines (OAOSVM) with polynomial kernels. The accuracy of OAASVM is also higher than AdaBoost and Decision Tree classifier on hypothyroid disease datasets from UCI machine learning dataset.},
+  keywords  = {diseases;learning (artificial intelligence);medical computing;pattern classification;support vector machines;MCSVM;OAASVM;UCI machine learning;hypothyroid classification;hypothyroid detection;multiclass support vector machine classifiers;one-against-all support vector machines;polynomial kernels;Accuracy;Kernel;Optimization;Particle separators;Support vector machine classification;Training;Boosting;Multi-class SVM;SVM Classification;Support vector machine},
 }
 
 @InCollection{basili94,
-Title = {The goal question metric approach},
-Author = {Basili, Victor and Caldiera, Gianluigi and Rombach, Dieter H.},
-Booktitle = {Encyclopedia of Software Engineering},
-Year = {1994},
-Publisher = {Wiley}
+  author    = {Victor R. Basili and Gianluigi Caldiera and H. Dieter Rombach},
+  title     = {The Goal Question Metric Approach},
+  booktitle = {Encyclopedia of Software Engineering},
+  year      = {1994},
+  publisher = {Wiley},
 }
 
 @InProceedings{atkinson2010,
@@ -743,26 +970,27 @@ Publisher = {Wiley}
 }
 
 @InProceedings{lmmeigengaits2013,
-  Title                    = {Monitoring Parkinson related Gait Disorders with Eigengaits},
-  Author                   = {Leonardo Medeiros and Robert Fischer and Hyggo Almeida and Leandro Silva and Angelo Perkusich},
-  Booktitle                = {XX World Congress on Parkinson's Disease and Related Disorders},
-  Year                     = {2013},
-  Publisher                = {Keynes International}
+  author    = {Leonardo Medeiros and Robert Fischer and Hyggo Almeida and Leandro Silva and Angelo Perkusich},
+  title     = {Monitoring Parkinson related Gait Disorders with Eigengaits},
+  booktitle = {World Congress on Parkinson's Disease and Related Disorders},
+  year      = {2013},
+  publisher = {Keynes International},
 }
 
 @InProceedings{lmmcbmsgame2016,
-  Title                    = {A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia},
-  Author                   = {Leonardo Medeiros and Hyggo Almeida and Leandro Silva and Mirko Perkusich and Robert Fischer},
-  Booktitle                = {The 29th International Symposium on Computer-Based Medical Systems (CBMS 2016)},
-  Year                     = {2016},
-  Publisher                = {IEEE}
+  author    = {Leonardo Medeiros and Hyggo Almeida and Leandro Silva and Mirko Perkusich and Robert Fischer},
+  title     = {A Game-Based Approach to Monitor Parkinson’s Disease: The bradykinesia symptom classification},
+  booktitle = {International Symposium on Computer-Based Medical Systems (CBMS 2016)},
+  year      = {2016},
+  publisher = {IEEE},
 }
+
 @InProceedings{lmmcbmsgait2016,
-  Title                    = {A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis},
-  Author                   = {Leonardo Medeiros and Hyggo Almeida and Leandro Silva and Mirko Perkusich and Robert Fischer},
-  Booktitle                = {The 29th International Symposium on Computer-Based Medical Systems (CBMS 2016)},
-  Year                     = {2016},
-  Publisher                = {IEEE}
+  author    = {Leonardo Medeiros and Hyggo Almeida and Leandro Silva and Mirko Perkusich and Robert Fischer},
+  title     = {A Gait Analysis Approach to Track Parkinson’s Disease Evolution Using Principal Component Analysis},
+  booktitle = {International Symposium on Computer-Based Medical Systems (CBMS 2016)},
+  year      = {2016},
+  publisher = {IEEE},
 }
 
 @Report{esa2016,
@@ -772,6 +1000,24 @@ Publisher = {Wiley}
   institution = {ESA},
   year        = {2016},
   date        = {Abril},
+}
+
+@Book{algebra2000,
+  author    = {Meyer, Carl D.},
+  title     = {Matrix Analysis and Applied Linear Algebra},
+  year      = {2000},
+  publisher = {Society for Industrial and Applied Mathematics},
+  isbn      = {0-89871-454-0},
+  pages     = {171},
+  address   = {Philadelphia, PA, USA},
+}
+
+@TechReport{protpar010,
+  author      = {Ministério da Saúde},
+  title       = {Protocolo Clínico E Diretrizes Terapêuticas - Doença De Parkinson - Portaria SAS/MS Nº 228},
+  institution = {Sistema Único de Saúde},
+  year        = {2010},
+  date        = {Maio},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
