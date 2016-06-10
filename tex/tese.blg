@@ -2,9 +2,9 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: tese.aux
 The style file: babplain.bst
 Database file #1: biblmmcorfinal.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
---line 515 of file biblmmcorfinal.bib
+--line 504 of file biblmmcorfinal.bib
 Warning--entry type for "zigfu" isn't style-file defined
---line 856 of file biblmmcorfinal.bib
+--line 818 of file biblmmcorfinal.bib
 A bad cross reference---entry "brox11"
 refers to entry "conf/ph/2011", which doesn't exist
 Warning--I didn't find a database entry for "conf/ph/2011"
@@ -14,5 +14,4 @@ Warning--can't use both author and editor fields in abn2010
 Warning--empty publisher in abn2010
 Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
-Warning--can't use both author and editor fields in statisticshandbook2009
 (There was 1 error message)

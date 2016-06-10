@@ -80,7 +80,8 @@
   {\btxifchangecase {Pervasive healthcare - paving the way for a pervasive,
   user-centered and preventive healthcare model}{Pervasive Healthcare - Paving
   the Way for a Pervasive, User-Centered and Preventive Healthcare Model}}.
-\newblock \btxjournalfont {Methods of Information in Medicine}, 49, 2010.
+\newblock \btxjournalfont {Methods of Information in Medicine}, 49,
+  2010\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0026-1270}}}.
 
 \bibitem {arntzen2011}
 \btxnamefont {\btxlastnamefont {Arntzen}, Aurelie\btxfnamespacelong
@@ -96,17 +97,17 @@
 \bibitem {esa2011}
 \btxnamefont {\btxlastnamefont {Association}, Entertainment\btxfnamespacelong
   Software}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Essential facts
-  about the u.s. computer and video game industry}{Essential Facts about the
-  U.S. Computer and Video Game Industry}}.
-\newblock \btxifchangecase {techreport}{techreport}, ESA, 2011.
+  about the u.s. computer and video game industry}{Essential Facts About The
+  U.S. Computer And Video Game Industry}}.
+\newblock \btxtechreplong {}, ESA, 2011.
 
 \bibitem {esa2016}
 \btxnamefont {\btxlastnamefont {Association}, Entertainment\btxfnamespacelong
   Software}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Essential facts
   about the computer and video game industry: 2016 sales, demographic and usage
-  data}{Essential Facts about the Computer and Video Game Industry: 2016 Sales,
-  Demographic and Usage Data}}.
-\newblock \btxifchangecase {techreport}{techreport}, ESA, 2016.
+  data}{Essential Facts About The Computer And Video Game Industry: 2016 Sales,
+  Demographic And Usage Data}}.
+\newblock \btxtechreplong {}, ESA, 2016.
 
 \bibitem {atkinson2010}
 \btxnamefont {\btxlastnamefont {Atkinson}, Stephen} \btxandlong {}\
@@ -115,8 +116,9 @@
   environment for diagnosis and management of parkinson's disease}{Design Of An
   Introductory Medical Gaming Environment For Diagnosis And Management Of
   Parkinson's Disease}}.
-\newblock \Btxinlong {}\ \btxtitlefont {Trendz in Information Sciences
-  Computing}. \btxpublisherfont {IEEE}, 2010.
+\newblock \Btxinlong {}\ \btxtitlefont {Trends in Information Sciences
+  Computing}. \btxpublisherfont {IEEE}, 2010\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-3-642-24043-0}}}.
 
 \bibitem {bachlin_parkinsons_2009}
 \btxnamefont {\btxlastnamefont {Bachlin}, Marc}, \btxnamefont {Meir
@@ -159,6 +161,7 @@
   {\btxifchangecase {Peak detection in matlab}{Peak Detection in Matlab}}.
 \newblock \textit{Software}, {D}isponível em:
   http://www.billauer.co.il/peakdet.html, 2012.
+\newblock Último acesso: 3 de Junho de 2016.
 
 \bibitem {brox11}
 \btxnamefont {\btxlastnamefont {Brox}, Ellen}, \btxnamefont {Luis
@@ -173,12 +176,12 @@
   {978-1-61284-767-2}}}.
 
 \bibitem {multisvm2011}
-\btxnamefont {\btxlastnamefont {Chamasemani}, F.\btxfnamespacelong F.}
-  \btxandlong {}\ \btxnamefont {Y.\btxfnamespacelong P. \btxlastnamefont
-  {Singh}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Multi-class support
-  vector machine (svm) classifiers -- an application in hypothyroid detection
-  and classification}{Multi-class Support Vector Machine (SVM) Classifiers --
-  An Application in Hypothyroid Detection and Classification}}.
+\btxnamefont {\btxlastnamefont {Chamasemani}, Fereshteh} \btxandlong {}\
+  \btxnamefont {Yashwant \btxlastnamefont {Singh}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Multi-class support vector machine (svm)
+  classifiers -- an application in hypothyroid detection and
+  classification}{Multi-class Support Vector Machine (SVM) Classifiers -- An
+  Application in Hypothyroid Detection and Classification}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference on
   Bio-Inspired Computing: Theories and Applications}, 2011\ifbtxprintISBN {,
   \mbox{\btxISBN~\btxISBNfont {978-81-322-1037-5}}}.
@@ -242,16 +245,6 @@
 \newblock \btxpublisherfont {Demos Medical Publishing}, \btxeditionnumlong
   {2}{}, 2007\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {193-386-400-1}}}.
 
-\bibitem {homecarebrazil2011}
-\btxnamefont {\btxlastnamefont {Elaine~Thumé},~Luiz Augusto~Facchini,
-  Grace\btxfnamespacelong Wyshak} \btxandlong {}\ \btxnamefont {Paul
-  \btxlastnamefont {Campbell}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
-  {The utilization of home care by the elderly in brazil's primary health care
-  system}{The Utilization of Home Care by the Elderly in Brazil's Primary
-  Health Care System}}.
-\newblock \btxjournalfont {American Journal Of Public Health}, 101:868--874,
-  2011\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1541-0048}}}.
-
 \bibitem {statisticterms2006}
 \btxnamefont {\btxlastnamefont {Espejo}, Mariano\btxfnamespacelong
   Ruiz}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {The oxford dictionary
@@ -262,7 +255,7 @@
 \bibitem {updrs87}
 \btxnamefont {\btxlastnamefont {Fish}, Jessica}\btxauthorcolon\ \btxtitlefont
   {Unified Parkinson's Disease Rating Scale}.
-\newblock \btxpublisherfont {Springer New York}, 2011\ifbtxprintISBN {,
+\newblock \btxpublisherfont {Springer}, 2011\ifbtxprintISBN {,
   \mbox{\btxISBN~\btxISBNfont {978-0-387-79948-3}}}.
 
 \bibitem {FLI04}
@@ -272,13 +265,13 @@
   2004\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-853630-414-4}}}.
 
 \bibitem {manumeterjbhi2014}
-\btxnamefont {\btxlastnamefont {Friedman}, N.}, \btxnamefont
-  {J.\btxfnamespacelong B. \btxlastnamefont {Rowe}}, \btxnamefont
-  {D.\btxfnamespacelong J. \btxlastnamefont {Reinkensmeyer}}\btxandcomma {}
-  \btxandlong {}\ \btxnamefont {M. \btxlastnamefont {Bachman}}\btxauthorcolon\
-  \btxjtitlefont {\btxifchangecase {The manumeter: A wearable device for
-  monitoring daily use of the wrist and fingers}{The Manumeter: A Wearable
-  Device for Monitoring Daily Use of the Wrist and Fingers}}.
+\btxnamefont {\btxlastnamefont {Friedman}, Nizan}, \btxnamefont {Justin
+  \btxlastnamefont {Rowe}}, \btxnamefont {David \btxlastnamefont
+  {Reinkensmeyer}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Mark
+  \btxlastnamefont {Bachman}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {The manumeter: A wearable device for monitoring daily use of the wrist and
+  fingers}{The Manumeter: A Wearable Device for Monitoring Daily Use of the
+  Wrist and Fingers}}.
 \newblock \btxjournalfont {IEEE Journal of Biomedical and Health Informatics},
   18(6), 2014\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2168-2194}}}.
 
@@ -303,6 +296,15 @@
 \newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade de Coimbra, 2010.
 
+\bibitem {goul05}
+\btxnamefont {\btxlastnamefont {Goulart}, Fátima} \btxandlong {}\ \btxnamefont
+  {Luciana \btxlastnamefont {Pereira}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Uso de escalas para avaliação da doença de parkinson em
+  fisioterapia}{Uso De Escalas Para Avaliação Da Doença De Parkinson Em
+  Fisioterapia}}.
+\newblock \btxjournalfont {Fisioterapia e Pesquisa}, 11(1), 2005\ifbtxprintISSN
+  {, \mbox{\btxISSN~\btxISSNfont {2316-9117}}}.
+
 \bibitem {wiigraves2008}
 \btxnamefont {\btxlastnamefont {Graves}, Lee}, \btxnamefont {Gareth
   \btxlastnamefont {Stratton}}, \btxnamefont {Nicola \btxlastnamefont
@@ -315,12 +317,10 @@
   2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1473-0480}}}.
 
 \bibitem {sacbespoke2014}
-\btxnamefont {\btxlastnamefont {Graziadio}, S.}, \btxnamefont {R.
-  \btxlastnamefont {Davison}}, \btxnamefont {K. \btxlastnamefont {Shalabi}},
-  \btxnamefont {K.\btxfnamespacelong M.\btxfnamespacelong A. \btxlastnamefont
-  {Sahota}}, \btxnamefont {G. \btxlastnamefont {Ushaw}}, \btxnamefont {G.
-  \btxlastnamefont {Morgan}}\btxandcomma {} \btxandlong {}\ \btxnamefont
-  {J.\btxfnamespacelong A. \btxlastnamefont {Eyre}}\btxauthorcolon\
+\btxnamefont {\btxlastnamefont {Graziadio}, Sara}, \btxnamefont {Richard
+  \btxlastnamefont {Davison}}, \btxnamefont {Koholood \btxlastnamefont
+  {Shalabi}}, \btxnamefont {Kalvin \btxlastnamefont {Sahota}}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {Gary \btxlastnamefont {Ushaw}}\btxauthorcolon\
   \btxtitlefont {\btxifchangecase {Bespoke video games to provide early
   response markers to identify the optimal strategies for maximizing
   rehabilitation}{Bespoke Video Games to Provide Early Response Markers to
@@ -352,28 +352,27 @@
   Institute~for} \btxandlong {}\ \btxnamefont {Clinical \btxlastnamefont
   {Excellence}}\btxauthorcolon\ \btxtitlefont {Parkinson's Disease: Diagnosis
   and Management in Primary and Secondary Care}.
-\newblock \btxpublisherfont {NICE clinical guideline}, \btxeditionnumlong
+\newblock \btxpublisherfont {NICE Clinical Guideline}, \btxeditionnumlong
   {1}{}, 2006\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {1-86016-283-5}}}.
 
 \bibitem {jankovic2008}
-\btxnamefont {\btxlastnamefont {Jankovic}, J}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {Parkinson’s disease: Clinical features and
-  diagnosis}{Parkinson’s Disease: Clinical Features And Diagnosis}}.
+\btxnamefont {\btxlastnamefont {Jankovic}, Joseph}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Parkinson’s disease: Clinical features
+  and diagnosis}{Parkinson’s Disease: Clinical Features And Diagnosis}}.
 \newblock \btxjournalfont {Journal of Neurology, Neurosurgery and Psychiatry},
   79(4), 2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0022-3050}}}.
 
 \bibitem {kantardzic2011data}
-\btxnamefont {\btxlastnamefont {Kantardzic}, M.}\btxauthorcolon\ \btxtitlefont
-  {Data Mining: Concepts, Models, Methods, and Algorithms}.
-\newblock \btxpublisherfont {Wiley}, \btxeditionnumlong {3}{},
+\btxnamefont {\btxlastnamefont {Kantardzic}, Mehmed}\btxauthorcolon\
+  \btxtitlefont {Data Mining: Concepts, Models, Methods, and Algorithms}.
+\newblock \btxpublisherfont {John Wiley \& Sons}, \btxeditionnumlong {3}{},
   2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-111802-913-8}}}.
 
 \bibitem {keijsers2006}
-\btxnamefont {\btxlastnamefont {Keijsers}, Noël\btxfnamespacelong L.W.},
-  \btxnamefont {Martin\btxfnamespacelong W.I.M. \btxlastnamefont
-  {Horstink}}\btxandcomma {} \btxandlong {}\ \btxnamefont
-  {Stan\btxfnamespacelong C.A.M. \btxlastnamefont {Gielen}}\btxauthorcolon\
-  \btxjtitlefont {\btxifchangecase {Ambulatory motor assessment in parkinson's
+\btxnamefont {\btxlastnamefont {Keijsers}, Noël}, \btxnamefont {Martin
+  \btxlastnamefont {Horstink}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Stan \btxlastnamefont {Gielen}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Ambulatory motor assessment in parkinson's
   disease}{Ambulatory Motor Assessment In Parkinson's Disease}}.
 \newblock \btxjournalfont {Movement Disorders}, 21, 2006\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1531-8257}}}.
@@ -402,22 +401,23 @@
   {, \mbox{\btxISSN~\btxISSNfont {0124-0064}}}.
 
 \bibitem {lemoyne2010}
-\btxnamefont {\btxlastnamefont {LeMoyne}, R.}, \btxnamefont {T.
-  \btxlastnamefont {Mastroianni}}, \btxnamefont {M. \btxlastnamefont {Cozza}},
-  \btxnamefont {C. \btxlastnamefont {Coroian}}\btxandcomma {} \btxandlong {}\
-  \btxnamefont {W. \btxlastnamefont {Grundfest}}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Implementation of an iphone for characterizing parkinson's
-  disease tremor through a wireless accelerometer application}{Implementation
-  of an iPhone for characterizing Parkinson's disease tremor through a wireless
-  accelerometer application}}.
+\btxnamefont {\btxlastnamefont {LeMoyne}, Robert}, \btxnamefont {Timothy
+  \btxlastnamefont {Mastroianni}}, \btxnamefont {Michael \btxlastnamefont
+  {Cozza}}, \btxnamefont {Cristian \btxlastnamefont {Coroian}}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {Warren \btxlastnamefont
+  {Grundfest}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Implementation
+  of an iphone for characterizing parkinson's disease tremor through a wireless
+  accelerometer application}{Implementation of an iPhone for characterizing
+  Parkinson's disease tremor through a wireless accelerometer application}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference of the IEEE
-  Engineering in Medicine and Biology}, 2010.
+  Engineering in Medicine and Biology}, 2010\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-142447-927-6}}}.
 
 \bibitem {gridsearchsvm2010}
-\btxnamefont {\btxlastnamefont {Li}, C.\btxfnamespacelong H.}, \btxnamefont
-  {C.\btxfnamespacelong T. \btxlastnamefont {Lin}}, \btxnamefont
-  {B.\btxfnamespacelong C. \btxlastnamefont {Kuo}}\btxandcomma {} \btxandlong
-  {}\ \btxnamefont {H.\btxfnamespacelong H. \btxlastnamefont
+\btxnamefont {\btxlastnamefont {Li}, Cheng\btxfnamespacelong Hsua},
+  \btxnamefont {Chin\btxfnamespacelong Teng \btxlastnamefont {Lin}},
+  \btxnamefont {Bor\btxfnamespacelong Chen \btxlastnamefont {Kuo}}\btxandcomma
+  {} \btxandlong {}\ \btxnamefont {Hsin\btxfnamespacelong Hua \btxlastnamefont
   {Ho}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {An automatic method
   for selecting the parameter of the normalized kernel function to support
   vector machines}{An Automatic Method for Selecting the Parameter of the
@@ -427,11 +427,11 @@
   2010\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-3-319-13986-9}}}.
 
 \bibitem {robotgait2014}
-\btxnamefont {\btxlastnamefont {Liao}, C.\btxfnamespacelong K.}, \btxnamefont
-  {C.\btxfnamespacelong D. \btxlastnamefont {Lim}}, \btxnamefont
-  {C.\btxfnamespacelong Y. \btxlastnamefont {Cheng}}, \btxnamefont
-  {C.\btxfnamespacelong M. \btxlastnamefont {Huang}}\btxandcomma {} \btxandlong
-  {}\ \btxnamefont {L.\btxfnamespacelong C. \btxlastnamefont
+\btxnamefont {\btxlastnamefont {Liao}, Chien\btxfnamespacelong Ke},
+  \btxnamefont {Chung \btxlastnamefont {Lim}}, \btxnamefont
+  {Ching\btxfnamespacelong Ying \btxlastnamefont {Cheng}}, \btxnamefont
+  {Cheng\btxfnamespacelong Ming \btxlastnamefont {Huang}}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {Li\btxfnamespacelong Chen \btxlastnamefont
   {Fu}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Vision based gait
   analysis on robotic walking stabilization system for patients with
   parkinson's disease}{Vision based gait analysis on robotic walking
@@ -440,30 +440,21 @@
   Automation Science and Engineering}, 2014\ifbtxprintISBN {,
   \mbox{\btxISBN~\btxISBNfont {978-146738-184-0}}}.
 
-\bibitem {goul05}
-\btxnamefont {\btxlastnamefont {Luciana~Pereira}, Fátima\btxfnamespacelong
-  Goulart~e}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Uso de escalas
-  para avaliação da doença de parkinson em fisioterapia}{Uso de escalas para
-  avaliação da doença de Parkinson em fisioterapia}}.
-\newblock \btxjournalfont {Fisioterapia e Pesquisa}, 11(1):49--56,
-  2005\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2316-9117}}}.
-
 \bibitem {maitland2009}
 \btxnamefont {\btxlastnamefont {Maitland}, Julie} \btxandlong {}\ \btxnamefont
-  {Katie\btxfnamespacelong A. \btxlastnamefont {Siek}}\btxauthorcolon\
-  \btxtitlefont {\btxifchangecase {Technological approaches to promoting
-  physical activity}{Technological Approaches to Promoting Physical Activity}}.
-\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 21st Annual
-  Conference of the Australian Computer-Human Interaction Special Interest
-  Group}, OZCHI '09, \btxpageslong {}\ 277--280. \btxpublisherfont {ACM},
-  2009\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-854-4}}}.
+  {Katie \btxlastnamefont {Siek}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Technological approaches to promoting physical
+  activity}{Technological Approaches to Promoting Physical Activity}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the Conference of the
+  Australian Computer-Human Interaction Special Interest Group}.
+  \btxpublisherfont {ACM}, 2009\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-1-60558-854-4}}}.
 
 \bibitem {Mandryk2014}
-\btxnamefont {\btxlastnamefont {Mandryk}, Regan\btxfnamespacelong L.},
-  \btxnamefont {Kathrin\btxfnamespacelong M. \btxlastnamefont
-  {Gerling}}\btxandcomma {} \btxandlong {}\ \btxnamefont
-  {Kevin\btxfnamespacelong G. \btxlastnamefont {Stanley}}\btxauthorcolon\
-  \btxtitlefont {\btxifchangecase {Designing games to discourage sedentary
+\btxnamefont {\btxlastnamefont {Mandryk}, Regan}, \btxnamefont {Kathrin
+  \btxlastnamefont {Gerling.}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Kevin \btxlastnamefont {Stanley}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Designing games to discourage sedentary
   behaviour}{Designing Games to Discourage Sedentary Behaviour}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Playful User Interfaces: Interfaces
   that Invite Social and Physical Interaction}. \btxpublisherfont {Springer},
@@ -476,7 +467,7 @@
 \newblock Último acesso: 3 de Junho de 2016.
 
 \bibitem {mcginnis2013biomechanics}
-\btxnamefont {\btxlastnamefont {McGinnis}, P.M.}\btxauthorcolon\ \btxtitlefont
+\btxnamefont {\btxlastnamefont {McGinnis}, Peter}\btxauthorcolon\ \btxtitlefont
   {Biomechanics of Sport and Exercise}.
 \newblock \btxpublisherfont {Human Kinetics}, \btxeditionnumlong {3}{},
   2013\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-073607-966-2}}}.
@@ -516,7 +507,8 @@
   gait disorders with eigengaits}{Abstract Book: Monitoring Parkinson related
   Gait Disorders with Eigengaits}}.
 \newblock \Btxinlong {}\ \btxtitlefont {World Congress on Parkinson's Disease
-  and Related Disorders}. \btxpublisherfont {Keynes International}, 2013.
+  and Related Disorders}. \btxpublisherfont {Keynes International},
+  2013\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-044463-488-7}}}.
 
 \bibitem {menezes2003}
 \btxnamefont {\btxlastnamefont {Meneses}, Murilo} \btxandlong {}\ \btxnamefont
@@ -526,9 +518,8 @@
   2003\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {8527708159}}}.
 
 \bibitem {algebra2000}
-\btxnamefont {\btxlastnamefont {Meyer}, Carl\btxfnamespacelong
-  D.}\btxauthorcolon\ \btxtitlefont {Matrix Analysis and Applied Linear
-  Algebra}.
+\btxnamefont {\btxlastnamefont {Meyer}, Carl}\btxauthorcolon\ \btxtitlefont
+  {Matrix Analysis and Applied Linear Algebra}.
 \newblock \btxpublisherfont {Society for Industrial and Applied Mathematics},
   Philadelphia, PA, USA, 2000\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
   {0-89871-454-0}}}.
@@ -536,13 +527,8 @@
 \bibitem {kinnect2013}
 \btxnamefont {\btxlastnamefont {Microsoft}}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Ms-kinnect}{Ms-Kinnect}}.
-\newblock {D}isponível em: http://www.xbox.com/pt-BR/kinect, ms kinec.
-
-\bibitem {statisticshandbook2009}
-\btxnamefont {\btxlastnamefont {Natrella}, Mary}\btxauthorcolon\ \btxtitlefont
-  {NIST/SEMATECH e-Handbook of Statistical Methods}.
-\newblock \btxpublisherfont {NIST/SEMATECH}, \btxeditionnumlong {2}{},
-  \btxprintmonthyear{.}{7}{2010}{long}.
+\newblock {D}isponível em: http://www.xbox.com/pt-BR/kinect, 2012.
+\newblock Último acesso: 3 de Junho de 2016.
 
 \bibitem {bas00}
 \btxnamefont {\btxlastnamefont {Nuseibeh}, Bashar} \btxandlong {}\ \btxnamefont
@@ -550,9 +536,8 @@
   {\btxifchangecase {Requirements engineering: A roadmap}{Requirements
   Engineering: A Roadmap}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the Conference on The
-  Future of Software Engineering}, \btxpageslong {}\ 35--46, New York, NY, USA,
-  2000. \btxpublisherfont {ACM}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
-  {1-58113-253-0}}}.
+  Future of Software Engineering}. \btxpublisherfont {ACM}, 2000\ifbtxprintISBN
+  {, \mbox{\btxISBN~\btxISBNfont {1-58113-253-0}}}.
 
 \bibitem {elicquest05}
 \btxnamefont {\btxlastnamefont {Oliveira Bastos~Junior},
@@ -566,8 +551,8 @@
 \bibitem {ageing2011}
 \btxnamefont {\btxlastnamefont {Organization}, World\btxfnamespacelong
   Health}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Global health and
-  ageing}{Global Health and ageing}}.
-\newblock \btxtechreplong {}, Who; US National Institute of Aging, 2011.
+  ageing}{Global Health and Ageing}}.
+\newblock \btxtechreplong {}, US National Institute of Aging, 2011.
 
 \bibitem {Papastergiou:2009:EPC:1570538.1570707}
 \btxnamefont {\btxlastnamefont {Papastergiou}, Marina}\btxauthorcolon\
@@ -575,24 +560,24 @@
   video games for health and physical education: A literature review}{Exploring
   the Potential of Computer and Video Games for Health and Physical Education:
   A Literature Review}}.
-\newblock \btxjournalfont {Comput. Educ.}, 53(3):603--622,
-  \btxprintmonthyear{.}{11}{2009}{long}\ifbtxprintISSN {,
+\newblock \btxjournalfont {Computing Education}, 53(3), 2009\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0360-1315}}}.
 
 \bibitem {patel_monitoring_2009}
-\btxnamefont {\btxlastnamefont {Patel}, S.}, \btxnamefont {K. \btxlastnamefont
-  {Lorincz}}, \btxnamefont {R. \btxlastnamefont {Hughes}}, \btxnamefont {N.
-  \btxlastnamefont {Huggins}}, \btxnamefont {J. \btxlastnamefont {Growdon}},
-  \btxnamefont {D. \btxlastnamefont {Standaert}}, \btxnamefont {M.
-  \btxlastnamefont {Akay}}, \btxnamefont {J. \btxlastnamefont {Dy}},
-  \btxnamefont {M. \btxlastnamefont {Welsh}}\btxandcomma {} \btxandlong {}\
-  \btxnamefont {P. \btxlastnamefont {Bonato}}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {Monitoring motor fluctuations in patients with parkinson's
-  disease using wearable sensors}{Monitoring Motor Fluctuations in Patients
-  With Parkinson's Disease Using Wearable Sensors}}.
+\btxnamefont {\btxlastnamefont {Patel}, Shyamal}, \btxnamefont {Konrad
+  \btxlastnamefont {Lorincz}}, \btxnamefont {Richard \btxlastnamefont
+  {Hughes}}, \btxnamefont {Nancy \btxlastnamefont {Huggins}}, \btxnamefont
+  {John \btxlastnamefont {Growdon}}, \btxnamefont {David \btxlastnamefont
+  {Standaert}}, \btxnamefont {Metin \btxlastnamefont {Akay}}, \btxnamefont
+  {Jennifer \btxlastnamefont {Dy}}, \btxnamefont {Matt \btxlastnamefont
+  {Welsh}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Paolo \btxlastnamefont
+  {Bonato}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Monitoring motor
+  fluctuations in patients with parkinson's disease using wearable
+  sensors}{Monitoring Motor Fluctuations in Patients With Parkinson's Disease
+  Using Wearable Sensors}}.
 \newblock \btxjournalfont {IEEE Transactions on Information Technology in
-  Biomedicine}, 13(6):864--873, 2009\ifbtxprintISSN {,
-  \mbox{\btxISSN~\btxISSNfont {1089-7771}}}.
+  Biomedicine}, 13(6), 2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
+  {1089-7771}}}.
 
 \bibitem {qda13}
 \btxnamefont {\btxlastnamefont {Research}, Provalis}\btxauthorcolon\
@@ -600,7 +585,7 @@
   v1.2.2}}.
 \newblock \textit{Software}, {D}isponível em:
   http://provalisresearch.com/products/qualitative-data-analysis-software/.
-\newblock Último acesso: 23 de Novembro de 2015.
+\newblock Último acesso: 3 de Junho de 2016.
 
 \bibitem {rowlandtratado}
 \btxnamefont {\btxlastnamefont {Rowland}, Lewis}\btxauthorcolon\ \btxtitlefont
@@ -617,15 +602,16 @@
 \newblock \btxtechreplong {}, Sistema Único de Saúde, 2010.
 
 \bibitem {finger2012}
-\btxnamefont {\btxlastnamefont {Sano}, Y.}, \btxnamefont {A. \btxlastnamefont
-  {Kandori}}, \btxnamefont {T. \btxlastnamefont {Miyoshi}}, \btxnamefont {T.
-  \btxlastnamefont {Tsuji}}, \btxnamefont {K. \btxlastnamefont {Shima}},
-  \btxnamefont {M. \btxlastnamefont {Yokoe}}\btxandcomma {} \btxandlong {}\
-  \btxnamefont {S. \btxlastnamefont {Sakoda}}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Severity estimation of finger-tapping caused by
-  parkinson's disease by using linear discriminant regression
-  analysis}{Severity estimation of finger-tapping caused by Parkinson's disease
-  by using linear discriminant regression analysis}}.
+\btxnamefont {\btxlastnamefont {Sano}, Yuko}, \btxnamefont {Akihiko
+  \btxlastnamefont {Kandori}}, \btxnamefont {Toshinori \btxlastnamefont
+  {Miyoshi}}, \btxnamefont {Toshio \btxlastnamefont {Tsuji}}, \btxnamefont
+  {Keisuke \btxlastnamefont {Shima}}, \btxnamefont {Masaru \btxlastnamefont
+  {Yokoe}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Saburo \btxlastnamefont
+  {Sakoda}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Severity
+  estimation of finger-tapping caused by parkinson's disease by using linear
+  discriminant regression analysis}{Severity Estimation Of Finger-tapping
+  Caused By Parkinson's Disease By Using Linear Discriminant Regression
+  Analysis}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference of Engineering
   in Medicine and Biology Society}. \btxpublisherfont {EMBC},
   2012\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {9781424479276}}}.
@@ -658,9 +644,8 @@
   for the Design of Exergames}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 5th International
   Conference on Computer Graphics and Interactive Techniques in Australia and
-  Southeast Asia}, GRAPHITE '07, \btxpageslong {}\ 289--295, New York, NY, USA,
-  2007. \btxpublisherfont {ACM}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
-  {978-1-59593-912-8}}}.
+  Southeast Asia}. \btxpublisherfont {ACM}, 2007\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-1-59593-912-8}}}.
 
 \bibitem {Sinclair:2009:UVB:1515604.1515617}
 \btxnamefont {\btxlastnamefont {Sinclair}, Jeff}, \btxnamefont {Philip
@@ -669,9 +654,8 @@
   {Nosaka}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Using a virtual
   body to aid in exergaming system development}{Using a Virtual Body to Aid in
   Exergaming System Development}}.
-\newblock \btxjournalfont {IEEE Computer Graphics Applications}, 29(2):39--48,
-  \btxprintmonthyear{.}{3}{2009}{long}\ifbtxprintISSN {,
-  \mbox{\btxISSN~\btxISSNfont {0272-1716}}}.
+\newblock \btxjournalfont {IEEE Computer Graphics Applications}, 29(2),
+  2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0272-1716}}}.
 
 \bibitem {van1999goal}
 \btxnamefont {\btxlastnamefont {Solingen}, Rini} \btxandlong {}\ \btxnamefont
@@ -679,13 +663,13 @@
   Goal/Question/Metric Method: A Practical Guide for Quality Improvement of
   Software Development}.
 \newblock \btxpublisherfont {McGraw-Hill}, 1999\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {9780077095536}}}.
+  \mbox{\btxISBN~\btxISBNfont {978-007709-553-6}}}.
 
 \bibitem {sommerville2011}
 \btxnamefont {\btxlastnamefont {Sommerville}, Ian}\btxauthorcolon\
   \btxtitlefont {Engenharia de Software}.
 \newblock \btxpublisherfont {Addison Wesley Bra}, 2011\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {9788588639287}}}.
+  \mbox{\btxISBN~\btxISBNfont {978-858863-928-7}}}.
 
 \bibitem {Suhonen:2008:SFE:1457199.1457204}
 \btxnamefont {\btxlastnamefont {Suhonen}, Katja}, \btxnamefont {Heli
@@ -696,18 +680,17 @@
   awareness and engaging gameplay}{Seriously Fun: Exploring How to Combine
   Promoting Health Awareness and Engaging Gameplay}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the International
-  Conference on Entertainment and Media in the Ubiquitous Era}, MindTrek '08,
-  \btxpageslong {}\ 18--22, New York, NY, USA, 2008. \btxpublisherfont
-  {ACM}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-197-2}}}.
+  Conference on Entertainment and Media in the Ubiquitous Era}.
+  \btxpublisherfont {ACM}, 2008\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-1-60558-197-2}}}.
 
 \bibitem {sweetser2005-gameflow}
 \btxnamefont {\btxlastnamefont {Sweetser}, Penelope} \btxandlong {}\
   \btxnamefont {Peta \btxlastnamefont {Wyeth}}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {Gameflow: A model for evaluating player enjoyment in
   games}{GameFlow: A Model for Evaluating Player Enjoyment in Games}}.
-\newblock \btxjournalfont {Computing Entertainment}, 3(3):3--3,
-  \btxprintmonthyear{.}{7}{2005}{long}\ifbtxprintISSN {,
-  \mbox{\btxISSN~\btxISSNfont {1544-3574}}}.
+\newblock \btxjournalfont {Computing Entertainment}, 3(3), 2005\ifbtxprintISSN
+  {, \mbox{\btxISSN~\btxISSNfont {1544-3574}}}.
 
 \bibitem {synnott_wiipd_2012}
 \btxnamefont {\btxlastnamefont {Synnott}, J.}, \btxnamefont {L.
@@ -718,9 +701,8 @@
   wii remote}{WiiPD-Objective Home Assessment of Parkinson's Disease Using the
   Nintendo Wii Remote}}.
 \newblock \btxjournalfont {IEEE Transactions on Information Technology in
-  Biomedicine}, 16(6):1304--1312,
-  \btxprintmonthyear{.}{Nov}{2012}{long}\ifbtxprintISSN {,
-  \mbox{\btxISSN~\btxISSNfont {1089-7771}}}.
+  Biomedicine}, 16(6), 2012\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
+  {1089-7771}}}.
 
 \bibitem {gaitusingsensorsreview2012}
 \btxnamefont {\btxlastnamefont {Tao}, Weijun}, \btxnamefont {Tao
@@ -728,14 +710,25 @@
   {Zheng}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Hutian \btxlastnamefont
   {Feng}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Gait analysis using
   wearable sensors}{Gait Analysis Using Wearable Sensors}}.
-\newblock \btxjournalfont {Sensors}, 12(12):2255--2283, 2012\ifbtxprintISSN {,
+\newblock \btxjournalfont {Sensors}, 12(12), 2012\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1424-8220}}}.
 
 \bibitem {unity3d}
 \btxnamefont {\btxlastnamefont {Technologies}, Unity}\btxauthorcolon\
   \btxtitlefont {\btxifchangecase {Unity 3d 3.0}{Unity 3D 3.0}}.
 \newblock \textit{Software}, {D}isponível em: http://unity3d.com/.
-\newblock Último acesso: 23 de Novembro de 2015.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {homecarebrazil2011}
+\btxnamefont {\btxlastnamefont {Thumé}, Elaine}, \btxnamefont
+  {Luiz\btxfnamespacelong Augusto \btxlastnamefont {Facchini}}, \btxnamefont
+  {Grace \btxlastnamefont {Wyshak}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Paul \btxlastnamefont {Campbell}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {The utilization of home care by the elderly in brazil's
+  primary health care system}{The Utilization of Home Care by the Elderly in
+  Brazil's Primary Health Care System}}.
+\newblock \btxjournalfont {American Journal Of Public Health}, 101,
+  2011\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1541-0048}}}.
 
 \bibitem {tolosa06}
 \btxnamefont {\btxlastnamefont {Tolosa}, Eduardo}, \btxnamefont {Gregor
@@ -743,8 +736,7 @@
   {Werner \btxlastnamefont {Poewe}}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {The diagnosis of parkinson's disease}{The Diagnosis Of
   Parkinson's Disease}}.
-\newblock \btxjournalfont {The Lancet Neurology}, 5(1):75--86,
-  \btxprintmonthyear{.}{jan}{2006}{long}\ifbtxprintISSN {,
+\newblock \btxjournalfont {The Lancet Neurology}, 5(1), 2006\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1474-4422}}}.
 
 \bibitem {vapnik95}
@@ -761,21 +753,26 @@
 \newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade Federal de Santa Maria, 2005.
 
+\bibitem {statisticshandbook2009}
+\btxnamefont {\btxlastnamefont {Wasserman}, Larry}\btxauthorcolon\
+  \btxtitlefont {All of Statistics: A Concise Course in Statistical Inference}.
+\newblock \btxpublisherfont {Springer Publishing Company, Incorporated},
+  \btxeditionnumlong {1}{}, 2010\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-144192-322-6}}}.
+
 \bibitem {datamining2005}
-\btxnamefont {\btxlastnamefont {Witten}, Ian\btxfnamespacelong H.},
-  \btxnamefont {Eibe \btxlastnamefont {Frank}}\btxandcomma {} \btxandlong {}\
-  \btxnamefont {Mark\btxfnamespacelong A. \btxlastnamefont
-  {Hall}}\btxauthorcolon\ \btxtitlefont {Data Mining: Practical Machine
-  Learning Tools and Techniques}.
-\newblock \btxpublisherfont {Morgan Kaufmann Publishers Inc.}, San Francisco,
-  CA, USA, \btxeditionnumlong {3}{}, 2011\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {9780123748560}}}.
+\btxnamefont {\btxlastnamefont {Witten}, Ian}, \btxnamefont {Eibe
+  \btxlastnamefont {Frank}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Mark
+  \btxlastnamefont {Hall}}\btxauthorcolon\ \btxtitlefont {Data Mining:
+  Practical Machine Learning Tools and Techniques}.
+\newblock \btxpublisherfont {Morgan Kaufmann}, \btxeditionnumlong {3}{},
+  2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {9780123748560}}}.
 
 \bibitem {zigfu}
 \btxnamefont {\btxlastnamefont {Zigfu}}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Zigfu 4.0}{Zigfu 4.0}}.
 \newblock \textit{Software}, {D}isponível em: http://zigfu.com/.
-\newblock Último acesso: 23 de Novembro de 2015.
+\newblock Último acesso: 3 de Junho de 2016.
 
 \bibitem {zowghi2005}
 \btxnamefont {\btxlastnamefont {Zowghi}, Didar} \btxandlong {}\ \btxnamefont
@@ -783,25 +780,20 @@
   {\btxifchangecase {Requirements elicitation: A survey of techniques,
   approaches, and tools}{Requirements Elicitation: A Survey of Techniques,
   Approaches, and Tools}}.
-\newblock \Btxinlong {}\ \btxnamefont {\btxlastnamefont {Aurum}, Ayb{\"u}ke}
-  \btxandlong {}\ \btxnamefont {Claes \btxlastnamefont {Wohlin}}\
-  (\btxeditorslong {}): \btxtitlefont {Engineering and Managing Software
-  Requirements}, \btxpageslong {}\ 19--46. \btxpublisherfont {Springer Berlin
-  Heidelberg}, Berlin, Heidelberg, 2005\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {978-3-540-28244-0}}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Engineering and Managing Software
+  Requirements}. \btxpublisherfont {Springer Berlin Heidelberg},
+  2005\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-3-540-28244-0}}}.
 
 \bibitem {ambulatoryparkinson2010}
-\btxnamefont {\btxlastnamefont {Zwartjes}, D.\btxfnamespacelong
-  G.\btxfnamespacelong M.}, \btxnamefont {T. \btxlastnamefont {Heida}},
-  \btxnamefont {J.\btxfnamespacelong P.\btxfnamespacelong P. van
-  \btxlastnamefont {Vugt}}, \btxnamefont {J.\btxfnamespacelong
-  A.\btxfnamespacelong G. \btxlastnamefont {Geelen}}\btxandcomma {} \btxandlong
-  {}\ \btxnamefont {P.\btxfnamespacelong H. \btxlastnamefont
+\btxnamefont {\btxlastnamefont {Zwartjes}, Daphne}, \btxnamefont {Tjitske
+  \btxlastnamefont {Heida}}, \btxnamefont {Jeroen van \btxlastnamefont {Vugt}},
+  \btxnamefont {Jan \btxlastnamefont {Geelen}}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {Peter\btxfnamespacelong H. \btxlastnamefont
   {Veltink}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Ambulatory
-  monitoring of activities and motor symptoms in parkinson #x0027;s
-  disease}{Ambulatory Monitoring of Activities and Motor Symptoms in Parkinson
-  #x0027;s Disease}}.
+  monitoring of activities and motor symptoms in parkinson's
+  disease}{Ambulatory Monitoring of Activities and Motor Symptoms in
+  Parkinson's Disease}}.
 \newblock \btxjournalfont {IEEE Transactions on Biomedical Engineering},
-  57(11):2778--2786, 2010.
+  57(11), 2010\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0018-9294}}}.
 
 \end{thebibliography}

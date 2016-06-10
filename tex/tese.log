@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  10 JUN 2016 10:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  10 JUN 2016 14:31
 entering extended mode
 **tese.tex
 (C:\git\gameparkinsontese\tex\tese.tex
@@ -1039,63 +1039,40 @@ babelbib: Using the BibTeX style's default font for `numeral'.
 [68
 
 ]
-Underfull \hbox (badness 1796) in paragraph at lines 148--156
+Underfull \hbox (badness 1796) in paragraph at lines 150--158
 []\T1/ptm/m/n/12 Basili, Vic-tor R., Gi-an-luigi Cal-di-era e H. Di-e-ter Rom-bach: \T1/ptm/m/it/12 The Goal Ques-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--162
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
 []\T1/ptm/m/n/12 Billauer, Eli: \T1/ptm/m/it/12 Peak De-tec-tion in Ma-tlab\T1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1
 /ptm/m/n/12 , Dis-po-ní-vel em:
  []
 
-[69] [70] [71] [72]
-Underfull \hbox (badness 5446) in paragraph at lines 598--604
+[69]
+Underfull \hbox (badness 4353) in paragraph at lines 256--260
+[]\T1/ptm/m/n/12 Fish, Jes-sica: \T1/ptm/m/it/12 Uni-fied Par-kin-son's Di-se-ase Ra-ting Scale\T1/ptm/m/n/12 .  Sprin-g
+er, 2011,
+ []
+
+[70] [71] [72]
+Underfull \hbox (badness 5446) in paragraph at lines 583--589
 []\T1/ptm/m/n/12 Research, Pro-va-lis: \T1/ptm/m/it/12 QDA MI-NER Lite v1.2.2\T1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\
 T1/ptm/m/n/12 , Dis-po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--604
+Underfull \hbox (badness 10000) in paragraph at lines 583--589
 \T1/ptm/m/n/12 http://provalisresearch.com/products/qualitative-data-analysis-software/.  Úl-timo
  []
 
 [73]
-Underfull \hbox (badness 4832) in paragraph at lines 685--689
+Underfull \hbox (badness 4832) in paragraph at lines 669--673
 []\T1/ptm/m/n/12 Sommerville, Ian: \T1/ptm/m/it/12 En-ge-nha-ria de Software\T1/ptm/m/n/12 .  Ad-di-son Wes-ley Bra, 201
 1,
  []
 
-[74]
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   x
-l.803   #x0027;s Disease}}
-                          .
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   x
-l.803   #x0027;s Disease}}
-                          .
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...s and Motor Symptoms in Parkinson ##
-                                                  x0027;s Disease
-l.803   #x0027;s Disease}}
-                          .
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-) (C:\git\gameparkinsontese\tex\apend_comite.tex [75]
+[74]) (C:\git\gameparkinsontese\tex\apend_comite.tex [75]
 Ap\^endice A.
 [76
 
@@ -1177,7 +1154,7 @@ s/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (104 pages, 1866801 bytes).
+Output written on tese.pdf (104 pages, 1866417 bytes).
 PDF statistics:
  413 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
