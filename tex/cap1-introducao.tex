@@ -11,28 +11,33 @@ Na busca por motivar os usuários, identificamos que os jogos eletrônicos encon
 
 \section{Relevância}\label{section:relevancia}
 
-Creating technologies for monitoring and creating body sensor networks has been the 
-most active and successful research theme within pervasive healthcare – so far. One
-strand of work is dedicated to achieving reliable monitoring of health signs like blood pressure, ECG, heart rate, skin conductivity, blood sugar, and similar. The main challenge has been to design and develop reliable yet non-intrusive, wearable sensors, which can be used by a layman. The goal has
+Creating technologies for monitoring and creating body sensor networks has been the most active and successful research theme within pervasive healthcare – so far. One strand of work is dedicated to achieving reliable monitoring of health signs like blood pressure, ECG, heart rate, skin conductivity, blood sugar, and similar. The main challenge has been to design and develop reliable yet non-intrusive, wearable sensors, which can be used by a layman. The goal has
 been to create a platform for continuous monitoring, because substantial clinical evidence indicates that continuous monitoring of certain vital signs can work as early detector of different chronic diseases like hypertension, congestive heart failure, diabetes, dementia, and epilepsy. A related
 strand is to make sure that this sensor and monitoring technology works together in a distributed infrastructure. This research relates to research within general sensor networks, and has been dedicated to the design and development of health-specific body sensor networks. Resilience, fail-over, network topology, wireless communication, protocols, and real-time data management are important issues in this strand of research~\cite{bardram2008}.
 
 The OECD countries are facing a set of core challenges; an increasing elderly population; increasing number of chronic and lifestyle-related diseases; expanding scope of what medicine can do; and increasing lack of medical professionals. Pervasive healthcare asks how pervasive computing technology can be designed to meet these challenges. The objective of this paper is to discuss 'pervasive healthcare' as a research field and tries to establish how novel and distinct it is, compared to related work within biomedical engineering, medical informatics, and ubiquitous computing~\cite{bardram2008}.
 
-J-BHI publishes original papers describing recent advances in the field of biomedical and health informatics where information and communication technologies intersect with health, healthcare, life sciences and biomedicine.  Papers must contain original content in theoretical analysis, methods, technical development, and/or novel clinical applications of information systems. Topics covered by J-BHI include but are not limited to: acquisition, transmission, storage, retrieval, management, processing and analysis of biomedical and health information; applications of information and communication technologies in the practice of healthcare, public health, patient monitoring, preventive care, early diagnosis of diseases,  discovery of new therapies, and patient specific treatment protocols leading to improved outcomes; and the integration of electronic medical and health records, methods of longitudinal data analysis, data mining and discovery tools. Manuscripts may deal with these applications and their integration, such as clinical information systems,  decision support systems, medical and biological imaging informatics,  wearable  systems, body area/sensor networks, informatics in biological and physiological systems,  personalized and pervasive health  technologies (u-, p-, m- and e-Health), telemedicine, home healthcare and wellness management. Topics related to integration include interoperability, protocol-based patient care, evidence-based medicine, and methods of secure patient data.~\cite{JBHI}
+As pesquisas em cuidado de saúde pervasivo têm sido motivadas por estudos que apontam
+que, ao tratarem de suas doenças em casa, pacientes passam a ter uma qualidade de vida
+melhor do que se fossem acompanhados em hospitais [32; 110]. Além disso, alguns exames
+geralmente sofrem alterações devido à ansiedade gerada nos pacientes quando estão em
+ambientes clínicos. Desta forma, a acurácia no diagnóstico de um determinado quadro clínico
+pode ser maior se a medição da mesma variável for feita no paciente ao longo do dia, em vez
+de apenas uma única vez numa clínica [68].
+Como posto por Bardram [11], cuidado de saúde pervasivo representa uma nova área
+de pesquisa na academia e na indústria de computação. \~cite{elthon}
+
+
+Uma evidência disto é a quantidadede simpósios e conferências, apoiadas por entidades como SBC [98], ACM [1] e IEEE [49],que vêm divulgando resultados de pesquisas na área, como são os casos do SBCUP [99],UbiComp [106] e PerCom [91], respectivamente. Outros eventos também têm emergido como mesmo foco, ou relacionado, como são os casos do PervasiveHealth [92] e do FHIES [36].No contexto de revistas científicas destacam-se as revistas IEEE Journal of Biomedicaland Health Informatics e Journal of the American Medical Informatics Association. Além destas, outras revistas têm special issues na área, tais como: IEEE Transactions on Industrial
+Informatics (special issue: Healthcare Systems and Technologies) e Sensors (special issue: Cyber-Physical Systems). Há na literatura trabalhos propondo que médicos, enfermeiros e outros profissionais de saúde acompanhem pacientes à distância, mais especificamente em seus respectivos lares [40; 95; 104]. Outros propõem ferramentas de auxílio ao diagnóstico de situações de risco eminentes ou mesmo de problemas respiratórios durante as fases de sono [18; 55; 83; 97; 112]. Uma característica comum presente nos trabalhos é o desenvolvimento de soluções centradas no paciente, provocando uma maior participação deste no processo de tratamento
+ou prevenção.
 
 
 This paper describes computational approaches using evolutionary algorithms (EAs) that provide clinically relevant objective measures to identify and to quantify PD, both in humans and animal models. We begin by providing an overview of the diagnosis and monitoring of PD in humans. Thereafter two animal models of PD, the fruit fly (Drosophila melanogaster) and the zebrafish (Danio rerio), will be discussed. An overview of EAs will be provided and then a description of how we have used EAs
 to study motor function in humans and animal models not only to provide effective classifiers for discrimination between disease and controls, but also between disease types.~\cite{compapproachparkinson2015}
-The second important reason why PD patients require monitoring is for research studies. This typically involves serial detailed clinical measurements of impairment and disability using formal clinical rating scales. Whilst such scales allow a degree of standardisation across studies, they have a number of pertinent drawbacks such as length of time to complete the various assessments, limitations of using coarse-grained scales of severity, and the necessary subjective interpretation that results in inter-rater variability. Thus there is a real need for an accurate objective measure of PD clinical signs to improve the quality of monitoring for clinical and
-research purposes~\cite{compapproachparkinson2015}
+The second important reason why PD patients require monitoring is for research studies. This typically involves serial detailed clinical measurements of impairment and disability using formal clinical rating scales. Whilst such scales allow a degree of standardisation across studies, they have a number of pertinent drawbacks such as length of time to complete the various assessments, limitations of using coarse-grained scales of severity, and the necessary subjective interpretation that results in inter-rater variability. Thus there is a real need for an accurate objective measure of PD clinical signs to improve the quality of monitoring for clinical andresearch purposes~\cite{compapproachparkinson2015}
+
 The subsequent analysis and classification of the data resulting from these sensors include conventional statistical approaches as well as machine learning including neural networks, support vector machine and EAs. EAs are the focus of the work presented in this paper and are considered in more detail in Section 4.~\cite{compapproachparkinson2015}
-
-
-
-
-
-
 
 
 O surgimento de todas estas inovações tem convergido para viabilizar um paradigma de
@@ -46,45 +51,29 @@ Diversos pesquisadores da área de computação pervasiva têm se preocupado com
 de cuidados de saúde. A combinação destas duas áreas tem sido denominada de cuidado de
 saúde pervasivo. Esta área tem sido apontada como uma área emergente de grandes impacto
 e significância [103].
-As pesquisas em cuidado de saúde pervasivo têm sido motivadas por estudos que apontam
-que, ao tratarem de suas doenças em casa, pacientes passam a ter uma qualidade de vida
-1
-2
-melhor do que se fossem acompanhados em hospitais [32; 110]. Além disso, alguns exames
-geralmente sofrem alterações devido à ansiedade gerada nos pacientes quando estão em
-ambientes clínicos. Desta forma, a acurácia no diagnóstico de um determinado quadro clínico
-pode ser maior se a medição da mesma variável for feita no paciente ao longo do dia, em vez
-de apenas uma única vez numa clínica [68].
-Como posto por Bardram [11], cuidado de saúde pervasivo representa uma nova área
-de pesquisa na academia e na indústria de computação. Uma evidência disto é a quantidade
-de simpósios e conferências, apoiadas por entidades como SBC [98], ACM [1] e IEEE [49],
-que vêm divulgando resultados de pesquisas na área, como são os casos do SBCUP [99],
-UbiComp [106] e PerCom [91], respectivamente. Outros eventos também têm emergido com
-o mesmo foco, ou relacionado, como são os casos do PervasiveHealth [92] e do FHIES [36].
-No contexto de revistas científicas destacam-se as revistas IEEE Journal of Biomedical
-and Health Informatics e Journal of the American Medical Informatics Association. Além
-destas, outras revistas têm special issues na área, tais como: IEEE Transactions on Industrial
-Informatics (special issue: Healthcare Systems and Technologies) e Sensors (special issue:
-Cyber-Physical Systems).
-Há na literatura trabalhos propondo que médicos, enfermeiros e outros profissionais de
-saúde acompanhem pacientes à distância, mais especificamente em seus respectivos lares [40;
-95; 104]. Outros propõem ferramentas de auxílio ao diagnóstico de situações de risco
-eminentes ou mesmo de problemas respiratórios durante as fases de sono [18; 55; 83; 97;
-112]. Uma característica comum presente nos trabalhos é o desenvolvimento de soluções
-centradas no paciente, provocando uma maior participação deste no processo de tratamento
-ou prevenção.
-Por se tratar de um contexto crítico, ferramentas desenvolvidas para lidar diretamente
-com a saúde de pessoas, principalmente aquelas sem supervisão humana, podem causar
-danos irreversíveis aos pacientes, inclusive a morte. Assim sendo, tais ferramentas devem ser
-consideradas sistemas críticos. Ou seja, é esperado que o desenvolvimento delas conte com
-um suporte que forneça garantias de que a solução implementada se comportará conforme
-especificado pelos profissionais de saúde. Esta garantia pode ser obtida por meio do uso de
-técnicas formais de verificação de programas.
-Diante do cenário exposto, é proposto no presente trabalho o uso de modelos formais na
-1.1 Contexto de Cuidados de Saúde 3
-concepção de sistemas para cuidado de saúde pervasivo. O domínio de aplicação abordado
-neste trabalho é o auxílio à prática de exercícios físicos definidos por profissionais de saúde.
-~\cite{elthon}
+
+
+
+
+
+
+
+
+
+
+J-BHI publishes original papers describing recent advances in the field of biomedical and health informatics where information and communication technologies intersect with health, healthcare, life sciences and biomedicine.  Papers must contain original content in theoretical analysis, methods, technical development, and/or novel clinical applications of information systems. Topics covered by J-BHI include but are not limited to: acquisition, transmission, storage, retrieval, management, processing and analysis of biomedical and health information; applications of information and communication technologies in the practice of healthcare, public health, patient monitoring, preventive care, early diagnosis of diseases,  discovery of new therapies, and patient specific treatment protocols leading to improved outcomes; and the integration of electronic medical and health records, methods of longitudinal data analysis, data mining and discovery tools. Manuscripts may deal with these applications and their integration, such as clinical information systems,  decision support systems, medical and biological imaging informatics,  wearable  systems, body area/sensor networks, informatics in biological and physiological systems,  personalized and pervasive health  technologies (u-, p-, m- and e-Health), telemedicine, home healthcare and wellness management. Topics related to integration include interoperability, protocol-based patient care, evidence-based medicine, and methods of secure patient data.~\cite{JBHI}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Dada a grande relevância do tema para a sociedade e seu impacto sobre os
