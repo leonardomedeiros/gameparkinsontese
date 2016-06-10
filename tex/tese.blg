@@ -1,25 +1,18 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: tese.aux
 The style file: babplain.bst
 Database file #1: biblmmcorfinal.bib
-Warning--entry type for "esa2011" isn't style-file defined
---line 123 of file biblmmcorfinal.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
---line 544 of file biblmmcorfinal.bib
+--line 515 of file biblmmcorfinal.bib
 Warning--entry type for "zigfu" isn't style-file defined
---line 888 of file biblmmcorfinal.bib
-Warning--entry type for "esa2016" isn't style-file defined
---line 996 of file biblmmcorfinal.bib
+--line 856 of file biblmmcorfinal.bib
 A bad cross reference---entry "brox11"
 refers to entry "conf/ph/2011", which doesn't exist
 Warning--I didn't find a database entry for "conf/ph/2011"
 Warning--empty language in aarhus_negotiating_2010
-Warning--empty journal in arntzen2011
+Warning--empty chapter and pages in albanese2012
 Warning--can't use both author and editor fields in abn2010
 Warning--empty publisher in abn2010
 Warning--can't use both author and editor fields in updrs87
-Warning--can't use both author and editor fields in hamill1999bases
-Warning--empty publisher in hamill1999bases
-Warning--can't use both author and editor fields in national2006parkinson
-Warning--empty publisher in national2006parkinson
+Warning--empty chapter and pages in updrs87
 Warning--can't use both author and editor fields in statisticshandbook2009
 (There was 1 error message)

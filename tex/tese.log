@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  9 JUN 2016 22:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  10 JUN 2016 10:12
 entering extended mode
 **tese.tex
 (C:\git\gameparkinsontese\tex\tese.tex
@@ -701,7 +701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 Underfull \hbox (badness 6078) in paragraph at lines 11--12
-\T1/ptm/m/n/12 como: mo-vi-men-tos de equi-lí-brio, mo-vi-men-tos re-pe-ti-ti-vos ou brus-cos [] 7;
+\T1/ptm/m/n/12 como: mo-vi-men-tos de equi-lí-brio, mo-vi-men-tos re-pe-ti-ti-vos ou brus-cos [] 8;
  []
 
 
@@ -1039,71 +1039,38 @@ babelbib: Using the BibTeX style's default font for `numeral'.
 [68
 
 ]
+Underfull \hbox (badness 1796) in paragraph at lines 148--156
+[]\T1/ptm/m/n/12 Basili, Vic-tor R., Gi-an-luigi Cal-di-era e H. Di-e-ter Rom-bach: \T1/ptm/m/it/12 The Goal Ques-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 158--162
 []\T1/ptm/m/n/12 Billauer, Eli: \T1/ptm/m/it/12 Peak De-tec-tion in Ma-tlab\T1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1
 /ptm/m/n/12 , Dis-po-ní-vel em:
  []
 
-
-Underfull \hbox (badness 4378) in paragraph at lines 164--174
-\T1/ptm/m/it/12 Exer-ga-mes For El-derly: So-cial Exer-ga-mes To Per-su-ade Se-ni-ors To In-cre-
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 164--174
-\T1/ptm/m/it/12 ase Phy-si-cal Ac-ti-vity\T1/ptm/m/n/12 .  Em \T1/ptm/m/it/12 Per-va-si-veHe-alth\T1/ptm/m/n/12 , pá-gi-
-nas 546--549. IEEE, 2011,
- []
-
-[69] [70]
-Underfull \hbox (badness 1348) in paragraph at lines 339--345
-[]\T1/ptm/m/n/12 Health, Na-ti-o-nal Ins-ti-tute for e Cli-ni-cal Ex-cel-lence: \T1/ptm/m/it/12 Par-kin-son's Di-se-ase:
- Di-
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 339--345
-\T1/ptm/m/it/12 ag-no-sis and Ma-na-ge-ment in Pri-mary and Se-con-dary Care\T1/ptm/m/n/12 .  1$[]$ edi-ção, 2006,
- []
-
-[71] [72]
-Underfull \hbox (badness 5446) in paragraph at lines 597--603
+[69] [70] [71] [72]
+Underfull \hbox (badness 5446) in paragraph at lines 598--604
 []\T1/ptm/m/n/12 Research, Pro-va-lis: \T1/ptm/m/it/12 QDA MI-NER Lite v1.2.2\T1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\
 T1/ptm/m/n/12 , Dis-po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--603
+Underfull \hbox (badness 10000) in paragraph at lines 598--604
 \T1/ptm/m/n/12 http://provalisresearch.com/products/qualitative-data-analysis-software/.  Úl-timo
  []
 
 [73]
-Underfull \hbox (badness 4832) in paragraph at lines 684--688
+Underfull \hbox (badness 4832) in paragraph at lines 685--689
 []\T1/ptm/m/n/12 Sommerville, Ian: \T1/ptm/m/it/12 En-ge-nha-ria de Software\T1/ptm/m/n/12 .  Ad-di-son Wes-ley Bra, 201
 1,
  []
 
-
-! Package babelbib Error: No \url command defined but field URL used
-(babelbib)                in bibliography.
-
-See the babelbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.749 ...dx.doi.org/10.1016/s1474-4422(05)70285-4}
-                                                  }.
-Please define a \url command for printing URLs before \begin{document}, e.\tmspace +\thinmuskip {.1667em}g.
-by loading the package `url.sty'.
-
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 749.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [74]
+[74]
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    x
-l.804   #x0027;s Disease}}
+l.803   #x0027;s Disease}}
                           .
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1112,7 +1079,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    x
-l.804   #x0027;s Disease}}
+l.803   #x0027;s Disease}}
                           .
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1121,7 +1088,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...s and Motor Symptoms in Parkinson ##
                                                   x0027;s Disease
-l.804   #x0027;s Disease}}
+l.803   #x0027;s Disease}}
                           .
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1155,7 +1122,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
 
 Underfull \hbox (badness 1466) in paragraph at lines 2--3
-[] \T1/ptm/m/n/12 de Lon-dres [] 33[]. O pa-ci-ente será
+[] \T1/ptm/m/n/12 de Lon-dres [] 34[]. O pa-ci-ente será
  []
 
 [90
@@ -1195,11 +1162,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7668 strings out of 494045
- 108232 string characters out of 3145961
+ 7637 strings out of 494045
+ 107796 string characters out of 3145961
  273098 words of memory out of 3000000
- 10760 multiletter control sequences out of 15000+200000
- 64450 words of font info for 77 fonts, out of 3000000 for 9000
+ 10734 multiletter control sequences out of 15000+200000
+ 63829 words of font info for 75 fonts, out of 3000000 for 9000
  716 hyphenation exceptions out of 8191
  36i,17n,46p,1497b,1912s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
@@ -1207,12 +1174,12 @@ ic/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (104 pages, 1877832 bytes).
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tese.pdf (104 pages, 1866801 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
+ 413 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,9 +20,8 @@
   boundaries: Managing disease at home}{Negotiating Boundaries: Managing
   Disease at Home}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the SIGCHI Conference on
-  Human Factors in Computing Systems}, CHI '10, \btxpageslong {}\ 1223--1232,
-  New York, NY, USA, 2010. \btxpublisherfont {ACM}\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {978-1-60558-929-9}}}.
+  Human Factors in Computing Systems}. \btxpublisherfont {ACM},
+  2010\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-929-9}}}.
 
 \bibitem {healthmonitoring2013}
 \btxnamefont {\btxlastnamefont {Ahmed}, Mobyen\btxfnamespacelong Uddin},
@@ -31,23 +30,23 @@
   {\btxifchangecase {Health monitoring for elderly: An application using
   case-based reasoning and cluster analysis}{Health Monitoring for Elderly: An
   Application Using Case-Based Reasoning and Cluster Analysis}}.
-\newblock \btxjournalfont {ISRN Artificial Intelligence}, 2013:1--11, 2013.
+\newblock \btxjournalfont {ISRN Artificial Intelligence}, 2013\ifbtxprintISSN
+  {, \mbox{\btxISSN~\btxISSNfont {2356-7872}}}.
 
 \bibitem {albanese2012}
 \btxnamefont {\btxlastnamefont {Albanese}, Alberto} \btxandlong {}\
   \btxnamefont {Joseph \btxlastnamefont {Jankovic}}\btxauthorcolon\
-  \btxtitlefont {Distinguishing Clinical Features of Hyperkinetic Disorders},
-  \btxpageslong {}\ 1--14.
+  \btxtitlefont {Distinguishing Clinical Features of Hyperkinetic Disorders}.
 \newblock \btxpublisherfont {Wiley-Blackwell}, 2011\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {9781444346183}}}.
+  \mbox{\btxISBN~\btxISBNfont {978-1-44434-618-3}}}.
 
 \bibitem {alemdar}
 \btxnamefont {\btxlastnamefont {Alemdar}, Hande} \btxandlong {}\ \btxnamefont
   {Cem \btxlastnamefont {Ersoy}}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {Wireless sensor networks for healthcare: A
   survey}{Wireless Sensor Networks For Healthcare: A Survey}}.
-\newblock \btxjournalfont {Computer Networks}, 54(15):2688--2710,
-  2010\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1389-1286}}}.
+\newblock \btxjournalfont {Computer Networks}, 54(15), 2010\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1389-1286}}}.
 
 \bibitem {alemdar2015}
 \btxnamefont {\btxlastnamefont {Alemdar}, Hande}, \btxnamefont {Can
@@ -57,8 +56,21 @@
   learning: Bridging the gap between domains}{Daily Life Behaviour Monitoring
   For Health Assessment Using Machine Learning: Bridging The Gap Between
   Domains}}.
-\newblock \btxjournalfont {Personal and Ubiquitous Computing}, 19(2):303--315,
+\newblock \btxjournalfont {Personal and Ubiquitous Computing}, 19(2),
   2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1617-4917}}}.
+
+\bibitem {bartolome11}
+\btxnamefont {\btxlastnamefont {Aresti}, Nuria}, \btxnamefont {Amaia
+  \btxlastnamefont {Mendez}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Begona\btxfnamespacelong Garcia \btxlastnamefont {Zapirain}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Can game-based therapies be trusted? is
+  game-based education effective? a systematic review of the serious games for
+  health and education}{Can Game-based Therapies Be Trusted? Is Game-based
+  Education Effective? A Systematic Review of the Serious Games for Health and
+  Education}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the ICCG International
+  Conference on Computer Games}. \btxpublisherfont {IEEE Computer Society},
+  2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-4577-1451-1}}}.
 
 \bibitem {bardram2010}
 \btxnamefont {\btxlastnamefont {Arnrich}, Bert}, \btxnamefont {Oscar
@@ -68,8 +80,7 @@
   {\btxifchangecase {Pervasive healthcare - paving the way for a pervasive,
   user-centered and preventive healthcare model}{Pervasive Healthcare - Paving
   the Way for a Pervasive, User-Centered and Preventive Healthcare Model}}.
-\newblock \btxjournalfont {Methods of Information in Medicine}, 49:67--73,
-  2010.
+\newblock \btxjournalfont {Methods of Information in Medicine}, 49, 2010.
 
 \bibitem {arntzen2011}
 \btxnamefont {\btxlastnamefont {Arntzen}, Aurelie\btxfnamespacelong
@@ -78,44 +89,48 @@
   capabilities of elderly people: Concepts and requirements}{Game based
   Learning to Enhance Cognitive and Physical Capabilities of Elderly People:
   Concepts and Requirements}}.
-\newblock 5(12):1778--1782, 2011\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
-  {PISSN:2010-376X, EISSN:2010-3778}}}.
+\newblock \btxjournalfont {International Journal of Social, Behavioral,
+  Educational, Economic, Business and Industrial Engineering}, 5(12),
+  2011\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2010-3778}}}.
 
 \bibitem {esa2011}
 \btxnamefont {\btxlastnamefont {Association}, Entertainment\btxfnamespacelong
   Software}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Essential facts
   about the u.s. computer and video game industry}{Essential Facts about the
-  U.S. Computer and Video Game Industry}}, 2011.
+  U.S. Computer and Video Game Industry}}.
+\newblock \btxifchangecase {techreport}{techreport}, ESA, 2011.
 
 \bibitem {esa2016}
 \btxnamefont {\btxlastnamefont {Association}, Entertainment\btxfnamespacelong
   Software}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Essential facts
   about the computer and video game industry: 2016 sales, demographic and usage
   data}{Essential Facts about the Computer and Video Game Industry: 2016 Sales,
-  Demographic and Usage Data}}, 2016.
+  Demographic and Usage Data}}.
+\newblock \btxifchangecase {techreport}{techreport}, ESA, 2016.
 
 \bibitem {atkinson2010}
-\btxnamefont {\btxlastnamefont {Atkinson}, S.\btxfnamespacelong D.} \btxandlong
-  {}\ \btxnamefont {V.\btxfnamespacelong L. \btxlastnamefont
-  {Narasimhan}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Design of an
-  introductory medical gaming environment for diagnosis and management of
-  parkinson's disease}{Design Of An Introductory Medical Gaming Environment For
-  Diagnosis And Management Of Parkinson's Disease}}.
+\btxnamefont {\btxlastnamefont {Atkinson}, Stephen} \btxandlong {}\
+  \btxnamefont {Lakshmi \btxlastnamefont {Narasimhan}}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Design of an introductory medical gaming
+  environment for diagnosis and management of parkinson's disease}{Design Of An
+  Introductory Medical Gaming Environment For Diagnosis And Management Of
+  Parkinson's Disease}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Trendz in Information Sciences
-  Computing}, \btxpageslong {}\ 94--102, 2010.
+  Computing}. \btxpublisherfont {IEEE}, 2010.
 
 \bibitem {bachlin_parkinsons_2009}
-\btxnamefont {\btxlastnamefont {Bachlin}, M.}, \btxnamefont {M.
-  \btxlastnamefont {Plotnik}}, \btxnamefont {D. \btxlastnamefont {Roggen}},
-  \btxnamefont {N. \btxlastnamefont {Inbar}}, \btxnamefont {N. \btxlastnamefont
-  {Giladi}}, \btxnamefont {J. \btxlastnamefont {Hausdorff}}\btxandcomma {}
-  \btxandlong {}\ \btxnamefont {G. \btxlastnamefont {Troster}}\btxauthorcolon\
-  \btxtitlefont {\btxifchangecase {Parkinsons disease patients perspective on
-  context aware wearable technology for auditive assistance}{Parkinsons Disease
-  Patients Perspective On Context Aware Wearable Technology For Auditive
-  Assistance}}.
+\btxnamefont {\btxlastnamefont {Bachlin}, Marc}, \btxnamefont {Meir
+  \btxlastnamefont {Plotnik}}, \btxnamefont {Daniel \btxlastnamefont {Roggen}},
+  \btxnamefont {Noit \btxlastnamefont {Inbar}}, \btxnamefont {Nir
+  \btxlastnamefont {Giladi}}, \btxnamefont {Jeffrey \btxlastnamefont
+  {Hausdorff}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Gerhard
+  \btxlastnamefont {Troster}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase
+  {Parkinsons disease patients perspective on context aware wearable technology
+  for auditive assistance}{Parkinsons Disease Patients Perspective On Context
+  Aware Wearable Technology For Auditive Assistance}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference on Pervasive
-  Computing Technologies for Healthcare}, \btxpageslong {}\ 1--8, 2009.
+  Computing Technologies for Healthcare}, 2009\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-963-9799-30-1}}}.
 
 \bibitem {Ballegaard:2008:HEL:1357054.1357336}
 \btxnamefont {\btxlastnamefont {Ballegaard}, Stinne\btxfnamespacelong
@@ -126,24 +141,8 @@
   for daily life}{Healthcare in Everyday Life: Designing Healthcare Services
   for Daily Life}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the SIGCHI Conference on
-  Human Factors in Computing Systems}, CHI '08, \btxpageslong {}\ 1807--1816,
-  New York, NY, USA, 2008. \btxpublisherfont {ACM}\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {978-1-60558-011-1}}}.
-
-\bibitem {bartolome11}
-\btxnamefont {\btxlastnamefont {Bartolome}, N.\btxfnamespacelong A.},
-  \btxnamefont {A.\btxfnamespacelong M. \btxlastnamefont
-  {Zorrilla}}\btxandcomma {} \btxandlong {}\ \btxnamefont {B.\btxfnamespacelong
-  G. \btxlastnamefont {Zapirain}}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Can game-based therapies be trusted? is game-based
-  education effective? a systematic review of the serious games for health and
-  education}{Can Game-based Therapies Be Trusted? Is Game-based Education
-  Effective? A Systematic Review of the Serious Games for Health and
-  Education}}.
-\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the ICCG International
-  Conference on Computer Games}, CGAMES '11, \btxpageslong {}\ 275--282,
-  Washington, DC, USA, 2011. \btxpublisherfont {IEEE Computer
-  Society}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-4577-1451-1}}}.
+  Human Factors in Computing Systems}. \btxpublisherfont {ACM},
+  2008\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-011-1}}}.
 
 \bibitem {basili94}
 \btxnamefont {\btxlastnamefont {Basili}, Victor\btxfnamespacelong R.},
@@ -152,7 +151,8 @@
   {Rombach}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {The goal question
   metric approach}{The Goal Question Metric Approach}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Encyclopedia of Software Engineering}.
-  \btxpublisherfont {Wiley}, 1994.
+  \btxpublisherfont {Wiley}, 1994\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-0-47102-895-6}}}.
 
 \bibitem {peakdetect}
 \btxnamefont {\btxlastnamefont {Billauer}, Eli}\btxauthorcolon\ \btxtitlefont
@@ -168,9 +168,9 @@
   {\btxifchangecase {Exergames for elderly: Social exergames to persuade
   seniors to increase physical activity}{Exergames For Elderly: Social
   Exergames To Persuade Seniors To Increase Physical Activity}}.
-\newblock \Btxinlong {}\ \btxtitlefont {PervasiveHealth}, \btxpageslong {}\
-  546--549. \btxpublisherfont {IEEE}, 2011\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {978-1-61284-767-2}}}.
+\newblock \Btxinlong {}\ \btxtitlefont {PervasiveHealth}. \btxpublisherfont
+  {IEEE}, 2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-1-61284-767-2}}}.
 
 \bibitem {multisvm2011}
 \btxnamefont {\btxlastnamefont {Chamasemani}, F.\btxfnamespacelong F.}
@@ -180,8 +180,8 @@
   and classification}{Multi-class Support Vector Machine (SVM) Classifiers --
   An Application in Hypothyroid Detection and Classification}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference on
-  Bio-Inspired Computing: Theories and Applications (BIC-TA)}, \btxpageslong
-  {}\ 351--356, 2011.
+  Bio-Inspired Computing: Theories and Applications}, 2011\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-81-322-1037-5}}}.
 
 \bibitem {sacsvmhms2014}
 \btxnamefont {\btxlastnamefont {Chen}, Huan}, \btxnamefont
@@ -196,7 +196,8 @@
   a Personal Health Monitoring System with an Effective SVM-based PVC Detection
   Algorithm in Cardiology}}.
 \newblock \Btxinlong {}\ \btxtitlefont {Symposium On Applied Computing}.
-  \btxpublisherfont {ACM}, 2014.
+  \btxpublisherfont {ACM}, 2014\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-1-60558-639-7}}}.
 
 \bibitem {visionbased2009}
 \btxnamefont {\btxlastnamefont {Cho}, Chien\btxfnamespacelong Wen},
@@ -207,9 +208,8 @@
   vision-based analysis system for gait recognition in patients with
   parkinson's disease}{A Vision-based Analysis System for Gait Recognition in
   Patients with Parkinson's Disease}}.
-\newblock \btxjournalfont {Expert Systems with Applications}, 36(3):7033--7039,
-  \btxprintmonthyear{.}{4}{2009}{long}\ifbtxprintISSN {,
-  \mbox{\btxISSN~\btxISSNfont {0957-4174}}}.
+\newblock \btxjournalfont {Expert Systems with Applications}, 36(3),
+  2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0957-4174}}}.
 
 \bibitem {quantitativeparkinson2011}
 \btxnamefont {\btxlastnamefont {Das}, S.}, \btxnamefont {L. \btxlastnamefont
@@ -222,7 +222,8 @@
   data}{Quantitative Measurement Of Motor Symptoms In Parkinson's Disease: A
   Study With Full-body Motion Capture Data}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference of Engineering
-  in Medicine and Biology Society}. \btxpublisherfont {EMBC}, 2011.
+  in Medicine and Biology Society}. \btxpublisherfont {EMBC},
+  2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-142447-927-6}}}.
 
 \bibitem {abn2010}
 \btxnamefont {\btxlastnamefont {Dias-Tosta}, Elza}, \btxnamefont
@@ -239,7 +240,7 @@
   {William \btxlastnamefont {Weiner}}\btxauthorcolon\ \btxtitlefont
   {Parkinson's Disease: Diagnosis Clinical Management}.
 \newblock \btxpublisherfont {Demos Medical Publishing}, \btxeditionnumlong
-  {2}{}, 2007\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {1933864001}}}.
+  {2}{}, 2007\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {193-386-400-1}}}.
 
 \bibitem {homecarebrazil2011}
 \btxnamefont {\btxlastnamefont {Elaine~Thumé},~Luiz Augusto~Facchini,
@@ -248,7 +249,7 @@
   {The utilization of home care by the elderly in brazil's primary health care
   system}{The Utilization of Home Care by the Elderly in Brazil's Primary
   Health Care System}}.
-\newblock \btxjournalfont {Am J Public Health}, 101:868--874,
+\newblock \btxjournalfont {American Journal Of Public Health}, 101:868--874,
   2011\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1541-0048}}}.
 
 \bibitem {statisticterms2006}
@@ -256,19 +257,19 @@
   Ruiz}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {The oxford dictionary
   of statistical terms}{The Oxford Dictionary of Statistical Terms}}.
 \newblock \btxjournalfont {Journal of the Royal Statistical Society Series A},
-  167(2):377--377, 2004.
+  167(2), 2004\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1467-9868}}}.
 
 \bibitem {updrs87}
 \btxnamefont {\btxlastnamefont {Fish}, Jessica}\btxauthorcolon\ \btxtitlefont
-  {Unified Parkinson's Disease Rating Scale}, \btxpageslong {}\ 2576--2577.
-\newblock \btxpublisherfont {Springer New York}, New York, NY,
-  2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-0-387-79948-3}}}.
+  {Unified Parkinson's Disease Rating Scale}.
+\newblock \btxpublisherfont {Springer New York}, 2011\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-0-387-79948-3}}}.
 
 \bibitem {FLI04}
 \btxnamefont {\btxlastnamefont {Flick}, U.}\btxauthorcolon\ \btxtitlefont {Uma
   Introdução à Pesquisa Qualitativa}.
 \newblock \btxpublisherfont {Bookman}, \btxeditionnumlong {2}{},
-  2004\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {9788536304144}}}.
+  2004\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-853630-414-4}}}.
 
 \bibitem {manumeterjbhi2014}
 \btxnamefont {\btxlastnamefont {Friedman}, N.}, \btxnamefont
@@ -279,8 +280,7 @@
   monitoring daily use of the wrist and fingers}{The Manumeter: A Wearable
   Device for Monitoring Daily Use of the Wrist and Fingers}}.
 \newblock \btxjournalfont {IEEE Journal of Biomedical and Health Informatics},
-  18(6):1804--1812, 2014\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
-  {2168-2194}}}.
+  18(6), 2014\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2168-2194}}}.
 
 \bibitem {gabel2012}
 \btxnamefont {\btxlastnamefont {Gabel}, Moshe}, \btxnamefont {Ran
@@ -289,7 +289,8 @@
   \btxlastnamefont {Schuster}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase
   {Full body gait analysis with kinect}{Full Body Gait Analysis With Kinect}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference of Engineering
-  in Medicine and Biology Society}. \btxpublisherfont {EMBC}, 2012.
+  in Medicine and Biology Society}. \btxpublisherfont {EMBC},
+  2012\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-142447-927-6}}}.
 
 \bibitem {valt2010}
 \btxnamefont {\btxlastnamefont {Gonçalves}, Valter\btxfnamespacelong
@@ -302,6 +303,17 @@
 \newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade de Coimbra, 2010.
 
+\bibitem {wiigraves2008}
+\btxnamefont {\btxlastnamefont {Graves}, Lee}, \btxnamefont {Gareth
+  \btxlastnamefont {Stratton}}, \btxnamefont {Nicola \btxlastnamefont
+  {Ridgers}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Nigel\btxfnamespacelong Cable \btxlastnamefont {.}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Energy expenditure in adolescents playing
+  new generation computer games}{Energy Expenditure In Adolescents Playing New
+  Generation Computer Games}}.
+\newblock \btxjournalfont {British Journal of Sports Medicine}, 42,
+  2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1473-0480}}}.
+
 \bibitem {sacbespoke2014}
 \btxnamefont {\btxlastnamefont {Graziadio}, S.}, \btxnamefont {R.
   \btxlastnamefont {Davison}}, \btxnamefont {K. \btxlastnamefont {Shalabi}},
@@ -313,10 +325,9 @@
   response markers to identify the optimal strategies for maximizing
   rehabilitation}{Bespoke Video Games to Provide Early Response Markers to
   Identify the Optimal Strategies for Maximizing Rehabilitation}}.
-\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 29th Annual ACM
-  Symposium on Applied Computing}, SAC '14, \btxpageslong {}\ 20--24, New York,
-  NY, USA, 2014. \btxpublisherfont {ACM}\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {978-1-4503-2469-4}}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Symposium On Applied Computing}.
+  \btxpublisherfont {ACM}, 2014\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-1-4503-2469-4}}}.
 
 \bibitem {stacey2011}
 \btxnamefont {\btxlastnamefont {Guy}, Stacey}, \btxnamefont {Alexandria
@@ -326,36 +337,36 @@
   of video games and their potential to combat obesity}{Moving Beyond the
   Stigma: Systematic Review of Video Games and Their Potential to Combat
   Obesity}}.
-\newblock \btxjournalfont {International Journal of Hypertension}, 2011:1--13,
+\newblock \btxjournalfont {International Journal of Hypertension},
   2011\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2090-0392}}}.
 
 \bibitem {hamill1999bases}
 \btxnamefont {\btxlastnamefont {Hamill}, Joseph} \btxandlong {}\ \btxnamefont
-  {Kathleen \btxlastnamefont {Knutzen}}\btxauthorcolon\ \btxpublisherfont
-  {\btxtitlefont {Bases Biomecânicas do Movimento Humano}}.
-\newblock 2012\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {9788520423561}}}.
+  {Kathleen \btxlastnamefont {Knutzen}}\btxauthorcolon\ \btxtitlefont {Bases
+  Biomecânicas do Movimento Humano}.
+\newblock \btxpublisherfont {Manole}, \btxeditionnumlong {3}{},
+  2012\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-852042-356-1}}}.
 
 \bibitem {national2006parkinson}
 \btxnamefont {\btxlastnamefont {Health}, National\btxfnamespacelong
   Institute~for} \btxandlong {}\ \btxnamefont {Clinical \btxlastnamefont
-  {Excellence}}\btxauthorcolon\ \btxpublisherfont {\btxtitlefont {Parkinson's
-  Disease: Diagnosis and Management in Primary and Secondary Care}}.
-\newblock \btxeditionnumlong {1}{}, 2006\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {1-86016-283-5}}}.
+  {Excellence}}\btxauthorcolon\ \btxtitlefont {Parkinson's Disease: Diagnosis
+  and Management in Primary and Secondary Care}.
+\newblock \btxpublisherfont {NICE clinical guideline}, \btxeditionnumlong
+  {1}{}, 2006\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {1-86016-283-5}}}.
 
 \bibitem {jankovic2008}
 \btxnamefont {\btxlastnamefont {Jankovic}, J}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {Parkinson’s disease: Clinical features and
   diagnosis}{Parkinson’s Disease: Clinical Features And Diagnosis}}.
 \newblock \btxjournalfont {Journal of Neurology, Neurosurgery and Psychiatry},
-  79(4):368--376, 2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
-  {0022-3050}}}.
+  79(4), 2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0022-3050}}}.
 
 \bibitem {kantardzic2011data}
 \btxnamefont {\btxlastnamefont {Kantardzic}, M.}\btxauthorcolon\ \btxtitlefont
   {Data Mining: Concepts, Models, Methods, and Algorithms}.
 \newblock \btxpublisherfont {Wiley}, \btxeditionnumlong {3}{},
-  2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {9781118029138}}}.
+  2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-111802-913-8}}}.
 
 \bibitem {keijsers2006}
 \btxnamefont {\btxlastnamefont {Keijsers}, Noël\btxfnamespacelong L.W.},
@@ -364,8 +375,8 @@
   {Stan\btxfnamespacelong C.A.M. \btxlastnamefont {Gielen}}\btxauthorcolon\
   \btxjtitlefont {\btxifchangecase {Ambulatory motor assessment in parkinson's
   disease}{Ambulatory Motor Assessment In Parkinson's Disease}}.
-\newblock \btxjournalfont {Movement Disorders}, 21:34--44, 2006\ifbtxprintISSN
-  {, \mbox{\btxISSN~\btxISSNfont {1531-8257}}}.
+\newblock \btxjournalfont {Movement Disorders}, 21, 2006\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1531-8257}}}.
 
 \bibitem {kostek12}
 \btxnamefont {\btxlastnamefont {Kostek}, Bozena}, \btxnamefont {Katarzyna
@@ -375,18 +386,8 @@
   \btxjtitlefont {\btxifchangecase {Automatic assessment of the motor state of
   the parkinson's disease patient--a case study}{Automatic Assessment Of The
   Motor State Of The Parkinson's Disease Patient--a Case Study}}.
-\newblock \btxjournalfont {Diagnostic Pathology}, 7(1):1--8,
-  2012\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1746-1596}}}.
-
-\bibitem {wiigraves2008}
-\btxnamefont {\btxlastnamefont {L~Graves},~G~Stratton, ND\btxfnamespacelong
-  Ridgers} \btxandlong {}\ \btxnamefont {NT\btxfnamespacelong Cable
-  \btxlastnamefont {.}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
-  {Energy expenditure in adolescents playing new generation computer
-  games}{Energy Expenditure In Adolescents Playing New Generation Computer
-  Games}}.
-\newblock \btxjournalfont {British Journal of Sports Medicine}, 42:592--594,
-  2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1473-0480}}}.
+\newblock \btxjournalfont {Diagnostic Pathology}, 7(1), 2012\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1746-1596}}}.
 
 \bibitem {prevcronica2009}
 \btxnamefont {\btxlastnamefont {Leite-Cavalcanti}, Christiane}, \btxnamefont
@@ -397,8 +398,8 @@
   {Prevalência de doenças crônicas e estado nutricional em um grupo de
   idosos brasileiros}{Prevalência De Doenças Crônicas E Estado Nutricional
   Em Um Grupo De Idosos Brasileiros}}.
-\newblock \btxjournalfont {Revista de Salud Pública}, 11:865--877,
-  2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0124-0064}}}.
+\newblock \btxjournalfont {Revista de Salud Pública}, 11, 2009\ifbtxprintISSN
+  {, \mbox{\btxISSN~\btxISSNfont {0124-0064}}}.
 
 \bibitem {lemoyne2010}
 \btxnamefont {\btxlastnamefont {LeMoyne}, R.}, \btxnamefont {T.
@@ -409,9 +410,8 @@
   disease tremor through a wireless accelerometer application}{Implementation
   of an iPhone for characterizing Parkinson's disease tremor through a wireless
   accelerometer application}}.
-\newblock \Btxinlong {}\ \btxtitlefont {2010 Annual International Conference of
-  the IEEE Engineering in Medicine and Biology}, \btxpageslong {}\ 4954--4958,
-  2010.
+\newblock \Btxinlong {}\ \btxtitlefont {International Conference of the IEEE
+  Engineering in Medicine and Biology}, 2010.
 
 \bibitem {gridsearchsvm2010}
 \btxnamefont {\btxlastnamefont {Li}, C.\btxfnamespacelong H.}, \btxnamefont
@@ -423,8 +423,8 @@
   vector machines}{An Automatic Method for Selecting the Parameter of the
   Normalized Kernel Function to Support Vector Machines}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Conference on
-  Technologies and Applications of Artificial Intelligence}, \btxpageslong {}\
-  226--232, 2010.
+  Technologies and Applications of Artificial Intelligence},
+  2010\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-3-319-13986-9}}}.
 
 \bibitem {robotgait2014}
 \btxnamefont {\btxlastnamefont {Liao}, C.\btxfnamespacelong K.}, \btxnamefont
@@ -436,8 +436,9 @@
   analysis on robotic walking stabilization system for patients with
   parkinson's disease}{Vision based gait analysis on robotic walking
   stabilization system for patients with Parkinson's Disease}}.
-\newblock \Btxinlong {}\ \btxtitlefont {2014 IEEE International Conference on
-  Automation Science and Engineering (CASE)}, \btxpageslong {}\ 818--823, 2014.
+\newblock \Btxinlong {}\ \btxtitlefont {IEEE International Conference on
+  Automation Science and Engineering}, 2014\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-146738-184-0}}}.
 
 \bibitem {goul05}
 \btxnamefont {\btxlastnamefont {Luciana~Pereira}, Fátima\btxfnamespacelong
@@ -464,23 +465,21 @@
   {Kevin\btxfnamespacelong G. \btxlastnamefont {Stanley}}\btxauthorcolon\
   \btxtitlefont {\btxifchangecase {Designing games to discourage sedentary
   behaviour}{Designing Games to Discourage Sedentary Behaviour}}.
-\newblock \Btxinlong {}\ \btxnamefont {\btxlastnamefont {Nijholt}, Anton}\
-  (\btxeditorlong {}): \btxtitlefont {Playful User Interfaces: Interfaces that
-  Invite Social and Physical Interaction}, \btxpageslong {}\ 253--274.
-  \btxpublisherfont {Springer Singapore}, Singapore, 2014\ifbtxprintISBN {,
-  \mbox{\btxISBN~\btxISBNfont {978-981-4560-96-2}}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Playful User Interfaces: Interfaces
+  that Invite Social and Physical Interaction}. \btxpublisherfont {Springer},
+  2014\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-981-4560-96-2}}}.
 
 \bibitem {matlab2011}
 \btxnamefont {\btxlastnamefont {Mathworks}}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Matlab r2015a}{Matlab R2015a}}.
 \newblock \textit{Software}, {D}isponível em: http://mathworks.com/.
-\newblock Último acesso: 23 de Novembro de 2015.
+\newblock Último acesso: 3 de Junho de 2016.
 
 \bibitem {mcginnis2013biomechanics}
 \btxnamefont {\btxlastnamefont {McGinnis}, P.M.}\btxauthorcolon\ \btxtitlefont
   {Biomechanics of Sport and Exercise}.
 \newblock \btxpublisherfont {Human Kinetics}, \btxeditionnumlong {3}{},
-  2013\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {9780736079662}}}.
+  2013\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-073607-966-2}}}.
 
 \bibitem {lmmcbmsgait2016}
 \btxnamefont {\btxlastnamefont {Medeiros}, Leonardo}, \btxnamefont {Hyggo
@@ -492,7 +491,8 @@
   Analysis Approach to Track Parkinson’s Disease Evolution Using Principal
   Component Analysis}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Symposium on
-  Computer-Based Medical Systems (CBMS 2016)}. \btxpublisherfont {IEEE}, 2016.
+  Computer-Based Medical Systems (CBMS 2016)}. \btxpublisherfont {IEEE},
+  2016\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-146736-776-9}}}.
 
 \bibitem {lmmcbmsgame2016}
 \btxnamefont {\btxlastnamefont {Medeiros}, Leonardo}, \btxnamefont {Hyggo
@@ -504,16 +504,17 @@
   Approach to Monitor Parkinson’s Disease: The bradykinesia symptom
   classification}}.
 \newblock \Btxinlong {}\ \btxtitlefont {International Symposium on
-  Computer-Based Medical Systems (CBMS 2016)}. \btxpublisherfont {IEEE}, 2016.
+  Computer-Based Medical Systems (CBMS 2016)}. \btxpublisherfont {IEEE},
+  2016\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-146736-776-9}}}.
 
 \bibitem {lmmeigengaits2013}
 \btxnamefont {\btxlastnamefont {Medeiros}, Leonardo}, \btxnamefont {Robert
   \btxlastnamefont {Fischer}}, \btxnamefont {Hyggo \btxlastnamefont {Almeida}},
   \btxnamefont {Leandro \btxlastnamefont {Silva}}\btxandcomma {} \btxandlong
   {}\ \btxnamefont {Angelo \btxlastnamefont {Perkusich}}\btxauthorcolon\
-  \btxtitlefont {\btxifchangecase {Monitoring parkinson related gait disorders
-  with eigengaits}{Monitoring Parkinson related Gait Disorders with
-  Eigengaits}}.
+  \btxtitlefont {\btxifchangecase {Abstract book: Monitoring parkinson related
+  gait disorders with eigengaits}{Abstract Book: Monitoring Parkinson related
+  Gait Disorders with Eigengaits}}.
 \newblock \Btxinlong {}\ \btxtitlefont {World Congress on Parkinson's Disease
   and Related Disorders}. \btxpublisherfont {Keynes International}, 2013.
 
@@ -745,8 +746,6 @@
 \newblock \btxjournalfont {The Lancet Neurology}, 5(1):75--86,
   \btxprintmonthyear{.}{jan}{2006}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1474-4422}}}.
-\newblock {\latintext
-  \btxurlfont{http://dx.doi.org/10.1016/s1474-4422(05)70285-4}}.
 
 \bibitem {vapnik95}
 \btxnamefont {\btxlastnamefont {Vapnik}, Vladimir}\btxauthorcolon\
