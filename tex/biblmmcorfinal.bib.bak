@@ -501,14 +501,6 @@ prototype related to sport and dance activities.},
   pages     = {348},
 }
 
-@Electronic{kinnect2013,
-  author       = {Microsoft},
-  title        = {Ms-Kinnect},
-  year         = {2012},
-  note         = {Último acesso: 3 de Junho de 2016},
-  howpublished = {{D}isponível em: http://www.xbox.com/pt-BR/kinect},
-}
-
 @Book{abn2010,
   author  = {Elza Dias-Tosta and Carlos Roberto de Mello Rieder and Vanderci Borges and Ylmar Correa Neto},
   title   = {Doença de Parkinson - Recomendações da Academia Brasileira de Neurologia},
@@ -958,7 +950,7 @@ prototype related to sport and dance activities.},
 }
 
 @Article{compapproachparkinson2015,
-  author   = {S. L. Smith and M. A. Lones and M. Bedder and J. E. Alty and J. Cosgrove and R. J. Maguire and M. E. Pownall and D. Ivanoiu and C. Lyle and A. Cording and C. J. H. Elliott},
+  author   = {Stephen Smith and Michael Lones and Matthew Bedder and Jane Alty and Jeremy Cosgrove and Richard Maguire and Mary Pownall and Diana Ivanoiu and Camille Lyle and Amy Cording and Christopher J. H. Elliott},
   title    = {Computational Approaches for Understanding the Diagnosis and Treatment of Parkinson's Disease},
   year     = {2015},
   volume   = {9},
@@ -969,6 +961,81 @@ prototype related to sport and dance activities.},
   abstract = {This study describes how the application of evolutionary algorithms (EAs) can be used to study motor function in humans with Parkinson's disease (PD) and in animal models of PD. Human data is obtained using commercially available sensors via a range of non-invasive procedures that follow conventional clinical practice. EAs can then be used to classify human data for a range of uses, including diagnosis and disease monitoring. New results are presented that demonstrate how EAs can also be used to classify fruit flies with and without genetic mutations that cause Parkinson's by using measurements of the proboscis extension reflex. The case is made for a computational approach that can be applied across human and animal studies of PD and lays the way for evaluation of existing and new drug therapies in a truly objective way.},
   journal  = {IET Systems Biology},
   keywords = {diseases;drugs;genetic algorithms;medical diagnostic computing;patient diagnosis;patient monitoring;patient treatment;sensors;Parkinson disease diagnosis;Parkinson disease treatment;animal models;computational approaches;disease monitoring;drug therapy;evolutionary algorithms;fruit flies;genetic mutations;human data classification;motor function;noninvasive procedures;proboscis extension reflex;sensors},
+}
+
+@Article{bradmonitor2015,
+  author   = {Octavio Manzanera and Elizabeth Roosma, Martijn Beudel and Robert Borgemeester and Teus Laar and Natasha Maurits},
+  title    = {A Method for Automatic and Objective Scoring of Bradykinesia Using Orientation Sensors and Classification Algorithms},
+  year     = {2016},
+  volume   = {63},
+  number   = {5},
+  issn     = {0018-9294},
+  journal  = {IEEE Transactions on Biomedical Engineering},
+  keywords = {diseases;feature selection;learning (artificial intelligence);medical disorders;medical signal processing;neurophysiology;patient monitoring;sensor fusion;signal classification;support vector machines;3D movement representation;MDS-UPDRS;Parkinson's disease diagnosis;Parkinson's disease monitoring;automatic scoring method;average interrater scoring error;bradykinesia-related items;classification algorithms;classification errors;degrees-of-freedom sensor;diadochokinesis;feature selection;feature set;finger tapping;interrater assessment disagreements;movement disorder monitoring;movement disorders society-sponsored revision-of-the-unified Parkinson's disease rating scale;objective scoring method;orientation sensors;rating scales;sensor fusion;support vector machine classifiers;symptom assessment;Classification algorithms;Fingers;Magnetic sensors;Sensor fusion;Standards;Support vector machines;Bradykinesia;Clinical diagnosis;Computer aided diagnosis;Sensor Fusion;Supervised learning;Support vector machines;clinical diagnosis;computer-aided diagnosis;sensor fusion;supervised learning;support vector machines (SVMs)},
+}
+
+@Electronic{kinnect2013,
+  author       = {Microsoft},
+  title        = {Ms-Kinnect},
+  year         = {2012},
+  note         = {Último acesso: 3 de Junho de 2016},
+  howpublished = {{D}isponível em: http://www.xbox.com/pt-BR/kinect},
+}
+
+@Misc{ieee2016,
+  author       = {\textit{Institute of Electrical and Electronics Engineers}},
+  title        = {IEEE},
+  year         = {2016},
+  howpublished = {{D}isponível em: www.ieee.org},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{acm2016,
+  author       = {\textit{Association for Computing Machinery}},
+  title        = {ACM},
+  year         = {2016},
+  howpublished = {{D}isponível em: www.acm.org},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{sbc2016,
+  author       = {Sociedade Brasileira de Computação},
+  title        = {SBC},
+  year         = {2016},
+  howpublished = {{D}isponível em: www.sbc.org.br},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{sbc2016,
+  author       = {Sociedade Brasileira de Computação},
+  title        = {SBC},
+  year         = {2016},
+  howpublished = {{D}isponível em: www.sbc.org.br},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{wim2016,
+  author       = {Workshop de Informática Médica},
+  title        = {SBC},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://www.csbc2016.com.br/#!blank-2/q8wct},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{cbms2016,
+  author       = {\textit{Computer Based Medical Systems}},
+  title        = {cbms2016},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://cbms2016.org/},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{wim2016,
+  author       = {Workshop de Informática Médica},
+  title        = {SBC},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://www.csbc2016.com.br/#!blank-2/q8wct},
+  note         = {Último acesso: 3 de Junho de 2016},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
