@@ -1000,9 +1000,9 @@ prototype related to sport and dance activities.},
 
 @Misc{sbc2016,
   author       = {Sociedade Brasileira de Computação},
-  title        = {SBC},
+  title        = {Congresso da Sociedade Brasileira de Computação},
   year         = {2016},
-  howpublished = {{D}isponível em: www.sbc.org.br},
+  howpublished = {{D}isponível em: www.csbc.com.br},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
@@ -1022,19 +1022,83 @@ prototype related to sport and dance activities.},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
-@Misc{cbms2016,
-  author       = {\textit{Computer Based Medical Systems}},
-  title        = {cbms2016},
+@Misc{sbc2016,
+  author       = {Sociedade Brasileira de Computação},
+  title        = {SBC},
   year         = {2016},
-  howpublished = {{D}isponível em: http://cbms2016.org/},
+  howpublished = {{D}isponível em: www.sbc.org.br},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
-@Misc{wim2016,
-  author       = {Workshop de Informática Médica},
+@Misc{sbc2016,
+  author       = {Sociedade Brasileira de Computação},
   title        = {SBC},
   year         = {2016},
-  howpublished = {{D}isponível em: http://www.csbc2016.com.br/#!blank-2/q8wct},
+  howpublished = {{D}isponível em: www.sbc.org.br},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{tbe2016,
+  author       = {IEEE},
+  title        = {Transactions on Biomedical Engineering},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://tbme.embs.org/},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{perhealth2016,
+  author       = {Symposium on Applied Computing Track on Healthcare},
+  title        = {International Conference on Pervasive Computing Technologies for Healthcare},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://sssa.bioroboticsinstitute.it/workshops/sac2016/Healthcare_track},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{pervasivehealth2016,
+  author       = {ACM},
+  title        = {International Conference on Pervasive Computing Technologies for Healthcare},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://pervasivehealth.org},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{jbhi2016,
+  author       = {IEEE},
+  title        = {Journal of Biomedical and Health Informatics},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://jbhi.embs.org/},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{jbhi2016,
+  author       = {IEEE},
+  title        = {Journal of Biomedical and Health Informatics},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://jbhi.embs.org/},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{jbhi2016,
+  author       = {IEEE},
+  title        = {Journal of Biomedical and Health Informatics},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://jbhi.embs.org/},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{cbms2016,
+  author       = {IEEE},
+  title        = {International Symposium on Computer-Based Medical Systems},
+  year         = {2016},
+  howpublished = {{D}isponível em: cbms2016.org},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{cbms2016,
+  author       = {IEEE},
+  title        = {International Symposium on Computer-Based Medical Systems},
+  year         = {2016},
+  howpublished = {{D}isponível em: cbms2016.org},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
