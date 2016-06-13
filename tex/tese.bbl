@@ -23,6 +23,14 @@
   Human Factors in Computing Systems}. \btxpublisherfont {ACM},
   2010\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-929-9}}}.
 
+\bibitem {pervasivehealth2016}
+\btxnamefont {\btxlastnamefont {ACM}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {International conference on pervasive computing
+  technologies for healthcare}{International Conference on Pervasive Computing
+  Technologies for Healthcare}}.
+\newblock {D}isponível em: http://pervasivehealth.org, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
 \bibitem {healthmonitoring2013}
 \btxnamefont {\btxlastnamefont {Ahmed}, Mobyen\btxfnamespacelong Uddin},
   \btxnamefont {Hadi \btxlastnamefont {Banaee}}\btxandcomma {} \btxandlong {}\
@@ -47,17 +55,6 @@
   survey}{Wireless Sensor Networks For Healthcare: A Survey}}.
 \newblock \btxjournalfont {Computer Networks}, 54(15), 2010\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1389-1286}}}.
-
-\bibitem {alemdar2015}
-\btxnamefont {\btxlastnamefont {Alemdar}, Hande}, \btxnamefont {Can
-  \btxlastnamefont {Tunca}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Cem
-  \btxlastnamefont {Ersoy}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
-  {Daily life behaviour monitoring for health assessment using machine
-  learning: Bridging the gap between domains}{Daily Life Behaviour Monitoring
-  For Health Assessment Using Machine Learning: Bridging The Gap Between
-  Domains}}.
-\newblock \btxjournalfont {Personal and Ubiquitous Computing}, 19(2),
-  2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1617-4917}}}.
 
 \bibitem {bartolome11}
 \btxnamefont {\btxlastnamefont {Aresti}, Nuria}, \btxnamefont {Amaia
@@ -146,6 +143,21 @@
   Human Factors in Computing Systems}. \btxpublisherfont {ACM},
   2008\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-011-1}}}.
 
+\bibitem {gustavo2014}
+\btxnamefont {\btxlastnamefont {Barbosa}, Gustavo\btxfnamespacelong
+  José}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Reconhecimento de
+  atividades humanas através de um \textit{Smartphone}}{Reconhecimento de
+  Atividades Humanas Através de um \textit{Smartphone}}}.
+\newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
+  Mestrado}, Universidade Federal de Alagoas, 2014.
+
+\bibitem {bardram2008}
+\btxnamefont {\btxlastnamefont {Bardram}, Jakob}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Pervasive healthcare as a scientific discipline}{Pervasive
+  Healthcare as a Scientific Discipline}}.
+\newblock \btxjournalfont {Methods of Information in Medicine},
+  2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0026-1270}}}.
+
 \bibitem {basili94}
 \btxnamefont {\btxlastnamefont {Basili}, Victor\btxfnamespacelong R.},
   \btxnamefont {Gianluigi \btxlastnamefont {Caldiera}}\btxandcomma {}
@@ -213,6 +225,20 @@
   Patients with Parkinson's Disease}}.
 \newblock \btxjournalfont {Expert Systems with Applications}, 36(3),
   2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0957-4174}}}.
+
+\bibitem {csbc2016}
+\btxnamefont {\btxlastnamefont {Computação}, Sociedade\btxfnamespacelong
+  Brasileira~de}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Congresso da
+  sociedade brasileira de computação}{Congresso da Sociedade Brasileira de
+  Computação}}.
+\newblock {D}isponível em: www.csbc.com.br, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {sbc2016}
+\btxnamefont {\btxlastnamefont {Computação}, Sociedade\btxfnamespacelong
+  Brasileira~de}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Sbc}{SBC}}.
+\newblock {D}isponível em: www.sbc.org.br, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
 
 \bibitem {quantitativeparkinson2011}
 \btxnamefont {\btxlastnamefont {Das}, S.}, \btxnamefont {L. \btxlastnamefont
@@ -355,6 +381,65 @@
 \newblock \btxpublisherfont {NICE Clinical Guideline}, \btxeditionnumlong
   {1}{}, 2006\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {1-86016-283-5}}}.
 
+\bibitem {sachealth2016}
+\btxnamefont {\btxlastnamefont {Healthcare}, Symposium~on Applied Computing
+  Track~on}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {International
+  conference on pervasive computing technologies for healthcare}{International
+  Conference on Pervasive Computing Technologies for Healthcare}}.
+\newblock {D}isponível em:
+  http://sssa.bioroboticsinstitute.it/workshops/sac2016/Healthcare_track, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {autonomparkin2015}
+\btxnamefont {\btxlastnamefont {Hellman}, Amy}, \btxnamefont {Shital
+  \btxlastnamefont {Shah}}, \btxnamefont {Stephanie \btxlastnamefont
+  {Pawlowski}}, \btxnamefont {John \btxlastnamefont {Duda}}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {James \btxlastnamefont
+  {Morley}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Continuous
+  non-invasive monitoring to detect covert autonomic dysfunction in parkinson's
+  disease}{Continuous Non-invasive Monitoring To Detect Covert Autonomic
+  Dysfunction In Parkinson's Disease}}.
+\newblock \btxjournalfont {Parkinsonism and Related Disorders},
+  21\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1353-8020}}}.
+
+\bibitem {specjbhi2015}
+\btxnamefont {\btxlastnamefont {IEEE}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase
+  {http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/}{http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/}}.
+\newblock {D}isponível em:
+  http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/,
+  2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {healthcon2016}
+\btxnamefont {\btxlastnamefont {IEEE}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {International conference on e-health networking,
+  application \& services}{International Conference on E-Health Networking,
+  Application \& Services}}.
+\newblock {D}isponível em: http://ieeehealthcom2016.com, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {cbms2016}
+\btxnamefont {\btxlastnamefont {IEEE}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {International symposium on computer-based medical
+  systems}{International Symposium on Computer-Based Medical Systems}}.
+\newblock {D}isponível em: cbms2016.org, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {jbhi2016}
+\btxnamefont {\btxlastnamefont {IEEE}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Journal of biomedical and health informatics}{Journal of
+  Biomedical and Health Informatics}}.
+\newblock {D}isponível em: http://jbhi.embs.org/, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {tbe2016}
+\btxnamefont {\btxlastnamefont {IEEE}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Transactions on biomedical engineering}{Transactions on
+  Biomedical Engineering}}.
+\newblock {D}isponível em: http://tbme.embs.org/, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
 \bibitem {jankovic2008}
 \btxnamefont {\btxlastnamefont {Jankovic}, Joseph}\btxauthorcolon\
   \btxjtitlefont {\btxifchangecase {Parkinson’s disease: Clinical features
@@ -460,11 +545,39 @@
   that Invite Social and Physical Interaction}. \btxpublisherfont {Springer},
   2014\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-981-4560-96-2}}}.
 
+\bibitem {bradmonitor2015}
+\btxnamefont {\btxlastnamefont {Manzanera}, Octavio}, \btxnamefont
+  {Martijn\btxfnamespacelong Beudel \btxlastnamefont {Elizabeth~Roosma}},
+  \btxnamefont {Robert \btxlastnamefont {Borgemeester}}, \btxnamefont {Teus
+  \btxlastnamefont {Laar}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Natasha
+  \btxlastnamefont {Maurits}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {A method for automatic and objective scoring of bradykinesia using
+  orientation sensors and classification algorithms}{A Method for Automatic and
+  Objective Scoring of Bradykinesia Using Orientation Sensors and
+  Classification Algorithms}}.
+\newblock \btxjournalfont {IEEE Transactions on Biomedical Engineering}, 63(5),
+  2016\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0018-9294}}}.
+
 \bibitem {matlab2011}
 \btxnamefont {\btxlastnamefont {Mathworks}}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Matlab r2015a}{Matlab R2015a}}.
 \newblock \textit{Software}, {D}isponível em: http://mathworks.com/.
 \newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {mazilu2015}
+\btxnamefont {\btxlastnamefont {Mazilu}, Sinziana}, \btxnamefont {Ulf
+  \btxlastnamefont {Blanke}}, \btxnamefont {Moran \btxlastnamefont {Dorfman}},
+  \btxnamefont {Eran \btxlastnamefont {Gazit}}, \btxnamefont {Anat
+  \btxlastnamefont {Mirelman}}, \btxnamefont {Jeffrey \btxlastnamefont
+  {M.~Hausdorff}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Gerhard
+  \btxlastnamefont {Troster}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {A wearable assistant for gait training for parkinson's disease with freezing
+  of gait in out-of-the-lab environments}{A Wearable Assistant for Gait
+  Training for Parkinson's Disease with Freezing of Gait in Out-of-the-Lab
+  Environments}}.
+\newblock \btxjournalfont {ACM Transactions Interactive Intelligent Systems},
+  5(1), \btxprintmonthyear{.}{3}{2015}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {2160-6455}}}.
 
 \bibitem {mcginnis2013biomechanics}
 \btxnamefont {\btxlastnamefont {McGinnis}, Peter}\btxauthorcolon\ \btxtitlefont
@@ -636,6 +749,13 @@
 \newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade Metodista De Piracicaba, 2006.
 
+\bibitem {wim2016}
+\btxnamefont {\btxlastnamefont {SBC}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Workshop de informática médica}{Workshop de Informática
+  Médica}}.
+\newblock {D}isponível em: http://www.csbc2016.com.br/#!blank-2/q8wct, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
 \bibitem {sinclair07}
 \btxnamefont {\btxlastnamefont {Sinclair}, Jeff}, \btxnamefont {Philip
   \btxlastnamefont {Hingston}}\btxandcomma {} \btxandlong {}\ \btxnamefont
@@ -656,6 +776,22 @@
   Exergaming System Development}}.
 \newblock \btxjournalfont {IEEE Computer Graphics Applications}, 29(2),
   2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0272-1716}}}.
+
+\bibitem {compapproachparkinson2015}
+\btxnamefont {\btxlastnamefont {Smith}, Stephen}, \btxnamefont {Michael
+  \btxlastnamefont {Lones}}, \btxnamefont {Matthew \btxlastnamefont {Bedder}},
+  \btxnamefont {Jane \btxlastnamefont {Alty}}, \btxnamefont {Jeremy
+  \btxlastnamefont {Cosgrove}}, \btxnamefont {Richard \btxlastnamefont
+  {Maguire}}, \btxnamefont {Mary \btxlastnamefont {Pownall}}, \btxnamefont
+  {Diana \btxlastnamefont {Ivanoiu}}, \btxnamefont {Camille \btxlastnamefont
+  {Lyle}}, \btxnamefont {Amy \btxlastnamefont {Cording}}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {Christopher\btxfnamespacelong
+  J.\btxfnamespacelong H. \btxlastnamefont {Elliott}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Computational approaches for understanding
+  the diagnosis and treatment of parkinson's disease}{Computational Approaches
+  for Understanding the Diagnosis and Treatment of Parkinson's Disease}}.
+\newblock \btxjournalfont {IET Systems Biology}, 9(6):226--233,
+  2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1751-8849}}}.
 
 \bibitem {van1999goal}
 \btxnamefont {\btxlastnamefont {Solingen}, Rini} \btxandlong {}\ \btxnamefont
@@ -717,6 +853,18 @@
 \btxnamefont {\btxlastnamefont {Technologies}, Unity}\btxauthorcolon\
   \btxtitlefont {\btxifchangecase {Unity 3d 3.0}{Unity 3D 3.0}}.
 \newblock \textit{Software}, {D}isponível em: http://unity3d.com/.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {acm2016}
+\btxnamefont {\btxlastnamefont {\textit{Association for Computing
+  Machinery}}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Acm}{ACM}}.
+\newblock {D}isponível em: www.acm.org, 2016.
+\newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {ieee2016}
+\btxnamefont {\btxlastnamefont {\textit{Institute of Electrical and Electronics
+  Engineers}}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Ieee}{IEEE}}.
+\newblock {D}isponível em: www.ieee.org, 2016.
 \newblock Último acesso: 3 de Junho de 2016.
 
 \bibitem {homecarebrazil2011}

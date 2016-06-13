@@ -1,10 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: tese.aux
 The style file: babplain.bst
 Database file #1: biblmmcorfinal.bib
-Warning--entry type for "kinnect2013" isn't style-file defined
---line 504 of file biblmmcorfinal.bib
 Warning--entry type for "zigfu" isn't style-file defined
---line 818 of file biblmmcorfinal.bib
+--line 810 of file biblmmcorfinal.bib
+Warning--entry type for "kinnect2013" isn't style-file defined
+--line 977 of file biblmmcorfinal.bib
+Repeated entry---line 1065 of file biblmmcorfinal.bib
+ : @misc{cbms2016
+ :               ,
+I'm skipping whatever remains of this entry
 A bad cross reference---entry "brox11"
 refers to entry "conf/ph/2011", which doesn't exist
 Warning--I didn't find a database entry for "conf/ph/2011"
@@ -14,4 +18,5 @@ Warning--can't use both author and editor fields in abn2010
 Warning--empty publisher in abn2010
 Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
-(There was 1 error message)
+Warning--empty year in autonomparkin2015
+(There were 2 error messages)

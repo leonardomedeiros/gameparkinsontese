@@ -2,166 +2,211 @@
 
 A idade média da população mundial está aumentando progressivamente e, segundo estudos da~\ac{oms}~\cite{ageing2011}, muito em breve teremos mais idosos do que crianças. Ao considerar que a população idosa possui maior prevalência de doenças crônicas~\cite{prevcronica2009}, surge a necessidade de monitorar o estado da saúde dessa população. Portanto, diante do crescimento da quantidade de pacientes crônicos, da iminente redução do número de leitos hospitalares disponíveis e da insuficiência de profissionais especializados para atender esta demanda~\cite{healthmonitoring2013}, faz-se necessário transpor serviços de monitoramento dos pacientes crônicos dos leitos hospitalares para acompanhamento domiciliar~\cite{homecarebrazil2011}. 
 
-Na investigação desta demanda, a computação aplicada à saúde busca prover o monitoramento da saúde~\cite{healthmonitoring2013,bardram2010,aarhus_negotiating_2010}. Os ~\ac{sms} permitem ao médico acompanhar à distância o estado de saúde de seus pacientes colaborativamente~\cite{healthmonitoring2013}. Atualmente, os~\ac{sms} realizam tratamento preventivo e pró-ativo do estado de saúde~\cite{bardram2010}; suporte à reabilitação do paciente~\cite{sacbespoke2014}; e auxílio para o paciente atingir uma melhor qualidade de vida~\cite{sacsvmhms2014}. Referente ao monitoramento dos sinais motores, os~\ac{sms} quantificam estes sinais e conseguem quantificar as habilidades motoras~\cite{manumeterjbhi2014,patel_monitoring_2009}, efetuar análise da marcha \cite{robotgait2014} e identificar sinais de bradicinesia~\footnote{Sintoma do Parkinson que consiste na lentidão da execução dos movimentos.}~\cite{ambulatoryparkinson2010}. Contudo, o maior desafio dessas abordagens é motivar e induzir o usuário a executar movimentos específicos para o monitoramento da saúde motora.
+Na investigação desta demanda, pesquisadores da computação aplicada à saúde buscam prover mecanismos de monitoramento da saúde~\cite{healthmonitoring2013,bardram2010,aarhus_negotiating_2010} como os ~\ac{sms}. Os ~\ac{sms} permitem ao médico acompanhar à distância o estado de saúde de seus pacientes colaborativamente~\cite{healthmonitoring2013}. Atualmente, os~\ac{sms} realizam tratamento preventivo e pró-ativo do estado de saúde~\cite{bardram2010}; suporte à reabilitação do paciente~\cite{sacbespoke2014}; e auxílio para o paciente atingir uma melhor qualidade de vida~\cite{sacsvmhms2014}. Referente ao monitoramento dos sinais motores, os~\ac{sms} quantificam estes sinais e conseguem quantificar as habilidades motoras~\cite{manumeterjbhi2014,patel_monitoring_2009}, efetuar análise da marcha \cite{robotgait2014} e identificar sinais de bradicinesia~\footnote{Sintoma do Parkinson que consiste na lentidão da execução dos movimentos.}~\cite{ambulatoryparkinson2010}. Contudo, o maior desafio dessas abordagens é motivar e induzir o usuário a executar movimentos específicos para o monitoramento da saúde motora.
 
-Na busca por motivar os usuários, identificamos que os jogos eletrônicos encontram-se presentes na rotina diária de 26\% da população americana acima dos 50 anos~\cite{esa2016}. Com base nesse número, percebemos um público de jogadores idosos beneficiáveis por uma plataforma de monitoramento de dados de saúde embutida num jogo eletrônico. Aliado a esse estudo, foi encontrado, jogos voltados para o público idoso aplicados à melhoria do estado de saúde, tais como jogos para a persuasão da prática de atividades físicas~\cite{brox11} e jogos para a melhoria das capacidades físicas e cognitivas~\cite{arntzen2011}. 
+Na busca por motivar os usuários, foi identificado que os jogos eletrônicos encontram-se presentes na rotina diária de 26\% da população americana acima dos 50 anos~\cite{esa2016}. Com base nesse número, têm-se um público de jogadores idosos beneficiáveis por uma plataforma de monitoramento de dados de saúde embutida num jogo eletrônico. Aliado a esse estudo, foi encontrado, jogos voltados para o público idoso aplicados à melhoria do estado de saúde, tais como jogos para a persuasão da prática de atividades físicas~\cite{brox11} e jogos para a melhoria das capacidades físicas e cognitivas~\cite{arntzen2011}. 
 
-É neste contexto de utilização, que os jogos eletrônicos foram utilizados para motivar o monitoramento da saúde, e induzir a execução dos movimentos específicos dentro do contexto de um jogo para a saúde. Mais especificamente, busca-se uma integrar os~\ac{sms} na vida diária de indivíduos através dos jogos, com foco em doenças motoras. Como objeto de estudo escolhemos \ac{dp} por ser uma doença neurodegenerativa crônica, progressiva e com causa desconhecida. É uma doença mais comum em idosos; no entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo abaixo dos 21~\cite{menezes2003}. A incidência da doença é estimada entre 100 a 200 casos por 100.000 habitantes e, com o envelhecimento da população, o contingente de pessoas diagnosticadas com~\ac{dp} tende a aumentar nos próximos anos. Após os 10 anos de tratamento, a doença leva o indivíduo a irreversíveis debilidades: motoras e cognitivas. Logo, a abordagem de monitorar os sinais em diferentes momentos do dia permite um melhor gerenciamento da doença e, por consequência, melhora a qualidade de vida destes indivíduos.
+Dentro deste contexto de utilização, é que os jogos eletrônicos foram utilizados como um mecanismo para motivar a frequencia do monitoramento da saúde, e induzir a execução dos movimentos específicos necessários para o monitoramento da saúde motora. Mais especificamente, busca-se uma integrar os~\ac{sms} na vida diária de indivíduos através dos jogos, com foco em doenças motoras. Como objeto de estudo escolhemos \ac{dp} por ser uma doença neurodegenerativa crônica, progressiva e com causa desconhecida. É uma doença mais comum em idosos; no entanto, existem casos precoces em indivíduos antes dos 40 anos ou até mesmo abaixo dos 21~\cite{menezes2003}. A incidência da doença é estimada entre 100 a 200 casos por 100.000 habitantes e, com o envelhecimento da população, o contingente de pessoas diagnosticadas com~\ac{dp} tende a aumentar nos próximos anos. Após os 10 anos de tratamento, a doença leva o indivíduo a irreversíveis debilidades: motoras e cognitivas. Logo, a abordagem de monitorar os sinais em diferentes momentos do dia permite um melhor gerenciamento da doença e, por consequência, melhora a qualidade de vida destes indivíduos.
 
 
 \section{Relevância}\label{section:relevancia}
-Nos últimos anos, a criação de tecnologias computacionais para o monitoramento da saúde~\cite{bardram2008} tem sido tema relevante e recorrente na computação~\cite{bradmonitor2015,compapproachparkinson2015,mazilu2015}. Por este motivo, as entidades internacionais de fomento industrial e científico da computação como IEEE~\cite{ieee2016} e ACM{acm2016} criaram e promoveram simpósios como o CBMS~\cite{cbms2016}, SAC (\textit{track on Healthcare})~\cite{sachealth2016}, conferências como \textit{Healthcon}~\cite{healthcon2016} e \textit{PervasiveHealth}~\cite{pervasivehealth2016} e até mesmo revistas científicas como \textit{Journal of Biomedical and Health Informatics} (JBHI)~\cite{jbhi2016}, \textit{IEEE Transactions on Biomedical Engineering}~\cite{tbe2016} (TBE). Em 2015, a JBHI teve uma \textit{special issue} exclusivamente relacionada à tecnologias para o gerenciamento do~\ac{dp}~\cite{specjbhi2015}, corroborando com a importância científica e impacto social desta tese. No Brasil, a Sociedade Brasileira de Computação~\cite{sbc2016} possui um \textit{Workshop} de Informática Médica~\cite{wim2016} em seu principal congresso~\cite{csbc2016} que tem como objetivo reunir pesquisadores, estudantes, professores, empresários e profissionais da computação aplicada à Saúde. Desta maneira, evidencia-se a importância deste trabalho tanto nas comunidades científicas nacionais quanto internacionais.
+Nos últimos anos, a criação de tecnologias computacionais para o monitoramento da saúde~\cite{bardram2008} tem sido tema relevante e recorrente na computação~\cite{bradmonitor2015,compapproachparkinson2015,mazilu2015}. Uma área de grande interesse na comunidade científica é o monitoramento não invasivo dos sinais vitais como pressão sanguínea, batimentos cardíacos, glicemia entre outros. Recentemente, Helmman \textit{et. al.}~\cite{autonomparkin2015} realizou um estudo com o monitoramento contínuo não-invasivo da pressão arterial, alterações nos batimentos cardíacos e pressão sanguínea para encontrar potenciais evidências de disfunções autonômicas cardíacas~\footnote{Distúrbio funcional, de natureza primária ou secundária, resultante de alterações  puramente funcionais ou orgânicas localizadas em um  ou em ambos os componentes do sistema nervoso autônomo.} em indivíduos com~\ac{dp}, justamente para conseguir prover um melhor diagnóstico e obter uma maior compreensão dos sintomas não motores da doença. Logo, fica evidenciada a importância da intersecção da Ciência da Computação com outras áreas de conhecimento como a medicina~\cite{bardram2008}, por exemplo. Pois, as abordagens computacionais que permitem mensurar, identificar e quantificar os sintomas do~\ac{dp}, além de possibilitar uma melhora na qualidade de vida destes pacientes, auxiliam numa melhor compreensão clínica da evolução da doença e na identificação de mecanismos científicos para identificar o diagnóstico da doença que ainda não foi estabelecido~\cite{compapproachparkinson2015}.
+
+%O principal objetivo destes trabalhos é permitir um monitoramento da saúde de uma maneira não invasiva e integrada à rotina diária de seus usuários~\cite{bardram08}. 
+
+Atualmente, entidades internacionais de fomento industrial e científico da computação como IEEE~\cite{ieee2016} e ACM~\cite{acm2016} promovem simpósios como o CBMS~\cite{cbms2016}, SAC (\textit{track on Healthcare})~\cite{sachealth2016}, conferências como HEALTHCON~\cite{healthcon2016} e \textit{PervasiveHealth}~\cite{pervasivehealth2016} e até mesmo revistas científicas como \textit{Journal of Biomedical and Health Informatics} (JBHI)~\cite{jbhi2016}, \textit{IEEE Transactions on Biomedical Engineering}~\cite{tbe2016} (TBE). 
+
+No Brasil, a Sociedade Brasileira de Computação~\cite{sbc2016} possui um \textit{Workshop} de Informática Médica (WIM)~\cite{wim2016} em seu principal congresso (CSBC)~\cite{csbc2016} que tem como objetivo reunir pesquisadores, estudantes, professores, empresários e profissionais da computação aplicada à Saúde. Em 2015, o JBHI publicou uma \textit{special issue} cujo tema foi tecnologias para o gerenciamento do~\ac{dp}~\cite{specjbhi2015}. Isto, evidencia a importância científica desta tese. %Desta maneira, evidencia-se a importância deste trabalho tanto nas comunidades científicas nacionais quanto internacionais.
+
+Por fim, a elaboração deste trabalho gerou desdobramentos e discussões científicas no grupo de pesquisa na área de computação aplicada à saúde dentro do Laboratório de Sistemas Embarcados e Computação Pervasiva da UFCG. Como resultado desta sinergia, durante o desenvolvimento desta tese, foi possível colaborar com duas defesas de mestrado~\cite{antonio2013,gustavo2014} e desenvolver 3 trabalhos de iniciação científica. 
 
 
-As pesquisas em cuidado de saúde pervasivo têm sido motivadas por estudos que apontam que, ao tratarem de suas doenças em casa, pacientes passam a ter uma qualidade de vida melhor do que se fossem acompanhados em hospitais [32; 110]. Além disso, alguns exames geralmente sofrem alterações devido à ansiedade gerada nos pacientes quando estão em ambientes clínicos. Desta forma, a acurácia no diagnóstico de um determinado quadro clínico pode ser maior se a medição da mesma variável for feita no paciente ao longo do dia, em vez de apenas uma única vez numa clínica [68].
+%base para futuros trabalhos de mestrado e doutorado na área.~\cite{glauber}
 
 
-Podem ser citadas, inclusive, revistas científicas sob o aval da IEEE~\cite{ieee2016} como 
+%espera-se que este trabalho sirva como subsídio a futuros avanços em trabalhos de mestrado e doutorado. %na áre\
 
 
- As pesquisas sobre o monitoramento 
+%Por fim, este trabalho foi o ponto de partida para a constituição de um grupo
+%de pesquisa na área de cuidados com a saúde e bem-estar, no Laboratório de Sistemas
+%Embarcados e Computação Pervasiva da Universidade Federal de Campina
+%Grande. Espera-se, portanto, que os desdobramentos deste trabalho sirvam de
+%base para futuros trabalhos de mestrado e doutorado na área.~\cite{glauber}
 
-As pesquisas em cuidado de saúde pervasivo têm sido motivadas por estudos que apontam
-que, ao tratarem de suas doenças em casa, pacientes passam a ter uma qualidade de vida
-melhor do que se fossem acompanhados em hospitais [32; 110]. Além disso, alguns exames
-geralmente sofrem alterações devido à ansiedade gerada nos pacientes quando estão em
-ambientes clínicos. Desta forma, a acurácia no diagnóstico de um determinado quadro clínico
-pode ser maior se a medição da mesma variável for feita no paciente ao longo do dia, em vez
-de apenas uma única vez numa clínica [68].
-Como posto por Bardram [11], cuidado de saúde pervasivo representa uma nova área
-de pesquisa na academia e na indústria de computação. \~cite{elthon}
+%Por fim, este trabalho permitiu desdobramentos e discussões científicas no grupo de pesquisa na área de computação aplicada à saúde dentro do Laboratório de Sistemas Embarcados e Computação Pervasiva da UFCG. Além disto, durante a elaboração desta tese, foi possível colaborar com dois trabalhos de mestrado~\cite{antonio2013,gustavo2014}). Portanto, dada a relevância científica aqui justificada, espera-se que este trabalho sirva de subsídio a futuros avanços em trabalhos de mestrado e doutorado na área.
 
 
-Uma evidência disto é a quantidadede simpósios e conferências, apoiadas por entidades como SBC [98], ACM [1] e IEEE [49],que vêm divulgando resultados de pesquisas na área, como são os casos do SBCUP [99],UbiComp [106] e PerCom [91], respectivamente. Outros eventos também têm emergido como mesmo foco, ou relacionado, como são os casos do PervasiveHealth [92] e do FHIES [36].No contexto de revistas científicas destacam-se as revistas IEEE Journal of Biomedicaland Health Informatics e Journal of the American Medical Informatics Association. Além destas, outras revistas têm special issues na área, tais como: IEEE Transactions on Industrial
-Informatics (special issue: Healthcare Systems and Technologies) e Sensors (special issue: Cyber-Physical Systems). Há na literatura trabalhos propondo que médicos, enfermeiros e outros profissionais de saúde acompanhem pacientes à distância, mais especificamente em seus respectivos lares [40; 95; 104]. Outros propõem ferramentas de auxílio ao diagnóstico de situações de risco eminentes ou mesmo de problemas respiratórios durante as fases de sono [18; 55; 83; 97; 112]. Uma característica comum presente nos trabalhos é o desenvolvimento de soluções centradas no paciente, provocando uma maior participação deste no processo de tratamento
-ou prevenção. ~\cite{elhton}
-
-de pesquisa
-
-Criar tecnologias para o monitoramento ea criação de redes de sensores corporais tem sido o tema de pesquisa mais ativa e bem sucedida em saúde generalizada - até agora. Uma mecha de trabalho é dedicado à realização de monitoramento confiável de sinais de saúde como pressão arterial, ECG, frequência cardíaca, a condutividade da pele, açúcar no sangue, e similar. O principal desafio foi projetar e desenvolver, sensores portáteis confiáveis ​​ainda não intrusivos, que podem ser usados ​​por um leigo. A meta tem sido a de criar uma plataforma para a monitorização contínua, porque a evidência clínica substancial indica que o monitoramento contínuo de alguns sinais vitais pode trabalhar detector tão cedo de diferentes doenças crônicas como hipertensão, insuficiência cardíaca congestiva, diabetes, demência e epilepsia. Um relacionadovertente é para se certificar de que este sensor e tecnologia de monitoramento trabalha em conjunto em uma infra-estrutura distribuída. Esta pesquisa refere-se a pesquisar dentro de redes gerais de sensores, e tem sido dedicada à concepção e desenvolvimento de redes de sensores corpo específicos de saúde. Resiliência, fail-over, topologia de rede, comunicação sem fio, protocolos e gerenciamento de dados em tempo real são questões importantes nesta vertente da investigação~\cite{bardram2008}.
-
-
-~\cite{sbc2016} ~\cite{ieee2016}
-
-
-
-
-A Informática em Saúde trata de conceitos e aplicações em Tecnologias de Informação e Comunicação (TIC) para a melhoria e transformação de sistemas, serviços e processos de Saúde. O CBIS 2016 será realizado durante quatro dias, a fim de debater o desenvolvimento da TIC aplicada à Saúde e seu uso adequado, tendo como tema central a “Informática Transformando a Saúde”. O CBIS 2016 contará com a participação de atores ativos no processo de construção do e-Saúde nacional, ou seja, da Política Nacional de Informação e Informática em Saúde (PNIIS).~\cite{cbis2016}
-
-O XVI Workshop de Informática Médica (WIM 2016) tem como objetivo reunir, no âmbito da Sociedade Brasileira de Computação (SBC), pesquisadores, estudantes, professores, empresários e profissionais interessados em Computação aplicada à Saúde. O WIM 2016 será realizado nos dias 04 e 06 de julho de 2016 como parte dos eventos do XXXVI Congresso da Sociedade Brasileira de Computação (CSBC), em Porto Alegre, RS. O WIM é o evento anual da Comissão Especial de Computação Aplicada à Saúde (CE-CAS) da SBC.~\cite{wim2016}
-
-
-CBMS 2015 introduced a special Industrial Track, aimed at strengthening the relationship
-between industry and academia, motivating the community on pursuing a productive partner-
-ship between both communities. Also for the first time, CBMS hosted the Workshop for Ongoing
-Projects in Computer-Based Medical Systems, a forum for presentation and discussion of re-
-search still under development but with interesting results already achieved, aimed at attracting
-graduate students and young researchers. Finally, to increase student engagement even more,
-CBMS 2015 also held a mini-course on “Analysis of Shape, Texture, and Oriented Patterns in
-Biomedical Images” by Prof. Rangaraj M. Rangayyan~\cite{cbms2016}
-We are happy to host this conference at the University of S ̃
-ao Paulo – USP, the largest
-Brazilian university and an internationally recognized teaching and research institution. USP
-was founded in 1932, and currently has campi in eight cities in the S ̃
-ao Paulo State. It has four
-hospitals providing education, clinical care and research activities that are among the best of the
-country. Its graduate and undergraduate courses covers virtually every knowledge area. CBMS
-2015 was held in USP’s campi of S ̃ao Carlos and Ribeir ̃ao Preto. The campus at S ̃ao Carlos
-has strong activities in Computer Science and in Exact Sciences in general, hosting Engineering,
-Physics, Chemistry, Mathematics and other schools.  The campus at Ribeir ̃
-ao Preto targetsmainly Health Sciences, with its Clinical Hospital and schools of Medicine, Nursing, Dentistry, Pharmacy and others~\cite{cbms2016}
-
-Uma evidência disto é a quantidadede simpósios e conferências, apoiadas por entidades como SBC [98], ACM [1] e IEEE [49],que vêm divulgando resultados de pesquisas na área, como são os casos do SBCUP [99],UbiComp [106] e PerCom [91], respectivamente. Outros eventos também têm emergido como mesmo foco, ou relacionado, como são os casos do PervasiveHealth [92] e do FHIES [36].No contexto de revistas científicas destacam-se as revistas IEEE Journal of Biomedicaland Health Informatics e Journal of the American Medical Informatics Association. Além destas, outras revistas têm special issues na área, tais como: IEEE Transactions on Industrial
-Informatics (special issue: Healthcare Systems and Technologies) e Sensors (special issue: Cyber-Physical Systems). Há na literatura trabalhos propondo que médicos, enfermeiros e outros profissionais de saúde acompanhem pacientes à distância, mais especificamente em seus respectivos lares [40; 95; 104]. Outros propõem ferramentas de auxílio ao diagnóstico de situações de risco eminentes ou mesmo de problemas respiratórios durante as fases de sono [18; 55; 83; 97; 112]. Uma característica comum presente nos trabalhos é o desenvolvimento de soluções centradas no paciente, provocando uma maior participação deste no processo de tratamento
-ou prevenção. ~\cite{elhton}
-
-
-
-Creating technologies for monitoring and creating body sensor networks has been the most active and successful research theme within pervasive healthcare – so far. One strand of work is dedicated to achieving reliable monitoring of health signs like blood pressure, ECG, heart rate, skin conductivity, blood sugar, and similar. The main challenge has been to design and develop reliable yet non-intrusive, wearable sensors, which can be used by a layman. The goal has
-been to create a platform for continuous monitoring, because substantial clinical evidence indicates that continuous monitoring of certain vital signs can work as early detector of different chronic diseases like hypertension, congestive heart failure, diabetes, dementia, and epilepsy. A related
-strand is to make sure that this sensor and monitoring technology works together in a distributed infrastructure. This research relates to research within general sensor networks, and has been dedicated to the design and development of health-specific body sensor networks. Resilience, fail-over, network topology, wireless communication, protocols, and real-time data management are important issues in this strand of research~\cite{bardram2008}.
-
-
-Abstract—Correct assessment of bradykinesia is a key element in the diagnosis and monitoring of  Parkinson’s disease. Its evaluation is based on a careful assessment of symptoms and it is quantified using rating scales, where the Movement Disorders. Its accurate evaluation is essential for correct diagnosis and monitoring of PD. The gold standard for assessing its severity and that of other movement disorder’s symptoms is the evaluation by a well-trained clinician using standard clinical rating scales [3]. While a physical examination of the patient and a careful evaluation of the symptoms are required for the assessment of bradykinesia, rating scales are employed to express its severity as a quantity. The most widely used for PD is the Movement Disorders Society-Sponsored Revision of the Unified Parkinson’s Disease Rating Scale (MDS-UPDRS) [4]. In its motor evaluation section, it defines a series of tasks that are performed by the patient and the movement performance
-characteristics that should be assessed. The assessment is represented by a sum score that summarizes movement performance. However, in spite of its ubiquitous use, the evaluation of the bradykinesia-related items of the MDS-UPDRS shows low interrater agreement between movement disorders specialists [1].
-This limitation hampers the evaluation of bradykinesia and the diagnosis and monitoring of PD. An objective, unbiased scoring of these items of theMDS-UPDRS could improve the evaluation of bradykinesia.~\cite{bradmonitor2015}
-
-Current assessment of bradykinesia is impaired by two inherent inconveniences: the evaluator’s individual bias and inconsistency and scale limitations due to the limited number of categories of the scale [16]. In a separate study [16], we propose a solution to the problem of the limited number of categories~\cite{bradmonitor2015}.
-
-
-The OECD countries are facing a set of core challenges; an increasing elderly population; increasing number of chronic and lifestyle-related diseases; expanding scope of what medicine can do; and increasing lack of medical professionals. Pervasive healthcare asks how pervasive computing technology can be designed to meet these challenges. The objective of this paper is to discuss 'pervasive healthcare' as a research field and tries to establish how novel and distinct it is, compared to related work within biomedical engineering, medical informatics, and ubiquitous computing~\cite{bardram2008}.
-
-
-Este artigo descreve abordagens computacionais utilizando algoritmos evolutivos (EAS) que fornecem medidas objetivas clinicamente relevantes para identificar e quantificar a PD, tanto em modelos humanos e animais. Começamos fornecendo uma visão geral do diagnóstico e monitoramento de PD em seres humanos. Posteriormente dois modelos animais da DP, a mosca da fruta (Drosophila melanogaster) eo peixe-zebra (Danio rerio), serão discutidos. Uma visão geral dos EAs serão fornecidos e, em seguida, uma descrição de como nós usamos EAspara estudar a função motora em humanos e em modelos animais não apenas para fornecer classificadores eficazes para a discriminação entre a doença e os controles, mas também entre os tipos de doenças. ~ \ cite {compapproachparkinson2015}
-A segunda razão importante pela qual pacientes com DP requerem monitoramento é para estudos de investigação. Isso geralmente envolve medidas clínicas detalhadas série de deficiências e incapacidades, utilizando escalas de avaliação clínicos formais. Embora tais escalas permitem um grau de padronização entre os estudos, eles têm uma série de inconvenientes pertinentes, tais como o comprimento de tempo para completar as várias avaliações, limitações do uso de escalas de granulação grossa de gravidade, e da interpretação subjetiva necessário que resulta em inter-rater variabilidade. Assim, há uma necessidade real de uma medida objetiva precisa de sinais clínicos de DP para melhorar a qualidade do acompanhamento para fins clínicos andresearch ~ \ cite {compapproachparkinson2015}
-
-This paper describes computational approaches using evolutionary algorithms (EAs) that provide clinically relevant objective measures to identify and to quantify PD, both in humans and animal models. We begin by providing an overview of the diagnosis and monitoring of PD in humans. Thereafter two animal models of PD, the fruit fly (Drosophila melanogaster) and the zebrafish (Danio rerio), will be discussed. An overview of EAs will be provided and then a description of how we have used EAs
-to study motor function in humans and animal models not only to provide effective classifiers for discrimination between disease and controls, but also between disease types.~\cite{compapproachparkinson2015}
-The second important reason why PD patients require monitoring is for research studies. This typically involves serial detailed clinical measurements of impairment and disability using formal clinical rating scales. Whilst such scales allow a degree of standardisation across studies, they have a number of pertinent drawbacks such as length of time to complete the various assessments, limitations of using coarse-grained scales of severity, and the necessary subjective interpretation that results in inter-rater variability. Thus there is a real need for an accurate objective measure of PD clinical signs to improve the quality of monitoring for clinical andresearch purposes~\cite{compapproachparkinson2015}
-
-A análise e classificação dos dados resultantes desses sensores posterior incluem abordagens estatísticas convencionais, bem como a aprendizagem de máquina , incluindo redes neurais, máquinas de vetores de suporte e EAs . EAs são o foco do trabalho apresentado neste artigo e são considerados com mais detalhes~\cite{compapproachparkinson2015}
-The subsequent analysis and classification of the data resulting from these sensors include conventional statistical approaches as well as machine learning including neural networks, support vector machine and EAs. EAs are the focus of the work presented in this paper and are considered in more detail in Section 4.~\cite{compapproachparkinson2015}
-
-
-O surgimento de todas estas inovações tem convergido para viabilizar um paradigma de
-computação proposto em 1991 por Mark Weiser [109] chamado de Computação Pervasiva.
-Neste paradigma, não apenas dispositivos móveis têm capacidade de processamento e comunicação,
-mas também vários outros objetos de uso diário, tais como: roupas, relógios, óculos,
-dentre outros. A combinação do processamento e a troca de informações entre tais objetos
-deve promover a adaptação do ambiente de acordo com as necessidades e desejos do usuário
-sem que este, necessariamente, delibere sobre isso.
-Diversos pesquisadores da área de computação pervasiva têm se preocupado com a área
-de cuidados de saúde. A combinação destas duas áreas tem sido denominada de cuidado de
-saúde pervasivo. Esta área tem sido apontada como uma área emergente de grandes impacto
-e significância [103].
-
-
-
-
-
-
-
-
-
-
-J-BHI publishes original papers describing recent advances in the field of biomedical and health informatics where information and communication technologies intersect with health, healthcare, life sciences and biomedicine.  Papers must contain original content in theoretical analysis, methods, technical development, and/or novel clinical applications of information systems. Topics covered by J-BHI include but are not limited to: acquisition, transmission, storage, retrieval, management, processing and analysis of biomedical and health information; applications of information and communication technologies in the practice of healthcare, public health, patient monitoring, preventive care, early diagnosis of diseases,  discovery of new therapies, and patient specific treatment protocols leading to improved outcomes; and the integration of electronic medical and health records, methods of longitudinal data analysis, data mining and discovery tools. Manuscripts may deal with these applications and their integration, such as clinical information systems,  decision support systems, medical and biological imaging informatics,  wearable  systems, body area/sensor networks, informatics in biological and physiological systems,  personalized and pervasive health  technologies (u-, p-, m- and e-Health), telemedicine, home healthcare and wellness management. Topics related to integration include interoperability, protocol-based patient care, evidence-based medicine, and methods of secure patient data.~\cite{JBHI}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Dada a grande relevância do tema para a sociedade e seu impacto sobre os
-custos de manutenção da saúde da população e qualidade de vida das pessoas,
-diversas pesquisas têm sido desenvolvidas com o intuito de auxiliar o autogerenciamento
-de pacientes. Mais especificamente, do ponto de vista de sistemas de
-software, há soluções para suporte a diferentes etapas do tratamento, visando o
-bem-estar do paciente durante a convivência com a doença. Tais pesquisas englobam
-desde a utilização de mensagens instantâneas para notificar profissionais
-quanto à resposta de pacientes crônicos à medicação prescrita [39], até a utilização
-de sensores para monitoramento contínuo da movimentação do paciente [44] e do
-seu estado de saúde [8] para antecipar possíveis situações críticas.
-É nesse contexto de utilização de tecnologia de software para auxílio ao autogerenciamento
-de portadores de doenças crônicas que se insere o presente trabalho.
-Mais especificamente, propõe-se a utilização de sistemas de software para a
-compatibilização entre os diversos planos de tratamento indicados por diferentes
-profissionais de saúde, incluindo a gerência da evolução destes planos ao longo da
-evolução da doença e do estado do paciente.~\cite{glauber}
-Por fim, este trabalho foi o ponto de partida para a constituição de um grupo
-de pesquisa na área de cuidados com a saúde e bem-estar, no Laboratório de Sistemas
-Embarcados e Computação Pervasiva da Universidade Federal de Campina
-Grande. Espera-se, portanto, que os desdobramentos deste trabalho sirvam de
-base para futuros trabalhos de mestrado e doutorado na área.~\cite{glauber}
-
-
+%
+ %entendimento dos sintomas da
+%
+%This paper describes computational approaches using evolutionary algorithms (EAs) that provide clinically relevant objective measures to identify and to quantify PD, both in humans and animal models.
+%
+%A análise e classificação dos dados resultantes desses sensores posterior incluem abordagens estatísticas convencionais, bem como a aprendizagem de máquina , incluindo redes neurais, máquinas de vetores de suporte
+ %. EAs são o foco do trabalho apresentado neste artigo e são considerados com mais detalhes
+%
+%
+%This paper describes computational approaches using evolutionary algorithms (EAs) that provide clinically relevant objective measures to identify and to quantify PD, both in humans and animal models. We begin by providing an overview of the diagnosis and monitoring of PD in humans. Thereafter two animal models of PD, the fruit fly (Drosophila melanogaster) and the zebrafish (Danio rerio), will be discussed. An overview of EAs will be provided and then a description of how we have used EAs
+%to study motor function in humans and animal models not only to provide effective classifiers for discrimination between disease and controls, but also between disease types.~\cite{compapproachparkinson2015}. The second important reason why PD patients require monitoring is for research studies. This typically involves serial detailed clinical measurements of impairment and disability using formal clinical rating scales. Whilst such scales allow a degree of standardisation across studies, they have a number of pertinent drawbacks such as length of time to complete the various assessments, limitations of using coarse-grained scales of severity, and the necessary subjective interpretation that results in inter-rater variability. Thus there is a real need for an accurate objective measure of PD clinical signs to improve the quality of monitoring for clinical andresearch purposes~\cite{compapproachparkinson2015}
+%
+%A análise e classificação dos dados resultantes desses sensores posterior incluem abordagens estatísticas convencionais, bem como a aprendizagem de máquina , incluindo redes neurais, máquinas de vetores de suporte e EAs . EAs são o foco do trabalho apresentado neste artigo e são considerados com mais detalhes~\cite{compapproachparkinson2015}
+%The subsequent analysis and classification of the data resulting from these sensors include conventional statistical approaches as well as machine learning including neural networks, support vector machine and EAs. EAs are the focus of the work presented in this paper and are considered in more detail in Section 4.~\cite{compapproachparkinson2015}
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%%Logo, é preciso também induzir o paciente a executar estes movimentos. Dentro deste contexto, como motivar o paciente 
+%
+%para monitorar a saúde motora monitoramento da saúde motora
+%
+%ou outros indicadores da saúde motora que são monitorados por sensores vestíveis (\textit{wearable sensors}). 
+%
+%One strand of work is dedicated to achieving reliable monitoring of health signs like blood pressure, ECG, heart rate, skin conductivity, blood sugar, and similar. The main challenge has been to design and develop reliable yet non-intrusive, wearable sensors, which can be used by a layman. The goal has
+%been to create a platform for continuous monitoring, because substantial clinical evidence indicates that continuous monitoring of certain vital signs can work as early detector of different chronic diseases like hypertension, congestive heart failure, diabetes, dementia, and epilepsy. 
+%
+%
+%
+%
+%Creating technologies for monitoring and creating body sensor networks has been the most active and successful research theme within pervasive healthcare – so far. A related
+%strand is to make sure that this sensor and monitoring technology works together in a distributed infrastructure. This research relates to research within general sensor networks, and has been dedicated to the design and development of health-specific body sensor networks. Resilience, fail-over, network topology, wireless communication, protocols, and real-time data management are important issues in this strand of research~\cite{bardram2008}.
+%
+%
+%
+%
+%
+%As pesquisas em cuidado de saúde pervasivo têm sido motivadas por estudos que apontam que, ao tratarem de suas doenças em casa, pacientes passam a ter uma qualidade de vida melhor do que se fossem acompanhados em hospitais [32; 110]. Além disso, alguns exames geralmente sofrem alterações devido à ansiedade gerada nos pacientes quando estão em ambientes clínicos. Desta forma, a acurácia no diagnóstico de um determinado quadro clínico pode ser maior se a medição da mesma variável for feita no paciente ao longo do dia, em vez de apenas uma única vez numa clínica [68].
+%
+%
+%Podem ser citadas, inclusive, revistas científicas sob o aval da IEEE~\cite{ieee2016} como 
+%
+%
+ %As pesquisas sobre o monitoramento 
+%
+%As pesquisas em cuidado de saúde pervasivo têm sido motivadas por estudos que apontam que, ao tratarem de suas doenças em casa, pacientes passam a ter uma qualidade de vida melhor do que se fossem acompanhados em hospitais [32; 110]. Além disso, alguns exames geralmente sofrem alterações devido à ansiedade gerada nos pacientes quando estão em ambientes clínicos. Desta forma, a acurácia no diagnóstico de um determinado quadro clínico pode ser maior se a medição da mesma variável for feita no paciente ao longo do dia, em vez de apenas uma única vez numa clínica [68]. Como posto por Bardram [11], cuidado de saúde pervasivo representa uma nova área de pesquisa na academia e na indústria de computação. \~cite{elthon}
+%
+%
+%Uma evidência disto é a quantidadede simpósios e conferências, apoiadas por entidades como SBC [98], ACM [1] e IEEE [49],que vêm divulgando resultados de pesquisas na área, como são os casos do SBCUP [99],UbiComp [106] e PerCom [91], respectivamente. Outros eventos também têm emergido como mesmo foco, ou relacionado, como são os casos do PervasiveHealth [92] e do FHIES [36].No contexto de revistas científicas destacam-se as revistas IEEE Journal of Biomedicaland Health Informatics e Journal of the American Medical Informatics Association. Além destas, outras revistas têm special issues na área, tais como: IEEE Transactions on Industrial
+%Informatics (special issue: Healthcare Systems and Technologies) e Sensors (special issue: Cyber-Physical Systems). Há na literatura trabalhos propondo que médicos, enfermeiros e outros profissionais de saúde acompanhem pacientes à distância, mais especificamente em seus respectivos lares [40; 95; 104]. Outros propõem ferramentas de auxílio ao diagnóstico de situações de risco eminentes ou mesmo de problemas respiratórios durante as fases de sono [18; 55; 83; 97; 112]. Uma característica comum presente nos trabalhos é o desenvolvimento de soluções centradas no paciente, provocando uma maior participação deste no processo de tratamento
+%ou prevenção. ~\cite{elhton}
+%
+%de pesquisa
+%
+%Criar tecnologias para o monitoramento ea criação de redes de sensores corporais tem sido o tema de pesquisa mais ativa e bem sucedida em saúde generalizada - até agora. Uma mecha de trabalho é dedicado à realização de monitoramento confiável de sinais de saúde como pressão arterial, ECG, frequência cardíaca, a condutividade da pele, açúcar no sangue, e similar. O principal desafio foi projetar e desenvolver, sensores portáteis confiáveis ​​ainda não intrusivos, que podem ser usados ​​por um leigo. A meta tem sido a de criar uma plataforma para a monitorização contínua, porque a evidência clínica substancial indica que o monitoramento contínuo de alguns sinais vitais pode trabalhar detector tão cedo de diferentes doenças crônicas como hipertensão, insuficiência cardíaca congestiva, diabetes, demência e epilepsia. Um relacionadovertente é para se certificar de que este sensor e tecnologia de monitoramento trabalha em conjunto em uma infra-estrutura distribuída. Esta pesquisa refere-se a pesquisar dentro de redes gerais de sensores, e tem sido dedicada à concepção e desenvolvimento de redes de sensores corpo específicos de saúde. Resiliência, fail-over, topologia de rede, comunicação sem fio, protocolos e gerenciamento de dados em tempo real são questões importantes nesta vertente da investigação~\cite{bardram2008}.
+%
+%
+%~\cite{sbc2016} ~\cite{ieee2016}
+%
+%
+%
+%
+%A Informática em Saúde trata de conceitos e aplicações em Tecnologias de Informação e Comunicação (TIC) para a melhoria e transformação de sistemas, serviços e processos de Saúde. O CBIS 2016 será realizado durante quatro dias, a fim de debater o desenvolvimento da TIC aplicada à Saúde e seu uso adequado, tendo como tema central a “Informática Transformando a Saúde”. O CBIS 2016 contará com a participação de atores ativos no processo de construção do e-Saúde nacional, ou seja, da Política Nacional de Informação e Informática em Saúde (PNIIS).~\cite{cbis2016}
+%
+%O XVI Workshop de Informática Médica (WIM 2016) tem como objetivo reunir, no âmbito da Sociedade Brasileira de Computação (SBC), pesquisadores, estudantes, professores, empresários e profissionais interessados em Computação aplicada à Saúde. O WIM 2016 será realizado nos dias 04 e 06 de julho de 2016 como parte dos eventos do XXXVI Congresso da Sociedade Brasileira de Computação (CSBC), em Porto Alegre, RS. O WIM é o evento anual da Comissão Especial de Computação Aplicada à Saúde (CE-CAS) da SBC.~\cite{wim2016}
+%
+%
+%CBMS 2015 introduced a special Industrial Track, aimed at strengthening the relationship
+%between industry and academia, motivating the community on pursuing a productive partner-
+%ship between both communities. Also for the first time, CBMS hosted the Workshop for Ongoing
+%Projects in Computer-Based Medical Systems, a forum for presentation and discussion of re-
+%search still under development but with interesting results already achieved, aimed at attracting
+%graduate students and young researchers. Finally, to increase student engagement even more,
+%CBMS 2015 also held a mini-course on “Analysis of Shape, Texture, and Oriented Patterns in
+%Biomedical Images” by Prof. Rangaraj M. Rangayyan~\cite{cbms2016}
+%We are happy to host this conference at the University of S ̃
+%ao Paulo – USP, the largest
+%Brazilian university and an internationally recognized teaching and research institution. USP
+%was founded in 1932, and currently has campi in eight cities in the S ̃
+%ao Paulo State. It has four
+%hospitals providing education, clinical care and research activities that are among the best of the
+%country. Its graduate and undergraduate courses covers virtually every knowledge area. CBMS
+%2015 was held in USP’s campi of S ̃ao Carlos and Ribeir ̃ao Preto. The campus at S ̃ao Carlos
+%has strong activities in Computer Science and in Exact Sciences in general, hosting Engineering,
+%Physics, Chemistry, Mathematics and other schools.  The campus at Ribeir ̃
+%ao Preto targetsmainly Health Sciences, with its Clinical Hospital and schools of Medicine, Nursing, Dentistry, Pharmacy and others~\cite{cbms2016}
+%
+%Uma evidência disto é a quantidadede simpósios e conferências, apoiadas por entidades como SBC [98], ACM [1] e IEEE [49],que vêm divulgando resultados de pesquisas na área, como são os casos do SBCUP [99],UbiComp [106] e PerCom [91], respectivamente. Outros eventos também têm emergido como mesmo foco, ou relacionado, como são os casos do PervasiveHealth [92] e do FHIES [36].No contexto de revistas científicas destacam-se as revistas IEEE Journal of Biomedicaland Health Informatics e Journal of the American Medical Informatics Association. Além destas, outras revistas têm special issues na área, tais como: IEEE Transactions on Industrial
+%Informatics (special issue: Healthcare Systems and Technologies) e Sensors (special issue: Cyber-Physical Systems). Há na literatura trabalhos propondo que médicos, enfermeiros e outros profissionais de saúde acompanhem pacientes à distância, mais especificamente em seus respectivos lares [40; 95; 104]. Outros propõem ferramentas de auxílio ao diagnóstico de situações de risco eminentes ou mesmo de problemas respiratórios durante as fases de sono [18; 55; 83; 97; 112]. Uma característica comum presente nos trabalhos é o desenvolvimento de soluções centradas no paciente, provocando uma maior participação deste no processo de tratamento
+%ou prevenção. ~\cite{elhton}
+%
+%
+%
+%Creating technologies for monitoring and creating body sensor networks has been the most active and successful research theme within pervasive healthcare – so far. One strand of work is dedicated to achieving reliable monitoring of health signs like blood pressure, ECG, heart rate, skin conductivity, blood sugar, and similar. The main challenge has been to design and develop reliable yet non-intrusive, wearable sensors, which can be used by a layman. The goal has
+%been to create a platform for continuous monitoring, because substantial clinical evidence indicates that continuous monitoring of certain vital signs can work as early detector of different chronic diseases like hypertension, congestive heart failure, diabetes, dementia, and epilepsy. A related
+%strand is to make sure that this sensor and monitoring technology works together in a distributed infrastructure. This research relates to research within general sensor networks, and has been dedicated to the design and development of health-specific body sensor networks. Resilience, fail-over, network topology, wireless communication, protocols, and real-time data management are important issues in this strand of research~\cite{bardram2008}.
+%
+%
+%Abstract—Correct assessment of bradykinesia is a key element in the diagnosis and monitoring of  Parkinson’s disease. Its evaluation is based on a careful assessment of symptoms and it is quantified using rating scales, where the Movement Disorders. Its accurate evaluation is essential for correct diagnosis and monitoring of PD. The gold standard for assessing its severity and that of other movement disorder’s symptoms is the evaluation by a well-trained clinician using standard clinical rating scales [3]. While a physical examination of the patient and a careful evaluation of the symptoms are required for the assessment of bradykinesia, rating scales are employed to express its severity as a quantity. The most widely used for PD is the Movement Disorders Society-Sponsored Revision of the Unified Parkinson’s Disease Rating Scale (MDS-UPDRS) [4]. In its motor evaluation section, it defines a series of tasks that are performed by the patient and the movement performance
+%characteristics that should be assessed. The assessment is represented by a sum score that summarizes movement performance. However, in spite of its ubiquitous use, the evaluation of the bradykinesia-related items of the MDS-UPDRS shows low interrater agreement between movement disorders specialists [1].
+%This limitation hampers the evaluation of bradykinesia and the diagnosis and monitoring of PD. An objective, unbiased scoring of these items of theMDS-UPDRS could improve the evaluation of bradykinesia.~\cite{bradmonitor2015}x
+%
+%Current assessment of bradykinesia is impaired by two inherent inconveniences: the evaluator’s individual bias and inconsistency and scale limitations due to the limited number of categories of the scale [16]. In a separate study [16], we propose a solution to the problem of the limited number of categories~\cite{bradmonitor2015}.
+%
+%
+%The OECD countries are facing a set of core challenges; an increasing elderly population; increasing number of chronic and lifestyle-related diseases; expanding scope of what medicine can do; and increasing lack of medical professionals. Pervasive healthcare asks how pervasive computing technology can be designed to meet these challenges. The objective of this paper is to discuss 'pervasive healthcare' as a research field and tries to establish how novel and distinct it is, compared to related work within biomedical engineering, medical informatics, and ubiquitous computing~\cite{bardram2008}.
+%
+%
+%Este artigo descreve abordagens computacionais utilizando algoritmos evolutivos (EAS) que fornecem medidas objetivas clinicamente relevantes para identificar e quantificar a PD, tanto em modelos humanos e animais. Começamos fornecendo uma visão geral do diagnóstico e monitoramento de PD em seres humanos. Posteriormente dois modelos animais da DP, a mosca da fruta (Drosophila melanogaster) eo peixe-zebra (Danio rerio), serão discutidos. Uma visão geral dos EAs serão fornecidos e, em seguida, uma descrição de como nós usamos EAspara estudar a função motora em humanos e em modelos animais não apenas para fornecer classificadores eficazes para a discriminação entre a doença e os controles, mas também entre os tipos de doenças. ~ \ cite {compapproachparkinson2015}
+%A segunda razão importante pela qual pacientes com DP requerem monitoramento é para estudos de investigação. Isso geralmente envolve medidas clínicas detalhadas série de deficiências e incapacidades, utilizando escalas de avaliação clínicos formais. Embora tais escalas permitem um grau de padronização entre os estudos, eles têm uma série de inconvenientes pertinentes, tais como o comprimento de tempo para completar as várias avaliações, limitações do uso de escalas de granulação grossa de gravidade, e da interpretação subjetiva necessário que resulta em inter-rater variabilidade. Assim, há uma necessidade real de uma medida objetiva precisa de sinais clínicos de DP para melhorar a qualidade do acompanhamento para fins clínicos andresearch ~ \ cite {compapproachparkinson2015}
+%
+%
+%O surgimento de todas estas inovações tem convergido para viabilizar um paradigma de
+%computação proposto em 1991 por Mark Weiser [109] chamado de Computação Pervasiva.
+%Neste paradigma, não apenas dispositivos móveis têm capacidade de processamento e comunicação,
+%mas também vários outros objetos de uso diário, tais como: roupas, relógios, óculos,
+%dentre outros. A combinação do processamento e a troca de informações entre tais objetos
+%deve promover a adaptação do ambiente de acordo com as necessidades e desejos do usuário
+%sem que este, necessariamente, delibere sobre isso.
+%Diversos pesquisadores da área de computação pervasiva têm se preocupado com a área
+%de cuidados de saúde. A combinação destas duas áreas tem sido denominada de cuidado de
+%saúde pervasivo. Esta área tem sido apontada como uma área emergente de grandes impacto
+%e significância [103].
+%
+%
+%
+%J-BHI publishes original papers describing recent advances in the field of biomedical and health informatics where information and communication technologies intersect with health, healthcare, life sciences and biomedicine.  Papers must contain original content in theoretical analysis, methods, technical development, and/or novel clinical applications of information systems. Topics covered by J-BHI include but are not limited to: acquisition, transmission, storage, retrieval, management, processing and analysis of biomedical and health information; applications of information and communication technologies in the practice of healthcare, public health, patient monitoring, preventive care, early diagnosis of diseases,  discovery of new therapies, and patient specific treatment protocols leading to improved outcomes; and the integration of electronic medical and health records, methods of longitudinal data analysis, data mining and discovery tools. Manuscripts may deal with these applications and their integration, such as clinical information systems,  decision support systems, medical and biological imaging informatics,  wearable  systems, body area/sensor networks, informatics in biological and physiological systems,  personalized and pervasive health  technologies (u-, p-, m- and e-Health), telemedicine, home healthcare and wellness management. Topics related to integration include interoperability, protocol-based patient care, evidence-based medicine, and methods of secure patient data.~\cite{JBHI}
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%Dada a grande relevância do tema para a sociedade e seu impacto sobre os
+%custos de manutenção da saúde da população e qualidade de vida das pessoas,
+%diversas pesquisas têm sido desenvolvidas com o intuito de auxiliar o autogerenciamento
+%de pacientes. Mais especificamente, do ponto de vista de sistemas de
+%software, há soluções para suporte a diferentes etapas do tratamento, visando o
+%bem-estar do paciente durante a convivência com a doença. Tais pesquisas englobam
+%desde a utilização de mensagens instantâneas para notificar profissionais
+%quanto à resposta de pacientes crônicos à medicação prescrita [39], até a utilização
+%de sensores para monitoramento contínuo da movimentação do paciente [44] e do
+%seu estado de saúde [8] para antecipar possíveis situações críticas.
+%É nesse contexto de utilização de tecnologia de software para auxílio ao autogerenciamento
+%de portadores de doenças crônicas que se insere o presente trabalho.
+%Mais especificamente, propõe-se a utilização de sistemas de software para a
+%compatibilização entre os diversos planos de tratamento indicados por diferentes
+%profissionais de saúde, incluindo a gerência da evolução destes planos ao longo da
+%evolução da doença e do estado do paciente.~\cite{glauber}
+%
+%Por fim, este trabalho foi o ponto de partida para a constituição de um grupo
+%de pesquisa na área de cuidados com a saúde e bem-estar, no Laboratório de Sistemas
+%Embarcados e Computação Pervasiva da Universidade Federal de Campina
+%Grande. Espera-se, portanto, que os desdobramentos deste trabalho sirvam de
+%base para futuros trabalhos de mestrado e doutorado na área.~\cite{glauber}
+%
+%
 
 \section{Problemática}\label{section:problematica}
 %Para a identificação do problema foi realizado uma Revisão Bibliográfica sobre os temas IEEE~\cite{ieee}, ACM~\cite{acm}, PubMed~\cite{pubmed}, Scielo~\cite{scielo}.

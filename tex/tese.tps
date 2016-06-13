@@ -11,13 +11,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=992
-NormalPos.bottom=406
+NormalPos.right=1008
+NormalPos.bottom=400
 Class=LaTeXView
 Document=tese.tex
 
 [Frame0_View0,0]
-TopLine=217
+TopLine=210
 Cursor=7109
 
 [Frame1]
@@ -29,8 +29,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=992
-NormalPos.bottom=406
+NormalPos.right=1008
+NormalPos.bottom=400
 Class=LaTeXView
 Document=resumo.tex
 
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=992
-NormalPos.bottom=406
+NormalPos.right=1008
+NormalPos.bottom=400
 Class=LaTeXView
 Document=cap1-introducao.tex
 
 [Frame2_View0,0]
-TopLine=43
-Cursor=4195
+TopLine=198
+Cursor=16771
 
 [Frame3]
 Flags=0
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=992
-NormalPos.bottom=406
-Class=BibTeXView
-Document=biblmmcorfinal.bib
+NormalPos.right=1008
+NormalPos.bottom=400
+Class=LaTeXView
+Document=cap6-conclusoes.tex
 
 [Frame3_View0,0]
-TopLine=1367
-Cursor=68374
+TopLine=33
+Cursor=0
 
 [SessionInfo]
 FrameCount=4

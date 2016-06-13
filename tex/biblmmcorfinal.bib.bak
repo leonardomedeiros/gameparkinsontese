@@ -998,7 +998,7 @@ prototype related to sport and dance activities.},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
-@Misc{sbc2016,
+@Misc{csbc2016,
   author       = {Sociedade Brasileira de Computação},
   title        = {Congresso da Sociedade Brasileira de Computação},
   year         = {2016},
@@ -1015,8 +1015,8 @@ prototype related to sport and dance activities.},
 }
 
 @Misc{wim2016,
-  author       = {Workshop de Informática Médica},
-  title        = {SBC},
+  author       = {SBC},
+  title        = {Workshop de Informática Médica},
   year         = {2016},
   howpublished = {{D}isponível em: http://www.csbc2016.com.br/#!blank-2/q8wct},
   note         = {Último acesso: 3 de Junho de 2016},
@@ -1046,7 +1046,7 @@ prototype related to sport and dance activities.},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
-@Misc{perhealth2016,
+@Misc{sachealth2016,
   author       = {Symposium on Applied Computing Track on Healthcare},
   title        = {International Conference on Pervasive Computing Technologies for Healthcare},
   year         = {2016},
@@ -1070,22 +1070,6 @@ prototype related to sport and dance activities.},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
-@Misc{jbhi2016,
-  author       = {IEEE},
-  title        = {Journal of Biomedical and Health Informatics},
-  year         = {2016},
-  howpublished = {{D}isponível em: http://jbhi.embs.org/},
-  note         = {Último acesso: 3 de Junho de 2016},
-}
-
-@Misc{jbhi2016,
-  author       = {IEEE},
-  title        = {Journal of Biomedical and Health Informatics},
-  year         = {2016},
-  howpublished = {{D}isponível em: http://jbhi.embs.org/},
-  note         = {Último acesso: 3 de Junho de 2016},
-}
-
 @Misc{cbms2016,
   author       = {IEEE},
   title        = {International Symposium on Computer-Based Medical Systems},
@@ -1099,6 +1083,41 @@ prototype related to sport and dance activities.},
   title        = {International Symposium on Computer-Based Medical Systems},
   year         = {2016},
   howpublished = {{D}isponível em: cbms2016.org},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@MastersThesis{gustavo2014,
+  author    = {Gustavo José Barbosa},
+  title     = {Reconhecimento de Atividades Humanas Através de um \textit{Smartphone}},
+  year      = {2014},
+  type      = {Dissertação de Mestrado},
+  owner     = {leonardo},
+  school    = {Universidade Federal de Alagoas},
+  timestamp = {2013.05.18},
+}
+
+@Article{autonomparkin2015,
+  author       = {Amy Hellman and Shital Shah and Stephanie Pawlowski and John Duda and James Morley},
+  title        = {Continuous Non-invasive Monitoring To Detect Covert Autonomic Dysfunction In Parkinson's Disease},
+  journaltitle = {Parkinsonism and Related Disorders},
+  volume       = {21},
+  issn         = {1353-8020},
+  journal      = {Parkinsonism and Related Disorders},
+}
+
+@Misc{healthcon2016,
+  author       = {IEEE},
+  title        = {International Conference on E-Health Networking, Application \& Services},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://ieeehealthcom2016.com},
+  note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Misc{specjbhi2015,
+  author       = {IEEE},
+  title        = {http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/},
+  year         = {2016},
+  howpublished = {{D}isponível em: http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
