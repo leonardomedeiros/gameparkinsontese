@@ -1022,22 +1022,6 @@ prototype related to sport and dance activities.},
   note         = {Último acesso: 3 de Junho de 2016},
 }
 
-@Misc{sbc2016,
-  author       = {Sociedade Brasileira de Computação},
-  title        = {SBC},
-  year         = {2016},
-  howpublished = {{D}isponível em: www.sbc.org.br},
-  note         = {Último acesso: 3 de Junho de 2016},
-}
-
-@Misc{sbc2016,
-  author       = {Sociedade Brasileira de Computação},
-  title        = {SBC},
-  year         = {2016},
-  howpublished = {{D}isponível em: www.sbc.org.br},
-  note         = {Último acesso: 3 de Junho de 2016},
-}
-
 @Misc{tbe2016,
   author       = {IEEE},
   title        = {Transactions on Biomedical Engineering},
@@ -1119,6 +1103,60 @@ prototype related to sport and dance activities.},
   year         = {2016},
   howpublished = {{D}isponível em: http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/},
   note         = {Último acesso: 3 de Junho de 2016},
+}
+
+@Article{wiiassesspark2016,
+  author   = {Ke Yang and Wei-Xi Xiong and Eng-Tao Liu and Yi-Min Sun and Susan Luo and Zheng-Tong Ding and Jian-Jun Wu and Jian Wang},
+  title    = {Objective And Quantitative Assessment Of Motor Function In Parkinson’s Disease-from The Perspective Of Practical Applications},
+  year     = {2016},
+  volume   = {4},
+  number   = {5},
+  issn     = {2305-5847},
+  abstract = {Parkinson’s disease (PD) is a common neurodegenerative disorder with high morbidity because of the coming aged society. Currently, disease management and the development of new treatment strategies mainly depend on the clinical information derived from rating scales and patients’ diaries, which have various limitations with regard to validity, inter-rater variability and continuous monitoring. Recently the prevalence of mobile medical equipment has made it possible to develop an objective, accurate, remote monitoring system for motor function assessment, playing an important role in disease diagnosis, home-monitoring, and severity evaluation. This review discusses the recent development in sensor technology, which may be a promising replacement of the current rating scales in the assessment of motor function of PD.},
+  file     = {:C\:\\git\\gameparkinsontese\\referencias\\non-invasive\\2016-journal-review-article-Usa WII - Objective and quantitative assessment of motor function in Parkinson’s disease—from the perspective of practical applications.pdf:LaTeX},
+  journal  = {Annals of Translational Medicine},
+  review   = {O Mais importante: Cokicar êngase b motor task 
+============================================
+Home-based monitoring depending on fixed motor tasks
+============================================
+Monitoring patients in a continuous way without supervised and standardized motor tasks is not the only way to design a home-based monitoring system. Patients could also provide disease-related information by doing video-guided motor tasks at home (25,31). An algorithm was developed to estimate the clinical scores provided by a neurologist when observing patients performing the same motor tasks. The classification errors of this remote UPDRS assessment ystem were 3.4% for tremor, 2.2% for bradykinesia and 3.2% for dyskinesia, demonstrating that clinical UPDRS
+score can be reliably estimated under the help of the remote UPDRS assessment system based on wearable sensors (23).
+
+Certain motor symptoms like tremor could be detected from some specific metrics using Wii remote. It could also perform as an indicator of PD severity, with a clear correlation between patient self-rating scores of tremor severity and metric obtained (37).
+
+An example system is called PERFORM (49), which is an intelligent closed-loop system integrating a wide range of wearable sensors, allowing physicians to remotely monitor the condition changes of the patients, adjust medication schedules, and individualize therapy. In a study regarding gait measurement, researchers were working on combining the data from wrist and sternum sensors with the data from foot sensors (50).
+
+
+
+
+========================
+
+
+Patients need to take long-term medication treatment and are followed up continuously for frequent treatment adjustments, as PD can only be potentially slowed, not halted.
+
+Therefore, it is necessary to develop an objective long-term measurement of the motor function in PD patients, with the characteristics of sensitivity, accuracy,
+portability, and objectivity. Fortunately, the evolution of mobile and computer technology has made this possible with many devices available which could satisfy the above requirements, including wearable sensors (e.g., gyroscopes, accelerometers), balance boards (e.g., pressure sensors such as the Nintendo Wii Balance Board) and optical motion capture systems, to name a few. This review mainly introduces the objective measurement of motor function in PD based on wearable sensors from the perspective of practical applications
+
+Researchers were able to differentiate between PD patients and healthy controls in a lab environment using gyroscopes attached to different body segments. These subjects were directed to perform standardized motor tasks which reflect the characteristics of certain PD symptoms (2-7). Furthermore,
+as PD is a multi-symptom disease affecting various body segments and because most of the studies were based on features derived from single body segment, Jens Barth et al. managed to combine two different sensor-based systems analyzing hand motor function and gait together (8).
+
+Thirty-two features were selected from over one thousand features and using an AdaBoost classifier, the classification rates between PD group and healthy control group was improved from 89% for hand motor function and 91% for gait analysis, to 97% in combination (8).
+
+===================
+Home-based monitoring
+===================
+Currently, assessing the impact of medication and changes in a patients’ condition depends a lot on the patients’ diaries and memory, which is neither objective nor reliable. A study suggested that the subjective complaints of PD patients do not necessarily match the findings of quantitative objective
+assessment (21) in reflecting motor fluctuation of PD. An ideal home-based monitoring device should have following functions: record and store movement data continuously over the long-term; portable enough to avoid interfering with the daily activities of the patients; able to test subjects in a home-based and unsupervised environment; reveal the real condition of the patients (work as a remote UPDRS assessment); with the ability to capture the occurrence of
+motor fluctuation and patients’ compliance.},
+}
+
+@Article{reviewassesenspark2015,
+  author = {Qi Oung and Hariharan Muthusamy and Hoi Lee and Shafriza Basah and Sazali Yaacob and Mohamed Sarillee and Chia Lee},
+  title  = {Technologies for Assessment of Motor Disorders in Parkinson’s Disease: A Review},
+  year   = {2015},
+  volume = {15},
+  number = {9},
+  issn   = {1424-8220},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
