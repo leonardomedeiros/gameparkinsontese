@@ -961,9 +961,7 @@ prototype related to sport and dance activities.},
   
   Conventional diagnostic approaches for PD are based on clinical observation and this subjective approach can be unreliable, especially at early stages of disease. Monitoring of response to
 treatment, where the rate of improvement or deterioration may be modest, is difﬁcult to ob ectivel uantif .
-
-  health system resources. When disease-modifying drugs become available for PD the need for early, accurate diagnosis and effective measurement of response to treatment will become even
-more important.
+  
   
 	     }
   abstract = {This study describes how the application of evolutionary algorithms (EAs) can be used to study motor function in humans with Parkinson's disease (PD) and in animal models of PD. Human data is obtained using commercially available sensors via a range of non-invasive procedures that follow conventional clinical practice. EAs can then be used to classify human data for a range of uses, including diagnosis and disease monitoring. New results are presented that demonstrate how EAs can also be used to classify fruit flies with and without genetic mutations that cause Parkinson's by using measurements of the proboscis extension reflex. The case is made for a computational approach that can be applied across human and animal studies of PD and lays the way for evaluation of existing and new drug therapies in a truly objective way.},
