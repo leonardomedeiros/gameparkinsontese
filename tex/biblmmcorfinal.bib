@@ -949,28 +949,6 @@ prototype related to sport and dance activities.},
   posted-at            = {2010-08-19 10:41:36},
 }
 
-@Article{compapproachparkinson2015,
-  author   = {Stephen Smith and Michael Lones and Matthew Bedder and Jane Alty and Jeremy Cosgrove and Richard Maguire and Mary Pownall and Diana Ivanoiu and Camille Lyle and Amy Cording and Christopher J. H. Elliott},
-  title    = {Computational Approaches for Understanding the Diagnosis and Treatment of Parkinson's Disease},
-  year     = {2015},
-  volume   = {9},
-  number   = {6},
-  pages    = {226-233},
-  issn     = {1751-8849},
-  review   = {	
-  
-  Conventional diagnostic approaches for PD are based on clinical observation and this subjective approach can be unreliable, especially at early stages of disease. Monitoring of response to
-treatment, where the rate of improvement or deterioration may be modest, is difﬁcult to ob ectivel uantif .
-
-  health system resources. When disease-modifying drugs become available for PD the need for early, accurate diagnosis and effective measurement of response to treatment will become even
-more important.
-  
-	     }
-  abstract = {This study describes how the application of evolutionary algorithms (EAs) can be used to study motor function in humans with Parkinson's disease (PD) and in animal models of PD. Human data is obtained using commercially available sensors via a range of non-invasive procedures that follow conventional clinical practice. EAs can then be used to classify human data for a range of uses, including diagnosis and disease monitoring. New results are presented that demonstrate how EAs can also be used to classify fruit flies with and without genetic mutations that cause Parkinson's by using measurements of the proboscis extension reflex. The case is made for a computational approach that can be applied across human and animal studies of PD and lays the way for evaluation of existing and new drug therapies in a truly objective way.},
-  journal  = {IET Systems Biology},
-  keywords = {diseases;drugs;genetic algorithms;medical diagnostic computing;patient diagnosis;patient monitoring;patient treatment;sensors;Parkinson disease diagnosis;Parkinson disease treatment;animal models;computational approaches;disease monitoring;drug therapy;evolutionary algorithms;fruit flies;genetic mutations;human data classification;motor function;noninvasive procedures;proboscis extension reflex;sensors},
-}
-
 @Article{bradmonitor2015,
   author   = {Octavio Manzanera and Elizabeth Roosma, Martijn Beudel and Robert Borgemeester and Teus Laar and Natasha Maurits},
   title    = {A Method for Automatic and Objective Scoring of Bradykinesia Using Orientation Sensors and Classification Algorithms},
@@ -980,6 +958,36 @@ more important.
   issn     = {0018-9294},
   journal  = {IEEE Transactions on Biomedical Engineering},
   keywords = {diseases;feature selection;learning (artificial intelligence);medical disorders;medical signal processing;neurophysiology;patient monitoring;sensor fusion;signal classification;support vector machines;3D movement representation;MDS-UPDRS;Parkinson's disease diagnosis;Parkinson's disease monitoring;automatic scoring method;average interrater scoring error;bradykinesia-related items;classification algorithms;classification errors;degrees-of-freedom sensor;diadochokinesis;feature selection;feature set;finger tapping;interrater assessment disagreements;movement disorder monitoring;movement disorders society-sponsored revision-of-the-unified Parkinson's disease rating scale;objective scoring method;orientation sensors;rating scales;sensor fusion;support vector machine classifiers;symptom assessment;Classification algorithms;Fingers;Magnetic sensors;Sensor fusion;Standards;Support vector machines;Bradykinesia;Clinical diagnosis;Computer aided diagnosis;Sensor Fusion;Supervised learning;Support vector machines;clinical diagnosis;computer-aided diagnosis;sensor fusion;supervised learning;support vector machines (SVMs)},
+  review   = {Items avaliados:
+They performed three of the bradykinesia-related items of the MDS-UPDRS 
+ - finger tapping
+ - diadochokinesis
+ - toe tapping
+
+Therefore, in this study a method for automatic, objectve and continuous scoring of three of the bradykinesia-related items of the MDS-UPDRS is proposed. Four clinicians scored these items for 25 patients diagnosed with Parkinson’s disease, within a range of 0-4. Orientation sensors were used to record movement during performance of each item.
+
+Current assessment of bradykinesia suffers from two important inherent inconveniences: the evaluators’ individual bias and the limited number of categories of the scale (0-4 for each item). The individual bias is due to the subjective appreciation of task execution and the subjective interpretation of the guidelines. The limited number of categories induces that if task performance has characteristics of two consecutive categories (e.g. 2 and 3), it might be scored in either of these categories by different evaluators
+
+In a separate study [4] we focused on the individual bias problem. We proposed an automatic and objective method for assessment of the bradykinesia-related items of the MDS-UPDRS that used a supervised classification algorithm (support vector machine (SVM) based) that reproduced the evaluators’ classification results.
+
+In the present study, we propose an approach that overcomes the problem associated with the limited number of categories of the MDS-UPDRS. We employed data recorded using orientation sensors during execution of the bradykinesia-related items of the MDS-UPDRS from the same 25 patients with PD and the scorings of the same four evaluators as in our other, separate study.
+
+Backward linear regression was applied to obtain a model for performance on each bradykinesia-related item using the features obtained from the Euler angle signals as independent variables and the averaged scores from the four evaluators as dependent variables. Backward linear regression was chosen over other regression approaches because it takes into account suppressor effects, which occur when a predictor has a significant effect but only when another variable is held constant [10]. By averaging the scores of the evaluators we decreased the effect of possible outliers (tasks misclassified) on model estimation.
+
+In this study we employed backward linear regression to create a continuous model for three bradykinesia-related items of the MDS-UPDRS. Using cross-validation we estimated that we can score a new task performance with an average error of 0.38 for finger tapping compared to the averaged scores of four clinicians. The estimated errors for diadochokinesis (0.56) and toe tapping (0.48) are similar. The still limited number of clinical evaluators may induce bias in the obtained model because of their subjective evaluation. A study with a larger number of evaluators could be helpful to derive an unbiased model. Also, the inclusion of a larger number of participants would allow the utilization of a less optimistic cross-validation technique than LOOCV, such as k-fold cross-validation. Reproducing our results in a study with more evaluators and participants is even more important because there are, to our knowledge, no comparable studies in literature.
+
+=======================
+ATENCAO
+=======================
+Sensior fusion algorithm para combinar sinais do acelerometro, giroscópio e sensores magneticos para obter a orientacao do movimento em ângulos eulerianos
+
+
+
+set of features defined there [4] [Appendix 1] and the averaged scores of the evaluators were used to define a continuous model for performance on each bradykinesia-related item of the MDS-UPDRS
+
+
+METHODs
+Twenty-five patients diagnosed with PD participated in the study. They performed three of the bradykinesia-related items of the MDS-UPDRS (items 3.4 (finger tapping), 3.6 (diadochokinesis) and 3.7 (toe tapping)) and their movements were videoed and subsequently analyzed by four well-trained evaluators.},
 }
 
 @Electronic{kinnect2013,
@@ -1166,6 +1174,150 @@ motor fluctuation and patients’ compliance.},
   number  = {9},
   issn    = {1424-8220},
   journal = {Sensors},
+}
+
+@Article{compapproachparkinson2015,
+  author   = {Stephen Smith and Michael Lones and Matthew Bedder and Jane Alty and Jeremy Cosgrove and Richard Maguire and Mary Pownall and Diana Ivanoiu and Camille Lyle and Amy Cording and Christopher J. H. Elliott},
+  title    = {Computational Approaches for Understanding the Diagnosis and Treatment of Parkinson's Disease},
+  year     = {2015},
+  volume   = {9},
+  number   = {6},
+  pages    = {226-233},
+  issn     = {1751-8849},
+  abstract = {This study describes how the application of evolutionary algorithms (EAs) can be used to study motor function in humans with Parkinson's disease (PD) and in animal models of PD. Human data is obtained using commercially available sensors via a range of non-invasive procedures that follow conventional clinical practice. EAs can then be used to classify human data for a range of uses, including diagnosis and disease monitoring. New results are presented that demonstrate how EAs can also be used to classify fruit flies with and without genetic mutations that cause Parkinson's by using measurements of the proboscis extension reflex. The case is made for a computational approach that can be applied across human and animal studies of PD and lays the way for evaluation of existing and new drug therapies in a truly objective way.},
+  journal  = {IET Systems Biology},
+  keywords = {diseases;drugs;genetic algorithms;medical diagnostic computing;patient diagnosis;patient monitoring;patient treatment;sensors;Parkinson disease diagnosis;Parkinson disease treatment;animal models;computational approaches;disease monitoring;drug therapy;evolutionary algorithms;fruit flies;genetic mutations;human data classification;motor function;noninvasive procedures;proboscis extension reflex;sensors},
+  review   = {	
+  
+  Conventional diagnostic approaches for PD are based on clinical observation and this subjective approach can be unreliable, especially at early stages of disease. Monitoring of response to
+treatment, where the rate of improvement or deterioration may be modest, is difﬁcult to ob ectivel uantif .
+
+  health system resources. When disease-modifying drugs become available for PD the need for early, accurate diagnosis and effective measurement of response to treatment will become even
+more important.
+  
+	     },
+}
+
+@Article{compapproachparkinson2015,
+  author   = {Stephen Smith and Michael Lones and Matthew Bedder and Jane Alty and Jeremy Cosgrove and Richard Maguire and Mary Pownall and Diana Ivanoiu and Camille Lyle and Amy Cording and Christopher J. H. Elliott},
+  title    = {Computational Approaches for Understanding the Diagnosis and Treatment of Parkinson's Disease},
+  year     = {2015},
+  volume   = {9},
+  number   = {6},
+  pages    = {226-233},
+  issn     = {1751-8849},
+  abstract = {This study describes how the application of evolutionary algorithms (EAs) can be used to study motor function in humans with Parkinson's disease (PD) and in animal models of PD. Human data is obtained using commercially available sensors via a range of non-invasive procedures that follow conventional clinical practice. EAs can then be used to classify human data for a range of uses, including diagnosis and disease monitoring. New results are presented that demonstrate how EAs can also be used to classify fruit flies with and without genetic mutations that cause Parkinson's by using measurements of the proboscis extension reflex. The case is made for a computational approach that can be applied across human and animal studies of PD and lays the way for evaluation of existing and new drug therapies in a truly objective way.},
+  journal  = {IET Systems Biology},
+  keywords = {diseases;drugs;genetic algorithms;medical diagnostic computing;patient diagnosis;patient monitoring;patient treatment;sensors;Parkinson disease diagnosis;Parkinson disease treatment;animal models;computational approaches;disease monitoring;drug therapy;evolutionary algorithms;fruit flies;genetic mutations;human data classification;motor function;noninvasive procedures;proboscis extension reflex;sensors},
+  review   = {	
+  
+  Conventional diagnostic approaches for PD are based on clinical observation and this subjective approach can be unreliable, especially at early stages of disease. Monitoring of response to
+treatment, where the rate of improvement or deterioration may be modest, is difﬁcult to ob ectivel uantif .
+
+  health system resources. When disease-modifying drugs become available for PD the need for early, accurate diagnosis and effective measurement of response to treatment will become even
+more important.
+  
+	     },
+}
+
+@Article{compapproachparkinson2015,
+  author   = {Stephen Smith and Michael Lones and Matthew Bedder and Jane Alty and Jeremy Cosgrove and Richard Maguire and Mary Pownall and Diana Ivanoiu and Camille Lyle and Amy Cording and Christopher J. H. Elliott},
+  title    = {Computational Approaches for Understanding the Diagnosis and Treatment of Parkinson's Disease},
+  year     = {2015},
+  volume   = {9},
+  number   = {6},
+  pages    = {226-233},
+  issn     = {1751-8849},
+  abstract = {This study describes how the application of evolutionary algorithms (EAs) can be used to study motor function in humans with Parkinson's disease (PD) and in animal models of PD. Human data is obtained using commercially available sensors via a range of non-invasive procedures that follow conventional clinical practice. EAs can then be used to classify human data for a range of uses, including diagnosis and disease monitoring. New results are presented that demonstrate how EAs can also be used to classify fruit flies with and without genetic mutations that cause Parkinson's by using measurements of the proboscis extension reflex. The case is made for a computational approach that can be applied across human and animal studies of PD and lays the way for evaluation of existing and new drug therapies in a truly objective way.},
+  journal  = {IET Systems Biology},
+  keywords = {diseases;drugs;genetic algorithms;medical diagnostic computing;patient diagnosis;patient monitoring;patient treatment;sensors;Parkinson disease diagnosis;Parkinson disease treatment;animal models;computational approaches;disease monitoring;drug therapy;evolutionary algorithms;fruit flies;genetic mutations;human data classification;motor function;noninvasive procedures;proboscis extension reflex;sensors},
+  review   = {	
+  
+  Conventional diagnostic approaches for PD are based on clinical observation and this subjective approach can be unreliable, especially at early stages of disease. Monitoring of response to
+treatment, where the rate of improvement or deterioration may be modest, is difﬁcult to ob ectivel uantif .
+
+  health system resources. When disease-modifying drugs become available for PD the need for early, accurate diagnosis and effective measurement of response to treatment will become even
+more important.
+  
+	     },
+}
+
+@InProceedings{7235890,
+  author    = {Q. W. Oung and M. Hariharan and H. L. Lee and S. N. Basah and S. Yaacob and M. Sarillee and C. H. Lee},
+  title     = {Objective assessment of Parkinson's disease symptoms severity: A review},
+  booktitle = {Biomedical Engineering (ICoBE), 2015 2nd International Conference on},
+  year      = {2015},
+  month     = {March},
+  pages     = {1-6},
+  doi       = {10.1109/ICoBE.2015.7235890},
+  keywords  = {brain;diseases;neurophysiology;patient diagnosis;Alzheimer's disease;Parkinson's disease symptoms severity;audio sensors;dopaminergic deficiencies;early diagnosis;elderly people;mid brain;motor function impairment;neurodegenerative sickness;wearable technology;Accelerometers;Accuracy;Biological neural networks;Correlation;Parkinson's disease;Speech;Parkinson's Disease (PD);Unified Parkinson Disease Rating Scale (UPDRS);patients with Parkinson(PWP);speech signal;wearable sensors},
+  review    = {Esse trabalho está relacionado ao aúdio},
+}
+
+@InProceedings{7235890,
+  author    = {Q. W. Oung and M. Hariharan and H. L. Lee and S. N. Basah and S. Yaacob and M. Sarillee and C. H. Lee},
+  title     = {Objective assessment of Parkinson's disease symptoms severity: A review},
+  booktitle = {Biomedical Engineering (ICoBE), 2015 2nd International Conference on},
+  year      = {2015},
+  month     = {March},
+  pages     = {1-6},
+  doi       = {10.1109/ICoBE.2015.7235890},
+  keywords  = {brain;diseases;neurophysiology;patient diagnosis;Alzheimer's disease;Parkinson's disease symptoms severity;audio sensors;dopaminergic deficiencies;early diagnosis;elderly people;mid brain;motor function impairment;neurodegenerative sickness;wearable technology;Accelerometers;Accuracy;Biological neural networks;Correlation;Parkinson's disease;Speech;Parkinson's Disease (PD);Unified Parkinson Disease Rating Scale (UPDRS);patients with Parkinson(PWP);speech signal;wearable sensors},
+  review    = {Esse trabalho está relacionado ao aúdio},
+}
+
+@InProceedings{7235890,
+  author    = {Q. W. Oung and M. Hariharan and H. L. Lee and S. N. Basah and S. Yaacob and M. Sarillee and C. H. Lee},
+  title     = {Objective assessment of Parkinson's disease symptoms severity: A review},
+  booktitle = {Biomedical Engineering (ICoBE), 2015 2nd International Conference on},
+  year      = {2015},
+  month     = {March},
+  pages     = {1-6},
+  doi       = {10.1109/ICoBE.2015.7235890},
+  keywords  = {brain;diseases;neurophysiology;patient diagnosis;Alzheimer's disease;Parkinson's disease symptoms severity;audio sensors;dopaminergic deficiencies;early diagnosis;elderly people;mid brain;motor function impairment;neurodegenerative sickness;wearable technology;Accelerometers;Accuracy;Biological neural networks;Correlation;Parkinson's disease;Speech;Parkinson's Disease (PD);Unified Parkinson Disease Rating Scale (UPDRS);patients with Parkinson(PWP);speech signal;wearable sensors},
+  review    = {Esse trabalho está relacionado ao aúdio},
+}
+
+@Article{patel2012,
+  author   = {Patel, Shyamal and Park, Hyung and Bonato, Paolo and Chan, Leighton and Rodgers, Mary},
+  title    = {A review of wearable sensors and systems with application in rehabilitation},
+  year     = {2012},
+  volume   = {9},
+  number   = {1},
+  pages    = {1--17},
+  issn     = {1743-0003},
+  doi      = {10.1186/1743-0003-9-21},
+  url      = {http://dx.doi.org/10.1186/1743-0003-9-21},
+  abstract = {The aim of this review paper is to summarize recent developments in the field of wearable sensors and systems that are relevant to the field of rehabilitation. The growing body of work focused on the application of wearable technology to monitor older adults and subjects with chronic conditions in the home and community settings justifies the emphasis of this review paper on summarizing clinical applications of wearable technology currently undergoing assessment rather than describing the development of new wearable sensors and systems. A short description of key enabling technologies (i.e. sensor technology, communication technology, and data analysis techniques) that have allowed researchers to implement wearable systems is followed by a detailed description of major areas of application of wearable technology. Applications described in this review paper include those that focus on health and wellness, safety, home rehabilitation, assessment of treatment efficacy, and early detection of disorders. The integration of wearable and ambient sensors is discussed in the context of achieving home monitoring of older adults and subjects with chronic conditions. Future work required to advance the field toward clinical deployment of wearable sensors and systems is discussed.},
+  journal  = {Journal of NeuroEngineering and Rehabilitation},
+}
+
+@Article{patel2012,
+  author   = {Patel, Shyamal and Park, Hyung and Bonato, Paolo and Chan, Leighton and Rodgers, Mary},
+  title    = {A review of wearable sensors and systems with application in rehabilitation},
+  year     = {2012},
+  volume   = {9},
+  number   = {1},
+  pages    = {1--17},
+  issn     = {1743-0003},
+  doi      = {10.1186/1743-0003-9-21},
+  url      = {http://dx.doi.org/10.1186/1743-0003-9-21},
+  abstract = {The aim of this review paper is to summarize recent developments in the field of wearable sensors and systems that are relevant to the field of rehabilitation. The growing body of work focused on the application of wearable technology to monitor older adults and subjects with chronic conditions in the home and community settings justifies the emphasis of this review paper on summarizing clinical applications of wearable technology currently undergoing assessment rather than describing the development of new wearable sensors and systems. A short description of key enabling technologies (i.e. sensor technology, communication technology, and data analysis techniques) that have allowed researchers to implement wearable systems is followed by a detailed description of major areas of application of wearable technology. Applications described in this review paper include those that focus on health and wellness, safety, home rehabilitation, assessment of treatment efficacy, and early detection of disorders. The integration of wearable and ambient sensors is discussed in the context of achieving home monitoring of older adults and subjects with chronic conditions. Future work required to advance the field toward clinical deployment of wearable sensors and systems is discussed.},
+  journal  = {Journal of NeuroEngineering and Rehabilitation},
+}
+
+@Article{patel2012,
+  author   = {Patel, Shyamal and Park, Hyung and Bonato, Paolo and Chan, Leighton and Rodgers, Mary},
+  title    = {A review of wearable sensors and systems with application in rehabilitation},
+  year     = {2012},
+  volume   = {9},
+  number   = {1},
+  pages    = {1--17},
+  issn     = {1743-0003},
+  doi      = {10.1186/1743-0003-9-21},
+  url      = {http://dx.doi.org/10.1186/1743-0003-9-21},
+  abstract = {The aim of this review paper is to summarize recent developments in the field of wearable sensors and systems that are relevant to the field of rehabilitation. The growing body of work focused on the application of wearable technology to monitor older adults and subjects with chronic conditions in the home and community settings justifies the emphasis of this review paper on summarizing clinical applications of wearable technology currently undergoing assessment rather than describing the development of new wearable sensors and systems. A short description of key enabling technologies (i.e. sensor technology, communication technology, and data analysis techniques) that have allowed researchers to implement wearable systems is followed by a detailed description of major areas of application of wearable technology. Applications described in this review paper include those that focus on health and wellness, safety, home rehabilitation, assessment of treatment efficacy, and early detection of disorders. The integration of wearable and ambient sensors is discussed in the context of achieving home monitoring of older adults and subjects with chronic conditions. Future work required to advance the field toward clinical deployment of wearable sensors and systems is discussed.},
+  journal  = {Journal of NeuroEngineering and Rehabilitation},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
