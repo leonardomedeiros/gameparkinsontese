@@ -667,6 +667,19 @@
   ageing}{Global Health and Ageing}}.
 \newblock \btxtechreplong {}, US National Institute of Aging, 2011.
 
+\bibitem {reviewassesenspark2015}
+\btxnamefont {\btxlastnamefont {Oung}, Qi}, \btxnamefont {Hariharan
+  \btxlastnamefont {Muthusamy}}, \btxnamefont {Hoi \btxlastnamefont {Lee}},
+  \btxnamefont {Shafriza \btxlastnamefont {Basah}}, \btxnamefont {Sazali
+  \btxlastnamefont {Yaacob}}, \btxnamefont {Mohamed \btxlastnamefont
+  {Sarillee}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Chia
+  \btxlastnamefont {Lee}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {Technologies for assessment of motor disorders in parkinson’s disease: A
+  review}{Technologies for Assessment of Motor Disorders in Parkinson’s
+  Disease: A Review}}.
+\newblock \btxjournalfont {Sensors}, 15(9), 2015\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1424-8220}}}.
+
 \bibitem {Papastergiou:2009:EPC:1570538.1570707}
 \btxnamefont {\btxlastnamefont {Papastergiou}, Marina}\btxauthorcolon\
   \btxjtitlefont {\btxifchangecase {Exploring the potential of computer and

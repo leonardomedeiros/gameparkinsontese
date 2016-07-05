@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  13 JUN 2016 15:27
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.6.5)  3 JUL 2016 18:16
 entering extended mode
 **tese.tex
 (C:\git\gameparkinsontese\tex\tese.tex
@@ -568,23 +568,696 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+ [1
 
-! I can't write on file `tese.pdf'.
-Please type another file name for output
-! Emergency stop.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.91 \PaginadeRosto
-                   
-*** (job aborted, file error in nonstop mode)
 
- 
+{C:/Users/leonardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 94.
+ (C:\git\gameparkinsontese\tex\resumo.tex) [1]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 99.
+ (C:\git\gameparkinsontese\tex\abstract.tex) [1]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 156.
+
+(C:\git\gameparkinsontese\tex\tese.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 28.
+ [1
+
+
+
+
+]
+Package acronym Info: Label `acro:dp' newly defined as it shall be overridden
+although it is yet undefined on input line 81.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 15.02399pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2])
+\tf@toc=\write4
+ [3] (C:\git\gameparkinsontese\tex\simbolos.tex) [4
+
+] (C:\git\gameparkinsontese\tex\tese.lof [5
+
+])
+\tf@lof=\write5
+ [6]
+(C:\git\gameparkinsontese\tex\tese.lot)
+\tf@lot=\write6
+ [7
+
+] (C:\git\gameparkinsontese\tex\tese.lol)
+\tf@lol=\write7
+ [8
+
+]
+(C:\git\gameparkinsontese\tex\cap1-introducao.tex
+Cap\'{\i }tulo 1.
+Package acronym Info: Label `acro:oms' newly defined as it shall be overridden
+although it is yet undefined on input line 3.
+Package acronym Info: Label `acro:sms' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
+[1
+
+
+] [2]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
+ [3] [4] <./img/moyne-iphone.png, id=54, 458.46281pt x 340.27126pt>
+File: ./img/moyne-iphone.png Graphic file (type png)
+ <use ./img/moyne-iphone.png>
+Package pdftex.def Info: ./img/moyne-iphone.png used on input line 176.
+(pdftex.def)             Requested size: 137.5399pt x 102.08215pt.
+ [5 <C:/git/gameparkinsontese/tex/img/moyne-iphone.png>]
+Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
+although it is yet undefined on input line 204.
+Package acronym Info: Label `acro:gqm' newly defined as it shall be overridden
+although it is yet undefined on input line 204.
+
+Underfull \hbox (badness 1472) in paragraph at lines 207--208
+\T1/ptm/m/n/12 Esta pes-quisa foi sub-me-tida à ava-li-a-ção pelo Co-mitê de Ética da UFCG (\T1/ptm/b/n/12 CAAE:
+ []
+
+[6]
+Package acronym Info: Label `acro:jogue-me' newly defined as it shall be overridden
+although it is yet undefined on input line 222.
+
+Underfull \hbox (badness 8113) in paragraph at lines 230--231
+[]\T1/ptm/m/n/12 Definir a ar-qui-te-tura de software que vi-a-bi-li-zou tec-ni-ca-mente a abor-da-
+ []
+
+[7] [8]) (C:\git\gameparkinsontese\tex\cap2-fundamentacao.tex [9]
+Cap\'{\i }tulo 2.
+[10
+
+] [11] [12] [13]
+
+! Package inputenc Error: Unicode char \u8:Â° not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...angulares calculadas sÃ£o mensuradas em Â°
+                                                  /s.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[14] <./img/abducao.png, id=88, 289.08pt x 410.2828pt>
+File: ./img/abducao.png Graphic file (type png)
+ <use ./img/abducao.png>
+Package pdftex.def Info: ./img/abducao.png used on input line 88.
+(pdftex.def)             Requested size: 144.53964pt x 205.1409pt.
+ [15 <C:/git/gameparkinsontese/tex/img/abducao.png>] <./img/svmhyperplane.png, id=92, 612.2875pt x 511.9125pt>
+File: ./img/svmhyperplane.png Graphic file (type png)
+ <use ./img/svmhyperplane.png>
+Package pdftex.def Info: ./img/svmhyperplane.png used on input line 109.
+(pdftex.def)             Requested size: 244.91066pt x 204.76137pt.
+ [16 <C:/git/gameparkinsontese/tex/img/svmhyperplane.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+) (C:\git\gameparkinsontese\tex\cap3-abordagemjogueme.tex [17]
+Cap\'{\i }tulo 3.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\T1/ptm/m/n/12 O jo-ga-dor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\T1/ptm/m/n/12 Promover
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/ptm/m/n/12 ati-vi-da-des fí-si-cas ou ações que ve-nham a tra-zer in-jú-ria ao jo-ga-dor,
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 11--12
+\T1/ptm/m/n/12 como: mo-vi-men-tos de equi-lí-brio, mo-vi-men-tos re-pe-ti-ti-vos ou brus-cos [] 8;
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 12--13
+[]\T1/ptm/m/n/12 O jogo deve
+ []
+
+[18
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]\T1/ptm/m/n/12 Baseados em
+ []
+
+
+Overfull \hbox (18.1413pt too wide) in paragraph at lines 14--15
+[]
+ []
+
+<./img/visaosistema.png, id=106, 429.2838pt x 348.3414pt>
+File: ./img/visaosistema.png Graphic file (type png)
+ <use ./img/visaosistema.png>
+Package pdftex.def Info: ./img/visaosistema.png used on input line 23.
+(pdftex.def)             Requested size: 343.99327pt x 279.1306pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19] [20 <C:/git/gameparkinsontese/tex/img/visaosistema.png>]
+<./img/biomecprocessor2.png, id=115, 330.5148pt x 431.6928pt>
+File: ./img/biomecprocessor2.png Graphic file (type png)
+ <use ./img/biomecprocessor2.png>
+Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 53.
+(pdftex.def)             Requested size: 352.8155pt x 460.83961pt.
+
+<./img/exsinalposicaoypunhodireito.png, id=116, 545.78906pt x 339.51843pt>
+File: ./img/exsinalposicaoypunhodireito.png Graphic file (type png)
+ <use ./img/exsinalposicaoypunhodireito.png>
+Package pdftex.def Info: ./img/exsinalposicaoypunhodireito.png used on input line 65.
+(pdftex.def)             Requested size: 441.01772pt x 274.34529pt.
+
+<./img/deteccaopicosvales.png, id=117, 599.23875pt x 402.75468pt>
+File: ./img/deteccaopicosvales.png Graphic file (type png)
+ <use ./img/deteccaopicosvales.png>
+Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 74.
+(pdftex.def)             Requested size: 441.01772pt x 296.41751pt.
+ [21] [22 <C:/git/gameparkinsontese/tex/img/biomecprocessor2.png>] <./img/remocaoruidociclo.png, id=125, 458.46281pt x 3
+11.66437pt>
+File: ./img/remocaoruidociclo.png Graphic file (type png)
+
+<use ./img/remocaoruidociclo.png>
+Package pdftex.def Info: ./img/remocaoruidociclo.png used on input line 94.
+(pdftex.def)             Requested size: 441.01772pt x 299.81737pt.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 101.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 104.
+
+[23 <C:/git/gameparkinsontese/tex/img/exsinalposicaoypunhodireito.png (PNG copy)>]
+<./img/amplitude-braco.png, id=129, 421.575pt x 316.18124pt>
+File: ./img/amplitude-braco.png Graphic file (type png)
+ <use ./img/amplitude-braco.png>
+Package pdftex.def Info: ./img/amplitude-braco.png used on input line 125.
+(pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
+
+
+! Package inputenc Error: Unicode char \u8:Â° not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ...esse movimento. O tempo gasto entre o 1Â°
+                                                   vale e o pico em cada cic...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:Â° not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ...Ã§o, e o tempo gasto entre o pico e o 2Â°
+                                                   vale de cada ciclo, serÃ¡...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./img/amplitude-braco-picos.png, id=130, 421.575pt x 316.18124pt>
+File: ./img/amplitude-braco-picos.png Graphic file (type png)
+ <use ./img/amplitude-braco-picos.png>
+Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 134.
+(pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
+ [24 <C:/git/gameparkinsontese/tex/img/deteccaopicosvales.png (PNG copy)>] [25 <C:/git/gameparkinsontese/tex/img/remocao
+ruidociclo.png (PNG copy)>] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 162.
+ [26 <C:/git/gameparkinsontese/tex/img/amplitude-braco.png (PNG copy)>] <./img/vetormedionormalozadoescalonado.png, id=1
+43, 421.575pt x 316.18124pt>
+File: ./img/vetormedionormalozadoescalonado.png Graphic file (type png)
+
+<use ./img/vetormedionormalozadoescalonado.png>
+Package pdftex.def Info: ./img/vetormedionormalozadoescalonado.png used on input line 169.
+(pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
+ <./img/ciclomovimentoremovido.png, id=144, 421.575pt x 316.18124pt>
+File: ./img/ciclomovimentoremovido.png Graphic file (type png)
+
+<use ./img/ciclomovimentoremovido.png>
+Package pdftex.def Info: ./img/ciclomovimentoremovido.png used on input line 180.
+(pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
+
+
+! Package inputenc Error: Unicode char \u8:Â° not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 ...alar, que nos retorna valores entre $ 0Â°
+                                                   $\ a $ 180Â° $\, do movim...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:Â° not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 ... retorna valores entre $ 0Â° $\ a $ 180Â°
+                                                   $\, do movimento de abduÃ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[27 <C:/git/gameparkinsontese/tex/img/amplitude-braco-picos.png (PNG copy)>] [28 <C:/git/gameparkinsontese/tex/img/vetor
+medionormalozadoescalonado.png (PNG copy)>] [29 <C:/git/gameparkinsontese/tex/img/ciclomovimentoremovido.png (PNG copy)>
+]
+Underfull \hbox (badness 1199) in paragraph at lines 233--234
+[]\T1/ptm/m/n/12 Como pode ser visto nes-ses da-dos, a am-pli-tude de um in-di-ví-duo di-ag-nos-ti-cado
+ []
+
+[30]) (C:\git\gameparkinsontese\tex\cap4_arquitetura.tex [31]
+Cap\'{\i }tulo 4.
+<./img/arquitetura.png, id=160, 749.80125pt x 365.11406pt>
+File: ./img/arquitetura.png Graphic file (type png)
+ <use ./img/arquitetura.png>
+Package pdftex.def Info: ./img/arquitetura.png used on input line 8.
+(pdftex.def)             Requested size: 449.88422pt x 219.07011pt.
+
+Overfull \hbox (8.8665pt too wide) in paragraph at lines 8--11
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 16.
+[32
+
+ <C:/git/gameparkinsontese/tex/img/arquitetura.png>] <./img/articulacoes.png, id=165, 694.09312pt x 514.17094pt>
+File: ./img/articulacoes.png Graphic file (type png)
+
+<use ./img/articulacoes.png>
+Package pdftex.def Info: ./img/articulacoes.png used on input line 31.
+(pdftex.def)             Requested size: 277.63232pt x 205.66473pt.
+ [33 <C:/git/gameparkinsontese/tex/img/articulacoes.png>]
+<./img/diagclasszigfu.png, id=170, 440.64626pt x 422.57875pt>
+File: ./img/diagclasszigfu.png Graphic file (type png)
+ <use ./img/diagclasszigfu.png>
+Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 43.
+(pdftex.def)             Requested size: 352.51747pt x 338.06345pt.
+ [34 <C:/git/gameparkinsontese/tex/img/diagclasszigfu.png>] <./img/catch-the-spheres.png, id=174, 1063.72406pt x 557.081
+25pt>
+File: ./img/catch-the-spheres.png Graphic file (type png)
+
+<use ./img/catch-the-spheres.png>
+Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 67.
+(pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
+ [35 <C:/git/gameparkinsontese/tex/img/catch-the-spheres.png (PNG copy)>] [36] [37]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
+
+[38]) (C:\git\gameparkinsontese\tex\cap5-avaliacao.tex [39]
+Cap\'{\i }tulo 5.
+[40
+
+] [41]
+Overfull \hbox (8.11433pt too wide) in paragraph at lines 39--47
+[][] 
+ []
+
+[42] [43] [44] [45] [46] [47]
+Package acronym Info: Label `acro:er' newly defined as it shall be overridden
+although it is yet undefined on input line 240.
+ [48] <./img/gametremor.png, id=219, 388.45125pt x 579.16376pt>
+File: ./img/gametremor.png Graphic file (type png)
+ <use ./img/gametremor.png>
+Package pdftex.def Info: ./img/gametremor.png used on input line 265.
+(pdftex.def)             Requested size: 194.22514pt x 289.58116pt.
+
+[49 <C:/git/gameparkinsontese/tex/img/gametremor.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50]
+
+LaTeX Warning: Text page 51 contains only floats.
+
+[51]
+
+Package Fancyhdr Warning: \headheight is too small (15.02399pt): 
+ Make it at least 26.98592pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52] [53] <./img/movaddcutctionartist2.png, id=237, 1062.97125pt x 804.00375pt>
+File: ./img/movaddcutctionartist2.png Graphic file (type png)
+ <use ./img/movaddcutctionartist2.png>
+Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 396.
+(pdftex.def)             Requested size: 265.74216pt x 201.00044pt.
+
+[54 <C:/git/gameparkinsontese/tex/img/movaddcutctionartist2.png (PNG copy)>]
+Overfull \hbox (1.70758pt too wide) in paragraph at lines 414--424
+ [][] 
+ []
+
+<img/signalamplitudepeakvaley-2.png, id=241, 719.68875pt x 446.41782pt>
+File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
+ <use img/signalamplitudepeakvaley-2.png>
+Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 428.
+(pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
+
+[55 <C:/git/gameparkinsontese/tex/img/signalamplitudepeakvaley-2.png (PNG copy)>] [56]
+<./img/vetormedioaducao.png, id=249, 743.02594pt x 453.19313pt>
+File: ./img/vetormedioaducao.png Graphic file (type png)
+ <use ./img/vetormedioaducao.png>
+Package pdftex.def Info: ./img/vetormedioaducao.png used on input line 458.
+(pdftex.def)             Requested size: 482.96114pt x 294.57204pt.
+
+Overfull \hbox (41.94342pt too wide) in paragraph at lines 458--459
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[57 <C:/git/gameparkinsontese/tex/img/vetormedioaducao.png (PNG copy)>]
+<./img/gridsearch.png, id=253, 558.888pt x 428.802pt>
+File: ./img/gridsearch.png Graphic file (type png)
+ <use ./img/gridsearch.png>
+Package pdftex.def Info: ./img/gridsearch.png used on input line 499.
+(pdftex.def)             Requested size: 391.21893pt x 300.15935pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./img/gridsearchfprate.png, id=254, 515.526pt x 445.665pt>
+File: ./img/gridsearchfprate.png Graphic file (type png)
+ <use ./img/gridsearchfprate.png>
+Package pdftex.def Info: ./img/gridsearchfprate.png used on input line 510.
+(pdftex.def)             Requested size: 360.86574pt x 311.96336pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[58] [59 <C:/git/gameparkinsontese/tex/img/gridsearch.png (PNG copy)>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 545.
+ [60 <C:/git/gameparkinsontese/tex/img/gridsearchfprate.png (PNG copy)>] [61] <./img/gqm.png, id=268, 739.563pt x 357.97
+74pt>
+File: ./img/gqm.png Graphic file (type png)
+ <use ./img/gqm.png>
+Package pdftex.def Info: ./img/gqm.png used on input line 622.
+(pdftex.def)             Requested size: 369.7806pt x 178.98825pt.
+ [62] [63 <C:/git/gameparkinsontese/tex/img/gqm.png>]
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 665--665
+[]\T1/ptm/m/n/12 91,67%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 666--666
+[]\T1/ptm/m/n/12 91,67%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 667--667
+[]\T1/ptm/m/n/12 41,67%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 667--667
+[]\T1/ptm/m/n/12 58,33%| 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./img/chart_1-.png, id=277, 488.57532pt x 356.0803pt>
+File: ./img/chart_1-.png Graphic file (type png)
+ <use ./img/chart_1-.png>
+Package pdftex.def Info: ./img/chart_1-.png used on input line 679.
+(pdftex.def)             Requested size: 342.0004pt x 249.25452pt.
+
+<./img/chart_3-.png, id=278, 445.665pt x 367.3725pt>
+File: ./img/chart_3-.png Graphic file (type png)
+ <use ./img/chart_3-.png>
+Package pdftex.def Info: ./img/chart_3-.png used on input line 687.
+(pdftex.def)             Requested size: 311.96336pt x 257.15898pt.
+
+<./img/chart_10-.png, id=279, 472.01344pt x 363.60844pt>
+File: ./img/chart_10-.png Graphic file (type png)
+ <use ./img/chart_10-.png>
+Package pdftex.def Info: ./img/chart_10-.png used on input line 695.
+(pdftex.def)             Requested size: 330.40715pt x 254.52417pt.
+ [64] [65 <C:/git/gameparkinsontese/tex/img/chart_1-.png>] [66 <C:/git/gameparkinsontese/tex/img/chart_3-.png> <C:/git/g
+ameparkinsontese/tex/img/chart_10-.png>]) (C:\git\gameparkinsontese\tex\cap6-conclusoes.tex [67
+
+]
+Cap\'{\i }tulo 6.
+[68
+
+]) (C:\git\gameparkinsontese\tex\tese.bbl [69]
+babelbib: Using the BibTeX style's default font for `name'.
+babelbib: Using the BibTeX style's default font for `lastname'.
+babelbib: Using the BibTeX style's default font for `title'.
+babelbib: Using the BibTeX style's default font for `jtitle'.
+babelbib: Using the BibTeX style's default font for `etal'.
+babelbib: Using the BibTeX style's default font for `journal'.
+babelbib: Using the BibTeX style's default font for `volume'.
+babelbib: Using the BibTeX style's default font for `ISBN'.
+babelbib: Using the BibTeX style's default font for `ISSN'.
+babelbib: Using the BibTeX style's default font for `url'.
+babelbib: Using the BibTeX style's default font for `numeral'.
+[70
+
+]
+Underfull \hbox (badness 1796) in paragraph at lines 162--170
+[]\T1/ptm/m/n/12 Basili, Vic-tor R., Gi-an-luigi Cal-di-era e H. Di-e-ter Rom-bach: \T1/ptm/m/it/12 The Goal Ques-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--177
+[]\T1/ptm/m/n/12 Billauer, Eli: \T1/ptm/m/it/12 Peak De-tec-tion in Ma-tlab\T1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1
+/ptm/m/n/12 , Dis-po-ní-vel em:
+ []
+
+[71]
+Underfull \hbox (badness 4353) in paragraph at lines 282--286
+[]\T1/ptm/m/n/12 Fish, Jes-sica: \T1/ptm/m/it/12 Uni-fied Par-kin-son's Di-se-ase Ra-ting Scale\T1/ptm/m/n/12 .  Sprin-g
+er, 2011,
+ []
+
+[72]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.390 ...nstitute.it/workshops/sac2016/Healthcare_
+                                                  track, 2016.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 391.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.392 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.392 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no Ú in font cmr12!
+
+Underfull \hbox (badness 2582) in paragraph at lines 385--392
+[]\T1/ptm/m/n/12 Healthcare, Sym-po-sium on Ap-plied Com-pu-ting Track on: \T1/ptm/m/it/12 In-ter-na-ti-o-nal Con-
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 385--392
+\T1/ptm/m/it/12 fe-rence on Per-va-sive Com-pu-ting Te-ch-no-lo-gies for He-alth-care\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
+
+ []
+
+
+Overfull \hbox (18.74892pt too wide) in paragraph at lines 385--392
+\T1/ptm/m/n/12 http://sssa.bioroboticsinstitute.it/workshops/sac2016/Healthcare$[]\OML/cmm/m/it/12 rack; \OT1/cmr/m/n/12
+ 2016\OML/cmm/m/it/12 : ltimoacesso \OT1/cmr/m/n/12 :
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.392 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--413
+[]\T1/ptm/m/n/12 IEEE: \T1/ptm/m/it/12 http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-
+ []
+
+[73] [74] [75]
+Underfull \hbox (badness 10000) in paragraph at lines 709--715
+[]\T1/ptm/m/n/12 Research, Pro-va-lis: \T1/ptm/m/it/12 QDA MI-NER Lite v1.2.2\T1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\
+T1/ptm/m/n/12 , Dis-po-ní-vel em:
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 717--721
+[]\T1/ptm/m/n/12 Rowland, Lewis: \T1/ptm/m/it/12 Tra-tado De Neu-ro-lo-gia\T1/ptm/m/n/12 .  Gua-na-bara Ko-o-gan, 10$[]$
+ edi-ção, 2011,
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.769 ...ponÃ­vel em: http://www.csbc2016.com.br/#
+                                                  !blank-2/q8wct, 2016.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--771
+[]\T1/ptm/m/n/12 SBC: \T1/ptm/m/it/12 Workshop de In-for-má-tica Mé-dica\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 766--771
+\T1/ptm/m/n/12 http://www.csbc2016.com.br/!blank-2/q8wct, 2016.  Úl-timo acesso: 3 de Ju-nho de
+ []
+
+[76]
+Underfull \hbox (badness 3919) in paragraph at lines 810--816
+[]\T1/ptm/m/n/12 Solingen, Rini e Egon Berghout: \T1/ptm/m/it/12 The Go-al/-Ques-ti-on/-Me-tric Method: A Prac-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--822
+[]\T1/ptm/m/n/12 Sommerville, Ian: \T1/ptm/m/it/12 En-ge-nha-ria de Software\T1/ptm/m/n/12 .  Ad-di-son Wes-ley Bra, 201
+1,
+ []
+
+[77]) (C:\git\gameparkinsontese\tex\apend_comite.tex [78]
+Ap\^endice A.
+[79
+
+] [80] [81] [82] [83] [84]
+File: ./img/catch-the-spheres.png Graphic file (type png)
+ <use ./img/catch-the-spheres.png>
+Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 138.
+(pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
+ [85] [86] [87] [88]
+Overfull \hbox (3.61714pt too wide) in paragraph at lines 245--252
+ [][] 
+ []
+
+) (C:\git\gameparkinsontese\tex\apend3-entrevista-semi.tex [89]
+Ap\^endice B.
+[90
+
+]) (C:\git\gameparkinsontese\tex\apendice-diagnostico.tex [91] [92]
+Ap\^endice C.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+\T1/ptm/m/n/12 Critérios es-ta-be-le-ci-dos para di-ag-nós-tico da Do-ença de Par-kin-son pela
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 2--3
+[] \T1/ptm/m/n/12 de Lon-dres [] 38[]. O pa-ci-ente será
+ []
+
+[93
+
+]) (C:\git\gameparkinsontese\tex\questionario-gqm.tex [94]
+Ap\^endice D.
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 5--8
+ [] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 8--12
+ [] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 12--14
+ [] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 14--16
+ [] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 16--31
+ [] 
+ []
+
+[95
+
+]) [96] (C:\git\gameparkinsontese\tex\tese.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6277 strings out of 494045
- 88433 string characters out of 3145961
- 150180 words of memory out of 3000000
- 9493 multiletter control sequences out of 15000+200000
- 12748 words of font info for 30 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 36i,6n,45p,298b,403s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 7682 strings out of 494045
+ 108523 string characters out of 3145961
+ 273267 words of memory out of 3000000
+ 10778 multiletter control sequences out of 15000+200000
+ 63829 words of font info for 75 fonts, out of 3000000 for 9000
+ 716 hyphenation exceptions out of 8191
+ 36i,17n,46p,1694b,1912s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tese.pdf (107 pages, 2042096 bytes).
+PDF statistics:
+ 423 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+

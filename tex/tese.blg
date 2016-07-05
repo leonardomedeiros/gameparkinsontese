@@ -4,10 +4,18 @@ Database file #1: biblmmcorfinal.bib
 Warning--entry type for "zigfu" isn't style-file defined
 --line 810 of file biblmmcorfinal.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
---line 977 of file biblmmcorfinal.bib
-Repeated entry---line 1065 of file biblmmcorfinal.bib
+--line 993 of file biblmmcorfinal.bib
+Repeated entry---line 1081 of file biblmmcorfinal.bib
  : @misc{cbms2016
  :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1201 of file biblmmcorfinal.bib
+ : @article{compapproachparkinson2015
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1223 of file biblmmcorfinal.bib
+ : @article{compapproachparkinson2015
+ :                                   ,
 I'm skipping whatever remains of this entry
 A bad cross reference---entry "brox11"
 refers to entry "conf/ph/2011", which doesn't exist
@@ -19,4 +27,4 @@ Warning--empty publisher in abn2010
 Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
 Warning--empty year in autonomparkin2015
-(There were 2 error messages)
+(There were 4 error messages)
