@@ -1,0 +1,170 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuges]{babel}
+\usepackage[T1]{fontenc} 
+\usepackage{ae}
+% \usepackage[latin1]{inputenc}
+\usepackage{url}
+
+%opening
+\Titulo{\large{Análise Formal de Sistemas Críticos de \\ Automação e Controle}\\ \vspace*{1cm} \normalsize{Plano de Trabalho}}
+\Autor{Álvaro Álvares de Carvalho Cesar Sobrinho}
+\Local{\normalsize{Maceió-AL}}
+\Data{\normalsize{Novembro de 2010}}
+
+\begin{document}
+
+\Capa
+\newpage
+\renewcommand\contentsname{Sumário}
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+
+\section{Introdução}
+
+\pagenumbering{arabic}
+
+Essa proposta para mestrado está inserida em um contexto da gerencia de informações 
+e automação de procedimentos para monitoramento e cuidado a saúde de pacientes.
+A necessidade da criação de sistemas para esse tipo de operação 
+é uma constante no cenário médico atual. Essa preocupação tem despertado em vários 
+pesquisadores a utilização e desenvolvimento de conceitos e tecnologias que automatizem 
+esse processo.
+
+Geralmente na realização de consultas de rotina ou tratamento de doenças críticas, os 
+pacientes atendidos não realizam um gerenciamento de suas informações clínicas. A não 
+preocupação no controle e armazenamento desses dados pode gerar confusão no entendimento 
+do diagnóstico, prognóstico ou prescrição de medicamentos fornecidos pelo médico. Ao 
+iniciar a gerência desse tipo de procedimentos o paciente  obtém um maior entendimento 
+do seu quadro clínico, uma melhoria no controle da ingestão de medicamentos e uma 
+documentação de seu histórico de saúde. Portanto, um monitoramento e a realização de 
+operações automáticas para o cuidado a saúde do paciente tem a possibilidade de evitar 
+complicações clínicas pela falta de cumprimento de obrigações médicas, ou até alertar 
+os profissionais que efetuam seu cuidado de um problema que esteja ocorrendo em um 
+determinado momento.
+
+A solução proposta neste documento utiliza uma abordagem centrada no usuário e não na 
+realização de monitoramento em um ambiente específico, como tecnologias “em casa” \cite{Dearden}. 
+O intuito dessa escolha é ampliar a mobilidade e facilidade de manipulação de suas informações clínicas. 
+Esse foco é decorrente da utilização de sistemas para cuidado a saúde por diversos tipos de usuários, 
+dentre eles idosos, pessoas com diferentes deficiências e escolaridades \cite{Mulder}. 
+Uma das propostas da ferramenta é tornar transparentes algumas operações que normalmente teriam que ser executadas 
+explicitamente pelo usuário diariamente ou em situações críticas de saúde. Com isso, visa uma 
+ação preventiva e também uma agilização do atendimento ao paciente. Um paradigma que está sendo 
+bastante aderido pela comunidade de pesquisadores dessa área para auxiliar no desenvolvimento 
+de sistemas desse tipo é a computação pervasiva. 
+
+O paradigma da computação pervasiva, idealizado por Mark Weiser \cite{Weiser}, propõe que os 
+sistemas computacionais estejam presentes em todos os lugares, através de dispositivos eletrônicos 
+de diversos tipos, realizando operações de maneira imperceptível ao usuário. A utilização da 
+computação pervasiva em sistemas de cuidado a saúde deu inicio a pesquisas para o desenvolvimento 
+de soluções \textit{pervasive healthcare} ou saúde pervasiva.
+
+A presente proposta visa o estudo sobre como utilizar o paradigma da computação pervasiva em sistemas
+para o cuidado a saúde, e a partir disso, realizar o desenvolvimento de uma solução 
+multiplataforma pervasiva para dispositivos móveis com intuito do apoio a monitoração de informações 
+clínicas dos pacientes. Esta proposta está estruturada da seguinte maneira. Na Seção 2 uma problemática. 
+Na Seção 3 são descritos os objetivos do trabalho. Na Seção 4 a metodologia da pesquisa. Na Seção 5 um 
+cronograma das atividades. 
+
+\section{Problemática}
+
+Sistemas para apoio ao cuidado da saúde são utilizados para monitorar a situação dos seus usuários através 
+de “dispositivos inteligentes”, “ambientes inteligentes” e “computação vestida” \cite{Ziefle}. Essas abordagens 
+utilizam respectivamente, dispositivos móveis, infraestruturas de hardware com softwares embarcados, e sensores 
+através do corpo humano. São desenvolvidas para serem utilizadas, como supracitado, para um publico alvo diversificado, 
+contendo informações pessoais críticas sobre o estado de sua saúde. A segurança dos dados trafegados em aplicações 
+\textit{pervasive healthcare} é um relevante fator a ser tratado em sua fase de concepção \cite{Moncrieff}. Entretanto, muitas 
+aplicações não priorizam a utilização de políticas de segurança, o que as tornaria mais confiáveis e consequentemente 
+com melhor aceitabilidade dos usuários.  
+
+Projetar aplicações \textit{pervasive healthcare} que contenham a capacidade de facil adaptação as necessidades 
+e desejos dos usuário é também importante para uma melhor aceitação do sistema por seus usuários \cite{Mulder}. O cuidado com valores humanos e a confiabilidade de privacidade 
+de informações do sistema são fatores que podem ser cruciais para o seu sucesso ou fracasso, e são 
+alguns dos desafios na construção de aplicações \textit{pervasive healthcare}.  
+
+A mobilidade, retirando o foco de um determinado ambiente também é um fator a ser considerado. Ao ampliar a utilização da 
+tecnologia através de dispositivos móveis, ao invés de se concentrar na criação de um determinado “ambiente inteligente”, 
+as possibilidades de uso da solução pode crescer consideravelmente. Vários trabalhos relacionados propõem o desenvolvimento 
+de soluções para dispositivos móveis \cite{Feng,Teles,Munoz,Sharmin}. Porém, utilizam sistemas operacionais 
+específicos, podendo diminuir as opções para a utilização da aplicação. Uma forma de retirar limitações da solução é a busca 
+do desenvolvimento voltado para aplicações multiplataformas, por não limitarem o uso para uma determinada tecnologia.  
+
+\section{Objetivos}
+
+O objetivo deste trabalho é a realização do desenvolvimento de uma aplicação multiplataforma pervasiva para dispositivos 
+móveis com a proposta do monitoramento do cuidado a saúde de pacientes. Mais especificamente os seguintes objetivos:
+ 
+\begin{itemize}
+
+\item Investigar os conceitos da computação pervasiva;
+\item Investigar como utilizar os conceitos da computação pervasiva em aplicações para saúde;
+\item Investigar os requisitos necessários para o desenvolvimento da aplicação para obter uma aceitação relevante dos usuários;
+\item Efetuar uma modelagem e documentação do sistema de acordo com os conceitos e requisitos analisados; 
+\item Efetuar o desenvolvimento de uma aplicação multiplataforma para o apoio ao cuidado a saúde que interaja com facilidade com infraestruturas distintas para o compartilhamento de informações com sistemas utilizados por médicos e equipamentos de monitoramento;
+\item Efetuar a validação da aplicação desenvolvida através de um estudo de caso.
+
+\end{itemize}
+
+\section{Metodologia}
+
+Para realizar os objetivos pretendidos, as seguintes operações devem ser executadas. 
+Os objetivos parciais estão divididos nas seguintes etapas:
+
+\begin{enumerate}
+	\item Estudar os conceitos da computação pervasiva e verificar como aplicá-los em sistemas para monitoramento da saúde de pacientes.
+	  \begin{description}
+	   \item{(a)} Verificar as tecnologias utilizadas para implementação de aplicações pervasivas;
+	   \item{(b)} Verificar como utilizar as tecnologias em aplicações para monitoramento da saúde.
+	  \end{description}
+	\item Averiguar requisitos para a aplicação obter uma aceitação relevante dos usuários.
+	  \begin{description}
+	   \item{(a)} Verificar as funcionalidades necessárias para suprir as necessidades dos pacientes em geral;
+	   \item{(b)} Verificar uma melhor forma para modelar a interface do usuário e acessibilidade do sistema para obter aceitação por diversos tipos de pacientes;
+	   \item{(c)} Verificar políticas de segurança para a manipulação de dados privados dos pacientes. 
+	  \end{description}
+	\item Efetuar a modelagem e documentação do sistema de acordo com os requisitos analisados.
+	  \begin{description}
+	   \item{(a)} Realizar a modelagem do sistema;
+	   \item{(b)} Documentar o sistema.
+	  \end{description}
+        \item Desenvolver uma aplicação multiplataforma para o apoio ao cuidado da saúde e realizar um estudo de caso.
+	  \begin{description}
+	   \item{(a)} Realizar o desenvolvimento da aplicação;
+	   \item{(b)} Realizar um estudo de caso da aplicação;
+	   \item{(c)} Documentar os resultados do estudo de caso. 
+	  \end{description}
+	\item Escrever artigos científicos.
+        \item Escrita e defesa da dissertação de mestrado.
+\end{enumerate}
+
+\section{Cronograma}
+O cronograma destas atividades é apresentado na Tabela 1.
+
+\pagebreak
+
+\begin{table}
+    \begin{center}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline Etapa / Ano & 2011 & 2012 & 2013 & 2014 \\ 
+		\hline 1 & $\bullet$ 	&  				&  				&  \\ 
+		\hline 2 & $\bullet$ 	& $\bullet$			&  				&  \\ 
+		\hline 3 & $\bullet$ 	& $\bullet$ 	& $\bullet$ 					&  \\ 
+		\hline 4 &  				& $\bullet$ 	& $\bullet$	&  \\ 
+		\hline 5 &  				& $\bullet$	&  $\bullet$				&  \\ 
+		\hline 6 &  				& $\bullet$	&  $\bullet$				&  \\ 
+		\hline 7 &  				&  				& $\bullet$	& $\bullet$ \\ 
+		\hline 8 &  				&  				& 					& $\bullet$ \\\hline 
+	\end{tabular} 
+	\label{crono}
+	\caption{Cronograma de atividades}
+    \end{center}
+\end{table}
+
+\renewcommand{\bibname}{Referências}
+
+\bibliographystyle{alpha.bst} 
+\bibliography{referencias}
+
+\end{document}

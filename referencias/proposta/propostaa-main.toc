@@ -1,0 +1,188 @@
+\select@language {portuges}
+\select@language {english}
+\select@language {portuges}
+\select@language {english}
+\select@language {portuges}
+\contentsline {chapter}{\numberline {1}Introdu\c {c}\~{a}o}{1}
+\contentsline {section}{\numberline {1.1}Problem\IeC {\'a}tica}{2}
+\contentsline {section}{\numberline {1.2}Objetivos}{5}
+\contentsline {subsection}{\numberline {1.2.1}Objetivo Principal}{5}
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Espec\IeC {\'\i }ficos}{5}
+\contentsline {section}{\numberline {1.3}Metodologia}{6}
+\contentsline {section}{\numberline {1.4}Trabalhos Relacionados}{7}
+\contentsline {section}{\numberline {1.5}Contribui\IeC {\c c}\IeC {\~o}es}{8}
+\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{9}
+\contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{10}
+\contentsline {section}{\numberline {2.1}Processo de Desenvolvimento de Jogos}{10}
+\contentsline {section}{\numberline {2.2}Doen\IeC {\c c}a de Parkinson}{13}
+\contentsline {subsection}{\numberline {2.2.1}Diagn\IeC {\'o}stico}{14}
+\contentsline {subsection}{\numberline {2.2.2}Principais Sintomas da Doen\IeC {\c c}a de Parkinson}{15}
+\contentsline {subsubsection}{Tremor}{15}
+\contentsline {subsubsection}{Bradicinesia}{15}
+\contentsline {subsection}{\numberline {2.2.3}Escalas e os Est\IeC {\'a}gios da Doen\IeC {\c c}a}{16}
+\contentsline {section}{\numberline {2.3}Cinemetria}{17}
+\contentsline {subsection}{\numberline {2.3.1}Movimento Cin\IeC {\'e}tico}{18}
+\contentsline {subsection}{\numberline {2.3.2}Movimento Angular}{18}
+\contentsline {subsection}{\numberline {2.3.3}An\IeC {\'a}lise da Marcha}{19}
+\contentsline {section}{\numberline {2.4}Classificadores de Dados}{20}
+\contentsline {subsection}{\numberline {2.4.1}An\IeC {\'a}lise dos Componentes Principais}{21}
+\contentsline {subsubsection}{Obter dados}{21}
+\contentsline {subsubsection}{Vetor M\IeC {\'e}dio}{21}
+\contentsline {subsubsection}{Calcular a matriz de covari\IeC {\^a}ncia}{22}
+\contentsline {subsubsection}{Auto-espa\IeC {\c c}os, autovetores e autovalores}{23}
+\contentsline {subsubsection}{Escolhendo os Componentes e a Classifica\IeC {\c c}\IeC {\~a}o dos Dados}{24}
+\contentsline {subsection}{\numberline {2.4.2}M\IeC {\'a}quinas de Vetor de Suporte (SVM) Lineares}{24}
+\contentsline {chapter}{\numberline {3}Abordagem \textit {GAHME}}{27}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o de Requisitos da Solu\IeC {\c c}\IeC {\~a}o}{27}
+\contentsline {section}{\numberline {3.2}Vis\IeC {\~a}o geral da solu\IeC {\c c}\IeC {\~a}o}{28}
+\contentsline {section}{\numberline {3.3}Aquisi\IeC {\c c}\IeC {\~a}o de Dados}{29}
+\contentsline {section}{\numberline {3.4}Processamento de Dados Biomec\IeC {\^a}nicos}{29}
+\contentsline {subsection}{\numberline {3.4.1}Identifica\IeC {\c c}\IeC {\~a}o de Ciclos de Movimento}{30}
+\contentsline {subsection}{\numberline {3.4.2}Extra\IeC {\c c}\IeC {\~a}o das Caracter\IeC {\'\i }sticas do Movimento}{31}
+\contentsline {subsubsection}{C\IeC {\'a}lculo do \IeC {\^A}ngulo Relativo do Movimento de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o}{32}
+\contentsline {subsubsection}{C\IeC {\'a}lculo da Velocidade Angular do Movimento de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o}{34}
+\contentsline {subsection}{\numberline {3.4.3}Filtragem de Dados}{34}
+\contentsline {section}{\numberline {3.5}Classifica\IeC {\c c}\IeC {\~a}o de Dados por M\IeC {\'a}quina de Aprendizagem}{37}
+\contentsline {section}{\numberline {3.6}Visualiza\IeC {\c c}\IeC {\~a}o dos Dados}{39}
+\contentsline {chapter}{\numberline {4}Arquitetura de Software para \textit {GAHME}}{41}
+\contentsline {section}{\numberline {4.1}Aquisi\IeC {\c c}\IeC {\~a}o de Dados}{41}
+\contentsline {subsection}{\numberline {4.1.1}Arquitetura do Cliente \textit {GAHME}}{42}
+\contentsline {subsubsection}{Jogo: \textit {Catch the Spheres}}{42}
+\contentsline {subsection}{\numberline {4.1.2}Arquitetura do Servidor \textit {GAHME Webservice}}{44}
+\contentsline {subsubsection}{Gerenciador de Dados}{45}
+\contentsline {subsubsection}{Gerenciador de Arquivos}{46}
+\contentsline {subsection}{\numberline {4.1.3}M\IeC {\'o}dulo de Escrita}{47}
+\contentsline {section}{\numberline {4.2}Processador de Dados Biomec\IeC {\^a}nicos}{48}
+\contentsline {subsection}{\numberline {4.2.1}Identifica\IeC {\c c}\IeC {\~a}o dos Ciclos de Movimento}{48}
+\contentsline {subsection}{\numberline {4.2.2}Extra\IeC {\c c}\IeC {\~a}o das Caracter\IeC {\'\i }sticas do Movimento}{49}
+\contentsline {subsection}{\numberline {4.2.3}Filtragem de Dados}{50}
+\contentsline {section}{\numberline {4.3}Classificador de Dados}{51}
+\contentsline {chapter}{\numberline {5}Processo de Desenvolvimento de Jogos Eletr\IeC {\^o}nicos Com Monitoramento de Dados de Sa\IeC {\'u}de}{52}
+\contentsline {section}{\numberline {5.1}Vis\IeC {\~a}o Geral}{52}
+\contentsline {section}{\numberline {5.2}Pap\IeC {\'e}is e Responsabilidades}{53}
+\contentsline {subsection}{\numberline {5.2.1}\textit {Game Designer}}{53}
+\contentsline {subsubsection}{Habilidades}{53}
+\contentsline {subsubsection}{Abordagens de Atribui\IeC {\c c}\IeC {\~a}o}{53}
+\contentsline {subsection}{\numberline {5.2.2}\textit {Game Health Designer}}{54}
+\contentsline {subsubsection}{Habilidades}{54}
+\contentsline {subsubsection}{Abordagens de Atribui\IeC {\c c}\IeC {\~a}o}{54}
+\contentsline {subsection}{\numberline {5.2.3}Engenheiro de \textit {Software}}{54}
+\contentsline {subsubsection}{Habilidades}{54}
+\contentsline {subsubsection}{Abordagens de Atribui\IeC {\c c}\IeC {\~a}o}{55}
+\contentsline {subsection}{\numberline {5.2.4}Profissional de Sa\IeC {\'u}de}{55}
+\contentsline {subsubsection}{Habilidades}{55}
+\contentsline {subsubsection}{Abordagens de Atribui\IeC {\c c}\IeC {\~a}o}{55}
+\contentsline {section}{\numberline {5.3}Fase: Conceito}{55}
+\contentsline {subsection}{\numberline {5.3.1}Atividade: Identificar P\IeC {\'u}blico Alvo}{56}
+\contentsline {subsubsection}{Pap\IeC {\'e}is Respons\IeC {\'a}veis}{56}
+\contentsline {subsubsection}{Passos para Execu\IeC {\c c}\IeC {\~a}o da Atividade}{56}
+\contentsline {subsubsection}{Artefatos de Entrada}{57}
+\contentsline {subsubsection}{Artefatos de Sa\IeC {\'\i }da}{57}
+\contentsline {subsection}{\numberline {5.3.2}Atividade: Estudar Sintomas}{57}
+\contentsline {subsubsection}{Pap\IeC {\'e}is Respons\IeC {\'a}veis}{57}
+\contentsline {subsubsection}{Passos para Execu\IeC {\c c}\IeC {\~a}o da Atividade}{57}
+\contentsline {subsubsection}{Artefatos de Entrada}{57}
+\contentsline {subsubsection}{Artefatos de Sa\IeC {\'\i }da}{57}
+\contentsline {subsection}{\numberline {5.3.3}Avaliar Sintomas Monitor\IeC {\'a}veis}{58}
+\contentsline {subsubsection}{Pap\IeC {\'e}is Respons\IeC {\'a}veis}{58}
+\contentsline {subsubsection}{Passos para Execu\IeC {\c c}\IeC {\~a}o da Atividade}{58}
+\contentsline {subsubsection}{Artefatos de Entrada}{58}
+\contentsline {subsubsection}{Artefatos de Sa\IeC {\'\i }da}{58}
+\contentsline {subsection}{\numberline {5.3.4}Reportar Inviabilidade do Projeto}{58}
+\contentsline {subsubsection}{Pap\IeC {\'e}is Respons\IeC {\'a}veis}{59}
+\contentsline {subsubsection}{Pap\IeC {\'e}is Auxiliares}{59}
+\contentsline {subsubsection}{Passos para Execu\IeC {\c c}\IeC {\~a}o da Atividade}{59}
+\contentsline {subsubsection}{Artefatos de Entrada}{59}
+\contentsline {subsubsection}{Artefatos de Sa\IeC {\'\i }da}{59}
+\contentsline {section}{\numberline {5.4}Fase: Pr\IeC {\'e}-Produ\IeC {\c c}\IeC {\~a}o}{59}
+\contentsline {subsection}{\numberline {5.4.1}Submeter Projeto ao Comit\IeC {\^e} de \IeC {\'E}tica}{61}
+\contentsline {subsubsection}{Pap\IeC {\'e}is Respons\IeC {\'a}veis}{61}
+\contentsline {subsubsection}{Passos para Execu\IeC {\c c}\IeC {\~a}o da Atividade}{61}
+\contentsline {subsubsection}{Artefatos de Entrada}{62}
+\contentsline {subsubsection}{Artefatos de Sa\IeC {\'\i }da}{62}
+\contentsline {subsection}{\numberline {5.4.2}Verificar Efic\IeC {\'a}cia do Jogo}{62}
+\contentsline {subsection}{\numberline {5.4.3}Atividade: Elaborar \textit {GAHME Design}}{62}
+\contentsline {section}{\numberline {5.5}Artefatos}{62}
+\contentsline {subsection}{\numberline {5.5.1}Diretrizes M\IeC {\'e}dicas}{63}
+\contentsline {subsubsection}{Prop\IeC {\'o}sito}{63}
+\contentsline {subsection}{\numberline {5.5.2}\textit {GAHME Action Design}}{63}
+\contentsline {subsubsection}{Documento de Sintomas Monitor\IeC {\'a}veis}{63}
+\contentsline {subsubsection}{Cen\IeC {\'a}rio de Jogo}{63}
+\contentsline {chapter}{\numberline {6}Avalia\c {c}\~{a}o Experimental}{65}
+\contentsline {section}{\numberline {6.1}H1 - Entrevista Semi-Estruturada com Profissionais de Sa\IeC {\'u}de}{65}
+\contentsline {subsection}{\numberline {6.1.1}Objetivo da Pesquisa}{66}
+\contentsline {subsubsection}{Instrumento de An\IeC {\'a}lise dos Dados da Pesquisa Qualitativa}{66}
+\contentsline {subsection}{\numberline {6.1.2}Perfil dos Participantes}{67}
+\contentsline {subsubsection}{Question\IeC {\'a}rio de Pesquisa}{67}
+\contentsline {subsection}{\numberline {6.1.3}An\IeC {\'a}lise}{68}
+\contentsline {subsubsection}{Diagn\IeC {\'o}stico}{68}
+\contentsline {subsubsection}{Sintomas}{69}
+\contentsline {subsubsection}{Monitoramento Motor}{71}
+\contentsline {subsubsection}{Velocidade do Movimento De Adu\IeC {\c c}\IeC {\~a}o e Abdu\IeC {\c c}\IeC {\~a}o dos Bra\IeC {\c c}os}{72}
+\contentsline {subsubsection}{Benef\IeC {\'\i }cios Advindos do Monitoramento}{73}
+\contentsline {subsection}{\numberline {6.1.4}Requisitos Identificados}{74}
+\contentsline {subsubsection}{Inviabilidade T\IeC {\'e}cnica}{75}
+\contentsline {subsubsection}{Matriz de Rastreabilidade - Fragmento x Requisitos}{76}
+\contentsline {subsubsection}{Matriz de Rastreabilidade - Requisitos x Implementa\IeC {\c c}\IeC {\~a}o}{76}
+\contentsline {subsection}{\numberline {6.1.5}Conclus\IeC {\~a}o}{77}
+\contentsline {section}{\numberline {6.2}H2 - Estudo de Caso 1: An\IeC {\'a}lise dos Componentes Principais na \textit {Parkinson Disease Database}}{77}
+\contentsline {subsection}{\numberline {6.2.1}Materiais}{78}
+\contentsline {subsection}{\numberline {6.2.2}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo}{79}
+\contentsline {subsection}{\numberline {6.2.3}Resultados}{80}
+\contentsline {subsubsection}{Valida\IeC {\c c}\IeC {\~a}o Cruzada}{82}
+\contentsline {subsubsection}{Matriz de Confus\IeC {\~a}o e Suas M\IeC {\'e}tricas}{84}
+\contentsline {subsection}{\numberline {6.2.4}Limita\IeC {\c c}\IeC {\~o}es do M\IeC {\'e}todo}{85}
+\contentsline {section}{\numberline {6.3}H2 - Estudo de Caso 2: M\IeC {\'a}quina de Vetor de Suporte para Estudo Anal\IeC {\'\i }tico de Caso Controle Por Interm\IeC {\'e}dio de Sensor de Movimento Usados em Jogos Eletr\IeC {\^o}nicos}{85}
+\contentsline {subsection}{\numberline {6.3.1}Estudo anal\IeC {\'\i }tico de caso-controle}{86}
+\contentsline {subsubsection}{Amostra}{86}
+\contentsline {subsubsection}{Recrutamento dos Sujeitos e Aquisi\IeC {\c c}\IeC {\~a}o do Consentimento Livre e Esclarecido}{86}
+\contentsline {subsubsection}{Crit\IeC {\'e}rios de Inclus\IeC {\~a}o}{86}
+\contentsline {subsubsection}{Crit\IeC {\'e}rios de Exclus\IeC {\~a}o}{87}
+\contentsline {subsubsection}{Materiais}{87}
+\contentsline {subsubsection}{M\IeC {\'e}todos}{87}
+\contentsline {subsubsection}{Rela\IeC {\c c}\IeC {\~a}o Risco e Benef\IeC {\'\i }cio da Pesquisa}{88}
+\contentsline {subsection}{\numberline {6.3.2}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo}{89}
+\contentsline {subsection}{\numberline {6.3.3}Resultados}{89}
+\contentsline {subsubsection}{Vetor M\IeC {\'e}dio}{89}
+\contentsline {subsubsection}{Valida\IeC {\c c}\IeC {\~a}o Cruzada}{89}
+\contentsline {subsubsection}{Matriz de Confus\IeC {\~a}o e Suas M\IeC {\'e}tricas}{90}
+\contentsline {subsection}{\numberline {6.3.4}Limita\IeC {\c c}\IeC {\~o}es do M\IeC {\'e}todo}{91}
+\contentsline {section}{\numberline {6.4}H3 - \textit {Goal Question Metric} Com Usu\IeC {\'a}rios Participantes da Pesquisa}{91}
+\contentsline {subsection}{\numberline {6.4.1}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo}{93}
+\contentsline {subsection}{\numberline {6.4.2}Resultados}{93}
+\contentsline {subsection}{\numberline {6.4.3}Conclus\IeC {\~a}o}{96}
+\contentsline {chapter}{\numberline {7}Estado Atual do Trabalho}{97}
+\contentsline {chapter}{\numberline {A}Projeto do Comit\IeC {\^e} de \IeC {\'E}tica}{108}
+\contentsline {section}{\numberline {A.1}Resumo}{108}
+\contentsline {section}{\numberline {A.2}Introdu\IeC {\c c}\IeC {\~a}o}{108}
+\contentsline {section}{\numberline {A.3}Problem\IeC {\'a}tica}{112}
+\contentsline {section}{\numberline {A.4}Objetivo}{112}
+\contentsline {subsection}{\numberline {A.4.1}Espec\IeC {\'\i }ficos}{112}
+\contentsline {section}{\numberline {A.5}Material E M\IeC {\'e}todoo}{113}
+\contentsline {subsection}{\numberline {A.5.1}Tipo de Estudo}{113}
+\contentsline {subsection}{\numberline {A.5.2}Local}{113}
+\contentsline {subsection}{\numberline {A.5.3}Amostra}{113}
+\contentsline {subsection}{\numberline {A.5.4}Formas de Recrutamento}{113}
+\contentsline {subsubsection}{Crit\IeC {\'e}rio de inclus\IeC {\~a}o}{113}
+\contentsline {subsubsection}{Crit\IeC {\'e}rio de exclus\IeC {\~a}o}{113}
+\contentsline {subsection}{\numberline {A.5.5}Material}{114}
+\contentsline {subsubsection}{Jogo: \textit {Catch the Spheres}}{114}
+\contentsline {subsection}{\numberline {A.5.6}Procedimentos}{114}
+\contentsline {subsubsection}{AN\IeC {\'A}LISE DE DADOS}{115}
+\contentsline {subsection}{\numberline {A.5.7}Base de Dados}{115}
+\contentsline {subsection}{\numberline {A.5.8}Termo de Consentimento Livre e Esclarecido (TCLE)}{115}
+\contentsline {subsection}{\numberline {A.5.9}Confidencialidade}{116}
+\contentsline {subsection}{\numberline {A.5.10}Crit\IeC {\'e}rios Para Interromper a Pesquisa}{116}
+\contentsline {subsection}{\numberline {A.5.11}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{116}
+\contentsline {subsection}{\numberline {A.5.12}Infra-Estrutura}{116}
+\contentsline {section}{\numberline {A.6}Etapas da Pesquisa e Cronograma}{117}
+\contentsline {subsection}{\numberline {A.6.1}Etapa da Pesquisa}{117}
+\contentsline {subsection}{\numberline {A.6.2}Cronograma}{117}
+\contentsline {section}{\numberline {A.7}Or\IeC {\c c}amento Estimado}{118}
+\contentsline {chapter}{\numberline {B}Question\IeC {\'a}rio Entrevista Semi-Estruturada}{119}
+\contentsline {section}{\numberline {B.1}Entrevista com Profissionais de Neurologia}{119}
+\contentsline {subsection}{\numberline {B.1.1}Sintomas da Doen\IeC {\c c}a de Parkinson}{119}
+\contentsline {subsection}{\numberline {B.1.2}Monitoramento de dados Motores}{119}
+\contentsline {subsection}{\numberline {B.1.3}Benef\IeC {\'\i }cios}{120}
+\contentsline {chapter}{\numberline {C}Crit\IeC {\'e}rios Estabelecidos de Diagn\IeC {\'o}stico da Doen\IeC {\c c}a de Parkinson}{122}
+\contentsline {chapter}{\numberline {D}Question\IeC {\'a}rio GQM}{124}

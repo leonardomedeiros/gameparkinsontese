@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: proposta.aux
+The style file: alpha.bst.bst
+Database file #1: referencias.bib
+You've used 9 entries,
+            2543 wiz_defined-function locations,
+            623 strings with 6517 characters,
+and the built_in function-call counts, 3971 in all, are:
+= -- 380
+> -- 228
+< -- 2
++ -- 81
+- -- 79
+* -- 286
+:= -- 669
+add.period$ -- 28
+call.type$ -- 9
+change.case$ -- 66
+chr.to.int$ -- 9
+cite$ -- 9
+duplicate$ -- 156
+empty$ -- 285
+format.name$ -- 88
+if$ -- 805
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 49
+num.names$ -- 27
+pop$ -- 68
+preamble$ -- 1
+purify$ -- 75
+quote$ -- 0
+skip$ -- 123
+stack$ -- 0
+substring$ -- 168
+swap$ -- 25
+text.length$ -- 2
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 72
+warning$ -- 0
+while$ -- 35
+width$ -- 15
+write$ -- 120

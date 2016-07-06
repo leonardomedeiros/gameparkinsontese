@@ -1,0 +1,245 @@
+\chapter{\textit{GAHME - GAme Health Monitor Embedded}} \label{sec:arquitetura}
+
+O propósito de um \textit{GAHME} é conseguir coletar informações do estado motor dos indivíduos de forma não invasiva. Por esse motivo, utilizamos uma abordagem de jogos eletrônicos que fazem uso de sensores de movimento como controladores de jogos para realizar a captura dos dados de saúde. Neste capítulo... bla bla bla...
+
+\section{Definição de requisitos da solução}
+Com base no levantamento bibliográfico e em entrevistas preliminares com profissionais de saúde, os seguintes requisitos foram definidos para a solução GAHME.
+
+\begin{enumerate}
+
+
+\end{enumerate}
+
+O Processamento de Sinais Biomecânicos e a Aprendizagem Supervisionada usando classificadores de dados foram implementados em MATLAB 2011 ~\cite{matlab2011}. Esses módulos realizam o processamento dos dados com o objetivo de filtrar ciclos de movimento que possibilitem a identificação de sinais de motores de saúde e como consequência possam extrair as características desse movimento. Após a extração das características, os dados são repassados para Máquinas de Aprendizagem que classificam os dados por intermédio das evidências estatísticas encontradas neles como iremos explicar no decorrer deste capítulo.
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=1\textwidth]{./img/systemoverview.png}
+     \caption{Visão Geral do Sistema}
+     \label{img:visaogeral}
+\end{figure}
+
+\section{Processamento de Dados Biomecânicos}
+Contudo, nessa Proposta de Tese, foram acrescidos os módulos de Processamento e Classificação de Dados Biomecânicos. Esses módulos foram responsáveis por filtrar os dados, removendo ruídos e consequentemente identificar os ciclos de movimento para uma posterior extração dos vetores de características. De posse desses dados processados, foram aplicadas técnicas de aprendizagem de máquina para obter a classificação dos dados e consequentemente testar as hipóteses apresentadas nessa proposta.
+
+\subsection{Identificador de Ciclos de Movimento}
+
+Os sinais adquiridos por sensores de movimento possuem bastante ruído, e isso dificulta a identificação dos ciclos de movimento, pois eles possuem uma posição que inicia o ciclo de movimento como na Figura~\ref{img:exsinalposicaopunho} e o ruído pode cruzar por essa linha e consequentemente gerar falsas identificações. Métodos que fazem uso de filtros de passa baixa podem ser aplicados para suavizar a curva e diminuir a ocorrência do ruído, contudo isso implica numa alteração no tempo do sinal e impactando diretamente no cálculo das características do movimento e consequentemente na acurácia do resultado final ~\cite{peakdetect}.
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=1\textwidth]{./img/exsinalposicaoypunhodireito.png}
+     \caption{Exemplo de Sinal Capturado da Articulação do Punho do Direito Usando MS-Kinnect na Posição Y}
+     \label{img:exsinalposicaopunho}
+\end{figure}
+
+Em casos de análise de dados biomecânicos em que a amplitude do movimento é importante pode ser aplicado a técnica de detecção de picos e vales do sinal. A técnica consiste em usar um valor de referência $\delta$\ (\textit{delta}) para identificação dos picos e descartar valores menores que são considerados ruídos. O ``pico'' é ``o ponto'' mais alto entre os 2 pontos mais baixos que são considerados os ``vales'' do ciclo~\cite{peakdetect}. A técnica foi aplicada no sinal da Figura~\ref{img:exsinalposicaopunho} com um $\delta$\ de 500 e teve como resultado os picos e os vales identificados como pode ser visto na Figura~\ref{img:expicosvales}.
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=1\textwidth]{./img/deteccaopicosvales.png}
+     \caption{Exemplo da Aplicação da Técnica de Detecção de Picos e Vales no Sinal}
+     \label{img:expicosvales}
+\end{figure}
+
+
+\subsubsection{Redução de Ruídos no Sinal}
+O processo de filtragem dos dados é realizado em 3 etapas distintas:
+\begin{itemize}
+	\item Identificar ciclos de movimentos;
+	\item calcular movimento angular realizado durante o ciclo de movimento;
+	\item remover ciclos de movimentos incompletos.
+\end{itemize}
+
+Na identificação do movimento dos braços de adução e abdução os quais possuem uma amplitude de movimento derivada das articulações do punho, ombro e bacia. É necessário usar uma desses articulações como referência para a identificação do início e fim do movimento. Como o punho é a articulação que tem a maior amplitude entre as demais, ela foi escolhida para indicar o início e o fim dos ciclos de movimento  como podemos ver na Figura~\ref{img:remocaoruidossinal}.
+
+De posse dos ``picos'' e dos ``vales'' do sinal é realizada a identificação de um conjunto de ciclos e eliminação de ruídos, extraindo somente os ciclos de movimento do sinal. Essa é a primeira etapa da filtragem dos dados, que depois de selecionar o início e o fim dos ciclos de movimento, deve extrair cada ciclo e identificar se está completo para que as características extraídas dos ciclos de movimento sejam bastante semelhantes para o mesmo indivíduo e tornar possível a obtenção de uma classificação dos dados mais efetiva.
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=1\textwidth]{./img/remocaoruidociclo.png}
+     \caption{Remoção de Ruídos}
+     \label{img:remocaoruidossinal}
+\end{figure}
+
+
+\subsection{Extração das Características do Movimento} \label{sec:extracao_caracteristcas}
+Como as características desse sinal é baseada na cinemática do movimento angular. É necessário um estudo da biomecânica do movimento humano nos ciclos de movimento ~\cite{hamill1999bases}. De posse do tempo de ocorrência do de cada ciclo (\textit{Timestamp}) e das articulações do \textbf{punho}, \textbf{bacia} e \textbf{ombro} é possível calcular o ângulo relativo do movimento de abdução e adução do braço através da aplicação do teorema do produto escalar que encontra o ângulo relativo entre dois vetores dentro do intervalo de $0 \leq \theta \leq 180º $\ .
+
+\subsubsection{Cálculo do Ângulo Relativo do Movimento de Abdução e Adução}
+O produto escalar é uma operação entre dois vetores cujo resultado é um escalar ~\cite{algebra90}. Então, o ângulo entre dois vetores é definido como ``o menor'' ângulo entre eles. Desta forma, este ângulo está dentro do intervalo de $0 \leq \theta \leq 180º $\ .
+
+O produto escalar entre os vetores $ v $\ e $ w $\ (Figura~\ref{img:produto_escalar}) pode ser calculado através da fórmula:
+$ cos(\theta) = (v . w) /  (||v|| ||w||) $\ . Onde $ \theta $\ é o ângulo formado entre $ v $\ e $ w $\ .
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=0.5\textwidth]{./img/produtoescalar.png}
+     \caption{Produto Escalar Entre 2 Vetores}
+     \label{img:produto_escalar}
+\end{figure}
+
+No movimento de abdução e adução do braço (Figura \ref{fig:movabducaoaducao}), o ângulo relativo pode ser calcular com as Posições ($ x $\ ,  $ y $\ , $ z $\ ) das articulações (\textit{bacia}, \textit{ombro} e \textit{punho}). O código fonte em \textit{Matlab} ~\cite{matlab2011} realiza o cálculo do Produto Escalar dessas articulações e converte o valor escalar em °, para podermos extrair as características do movimento nessa unidade.
+
+%O ângulo relativo podem ser calculados usando a Lei dos Cossenos. Essa lei é simplesmente um caso mais geral do Teorema de Pitágoras e descreve a relação entre os lados de um triângulo. Para nossos propósitos, o triângulo é constituído por dois segmentos (b e c) e uma linha (a) unindo a ponta distai de um segmento com a ponta proximal do outro ~\cite{hamill1999bases}.
+\lstset{language=Matlab}          % Set your language (you can change the language for each code-block optionally)
+
+\begin{lstlisting}[frame=single, caption=Código do Ângulo Relativo por Produto Escalar]  % Start your code-block
+Bacia = [articulacaoBacia(PosicaoX), articulacaoBacia(PosicaoY), articulacaoBacia(Posicaoz)];
+Ombro = [articulacaoOmbro(PosicaoX), articulacaoOmbro(PosicaoY), articulacaoOmbro(Posicaoz)];
+Punho = [articulacaoPunho(PosicaoX), articulacaoPunho(PosicaoY), articulacaoPunho(Posicaoz)];
+
+w = Bacia-Ombro;
+v = Punho-Ombro;
+
+CosTheta = dot(w,v)/(norm(w)*norm(v));
+ThetaEmGraus = acos(CosTheta)*180/pi;
+\end{lstlisting}
+
+Com o cálculo do produto escalar usando as três articulações, conseguimos quantificar o movimento de adução e abdução do braço em relação ao tempo criando o sinal desse movimento como na Figura~\ref{img:amplitude_braco}.
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=1\textwidth]{./img/amplitude-braco.png}
+     \caption{Amplitude do Movimento de Abdução e Adução}
+     \label{img:amplitude_braco}
+\end{figure}
+
+\subsubsection{Cálculo da Velocidade Angular do Movimento de Abdução e Adução}
+O 'pico' da amplitude do movimento irá conter a amplitude máxima desse movimento o tempo gasto entre 1° vale até o pico em cada ciclo de movimento será o tempo gasto para a abdução do braço; e o tempo gasto entre o pico e o 2° vale de cada ciclo será o tempo gasto para a adução do braço. Logo, com a amplitude máxima e o tempo gasto nesses movimentos podem ser calculados as velocidades angulares de abdução e adução dos braços~\ref{img:amplitude_braco_picos_vales}.
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=1\textwidth]{./img/amplitude-braco-picos.png}
+     \caption{Detecção de Picos e Vales da Amplitude do Movimento de Abdução e Adução do Braço}
+     \label{img:amplitude_braco_picos_vales}
+\end{figure}
+
+\subsection{Filtro de Dados}\label{section:filtro_dados}
+
+Para filtrar os dados é necessário inicialmente realizar as seguintes etapas nos ciclos de movimento:
+\begin{description}
+	\item [Escalonar os ciclos]: O conjunto de dados deve possuir a distribuição de \textbf{M} amostras de vetores de dimensão \textbf{n}. Como os dados a serem analisados são sinais, deve-se então escalonar o sinal para uma dimensão \textbf{n} para poder realizar o cálculo matricial quadrático de (\textbf{M} x \textbf{n}).		
+	\item [Normalizar os ciclos]: Em estatística o termo normalização possui diferentes significados ~\cite{statisticterms2006}. Nesse trabalho, chamamos de normalização o ajuste dos valores dos dados em torno do valor máximo. Ou seja o máximo valor obtido dos dados terá o valor 1 e os demais será o resultado pela divisão do valor máximo. A normalização se faz necessária para que a variação dos dados seja mantida além de facilitar a identificação de similaridades ~\cite{vicini2005}. 	
+	\item [Calcular Vetor Médio dos Ciclos]: Para definir a completude de um ciclo de movimento deve-se inicialmente calcular a média entre todos os ciclos de movimento que é o vetor médio dos ciclos escalonados e normalizados (Figura ~\ref{img:ciclos_normalizado_escalonado}). O \textbf{vetor médio} (Eq.~\ref{eq:vetormedio}) chamado de $\bar{X}$\ consiste na média aritmética de todos os ciclos de movimento ou seja calcula a centralização dos dados ~\cite{statisticshandbook2009}. 	
+		\begin{equation}
+			\bar{X}=\frac{\sum_{i=1}^{n}(Xi)}{(n)}
+			\label{eq:vetormedio}
+		\end{equation}
+	\item [Calcular Variância de Cada Ciclo ao Vetor Médio]: A variância é uma medida de dispersão estatística, que indica o quão longe os estão de um valor esperado~\cite{statisticshandbook2009}. Nesse caso o  valor esperado é o vetor médio dos ciclos ($\bar{X}$\) e a variância (Eq.~\ref{eq:variancia}) irá nos informar o quão distante cada ciclo ($C$\ ) está em relação a média.
+		\begin{equation}
+			var(C) = (C - \bar{X} )^2
+			\label{eq:variancia}
+		\end{equation}
+		
+		
+	\item [Definir limiar para remoção de ciclos]: Essa etapa do processo de filtragem não é trivial, pois deve-se definir uma constante $ filtro $\ que será comparada a variância do ciclo, se esta for menor será aceita, caso contrário removida. Contudo,	balancear entre o limiar de dispersão do ciclo de movimento em relação a média é complexo, pois existe uma grande variabilidade de movimento. Logo, um limiar muito alto pode acarretar na remoção de uma grande quantidade de ciclos. Por outro lado, um limiar baixo pode colocar na base ciclos com ruídos e consequentemente impactar na classificação dos dados.	
+	\lstset{language=Matlab}[!htb]
+	\begin{lstlisting}[frame=single, caption=Filtro dos Ciclos]  % Start your code-block
+		
+    filtro = 1;
+    vetorMedio = mean(ciclos);
+    varianciaCiclo = sum(ciclo - (vetorMedio).^2);
+    remocao = varianciaCiclo>filtro;
+	\end{lstlisting}
+	
+	\begin{figure}
+     \centering
+     \includegraphics[width=1\textwidth]{./img/vetormedionormalozadoescalonado.png}
+     \caption{Ciclos de Movimento Normalizado e Escalonado}
+		 \label{img:ciclos_normalizado_escalonado}
+	\end{figure}
+\end{description}
+
+
+%\lstset{language=Matlab}
+%\begin{lstlisting}
+	%normalizarCiclos(ciclos);
+	%escalonarCiclos(ciclos, CONSTANTE_ESCALONAMENTO);
+	%vetormedio = mean(ciclos);
+	%
+	%
+%\end{lstlisting}
+
+%%Média
+
+Como exemplo, temos um ciclo de movimento que foi filtrado (Figura~\ref{img:ciclo_filtrado}) com a aplicação do filtro de (\textit{valor = 1}) e a \textit{variância} de (\textit{valor = 2,3078}).
+
+\begin{figure}[!htb]
+     \centering
+     \includegraphics[width=1\textwidth]{./img/ciclomovimentoremovido.png}
+     \caption{Ciclos de Movimento Removido}
+		 \label{img:ciclo_filtrado}
+\end{figure}
+
+\subsection{Dados Biomecânicos Processados e Filtrados}
+O objetivo de todo esse processo de identificação de ciclos, extração de características e filtro de dado é justamente facilitar a separação dos dados por máquinas de aprendizagem. O resultado dessa etapa resulta num conjunto de ciclos de movimento onde podemos visualizar na Figura ~\ref{fig:ciclos_movimento_processados_filtrados} a grande variabilidade de movimento de indivíduos diagnosticados com a Doença de Parkinson e Indivíduos sem o diagnóstico da doença. A normalização dos ciclos, ficou sendo o resultado do cálculo do Produto Escalar que nos retorna valores entre $ 0° $\ a $ 180° $\ do movimento de abdução e adução. O escalonamento de cada ciclo de movimento ficou com 20 \textit{frames} como temos o movimento do braço esquerdo e depois o do direito temos um total de 40 \textit{frames} por ciclo. O motivo que decidimos juntar os ciclos do braço esquerdo e direito lado a lado foi justamente para facilitar a identificação da assimetria do movimento existente nos estágios iniciais da ~\ac{dp}.
+
+\begin{figure}[!htbp]
+ \centering
+ \includegraphics[scale=0.4]{./img/ciclosmovimentokinnect.png}
+ \caption{Ciclos de Movimento Abdução e Abdução Usados na Classificação}
+ \label{fig:ciclos_movimento_processados_filtrados}
+\end{figure}
+
+O vetor de características será composto dos ciclos de movimento e das características extraídas de cada ciclo conforme explicado na Seção~\ref{sec:extracao_caracteristcas}. Ou seja, teremos além do ciclo de movimento, os valores da velocidade angular de abdução e adução do braço esquerdo e direito. De posse desse vetor de características e da informação sobre a classe do ciclo de movimento (indivíduo diagnosticado com a ~\ac{dp} e indivíduo sem o diagnóstico estabelecido) esses dados serão repassados juntamente como entrada-saída para o classificador de dados que irá dividir entre grupos de treinamento e teste para realizar sua classificação.
+
+
+%Para filtrar os dados baseado na distância dos mesmos em relação a média, devemos realizar uma subtração de cada ciclo normalizado e escalonado (\textit{cne}) pelo vetor médio (\textit{vetormedio}). Em seguida deve ser realizada uma exponenciação por dois de modo que teremos um valor positivo que possa quantificar essa discrepância Eq.~\ref{eq:filtro}. O limiar para remoção dos dados irá depender do resultado dessa quantificação como explicado anteriormente.
+
+
+
+
+%\begin{equation}
+%filtro = (\sum (\left[ cne\right] - \left[\bar{X} \right])^2) > limiar
+%\label{eq:filtro}
+%\end{equation}
+
+
+%\subsubsection{Rotular ciclos de movimento}\label{section:rotular_ciclos}
+
+%\subsubsection{Normalizar os ciclos}\label{section:normalizar_ciclos}
+
+
+%\subsubsection{Escalonar os ciclos}\label{section:escalonar_ciclos}
+
+%\subsubsection{Definir limiar}\label{section:escalonar_ciclos}
+
+\section{Classificador de Dados}
+
+
+\subsection{Identificação de Bradicinesia Usando \textit{Support Vector Machine}}
+
+
+
+
+
+
+
+
+%O produto escalar é uma operação entre dois vetores cujo resultado é um escalar e pode ser descrito na forma:
+%$ u.v = |u| |v| cos(\theta) $\ onde $ \theta $\ é o ângulo formado entre $ u $\ e $ v $\ dentro do intervalo de $0 \leq \theta \leq 180º $\.
+
+%Se
+%\begin{math}
+%v.w = \left \| v \right \|\left \| w \right \|\cos \theta
+%\end{math}
+%, onde $ \theta $\ é o ângulo entre esses vetores. Então o \textbf{ângulo} entre dois vetores é definido como o menor ângulo entre eles.
+%
+%Portanto, o ângulo dentro do intervalo de $0 \leq \theta \leq 180º $\ será o resultado do produto interno
+%\newline
+%\begin{math} \cos \theta = (v.w)/(\left \| v \right \| \left \| w \right \|)\end{math} .
+
+%\subsubsection{Pontos Utilizados no \textit{Ms-Kinnect} Para o Cálculo do Produto Escalar}
+%A descrição da posição de um segmento ou movimento articular é tipicamente expressa com relação a uma posição inicial designada. A posição anatômica é uma referência padronizada usada por muitos anos por anatomistas, biomecânicos e médicos ~\cite{hamill1999bases}.
+
+
+
+%\begin{figure}
+ %\centering
+ %\includegraphics[scale=0.5]{./img/eixossegmentos.png}
+ %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+%\caption{Eixos Segmentos e Ângulos da Biomecânica}
+%%  \caption{Estágio desenvolvimento de jogos}
+ %\label{fig:eixossegmentos}
+%\end{figure}

@@ -1,0 +1,946 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.12.2)  27 MAR 2013 08:20
+entering extended mode
+**main.tex
+
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\main
+.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\copi
+n.cls
+Document Class: copin 1996/10/07 v1.0 Standard LaTeX document class
+(C:\avulso\miktex\tex\latex\base\size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\avulso\miktex\tex\generic\babel\babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\avulso\miktex\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(C:\avulso\miktex\tex\generic\babel\portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(C:\avulso\miktex\tex\generic\babel\babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+Package babel Info: Making " an active character on input line 145.
+)
+(C:\avulso\miktex\tex\generic\babel\english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\copi
+n.sty)
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\mest
+re.sty) (C:\avulso\miktex\tex\latex\graphics\epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(C:\avulso\miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\avulso\miktex\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\avulso\miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\avulso\miktex\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\avulso\miktex\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(C:\avulso\miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(C:\avulso\miktex\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(C:\avulso\miktex\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
+)
+(C:\avulso\miktex\tex\latex\psnfss\times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(C:\avulso\miktex\tex\latex\base\inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(C:\avulso\miktex\tex\latex\base\latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(C:\avulso\miktex\tex\latex\ucs\ucs.sty
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+(C:\avulso\miktex\tex\latex\ucs\uni-global.def
+File: uni-global.def 2012/08/28 UCS: Unicode global data
+)
+\uc@secondtry=\count90
+\uc@combtoks=\toks17
+\uc@combtoksb=\toks18
+\uc@temptokena=\toks19
+)
+(C:\avulso\miktex\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(C:\avulso\miktex\tex\latex\base\t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\fanc
+yheadings.sty
+\headrulewidth=\dimen108
+\footrulewidth=\dimen109
+\plainheadrulewidth=\dimen110
+\plainfootrulewidth=\dimen111
+\headwidth=\dimen112
+) (C:\avulso\miktex\tex\latex\caption\caption.sty
+Package: caption 2013/02/03 v3.3-65 Customizing captions (AR)
+
+(C:\avulso\miktex\tex\latex\caption\caption3.sty
+Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
+\captionmargin=\dimen113
+\captionmargin@=\dimen114
+\captionwidth=\dimen115
+\caption@tempdima=\dimen116
+\caption@indent=\dimen117
+\caption@parindent=\dimen118
+\caption@hangindent=\dimen119
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \sbox \@tempboxa {#1: #2}\ifdim \wd \@tempboxa >\hsize #1: #2\par \else \glob
+al \@minipagefalse \hbox to\hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \bel
+owcaptionskip .
+\c@ContinuedFloat=\count91
+) (C:\avulso\miktex\tex\latex\caption\subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count92
+\c@subtable=\count93
+)
+(C:\avulso\miktex\tex\latex\tools\longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip43
+\LTright=\skip44
+\LTpre=\skip45
+\LTpost=\skip46
+\LTchunksize=\count94
+\LTcapwidth=\dimen120
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count95
+\LT@rows=\count96
+\c@LT@tables=\count97
+\c@LT@chunks=\count98
+\LT@p@ftn=\toks20
+)
+(C:\avulso\miktex\tex\latex\listings\listings.sty
+\lst@mode=\count99
+\lst@gtempboxa=\box30
+\lst@token=\toks21
+\lst@length=\count100
+\lst@currlwidth=\dimen121
+\lst@column=\count101
+\lst@pos=\count102
+\lst@lostspace=\dimen122
+\lst@width=\dimen123
+\lst@newlines=\count103
+\lst@lineno=\count104
+\lst@maxwidth=\dimen124
+
+(C:\avulso\miktex\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count105
+\lst@skipnumbers=\count106
+\lst@framebox=\box31
+)
+(C:\avulso\miktex\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\main
+.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 59.
+ (C:\avulso\miktex\tex\latex\psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(C:\avulso\miktex\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen125
+\scratchbox=\box32
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen126
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks23
+) (C:\avulso\miktex\tex\latex\ucs\ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\avulso\miktex\tex\latex\caption\ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count113
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 73.
+
+(C:\avulso\miktex\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+ [1
+
+
+{C:/Users/antonio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 79.
+
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\resu
+mo.tex) [1
+
+]
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\abst
+ract.tex) [2
+
+]
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\agra
+decimentos.tex) [3
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 113.
+
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\main
+.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 7.
+ [4
+
+
+])
+\tf@toc=\write3
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[5]
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\main
+.lof)
+\tf@lof=\write4
+ [6
+
+]
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\main
+.lot)
+\tf@lot=\write5
+ [7
+
+]
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\main
+.lol
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 8.
+ (C:\avulso\miktex\tex\latex\psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+\tf@lol=\write6
+ [8
+
+]
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\cap_
+intro.tex
+Cap\'{\i }tulo 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+[1
+
+
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[2] <motion-gaming-versus_610x400.jpg, id=41, 440.847pt x 289.08pt>
+File: motion-gaming-versus_610x400.jpg Graphic file (type jpg)
+
+<use motion-gaming-versus_610x400.jpg>
+Package pdftex.def Info: motion-gaming-versus_610x400.jpg used on input line 25
+.
+(pdftex.def)             Requested size: 308.71104pt x 202.434pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[3]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[4 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/m
+otion-gaming-versus_610x400.jpg>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[5]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[7])
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\cap_
+fundamentacao.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[8]
+Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 3.
+[9
+
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[10]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[11] <Wii_games.png, id=72, 501.875pt x 354.32375pt>
+File: Wii_games.png Graphic file (type png)
+ <use Wii_games.png>
+Package pdftex.def Info: Wii_games.png used on input line 31.
+(pdftex.def)             Requested size: 220.50885pt x 155.68126pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[12 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+Wii_games.png>])
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\cap_
+trabalhos.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[13]
+Cap\'{\i }tulo 3.
+[14
+
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[15] <ma_et_al.png, id=87, 549.55313pt x 365.86688pt>
+File: ma_et_al.png Graphic file (type png)
+ <use ma_et_al.png>
+Package pdftex.def Info: ma_et_al.png used on input line 23.
+(pdftex.def)             Requested size: 441.01772pt x 293.61504pt.
+
+<motionstar.png, id=88, 207.77625pt x 196.48407pt>
+File: motionstar.png Graphic file (type png)
+ <use motionstar.png>
+Package pdftex.def Info: motionstar.png used on input line 32.
+(pdftex.def)             Requested size: 132.30666pt x 125.11977pt.
+
+<hmd.png, id=89, 179.92218pt x 196.48407pt>
+File: hmd.png Graphic file (type png)
+ <use hmd.png>
+Package pdftex.def Info: hmd.png used on input line 40.
+(pdftex.def)             Requested size: 132.30666pt x 144.49649pt.
+
+<glove.png, id=90, 254.45062pt x 196.48407pt>
+File: glove.png Graphic file (type png)
+ <use glove.png>
+Package pdftex.def Info: glove.png used on input line 48.
+(pdftex.def)             Requested size: 132.30666pt x 102.1693pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[16 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+ma_et_al.png>] <hardy1.png, id=95, 394.47375pt x 225.84375pt>
+File: hardy1.png Graphic file (type png)
+ <use hardy1.png>
+Package pdftex.def Info: hardy1.png used on input line 65.
+(pdftex.def)             Requested size: 264.61331pt x 151.49716pt.
+
+<hardy2.png, id=96, 243.15843pt x 308.65312pt>
+File: hardy2.png Graphic file (type png)
+ <use hardy2.png>
+Package pdftex.def Info: hardy2.png used on input line 73.
+(pdftex.def)             Requested size: 132.30666pt x 167.9418pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[17 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+motionstar.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_
+LateX_Copin/hmd.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Mo
+delo_LateX_Copin/glove.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[18 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+hardy1.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_Late
+X_Copin/hardy2.png>]
+Overfull \vbox (24.41093pt too high) has occurred while \output is active []
+
+
+[19])
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\cap_
+arquitetura.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[20]
+Cap\'{\i }tulo 4.
+[21
+
+] <arquitetura_alto_nivel.pdf, id=112, 395.97937pt x 247.67531pt>
+File: arquitetura_alto_nivel.pdf Graphic file (type pdf)
+
+<use arquitetura_alto_nivel.pdf>
+Package pdftex.def Info: arquitetura_alto_nivel.pdf used on input line 20.
+(pdftex.def)             Requested size: 441.01772pt x 275.84874pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[22] <arquitetura.pdf, id=117, 831.105pt x 485.56406pt>
+File: arquitetura.pdf Graphic file (type pdf)
+ <use arquitetura.pdf>
+Package pdftex.def Info: arquitetura.pdf used on input line 29.
+(pdftex.def)             Requested size: 441.01772pt x 257.6589pt.
+
+<class_diagram.png, id=118, 2179.14125pt x 1258.7025pt>
+File: class_diagram.png Graphic file (type png)
+
+<use class_diagram.png>
+Package pdftex.def Info: class_diagram.png used on input line 36.
+(pdftex.def)             Requested size: 441.01772pt x 254.73221pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 75.
+
+Underfull \hbox (badness 1810) in paragraph at lines 77--78
+\T1/ptm/m/n/12 du-los, \T1/ptm/m/it/12 Ge-ren-ci-a-dor de Ar-qui-vos\T1/ptm/m/n
+/12 , \T1/ptm/m/it/12 Mó-dulo de Es-crita\T1/ptm/m/n/12 , \T1/ptm/m/it/12 Mó-du
+lo de Fil-tra-gem \T1/ptm/m/n/12 e \T1/ptm/m/it/12 Ge-
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 77--78
+\T1/ptm/m/it/12 ren-ci-a-dor do Banco de Da-dos\T1/ptm/m/n/12 , que são ex-pli-
+ca-dos nas sub-se-ções a se-guir. A
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 77--78
+\T1/ptm/m/n/12 classe \T1/pcr/m/n/12 DataManager \T1/ptm/m/n/12 pos-sui um cons
+-tru-tor \T1/pcr/m/n/12 DataManager(DatabaseManager,
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[23 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+arquitetura_alto_nivel.pdf> <C:/Users/antonio/Dropbox/mestrado/proposta/dissert
+acao/Modelo_LateX_Copin/arquitetura.pdf>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[25 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+class_diagram.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[]\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[]\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 90--91
+\T1/pcr/m/n/12 hasHeader, String... labels) \T1/ptm/m/n/12 es-tende a fun-ci-o-
+na-li-dade do mé-todo
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]\T1/pcr/m/n/12 getMultipleData(String path, String separator, boolean
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[]\T1/ptm/m/n/12 A classe \T1/pcr/m/n/12 MovementDataFileManager \T1/ptm/m/n/12
+ es-tende as fun-ci-o-na-li-da-des do
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[27]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[28]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[29]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[30] <eixos.png, id=199, 149.05687pt x 161.10187pt>
+File: eixos.png Graphic file (type png)
+ <use eixos.png>
+Package pdftex.def Info: eixos.png used on input line 168.
+(pdftex.def)             Requested size: 132.30666pt x 143.00656pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+[]\T1/pcr/m/n/12 findPeaks(String readingSet, double delta, boolean max)
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[31] <IC534689.png, id=206, 179.16937pt x 198.7425pt>
+File: IC534689.png Graphic file (type png)
+ <use IC534689.png>
+Package pdftex.def Info: IC534689.png used on input line 188.
+(pdftex.def)             Requested size: 132.30666pt x 146.76994pt.
+
+<movimento_kinect.png, id=207, 481.8pt x 291.33844pt>
+File: movimento_kinect.png Graphic file (type png)
+
+<use movimento_kinect.png>
+Package pdftex.def Info: movimento_kinect.png used on input line 195.
+(pdftex.def)             Requested size: 352.8155pt x 213.34654pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[32 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+eixos.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[33 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+IC534689.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_La
+teX_Copin/movimento_kinect.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[34]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[35]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 273.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+[]\T1/ptm/m/n/12 A classe abs-trata \T1/pcr/m/n/12 AnalyzerImpl \T1/ptm/m/n/12 
+pos-sui a im-ple-men-ta-ção dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+\T1/ptm/m/n/12 mé-to-dos \T1/pcr/m/n/12 addReadingSet(String name, double[] dat
+a) \T1/ptm/m/n/12 e
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[37]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[38]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[39])
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\cap_
+estudo.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[40]
+Cap\'{\i }tulo 5.
+<pinball_world.png, id=237, 602.25pt x 343.2825pt>
+File: pinball_world.png Graphic file (type png)
+ <use pinball_world.png>
+Package pdftex.def Info: pinball_world.png used on input line 11.
+(pdftex.def)             Requested size: 361.35278pt x 205.97107pt.
+
+[41
+
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[42 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+pinball_world.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[43]
+Underfull \hbox (badness 5417) in paragraph at lines 83--83
+[]\T1/ptm/m/n/12 Específico de
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 83--83
+[]\T1/ptm/m/n/12 Escrita, se-gu-rar ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]\T1/ptm/m/n/12 Membros,
+ []
+
+<accelerometer_game.png, id=247, 481.8pt x 291.33844pt>
+File: accelerometer_game.png Graphic file (type png)
+
+<use accelerometer_game.png>
+Package pdftex.def Info: accelerometer_game.png used on input line 95.
+(pdftex.def)             Requested size: 352.8155pt x 213.34654pt.
+
+<catch-the-spheres.jpg, id=248, 1063.72406pt x 557.08125pt>
+File: catch-the-spheres.jpg Graphic file (type jpg)
+
+<use catch-the-spheres.jpg>
+Package pdftex.def Info: catch-the-spheres.jpg used on input line 106.
+(pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[44]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[45]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[46 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+accelerometer_game.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao
+/Modelo_LateX_Copin/catch-the-spheres.jpg>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[47]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[48]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[49]
+Overfull \hbox (12.0pt too wide) in alignment at lines 193--196
+ [] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 196--200
+ [] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 200--202
+ [] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 202--204
+ [] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 205.
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 204--224
+ [] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 224--228
+ [] 
+ []
+
+
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[50]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[51]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[52] <chart_1.png, id=278, 186.6975pt x 150.5625pt>
+File: chart_1.png Graphic file (type png)
+ <use chart_1.png>
+Package pdftex.def Info: chart_1.png used on input line 264.
+(pdftex.def)             Requested size: 132.30666pt x 106.70253pt.
+
+<chart_2.png, id=279, 346.29375pt x 150.5625pt>
+File: chart_2.png Graphic file (type png)
+ <use chart_2.png>
+Package pdftex.def Info: chart_2.png used on input line 272.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+<chart_3.png, id=280, 346.29375pt x 150.5625pt>
+File: chart_3.png Graphic file (type png)
+ <use chart_3.png>
+Package pdftex.def Info: chart_3.png used on input line 279.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+<chart_4.png, id=281, 346.29375pt x 150.5625pt>
+File: chart_4.png Graphic file (type png)
+ <use chart_4.png>
+Package pdftex.def Info: chart_4.png used on input line 286.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+<chart_5.png, id=282, 346.29375pt x 150.5625pt>
+File: chart_5.png Graphic file (type png)
+ <use chart_5.png>
+Package pdftex.def Info: chart_5.png used on input line 293.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+<chart_6.png, id=283, 346.29375pt x 150.5625pt>
+File: chart_6.png Graphic file (type png)
+ <use chart_6.png>
+Package pdftex.def Info: chart_6.png used on input line 300.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+Underfull \hbox (badness 1067) in paragraph at lines 301--301
+[]\T1/ptm/m/n/10.95 (f) |Per-gunta 6 (Sim: 44%;
+ []
+
+<chart_7.png, id=284, 346.29375pt x 150.5625pt>
+File: chart_7.png Graphic file (type png)
+ <use chart_7.png>
+Package pdftex.def Info: chart_7.png used on input line 307.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+<chart_8.png, id=285, 346.29375pt x 150.5625pt>
+File: chart_8.png Graphic file (type png)
+ <use chart_8.png>
+Package pdftex.def Info: chart_8.png used on input line 314.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+<chart_9.png, id=286, 346.29375pt x 150.5625pt>
+File: chart_9.png Graphic file (type png)
+ <use chart_9.png>
+Package pdftex.def Info: chart_9.png used on input line 321.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+Underfull \hbox (badness 1178) in paragraph at lines 322--322
+[]\T1/ptm/m/n/10.95 (i) |Per-gunta 9 (Sim: 72%;
+ []
+
+<chart_10.png, id=287, 346.29375pt x 150.5625pt>
+File: chart_10.png Graphic file (type png)
+ <use chart_10.png>
+Package pdftex.def Info: chart_10.png used on input line 328.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+
+Underfull \hbox (badness 7238) in paragraph at lines 329--329
+\T1/ptm/m/n/10.95 Cri-an-ças: 10%; Adul-tos:
+ []
+
+<chart_11.png, id=288, 346.29375pt x 150.5625pt>
+File: chart_11.png Graphic file (type png)
+ <use chart_11.png>
+Package pdftex.def Info: chart_11.png used on input line 335.
+(pdftex.def)             Requested size: 132.30666pt x 57.52448pt.
+)
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\cap_
+conclusao.tex
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[53]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[54 <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/
+chart_1.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_Lat
+eX_Copin/chart_2.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/M
+odelo_LateX_Copin/chart_3.png> <C:/Users/antonio/Dropbox/mestrado/proposta/diss
+ertacao/Modelo_LateX_Copin/chart_4.png> <C:/Users/antonio/Dropbox/mestrado/prop
+osta/dissertacao/Modelo_LateX_Copin/chart_5.png> <C:/Users/antonio/Dropbox/mest
+rado/proposta/dissertacao/Modelo_LateX_Copin/chart_6.png> <C:/Users/antonio/Dro
+pbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/chart_7.png> <C:/Users/an
+tonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/chart_8.png> <C:
+/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copin/chart_9
+.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_LateX_Copi
+n/chart_10.png> <C:/Users/antonio/Dropbox/mestrado/proposta/dissertacao/Modelo_
+LateX_Copin/chart_11.png>]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[55]
+Cap\'{\i }tulo 6.
+[56
+
+])
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\main
+.bbl
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[57] [58
+
+]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[59]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[60]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[61]
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[62])
+Overfull \vbox (9.74998pt too high) has occurred while \output is active []
+
+
+[63]
+(C:\Users\antonio\Dropbox\mestrado\proposta\dissertacao\Modelo_LateX_Copin\main
+.aux) ) 
+Here is how much of TeX's memory you used:
+ 5337 strings out of 494045
+ 77833 string characters out of 3152814
+ 175139 words of memory out of 3000000
+ 8495 multiletter control sequences out of 15000+200000
+ 54294 words of font info for 64 fonts, out of 3000000 for 9000
+ 716 hyphenation exceptions out of 8191
+ 36i,11n,42p,1570b,1715s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/avulso/miktex/fonts/enc/dvips/fontname/8r.enc}<C:/avulso/miktex/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><C:/avulso/miktex/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/avulso/miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/avulso/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/avulso/miktex/font
+s/type1/urw/courier/ucrr8a.pfb><C:/avulso/miktex/fonts/type1/urw/times/utmb8a.p
+fb><C:/avulso/miktex/fonts/type1/urw/times/utmbi8a.pfb><C:/avulso/miktex/fonts/
+type1/urw/times/utmr8a.pfb><C:/avulso/miktex/fonts/type1/urw/times/utmri8a.pfb>
+
+Output written on main.pdf (72 pages, 2573812 bytes).
+PDF statistics:
+ 355 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+

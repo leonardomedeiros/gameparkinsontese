@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: propostaa-main.aux
+The style file: unsrt.bst
+Database file #1: ../bibtex/biblmm.bib
+Warning--entry type for "proj-diretriz2013" isn't style-file defined
+--line 5707 of file ../bibtex/biblmm.bib
+Warning--entry type for "neozeland-guide-2013" isn't style-file defined
+--line 11487 of file ../bibtex/biblmm.bib
+Warning--entry type for "nhs2013" isn't style-file defined
+--line 11533 of file ../bibtex/biblmm.bib
+Warning--entry type for "kinnect2013" isn't style-file defined
+--line 16467 of file ../bibtex/biblmm.bib
+Warning--entry type for "unity3d" isn't style-file defined
+--line 22385 of file ../bibtex/biblmm.bib
+Warning--entry type for "zigfu" isn't style-file defined
+--line 24775 of file ../bibtex/biblmm.bib
+A bad cross reference---entry "vedolin2003"
+refers to entry "10.1590/S0100-39842003000200017", which doesn't exist
+Warning--I didn't find a database entry for "10.1590/S0100-39842003000200017"
+Warning--can't use both author and editor fields in albanese2012
+Warning--can't use both author and editor fields in limongi2002
+Too many commas in name 1 of "A.C. Amadio, P.H. Lobo da Costa, I.C.N. Sacco, J.C. Serrão, R.C. Araujo, L. Mochizuki e M. Duarte" for entry biomecanica99
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "A.C. Amadio, P.H. Lobo da Costa, I.C.N. Sacco, J.C. Serrão, R.C. Araujo, L. Mochizuki e M. Duarte" for entry biomecanica99
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "A.C. Amadio, P.H. Lobo da Costa, I.C.N. Sacco, J.C. Serrão, R.C. Araujo, L. Mochizuki e M. Duarte" for entry biomecanica99
+while executing---line 944 of file unsrt.bst
+Warning--can't use both author and editor fields in hamill1999bases
+Warning--empty publisher in hamill1999bases
+Name 8 in "Charline Cleraux and Carroll Croarkin and James Filliben and Will Guthrie and Alan Heckert and Mark Reeder and Tom Ryan and Jolene Splett, and Nien-Fan Zhang" has a comma at the end for entry statisticshandbook2009
+while executing---line 944 of file unsrt.bst
+Warning--can't use both author and editor fields in statisticshandbook2009
+Warning--empty publisher in statisticshandbook2009
+Warning--can't use both author and editor fields in aura2007
+Warning--can't use both author and editor fields in algebra90
+Warning--there's a month but no year in matlab2011
+Warning--can't use both author and editor fields in statisticterms2006
+Warning--empty publisher in spem08
+Warning--can't use both author and editor fields in conep2002
+You've used 102 entries,
+            1791 wiz_defined-function locations,
+            999 strings with 21664 characters,
+and the built_in function-call counts, 21689 in all, are:
+= -- 1907
+> -- 913
+< -- 18
++ -- 354
+- -- 252
+* -- 1207
+:= -- 3392
+add.period$ -- 319
+call.type$ -- 102
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 114
+duplicate$ -- 1085
+empty$ -- 2246
+format.name$ -- 252
+if$ -- 4998
+int.to.chr$ -- 0
+int.to.str$ -- 102
+missing$ -- 113
+newline$ -- 510
+num.names$ -- 108
+pop$ -- 425
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 495
+stack$ -- 0
+substring$ -- 1026
+swap$ -- 264
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 12
+while$ -- 181
+width$ -- 105
+write$ -- 1097
+(There were 5 error messages)

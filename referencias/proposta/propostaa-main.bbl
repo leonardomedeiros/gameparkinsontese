@@ -1,0 +1,609 @@
+\begin{thebibliography}{100}
+
+\bibitem{moore2011basics}
+M.E. Moore.
+\newblock {\em Basics of Game Design}.
+\newblock Taylor \& Francis Group, 2011.
+
+\bibitem{baran08}
+Tom Baranowski, Richard Buday, Debbe~I Thompson, and Janice Baranowski.
+\newblock Playing for real: video games and stories for health-related behavior
+  change.
+\newblock {\em American Journal of Preventive Medicine}, 34(1):74--82, 2008.
+
+\bibitem{maitland}
+J.~Maitland, S.~Sherwood, L.~Barkhuus, I.~Anderson, M.~Hall, B.~Brown,
+  M.~Chalmers, and H.~Muller.
+\newblock Increasing the awareness of daily activity levels with pervasive
+  computing.
+\newblock In {\em Pervasive Health Conference and Workshops, 2006}, pages 1
+  --9, 29 2006-dec. 1 2006.
+
+\bibitem{Suhonen:2008:SFE:1457199.1457204}
+Katja Suhonen, Heli V\"{a}\"{a}t\"{a}j\"{a}, Tytti Virtanen, and Roope Raisamo.
+\newblock Seriously fun: exploring how to combine promoting health awareness
+  and engaging gameplay.
+\newblock In {\em Proceedings of the 12th international conference on
+  Entertainment and media in the ubiquitous era}, MindTrek '08, pages 18--22,
+  New York, NY, USA, 2008. ACM.
+
+\bibitem{Hardy2011}
+S.~Hardy, A.~El~Saddik, S.~Gobel, and R.~Steinmetz.
+\newblock Context aware serious games framework for sport and health.
+\newblock In {\em Medical Measurements and Applications Proceedings (MeMeA),
+  2011 IEEE International Workshop on}, pages 248 --252, may 2011.
+
+\bibitem{vaghetti2011}
+Silvia Silva da Costa~Botelho César Augusto Otero~Vaghetti, Pollyana
+  Notargiacomo~Mustaro.
+\newblock Exergames no ciberespaço: uma possibilidade para educação física.
+\newblock {\em SBC - Proceedings of SBGames}, 2011.
+
+\bibitem{visionbased2009}
+Chien-Wen Cho, Wen-Hung Chao, Sheng-Huang Lin, and You-Yin Chen.
+\newblock A vision-based analysis system for gait recognition in patients with
+  parkinson's disease.
+\newblock {\em Expert Syst. Appl.}, 36:7033--7039, April 2009.
+
+\bibitem{patel_monitoring_2009}
+S.~Patel, K.~Lorincz, R.~Hughes, N.~Huggins, J.~Growdon, D.~Standaert, M.~Akay,
+  J.~Dy, M.~Welsh, and P.~Bonato.
+\newblock Monitoring motor fluctuations in patients with parkinson's disease
+  using wearable sensors.
+\newblock {\em {IEEE} Transactions on Information Technology in Biomedicine},
+  13(6):864--873, November 2009.
+
+\bibitem{bachlin_parkinsons_2009}
+M.~Bachlin, M.~Plotnik, D.~Roggen, N.~Inbar, N.~Giladi, J.~Hausdorff, and
+  G.~Tr\"{o}ster.
+\newblock Parkinsons disease patients perspective on context aware wearable
+  technology for auditive assistance.
+\newblock In {\em 3rd International Conference on Pervasive Computing
+  Technologies for Healthcare, 2009. {PervasiveHealth} 2009}, pages 1--8.
+  {IEEE}, April 2009.
+
+\bibitem{aarh10}
+Rikke Aarhus and Stinne~Aal{\o}kke Ballegaard.
+\newblock Negotiating boundaries: managing disease at home.
+\newblock In {\em Proceedings of the 28th international conference on Human
+  factors in computing systems}, CHI '10, pages 1223--1232, New York, NY, USA,
+  2010. ACM.
+
+\bibitem{alemdar}
+Hande Alemdar and Cem Ersoy.
+\newblock Wireless sensor networks for healthcare: A survey.
+\newblock {\em Computer Networks}, 54(15):2688--2710, October 2010.
+
+\bibitem{LeMoyne2009}
+R.~LeMoyne, C.~Coroian, and T.~Mastroianni.
+\newblock Quantification of parkinson's disease characteristics using wireless
+  accelerometers.
+\newblock In {\em Complex Medical Engineering, 2009. CME. ICME International
+  Conference on}, pages 1 --5, april 2009.
+
+\bibitem{lemoyne2010}
+R.~LeMoyne, T.~Mastroianni, M.~Cozza, C.~Coroian, and W.~Grundfest.
+\newblock Implementation of an iphone for characterizing parkinson's disease
+  tremor through a wireless accelerometer application.
+\newblock In {\em Engineering in Medicine and Biology Society (EMBC), 2010
+  Annual International Conference of the IEEE}, pages 4954 --4958, 31
+  2010-sept. 4 2010.
+
+\bibitem{Papastergiou:2009:EPC:1570538.1570707}
+Marina Papastergiou.
+\newblock Exploring the potential of computer and video games for health and
+  physical education: A literature review.
+\newblock {\em Comput. Educ.}, 53:603--622, November 2009.
+
+\bibitem{Kato:2008}
+Pamela~M. Kato, Steve~W. Cole, Andrew~S. Bradlyn, and Brad~H. Pollock.
+\newblock A video game improves behavioral outcomes in adolescents and young
+  adults with cancer: A randomized trial.
+\newblock {\em PEDIATRICS}, 122(2):305 -- 317, 2008.
+
+\bibitem{Sinclair:2009:UVB:1515604.1515617}
+Jeff Sinclair, Philip Hingston, Martin Masek, and Kazunori~(Ken) Nosaka.
+\newblock Using a virtual body to aid in exergaming system development.
+\newblock {\em IEEE Comput. Graph. Appl.}, 29(2):39--48, March 2009.
+
+\bibitem{arntzen2011}
+Aurelie Aurilla~Bechina Arntzen.
+\newblock Game based learning to enhance cognitive and physical capabilities of
+  elderly people: Concepts and requirements.
+\newblock {\em World Academy of Science Engineering and Technology}, 60, 2011.
+
+\bibitem{Ballegaard:2008:HEL:1357054.1357336}
+Stinne~Aal{\o}kke Ballegaard, Thomas~Riisgaard Hansen, and Morten Kyng.
+\newblock Healthcare in everyday life: designing healthcare services for daily
+  life.
+\newblock In {\em Proceeding of the twenty-sixth annual SIGCHI conference on
+  Human factors in computing systems}, CHI '08, pages 1807--1816, New York, NY,
+  USA, 2008. ACM.
+
+\bibitem{albanese2012}
+Alberto Albanese and Joseph Jankovic.
+\newblock {\em Hyperkinectic Movement Disorder - Diferential Diagnosis and
+  Treatment}.
+\newblock Wiley-Blackwell, 2012.
+
+\bibitem{rodrigues2006}
+Luciane Costa~Campos Milena~Rodrigues.
+\newblock EstratÉgia para o tratamento com levodopa na doenÇa de parkinson.
+\newblock {\em Revista Analytica}, 26, 2006.
+
+\bibitem{sommerville2011}
+Ian Sommerville.
+\newblock {\em Engenharia de software}.
+\newblock PEARSON, 2011.
+
+\bibitem{flynt2005software}
+J.P. Flynt and O.~Salem.
+\newblock {\em Software Engineering for Game Developers}.
+\newblock Software Engineering Series. Course Technology Ptr, 2005.
+
+\bibitem{bethke2003game}
+E.~Bethke.
+\newblock {\em Game development and production}.
+\newblock Wordware game developer's library. Wordware Publishing, Incorporated,
+  2003.
+
+\bibitem{origame-2012}
+Luis F. de~Almeida Rafael A.~Santos, Vinicius A.~Góes.
+\newblock Metodologia origame: um processo de desenvolvimento de jogos.
+\newblock In {\em SBC - Proceedings of SBGames 2012}, 2012.
+
+\bibitem{petrillo2008}
+Fábio Dos~Santos Petrillo.
+\newblock Práticas Ágeis no processo de desenvolvimento de jogos
+  eletrônicos.
+\newblock Master's thesis, UFRGS, 2008.
+
+\bibitem{kanode2009}
+Christopher~M. Kanode and Hisham~M. Haddad.
+\newblock Software engineering challenges in game development.
+\newblock In {\em Proceedings of the 2009 Sixth International Conference on
+  Information Technology: New Generations}, ITNG '09, pages 260--265,
+  Washington, DC, USA, 2009. IEEE Computer Society.
+
+\bibitem{fullerton2008game}
+T.~Fullerton, C.~Swain, and S.~Hoffman.
+\newblock {\em Game Design Workshop: A Playcentric Approach to Creating
+  Innovative Games}.
+\newblock Gama Network Series. Elsevier Morgan Kaufmann, 2008.
+
+\bibitem{keith2010agile}
+C.~Keith.
+\newblock {\em Agile Game Development with Scrum}.
+\newblock Addison Wesley Signature Series. Addison Wesley, 2010.
+
+\bibitem{menezes2003}
+Hélio A.~G. Teive.
+\newblock {\em Doença De Parkinson - Meneses}.
+\newblock Guanabara Koogan, 2003.
+
+\bibitem{protpar010}
+Paulo~Dornelles Picon, Maria Inez~Pordeu Gadelha, and Alberto Beltrame.
+\newblock {\em Protocolo Clínico E Diretrizes Terapêutica - Doença de
+  Parkinson}.
+\newblock Ministério da Saúde, 2010.
+
+\bibitem{moris98}
+P~K Morrish, J~S Rakshi, D~L Bailey, G~V Sawle, and D~J Brooks.
+\newblock Measuring the rate of progression and estimating the preclinical
+  period of parkinson’s disease with fdopa pet.
+\newblock {\em J Neurol Neurosurg Psychiatry}, 64:314--319, 1998.
+
+\bibitem{kostek12}
+Bozena Kostek, Katarzyna Kaszuba, Pawel Zwan, Piotr Robowski, and Jaroslaw
+  Slawek.
+\newblock Automatic assessment of the motor state of the parkinson's disease
+  patient - a case study.
+\newblock {\em Diagn Pathol}, 7:18, 2012.
+
+\bibitem{tolosa06}
+Eduardo Tolosa, Gregor Wenning, and Werner Poewe.
+\newblock The diagnosis of parkinson's disease.
+\newblock {\em The Lancet Neurology}, 5(1):75--86, January 2006.
+
+\bibitem{rowlandtratado}
+Lewis~P. Rowland.
+\newblock {\em Tratado De Neurologia}.
+\newblock Guanabara Koogan, 2011.
+
+\bibitem{limongi2002}
+João Carlos~Papaterra Limongi.
+\newblock {\em Conhecendo melhor a doença de Parkinson: uma abordagem
+  multidisciplinar com orientações práticas para o dia-a-dia}.
+\newblock Plexus, 2001.
+
+\bibitem{do2007parkinson}
+S.F. DO, W.~Weiner, S.~Factor, and W.~Weiner.
+\newblock {\em Parkinson's Disease: Diagnosis Clinical Management : Second
+  Edition}.
+\newblock Demos Medical Publishing, 2007.
+
+\bibitem{updrs87}
+S.~Fahn and R.~Elton.
+\newblock Unified parkinson's disease rating scale.
+\newblock In S.~et~al Fahn, editor, {\em Recent developments in Parkinson's
+  disease}, pages 153--63. Macmillan Health Care Information, New Jersey, 1987.
+
+\bibitem{Hoehn_Yahr_2001}
+M~M Hoehn and M~D Yahr.
+\newblock Parkinsonism: onset, progression, and mortality. 1967.
+\newblock {\em Neurology}, 57(2):318 and 16 pages following, 2001.
+
+\bibitem{goul05}
+Fátima Goulart and Luciana~Xavier Pereira.
+\newblock Uso de escalas para avaliação da doença de parkinson em
+  fisioterapia.
+\newblock {\em Fisioterapia e Pesquisa}, Volume II, 2005.
+
+\bibitem{synnott_wiipd_2012}
+J.~Synnott, Liming Chen, {C.D.} Nugent, and G.~Moore.
+\newblock Wiipd objective home assessment of parkinson's disease using the
+  nintendo wii remote.
+\newblock {\em {IEEE} Transactions on Information Technology in Biomedicine},
+  16(6):1304--1312, 2012.
+
+\bibitem{biomecanica99}
+I.C.N. Sacco J.C. Serrão R.C. Araujo L. Mochizuki e M.~Duarte A.C.~Amadio,
+  P.H. Lobo da~Costa.
+\newblock Introdução à biomecânica para análise do movimento humano.
+\newblock {\em Revista Brasileira De Fisioterapia}, 3, 1999.
+
+\bibitem{gabel2012}
+Moshe Gabel, Ran Gilad-Bachrach, Erin Renshaw, and Assaf Schuster.
+\newblock Full body gait analysis with kinect.
+\newblock {\em Conf Proc IEEE Eng Med Biol Soc}, 2012:1964--7, 2012.
+
+\bibitem{gaitusingsensorsreview2012}
+Weijun Tao, Tao Liu, Rencheng Zheng, and Hutian Feng.
+\newblock Gait analysis using wearable sensors.
+\newblock {\em Sensors}, 12(2):2255--2283, 2012.
+
+\bibitem{hamill1999bases}
+J.~Hamill, K.M. Knutzen, L.B. Ribeiro, and V.J. Barbanti.
+\newblock {\em Bases biomecânicas do movimento humanos}.
+\newblock 2012.
+
+\bibitem{mcginnis2013biomechanics}
+P.~McGinnis.
+\newblock {\em Biomechanics of Sport and Exercise}.
+\newblock Human Kinetics, 2013.
+
+\bibitem{traducaogait2011}
+Marta Regiane~Corrocher Gaino.
+\newblock Análise da tradução de termos técnicos relacionados ao estudo da
+  marcha dentro da obra \textit{Motor Control}.
+\newblock In {\em PROFT em Revista - Anais do Simpósio Profissão Tradutor
+  2010}, 2011.
+
+\bibitem{turcot2008}
+Katia Turcot, Rachid Aissaoui, Karine Boivin, Michel Pelletier, Nicola
+  Hagemeister, and Jacques~A. de~Guise.
+\newblock New accelerometric method to discriminate between asymptomatic
+  subjects and patients with medial knee osteoarthritis during 3-d gait.
+\newblock {\em IEEE Trans. Biomed. Engineering}, 55(4):1415--1422, 2008.
+
+\bibitem{ambulatoryparkinson2010}
+D.G.M. Zwartjes, T.~Heida, J.P.P. van Vugt, J.A.G. Geelen, and P.H. Veltink.
+\newblock Ambulatory monitoring of activities and motor symptoms in parkinson's
+  disease.
+\newblock {\em Biomedical Engineering, IEEE Transactions on},
+  57(11):2778--2786, 2010.
+
+\bibitem{neumann2012cinesiologia}
+D.A. Neumann.
+\newblock {\em Cinesiologia do Aparelho Musculoesquelético: Fundamentos para
+  Reabilitação}.
+\newblock Elsevier Health Sciences, 2012.
+
+\bibitem{eigenfaces91}
+Matthew Turk and Alex Pentland.
+\newblock Eigenfaces for recognition.
+\newblock {\em J. Cognitive Neuroscience}, 3(1):71--86, January 1991.
+
+\bibitem{statisticshandbook2009}
+Charline Cleraux, Carroll Croarkin, James Filliben, Will Guthrie, Alan Heckert,
+  Mark Reeder, Tom Ryan, Jolene Splett, and Nien-Fan Zhang.
+\newblock {\em NIST/SEMATECH Engineering Statistics Handbook}.
+\newblock 2003.
+
+\bibitem{smith2002}
+Lindsay~I Smith.
+\newblock A tutorial on principal components analysis.
+\newblock Technical report, Cornell University, USA, February 26 2002.
+
+\bibitem{aura2007}
+Fabiana~Leta Aura~Conci, Eduardo~Azevedo.
+\newblock {\em Computação Gráfica: Processamento de Imagens Digitais -
+  Volume 2}, volume Vol. 2.
+\newblock Elsevier, 2007.
+
+\bibitem{vicini2005}
+Lorena Vicini.
+\newblock Análise multivariada da teoria À prática.
+\newblock Master's thesis, Universidade Federal de Santa Maria, 2005.
+
+\bibitem{vapnik95}
+Vladimir~N. Vapnik.
+\newblock {\em The Nature of Statistical Learning Theory}.
+\newblock Springer-Verlag New York, Inc., New York, NY, USA, 1995.
+
+\bibitem{svm-cg-2002}
+Eulanda~Miranda dos Santos.
+\newblock Teoria e aplicação de support vector machines à aprendizagem e
+  reconhecimento de objetos baseado na aparência.
+\newblock Master's thesis, Universidade Federal de Campina Grande, 2002.
+
+\bibitem{valt2010}
+Valter Filipe~Carnim Gonçalves.
+\newblock Análise comparativa dos classificadores máquinas de suporte
+  vectorial e redes neuronais artificiais: Aplicação na detecção de peões
+  e veículos.
+\newblock Master's thesis, Universidade de Coimbra, 2010.
+
+\bibitem{sinclair07}
+Jeff Sinclair, Philip Hingston, and Martin Masek.
+\newblock Considerations for the design of exergames.
+\newblock Technical report, ACM Special Interest Group on Computer Graphics and
+  Interactive Techniques, 2007.
+
+\bibitem{sweetser2005-gameflow}
+Penelope Sweetser and Peta Wyeth.
+\newblock Gameflow: a model for evaluating player enjoyment in games.
+\newblock {\em Comput. Entertain.}, 3(3):3--3, July 2005.
+
+\bibitem{peakdetect}
+Eli Billauer.
+\newblock Peak detection in matlab.
+\newblock Software http://www.billauer.co.il/peakdet.html, Julho 2012.
+
+\bibitem{algebra90}
+Hygino H. Domingues E Roberto C.f.~Costa Carlos A.~Callioli.
+\newblock {\em Álgebra Linear E Aplicações}.
+\newblock Atual, 1990.
+
+\bibitem{matlab2011}
+Mathworks.
+\newblock Matlab 7.12.0.635 (r2011a).
+\newblock Software, 2011.
+
+\bibitem{statisticterms2006}
+Yadolah Dodge, David Cox, Daniel Commenges, Anthony Davison, Patty Solomon, and
+  Suzan Wilson.
+\newblock {\em The Oxford Dictionary of Statistical Terms}.
+\newblock Oxford University Press, 2006.
+
+\bibitem{unity3d}
+Unity Technologies.
+\newblock Unity 3d 3.0, Maio 2013.
+
+\bibitem{antonio2013}
+Antônio~Dias dos Santos~Júnior.
+\newblock Arcabouço de software para a aquisição de dados de saúde através
+  de jogos eletrônicos.
+\newblock Master's thesis, Universidade Federal de Campina Grande, 2013.
+
+\bibitem{unitysue}
+Sue Blackman.
+\newblock {\em Beginning 3D Game Development with Unity: All-in-one,
+  multi-platform game development}.
+\newblock Apress, 2011.
+
+\bibitem{zigfu}
+Zigfu.
+\newblock Zigfu 4.0, Janeiro 2014.
+
+\bibitem{kinnect2013}
+Microsoft.
+\newblock Ms-kinnect.
+\newblock http://www.xbox.com/pt-BR/kinect, Maio 2013.
+
+\bibitem{rucker2003software}
+R.B. Rucker.
+\newblock {\em Software engineering and computer games}.
+\newblock Addison-Wesley Longman, Incorporated, 2003.
+
+\bibitem{Suhonen_2010}
+Katja Suhonen.
+\newblock Assessing the applicability of modular playability heuristics for
+  evaluating health-enhancing games.
+\newblock {\em Methods}, pages 147--150, 2010.
+
+\bibitem{herber2011}
+Herbet~Ferreira Rodrigues.
+\newblock Aplicando sistemas hápticos em serious games: Um jogo para a
+  educação em higiene bucal.
+\newblock Master's thesis, Universidade Federal da Paraíba, 2011.
+
+\bibitem{bartolome11}
+N.A. Bartolome, A.M. Zorrilla, and B.G. Zapirain.
+\newblock Can game-based therapies be trusted? is game-based education
+  effective? a systematic review of the serious games for health and education.
+\newblock In {\em Computer Games (CGAMES), 2011 16th International Conference
+  on}, pages 275 --282, july 2011.
+
+\bibitem{kato12}
+Pamela~M. Kato.
+\newblock Evaluating efficacy and validating games for health.
+\newblock {\em GAMES FOR HEALTH JOURNAL}, 1, 2012.
+
+\bibitem{spem08}
+Object~Management Group.
+\newblock {\em Software Systems Process Engineering Meta-Model Specification -
+  Version 2.0}.
+\newblock 2008.
+
+\bibitem{schell2008art}
+J.~Schell.
+\newblock {\em The art of game design: a book of lenses}.
+\newblock Morgan Kaufmann. Elsevier/Morgan Kaufmann Publishers, 2008.
+
+\bibitem{brathwaite2009challenges}
+B.~Brathwaite and I.~Schreiber.
+\newblock {\em Challenges for game designers}.
+\newblock Charles River Media, a part of Course Technology, 2009.
+
+\bibitem{yannakakis06}
+J.~Hallam G.~N.~Yannakakis and H.~H. Lund.
+\newblock Comparative fun analysis in the innovative playware game platform.
+\newblock {\em Proceedings of the 1st World Conference for Fun ‘n Games},
+  pages 64--70, 2006.
+
+\bibitem{brox11}
+E.~Brox, L.F. Luque, G.J. Evertsen, and J.E.G. Hernandez.
+\newblock Exergames for elderly: Social exergames to persuade seniors to
+  increase physical activity.
+\newblock In {\em Pervasive Computing Technologies for Healthcare
+  (PervasiveHealth), 2011 5th International Conference on}, pages 546--549,
+  2011.
+
+\bibitem{conselho2000normas}
+Conselho~Nacional de~Saúde e Conselho Nacional de Saúde. Comissão Nacional
+  de Etica em Pesquisade e Conselho Nacional de Saúde. Comissão Nacional de
+  Ética~em Pesquisa.
+\newblock {\em Normas para pesquisa envolvendo seres humanos: (Res. CNS 196/96
+  e outras)}.
+\newblock S{\'e}rie Cadernos T{\'e}cnicos. Ministério Da Saúderio da Saúde,
+  2000.
+
+\bibitem{conep2002}
+Comissão~Nacional de~Ética~em Pesquisa–CONEP.
+\newblock {\em Manual Operacional Para Comitês De Ética Em Pesquisa}.
+\newblock Ministério Da Saúde, 2002.
+
+\bibitem{menezes2001epidemiologia}
+Ana~MB Menezes.
+\newblock Noções básicas de epidemiologia.
+\newblock {\em Epidemiologia das Doenças Respiratórias}, 1, 2001.
+
+\bibitem{nhs2013}
+National~Institute of~Health~Research.
+\newblock Improving the heatlh and wealth of the nation through research.
+\newblock http://www.nihr.ac.uk/publications/Pages/default.aspx, 2013 Maio.
+
+\bibitem{neozeland-guide-2013}
+Ministry of~Health.
+\newblock New zealand guidelines group.
+\newblock http://www.nzgg.org.nz, Maio 2013.
+
+\bibitem{proj-diretriz2013}
+Associação~Médico Brasileira.
+\newblock Projeto diretrizes, 05 2013.
+
+\bibitem{prototipgames2007}
+André~Neves Felipe Borba~Breyer, Diego~Credidio.
+\newblock Prototipagem rápida para avaliação de game design.
+\newblock {\em SBGames 2007}, 2007.
+
+\bibitem{FLI04}
+Uwe Flick.
+\newblock {\em Pesquisa Qualitativa}.
+\newblock Bookman, 2004.
+
+\bibitem{qda13}
+Provalis Research.
+\newblock Qda miner lite v1.2.2, 2013.
+\newblock {D}isponível em
+  http://provalisresearch.com/products/qualitative-data-analysis-software/.
+
+\bibitem{national2006parkinson}
+National~Institute for Health and Clinical Excellence~(Great Britain).
+\newblock {\em Parkinson's Disease: Diagnosis and Management in Primary and
+  Secondary Care}.
+\newblock NICE clinical guideline. National Institute for Health and Clinical
+  Excellence, 2006.
+
+\bibitem{vedolin2003}
+Leonardo Vedolin.
+\newblock Avaliação da doença de parkinson pela ressonância magnética.
+\newblock {\em Radiologia Brasileira}, 36:110 -- 110, 03 2003.
+
+\bibitem{bas00}
+Bashar Nuseibeh and Steve Easterbrook.
+\newblock Requirements engineering: A roadmap.
+\newblock In {\em Proceedings of the Conference on The Future of Software
+  Engineering}, ICSE '00, pages 35--46, New York, NY, USA, 2000. ACM.
+
+\bibitem{elicquest05}
+Paulo~Roberto de~Oliveira Bastos~Junior.
+\newblock Elicitação de requisitos de software através da utilização de
+  questionários.
+\newblock Master's thesis, PUC-Rio, 2005.
+
+\bibitem{zowghi2005}
+Didar Zowghi and Chad Coulin.
+\newblock Requirements elicitation: A survey of techniques, approaches, and
+  tools.
+\newblock In Aybüke Aurum and Claes Wohlin, editors, {\em Engineering and
+  Managing Software Requirements}, pages 19--46. Springer Berlin Heidelberg,
+  2005.
+
+\bibitem{keijsers2006}
+N.~L. Keijsers, M.~W. Horstink, and S.~C. Gielen.
+\newblock Ambulatory motor assessment in parkinson's disease.
+\newblock {\em Movement disorders : official journal of the Movement Disorder
+  Society}, 21(1):34--44, January 2006.
+
+\bibitem{finger2012}
+Y.~Sano, A.~Kandori, T.~Miyoshi, T.~Tsuji, K.~Shima, M.~Yokoe, and S.~Sakoda.
+\newblock Severity estimation of finger-tapping caused by parkinson's disease
+  by using linear discriminant regression analysis.
+\newblock In {\em Engineering in Medicine and Biology Society (EMBC), 2012
+  Annual International Conference of the IEEE}, pages 4315--4318, 2012.
+
+\bibitem{physionet}
+A.~L. Goldberger, L.~A.~N. Amaral, L.~Glass, J.~M. Hausdorff, P.~Ch. Ivanov,
+  R.~G. Mark, J.~E. Mietus, G.~B. Moody, C.-K. Peng, and H.~E. Stanley.
+\newblock Physiobank, physiotoolkit, and physionet: Components of a new
+  research resource for complex physiologic signals.
+\newblock {\em Circulation}, 101(23):e215--e220, 2000 (June 13).
+\newblock Circulation Electronic Pages:
+  http://circ.ahajournals.org/cgi/content/full/101/23/e215 PMID:1085218; doi:
+  10.1161/01.CIR.101.23.e215.
+
+\bibitem{medeiros2013}
+L.~Medeiros, Fischer. R., Oliveira H., Silva L, and Perkusich A.
+\newblock Monitoring parkinson related gait disorder with eigengaits.
+\newblock In {\em XX World Congress on Parkinson Disease and Related Disorders
+  - Abstract Book}, 2013.
+
+\bibitem{Shlens05atutorial}
+Jonathon Shlens.
+\newblock A tutorial on principal component analysis.
+\newblock In {\em Systems Neurobiology Laboratory, Salk Institute for
+  Biological Studies}, 2005.
+
+\bibitem{datamining2005}
+Ian~H. Witten and Eibe Frank.
+\newblock {\em Data Mining: Practical Machine Learning Tools and Techniques,
+  Second Edition (Morgan Kaufmann Series in Data Management Systems)}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 2005.
+
+\bibitem{van1999goal}
+R.~Van~Solingen and E.~Berghout.
+\newblock {\em The Goal/Question/Metric Method: A Practical Guide for Quality
+  Improvement of Software Development}.
+\newblock McGraw-Hill, 1999.
+
+\bibitem{saraiva2006}
+Alessandra~Vilches Saraiva.
+\newblock Utilização da abordagem goal-question-metrics (gqm) na elaboração
+  e execução de planos de avaliação de usabilidade de software: Um estudo
+  empírico sobre um software agropecuário.
+\newblock Master's thesis, Universidade Metodista De Piracicaba, 2006.
+
+\bibitem{esa:facts2011}
+Entertainment~Software Association.
+\newblock Essential facts about the u.s. computer and video game industry,
+  2011.
+
+\bibitem{basili94}
+Victor Basili, Gianluigi Caldiera, and Dieter~H. Rombach.
+\newblock The goal question metric approach.
+\newblock In J.~Marciniak, editor, {\em Encyclopedia of Software Engineering}.
+  Wiley, 1994.
+
+\end{thebibliography}

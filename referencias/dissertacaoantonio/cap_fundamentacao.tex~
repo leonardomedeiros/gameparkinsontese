@@ -1,0 +1,24 @@
+\chapter{Fundamentação Teórica} \label{cap:fundamentacao}
+
+\section{Assistência Médica Pervasiva (\emph{Pervasive Healthcare})}
+
+O potencial da computação pervasiva pode ser percebido em várias perspectivas e ambientes, como hospitais, situações de emergência, na indústria, educação, entre outros. O termo Assistência Pervasiva à Saúde, ou \textit{Pervasive Healthcare}, é utilizado para descrever a integração entre o uso da computação pervasiva na assistência médica. A necessidade de sistemas de assistência médica se deve ao fato de que profissionais da saúde precisam de mobilidade, além de terem que compartilhar suas experiências e informações com os demais profissionais responsáveis por determinado paciente~\cite{Varshney07,ahamed2007towards}.
+
+Dentre os benefícios do uso da pervasive healthcare tem-se: a melhoria do tratamento domiciliar do paciente~\cite{Aarhus2010}, a realização do monitoramento remoto e monitoramento contínuo em pacientes que possuem níveis cognitivos e físicos comprometidos~\cite{baker2007wireless}.
+Entretanto, a concepção de um sistema de monitoramento contínuo e que não seja invasivo ainda é um grande desafio~\cite{Alemdar2010}. A necessidade de integrar diferentes sensores em uma única solução torna essa atividade mais difícil, devido a dispositivos pesados, visíveis e estereotipados, como um sensor de ECG, por exemplo. Por esse motivo esses dispositivos enfrentam resistência por parte dos usuários, que passam não utilizá-lo no dia a dia perdendo a possibilidade de monitoramento contínuo da saúde~\cite{Aarhus2010,Alemdar2010}.
+
+\section{Jogos Sérios}
+
+Jogos sérios é um termo usado para descrever jogos que foram projetados especificamente para treinamento e educação. A maioria das pessoas pensa em jogos como uma forma de entretenimento. Entretanto, há um interesse crescente em usar jogos para educar e treinar pessoas~\cite{annetta2010s}.
+
+Apesar de existirem muitas definições para o termo, é consenso entre diferentes autores que o termo refere-se ao uso de jogos de computador cujo o principal propósito não é puramente entreter. De fato, jogos sérios têm sido aplicados em diversas áreas, como treinamento corporativo, cultural e militar, saúde e educação. Muitas dessas áreas estão relacionadas e se sobrepõem, como \textit{e-learning} (educação através de meios eletrônicos), \textit{edutainment} (entretenimento com propóstitos educativos) e aprendizado baseado em jogos comuns e digitais~\cite{rego2010serious}. O campo da medicina tem uma história de utilização de jogos como meios de engajar os pacientes de forma comportamental para melhorar os resultados na sua saúde. Há relatórios antigos de estudos de caso usando jogos com pacientes passando por doenças ou deficiências físicas~\cite{Kato10}.
+
+\section{\emph{Exergames}}
+
+\emph{Exergame} é um termo formado a partir da combinação de \textit{exercise} e \textit{digital gaming}. Esse tipo de jogo envolve o jogador em atividades que o permitem exercitar-se para desenvolver habilidades motoras durante o jogo, focando em grupos musculares maiores em vez de destreza manual ou capacidades motoras finas~\cite{Staiano201117}. Esse novo paradigma de entretenimento possibilitou à indústria de jogos criar títulos para favorecer a pratica de exercícios físicos, visando melhorar o condicionamento físico dos usuarios~\cite{suhonen2008seriously,gobel2010serious}. Atualmente existem trabalhos na área de fisioterapia verificando a eficácia desses jogos para condicionamento físico, reabilitação e aprendizagem motora para pessoas com problemas de mobilidade.
+
+Apesar de \emph{exergames} terem se tornado populares recentementes, a ideia de combinar movimento físico e seu reconhecimento através de visão computacional ou outra tecnologia sensorial não é inteiramente nova. Em 1982, o Atari Puffer\footnote{http://kotaku.com/5009577/atari-puffer-the-wii-fit-of-1982} foi desenvolvido, mas não lançado, como o primeiro \emph{exergame} usando uma bicicleta ergométrica para controlar jogos no Atari 2600.
+
+Agora, a tendência de \emph{exergames} comerciais não é somente usar os videogames como instrumento motivacional para encorajar a prática de exercícios, mas também combiná-los com a coleta de parâmetros vitais. Um exemplo proeminente disso é o \textit{EA Sports Active}, que tem como objetivo não somente reconhecer atividades via acelerômetros e medir a pulsação para propósitos relacionados à saúde (telemonitoramento e análise de dados de exercícios), mas também melhorar o treinamento e resultados do uso de \textit{exergames} em geral~\cite{gobel2010serious}.
+
+\section{Sensores }

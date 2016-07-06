@@ -1,0 +1,66 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{MSV{\etalchar{+}}09}
+
+\bibitem[AW10]{Dearden}
+Peter Wright Simon Bowen Fazilatur Rahman Mark~Cobb {Andy Dearden} and Daniel
+  Wolstenholme.
+\newblock Pervasive healthcare in lived experience: Thinking beyond the home.
+\newblock In {\em International Conference on Pervasive Computing Technologies
+  For Healthcare}, 2010.
+
+\bibitem[LB08]{Munoz}
+Sandra I.~Woolley {Luis U. Hernandez Munoz} and Chris Baber.
+\newblock A mobile health device to help people with severe allergies.
+\newblock In {\em International Conference on Pervasive Computing Technologies
+  For Healthcare}, 2008.
+
+\bibitem[MSV{\etalchar{+}}09]{Mulder}
+Ingrid Mulder, Yvonne Schikhof, Martijn Vastenburg, Alan Card, Tory Dunn,
+  Andreas Komninos, Marilyn McGee-Lennon, Mark Santcroos, Gabriele Tiotto,
+  Mieke~Gils van~van {van van}, Jan-Willem~Klooster van 't, Annelies Veys, and
+  Mohammed~Zarifi Eslami.
+\newblock Designing with care: The future of pervasive healthcare.
+\newblock {\em Pervasive Computing}, 8(4):85--88, October 2009.
+
+\bibitem[MVW09]{Moncrieff}
+Simon Moncrieff, Svetha Venkatesh, and Geoff West.
+\newblock A framework for the design of privacy preserving pervasive
+  healthcare.
+\newblock In {\em Proceedings of the 2009 IEEE international conference on
+  Multimedia and Expo}, ICME'09, pages 1696--1699, Piscataway, NJ, USA, 2009.
+  IEEE Press.
+
+\bibitem[SAK06]{Sharmin}
+Moushumi Sharmin, Shameem Ahmed, and Ahmed~J Khan.
+\newblock Healthcare aide: Towards a virtual assistant for doctors using
+  pervasive middleware.
+\newblock {\em Pervasive Computing and Communications Workshops, IEEE
+  International Conference on}, 0:490--495, 2006.
+
+\bibitem[TdSC06]{Teles}
+Cl{\'a}udio~Pedrosa Teles and Helano de~Sousa~Castro.
+\newblock Jmed -- uma arquitetura de sistema peer-to-peer para servi\c{c}os de
+  assist{\^e}ncia m{\'e}dica distribu{\'i}da {\`a} dist{\^a}ncia.
+\newblock In {\em Congresso Brasileiro de Inform{\'a}tica em Sa{\'u}de}, CBIS
+  2006, 2006.
+
+\bibitem[Wei93]{Weiser}
+Mark Weiser.
+\newblock Some computer science issues in ubiquitous computing.
+\newblock {\em Commun. ACM}, 36:75--84, July 1993.
+
+\bibitem[XA10]{Feng}
+Carl Schulman Jill Graygo Antonio~Marttos {Xin Feng} and Jeffrey Augenstein.
+\newblock Mobilecare: An interactive mobile platform for tele-supported trauma
+  care and education.
+\newblock In {\em Proceedings of the Workshop on Interactive Systems in
+  HealthCare}, WISH 2010, 2010.
+
+\bibitem[ZR10]{Ziefle}
+Martina Ziefle and Carsten Rocker.
+\newblock Acceptance of pervasive healthcare systems: A comparison of different
+  implementation concepts.
+\newblock In {\em International Conference on Pervasive Computing Technologies
+  For Healthcare}, 2010.
+
+\end{thebibliography}
