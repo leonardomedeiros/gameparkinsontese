@@ -1,25 +1,28 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: tese.aux
+This is BibTeX, Version 0.99d (TeX Live 2016/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tese.aux
 The style file: babplain.bst
 Database file #1: biblmmcorfinal.bib
 Warning--entry type for "zigfu" isn't style-file defined
---line 810 of file biblmmcorfinal.bib
+--line 1619 of file biblmmcorfinal.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
---line 993 of file biblmmcorfinal.bib
-Repeated entry---line 1081 of file biblmmcorfinal.bib
+--line 1985 of file biblmmcorfinal.bib
+Repeated entry---line 2161 of file biblmmcorfinal.bib
  : @misc{cbms2016
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1201 of file biblmmcorfinal.bib
+Repeated entry---line 2401 of file biblmmcorfinal.bib
  : @article{compapproachparkinson2015
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1223 of file biblmmcorfinal.bib
+Repeated entry---line 2445 of file biblmmcorfinal.bib
  : @article{compapproachparkinson2015
  :                                   ,
 I'm skipping whatever remains of this entry
 A bad cross reference---entry "brox11"
 refers to entry "conf/ph/2011", which doesn't exist
 Warning--I didn't find a database entry for "conf/ph/2011"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in aarhus_negotiating_2010
 Warning--empty chapter and pages in albanese2012
 Warning--can't use both author and editor fields in abn2010
@@ -27,4 +30,45 @@ Warning--empty publisher in abn2010
 Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
 Warning--empty year in autonomparkin2015
+You've used 99 entries,
+            2788 wiz_defined-function locations,
+            1152 strings with 24117 characters,
+and the built_in function-call counts, 36227 in all, are:
+= -- 2967
+> -- 1605
+< -- 0
++ -- 652
+- -- 540
+* -- 4234
+:= -- 5339
+add.period$ -- 236
+call.type$ -- 99
+change.case$ -- 568
+chr.to.int$ -- 0
+cite$ -- 106
+duplicate$ -- 1930
+empty$ -- 3425
+format.name$ -- 1038
+if$ -- 7395
+int.to.chr$ -- 0
+int.to.str$ -- 99
+missing$ -- 117
+newline$ -- 430
+num.names$ -- 198
+pop$ -- 878
+preamble$ -- 1
+purify$ -- 468
+quote$ -- 0
+skip$ -- 844
+stack$ -- 0
+substring$ -- 529
+swap$ -- 784
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 362
+warning$ -- 7
+while$ -- 199
+width$ -- 101
+write$ -- 1076
 (There were 4 error messages)

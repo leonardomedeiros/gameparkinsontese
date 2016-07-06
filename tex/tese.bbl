@@ -719,14 +719,6 @@
 \newblock \btxpublisherfont {Guanabara Koogan}, \btxeditionnumlong {10}{},
   2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {8527707357}}}.
 
-\bibitem {protpar010}
-\btxnamefont {\btxlastnamefont {Saúde}, Ministério~da}\btxauthorcolon\
-  \btxtitlefont {\btxifchangecase {Protocolo clínico e diretrizes
-  terapêuticas - doença de parkinson - portaria sas/ms nº 228}{Protocolo
-  Clínico E Diretrizes Terapêuticas - Doença De Parkinson - Portaria SAS/MS
-  Nº 228}}.
-\newblock \btxtechreplong {}, Sistema Único de Saúde, 2010.
-
 \bibitem {finger2012}
 \btxnamefont {\btxlastnamefont {Sano}, Yuko}, \btxnamefont {Akihiko
   \btxlastnamefont {Kandori}}, \btxnamefont {Toshinori \btxlastnamefont
@@ -761,6 +753,14 @@
   Software: Um Estudo Empírico Sobre Um Software Agropecuário}}.
 \newblock \btxifchangecase {Dissertação de mestrado}{Dissertação de
   Mestrado}, Universidade Metodista De Piracicaba, 2006.
+
+\bibitem {protpar010}
+\btxnamefont {\btxlastnamefont {Saúde}, Ministério~da}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Protocolo clínico e diretrizes
+  terapêuticas - doença de parkinson - portaria sas/ms nº 228}{Protocolo
+  Clínico E Diretrizes Terapêuticas - Doença De Parkinson - Portaria SAS/MS
+  Nº 228}}.
+\newblock \btxtechreplong {}, Sistema Único de Saúde, 2010.
 
 \bibitem {wim2016}
 \btxnamefont {\btxlastnamefont {SBC}}\btxauthorcolon\ \btxtitlefont
