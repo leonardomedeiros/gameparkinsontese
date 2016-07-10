@@ -102,6 +102,16 @@ Na análise biomecânica do movimento humano, são calculados dois tipos de âng
 \section{Máquina de Vetor de Suporte (SVM)}\label{sec:svm_linear}
 A teoria da aprendizagem estatística fornece um conjunto de técnicas para a análise de dados, a qual permite a aquisição de conhecimento~\cite{vapnik95}. A máquinas~\ac{svm} faz uso de um conjunto de métodos de aprendizagem supervisionada~\cite{datamining2005} para classificação de dados. Ou seja, a~\ac{svm} é uma ferramenta de predição de classificação, que usa a teoria da aprendizagem de máquina e busca maximizar a acurácia. Normalmente, a~\ac{svm} é aplicada para classificação binária, ou seja, permite classificar os dados em duas classes. No entanto, essa técnica também tem sido aplicada em dados com mais de duas classes~\cite{multisvm2011}.
 
+%We chose to use SVMs [23] due to the success of this approach in many classification problems. SVMs demonstrate good generalization performance [23]. We used the PRTools4 toolbox to implement SVM [24]. The specific SVM implementation we adopted relies on the one-versus-rest approach to tackle the multiclass classification problem. Three different kernels (i.e., exponential, radial 
+%basis, and polynomial kernels) were utilized and results were compared.
+%~\cite{patel}
+%
+%O uso de uma rede neural de baixa complexida-de computacional permite uma considerável redução do tempo de processamento do sistema, atingindo taxas de 28.1 quadros por segundo. O uso de Máqui-nas de Vetores de Suporte, no entanto, apresentou-se como sendo mais econômico computacionalmente, atingindo a taxa limite do sistema de aquisição de vídeo, 29.97 quadros por segundo em um classifica-dor contínuo do alfabeto manual da Linguagem Bra-sileira dos Sinais.
+%O sistema de classificação baseado em SVM implementado neste trabalho, mostra-se um classifi-cador mais rápido que RNAs de baixa complexidade computacional, atingindo taxas de reconhecimento similares.
+%
+%~\cite{UMA COMPARAÇÃO ENTRE REDES NEURAIS ARTIFICIAS E MÁQUINAS DE VETORES DE  SUPORTE PARA RECONHECIMENTO DE POSTURAS MANUAIS EM TEMPO-REAL}
+
+
 Um classificador~\ac{svm} foi inicialmente desenvolvido para problemas de aprendizagem linearmente separáveis e utiliza vetores de separação, através de uma técnica de hiperplano de separação ótima ~\cite{vapnik95}. O hiperplano tenta separar as diferentes classes, maximizando a margem entre os pontos extremos de cada classe~\cite{valt2010}. O melhor hiperplano de uma~\ac{svm} é aquele que possui a maior margem entre as duas classes, como pode ser visto na Figura ~\ref{fig:hiperplano}.  
 
 \begin{figure}

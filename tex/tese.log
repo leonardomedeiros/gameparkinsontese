@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  6 JUL 2016 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  8 JUL 2016 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,72 +1051,74 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
  [32
 
  <./img/arquitetura.png>]
-<./img/articulacoes.png, id=166, 694.09312pt x 514.17094pt>
-File: ./img/articulacoes.png Graphic file (type png)
 
-<use ./img/articulacoes.png>
-Package pdftex.def Info: ./img/articulacoes.png used on input line 33.
-(pdftex.def)             Requested size: 277.63232pt x 205.66473pt.
- [33 <./img/articulacoes.png>]
-<./img/diagclasszigfu.png, id=171, 440.64626pt x 422.57875pt>
+LaTeX Warning: Reference `fig:articulacoeskinnect' on page 33 undefined on inpu
+t line 42.
+
+<./img/diagclasszigfu.png, id=166, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
 <use ./img/diagclasszigfu.png>
-Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 45.
+Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 46.
 (pdftex.def)             Requested size: 352.51747pt x 338.06345pt.
- [34 <./img/diagclasszigfu.png>]
-<./img/catch-the-spheres.png, id=175, 1063.72406pt x 557.08125pt>
+ [33] [34 <./img/diagclasszigfu.png>]
+<./img/catch-the-spheres.png, id=173, 1063.72406pt x 557.08125pt>
 File: ./img/catch-the-spheres.png Graphic file (type png)
 
 <use ./img/catch-the-spheres.png>
-Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 69.
+Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 70.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 76.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 77.
 
-<./img/class_diagram.png, id=176, 2179.14125pt x 1258.7025pt>
+<./img/class_diagram.png, id=174, 2179.14125pt x 1258.7025pt>
 File: ./img/class_diagram.png Graphic file (type png)
 
 <use ./img/class_diagram.png>
-Package pdftex.def Info: ./img/class_diagram.png used on input line 83.
+Package pdftex.def Info: ./img/class_diagram.png used on input line 84.
 (pdftex.def)             Requested size: 441.01772pt x 254.73221pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 88.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 89.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [35 <./img/catch-the-spheres.png (PNG copy)>] [36 <./img/class_diagram.png (P
 NG copy)>] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-[]\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 []\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 141--142
 \T1/pcr/m/n/12 hasHeader, String... labels) \T1/ptm/m/n/12 es-tende a fun-ci-o-
 na-li-dade do mé-todo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 []\T1/pcr/m/n/12 getMultipleData(String path, String separator, boolean
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 []\T1/ptm/m/n/12 A classe \T1/pcr/m/n/12 MovementDataFileManager \T1/ptm/m/n/12
  es-tende as fun-ci-o-na-li-da-des do
  []
 
 [38] [39] [40]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 293.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 294.
  [41] [42]) (./cap5-avaliacao.tex [43]
 Cap\'{\i }tulo 5.
+
+Underfull \hbox (badness 7631) in paragraph at lines 7--7
+[]\T1/ptm/b/n/17.28 Entrevista Se-mi-es-tru-tu-rada com Pro-fis-si-o-nais de
+ []
+
 [44
 
 ] [45]
@@ -1128,13 +1130,17 @@ Overfull \hbox (8.11433pt too wide) in paragraph at lines 39--47
 Package acronym Info: Label `acro:er' newly defined as it shall be overridden
 although it is yet undefined on input line 240.
  [52]
-<./img/gametremor.png, id=236, 388.45125pt x 579.16376pt>
+<./img/gametremor.png, id=234, 388.45125pt x 579.16376pt>
 File: ./img/gametremor.png Graphic file (type png)
 
 <use ./img/gametremor.png>
 Package pdftex.def Info: ./img/gametremor.png used on input line 265.
 (pdftex.def)             Requested size: 194.22514pt x 289.58116pt.
  [53 <./img/gametremor.png>]
+
+LaTeX Warning: Reference `fig:articulacoeskinnect' on page 54 undefined on inpu
+t line 272.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1150,7 +1156,7 @@ Package Fancyhdr Warning: \headheight is too small (15.02399pt):
  This may cause the page layout to be inconsistent, however.
 
 [56] [57]
-<./img/movaddcutctionartist2.png, id=254, 1062.97125pt x 804.00375pt>
+<./img/movaddcutctionartist2.png, id=252, 1062.97125pt x 804.00375pt>
 File: ./img/movaddcutctionartist2.png Graphic file (type png)
 
 <use ./img/movaddcutctionartist2.png>
@@ -1162,15 +1168,15 @@ Overfull \hbox (1.70758pt too wide) in paragraph at lines 414--424
  [][] 
  []
 
-<img/signalamplitudepeakvaley-2.png, id=258, 719.68875pt x 446.41782pt>
+<img/signalamplitudepeakvaley-2.png, id=256, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
 
 <use img/signalamplitudepeakvaley-2.png>
 Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 
 428.
 (pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
- [59 <./img/signalamplitudepeakvaley-2.png (PNG copy)>] [60]
-<./img/vetormedioaducao.png, id=265, 743.02594pt x 453.19313pt>
+ [59 <./img/signalamplitudepeakvaley-2.png>] [60] <./img/vetormedioaducao.png, 
+id=264, 743.02594pt x 453.19313pt>
 File: ./img/vetormedioaducao.png Graphic file (type png)
 
 <use ./img/vetormedioaducao.png>
@@ -1185,7 +1191,7 @@ Overfull \hbox (41.94342pt too wide) in paragraph at lines 458--459
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [61 <./img/vetormedioaducao.png (PNG copy)>]
-<./img/gridsearch.png, id=269, 558.888pt x 428.802pt>
+<./img/gridsearch.png, id=268, 558.888pt x 428.802pt>
 File: ./img/gridsearch.png Graphic file (type png)
 
 <use ./img/gridsearch.png>
@@ -1195,7 +1201,7 @@ Package pdftex.def Info: ./img/gridsearch.png used on input line 499.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/gridsearchfprate.png, id=270, 515.526pt x 445.665pt>
+<./img/gridsearchfprate.png, id=269, 515.526pt x 445.665pt>
 File: ./img/gridsearchfprate.png Graphic file (type png)
 
 <use ./img/gridsearchfprate.png>
@@ -1208,7 +1214,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [62] [63 <./img/gridsearch.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 545.
- [64 <./img/gridsearchfprate.png (PNG copy)>] [65] <./img/gqm.png, id=285, 739.
+ [64 <./img/gridsearchfprate.png (PNG copy)>] [65] <./img/gqm.png, id=284, 739.
 563pt x 357.9774pt>
 File: ./img/gqm.png Graphic file (type png)
 
@@ -1217,46 +1223,61 @@ Package pdftex.def Info: ./img/gqm.png used on input line 622.
 (pdftex.def)             Requested size: 369.7806pt x 178.98825pt.
  [66] [67 <./img/gqm.png>]
 Overfull \hbox (2.85274pt too wide) in paragraph at lines 665--665
-[]\T1/ptm/m/n/12 91,67%| 
+[]\T1/ptm/m/n/12 90,00%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 665--665
+[]\T1/ptm/m/n/12 10,00%| 
  []
 
 
 Overfull \hbox (2.85274pt too wide) in paragraph at lines 666--666
-[]\T1/ptm/m/n/12 91,67%| 
+[]\T1/ptm/m/n/12 93,33%| 
  []
 
 
 Overfull \hbox (2.85274pt too wide) in paragraph at lines 667--667
-[]\T1/ptm/m/n/12 41,67%| 
+[]\T1/ptm/m/n/12 53,33%| 
  []
 
 
 Overfull \hbox (2.85274pt too wide) in paragraph at lines 667--667
-[]\T1/ptm/m/n/12 58,33%| 
+[]\T1/ptm/m/n/12 46,66%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 671--671
+[]\T1/ptm/m/n/12 76,66%| 
+ []
+
+
+Overfull \hbox (2.85274pt too wide) in paragraph at lines 671--671
+[]\T1/ptm/m/n/12 23,33%| 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./img/chart_1-.png, id=293, 488.57532pt x 356.0803pt>
+<./img/chart_1-.png, id=292, 474.27188pt x 360.59718pt>
 File: ./img/chart_1-.png Graphic file (type png)
 
 <use ./img/chart_1-.png>
 Package pdftex.def Info: ./img/chart_1-.png used on input line 679.
-(pdftex.def)             Requested size: 342.0004pt x 249.25452pt.
- <./img/chart_3-.png, id=294, 445.665pt x 367.3725pt>
+(pdftex.def)             Requested size: 379.41801pt x 288.47813pt.
+
+<./img/chart_3-.png, id=293, 475.02469pt x 360.59718pt>
 File: ./img/chart_3-.png Graphic file (type png)
 
 <use ./img/chart_3-.png>
 Package pdftex.def Info: ./img/chart_3-.png used on input line 687.
-(pdftex.def)             Requested size: 311.96336pt x 257.15898pt.
-
-<./img/chart_10-.png, id=295, 472.01344pt x 363.60844pt>
+(pdftex.def)             Requested size: 380.02025pt x 288.47813pt.
+ <./img/chart_10-.png, id=294, 475.02469pt x 361.35pt>
 File: ./img/chart_10-.png Graphic file (type png)
 
 <use ./img/chart_10-.png>
 Package pdftex.def Info: ./img/chart_10-.png used on input line 695.
-(pdftex.def)             Requested size: 330.40715pt x 254.52417pt.
+(pdftex.def)             Requested size: 380.02025pt x 289.0804pt.
  [68] [69 <./img/chart_1-.png>] [70 <./img/chart_3-.png> <./img/chart_10-.png>]
 ) (./cap6-conclusoes.tex [71
 
@@ -1473,14 +1494,17 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 16--31
 
 ]) [100] (./tese.aux)
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8304 strings out of 493013
- 115910 string characters out of 6136994
- 293491 words of memory out of 5000000
- 11613 multiletter control sequences out of 15000+600000
+ 8298 strings out of 493013
+ 115762 string characters out of 6136994
+ 293480 words of memory out of 5000000
+ 11608 multiletter control sequences out of 15000+600000
  67218 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  40i,17n,46p,1696b,1925s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1495,10 +1519,10 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2286405 bytes).
+Output written on tese.pdf (111 pages, 2055950 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
+ 445 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

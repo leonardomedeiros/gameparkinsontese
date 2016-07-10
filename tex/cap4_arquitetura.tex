@@ -21,22 +21,23 @@ A arquitetura do~\ac{jogue-me} foi concebida em cooperação com um pesquisador 
 Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3d} como ferramenta de desenvolvimento. Esse ambiente facilita a criação de cenários, terrenos e interação com os objetos dos jogos usando uma linguagem de \textit{script}. No entanto, desenvolver jogos com propósito de monitorar sinais motores possui desafios que não precisam ser de responsabilidade dos desenvolvedores de jogos. Por esse motivo, criamos um arcabouço de software que abstrai a complexidade do desenvolvimento de um jogo de monitoramento da saúde.
 
 
-Para adquirir os sinais motores, utilizamos e herdamos de um componente (Zigfu~\cite{zigfu}) para Unity3D, que permite integrar o Ms-Kinnect~\cite{kinnect2013} como controlador do jogo. O Ms-Kinnect~\cite{kinnect2013} é um sensor de captura de movimentos utilizado tanto para o console MS-XBOX 360 quanto para \textit{PCs}. Ele permite adquirir sinais relativos ao movimento humano e identificar as articulações por meio da posição anatômica do corpo~\cite{hamill1999bases}, como pode ser visto na Figura~\ref{fig:articulacoeskinnect}.
+Para adquirir os sinais motores, utilizamos e herdamos de um componente (Zigfu~\cite{zigfu}) para Unity3D, que permite integrar o Ms-Kinnect~\cite{kinnect2013} como controlador do jogo. O Ms-Kinnect~\cite{kinnect2013} é um sensor de captura de movimentos utilizado tanto para o console MS-XBOX 360 quanto para \textit{PCs}. Ele permite adquirir sinais relativos ao movimento humano e identificar as articulações por meio da posição anatômica do corpo humano~\cite{hamill1999bases}.
+%, como pode ser visto na Figura~\ref{fig:articulacoeskinnect}.
 
 
 
 %Os jogos eletrônicos que fazem uso dos movimentos do corpo permitem a liberdade de movimento, logo o movimento exercido nestes possibilitam muita variabilidade. Logo, é necessário que o desenvolvedor tenha a informação de quais ações o jogador precisa executar para que estas sejam monitoráveis. As ações de um~\ac{jogue-me} devem estar descritas no~\ac{jogue-me}(Seção~\ref{subsec:game_actions_guide}) como estabelecido no processo de desenvolvimento proposto no Capítulo~\ref{chap:processo_desenvolvimento}.
 
 
-\begin{figure}[!htbp]
- \centering
- \includegraphics[scale=0.4]{./img/articulacoes.png}
- % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
- %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-\caption[Posições das Articulações do Corpo Humano Adquiridas Pelo MS-Kinnect]{\copyright Posições das Articulações do Corpo Humano Adquiridas Pelo MS-Kinnect ~\cite{kinnect2013}}
-%  \caption{Estágio desenvolvimento de jogos}
- \label{fig:articulacoeskinnect}
-\end{figure}
+%\begin{figure}[!htbp]
+ %\centering
+ %\includegraphics[scale=0.4]{./img/articulacoes.png}
+ %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+%\caption[Posições das Articulações do Corpo Humano Adquiridas Pelo MS-Kinnect]{\copyright Posições das Articulações do Corpo Humano Adquiridas Pelo MS-Kinnect ~\cite{kinnect2013}}
+%%  \caption{Estágio desenvolvimento de jogos}
+ %\label{fig:articulacoeskinnect}
+%\end{figure}
 
 O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect (Figura~\ref{fig:articulacoeskinnect}), para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, criamos uma extensão do Zigfu que armazena as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()} da Classe \textit{ZigSkeletonHealth}).
 
