@@ -102,14 +102,24 @@ Na análise biomecânica do movimento humano, são calculados dois tipos de âng
 \section{Máquina de Vetor de Suporte (SVM)}\label{sec:svm_linear}
 A teoria da aprendizagem estatística fornece um conjunto de técnicas para a análise de dados, a qual permite a aquisição de conhecimento~\cite{vapnik95}. A máquinas~\ac{svm} faz uso de um conjunto de métodos de aprendizagem supervisionada~\cite{datamining2005} para classificação de dados. Ou seja, a~\ac{svm} é uma ferramenta de predição de classificação, que usa a teoria da aprendizagem de máquina e busca maximizar a acurácia. Normalmente, a~\ac{svm} é aplicada para classificação binária, ou seja, permite classificar os dados em duas classes. No entanto, essa técnica também tem sido aplicada em dados com mais de duas classes~\cite{multisvm2011}.
 
-%We chose to use SVMs [23] due to the success of this approach in many classification problems. SVMs demonstrate good generalization performance [23]. We used the PRTools4 toolbox to implement SVM [24]. The specific SVM implementation we adopted relies on the one-versus-rest approach to tackle the multiclass classification problem. Three different kernels (i.e., exponential, radial 
-%basis, and polynomial kernels) were utilized and results were compared.
-%~\cite{patel}
+Optou-se utilizar a ~\cite{SVM} devido a sua capacidade de generalização nos problemas de classificação de dados~\cite{vapnik95,xusvm2009}, sua robustez nos resultados~\cite{xusvm2009} e sua performance com baixa complexidade computacional em comparação a outras abordagens como Redes Neurais~\cite{comprnasvm2007}.
+
+
+%O uso de Máqui-nas de Vetores de Suporte, no entanto, apresentou-se como sendo mais econômico computacionalmente, atingindo a taxa limite do sistema de aquisição de vídeo, 29.97 quadros por segundo em um classifica-dor contínuo do alfabeto manual da Linguagem Bra-sileira dos Sinais. O sistema de classificação baseado em SVM implementado neste trabalho, mostra-se um classifi-cador mais rápido que RNAs de baixa complexidade computacional, atingindo taxas de reconhecimento similares.
 %
-%O uso de uma rede neural de baixa complexida-de computacional permite uma considerável redução do tempo de processamento do sistema, atingindo taxas de 28.1 quadros por segundo. O uso de Máqui-nas de Vetores de Suporte, no entanto, apresentou-se como sendo mais econômico computacionalmente, atingindo a taxa limite do sistema de aquisição de vídeo, 29.97 quadros por segundo em um classifica-dor contínuo do alfabeto manual da Linguagem Bra-sileira dos Sinais.
-%O sistema de classificação baseado em SVM implementado neste trabalho, mostra-se um classifi-cador mais rápido que RNAs de baixa complexidade computacional, atingindo taxas de reconhecimento similares.
+%~\cite{comprnasvm2007}
+
 %
-%~\cite{UMA COMPARAÇÃO ENTRE REDES NEURAIS ARTIFICIAS E MÁQUINAS DE VETORES DE  SUPORTE PARA RECONHECIMENTO DE POSTURAS MANUAIS EM TEMPO-REAL}
+%O uso de uma rede neural de baixa complexida-de computacional permite uma considerável redução do tempo de processamento do sistema, atingindo taxas de 28.1 quadros por segundo. 
+%
+
+%The connection of robustness and regularization in the SVM context is important for the following reasons. First, it gives an alternative and potentially powerful explanation of the generalization ability of the regularization term. In the standard machine learning view, the regularization term bounds the complexity of the class of classifiers. The robust view of regularization regards the testing samples as a perturbed copy of the training samples. Therefore, when the total perturbation is given or bounded, the regularization term bounds the gap between the classification errors of the SVM on these two sets of samples. In contrast to the standard PAC approach, this bound depends neither on how rich the class of candidate classifiers is, nor on an assumption that all samples are picked in an i.i.d. manner.~\cite{xusvm2009}
+
+
+%This work considers the relationship between robust and regularized SVM classification. In particular, we prove that the standard norm-regularized SVM classifier is in fact the solution to a robust classification setup, and thus known results about regularized classifiers extend to robust classifiers. To the best of our knowledge, this is the first explicit such link between regularization and robustness in pattern classification. The interpretation of this link is that norm-based regularization essentially builds in a robustness to sample noise whose probability level sets are symmetric unit balls with respect to the dual of the regularizing norm. It would be interesting to understand the performance gains possible when the noise does not have such characteristics, and the robust setup is used in place of regularization with appropriately defined uncertainty set~\cite{xusvm2009}
+
+%Based on the robustness interpretation of the regularization term, we re-proved the consistency of SVMs without direct appeal to notions of metric entropy, VC-dimension, or stability. Our proof suggests that the ability to handle disturbance is crucial for an algorithm to achieve good generalization ability. In particular, for “smooth” feature mappings, the robustness to disturbance in the observation space is guaranteed and hence SVMs achieve consistency. On the other-hand, certain “non-smooth” feature mappings fail to be consistent simply because for such kernels the robustness in the feature-space (guaranteed by the regularization process) does not imply robustness in the observation space.~\cite{xusvm2009}
+
 
 
 Um classificador~\ac{svm} foi inicialmente desenvolvido para problemas de aprendizagem linearmente separáveis e utiliza vetores de separação, através de uma técnica de hiperplano de separação ótima ~\cite{vapnik95}. O hiperplano tenta separar as diferentes classes, maximizando a margem entre os pontos extremos de cada classe~\cite{valt2010}. O melhor hiperplano de uma~\ac{svm} é aquele que possui a maior margem entre as duas classes, como pode ser visto na Figura ~\ref{fig:hiperplano}.  
@@ -158,5 +168,9 @@ else
 endif
 \end{lstlisting}
 
-A partir desse método de separação de dados lineares, é que a~\ac{svm} foi aplicada para classificar indivíduos diagnosticados com~\ac{dp} ante indivíduos sem o diagnóstico estabelecido. Na Seção~\ref{sec:processador_bio} será explicado como são extraídos os pontos, usando os vetores de características para obtenção da classificação exposta na Seção~\ref{sec:resultado_svm}.
+A partir desse método de separação de dados lineares, é que a~\ac{svm} foi aplicada para classificar indivíduos diagnosticados com~\ac{dp} ante indivíduos sem o diagnóstico estabelecido. Para corroborar com a nossa escolha de SVM, encontrou-se trabalhos de classificação de indivíduos com parkinson utilizando a mesma abordagem~\cite{bradmonitor2015,svmparkinson2010,patel_monitoring_2009}. No entanto, o que diferencia a presente abordagem das demais, é justamente quais serão os dados processados a serem classificados. Como explicamos anteriormente nos objetivos do trabalho (Seção~\ref{section:objetivos}), está sendo avaliado a utilização de jogos eletrônicos responsáveis por induzir a execução de movimentos~\cite{quantitativeparkinson2011} para o acompanhamento motor do~\ac{dp}. Logo, na Seção~\ref{sec:processador_bio}, será apresentado o Processador de Dados Biomecânicos responsável por extrair as estas características do movimento~\cite{mcginnis2013biomechanics}para obter a classificação exposta na Seção~\ref{sec:resultado_svm}.
+
+
+ %será explicado como são extraídos os pontos, usando os vetores de características
+%Por este motivo, será apresentado 
 
