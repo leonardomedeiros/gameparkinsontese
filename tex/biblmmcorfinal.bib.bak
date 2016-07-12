@@ -1321,6 +1321,72 @@ O uso de uma rede neural de baixa complexida-de computacional permite uma consid
   keywords  = {assisted living;health care;patient monitoring;serious games (computing);Kinect sensor;elder people;exercise recognition;fall detection;kinesiology domain;kinesiology exercise progress analysis;machine learning models;older adults;performance feedback;personalized care modelling;physical effort minimization;remote activity supervision;self-management health care;self-management physical level;serious game architecture;symptom detection;user behavior learning;user profiles;virtual world;Games;Monitoring;Muscles;Real-time systems;Senior citizens;Training;eldergames;kinect;remote patient health monitoring;serious games for health;well-being},
 }
 
+@Article{classifiersparkinson2014,
+  author   = {Michael Lones and Stephen Smith and Jane Alty and Stuart Lacy and Katherine Possin and Jamieson and Andy Tyrrell},
+  title    = {Evolving Classifiers to Recognize the Movement Characteristics of Parkinson's Disease Patients},
+  year     = {2014},
+  volume   = {18},
+  number   = {4},
+  pages    = {559-576},
+  issn     = {1089-778X},
+  abstract = {Parkinson's disease is a debilitating neurological condition that affects approximately 1 in 500 people and often leads to severe disability. To improve clinical care, better assessment tools are needed that increase the accuracy of differential diagnosis and disease monitoring. In this paper, we report how we have used evolutionary algorithms to induce classifiers capable of recognizing the movement characteristics of Parkinson's disease patients. These diagnostically relevant patterns of movement are known to occur over multiple time scales. To capture this, we used two different classifier architectures: sliding-window genetic programming classifiers, which model over-represented local patterns that occur within time series data, and artificial biochemical networks, computational dynamical systems that respond to dynamical patterns occurring over longer time scales. Classifiers were trained and validated using movement recordings of 49 patients and 41 age-matched controls collected during a recent clinical study. By combining classifiers with diverse behaviors, we were able to construct classifier ensembles with diagnostic accuracies in the region of 95%, comparable to the accuracies achieved by expert clinicians. Further analysis indicated a number of features of diagnostic relevance, including the differential effect of handedness and the over-representation of certain patterns of acceleration.},
+  file     = {:C\:\\git\\gameparkinson\\referencias\\relatedwork\\ieeejournal2014-Evolving Classifiers to Recognize the Movement of Parkinson.pdf:LaTeX},
+  journal  = {IEEE Transactions on Evolutionary Computation},
+  keywords = {diseases;genetic algorithms;medical diagnostic computing;medical signal processing;neurophysiology;patient diagnosis;patient monitoring;signal classification;time series;Parkinson's disease patients;artificial biochemical networks;computational dynamical systems;diagnostic relevance;differential diagnosis;differential handedness effect;disease monitoring;evolutionary algorithms;movement characteristic recognition;neurological condition;over-represented local patterns model;sliding-window genetic programming classifiers;time series data;Biological system modeling;Context;Diseases;Evolutionary computation;Medical diagnostic imaging;Standards;Time series analysis;Artificial biochemical networks;Automated disease diagnosis;Classification;Genetic programming;Time series analysis;automated disease diagnosis;classification;genetic programming;time series analysis},
+  review   = {In this paper, we report how we have used evolutionary algorithms to induce classifiers capable ofrecognizing the movement characteristics of Parkinson’s disease patients. These diagnostically relevant patterns of movement are known to occur over multiple time scales. To capture this, we used two different classifer architectures: sliding-window genetic programming classifiers, which model over-represented local patterns that occur within time series data, and artificial biochemical networks, computational dynamical systems that respond to dynamical patterns occurring over longer time scales.
+
+Classifiers were trained and validated using movement recordings of 49 patients and 41 age-matched controls collected during a recent clinical study.
+
+We have previously discussed the possibility of developing a noninvasive computer-based assessment for PD, which would
+objectively measure a patient’s movements
+
+B. Movement Tasks
+Movement data was collected using a Polhemus Patriot
+electromagnetic motion tracking device, whose probes were
+attached to the subject’s thumb and index finger while carrying
+out prescribed tasks. The Polhemus Patriot has a sampling rate
+of 60 Hz, and measures both position and orientation relative
+to a point source in real time.
+1) Finger Tapping: Finger tapping
+2) Movement at Rest: Tremor is commonly seen in PD
+patients, and typically occurs when a subject is at rest.
+3) UPDRS Ratings: During both tasks, a neurologist
+with speciality training in movement disorders performed the
+UPDRS tremor at rest and finger taps components, which are
+scored between 0 and 4 [10]. For tremor at rest, 0 corresponds
+
+
+B. Evolved Classifiers
+Table II shows that dominance has a significant effect
+upon discriminatory power, with gross features of the data
+having lower predictive accuracy for the nondominant hand.
+Consequently, we limited our initial investigation to classifiers
+trained on preprocessed finger tapping data collected from
+each subject’s dominant hand. Fig. 10 shows the distribution
+of AUC scores for the best evolved classifiers from each of
+50 runs.
+For both
+
+B. Clinical Perspectives
+Fig. 16 suggests an accuracy of around 90%–95%, depending
+on the chosen tradeoff between sensitivity and specificity.
+This is similar to the accuracies achieved by expert clinicians
+when making a diagnosis, and considerably higher than those
+achieved in primary and community care [21].
+
+
+em trabalhos anteriores os autores criaram um sistema de avaliação não-invasivo para parkinson, Utilizando um tablet e programação genética eles conseguiram classificar os pacientes com parkinson através da análise de padrão dos movimentos. No entanto, devido ao tamanho da amostra, eles não conseguiram generalizar os resultados.
+
+
+VI. Conclusion
+In this paper, we have shown how evolutionary algorithms
+can be used to induce classifiers able to discriminate Parkinson’s
+disease patients from age-matched controls with accuracies
+in the region of 95%. The classifiers were trained using
+acceleration time series data collected while subjects carried
+out a standard clinical finger tapping task.},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 }
