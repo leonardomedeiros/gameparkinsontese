@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  13 JUL 2016 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  13 JUL 2016 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,7 +719,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
  (./resumo.tex) [1]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 99.
- (./abstract.tex) [1] [2] [3]
+ (./abstract.tex) [1]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 156.
  (./tese.toc
@@ -776,7 +776,7 @@ although it is yet undefined on input line 5.
 ] [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
- [3] [4] <./img/moyne-iphone.png, id=61, 458.46281pt x 340.27126pt>
+ [3] [4] <./img/moyne-iphone.png, id=55, 458.46281pt x 340.27126pt>
 File: ./img/moyne-iphone.png Graphic file (type png)
 
 <use ./img/moyne-iphone.png>
@@ -822,7 +822,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14] <./img/abducao.png, id=95, 289.08pt x 410.2828pt>
+[14] <./img/abducao.png, id=89, 289.08pt x 410.2828pt>
 File: ./img/abducao.png Graphic file (type png)
  <use ./img/abducao.png>
 Package pdftex.def Info: ./img/abducao.png used on input line 88.
@@ -832,7 +832,7 @@ Package pdftex.def Info: ./img/abducao.png used on input line 88.
 
 LaTeX Warning: Citation `SVM' on page 16 undefined on input line 105.
 
-<./img/svmhyperplane.png, id=99, 612.2875pt x 511.9125pt>
+<./img/svmhyperplane.png, id=93, 612.2875pt x 511.9125pt>
 File: ./img/svmhyperplane.png Graphic file (type png)
 
 <use ./img/svmhyperplane.png>
@@ -890,7 +890,7 @@ Overfull \hbox (18.1413pt too wide) in paragraph at lines 14--15
 []
  []
 
-<./img/visaosistema.png, id=114, 429.2838pt x 348.3414pt>
+<./img/visaosistema.png, id=107, 429.2838pt x 348.3414pt>
 File: ./img/visaosistema.png Graphic file (type png)
 
 <use ./img/visaosistema.png>
@@ -901,14 +901,14 @@ Package pdftex.def Info: ./img/visaosistema.png used on input line 23.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [19] [20 <./img/visaosistema.png>]
-<./img/biomecprocessor2.png, id=122, 330.5148pt x 431.6928pt>
+<./img/biomecprocessor2.png, id=116, 330.5148pt x 431.6928pt>
 File: ./img/biomecprocessor2.png Graphic file (type png)
 
 <use ./img/biomecprocessor2.png>
 Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 53.
 (pdftex.def)             Requested size: 352.8155pt x 460.83961pt.
 
-<./img/exsinalposicaoypunhodireito.png, id=123, 545.78906pt x 339.51843pt>
+<./img/exsinalposicaoypunhodireito.png, id=117, 545.78906pt x 339.51843pt>
 File: ./img/exsinalposicaoypunhodireito.png Graphic file (type png)
 
 <use ./img/exsinalposicaoypunhodireito.png>
@@ -916,14 +916,14 @@ Package pdftex.def Info: ./img/exsinalposicaoypunhodireito.png used on input li
 ne 65.
 (pdftex.def)             Requested size: 441.01772pt x 274.34529pt.
 
-<./img/deteccaopicosvales.png, id=124, 599.23875pt x 402.75468pt>
+<./img/deteccaopicosvales.png, id=118, 599.23875pt x 402.75468pt>
 File: ./img/deteccaopicosvales.png Graphic file (type png)
 
 <use ./img/deteccaopicosvales.png>
 Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 74.
 (pdftex.def)             Requested size: 441.01772pt x 296.41751pt.
  [21] [22 <./img/biomecprocessor2.png>]
-<./img/remocaoruidociclo.png, id=132, 458.46281pt x 311.66437pt>
+<./img/remocaoruidociclo.png, id=126, 458.46281pt x 311.66437pt>
 File: ./img/remocaoruidociclo.png Graphic file (type png)
 
 <use ./img/remocaoruidociclo.png>
@@ -939,7 +939,7 @@ LaTeX Warning: Command \textordmasculine invalid in math mode on input line 104
 .
 
 [23 <./img/exsinalposicaoypunhodireito.png (PNG copy)>]
-<./img/amplitude-braco.png, id=136, 421.575pt x 316.18124pt>
+<./img/amplitude-braco.png, id=130, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco.png Graphic file (type png)
 
 <use ./img/amplitude-braco.png>
@@ -976,7 +976,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./img/amplitude-braco-picos.png, id=137, 421.575pt x 316.18124pt>
+<./img/amplitude-braco-picos.png, id=131, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco-picos.png Graphic file (type png)
 
 <use ./img/amplitude-braco-picos.png>
@@ -991,7 +991,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 162.
  [26 <./img/amplitude-braco.png (PNG copy)>]
-<./img/vetormedionormalozadoescalonado.png, id=150, 421.575pt x 316.18124pt>
+<./img/vetormedionormalozadoescalonado.png, id=144, 421.575pt x 316.18124pt>
 File: ./img/vetormedionormalozadoescalonado.png Graphic file (type png)
 
 <use ./img/vetormedionormalozadoescalonado.png>
@@ -999,7 +999,7 @@ Package pdftex.def Info: ./img/vetormedionormalozadoescalonado.png used on inpu
 t line 169.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
-<./img/ciclomovimentoremovido.png, id=151, 421.575pt x 316.18124pt>
+<./img/ciclomovimentoremovido.png, id=145, 421.575pt x 316.18124pt>
 File: ./img/ciclomovimentoremovido.png Graphic file (type png)
 
 <use ./img/ciclomovimentoremovido.png>
@@ -1047,7 +1047,7 @@ ví-duo di-ag-nos-ti-cado
 
 [30]) (./cap4_arquitetura.tex [31]
 Cap\'{\i }tulo 4.
-<./img/arquitetura.png, id=168, 749.80125pt x 365.11406pt>
+<./img/arquitetura.png, id=161, 749.80125pt x 365.11406pt>
 File: ./img/arquitetura.png Graphic file (type png)
 
 <use ./img/arquitetura.png>
@@ -1062,14 +1062,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
 LaTeX Warning: Reference `fig:articulacoeskinnect' on page 33 undefined on inpu
 t line 42.
 
-<./img/diagclasszigfu.png, id=172, 440.64626pt x 422.57875pt>
+<./img/diagclasszigfu.png, id=166, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
 <use ./img/diagclasszigfu.png>
 Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 46.
 (pdftex.def)             Requested size: 352.51747pt x 338.06345pt.
  [33] [34 <./img/diagclasszigfu.png>]
-<./img/catch-the-spheres.png, id=179, 1063.72406pt x 557.08125pt>
+<./img/catch-the-spheres.png, id=173, 1063.72406pt x 557.08125pt>
 File: ./img/catch-the-spheres.png Graphic file (type png)
 
 <use ./img/catch-the-spheres.png>
@@ -1078,7 +1078,7 @@ Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 70.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 77.
 
-<./img/class_diagram.png, id=180, 2179.14125pt x 1258.7025pt>
+<./img/class_diagram.png, id=174, 2179.14125pt x 1258.7025pt>
 File: ./img/class_diagram.png Graphic file (type png)
 
 <use ./img/class_diagram.png>
@@ -1137,7 +1137,7 @@ Overfull \hbox (8.11433pt too wide) in paragraph at lines 39--47
 Package acronym Info: Label `acro:er' newly defined as it shall be overridden
 although it is yet undefined on input line 240.
  [52]
-<./img/gametremor.png, id=240, 388.45125pt x 579.16376pt>
+<./img/gametremor.png, id=234, 388.45125pt x 579.16376pt>
 File: ./img/gametremor.png Graphic file (type png)
 
 <use ./img/gametremor.png>
@@ -1163,7 +1163,7 @@ Package Fancyhdr Warning: \headheight is too small (15.02399pt):
  This may cause the page layout to be inconsistent, however.
 
 [56] [57]
-<./img/movaddcutctionartist2.png, id=258, 1062.97125pt x 804.00375pt>
+<./img/movaddcutctionartist2.png, id=252, 1062.97125pt x 804.00375pt>
 File: ./img/movaddcutctionartist2.png Graphic file (type png)
 
 <use ./img/movaddcutctionartist2.png>
@@ -1175,7 +1175,7 @@ Overfull \hbox (1.70758pt too wide) in paragraph at lines 414--424
  [][] 
  []
 
-<img/signalamplitudepeakvaley-2.png, id=262, 719.68875pt x 446.41782pt>
+<img/signalamplitudepeakvaley-2.png, id=256, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
 
 <use img/signalamplitudepeakvaley-2.png>
@@ -1183,7 +1183,7 @@ Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line
 428.
 (pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
  [59 <./img/signalamplitudepeakvaley-2.png>] [60] <./img/vetormedioaducao.png, 
-id=271, 743.02594pt x 453.19313pt>
+id=264, 743.02594pt x 453.19313pt>
 File: ./img/vetormedioaducao.png Graphic file (type png)
 
 <use ./img/vetormedioaducao.png>
@@ -1198,7 +1198,7 @@ Overfull \hbox (41.94342pt too wide) in paragraph at lines 458--459
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [61 <./img/vetormedioaducao.png (PNG copy)>]
-<./img/gridsearch.png, id=275, 558.888pt x 428.802pt>
+<./img/gridsearch.png, id=268, 558.888pt x 428.802pt>
 File: ./img/gridsearch.png Graphic file (type png)
 
 <use ./img/gridsearch.png>
@@ -1208,7 +1208,7 @@ Package pdftex.def Info: ./img/gridsearch.png used on input line 499.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/gridsearchfprate.png, id=276, 515.526pt x 445.665pt>
+<./img/gridsearchfprate.png, id=269, 515.526pt x 445.665pt>
 File: ./img/gridsearchfprate.png Graphic file (type png)
 
 <use ./img/gridsearchfprate.png>
@@ -1221,7 +1221,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [62] [63 <./img/gridsearch.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 545.
- [64 <./img/gridsearchfprate.png (PNG copy)>] [65] <./img/gqm.png, id=290, 739.
+ [64 <./img/gridsearchfprate.png (PNG copy)>] [65] <./img/gqm.png, id=284, 739.
 563pt x 357.9774pt>
 File: ./img/gqm.png Graphic file (type png)
 
@@ -1266,20 +1266,20 @@ Overfull \hbox (2.85274pt too wide) in paragraph at lines 671--671
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./img/chart_1-.png, id=299, 474.27188pt x 360.59718pt>
+<./img/chart_1-.png, id=292, 474.27188pt x 360.59718pt>
 File: ./img/chart_1-.png Graphic file (type png)
 
 <use ./img/chart_1-.png>
 Package pdftex.def Info: ./img/chart_1-.png used on input line 679.
 (pdftex.def)             Requested size: 379.41801pt x 288.47813pt.
 
-<./img/chart_3-.png, id=300, 475.02469pt x 360.59718pt>
+<./img/chart_3-.png, id=293, 475.02469pt x 360.59718pt>
 File: ./img/chart_3-.png Graphic file (type png)
 
 <use ./img/chart_3-.png>
 Package pdftex.def Info: ./img/chart_3-.png used on input line 687.
 (pdftex.def)             Requested size: 380.02025pt x 288.47813pt.
- <./img/chart_10-.png, id=301, 475.02469pt x 361.35pt>
+ <./img/chart_10-.png, id=294, 475.02469pt x 361.35pt>
 File: ./img/chart_10-.png Graphic file (type png)
 
 <use ./img/chart_10-.png>
@@ -1515,7 +1515,7 @@ Here is how much of TeX's memory you used:
  11620 multiletter control sequences out of 15000+600000
  67218 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 40i,17n,46p,1803b,1925s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,17n,46p,1781b,1925s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1
@@ -1527,10 +1527,10 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (114 pages, 2060165 bytes).
+Output written on tese.pdf (112 pages, 2058522 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
+ 448 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
