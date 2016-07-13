@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
   \providebibliographyfont{name}{}%
   \providebibliographyfont{lastname}{}%
   \providebibliographyfont{title}{\emph}%
@@ -168,12 +168,33 @@
   \btxpublisherfont {Wiley}, 1994\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
   {978-0-47102-895-6}}}.
 
+\bibitem {svmparkinson2010}
+\btxnamefont {\btxlastnamefont {Bhattacharya}, Ipsita} \btxandlong {}\
+  \btxnamefont {Meetu \btxlastnamefont {Bhatia}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Svm classification to distinguish parkinson disease
+  patients}{SVM Classification to Distinguish Parkinson Disease Patients}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 1st Amrita ACM-W
+  Celebration on Women in Computing in India}. \btxpublisherfont {ACM},
+  2010\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-1-4503-0194-7}}}.
+
 \bibitem {peakdetect}
 \btxnamefont {\btxlastnamefont {Billauer}, Eli}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Peak detection in matlab}{Peak Detection in Matlab}}.
 \newblock \textit{Software}, {D}isponível em:
   http://www.billauer.co.il/peakdet.html, 2012.
 \newblock Último acesso: 3 de Junho de 2016.
+
+\bibitem {comprnasvm2007}
+\btxnamefont {\btxlastnamefont {Bragatto}, Ticiano}, \btxnamefont {Gabriel
+  \btxlastnamefont {Ruas}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Marcus
+  \btxlastnamefont {Lamar}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase
+  {Uma comparação entre redes neurais artificias e máquinas de vetores de
+  suporte para reconhecimento de posturas manuais em tempo-real}{Uma
+  Comparação Entre Redes Neurais Artificias E Máquinas De Vetores De Suporte
+  Para Reconhecimento De Posturas Manuais em Tempo-Real}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Congresso Brasileiro De Redes
+  Neuraiscongresso Brasileiro De Redes Neurais}, 2007\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {0329-5184}}}.
 
 \bibitem {brox11}
 \btxnamefont {\btxlastnamefont {Brox}, Ellen}, \btxnamefont {Luis
@@ -928,6 +949,32 @@
   Practical Machine Learning Tools and Techniques}.
 \newblock \btxpublisherfont {Morgan Kaufmann}, \btxeditionnumlong {3}{},
   2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {9780123748560}}}.
+
+\bibitem {xusvm2009}
+\btxnamefont {\btxlastnamefont {Xu}, Huan}, \btxnamefont {Constantine
+  \btxlastnamefont {Caramanis}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Shie \btxlastnamefont {Mannor}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Robustness and regularization of support vector
+  machines}{Robustness and Regularization of Support Vector Machines}}.
+\newblock \btxjournalfont {Journal of Machine Learning Research},
+  10:1485--1510, 2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
+  {1532-4435}}}.
+
+\bibitem {wiiassesspark2016}
+\btxnamefont {\btxlastnamefont {Yang}, Ke}, \btxnamefont {Wei\btxfnamespacelong
+  Xi \btxlastnamefont {Xiong}}, \btxnamefont {Eng\btxfnamespacelong Tao
+  \btxlastnamefont {Liu}}, \btxnamefont {Yi\btxfnamespacelong Min
+  \btxlastnamefont {Sun}}, \btxnamefont {Susan \btxlastnamefont {Luo}},
+  \btxnamefont {Zheng\btxfnamespacelong Tong \btxlastnamefont {Ding}},
+  \btxnamefont {Jian\btxfnamespacelong Jun \btxlastnamefont {Wu}}\btxandcomma
+  {} \btxandlong {}\ \btxnamefont {Jian \btxlastnamefont
+  {Wang}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Objective and
+  quantitative assessment of motor function in parkinson’s disease-from the
+  perspective of practical applications}{Objective And Quantitative Assessment
+  Of Motor Function In Parkinson’s Disease-from The Perspective Of Practical
+  Applications}}.
+\newblock \btxjournalfont {Annals of Translational Medicine}, 4(5),
+  2016\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2305-5847}}}.
 
 \bibitem {zigfu}
 \btxnamefont {\btxlastnamefont {Zigfu}}\btxauthorcolon\ \btxtitlefont
