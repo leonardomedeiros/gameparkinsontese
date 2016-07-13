@@ -31,6 +31,14 @@
 \newblock {D}isponível em: http://pervasivehealth.org, 2016.
 \newblock Último acesso: 3 de Junho de 2016.
 
+\bibitem {sachealth2016}
+\btxnamefont {\btxlastnamefont {ACM}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Sac track on healthcare: A growing scenario for applied
+  computing}{SAC Track on HealthCare: A Growing Scenario for Applied
+  Computing}}.
+\newblock {D}isponível em: http://www.sigapp.org/sac/sac2016/, 2016.
+\newblock {Ú}ltimo acesso: 3 de Junho de 2016.
+
 \bibitem {healthmonitoring2013}
 \btxnamefont {\btxlastnamefont {Ahmed}, Mobyen\btxfnamespacelong Uddin},
   \btxnamefont {Hadi \btxlastnamefont {Banaee}}\btxandcomma {} \btxandlong {}\
@@ -196,18 +204,6 @@
   Neuraiscongresso Brasileiro De Redes Neurais}, 2007\ifbtxprintISBN {,
   \mbox{\btxISBN~\btxISBNfont {0329-5184}}}.
 
-\bibitem {brox11}
-\btxnamefont {\btxlastnamefont {Brox}, Ellen}, \btxnamefont {Luis
-  \btxlastnamefont {Fernández-Luque}}, \btxnamefont {Gunn\btxfnamespacelong J.
-  \btxlastnamefont {Evertsen}}\btxandcomma {} \btxandlong {}\ \btxnamefont
-  {Juan \btxlastnamefont {González-Hernández}}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Exergames for elderly: Social exergames to persuade
-  seniors to increase physical activity}{Exergames For Elderly: Social
-  Exergames To Persuade Seniors To Increase Physical Activity}}.
-\newblock \Btxinlong {}\ \btxtitlefont {PervasiveHealth}. \btxpublisherfont
-  {IEEE}, 2011\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
-  {978-1-61284-767-2}}}.
-
 \bibitem {multisvm2011}
 \btxnamefont {\btxlastnamefont {Chamasemani}, Fereshteh} \btxandlong {}\
   \btxnamefont {Yashwant \btxlastnamefont {Singh}}\btxauthorcolon\
@@ -246,6 +242,16 @@
   Patients with Parkinson's Disease}}.
 \newblock \btxjournalfont {Expert Systems with Applications}, 36(3),
   2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0957-4174}}}.
+
+\bibitem {seriousgameolder2015}
+\btxnamefont {\btxlastnamefont {Codreanu}, I.\btxfnamespacelong A.} \btxandlong
+  {}\ \btxnamefont {A.\btxfnamespacelong M. \btxlastnamefont
+  {Florea}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {A proposed serious
+  game architecture to self-management healthcare for older adults}{A Proposed
+  Serious Game Architecture to Self-Management HealthCare for Older Adults}}.
+\newblock \Btxinlong {}\ \btxtitlefont {2015 17th International Symposium on
+  Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)},
+  \btxpageslong {}\ 437--440, \btxprintmonthyear{.}{Sept}{2015}{long}.
 
 \bibitem {csbc2016}
 \btxnamefont {\btxlastnamefont {Computação}, Sociedade\btxfnamespacelong
@@ -376,17 +382,6 @@
   \btxpublisherfont {ACM}, 2014\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
   {978-1-4503-2469-4}}}.
 
-\bibitem {stacey2011}
-\btxnamefont {\btxlastnamefont {Guy}, Stacey}, \btxnamefont {Alexandria
-  \btxlastnamefont {Ratzki-Leewing}}\btxandcomma {} \btxandlong {}\
-  \btxnamefont {Femida \btxlastnamefont {Gwadry-Sridhar}}\btxauthorcolon\
-  \btxjtitlefont {\btxifchangecase {Moving beyond the stigma: Systematic review
-  of video games and their potential to combat obesity}{Moving Beyond the
-  Stigma: Systematic Review of Video Games and Their Potential to Combat
-  Obesity}}.
-\newblock \btxjournalfont {International Journal of Hypertension},
-  2011\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2090-0392}}}.
-
 \bibitem {hamill1999bases}
 \btxnamefont {\btxlastnamefont {Hamill}, Joseph} \btxandlong {}\ \btxnamefont
   {Kathleen \btxlastnamefont {Knutzen}}\btxauthorcolon\ \btxtitlefont {Bases
@@ -402,15 +397,6 @@
 \newblock \btxpublisherfont {NICE Clinical Guideline}, \btxeditionnumlong
   {1}{}, 2006\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {1-86016-283-5}}}.
 
-\bibitem {sachealth2016}
-\btxnamefont {\btxlastnamefont {Healthcare}, Symposium~on Applied Computing
-  Track~on}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {International
-  conference on pervasive computing technologies for healthcare}{International
-  Conference on Pervasive Computing Technologies for Healthcare}}.
-\newblock {D}isponível em:
-  http://sssa.bioroboticsinstitute.it/workshops/sac2016/Healthcare_track, 2016.
-\newblock Último acesso: 3 de Junho de 2016.
-
 \bibitem {autonomparkin2015}
 \btxnamefont {\btxlastnamefont {Hellman}, Amy}, \btxnamefont {Shital
   \btxlastnamefont {Shah}}, \btxnamefont {Stephanie \btxlastnamefont
@@ -425,8 +411,8 @@
 
 \bibitem {specjbhi2015}
 \btxnamefont {\btxlastnamefont {IEEE}}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase
-  {http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/}{http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/}}.
+  {\btxifchangecase {Enabling technologies in parkinson's disease
+  management}{Enabling Technologies in Parkinson's Disease Management}}.
 \newblock {D}isponível em:
   http://jbhi.embs.org/special-issues/enabling-technologies-parkinsons-disease-management/,
   2016.
@@ -532,6 +518,16 @@
   Technologies and Applications of Artificial Intelligence},
   2010\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-3-319-13986-9}}}.
 
+\bibitem {cloudrehabi2014}
+\btxnamefont {\btxlastnamefont {Li}, Saiyi} \btxandlong {}\ \btxnamefont
+  {Pubudu \btxlastnamefont {Pathirana}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Cloud-based non-invasive tele-rehabilitation exercise
+  monitoring}{Cloud-based non-invasive tele-rehabilitation exercise
+  monitoring}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Conference on Biomedical Engineering
+  and Sciences}, \btxprintmonthyear{.}{Dec}{2014}{long}\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {1476-4687}}}.
+
 \bibitem {robotgait2014}
 \btxnamefont {\btxlastnamefont {Liao}, Chien\btxfnamespacelong Ke},
   \btxnamefont {Chung \btxlastnamefont {Lim}}, \btxnamefont
@@ -546,15 +542,19 @@
   Automation Science and Engineering}, 2014\ifbtxprintISBN {,
   \mbox{\btxISBN~\btxISBNfont {978-146738-184-0}}}.
 
-\bibitem {maitland2009}
-\btxnamefont {\btxlastnamefont {Maitland}, Julie} \btxandlong {}\ \btxnamefont
-  {Katie \btxlastnamefont {Siek}}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Technological approaches to promoting physical
-  activity}{Technological Approaches to Promoting Physical Activity}}.
-\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the Conference of the
-  Australian Computer-Human Interaction Special Interest Group}.
-  \btxpublisherfont {ACM}, 2009\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
-  {978-1-60558-854-4}}}.
+\bibitem {classifiersparkinson2014}
+\btxnamefont {\btxlastnamefont {Lones}, Michael}, \btxnamefont {Stephen
+  \btxlastnamefont {Smith}}, \btxnamefont {Jane \btxlastnamefont {Alty}},
+  \btxnamefont {Stuart \btxlastnamefont {Lacy}}, \btxnamefont {Katherine
+  \btxlastnamefont {Possin}}, \btxnamefont {\btxlastnamefont
+  {Jamieson}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Andy
+  \btxlastnamefont {Tyrrell}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {Evolving classifiers to recognize the movement characteristics of
+  parkinson's disease patients}{Evolving Classifiers to Recognize the Movement
+  Characteristics of Parkinson's Disease Patients}}.
+\newblock \btxjournalfont {IEEE Transactions on Evolutionary Computation},
+  18(4):559--576, 2014\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
+  {1089-778X}}}.
 
 \bibitem {Mandryk2014}
 \btxnamefont {\btxlastnamefont {Mandryk}, Regan}, \btxnamefont {Kathrin
@@ -975,6 +975,15 @@
   Applications}}.
 \newblock \btxjournalfont {Annals of Translational Medicine}, 4(5),
   2016\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2305-5847}}}.
+
+\bibitem {ambientgameolder2012}
+\btxnamefont {\btxlastnamefont {Zavala-Ibarra}, Iv\'{a}n} \btxandlong {}\
+  \btxnamefont {Jesus \btxlastnamefont {Favela}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Ambient videogames for health monitoring in older
+  adults}{Ambient Videogames for Health Monitoring in Older Adults}}.
+\newblock \Btxinlong {}\ \btxtitlefont {International Conference on Intelligent
+  Environments}, IE '12. \btxpublisherfont {IEEE Computer Society},
+  2012\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-0-7695-4741-1}}}.
 
 \bibitem {zigfu}
 \btxnamefont {\btxlastnamefont {Zigfu}}\btxauthorcolon\ \btxtitlefont

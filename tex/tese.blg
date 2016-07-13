@@ -7,11 +7,9 @@ Warning--entry type for "zigfu" isn't style-file defined
 --line 1619 of file biblmmcorfinal.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
 --line 1987 of file biblmmcorfinal.bib
-A bad cross reference---entry "brox11"
-refers to entry "conf/ph/2011", which doesn't exist
+Warning--I didn't find a database entry for "seriousgameolder20154"
 Warning--I didn't find a database entry for "SVM"
 Warning--I didn't find a database entry for "quantitativepark2016"
-Warning--I didn't find a database entry for "conf/ph/2011"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in aarhus_negotiating_2010
 Warning--empty chapter and pages in albanese2012
@@ -20,45 +18,45 @@ Warning--empty publisher in abn2010
 Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
 Warning--empty year in autonomparkin2015
-You've used 103 entries,
+You've used 104 entries,
             2788 wiz_defined-function locations,
-            1177 strings with 25109 characters,
-and the built_in function-call counts, 38070 in all, are:
-= -- 3112
-> -- 1697
-< -- 0
-+ -- 688
-- -- 572
-* -- 4479
-:= -- 5601
-add.period$ -- 245
-call.type$ -- 103
-change.case$ -- 596
+            1187 strings with 25348 characters,
+and the built_in function-call counts, 38754 in all, are:
+= -- 3167
+> -- 1720
+< -- 1
++ -- 698
+- -- 580
+* -- 4558
+:= -- 5683
+add.period$ -- 246
+call.type$ -- 104
+change.case$ -- 603
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 2025
-empty$ -- 3589
-format.name$ -- 1102
-if$ -- 7760
+cite$ -- 111
+duplicate$ -- 2061
+empty$ -- 3656
+format.name$ -- 1118
+if$ -- 7910
 int.to.chr$ -- 0
-int.to.str$ -- 103
-missing$ -- 123
-newline$ -- 446
-num.names$ -- 206
-pop$ -- 914
+int.to.str$ -- 104
+missing$ -- 124
+newline$ -- 450
+num.names$ -- 208
+pop$ -- 925
 preamble$ -- 1
-purify$ -- 492
+purify$ -- 498
 quote$ -- 0
-skip$ -- 880
+skip$ -- 906
 stack$ -- 0
-substring$ -- 580
-swap$ -- 827
-text.length$ -- 0
+substring$ -- 635
+swap$ -- 846
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
+type$ -- 382
 warning$ -- 7
-while$ -- 209
-width$ -- 106
-write$ -- 1119
-(There was 1 error message)
+while$ -- 214
+width$ -- 107
+write$ -- 1130
+(There were 12 warnings)
