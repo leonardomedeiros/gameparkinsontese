@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  14 JUL 2016 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  14 JUL 2016 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -152,10 +152,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
+(c:/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(c:/texlive/2016/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2016/06/28 v3.2 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count105
+\c@dblbotnumber=\count106
+)
 (c:/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -525,11 +539,12 @@ Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
 p \sbox \@tempboxa {#1: #2}\ifdim \wd \@tempboxa >\hsize #1: #2\par \else \glob
 al \@minipagefalse \hbox to\hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \bel
 owcaptionskip .
-\c@ContinuedFloat=\count104
+\c@ContinuedFloat=\count107
+Package caption Info: float package is loaded.
 ) (c:/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count105
-\c@subtable=\count106
+\c@subfigure=\count108
+\c@subtable=\count109
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -537,17 +552,17 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip56
 \LTpre=\skip57
 \LTpost=\skip58
-\LTchunksize=\count107
+\LTchunksize=\count110
 \LTcapwidth=\dimen124
-\LT@head=\box28
-\LT@firsthead=\box29
-\LT@foot=\box30
-\LT@lastfoot=\box31
-\LT@cols=\count108
-\LT@rows=\count109
-\c@LT@tables=\count110
-\c@LT@chunks=\count111
-\LT@p@ftn=\toks23
+\LT@head=\box30
+\LT@firsthead=\box31
+\LT@foot=\box32
+\LT@lastfoot=\box33
+\LT@cols=\count111
+\LT@rows=\count112
+\c@LT@tables=\count113
+\c@LT@chunks=\count114
+\LT@p@ftn=\toks25
 )
 (c:/texlive/2016/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -566,29 +581,29 @@ l.84 \ProcessOptions*
                      
 Maybe you misspelled the language option?
 
-\c@btxromaniannumeral=\count112
+\c@btxromaniannumeral=\count115
 ) (c:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen125
 )
 (c:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count113
-\lst@gtempboxa=\box32
-\lst@token=\toks24
-\lst@length=\count114
+\lst@mode=\count116
+\lst@gtempboxa=\box34
+\lst@token=\toks26
+\lst@length=\count117
 \lst@currlwidth=\dimen126
-\lst@column=\count115
-\lst@pos=\count116
+\lst@column=\count118
+\lst@pos=\count119
 \lst@lostspace=\dimen127
 \lst@width=\dimen128
-\lst@newlines=\count117
-\lst@lineno=\count118
+\lst@newlines=\count120
+\lst@lineno=\count121
 \lst@maxwidth=\dimen129
 
 (c:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count119
-\lst@skipnumbers=\count120
-\lst@framebox=\box33
+\c@lstnumber=\count122
+\lst@skipnumbers=\count123
+\lst@framebox=\box35
 )
 (c:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -607,35 +622,35 @@ LaTeX Warning: Label `material_permanente' multiply defined.
 )
 \openout1 = `tese.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 80.
  (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
+\scratchcounter=\count124
 \scratchdimen=\dimen130
-\scratchbox=\box34
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count124
+\scratchbox=\box36
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count127
 \MPscratchDim=\dimen131
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks28
 ) (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -703,19 +718,19 @@ File: portuguese.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH
 babelbib extension \bibsportuges added to \extrasportuges
 babelbib extension \btxifchangecaseoff added to \extrasportuges
 )
-\c@lstlisting=\count127
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 91.
+\c@lstlisting=\count130
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 96.
  (c:/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
  [1
 
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 99.
  (./resumo.tex
 
 ! Package inputenc Error: Unicode char â€‹ (U+200B)
@@ -779,7 +794,7 @@ or  <return>  to continue without it.
 
 ) [1] (./abstract.tex) [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 156.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 161.
  (./tese.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
@@ -905,41 +920,41 @@ Cap\'{\i }tulo 3.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 []\T1/ptm/m/n/12 O jo-ga-dor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 []\T1/ptm/m/n/12 Promover
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 \T1/ptm/m/n/12 ati-vi-da-des fí-si-cas ou ações que ve-nham a tra-zer in-jú-ria
  ao jo-ga-dor,
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 11--12
+Underfull \hbox (badness 6078) in paragraph at lines 13--14
 \T1/ptm/m/n/12 como: mo-vi-men-tos de equi-lí-brio, mo-vi-men-tos re-pe-ti-ti-v
 os ou brus-cos [] 9;
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 12--13
+Underfull \hbox (badness 2762) in paragraph at lines 14--15
 []\T1/ptm/m/n/12 O jogo deve
  []
 
 [18
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 []\T1/ptm/m/n/12 Baseados em
  []
 
 
-Overfull \hbox (18.1413pt too wide) in paragraph at lines 14--15
+Overfull \hbox (18.1413pt too wide) in paragraph at lines 16--17
 []
  []
 
@@ -947,14 +962,14 @@ Overfull \hbox (18.1413pt too wide) in paragraph at lines 14--15
 File: ./img/visaosistema.png Graphic file (type png)
 
 <use ./img/visaosistema.png>
-Package pdftex.def Info: ./img/visaosistema.png used on input line 23.
+Package pdftex.def Info: ./img/visaosistema.png used on input line 25.
 (pdftex.def)             Requested size: 343.99327pt x 279.1306pt.
- [19] [20 <./img/visaosistema.png>]
+ [19 <./img/visaosistema.png>] [20]
 <./img/biomecprocessor2.png, id=116, 330.5148pt x 431.6928pt>
 File: ./img/biomecprocessor2.png Graphic file (type png)
 
 <use ./img/biomecprocessor2.png>
-Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 51.
+Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 57.
 (pdftex.def)             Requested size: 352.8155pt x 460.83961pt.
 
 <./img/exsinalposicaoypunhodireito.png, id=117, 545.78906pt x 339.51843pt>
@@ -962,37 +977,30 @@ File: ./img/exsinalposicaoypunhodireito.png Graphic file (type png)
 
 <use ./img/exsinalposicaoypunhodireito.png>
 Package pdftex.def Info: ./img/exsinalposicaoypunhodireito.png used on input li
-ne 63.
+ne 72.
 (pdftex.def)             Requested size: 441.01772pt x 274.34529pt.
 
 <./img/deteccaopicosvales.png, id=118, 599.23875pt x 402.75468pt>
 File: ./img/deteccaopicosvales.png Graphic file (type png)
 
 <use ./img/deteccaopicosvales.png>
-Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 72.
+Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 82.
 (pdftex.def)             Requested size: 441.01772pt x 296.41751pt.
  [21] [22 <./img/biomecprocessor2.png>]
-<./img/remocaoruidociclo.png, id=126, 458.46281pt x 311.66437pt>
-File: ./img/remocaoruidociclo.png Graphic file (type png)
 
-<use ./img/remocaoruidociclo.png>
-Package pdftex.def Info: ./img/remocaoruidociclo.png used on input line 92.
-(pdftex.def)             Requested size: 441.01772pt x 299.81737pt.
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 108
+.
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 99.
-
-
-
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 102
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 111
 .
 
 [23 <./img/exsinalposicaoypunhodireito.png (PNG copy)>]
-<./img/amplitude-braco.png, id=130, 421.575pt x 316.18124pt>
+<./img/amplitude-braco.png, id=129, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco.png Graphic file (type png)
 
 <use ./img/amplitude-braco.png>
-Package pdftex.def Info: ./img/amplitude-braco.png used on input line 123.
+Package pdftex.def Info: ./img/amplitude-braco.png used on input line 132.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
 
@@ -1003,7 +1011,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 ...esse movimento. O tempo gasto entre o 1Â°
+l.138 ...esse movimento. O tempo gasto entre o 1Â°
                                                    vale e o pico em cada cic...
 
 Your command was ignored.
@@ -1018,42 +1026,28 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 ...Ã§o, e o tempo gasto entre o pico e o 2Â°
+l.138 ...Ã§o, e o tempo gasto entre o pico e o 2Â°
                                                    vale de cada ciclo, serÃ¡...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./img/amplitude-braco-picos.png, id=131, 421.575pt x 316.18124pt>
+<./img/amplitude-braco-picos.png, id=130, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco-picos.png Graphic file (type png)
 
 <use ./img/amplitude-braco-picos.png>
-Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 132
+Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 141
 .
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
- [24 <./img/deteccaopicosvales.png (PNG copy)>] [25 <./img/remocaoruidociclo.pn
-g (PNG copy)>]
-(c:/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 160.
- [26 <./img/amplitude-braco.png (PNG copy)>]
-<./img/vetormedionormalozadoescalonado.png, id=144, 421.575pt x 316.18124pt>
-File: ./img/vetormedionormalozadoescalonado.png Graphic file (type png)
-
-<use ./img/vetormedionormalozadoescalonado.png>
-Package pdftex.def Info: ./img/vetormedionormalozadoescalonado.png used on inpu
-t line 167.
-(pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
-
-<./img/ciclomovimentoremovido.png, id=145, 421.575pt x 316.18124pt>
+ [24 <./img/deteccaopicosvales.png (PNG copy)>] [25 <./img/amplitude-braco.png 
+(PNG copy)>]
+<./img/ciclomovimentoremovido.png, id=139, 421.575pt x 316.18124pt>
 File: ./img/ciclomovimentoremovido.png Graphic file (type png)
 
 <use ./img/ciclomovimentoremovido.png>
-Package pdftex.def Info: ./img/ciclomovimentoremovido.png used on input line 17
-8.
+Package pdftex.def Info: ./img/ciclomovimentoremovido.png used on input line 18
+7.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
 
@@ -1064,7 +1058,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 ...alar, que nos retorna valores entre $ 0Â°
+l.194 ...alar, que nos retorna valores entre $ 0Â°
                                                    $\ a $ 180Â° $\, do movim...
 
 Your command was ignored.
@@ -1079,24 +1073,27 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 ... retorna valores entre $ 0Â° $\ a $ 180Â°
+l.194 ... retorna valores entre $ 0Â° $\ a $ 180Â°
                                                    $\, do movimento de abduÃ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[27 <./img/amplitude-braco-picos.png (PNG copy)>] [28 <./img/vetormedionormaloz
-adoescalonado.png (PNG copy)>] [29 <./img/ciclomovimentoremovido.png (PNG copy)
->]
-Underfull \hbox (badness 1199) in paragraph at lines 231--232
+[26 <./img/amplitude-braco-picos.png (PNG copy)>] [27 <./img/ciclomovimentoremo
+vido.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 240--241
 []\T1/ptm/m/n/12 Como pode ser visto nes-ses da-dos, a am-pli-tude de um in-di-
 ví-duo di-ag-nos-ti-cado
  []
 
-[30]) (./cap4_arquitetura.tex [31]
+[28]) (./cap4_arquitetura.tex [29]
 Cap\'{\i }tulo 4.
-<./img/arquitetura.png, id=161, 749.80125pt x 365.11406pt>
+<./img/arquitetura.png, id=153, 749.80125pt x 365.11406pt>
 File: ./img/arquitetura.png Graphic file (type png)
 
 <use ./img/arquitetura.png>
@@ -1104,136 +1101,187 @@ Package pdftex.def Info: ./img/arquitetura.png used on input line 10.
 (pdftex.def)             Requested size: 419.88583pt x 204.46246pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 18.
- [32
+ [30
 
  <./img/arquitetura.png>]
-Underfull \hbox (badness 1297) in paragraph at lines 24--26
+<./img/arquiclientejogueme.png, id=157, 364.36125pt x 175.40532pt>
+File: ./img/arquiclientejogueme.png Graphic file (type png)
+
+<use ./img/arquiclientejogueme.png>
+Package pdftex.def Info: ./img/arquiclientejogueme.png used on input line 25.
+(pdftex.def)             Requested size: 291.48938pt x 140.32443pt.
+
+Underfull \hbox (badness 1297) in paragraph at lines 34--36
 []\T1/ptm/m/n/12 Para ad-qui-rir os si-nais mo-to-res, este tra-ba-lho uti-li-z
 ou e her-dou do com-po-nente
  []
 
-<./img/diagclasszigfu.png, id=166, 440.64626pt x 422.57875pt>
+<./img/diagclasszigfu.png, id=158, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
 <use ./img/diagclasszigfu.png>
-Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 46.
+Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 53.
 (pdftex.def)             Requested size: 352.51747pt x 338.06345pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/catch-the-spheres.png, id=167, 1063.72406pt x 557.08125pt>
+[31 <./img/arquiclientejogueme.png>]
+<./img/catch-the-spheres.png, id=162, 1063.72406pt x 557.08125pt>
 File: ./img/catch-the-spheres.png Graphic file (type png)
 
 <use ./img/catch-the-spheres.png>
-Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 70.
+Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 73.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33] [34 <./img/diagclasszigfu.png> <./img/catch-the-spheres.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 77.
-
-<./img/class_diagram.png, id=174, 2179.14125pt x 1258.7025pt>
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 80.
+[32 <./img/diagclasszigfu.png>]
+<./img/class_diagram.png, id=167, 2179.14125pt x 1258.7025pt>
 File: ./img/class_diagram.png Graphic file (type png)
 
 <use ./img/class_diagram.png>
-Package pdftex.def Info: ./img/class_diagram.png used on input line 84.
+Package pdftex.def Info: ./img/class_diagram.png used on input line 87.
 (pdftex.def)             Requested size: 441.01772pt x 254.73221pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 89.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 92.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [35 <./img/class_diagram.png (PNG copy)>] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+) [33 <./img/catch-the-spheres.png (PNG copy)> <./img/class_diagram.png (PNG co
+py)>]
+Underfull \hbox (badness 3281) in paragraph at lines 131--132
+\T1/ptm/m/n/12 O \T1/ptm/m/it/12 Ge-ren-ci-a-dor de Da-dos \T1/ptm/m/n/12 pos-s
+ui sub-mó-du-los res-pon-sá-veis por ler, se-para e fil-
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 131--132
+\T1/ptm/m/n/12 trar os da-dos, além do gerenciá-los usando um Banco de Da-dos p
+ara o ar-ma-ze-
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 131--132
+\T1/ptm/m/n/12 na-mento das in-for-ma-ções mo-to-ras. A classe \T1/pcr/m/n/12 D
+ataManager \T1/ptm/m/n/12 im-ple-menta as fun-
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 131--132
+\T1/ptm/m/n/12 ci-o-na-li-da-des do \T1/ptm/m/it/12 Ge-ren-ci-a-dor de Da-dos\T
+1/ptm/m/n/12 , re-fe-ren-ci-ando os qua-tro mó-du-los: \T1/ptm/m/it/12 Ge-ren-
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 131--132
+\T1/ptm/m/it/12 ci-a-dor de Ar-qui-vos\T1/ptm/m/n/12 , \T1/ptm/m/it/12 Mó-dulo 
+de Es-crita\T1/ptm/m/n/12 , \T1/ptm/m/it/12 Mó-dulo de Fil-tra-gem \T1/ptm/m/n/
+12 e \T1/ptm/m/it/12 Ge-ren-ci-a-dor do
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 131--132
+\T1/ptm/m/it/12 Banco de Da-dos\T1/ptm/m/n/12 . Es-tes mó-du-los se-rão ex-pli-
+ca-dos nas sub-se-ções a se-guir. A
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 131--132
+\T1/ptm/m/n/12 classe \T1/pcr/m/n/12 DataManager \T1/ptm/m/n/12 pos-sui um cons
+-tru-tor \T1/pcr/m/n/12 DataManager(DatabaseManager,
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[]\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 []\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-[]\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 141--142
+Underfull \hbox (badness 2762) in paragraph at lines 144--145
 \T1/pcr/m/n/12 hasHeader, String... labels) \T1/ptm/m/n/12 es-tende a fun-ci-o-
 na-li-dade do mé-todo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 []\T1/pcr/m/n/12 getMultipleData(String path, String separator, boolean
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 []\T1/ptm/m/n/12 A classe \T1/pcr/m/n/12 MovementDataFileManager \T1/ptm/m/n/12
  es-tende as fun-ci-o-na-li-da-des do
  []
 
-[37] [38] [39] [40]
+[36] [37] [38]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 294.
- [41]) (./cap5-avaliacao.tex [42]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 297.
+ [39]) (./cap5-avaliacao.tex [40]
 Cap\'{\i }tulo 5.
 
 Underfull \hbox (badness 7631) in paragraph at lines 7--7
 []\T1/ptm/b/n/17.28 Entrevista Se-mi-es-tru-tu-rada com Pro-fis-si-o-nais de
  []
 
-[43
+[41
 
-] [44]
+] [42]
 Overfull \hbox (8.11433pt too wide) in paragraph at lines 39--47
 [][] 
  []
 
-[45] [46] [47] [48] [49] [50] [51]
-<./img/gametremor.png, id=231, 388.45125pt x 579.16376pt>
+[43] [44] [45] [46] [47] [48] [49]
+<./img/gametremor.png, id=223, 388.45125pt x 579.16376pt>
 File: ./img/gametremor.png Graphic file (type png)
 
 <use ./img/gametremor.png>
 Package pdftex.def Info: ./img/gametremor.png used on input line 265.
 (pdftex.def)             Requested size: 194.22514pt x 289.58116pt.
- [52 <./img/gametremor.png>]
+ [50 <./img/gametremor.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53]
+[51]
 
-LaTeX Warning: Text page 54 contains only floats.
+LaTeX Warning: Text page 52 contains only floats.
 
-[54]
+[52]
 
 Package Fancyhdr Warning: \headheight is too small (15.02399pt): 
  Make it at least 26.98592pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55] [56]
-<./img/movaddcutctionartist2.png, id=249, 1062.97125pt x 804.00375pt>
+[53] [54]
+<./img/movaddcutctionartist2.png, id=241, 1062.97125pt x 804.00375pt>
 File: ./img/movaddcutctionartist2.png Graphic file (type png)
 
 <use ./img/movaddcutctionartist2.png>
 Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 396
 .
 (pdftex.def)             Requested size: 265.74216pt x 201.00044pt.
- [57 <./img/movaddcutctionartist2.png (PNG copy)>]
+ [55 <./img/movaddcutctionartist2.png (PNG copy)>]
 Overfull \hbox (1.70758pt too wide) in paragraph at lines 414--424
  [][] 
  []
 
-<img/signalamplitudepeakvaley-2.png, id=253, 719.68875pt x 446.41782pt>
+<img/signalamplitudepeakvaley-2.png, id=245, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
 
 <use img/signalamplitudepeakvaley-2.png>
 Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 
 428.
 (pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
- [58 <./img/signalamplitudepeakvaley-2.png>] [59] <./img/vetormedioaducao.png, 
-id=261, 743.02594pt x 453.19313pt>
+ [56 <./img/signalamplitudepeakvaley-2.png>] [57] <./img/vetormedioaducao.png, 
+id=254, 743.02594pt x 453.19313pt>
 File: ./img/vetormedioaducao.png Graphic file (type png)
 
 <use ./img/vetormedioaducao.png>
@@ -1247,8 +1295,8 @@ Overfull \hbox (41.94342pt too wide) in paragraph at lines 458--459
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60 <./img/vetormedioaducao.png (PNG copy)>]
-<./img/gridsearch.png, id=265, 558.888pt x 428.802pt>
+[58 <./img/vetormedioaducao.png (PNG copy)>]
+<./img/gridsearch.png, id=258, 558.888pt x 428.802pt>
 File: ./img/gridsearch.png Graphic file (type png)
 
 <use ./img/gridsearch.png>
@@ -1258,7 +1306,7 @@ Package pdftex.def Info: ./img/gridsearch.png used on input line 499.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/gridsearchfprate.png, id=266, 515.526pt x 445.665pt>
+<./img/gridsearchfprate.png, id=259, 515.526pt x 445.665pt>
 File: ./img/gridsearchfprate.png Graphic file (type png)
 
 <use ./img/gridsearchfprate.png>
@@ -1268,17 +1316,17 @@ Package pdftex.def Info: ./img/gridsearchfprate.png used on input line 510.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[61] [62 <./img/gridsearch.png (PNG copy)>]
+[59] [60 <./img/gridsearch.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 545.
- [63 <./img/gridsearchfprate.png (PNG copy)>] [64] <./img/gqm.png, id=281, 739.
+ [61 <./img/gridsearchfprate.png (PNG copy)>] [62] <./img/gqm.png, id=274, 739.
 563pt x 357.9774pt>
 File: ./img/gqm.png Graphic file (type png)
 
 <use ./img/gqm.png>
 Package pdftex.def Info: ./img/gqm.png used on input line 622.
 (pdftex.def)             Requested size: 369.7806pt x 178.98825pt.
- [65] [66 <./img/gqm.png>]
+ [63] [64 <./img/gqm.png>]
 Overfull \hbox (2.85274pt too wide) in paragraph at lines 665--665
 []\T1/ptm/m/n/12 90,00%| 
  []
@@ -1316,33 +1364,33 @@ Overfull \hbox (2.85274pt too wide) in paragraph at lines 671--671
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./img/chart_1-.png, id=289, 474.27188pt x 360.59718pt>
+<./img/chart_1-.png, id=282, 474.27188pt x 360.59718pt>
 File: ./img/chart_1-.png Graphic file (type png)
 
 <use ./img/chart_1-.png>
 Package pdftex.def Info: ./img/chart_1-.png used on input line 679.
 (pdftex.def)             Requested size: 379.41801pt x 288.47813pt.
 
-<./img/chart_3-.png, id=290, 475.02469pt x 360.59718pt>
+<./img/chart_3-.png, id=283, 475.02469pt x 360.59718pt>
 File: ./img/chart_3-.png Graphic file (type png)
 
 <use ./img/chart_3-.png>
 Package pdftex.def Info: ./img/chart_3-.png used on input line 687.
 (pdftex.def)             Requested size: 380.02025pt x 288.47813pt.
- <./img/chart_10-.png, id=291, 475.02469pt x 361.35pt>
+ <./img/chart_10-.png, id=284, 475.02469pt x 361.35pt>
 File: ./img/chart_10-.png Graphic file (type png)
 
 <use ./img/chart_10-.png>
 Package pdftex.def Info: ./img/chart_10-.png used on input line 695.
 (pdftex.def)             Requested size: 380.02025pt x 289.0804pt.
- [67] [68 <./img/chart_1-.png>] [69 <./img/chart_3-.png> <./img/chart_10-.png>]
-) (./cap6-conclusoes.tex [70
+ [65] [66 <./img/chart_1-.png>] [67 <./img/chart_3-.png> <./img/chart_10-.png>]
+) (./cap6-conclusoes.tex [68
 
 ]
 Cap\'{\i }tulo 6.
-[71
+[69
 
-]) (./tese.bbl [72]
+]) (./tese.bbl [70]
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1354,7 +1402,7 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-[73
+[71
 
 ]
 Underfull \hbox (badness 1264) in paragraph at lines 170--178
@@ -1374,13 +1422,13 @@ Underfull \hbox (badness 1616) in paragraph at lines 189--194
  de Ju-nho de
  []
 
-[74]
+[72]
 Underfull \hbox (badness 3291) in paragraph at lines 319--323
 []\T1/ptm/m/n/12 Fish, Jes-sica: \T1/ptm/m/it/12 Uni-fied Par-kin-son's Di-se-a
 se Ra-ting Scale\T1/ptm/m/n/12 .  Sprin-ger, 2011,
  []
 
-[75]
+[73]
 Underfull \hbox (badness 4981) in paragraph at lines 412--419
 []\T1/ptm/m/n/12 IEEE: \T1/ptm/m/it/12 Ena-bling Te-ch-no-lo-gies in Par-kin-so
 n's Di-se-ase Ma-na-ge-ment\T1/ptm/m/n/12 .  Dis-
@@ -1392,7 +1440,7 @@ Underfull \hbox (badness 2368) in paragraph at lines 412--419
 ologies-parkinsons-
  []
 
-[76]
+[74]
 Underfull \hbox (badness 6526) in paragraph at lines 436--441
 []\T1/ptm/m/n/12 IEEE: \T1/ptm/m/it/12 Jour-nal of Bi-o-me-di-cal and He-alth I
 n-for-ma-tics\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
@@ -1404,7 +1452,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--448
 ne-e-ring\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
 
-[77] [78]
+[75] [76]
 Underfull \hbox (badness 4217) in paragraph at lines 729--735
 []\T1/ptm/m/n/12 Research, Pro-va-lis: \T1/ptm/m/it/12 QDA MI-NER Lite v1.2.2\T
 1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1/ptm/m/n/12 , Dis-po-ní-vel em:
@@ -1416,7 +1464,7 @@ Underfull \hbox (badness 7186) in paragraph at lines 729--735
 oftware/.  Úl-timo
  []
 
-[79]
+[77]
 Underfull \hbox (badness 2065) in paragraph at lines 767--776
 []\T1/ptm/m/n/12 Saraiva, Ales-san-dra Vil-ches: \T1/ptm/m/it/12 Uti-li-za-ção 
 da Abor-da-gem Goal-Question-Metrics
@@ -1442,32 +1490,32 @@ Underfull \hbox (badness 3701) in paragraph at lines 838--842
 /ptm/m/n/12 .  Ad-di-son Wes-ley Bra, 2011,
  []
 
-[80]
+[78]
 Underfull \hbox (badness 4303) in paragraph at lines 899--902
 []\T1/ptm/m/it/12 Institute of Elec-tri-cal and Elec-tro-nics En-gi-ne-ers\T1/p
 tm/m/n/12 : \T1/ptm/m/it/12 IEEE\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
 
-[81]) (./apend_comite.tex [82]
+[79]) (./apend_comite.tex [80]
 Ap\^endice A.
-[83
+[81
 
-] [84] [85] [86] [87] [88]
+] [82] [83] [84] [85] [86]
 File: ./img/catch-the-spheres.png Graphic file (type png)
  <use ./img/catch-the-spheres.png>
 Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 138.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
- [89] [90]
-[91] [92]
+ [87] [88]
+[89] [90]
 Overfull \hbox (3.61714pt too wide) in paragraph at lines 245--252
  [][] 
  []
 
-) (./apend3-entrevista-semi.tex [93]
+) (./apend3-entrevista-semi.tex [91]
 Ap\^endice B.
-[94
+[92
 
-]) (./apendice-diagnostico.tex [95] [96]
+]) (./apendice-diagnostico.tex [93] [94]
 Ap\^endice C.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -1480,9 +1528,9 @@ Underfull \hbox (badness 1466) in paragraph at lines 2--3
 [] \T1/ptm/m/n/12 de Lon-dres [] 40[]. O pa-ci-ente será
  []
 
-[97
+[95
 
-]) (./questionario-gqm.tex [98]
+]) (./questionario-gqm.tex [96]
 Ap\^endice D.
 
 Overfull \hbox (12.0pt too wide) in alignment at lines 5--8
@@ -1509,21 +1557,21 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 16--31
  [] 
  []
 
-[99
+[97
 
-]) [100] (./tese.aux)
+]) [98] (./tese.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8305 strings out of 493013
- 116011 string characters out of 6136994
- 292362 words of memory out of 5000000
- 11614 multiletter control sequences out of 15000+600000
- 71356 words of font info for 80 fonts, out of 8000000 for 9000
+ 7688 strings out of 493013
+ 108620 string characters out of 6136994
+ 269081 words of memory out of 5000000
+ 10995 multiletter control sequences out of 15000+600000
+ 68553 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 40i,17n,46p,1583b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,17n,46p,1583b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1
@@ -1535,10 +1583,10 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2053663 bytes).
+Output written on tese.pdf (109 pages, 2047054 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
+ 438 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

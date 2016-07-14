@@ -1,4 +1,4 @@
-\chapter{Arquitetura de Software para~\textit{JOGUE-ME}}\label{chapter:arquitetura_captura}
+\chapter{Arquitetura de Software do~\textit{JOGUE-ME}}\label{chapter:arquitetura_captura}
 
 A arquitetura do sistema possui diferentes tecnologias conforme a Figura~\ref{fig:arquitetura} e foi desenvolvida para permitir o desenvolvedor abstrair da complexidade do processamento do sinal dos dados e na identificação dos sintomas motores. Logo, esta arquitetura de \textit{software} integrada a uma \textit{engine} de jogos bem conhecida e difundida (Unity 3D~\cite{unity3d}) facilita o desenvolvimento de jogos para esse contexto.
 
@@ -10,15 +10,25 @@ A arquitetura do sistema possui diferentes tecnologias conforme a Figura~\ref{fi
   \includegraphics[scale=0.56]{./img/arquitetura.png}
  % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
  %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-\caption[Arquitetura do Sistema]{Arquitetura do Sistema}
+\caption[Arquitetura de Software]{Arquitetura de Software}
 %  \caption{Estágio desenvolvimento de jogos}
  \label{fig:arquitetura}
 \end{figure}
 
 \section{Arquitetura do ~\textit{JOGUE-ME}}\label{sec:cliente_game}
-A arquitetura do~\ac{jogue-me} foi concebida em cooperação com um pesquisador de Mestrado da UFCG, Antônio Santos Jr.~\cite{antonio2013}. Inicialmente, foi proposto um arcabouço para o desenvolvimento de software utilizando uma \textit{engine} de jogos (Unity3D~\cite{unity3d}), que é um ambiente de desenvolvimento de jogos multi-plataforma. Este arcabouço permite que os desenvolvedores abstraiam-se dos aspectos de hardware, plataforma e complexidade do desenvolvimento de jogos e habilita o desenvolvedor a se ater somente às atividades referentes ao desenvolvimento do jogo.
+A arquitetura do~\ac{jogue-me} para o desenvolvimento de jogos utiliza uma \textit{engine} de jogos (Unity3D~\cite{unity3d}), que é um ambiente de desenvolvimento de jogos multi-plataforma. Esta \textit{engine} possibilita que os desenvolvedores abstraiam-se dos aspectos de hardware, plataforma e complexidade do desenvolvimento de jogos e habilita o desenvolvedor a se ater somente às atividades referentes ao desenvolvimento do jogo.
 
-Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3d} como ferramenta de desenvolvimento. Esse ambiente facilita a criação de cenários, terrenos e interação com os objetos dos jogos usando uma linguagem de \textit{script}. No entanto, desenvolver jogos com propósito de monitorar sinais motores possui desafios que não precisam ser de responsabilidade dos desenvolvedores de jogos. %Por esse motivo, criamos um arcabouço de software que abstrai a complexidade do desenvolvimento de um jogo de monitoramento da saúde.
+Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3d} como ferramenta de desenvolvimento. Esse ambiente facilita a criação de cenários, terrenos e interação com os objetos dos jogos usando uma linguagem de \textit{script}. No entanto, desenvolver jogos com propósito de monitorar sinais motores possui desafios que não precisam ser de responsabilidade dos desenvolvedores de jogos. Por esse motivo, criamos uma arquitetura de software para o cliente JOGUE-ME (Figura~\ref{fig:arquitetura_cliente}) que abstrai a complexidade do desenvolvimento de um jogo de monitoramento da saúde.
+
+\begin{figure}[!htbp]
+ \centering
+ \includegraphics[scale=0.8]{./img/arquiclientejogueme.png}
+ % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
+ %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
+\caption{Arquitetura JOGUE-ME: Módulo Cliente de Aquisição de Sinais Motores}
+%  \caption{Estágio desenvolvimento de jogos}
+ \label{fig:arquitetura_cliente}
+\end{figure}
 
 
 Para adquirir os sinais motores, este trabalho utilizou e herdou do componente (Zigfu~\cite{zigfu}) para Unity3D para integrar o Ms-Kinnect~\cite{kinnect2013} como controlador do jogo à arquitetura proposta. O Ms-Kinnect~\cite{kinnect2013} é um sensor de captura de movimentos utilizado tanto para o console MS-XBOX 360 quanto para \textit{PCs}. Ele permite a aquisição dos sinais relativos ao movimento humano e identifica as articulações por meio da posição anatômica do corpo humano~\cite{hamill1999bases}.
@@ -38,28 +48,21 @@ Para adquirir os sinais motores, este trabalho utilizou e herdou do componente (
 %%  \caption{Estágio desenvolvimento de jogos}
  %\label{fig:articulacoeskinnect}
 %\end{figure}
-
-O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect, para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, o Zigfu foi extendido na classe \textit{ZigSkeletonHealth} para armazenar as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()}).
-
 \begin{figure}[!h]
  \centering
  \includegraphics[scale=0.8]{./img/diagclasszigfu.png}
  \caption{Diagrama de Classe do ZigSkeleton e ZigSkeletonHealth}
  \label{fig:diagramaclassezigfu}
 \end{figure}
-%
-%\begin{figure}[!htbp]
- %\centering
- %\includegraphics[scale=0.8]{./img/Unity3DArquitetura.png}
- %% matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
- %%\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-%\caption{Arquitetura do Jogo: Módulo Cliente de Captura de Dados}
-%%  \caption{Estágio desenvolvimento de jogos}
- %\label{fig:arquitetura_cliente}
-%\end{figure}
+
+O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect, para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, o Zigfu foi extendido na classe \textit{ZigSkeletonHealth} para armazenar as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()}).
+
+
+
+
 
 \subsubsection{Jogo: \textit{Catch the Spheres}}\label{jogo_catch}
-Para testar a abordagem~\ac{jogue-me}, criamos o jogo \textit{Catch the Spheres}, de acordo com os requisitos propostos na Seção~\ref{section:requisitos_solucao}.  
+Para testar a abordagem~\ac{jogue-me}, foi criado o jogo \textit{Catch the Spheres}, de acordo com os requisitos propostos na Seção~\ref{section:requisitos_solucao}.  
 
 O \textit{Catch the Spheres} é um jogo em terceira pessoa, em que o jogador, por meio de seu personagem, deve tocar ou desviar das bolas que vêm em sua direção. Se o jogador tocar as bolas azuis, receberá uma pontuação por isso; caso seja atingido pelas bolas vermelhas, haverá uma penalização([REQ-JOGUE-ME-01]). Com o progresso do usuário, as bolas tornam-se mais rápidas, exigindo uma maior agilidade nos movimentos ([REQ-JOGUE-ME-02]). Este é o principal mecanismo de fluxo do jogo~\cite{sweetser2005-gameflow}, que tem o intuito de atrair a atenção do jogador, baseado nos desafios propostos ([REQ-JOGUE-ME-03]). 
 
@@ -77,13 +80,13 @@ O mecanismo de aquisição e armazenamento dos sinais motores ([REQ-JOGUE-ME-05]
 \subsection{Arquitetura do \textit{JOGUE-ME Webservice}}
 O mecanismo de aquisição e armazenamento dos sinais motores ([REQ-JOGUE-ME-05]) torna possível a análise dos dados motores do usuário no qual o jogo armazena as informações e as envia para o servidor de dados. 
 
-O \textit{JOGUE-ME Webservice} é responsável por: criar usuário, receber dados motores, gerenciar arquivos exportá-los para o MATLAB~\cite{matlab2011} conforme a Arquitetura exposta na Figura~\ref{fig:arquitetura}.
+O \textit{JOGUE-ME Webservice} é responsável por: criar usuário, receber dados motores, gerenciar arquivos exportá-los para o MATLAB~\cite{matlab2011} conforme a arquitetura descrita do Diagrama de Classes (Figura~\ref{fig:classd}).
 
 \begin{figure}[!h]
      \centering
      \includegraphics[width=1\textwidth]{./img/class_diagram.png}
-     \caption[Diagrama de Classes do Arcabouço]{Diagrama de Classes do Arcabouço ~\cite{antonio2013}}
-     \label{img:classd}
+     \caption[Diagrama de Classes do Serviço JOGUE-ME]{Diagrama de Classes do do Serviço JOGUE-ME}
+     \label{fig:classd}
 \end{figure}
 
 O processo inicia com a aquisição dos dados dos sensores, que podem ser enviados para o \emph{webservice} e processados pela classe \texttt{ReadingResource} ou enviados por arquivos e processados pela classe \texttt{FileManager}, acessada através do \texttt{DataManager}. O \texttt{ReadingResource} envia os dados recebidos para o \texttt{DatabaseManager}, também acessado através do \texttt{DataManager}, para armazená-los no \emph{banco de dados} ~\cite{antonio2013}. Na Tabela~\ref{tab:operations}, ilustram-se as operações disponibilizadas pelo \textit{webservice} e um exemplo de como os dados devem ser estruturados para cada operação.
@@ -125,7 +128,7 @@ O envio dos dados dos usuários coletados com os dispositivos é feito através 
 \end{table}
 
 \subsubsection{Gerenciador de Dados}
-O \emph{Gerenciador de Dados} possui submódulos responsáveis por fazer leitura, separação e filtragem dos dados, além do gerenciamento destes no Banco de Dados com a escrita dos resultados disponibilizados pelo \emph{Analisador de Dados}. A classe \texttt{DataManager} implementa as funcionalidades do \emph{Gerenciador de Dados}, referenciando os quatro módulos: \emph{Gerenciador de Arquivos}, \emph{Módulo de Escrita}, \emph{Módulo de Filtragem} e \emph{Gerenciador do Banco de Dados}. Estes módulos serão explicados nas subseções a seguir. A classe \texttt{DataManager} possui um construtor \texttt{DataManager(DatabaseManager, FileManager, WriterModule, FilterModule)}, que recebe como parâmetros os quatro módulos. Dessa forma, é possível aumentar a funcionalidade de cada um dos módulos estendendo suas respectivas classes por herança e adicionando a elas novos métodos. A classe \texttt{MovementDataFileManager}, tratada mais adiante, é um exemplo de extensão do \texttt{FileManager}.
+O \emph{Gerenciador de Dados} possui submódulos responsáveis por ler, separa e filtrar os dados, além do gerenciá-los usando um Banco de Dados para o armazenamento das informações motoras. A classe \texttt{DataManager} implementa as funcionalidades do \emph{Gerenciador de Dados}, referenciando os quatro módulos: \emph{Gerenciador de Arquivos}, \emph{Módulo de Escrita}, \emph{Módulo de Filtragem} e \emph{Gerenciador do Banco de Dados}. Estes módulos serão explicados nas subseções a seguir. A classe \texttt{DataManager} possui um construtor \texttt{DataManager(DatabaseManager, FileManager, WriterModule, FilterModule)}, que recebe como parâmetros os quatro módulos. Dessa forma, é possível aumentar a funcionalidade de cada um dos módulos estendendo suas respectivas classes por herança e adicionando a elas novos métodos. A classe \texttt{MovementDataFileManager}, tratada mais adiante, é um exemplo de extensão do \texttt{FileManager}.
 
 O \emph{webservice}, implementado utilizou a biblioteca Jersey\footnote{Disponível em: http://jersey.java.net/}, que facilita o desenvolvimento de \textit{RESTful webservices}. As requisições são enviadas para serem processadas pela classe \texttt{ReadingResource}, que é um \textit{web resource}, uma entidade que recebe requisições HTTP e envia respostas. Esta classe possui dois métodos, o \texttt{get()} que trata requisições \emph{GET}, retornando o identificador do último conjunto de leituras para controle do armazenamento no banco de dados; e o método \texttt{post(List<Reading> readings)} processa os dados das leituras enviados através de requisições \emph{POST}, e convertidos de JSON para objetos Java pela biblioteca Jersey. A classe \texttt{ReadingResource} está acoplada à classe \texttt{DataManager} e, através dela, tem acesso ao \emph{Gerenciador do Banco de Dados}. O \emph{webservice} pode ser instalado em qualquer \textit{web container}, como o Apache Tomcat\footnote{Disponível em: http://tomcat.apache.org/} e o GlassFish\footnote{Disponível em: http://glassfish.
 java.net/}.
@@ -209,7 +212,7 @@ A classe \texttt{WriterImpl} implementa os métodos comuns a todas as classes de
 % \end{table}
 
 \section{Processador de Dados Biomecânicos}\label{sec:processador_bio}
-Para transformar os sinais em informação, tanto para o profissional de saúde, quanto para máquinas de aprendizagem, é necessário fazer o processamento desse sinal. Implementamos o \textit{Processador de Dados Biomecânicos} em MATLAB 2011~\cite{matlab2011}. Este processador consiste de três passos: Identificação dos Ciclos, Extração de Características e Filtragem de Dados.
+Para transformar os sinais em informação, tanto para o profissional de saúde, quanto para máquinas de aprendizagem, é necessário fazer o processamento desse sinal. Neste trabalho, foi implementado o \textit{Processador de Dados Biomecânicos} em MATLAB 2011~\cite{matlab2011}. Este processador consiste de três passos: Identificação dos Ciclos, Extração de Características e Filtragem de Dados.
 
 \subsection{Identificação dos Ciclos de Movimento} 
 A identificação dos ciclos de movimento foi baseada na identificação de picos e vales do sinal motor, como explicado na Seção~\ref{section:identificao_ciclos}. 
@@ -218,21 +221,21 @@ Para implementar o mecanismo de detecção de ciclos, fez-se o uso da biblioteca
 
 Usando a função \textit{peakdet()}, criou-se a função \textit{cycleperiodic()}, que tem o objetivo de identificar os ciclos periódicos de um sinal. Foram adicionados dois parâmetros a essa função, para justamente levar em consideração as amplitudes máximas e mínimas permitidas por este sinal.
 
-\begin{lstlisting}[frame=single, caption=Função de Ciclo Periódico]  % Start your code-block
-
-function [cycleIndex]=cycleperiodic(v, delta, maxAmplitude, minAmplitude)
-[peaks, valey] = peakdet(v, delta);
-j = 1;
-for (i=1:(size(valey,1)-1))    
-    initialIndex = valey(i,1);
-    endIndex = valey(i+1,1);
-    amplitude = endIndex - initialIndex;
-    if ((maxAmplitude >= amplitude) & (minAmplitude <= amplitude))
-        cycleIndex(j) = valey(i);
-        j = j +1;
-    end
-end
-\end{lstlisting}
+%\begin{lstlisting}[frame=single, caption=Função de Ciclo Periódico]  % Start your code-block
+%
+%function [cycleIndex]=cycleperiodic(v, delta, maxAmplitude, minAmplitude)
+%[peaks, valey] = peakdet(v, delta);
+%j = 1;
+%for (i=1:(size(valey,1)-1))    
+    %initialIndex = valey(i,1);
+    %endIndex = valey(i+1,1);
+    %amplitude = endIndex - initialIndex;
+    %if ((maxAmplitude >= amplitude) & (minAmplitude <= amplitude))
+        %cycleIndex(j) = valey(i);
+        %j = j +1;
+    %end
+%end
+%\end{lstlisting}
 
 De posse dos ciclos, pôde ser identificado quando começam e terminam os movimentos periódicos (Código Fonte~\ref{lst:identifyCycles}), como, por exemplo, os movimentos sucessivos de adução e abdução do braço (Seção ~\ref{fig:movabducaoaducao}). 
 
@@ -281,7 +284,7 @@ timestampdownsec = (abs(timestampcycle(peak) - timestampcycle(end)))/1000;
 velocityDown(identifiedCycles,1) = distancedown/timestampdownsec;
 \end{lstlisting}	
 		
-\subsection{Filtragem de Dados}
+\subsection{Filtro de Dados}
 O filtro de dados remove os ciclos de movimento incompletos ou com problemas na aquisição dos dados, como explicado na Seção~\ref{section:filtro_dados}. Nessa etapa, os ciclos são normalizados, escalonados e rotulados por usuário. 
 De posse de todos os dados, é calculado um vetor médio dos ciclos normalizados, para definir um limiar (\textit{threshold}) de remoção dos ciclos (Código Fonte:~\ref{code:filtercycles}).
 

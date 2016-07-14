@@ -4,6 +4,8 @@ Para desenvolver um~\ac{sms} dos sinais motores, usando jogos eletrônicos como 
 \section{Definição de Requisitos da Solução}\label{section:requisitos_solucao}
 Com base no levantamento bibliográfico e nas entrevistas semiestruturadas~\cite{FLI04} com profissionais de saúde, identificamos e enumeramos os seguintes requisitos funcionais, os quais devem ser desenvolvidos para uma solução~\ac{jogue-me}:
 
+
+
 \begin{description}
 	\item[REQ-JOGUE-ME-01 - Pontuação e Taxa de Acerto:] O jogador percebe os objetivos e visualiza o sucesso ou o fracasso alcançado. O jogo pontua o jogador de acordo com seus seus erros e acertos~\cite{Suhonen:2008:SFE:1457199.1457204,sinclair07}.
 	\item[REQ-JOGUE-ME-02 - Progresso e Evolução do Jogador e dos Desafios:] O jogador percebe seu progresso e sua evolução no jogo. Os desafios tonam-se mais complexos no decorrer do tempo ~\cite{Suhonen:2008:SFE:1457199.1457204}.
@@ -14,18 +16,22 @@ Com base no levantamento bibliográfico e nas entrevistas semiestruturadas~\cite
 	\item[REQ-JOGUE-ME-07 - Mecanismo de Visualização dos Parâmetros Motores do Usuário:] O profissional de saúde poderá visualizar os dados identificados pela máquina de aprendizagem, para realizar a tomada de decisão sobre o estado de saúde do usuário.
 \end{description}
 
+
+
 \section{Visão geral da solução}
-
-A abordagem~\ac{jogue-me} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus sinais motores, em comparação ao uso dos dispositivos vestíveis~\cite{alemdar}. Então, com o uso da presente abordagem, um paciente portador de uma doença motora, no conforto do seu lar, poderá fornecer sinais motores de uma maneira colaborativa e não invasiva. Por outro lado, o profissional de saúde poderá visualizar os sinais motores de seus pacientes com uma frequência muito maior, em comparação às avaliações clínicas realizadas durante o período de consulta. 
-
-\begin{figure}[!htb]
+%Colocar aqui para testar um melhor posicionamento
+\begin{figure}[h]
      \centering
      \includegraphics[width=0.78\textwidth]{./img/visaosistema.png}
      \caption{Visão Geral da Abordagem~\textit{JOGUE-ME}}
      \label{img:visaogeral}
 \end{figure}
+A abordagem~\ac{jogue-me} faz uso de jogos eletrônicos como interface de aquisição de sinais, tornando os usuários mais motivados a fornecer seus sinais motores, em comparação ao uso dos dispositivos vestíveis~\cite{alemdar}. Então, com o uso da presente abordagem, um paciente portador de uma doença motora, no conforto do seu lar, poderá fornecer sinais motores de uma maneira colaborativa e não invasiva. Por outro lado, o profissional de saúde poderá visualizar os sinais motores de seus pacientes com uma frequência muito maior, em comparação às avaliações clínicas realizadas durante o período de consulta. 
 
-Em nosso estudo, identificamos que utilizando jogos eletrônicos como mecanismo de entrada de dados, é possível alcançar os requisitos de não invasividade propostos nesta tese, pois, através dos dispositivos de sensores de movimento usados nesses ambientes, é possível desenvolver um jogo que motive o usuário a executar ações específicas, como também possibilite o monitoramento de sinais motores. A partir de uma interface com o usuário, que permite enviar os dados capturados a um servidor, este fará o armazenamento dos dados para um possível acompanhamento da saúde motora por um profissional de saúde.
+
+
+
+Nesse estudo, ao utilizar jogos eletrônicos como mecanismo para entrada de dados, é possível alcançar os requisitos de não invasividade propostos nesta tese, pois, através dos dispositivos de sensores de movimento usados nesses ambientes, é possível desenvolver um jogo que motive o usuário a executar ações específicas para permitir o monitoramento de sinais motores. A partir de uma interface com o usuário, que permite enviar os dados capturados a um servidor, e armazenar estes dados para o acompanhamento da saúde motora por parte do profissional de saúde.
 
 Para esta solução, propõe-se usar técnicas de processamento de sinais para reconhecer os padrões de movimento e identificar os sinais motores (Figura~\ref{img:visaogeral}). Para tornar isso factível é necessário identificar ciclos de movimento, filtrá-los e extrair características deste movimento. Após a extração das características, os dados são repassados para máquinas de aprendizagem, as quais são responsáveis por classificar os dados, baseadas em evidências estatísticas. Caso a máquina identifique algum usuário com distúrbio motor, ela poderá notificar o profissional de saúde para que este visualize os dados e tenha um melhor suporte para a tomada de decisão em relação ao tratamento.
 
@@ -43,15 +49,18 @@ Para mensurar os movimentos do paciente, utilizamos diretrizes médicas para ava
 Desta maneira, a aquisição dos sinais motores e a quantificação do movimento de seus usuários permitirá uma participação mais precisa do profissional de saúde.
 
 
-\section{Processamento de Dados Biomecânicos}\label{sec:processador_bio}
-O módulo de Processamento de Dados Biomecânicos é responsável por filtrar, remover ruídos e identificar ciclos de movimento para uma posterior extração dos vetores de características, como pode ser visto na Figura~\ref{img:process_bio}. A partir dos sinais processados, aplicam-se técnicas de aprendizagem de máquina para obter a classificação dos sinais e, consequentemente, validar este trabalho.
 
+\section{Processamento de Dados Biomecânicos}\label{sec:processador_bio}
+%Estou colocando aqui para ver uma melhor posição
 \begin{figure}[!htb]
      \centering
      \includegraphics[width=0.8\textwidth]{./img/biomecprocessor2.png}
      \caption{Processamento de sinais biomecânicos.}
      \label{img:process_bio}
 \end{figure}
+O módulo de Processamento de Dados Biomecânicos é responsável por filtrar, remover ruídos e identificar ciclos de movimento para uma posterior extração dos vetores de características, como pode ser visto na Figura~\ref{img:process_bio}. A partir dos sinais processados, aplicam-se técnicas de aprendizagem de máquina para obter a classificação dos sinais e, consequentemente, validar este trabalho.
+
+
 
 
 \subsection{Identificação de Ciclos de Movimento}\label{section:identificao_ciclos}
@@ -65,7 +74,8 @@ Os sinais adquiridos por sensores de movimento possuem bastante ruído, o que di
      \label{img:exsinalposicaopunho}
 \end{figure}
 
-Em casos de análise de sinais biomecânicos da amplitude do movimento, é possível aplicar a técnica de detecção de picos e vales do sinal~\cite{peakdetect}. Esta técnica consiste em usar um valor de referência, $\delta$\ (\textit{delta}), para identificação dos picos, e descartar valores menores que são considerados ruídos. O pico é o ponto mais alto entre os 2 pontos mais baixos, que são considerados os vales do ciclo. A técnica é aplicada no sinal da Figura~\ref{img:exsinalposicaopunho}, com um $\delta$\ de 500, obtendo-se como resultado os picos e os vales identificados como pode ser visto na Figura~\ref{img:expicosvales}.
+
+Em casos de análise de sinais biomecânicos da amplitude do movimento, é possível aplicar a técnica de detecção de picos e vales do sinal~\cite{peakdetect}. Esta técnica consiste em usar um valor de referência, $\delta$\ (\textit{delta}), para identificação dos picos, e descartar valores menores que são considerados ruídos. O pico é o ponto mais alto entre os 2 pontos mais baixos, que são considerados os vales do ciclo. A técnica é aplicada no sinal, com um $\delta$\ de 500, obtendo-se como resultado os picos e os vales identificados como pode ser visto na Figura~\ref{img:expicosvales}.
 
 \begin{figure}[!htb]
      \centering
@@ -83,16 +93,15 @@ O processo de Identificação de Ciclos de Movimento é realizado em 3 etapas di
 	\item remover ciclos de movimentos incompletos.
 \end{itemize}
 
-Para identificar os ciclos de movimento de adução e abdução dos braços, é necessário utilizar uma das articulações como referência. Neste movimento, a articulação do punho (Figura~\ref{img:remocaoruidossinal}) é a que possui o sinal com maior amplitude entre as demais; por esse motivo, esta é a escolhida para identificar os ciclos. Realiza-se a técnica de picos e vales no sinal do \textit{punho} para identificar o início e o fim do movimento de adução e abdução dos braços. Depois de identificado onde começa e termina o movimento, calcula-se o deslocamento angular através do produto escalar entre as articulações do punho, do ombro e da bacia (Seção~\ref{section:movimento_abducao}). Neste momento, o sinal irá conter ciclos de movimentos angulares, então realiza-se uma nova eliminação de ruídos, ao extrair os ciclos de movimento identificados no sinal. Essa é a primeira etapa da filtragem dos dados, a qual seleciona o início e o fim dos ciclos de movimentos. Depois desta etapa, realiza-se a extração de cada 
-ciclo e 
-identifica-se sua completude, para que as características extraídas dos ciclos de movimento sejam semelhantes para cada indivíduo e torne possível a classificação dos dados.
+Para identificar os ciclos de movimento de adução e abdução dos braços, é necessário utilizar uma das articulações como referência. Neste movimento, a articulação do punho (Figura~\ref{img:exsinalposicaopunho}) é a que possui o sinal com maior amplitude entre as demais; por esse motivo, esta é a escolhida para identificar os ciclos. Realiza-se a técnica de picos e vales no sinal do \textit{punho} para identificar o início e o fim do movimento de adução e abdução dos braços. Depois de identificado onde começa e termina o movimento, calcula-se o deslocamento angular através do produto escalar entre as articulações do punho, do ombro e da bacia (Seção~\ref{section:movimento_abducao}). Neste momento, o sinal irá conter ciclos de movimentos angulares, então realiza-se uma nova eliminação de ruídos, ao extrair os ciclos de movimento identificados no sinal. Essa é a primeira etapa da filtragem dos dados, a qual seleciona o início e o fim dos ciclos de movimentos. Depois desta etapa, realiza-se a extração de cada ciclo e identifica-se sua completude, para que as características extraídas dos ciclos de movimento sejam semelhantes para cada indivíduo e torne possível a classificação dos dados.
 
-\begin{figure}[!htb]
-     \centering
-     \includegraphics[width=1\textwidth]{./img/remocaoruidociclo.png}
-     \caption{Remoção de Ruídos}
-     \label{img:remocaoruidossinal}
-\end{figure}
+
+%\begin{figure}[!htb]
+     %\centering
+     %\includegraphics[width=1\textwidth]{./img/remocaoruidociclo.png}
+     %\caption{Remoção de Ruídos}
+     %\label{img:remocaoruidossinal}
+%\end{figure}
 
 
 \subsection{Extração das Características do Movimento} \label{sec:extracao_caracteristcas}
@@ -115,7 +124,7 @@ O produto escalar é uma operação entre dois vetores cujo resultado é um esca
 %      \label{img:produto_escalar}
 % \end{figure}
 
-No movimento de abdução e adução do braço (Figura \ref{fig:movabducaoaducao}), o ângulo relativo pode ser calculado com as posições ($ x $\ ,  $ y $\ , $ z $\ ) das articulações (\textit{quadril}, \textit{ombro} e \textit{punho}). Utilizando o produto escalar entre esses pontos, extraem-se as características do movimento, como amplitude do movimento, e, quando relacionamos com o tempo, conseguimos extrair a velocidade angular deste movimento, como pode ser visto na Figura~\ref{img:amplitude_braco}, quantificando o movimento da adução e abdução do braço em relação ao tempo.
+No movimento de abdução e adução do braço, o ângulo relativo pode ser calculado com as posições ($ x $\ ,  $ y $\ , $ z $\ ) das articulações (\textit{quadril}, \textit{ombro} e \textit{punho}). Utilizando o produto escalar entre esses pontos, extraem-se as características do movimento, como amplitude do movimento, e, quando relacionamos com o tempo, conseguimos extrair a velocidade angular deste movimento, como pode ser visto na Figura~\ref{img:amplitude_braco}, quantificando o movimento da adução e abdução do braço em relação ao tempo.
 
 
 \begin{figure}[!htb]
@@ -140,7 +149,7 @@ A filtragem dos dados consiste na realização das seguintes etapas nos ciclos d
 \begin{description}
 	\item [Escalonamento dos ciclos]: O conjunto de dados deve possuir a distribuição de \textbf{M} amostras de vetores de dimensão \textbf{n}. Como os dados a serem analisados são sinais, deve-se então escalonar o sinal para uma dimensão \textbf{n} para poder realizar o cálculo matricial quadrático de (\textbf{M} x \textbf{n}).		
 	\item [Normalização dos ciclos]: Em estatística, o termo normalização possui diferentes significados ~\cite{statisticterms2006}. Neste trabalho, a normalização consiste no ajuste dos valores dos dados em torno do valor máximo. Ou seja, o máximo valor obtido dos dados terá o valor 1, e os demais serão obtidos a partir da divisão do valor máximo. A normalização se faz necessária para que a variação dos dados seja mantida, além de facilitar a identificação de similaridades~\cite{vicini2005}. 	
-	\item [Cálculo do Vetor Médio dos Ciclos]: Para definir a completude de um ciclo de movimento, deve-se calcular a média entre todos os ciclos de movimento, que é o vetor médio dos ciclos escalonados e normalizados (Figura ~\ref{img:ciclos_normalizado_escalonado}). O \textbf{vetor médio}, Equação (\ref{eq:vetormedio}), chamado de $\bar{X}$, consiste na média aritmética de todos os ciclos de movimento, ou seja, ele define a centralização dos dados ~\cite{statisticshandbook2009}. 	
+	\item [Cálculo do Vetor Médio dos Ciclos]: Para definir a completude de um ciclo de movimento, deve-se calcular a média entre todos os ciclos de movimento, que é o vetor médio dos ciclos escalonados e normalizados. O \textbf{vetor médio}, Equação (\ref{eq:vetormedio}), chamado de $\bar{X}$, consiste na média aritmética de todos os ciclos de movimento, ou seja, ele define a centralização dos dados ~\cite{statisticshandbook2009}. 	
 		\begin{equation}
 			\bar{X}=\frac{\sum_{i=1}^{n}(Xi)}{(n)}
 			\label{eq:vetormedio}
@@ -153,25 +162,25 @@ A filtragem dos dados consiste na realização das seguintes etapas nos ciclos d
 		
 		
 	\item [Definição do limiar para remoção de ciclos]: Essa etapa do processo de filtragem não é trivial, pois deve-se definir uma constante, $ filtro $\, que será comparada à variância do ciclo. Se esta for menor, será aceita; caso contrário, removida. Contudo, balancear entre o limiar de dispersão do ciclo de movimento e a média é complexo, pois existe uma grande variabilidade de movimento. Logo, um limiar muito alto pode acarretar na remoção de uma grande quantidade de ciclos. Por outro lado, um limiar baixo colocaria ruídos nos dados e, consequentemente, impactaria no resultado da classificação.	
-	\lstset{language=Matlab}
-	\begin{lstlisting}[frame=single, caption=Filtro dos Ciclos]  % Start your code-block
-		
-    filtro = 1;
-    vetorMedio = mean(ciclos);
-    varianciaCiclo = sum(ciclo - (vetorMedio).^2);
-    remocao = varianciaCiclo>filtro;
-	\end{lstlisting}
-	
-	\begin{figure}
-     \centering
-     \includegraphics[width=1\textwidth]{./img/vetormedionormalozadoescalonado.png}
-     \caption{Ciclos de Movimento Normalizados e Escalonados}
-		 \label{img:ciclos_normalizado_escalonado}
-	\end{figure}
+	%\lstset{language=Matlab}
+	%\begin{lstlisting}[frame=single, caption=Filtro dos Ciclos]  % Start your code-block
+		%
+    %filtro = 1;
+    %vetorMedio = mean(ciclos);
+    %varianciaCiclo = sum(ciclo - (vetorMedio).^2);
+    %remocao = varianciaCiclo>filtro;
+	%\end{lstlisting}
+	%
 \end{description}
 
+	%\begin{figure}
+     %\centering
+     %\includegraphics[width=1\textwidth]{./img/vetormedionormalozadoescalonado.png}
+     %\caption{Ciclos de Movimento Normalizados e Escalonados}
+		 %\label{img:ciclos_normalizado_escalonado}
+	%\end{figure}
 
-Como exemplo, temos um ciclo de movimento filtrado (Figura~\ref{img:ciclo_filtrado}), com \textit{valor do filtro = 1} e o \textit{valor da variância = 2,3078}.
+Como exemplo, temos um ciclo de movimento removido (Figura~\ref{img:ciclo_filtrado}), com \textit{valor do filtro = 1} e o \textit{valor da variância = 2,3078}.
 
 \begin{figure}[!htb]
      \centering
