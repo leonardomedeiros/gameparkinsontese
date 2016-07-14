@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  14 JUL 2016 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  14 JUL 2016 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,16 +716,76 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 94.
- (./resumo.tex) [1]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 99.
- (./abstract.tex) [1]
+ (./resumo.tex
+
+! Package inputenc Error: Unicode char ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 os movimentos angulares dos braços ​
+                                           ​para quantificar as habilidade...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 os movimentos angulares dos braços ​​
+                                              para quantificar as habilidade...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...s. Os dados coletados foram processados ​
+                                                  ​e aplicados a uma Máqu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...Os dados coletados foram processados ​​
+                                                  e aplicados a uma Máquina...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [1] (./abstract.tex) [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 156.
  (./tese.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 27.
- [1
+ [3
 
 
 
@@ -740,29 +800,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2])
+[4])
 \tf@toc=\write4
 \openout4 = `tese.toc'.
 
- [3] (./simbolos.tex) [4
+ [5] (./simbolos.tex) [6
 
-] (./tese.lof [5
+] (./tese.lof [7
 
 ])
 \tf@lof=\write5
 \openout5 = `tese.lof'.
 
- [6] (./tese.lot)
+ [8] (./tese.lot)
 \tf@lot=\write6
 \openout6 = `tese.lot'.
 
- [7
+ [9
 
 ] (./tese.lol)
 \tf@lol=\write7
 \openout7 = `tese.lol'.
 
- [8
+ [10
 
 ] (./cap1-introducao.tex
 Cap\'{\i }tulo 1.
@@ -889,11 +949,7 @@ File: ./img/visaosistema.png Graphic file (type png)
 <use ./img/visaosistema.png>
 Package pdftex.def Info: ./img/visaosistema.png used on input line 23.
 (pdftex.def)             Requested size: 343.99327pt x 279.1306pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19] [20 <./img/visaosistema.png>]
+ [19] [20 <./img/visaosistema.png>]
 <./img/biomecprocessor2.png, id=116, 330.5148pt x 431.6928pt>
 File: ./img/biomecprocessor2.png Graphic file (type png)
 
@@ -1051,6 +1107,11 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
  [32
 
  <./img/arquitetura.png>]
+Underfull \hbox (badness 1297) in paragraph at lines 24--26
+[]\T1/ptm/m/n/12 Para ad-qui-rir os si-nais mo-to-res, este tra-ba-lho uti-li-z
+ou e her-dou do com-po-nente
+ []
+
 <./img/diagclasszigfu.png, id=166, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
@@ -1061,28 +1122,31 @@ Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 46.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33] <./img/catch-the-spheres.png, id=170, 1063.72406pt x 557.08125pt>
+<./img/catch-the-spheres.png, id=167, 1063.72406pt x 557.08125pt>
 File: ./img/catch-the-spheres.png Graphic file (type png)
 
 <use ./img/catch-the-spheres.png>
 Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 70.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33] [34 <./img/diagclasszigfu.png> <./img/catch-the-spheres.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 77.
 
-<./img/class_diagram.png, id=171, 2179.14125pt x 1258.7025pt>
+<./img/class_diagram.png, id=174, 2179.14125pt x 1258.7025pt>
 File: ./img/class_diagram.png Graphic file (type png)
 
 <use ./img/class_diagram.png>
 Package pdftex.def Info: ./img/class_diagram.png used on input line 84.
 (pdftex.def)             Requested size: 441.01772pt x 254.73221pt.
- [34 <./img/diagclasszigfu.png>]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 89.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [35 <./img/catch-the-spheres.png (PNG copy)> <./img/class_diagram.png (PNG co
-py)>] [36]
+) [35 <./img/class_diagram.png (PNG copy)>] [36]
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 []\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
  []
@@ -1103,13 +1167,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 []\T1/pcr/m/n/12 getMultipleData(String path, String separator, boolean
  []
 
-[37]
+
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
 []\T1/ptm/m/n/12 A classe \T1/pcr/m/n/12 MovementDataFileManager \T1/ptm/m/n/12
  es-tende as fun-ci-o-na-li-da-des do
  []
 
-[38] [39] [40]
+[37] [38] [39] [40]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 294.
  [41]) (./cap5-avaliacao.tex [42]
@@ -1453,13 +1517,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8304 strings out of 493013
- 116005 string characters out of 6136994
- 303362 words of memory out of 5000000
- 11613 multiletter control sequences out of 15000+600000
+ 8305 strings out of 493013
+ 116011 string characters out of 6136994
+ 292362 words of memory out of 5000000
+ 11614 multiletter control sequences out of 15000+600000
  71356 words of font info for 80 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 40i,17n,46p,1781b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,17n,46p,1583b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1
@@ -1471,7 +1535,7 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2053961 bytes).
+Output written on tese.pdf (111 pages, 2053663 bytes).
 PDF statistics:
  445 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams

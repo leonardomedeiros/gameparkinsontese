@@ -1,11 +1,11 @@
 \chapter{Arquitetura de Software para~\textit{JOGUE-ME}}\label{chapter:arquitetura_captura}
 
-A arquitetura do sistema faz uso de diferentes tecnologias conforme a Figura~\ref{fig:arquitetura}. Essa arquitetura facilita o desenvolvimento de um jogo para monitoramento de dados por criar uma camada de \textit{software} integrada a uma \textit{engine} de jogos bem conhecida e bastante utilizada pelas desenvolvedoras de jogos. Com o propósito de facilitar a programação de jogos para saúde e ser aplicados em outros contextos, foi criado um Componente de \textit{Software} sobre a \textit{engine} de jogos Unity 3D~\cite{unity3d}. Desta maneira, desenvolvedores de jogos podem criar um ~\ac{jogue-me} usando essa arquitetura (Seção~\ref{sec:cliente_game}) abstraindo da complexidade existente no processamento do sinal dos dados e na identificação dos sintomas motores.
+A arquitetura do sistema possui diferentes tecnologias conforme a Figura~\ref{fig:arquitetura} e foi desenvolvida para permitir o desenvolvedor abstrair da complexidade do processamento do sinal dos dados e na identificação dos sintomas motores. Logo, esta arquitetura de \textit{software} integrada a uma \textit{engine} de jogos bem conhecida e difundida (Unity 3D~\cite{unity3d}) facilita o desenvolvimento de jogos para esse contexto.
 
 %A arquitetura desenvolvida para o~\ac{jogue-me} busca abstrair das dificuldades existentes no desenvolvimento de um jogo para monitoramento de dados de saúde. Neste projeto foi desenvolvido um arcabouço de software, integrado a uma \textit{engine} de jogos bem difundida e utilizada por desenvolvedores de jogos. Devido a essa estrutura, buscamos facilitar a programação de jogos para a saúde, criando Componentes de \textit{Software} sobre a \textit{engine} de jogos Unity 3D~\cite{unity3d}. Assim, desenvolvedores de jogos podem criar \text{JOGUE-MEs}, usando esse arcabouço (Seção~\ref{sec:cliente_game}), o que permite ao desenvolvedor encapsular os aspectos de processamento de sinal. 
 
 
-\begin{figure}[!htbp]
+\begin{figure}[!h]
  \centering
   \includegraphics[scale=0.56]{./img/arquitetura.png}
  % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
@@ -18,10 +18,10 @@ A arquitetura do sistema faz uso de diferentes tecnologias conforme a Figura~\re
 \section{Arquitetura do ~\textit{JOGUE-ME}}\label{sec:cliente_game}
 A arquitetura do~\ac{jogue-me} foi concebida em cooperação com um pesquisador de Mestrado da UFCG, Antônio Santos Jr.~\cite{antonio2013}. Inicialmente, foi proposto um arcabouço para o desenvolvimento de software utilizando uma \textit{engine} de jogos (Unity3D~\cite{unity3d}), que é um ambiente de desenvolvimento de jogos multi-plataforma. Este arcabouço permite que os desenvolvedores abstraiam-se dos aspectos de hardware, plataforma e complexidade do desenvolvimento de jogos e habilita o desenvolvedor a se ater somente às atividades referentes ao desenvolvimento do jogo.
 
-Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3d} como ferramenta de desenvolvimento. Esse ambiente facilita a criação de cenários, terrenos e interação com os objetos dos jogos usando uma linguagem de \textit{script}. No entanto, desenvolver jogos com propósito de monitorar sinais motores possui desafios que não precisam ser de responsabilidade dos desenvolvedores de jogos. Por esse motivo, criamos um arcabouço de software que abstrai a complexidade do desenvolvimento de um jogo de monitoramento da saúde.
+Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3d} como ferramenta de desenvolvimento. Esse ambiente facilita a criação de cenários, terrenos e interação com os objetos dos jogos usando uma linguagem de \textit{script}. No entanto, desenvolver jogos com propósito de monitorar sinais motores possui desafios que não precisam ser de responsabilidade dos desenvolvedores de jogos. %Por esse motivo, criamos um arcabouço de software que abstrai a complexidade do desenvolvimento de um jogo de monitoramento da saúde.
 
 
-Para adquirir os sinais motores, utilizamos e herdamos de um componente (Zigfu~\cite{zigfu}) para Unity3D, que permite integrar o Ms-Kinnect~\cite{kinnect2013} como controlador do jogo. O Ms-Kinnect~\cite{kinnect2013} é um sensor de captura de movimentos utilizado tanto para o console MS-XBOX 360 quanto para \textit{PCs}. Ele permite adquirir sinais relativos ao movimento humano e identificar as articulações por meio da posição anatômica do corpo humano~\cite{hamill1999bases}.
+Para adquirir os sinais motores, este trabalho utilizou e herdou do componente (Zigfu~\cite{zigfu}) para Unity3D para integrar o Ms-Kinnect~\cite{kinnect2013} como controlador do jogo à arquitetura proposta. O Ms-Kinnect~\cite{kinnect2013} é um sensor de captura de movimentos utilizado tanto para o console MS-XBOX 360 quanto para \textit{PCs}. Ele permite a aquisição dos sinais relativos ao movimento humano e identifica as articulações por meio da posição anatômica do corpo humano~\cite{hamill1999bases}.
 %, como pode ser visto na Figura~\ref{fig:articulacoeskinnect}.
 
 
@@ -39,7 +39,7 @@ Para adquirir os sinais motores, utilizamos e herdamos de um componente (Zigfu~\
  %\label{fig:articulacoeskinnect}
 %\end{figure}
 
-O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect, para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, criamos uma extensão do Zigfu que armazena as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()} da Classe \textit{ZigSkeletonHealth}).
+O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect, para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, o Zigfu foi extendido na classe \textit{ZigSkeletonHealth} para armazenar as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()}).
 
 \begin{figure}[!h]
  \centering
@@ -63,9 +63,9 @@ Para testar a abordagem~\ac{jogue-me}, criamos o jogo \textit{Catch the Spheres}
 
 O \textit{Catch the Spheres} é um jogo em terceira pessoa, em que o jogador, por meio de seu personagem, deve tocar ou desviar das bolas que vêm em sua direção. Se o jogador tocar as bolas azuis, receberá uma pontuação por isso; caso seja atingido pelas bolas vermelhas, haverá uma penalização([REQ-JOGUE-ME-01]). Com o progresso do usuário, as bolas tornam-se mais rápidas, exigindo uma maior agilidade nos movimentos ([REQ-JOGUE-ME-02]). Este é o principal mecanismo de fluxo do jogo~\cite{sweetser2005-gameflow}, que tem o intuito de atrair a atenção do jogador, baseado nos desafios propostos ([REQ-JOGUE-ME-03]). 
 
-Houve uma preocupação com a integridade física do jogador ([REQ-JOGUE-ME-04]). Por este motivo, baseado nos relatos dos usuários (Seção~\ref{gqm_usuarios}), removemos o mecanismo de desvio de bolas, por ser considerado inseguro.
+Houve uma preocupação com a integridade física do jogador ([REQ-JOGUE-ME-04]). Por este motivo, baseado nos relatos dos usuários (Seção~\ref{gqm_usuarios}), o mecanismo de desvio de bolas foi removido por ter sido considerado inseguro.
 
-\begin{figure}[!htb]
+\begin{figure}[!h]
      \centering
      \includegraphics[width=.8\textwidth]{./img/catch-the-spheres.png}
      \caption{O jogo \emph{Catch the Spheres}}
@@ -79,7 +79,7 @@ O mecanismo de aquisição e armazenamento dos sinais motores ([REQ-JOGUE-ME-05]
 
 O \textit{JOGUE-ME Webservice} é responsável por: criar usuário, receber dados motores, gerenciar arquivos exportá-los para o MATLAB~\cite{matlab2011} conforme a Arquitetura exposta na Figura~\ref{fig:arquitetura}.
 
-\begin{figure}[!htb]
+\begin{figure}[!h]
      \centering
      \includegraphics[width=1\textwidth]{./img/class_diagram.png}
      \caption[Diagrama de Classes do Arcabouço]{Diagrama de Classes do Arcabouço ~\cite{antonio2013}}

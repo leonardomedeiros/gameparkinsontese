@@ -127,7 +127,7 @@ Um classificador~\ac{svm} foi inicialmente desenvolvido para problemas de aprend
  \includegraphics[scale=0.4]{./img/svmhyperplane.png}
  % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
  %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-\caption{Hiperplano de Separação Linear Para Duas Classes}
+\caption{Hiperplano de Separação Para Duas Classes}
 %  \caption{Estágio desenvolvimento de jogos}
  \label{fig:hiperplano}
 \end{figure}
@@ -145,7 +145,7 @@ Estes pontos são chamados de vetores ou padrões na literatura de Aprendizagem 
 
 Cada ponto possui $x_{i}$ e um rótulo $y_{i}$, que denotam a qual classe $x_{i}$ pertence. Logo, se $y_{i} = + 1$, então $x_{i}$ pertence a classe 1; e caso $y_{i} = - 1$, então $x_{i}$ pertence a classe 2. A classificação binária como o nome sugere, significa classificar os dados em duas classes. Para tanto, primeiramente os dados do grupo de treinamento são usados para preencher os espaços com pontos. E depois um segundo grupo de teste é aplicado para verificar a hipótese de qual classe aquele ponto pertence. Formalmente, dado um conjunto de pontos $x_{i}$, qual será os valores $y_{i}$ correspondentes, dado que o classificador possui os padrões adquiridos do grupo de treinamento, além dos rótulos associados a sua classe. A~\ac{svm} irá usar o hiperplano de separação para tentar dividir os dados de treinamento em duas classes. Dessa maneira, o resultado da classificação dos dados de teste dependerá da localização da projeção desses dados.
 
-Formalmente, classificadores que separam os dados por meio de um hiperplano utilizam um discriminante linear~\cite{valt2010} de Equação~\ref{eq:hiperplano}. Um hiperplano é considerado de Margem Máxima (ou de Separação Ótima) quando uma função discriminante consegue separar um conjunto de vetores sem erro. Uma função é discriminante quando consegue discriminar os valores em diferentes padrões. 
+Formalmente, classificadores que separam os dados por meio de um hiperplano utilizam um discriminante~\cite{valt2010} de Equação~\ref{eq:hiperplano}. Um hiperplano é considerado de Margem Máxima (ou de Separação Ótima) quando uma função discriminante consegue separar um conjunto de vetores sem erro. Uma função é discriminante quando consegue discriminar os valores em diferentes padrões. 
 
 O produto escalar $ w.x $ entre os vetores $ w $ e $ x $, $ w $ é o vetor normal ao hiperplano descrito, o vetor \textbf{w} é denominado de peso e a constante parâmetro \textbf{b} é chamada de \textit{bias} ou desvio.
 \linebreak
@@ -166,7 +166,7 @@ else
 endif
 \end{lstlisting}
 
-A partir desse método de separação dos dados, é que a~\ac{svm} foi aplicada para classificar indivíduos diagnosticados com~\ac{dp} ante indivíduos sem o diagnóstico estabelecido. Para corroborar com a nossa escolha de SVM, encontrou-se trabalhos de classificação de indivíduos com parkinson utilizando a mesma abordagem~\cite{bradmonitor2015,svmparkinson2010,patel_monitoring_2009}. No entanto, o que diferencia este trabalho dos demais, é que os dados a serem classificados foram adquiridos utilizando a abordagem de um jogo eletrônico que induz o paciente a executar movimentos para a avaliação motora~\cite{quantitativeparkinson2011,wiiassesspark2016}. Portanto, na Seção~\ref{sec:processador_bio}, será apresentado o Processador de Dados Biomecânicos responsável por extrair as estas características do movimento~\cite{mcginnis2013biomechanics} para obter a classificação exposta na Seção~\ref{sec:resultado_svm}.
+A partir desse método de separação dos dados, é que a~\ac{svm} foi aplicada para classificar indivíduos diagnosticados com~\ac{dp} ante indivíduos sem o diagnóstico estabelecido. Para corroborar com a nossa escolha de SVM, encontrou-se trabalhos de classificação de indivíduos com parkinson utilizando a mesma abordagem~\cite{bradmonitor2015,svmparkinson2010,patel_monitoring_2009}. No entanto, o que diferencia este trabalho dos demais, é que os dados classificados foram adquiridos utilizando a abordagem de um jogo eletrônico que induz o paciente a executar movimentos para a avaliação motora~\cite{quantitativeparkinson2011,wiiassesspark2016}. Portanto, na Seção~\ref{sec:processador_bio}, será apresentado o Processador de Dados Biomecânicos responsável por extrair as estas características do movimento~\cite{mcginnis2013biomechanics} para obter a classificação exposta na Seção~\ref{sec:resultado_svm}.
 
 .
  %será explicado como são extraídos os pontos, usando os vetores de características
