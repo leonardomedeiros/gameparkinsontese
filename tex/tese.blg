@@ -7,9 +7,6 @@ Warning--entry type for "zigfu" isn't style-file defined
 --line 1619 of file biblmmcorfinal.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
 --line 1987 of file biblmmcorfinal.bib
-Warning--I didn't find a database entry for "seriousgameolder20154"
-Warning--I didn't find a database entry for "SVM"
-Warning--I didn't find a database entry for "quantitativepark2016"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in aarhus_negotiating_2010
 Warning--empty chapter and pages in albanese2012
@@ -17,46 +14,45 @@ Warning--can't use both author and editor fields in abn2010
 Warning--empty publisher in abn2010
 Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
-Warning--empty year in autonomparkin2015
-You've used 104 entries,
+You've used 105 entries,
             2788 wiz_defined-function locations,
-            1187 strings with 25348 characters,
-and the built_in function-call counts, 38754 in all, are:
-= -- 3167
-> -- 1720
-< -- 1
-+ -- 698
-- -- 580
-* -- 4558
-:= -- 5683
-add.period$ -- 246
-call.type$ -- 104
-change.case$ -- 603
+            1187 strings with 25502 characters,
+and the built_in function-call counts, 38858 in all, are:
+= -- 3166
+> -- 1738
+< -- 0
++ -- 705
+- -- 586
+* -- 4581
+:= -- 5716
+add.period$ -- 249
+call.type$ -- 105
+change.case$ -- 609
 chr.to.int$ -- 0
 cite$ -- 111
-duplicate$ -- 2061
-empty$ -- 3656
-format.name$ -- 1118
-if$ -- 7910
+duplicate$ -- 2070
+empty$ -- 3662
+format.name$ -- 1130
+if$ -- 7916
 int.to.chr$ -- 0
-int.to.str$ -- 104
-missing$ -- 124
-newline$ -- 450
-num.names$ -- 208
-pop$ -- 925
+int.to.str$ -- 105
+missing$ -- 126
+newline$ -- 455
+num.names$ -- 210
+pop$ -- 929
 preamble$ -- 1
-purify$ -- 498
+purify$ -- 503
 quote$ -- 0
-skip$ -- 906
+skip$ -- 904
 stack$ -- 0
-substring$ -- 635
-swap$ -- 846
-text.length$ -- 1
+substring$ -- 581
+swap$ -- 845
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 382
-warning$ -- 7
-while$ -- 214
-width$ -- 107
-write$ -- 1130
-(There were 12 warnings)
+type$ -- 386
+warning$ -- 6
+while$ -- 212
+width$ -- 108
+write$ -- 1143
+(There were 8 warnings)

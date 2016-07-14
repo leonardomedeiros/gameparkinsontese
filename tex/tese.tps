@@ -12,13 +12,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=cap6-conclusoes.tex
+Document=cap3-abordagemjogueme.tex
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=0
+TopLine=144
+Cursor=5347
 
 [Frame1]
 Flags=0
@@ -30,13 +30,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=cap5-avaliacao.tex
+Document=cap6-conclusoes.tex
 
 [Frame1_View0,0]
-TopLine=1193
-Cursor=62311
+TopLine=0
+Cursor=2205
 
 [Frame2]
 Flags=0
@@ -48,13 +48,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=..\Presentation\tese\jogos-saude-tese.tex
+Document=cap5-avaliacao.tex
 
 [Frame2_View0,0]
-TopLine=308
-Cursor=9056
+TopLine=1049
+Cursor=62302
 
 [Frame3]
 Flags=0
@@ -66,13 +66,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=abstract.tex
+Document=..\Presentation\tese\jogos-saude-tese.tex
 
 [Frame3_View0,0]
-TopLine=0
-Cursor=0
+TopLine=308
+Cursor=9056
 
 [Frame4]
 Flags=0
@@ -84,13 +84,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=resumo.tex
+Document=abstract.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=1782
+Cursor=360
 
 [Frame5]
 Flags=0
@@ -102,13 +102,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=tese.tex
+Document=resumo.tex
 
 [Frame5_View0,0]
-TopLine=71
-Cursor=6674
+TopLine=4
+Cursor=1807
 
 [Frame6]
 Flags=0
@@ -120,13 +120,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=cap1-introducao.tex
+Document=tese.tex
 
 [Frame6_View0,0]
-TopLine=242
-Cursor=13648
+TopLine=209
+Cursor=6734
 
 [Frame7]
 Flags=0
@@ -138,13 +138,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=cap2-fundamentacao.tex
+Document=cap1-introducao.tex
 
 [Frame7_View0,0]
-TopLine=348
-Cursor=24157
+TopLine=75
+Cursor=6045
 
 [Frame8]
 Flags=0
@@ -156,13 +156,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
-Document=cap3-abordagemjogueme.tex
+Document=cap2-fundamentacao.tex
 
 [Frame8_View0,0]
-TopLine=422
-Cursor=16709
+TopLine=348
+Cursor=24157
 
 [Frame9]
 Flags=0
@@ -174,7 +174,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1008
-NormalPos.bottom=412
+NormalPos.bottom=386
 Class=LaTeXView
 Document=cap4_arquitetura.tex
 

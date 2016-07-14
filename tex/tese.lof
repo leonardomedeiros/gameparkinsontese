@@ -7,41 +7,41 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o para \textit {smartphone} com a finalidade de identificar sinais de tremor}}{5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Movimentos de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o do Bra\IeC {\c c}o}}{16}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Hiperplano de Separa\IeC {\c c}\IeC {\~a}o Linear Para Duas Classes\relax }}{17}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Movimentos de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o do Bra\IeC {\c c}o}}{15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Hiperplano de Separa\IeC {\c c}\IeC {\~a}o Linear Para Duas Classes\relax }}{16}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Vis\IeC {\~a}o Geral da Abordagem~\textit {JOGUE-ME}\relax }}{21}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Processamento de sinais biomec\IeC {\^a}nicos.\relax }}{23}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Exemplo de Sinal Capturado da Articula\IeC {\c c}\IeC {\~a}o do Punho do Direito Usando MS-Kinnect na Posi\IeC {\c c}\IeC {\~a}o Y\relax }}{24}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Exemplo da Aplica\IeC {\c c}\IeC {\~a}o da T\IeC {\'e}cnica de Detec\IeC {\c c}\IeC {\~a}o de Picos e Vales no Sinal\relax }}{25}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Remo\IeC {\c c}\IeC {\~a}o de Ru\IeC {\'\i }dos\relax }}{26}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Amplitude do Movimento de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o\relax }}{27}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Detec\IeC {\c c}\IeC {\~a}o de Picos e Vales da Amplitude do Movimento de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o do Bra\IeC {\c c}o\relax }}{28}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Ciclos de Movimento Normalizados e Escalonados\relax }}{29}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Ciclo de Movimento Removido\relax }}{30}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Vis\IeC {\~a}o Geral da Abordagem~\textit {JOGUE-ME}\relax }}{20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Processamento de sinais biomec\IeC {\^a}nicos.\relax }}{22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Exemplo de Sinal Capturado da Articula\IeC {\c c}\IeC {\~a}o do Punho do Direito Usando MS-Kinnect na Posi\IeC {\c c}\IeC {\~a}o Y\relax }}{23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Exemplo da Aplica\IeC {\c c}\IeC {\~a}o da T\IeC {\'e}cnica de Detec\IeC {\c c}\IeC {\~a}o de Picos e Vales no Sinal\relax }}{24}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Remo\IeC {\c c}\IeC {\~a}o de Ru\IeC {\'\i }dos\relax }}{25}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Amplitude do Movimento de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o\relax }}{26}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Detec\IeC {\c c}\IeC {\~a}o de Picos e Vales da Amplitude do Movimento de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o do Bra\IeC {\c c}o\relax }}{27}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Ciclos de Movimento Normalizados e Escalonados\relax }}{28}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Ciclo de Movimento Removido\relax }}{29}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitetura do Sistema}}{33}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama Classe ZigSkeleton e ZigSkeletonHealth\relax }}{35}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces O jogo \emph {Catch the Spheres}\relax }}{36}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de Classes do Arcabou\IeC {\c c}o}}{37}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arquitetura do Sistema}}{32}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de Classe do ZigSkeleton e ZigSkeletonHealth\relax }}{34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces O jogo \emph {Catch the Spheres}\relax }}{35}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de Classes do Arcabou\IeC {\c c}o}}{35}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Teste de um jogo usando aceler\IeC {\^o}metro para quantifica\IeC {\c c}\IeC {\~a}o do sinal de tremor do Parkinson\relax }}{54}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Movimentos de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o\relax }}{59}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Exemplo do gr\IeC {\'a}fico dos \IeC {\^a}ngulos de adu\IeC {\c c}\IeC {\~a}o e abdu\IeC {\c c}\IeC {\~a}o dos bra\IeC {\c c}os em fun\IeC {\c c}\IeC {\~a}o do tempo\relax }}{60}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Vetor M\IeC {\'e}dio do Movimento de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o\relax }}{62}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit {Grid-Search} - Acur\IeC {\'a}cia da Classifica\IeC {\c c}\IeC {\~a}o\relax }}{64}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \textit {Grid-Search} - \textit {FpRate}\relax }}{65}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces O Paradigma GQM \copyright }}{68}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Resultado da Pergunta 1\relax }}{70}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Resultado da Pergunta 3\relax }}{71}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Resultado da Pergunta 10\relax }}{71}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Teste de um jogo usando aceler\IeC {\^o}metro para quantifica\IeC {\c c}\IeC {\~a}o do sinal de tremor do Parkinson\relax }}{52}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Movimentos de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o\relax }}{57}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Exemplo do gr\IeC {\'a}fico dos \IeC {\^a}ngulos de adu\IeC {\c c}\IeC {\~a}o e abdu\IeC {\c c}\IeC {\~a}o dos bra\IeC {\c c}os em fun\IeC {\c c}\IeC {\~a}o do tempo\relax }}{58}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Vetor M\IeC {\'e}dio do Movimento de Abdu\IeC {\c c}\IeC {\~a}o e Adu\IeC {\c c}\IeC {\~a}o\relax }}{60}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit {Grid-Search} - Acur\IeC {\'a}cia da Classifica\IeC {\c c}\IeC {\~a}o\relax }}{62}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \textit {Grid-Search} - \textit {FpRate}\relax }}{63}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces O Paradigma GQM \copyright }}{66}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Resultado da Pergunta 1\relax }}{68}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Resultado da Pergunta 3\relax }}{69}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Resultado da Pergunta 10\relax }}{69}
 \addvspace {10\p@ }
 \select@language {portuges}
 \select@language {portuges}
 \select@language {portuges}
 \select@language {portuges}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces O jogo \emph {Catch the Spheres}\relax }}{91}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces O jogo \emph {Catch the Spheres}\relax }}{89}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

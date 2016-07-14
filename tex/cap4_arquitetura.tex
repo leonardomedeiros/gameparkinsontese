@@ -39,12 +39,12 @@ Para adquirir os sinais motores, utilizamos e herdamos de um componente (Zigfu~\
  %\label{fig:articulacoeskinnect}
 %\end{figure}
 
-O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect (Figura~\ref{fig:articulacoeskinnect}), para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, criamos uma extensão do Zigfu que armazena as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()} da Classe \textit{ZigSkeletonHealth}).
+O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect, para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, criamos uma extensão do Zigfu que armazena as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()} da Classe \textit{ZigSkeletonHealth}).
 
-\begin{figure}[!htbp]
+\begin{figure}[!h]
  \centering
  \includegraphics[scale=0.8]{./img/diagclasszigfu.png}
- \caption{Diagrama Classe ZigSkeleton e ZigSkeletonHealth}
+ \caption{Diagrama de Classe do ZigSkeleton e ZigSkeletonHealth}
  \label{fig:diagramaclassezigfu}
 \end{figure}
 %

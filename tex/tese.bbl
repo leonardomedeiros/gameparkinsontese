@@ -33,8 +33,8 @@
 
 \bibitem {sachealth2016}
 \btxnamefont {\btxlastnamefont {ACM}}\btxauthorcolon\ \btxtitlefont
-  {\btxifchangecase {Sac track on healthcare: A growing scenario for applied
-  computing}{SAC Track on HealthCare: A Growing Scenario for Applied
+  {\btxifchangecase {Sac track on healthcare - a growing scenario for applied
+  computing}{SAC Track on HealthCare - A Growing Scenario for Applied
   Computing}}.
 \newblock {D}isponível em: http://www.sigapp.org/sac/sac2016/, 2016.
 \newblock {Ú}ltimo acesso: 3 de Junho de 2016.
@@ -244,14 +244,14 @@
   2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0957-4174}}}.
 
 \bibitem {seriousgameolder2015}
-\btxnamefont {\btxlastnamefont {Codreanu}, I.\btxfnamespacelong A.} \btxandlong
-  {}\ \btxnamefont {A.\btxfnamespacelong M. \btxlastnamefont
-  {Florea}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {A proposed serious
-  game architecture to self-management healthcare for older adults}{A Proposed
-  Serious Game Architecture to Self-Management HealthCare for Older Adults}}.
-\newblock \Btxinlong {}\ \btxtitlefont {2015 17th International Symposium on
-  Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)},
-  \btxpageslong {}\ 437--440, \btxprintmonthyear{.}{Sept}{2015}{long}.
+\btxnamefont {\btxlastnamefont {Codreanu}, Ioana} \btxandlong {}\ \btxnamefont
+  {Adina \btxlastnamefont {Florea}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {A proposed serious game architecture to self-management
+  healthcare for older adults}{A Proposed Serious Game Architecture to
+  Self-Management HealthCare for Older Adults}}.
+\newblock \Btxinlong {}\ \btxtitlefont {International Symposium on Symbolic and
+  Numeric Algorithms for Scientific Computing}, 2015\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-1-5090-0461-4}}}.
 
 \bibitem {csbc2016}
 \btxnamefont {\btxlastnamefont {Computação}, Sociedade\btxfnamespacelong
@@ -297,6 +297,16 @@
   {Parkinson's Disease: Diagnosis Clinical Management}.
 \newblock \btxpublisherfont {Demos Medical Publishing}, \btxeditionnumlong
   {2}{}, 2007\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {193-386-400-1}}}.
+
+\bibitem {physicalactivityolder2014}
+\btxnamefont {\btxlastnamefont {Erickson}, Kirk}, \btxnamefont {Regina
+  \btxlastnamefont {Leckie}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Andrea \btxlastnamefont {Weinstein}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Physical activity, fitness, and gray matter
+  volume}{Physical Activity, Fitness, and Gray Matter Volume}}.
+\newblock \btxjournalfont {Neurobiology of Aging}, 2014\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0197-4580}}}.
+\newblock Proceedings of International Conference on Nutrition and the Brain.
 
 \bibitem {statisticterms2006}
 \btxnamefont {\btxlastnamefont {Espejo}, Mariano\btxfnamespacelong
@@ -406,8 +416,8 @@
   non-invasive monitoring to detect covert autonomic dysfunction in parkinson's
   disease}{Continuous Non-invasive Monitoring To Detect Covert Autonomic
   Dysfunction In Parkinson's Disease}}.
-\newblock \btxjournalfont {Parkinsonism and Related Disorders},
-  21\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1353-8020}}}.
+\newblock \btxjournalfont {Parkinsonism and Related Disorders}, 21,
+  2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1353-8020}}}.
 
 \bibitem {specjbhi2015}
 \btxnamefont {\btxlastnamefont {IEEE}}\btxauthorcolon\ \btxtitlefont
@@ -956,9 +966,8 @@
   {Shie \btxlastnamefont {Mannor}}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {Robustness and regularization of support vector
   machines}{Robustness and Regularization of Support Vector Machines}}.
-\newblock \btxjournalfont {Journal of Machine Learning Research},
-  10:1485--1510, 2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
-  {1532-4435}}}.
+\newblock \btxjournalfont {Journal of Machine Learning Research}, 10,
+  2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1532-4435}}}.
 
 \bibitem {wiiassesspark2016}
 \btxnamefont {\btxlastnamefont {Yang}, Ke}, \btxnamefont {Wei\btxfnamespacelong

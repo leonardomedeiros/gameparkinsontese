@@ -1,0 +1,9 @@
+O candidato terá 60 dias para realizar as alterações requisitadas pela banca, sob a responsabilidade do professor Angelo Perkusich.
+
+Especificamente as alterações principais são:
+1. Mudar o foco de não invasivo para induzido.
+2. Deixar claro a contribuição para a Ciência da Computação e no geral.
+3. Revisão de português e abstract.
+4. Revisão bibliográfica;
+5. Conclusões dos capítulos
+6. Comparação de Svm com outras técnicas
