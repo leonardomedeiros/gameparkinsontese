@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {1.1}Relev\IeC {\^a}ncia da Tese}{2}
 \contentsline {section}{\numberline {1.2}Trabalhos Relacionados}{3}
 \contentsline {section}{\numberline {1.3}Objetivos}{5}
-\contentsline {section}{\numberline {1.4}Metodologia}{6}
+\contentsline {section}{\numberline {1.4}Metodologia}{5}
 \contentsline {subsection}{\numberline {1.4.1}Termo de Consentimento Livre e Esclarecido (TCLE)}{7}
 \contentsline {subsection}{\numberline {1.4.2}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{7}
 \contentsline {subsection}{\numberline {1.4.3}Confidencialidade}{8}
@@ -90,7 +90,7 @@
 \select@language {portuges}
 \select@language {portuges}
 \select@language {portuges}
-\contentsline {chapter}{\numberline {A}Projeto do Comit\IeC {\^e} de \IeC {\'E}tica}{83}
+\contentsline {chapter}{\numberline {A}Projeto do Comit\IeC {\^e} de \IeC {\'E}tica em Pesquisa}{83}
 \contentsline {section}{\numberline {A.1}Resumo}{83}
 \contentsline {section}{\numberline {A.2}Introdu\IeC {\c c}\IeC {\~a}o}{83}
 \contentsline {section}{\numberline {A.3}Problem\IeC {\'a}tica}{87}

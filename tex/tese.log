@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  14 JUL 2016 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  14 JUL 2016 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,32 +777,33 @@ although it is yet undefined on input line 5.
 File: ./img/moyne-iphone.png Graphic file (type png)
 
 <use ./img/moyne-iphone.png>
-Package pdftex.def Info: ./img/moyne-iphone.png used on input line 44.
+Package pdftex.def Info: ./img/moyne-iphone.png used on input line 47.
 (pdftex.def)             Requested size: 137.5399pt x 102.08215pt.
- [4]
+ [4 <./img/moyne-iphone.png>]
 Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
-although it is yet undefined on input line 61.
+although it is yet undefined on input line 66.
 Package acronym Info: Label `acro:gqm' newly defined as it shall be overridden
-although it is yet undefined on input line 61.
+although it is yet undefined on input line 66.
 
-Underfull \hbox (badness 1472) in paragraph at lines 64--65
+Underfull \hbox (badness 1472) in paragraph at lines 69--70
 \T1/ptm/m/n/12 Esta pes-quisa foi sub-me-tida à ava-li-a-ção pelo Co-mitê de Ét
 ica da UFCG (\T1/ptm/b/n/12 CAAE:
  []
 
-[5 <./img/moyne-iphone.png>]
+[5]
 Package acronym Info: Label `acro:jogue-me' newly defined as it shall be overri
 dden
-although it is yet undefined on input line 79.
- [6]
-Underfull \hbox (badness 8113) in paragraph at lines 87--88
+although it is yet undefined on input line 84.
+
+Underfull \hbox (badness 8113) in paragraph at lines 92--93
 []\T1/ptm/m/n/12 Definir a ar-qui-te-tura de software que vi-a-bi-li-zou tec-ni
 -ca-mente a abor-da-
  []
 
+[6]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 95.
-[7] [8]) (./cap2-fundamentacao.tex [9]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 100.
+ [7] [8]) (./cap2-fundamentacao.tex [9]
 Cap\'{\i }tulo 2.
 [10
 
@@ -828,15 +829,6 @@ Package pdftex.def Info: ./img/abducao.png used on input line 88.
 (pdftex.def)             Requested size: 144.53964pt x 205.1409pt.
 
 [15 <./img/abducao.png>]
-Package acronym Info: Label `acro:SVM' newly defined as it shall be overridden
-although it is yet undefined on input line 105.
-
-
-Package acronym Warning: Acronym `SVM' is not defined on input line 105.
-
-
-Package acronym Warning: Acronym `SVM' is not defined on input line 105.
-
 <./img/svmhyperplane.png, id=93, 612.2875pt x 511.9125pt>
 File: ./img/svmhyperplane.png Graphic file (type png)
 
@@ -1325,49 +1317,49 @@ se Ra-ting Scale\T1/ptm/m/n/12 .  Sprin-ger, 2011,
  []
 
 [75]
-Underfull \hbox (badness 4981) in paragraph at lines 423--430
+Underfull \hbox (badness 4981) in paragraph at lines 412--419
 []\T1/ptm/m/n/12 IEEE: \T1/ptm/m/it/12 Ena-bling Te-ch-no-lo-gies in Par-kin-so
 n's Di-se-ase Ma-na-ge-ment\T1/ptm/m/n/12 .  Dis-
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 423--430
+Underfull \hbox (badness 2368) in paragraph at lines 412--419
 \T1/ptm/m/n/12 po-ní-vel em: http://jbhi.embs.org/special-issues/enabling-techn
 ologies-parkinsons-
  []
 
 [76]
-Underfull \hbox (badness 6526) in paragraph at lines 447--452
+Underfull \hbox (badness 6526) in paragraph at lines 436--441
 []\T1/ptm/m/n/12 IEEE: \T1/ptm/m/it/12 Jour-nal of Bi-o-me-di-cal and He-alth I
 n-for-ma-tics\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--459
+Underfull \hbox (badness 10000) in paragraph at lines 443--448
 []\T1/ptm/m/n/12 IEEE: \T1/ptm/m/it/12 Tran-sac-ti-ons on Bi-o-me-di-cal En-gi-
 ne-e-ring\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
 
 [77] [78]
-Underfull \hbox (badness 4217) in paragraph at lines 740--746
+Underfull \hbox (badness 4217) in paragraph at lines 729--735
 []\T1/ptm/m/n/12 Research, Pro-va-lis: \T1/ptm/m/it/12 QDA MI-NER Lite v1.2.2\T
 1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1/ptm/m/n/12 , Dis-po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 7186) in paragraph at lines 740--746
+Underfull \hbox (badness 7186) in paragraph at lines 729--735
 \T1/ptm/m/n/12 http://provalisresearch.com/products/qualitative-data-analysis-s
 oftware/.  Úl-timo
  []
 
 [79]
-Underfull \hbox (badness 2065) in paragraph at lines 778--787
+Underfull \hbox (badness 2065) in paragraph at lines 767--776
 []\T1/ptm/m/n/12 Saraiva, Ales-san-dra Vil-ches: \T1/ptm/m/it/12 Uti-li-za-ção 
 da Abor-da-gem Goal-Question-Metrics
  []
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.800 ...ponÃ­vel em: http://www.csbc2016.com.br/#
+l.789 ...ponÃ­vel em: http://www.csbc2016.com.br/#
                                                   !blank-2/q8wct, 2016.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1375,19 +1367,19 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--802
+Underfull \hbox (badness 10000) in paragraph at lines 786--791
 []\T1/ptm/m/n/12 SBC: \T1/ptm/m/it/12 Workshop de In-for-má-tica Mé-dica\T1/ptm
 /m/n/12 .  Dis-po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 849--853
+Underfull \hbox (badness 3701) in paragraph at lines 838--842
 []\T1/ptm/m/n/12 Sommerville, Ian: \T1/ptm/m/it/12 En-ge-nha-ria de Software\T1
 /ptm/m/n/12 .  Ad-di-son Wes-ley Bra, 2011,
  []
 
 [80]
-Underfull \hbox (badness 4303) in paragraph at lines 910--913
+Underfull \hbox (badness 4303) in paragraph at lines 899--902
 []\T1/ptm/m/it/12 Institute of Elec-tri-cal and Elec-tro-nics En-gi-ne-ers\T1/p
 tm/m/n/12 : \T1/ptm/m/it/12 IEEE\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
@@ -1421,7 +1413,7 @@ ar-kin-son pela
 
 
 Underfull \hbox (badness 1466) in paragraph at lines 2--3
-[] \T1/ptm/m/n/12 de Lon-dres [] 41[]. O pa-ci-ente será
+[] \T1/ptm/m/n/12 de Lon-dres [] 40[]. O pa-ci-ente será
  []
 
 [97
@@ -1461,10 +1453,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8311 strings out of 493013
- 116077 string characters out of 6136994
- 303389 words of memory out of 5000000
- 11620 multiletter control sequences out of 15000+600000
+ 8304 strings out of 493013
+ 116005 string characters out of 6136994
+ 303362 words of memory out of 5000000
+ 11613 multiletter control sequences out of 15000+600000
  71356 words of font info for 80 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  40i,17n,46p,1781b,1923s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1479,7 +1471,7 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2056021 bytes).
+Output written on tese.pdf (111 pages, 2053961 bytes).
 PDF statistics:
  445 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams

@@ -368,17 +368,6 @@
 \newblock \btxjournalfont {Fisioterapia e Pesquisa}, 11(1), 2005\ifbtxprintISSN
   {, \mbox{\btxISSN~\btxISSNfont {2316-9117}}}.
 
-\bibitem {wiigraves2008}
-\btxnamefont {\btxlastnamefont {Graves}, Lee}, \btxnamefont {Gareth
-  \btxlastnamefont {Stratton}}, \btxnamefont {Nicola \btxlastnamefont
-  {Ridgers}}\btxandcomma {} \btxandlong {}\ \btxnamefont
-  {Nigel\btxfnamespacelong Cable \btxlastnamefont {.}}\btxauthorcolon\
-  \btxjtitlefont {\btxifchangecase {Energy expenditure in adolescents playing
-  new generation computer games}{Energy Expenditure In Adolescents Playing New
-  Generation Computer Games}}.
-\newblock \btxjournalfont {British Journal of Sports Medicine}, 42,
-  2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1473-0480}}}.
-
 \bibitem {sacbespoke2014}
 \btxnamefont {\btxlastnamefont {Graziadio}, Sara}, \btxnamefont {Richard
   \btxlastnamefont {Davison}}, \btxnamefont {Koholood \btxlastnamefont
