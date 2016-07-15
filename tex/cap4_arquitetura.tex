@@ -331,7 +331,12 @@ classificationRate = sum(class~=realValues);
 errorRate = classificationRate/size(classereal,2);
 \end{lstlisting}
 
-%\section{Considerações Finais}
-Neste capítulo foram apresentados os passos da implementação de um~\ac{jogue-me} para o monitoramento do sinal da bradicinesia presente no~\ac{dp}. Demonstramos na Seção~\ref{sec:processador_bio} o processador de dados biomecânicos implementado para identificar o sinal da bradicinesia~\cite{protpar010} presente no~\ac{dp}. Na Seção~\ref{sec:resultado_svm} do Capítulo~\ref{chap:avaliacao} serão demonstrados os experimentos realizados para validar esta arquitetura do~\ac{jogue-me}.
+\section{Conclusão}
+Neste capítulo foram apresentados os passos da implementação de um~\ac{jogue-me} para o monitoramento do sinal da bradicinesia presente no~\ac{dp}. 
+
+Foi apresentado o design da arquitetura tanto do cliente quanto do serviço de recebimento de requisições, processamento do sinal e identificação do sintoma da bradicinesia~\cite{protpar010} presente no~\ac{dp}. Demonstrou-se neste capítulo detalhes da implementação para que este trabalho possa ser replicado para outras análises motoras.
+
+No capítulo seguinte, é apresentado os experimentos realizados para avaliar este trabalho referentes a: perspectiva do profissional de saúde e suas necessidades, resultado da identificação do sintoma da bradicinesia no estudo analítico de caso-controle e a avaliação dos pacientes com parkinson quanto à proposta de monitoramento dos sinais motores usando jogos eletrônicos.
+
 
 %Para reaplicar esta implementação em outros~\ac{sms}  Esta arquitetura pode ser reaplicada em outros contextos, mas como vimos na Seção
