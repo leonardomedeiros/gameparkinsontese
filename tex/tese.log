@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  14 JUL 2016 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  15 JUL 2016 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,17 +609,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (./tese.aux
-
-LaTeX Warning: Label `sec:processador_bio' multiply defined.
-
-
-LaTeX Warning: Label `img:catch' multiply defined.
-
-
-LaTeX Warning: Label `material_permanente' multiply defined.
-
-)
+ (./tese.aux)
 \openout1 = `tese.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -635,7 +625,8 @@ LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 80.
- (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
+
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -810,6 +801,12 @@ Package acronym Info: Label `acro:dp' newly defined as it shall be overridden
 although it is yet undefined on input line 84.
 
 
+Package acronym Warning: Acronym `dp' is not defined on input line 84.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 84.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 15.02399pt.
  We now make it that large for the rest of the document.
@@ -827,7 +824,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@lof=\write5
 \openout5 = `tese.lof'.
 
- [8] (./tese.lot)
+ [8] (./tese.lot
+
+Package acronym Warning: Acronym `dp' is not defined on input line 10.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 11.
+
+)
 \tf@lot=\write6
 \openout6 = `tese.lot'.
 
@@ -843,22 +847,388 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Cap\'{\i }tulo 1.
 Package acronym Info: Label `acro:oms' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
+
+Package acronym Warning: Acronym `oms' is not defined on input line 3.
+
+
+Package acronym Warning: Acronym `oms' is not defined on input line 3.
+
+
+LaTeX Warning: Citation `ageing2011' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `prevcronica2009' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation `healthmonitoring2013' on page 1 undefined on input lin
+e 3.
+
+
+LaTeX Warning: Citation `homecarebrazil2011' on page 1 undefined on input line 
+3.
+
+
+LaTeX Warning: Citation `healthmonitoring2013' on page 1 undefined on input lin
+e 5.
+
+
+LaTeX Warning: Citation `bardram2010' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `aarhus_negotiating_2010' on page 1 undefined on input 
+line 5.
+
 Package acronym Info: Label `acro:sms' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
+
+Package acronym Warning: Acronym `sms' is not defined on input line 5.
+
+
+Package acronym Warning: Acronym `sms' is not defined on input line 5.
+
+
+Package acronym Warning: Acronym `sms' is not defined on input line 5.
+
+
+LaTeX Warning: Citation `healthmonitoring2013' on page 1 undefined on input lin
+e 5.
+
+
+Package acronym Warning: Acronym `sms' is not defined on input line 5.
+
+
+LaTeX Warning: Citation `bardram2010' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `sacbespoke2014' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `sacsvmhms2014' on page 1 undefined on input line 5.
+
+
+Package acronym Warning: Acronym `sms' is not defined on input line 5.
+
+
+LaTeX Warning: Citation `manumeterjbhi2014' on page 1 undefined on input line 5
+.
+
+
+LaTeX Warning: Citation `patel_monitoring_2009' on page 1 undefined on input li
+ne 5.
+
+
+LaTeX Warning: Citation `robotgait2014' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `ambulatoryparkinson2010' on page 1 undefined on input 
+line 5.
+
+
+LaTeX Warning: Citation `esa2016' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation `seriousgameolder2015' on page 1 undefined on input lin
+e 7.
+
+
+LaTeX Warning: Citation `arntzen2011' on page 1 undefined on input line 7.
+
+
+Package acronym Warning: Acronym `sms' is not defined on input line 9.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 9.
+
 [1
 
 
-] [2] [3] <./img/moyne-iphone.png, id=52, 458.46281pt x 340.27126pt>
+]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 11.
+
+
+LaTeX Warning: Citation `menezes2003' on page 2 undefined on input line 11.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 11.
+
+
+LaTeX Warning: Citation `bardram2008' on page 2 undefined on input line 15.
+
+
+LaTeX Warning: Citation `bradmonitor2015' on page 2 undefined on input line 15.
+
+
+
+LaTeX Warning: Citation `compapproachparkinson2015' on page 2 undefined on inpu
+t line 15.
+
+
+LaTeX Warning: Citation `mazilu2015' on page 2 undefined on input line 15.
+
+
+LaTeX Warning: Citation `autonomparkin2015' on page 2 undefined on input line 1
+5.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 15.
+
+
+LaTeX Warning: Citation `bardram2008' on page 2 undefined on input line 15.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 15.
+
+
+LaTeX Warning: Citation `compapproachparkinson2015' on page 2 undefined on inpu
+t line 15.
+
+
+LaTeX Warning: Citation `ieee2016' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `acm2016' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `cbms2016' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `sachealth2016' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `healthcon2016' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `pervasivehealth2016' on page 2 undefined on input line
+ 20.
+
+
+LaTeX Warning: Citation `jbhi2016' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `tbe2016' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `sbc2016' on page 2 undefined on input line 22.
+
+
+LaTeX Warning: Citation `wim2016' on page 2 undefined on input line 22.
+
+
+LaTeX Warning: Citation `csbc2016' on page 2 undefined on input line 22.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 22.
+
+
+LaTeX Warning: Citation `specjbhi2015' on page 2 undefined on input line 22.
+
+[2]
+
+LaTeX Warning: Citation `antonio2013' on page 3 undefined on input line 24.
+
+
+LaTeX Warning: Citation `gustavo2014' on page 3 undefined on input line 24.
+
+
+LaTeX Warning: Citation `bartolome11' on page 3 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Mandryk2014' on page 3 undefined on input line 30.
+
+
+LaTeX Warning: Citation `seriousgameolder2015' on page 3 undefined on input lin
+e 30.
+
+
+LaTeX Warning: Citation `wiiassesspark2016' on page 3 undefined on input line 3
+0.
+
+
+LaTeX Warning: Citation `physicalactivityolder2014' on page 3 undefined on inpu
+t line 30.
+
+
+LaTeX Warning: Citation `cloudrehabi2014' on page 3 undefined on input line 30.
+
+
+
+LaTeX Warning: Citation `seriousgameolder2015' on page 3 undefined on input lin
+e 30.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 30.
+
+
+LaTeX Warning: Citation `synnott_wiipd_2012' on page 3 undefined on input line 
+30.
+
+
+LaTeX Warning: Citation `sacbespoke2014' on page 3 undefined on input line 30.
+
+
+LaTeX Warning: Citation `ambientgameolder2012' on page 3 undefined on input lin
+e 34.
+
+
+LaTeX Warning: Citation `atkinson2010' on page 3 undefined on input line 37.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 37.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 37.
+
+
+LaTeX Warning: Citation `synnott_wiipd_2012' on page 3 undefined on input line 
+37.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 37.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 37.
+
+
+LaTeX Warning: Citation `national2006parkinson' on page 3 undefined on input li
+ne 37.
+
+
+LaTeX Warning: Citation `Papastergiou:2009:EPC:1570538.1570707' on page 3 undef
+ined on input line 39.
+
+
+LaTeX Warning: Citation `sacbespoke2014' on page 3 undefined on input line 39.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 39.
+
+[3]
+
+LaTeX Warning: Citation `Sinclair:2009:UVB:1515604.1515617' on page 4 undefined
+ on input line 41.
+
+
+LaTeX Warning: Citation `arntzen2011' on page 4 undefined on input line 41.
+
+
+LaTeX Warning: Citation `arntzen2011' on page 4 undefined on input line 41.
+
+
+LaTeX Warning: Citation `lemoyne2010' on page 4 undefined on input line 43.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 43.
+
+
+LaTeX Warning: Reference `fig:iphone-tremor' on page 4 undefined on input line 
+43.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 43.
+
+
+LaTeX Warning: Citation `jankovic2008' on page 4 undefined on input line 43.
+
+
+LaTeX Warning: Citation `lemoyne2010' on page 4 undefined on input line 43.
+
+<./img/moyne-iphone.png, id=52, 458.46281pt x 340.27126pt>
 File: ./img/moyne-iphone.png Graphic file (type png)
 
 <use ./img/moyne-iphone.png>
 Package pdftex.def Info: ./img/moyne-iphone.png used on input line 47.
 (pdftex.def)             Requested size: 137.5399pt x 102.08215pt.
- [4 <./img/moyne-iphone.png>]
+
+
+LaTeX Warning: Citation `lemoyne2010' on page 4 undefined on input line 50.
+
+
+LaTeX Warning: Citation `lemoyne2010' on page 4 undefined on input line 50.
+
+
+Package acronym Warning: Acronym `sms' is not defined on input line 56.
+
+
+LaTeX Warning: Citation `classifiersparkinson2014' on page 4 undefined on input
+ line 56.
+
+
+LaTeX Warning: Citation `aarhus_negotiating_2010' on page 4 undefined on input 
+line 56.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 56.
+
+
+LaTeX Warning: Citation `quantitativeparkinson2011' on page 4 undefined on inpu
+t line 56.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 56.
+
+[4 <./img/moyne-iphone.png>]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 62.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 66.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 66.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 66.
+
 Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
 although it is yet undefined on input line 66.
+
+Package acronym Warning: Acronym `svm' is not defined on input line 66.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 66.
+
+
+LaTeX Warning: Citation `datamining2005' on page 5 undefined on input line 66.
+
 Package acronym Info: Label `acro:gqm' newly defined as it shall be overridden
 although it is yet undefined on input line 66.
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 66.
+
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 66.
+
+
+LaTeX Warning: Citation `van1999goal' on page 5 undefined on input line 66.
+
+
+LaTeX Warning: Reference `sec:comite' on page 5 undefined on input line 69.
+
+
+LaTeX Warning: Reference `sec:entrevista_semi_estruturada' on page 5 undefined 
+on input line 69.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 69.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 5 undefined on input
+ line 69.
+
+
+LaTeX Warning: Reference `sec:resultado_svm' on page 5 undefined on input line 
+69.
+
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 69.
+
+
+LaTeX Warning: Citation `saraiva2006' on page 5 undefined on input line 69.
+
+
+LaTeX Warning: Reference `gqm_usuarios' on page 5 undefined on input line 69.
+
 
 Underfull \hbox (badness 1472) in paragraph at lines 69--70
 \T1/ptm/m/n/12 Esta pes-quisa foi sub-me-tida à ava-li-a-ção pelo Co-mitê de Ét
@@ -866,23 +1236,332 @@ ica da UFCG (\T1/ptm/b/n/12 CAAE:
  []
 
 [5]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 74.
+
 Package acronym Info: Label `acro:jogue-me' newly defined as it shall be overri
 dden
 although it is yet undefined on input line 84.
 
-Underfull \hbox (badness 8113) in paragraph at lines 92--93
-[]\T1/ptm/m/n/12 Definir a ar-qui-te-tura de software que vi-a-bi-li-zou tec-ni
--ca-mente a abor-da-
- []
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 84.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 84.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 87.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 87.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 89.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 89.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 92.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 94.
 
 [6]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 96.
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 100.
- [7] [8]) (./cap2-fundamentacao.tex [9]
+
+LaTeX Warning: Reference `sec:comite' on page 7 undefined on input line 101.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 106.
+
+[7]
+
+LaTeX Warning: Citation `reviewassesenspark2015' on page 8 undefined on input l
+ine 114.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 114.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 116.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 118.
+
+
+LaTeX Warning: Citation `reviewassesenspark2015' on page 8 undefined on input l
+ine 118.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 118.
+
+
+LaTeX Warning: Citation `wiiassesspark2016' on page 8 undefined on input line 1
+18.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 122.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 122.
+
+
+LaTeX Warning: Citation `abn2010' on page 8 undefined on input line 122.
+
+[8]
+
+LaTeX Warning: Reference `chapter:fundamentacao' on page 9 undefined on input l
+ine 138.
+
+
+LaTeX Warning: Reference `chapter:abordagem_gahme' on page 9 undefined on input
+ line 139.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 139.
+
+
+LaTeX Warning: Reference `chapter:arquitetura_captura' on page 9 undefined on i
+nput line 140.
+
+
+LaTeX Warning: Reference `chap:avaliacao' on page 9 undefined on input line 141
+.
+
+
+LaTeX Warning: Reference `chapter:conclusoes_futuros' on page 9 undefined on in
+put line 142.
+
+) (./cap2-fundamentacao.tex [9]
 Cap\'{\i }tulo 2.
+
+Package acronym Warning: Acronym `dp' is not defined on input line 2.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 2.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 6.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 6.
+
+
+LaTeX Warning: Citation `protpar010' on page 10 undefined on input line 6.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 6.
+
+
+LaTeX Warning: Citation `menezes2003' on page 10 undefined on input line 6.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 6.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 8.
+
+
+LaTeX Warning: Citation `protpar010' on page 10 undefined on input line 8.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 8.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 12.
+
+
+LaTeX Warning: Citation `national2006parkinson' on page 10 undefined on input l
+ine 12.
+
+
+LaTeX Warning: Citation `protpar010' on page 10 undefined on input line 12.
+
+
+LaTeX Warning: Citation `quantitativeparkinson2011' on page 10 undefined on inp
+ut line 12.
+
 [10
 
-] [11] [12] [13]
+]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 15.
+
+
+LaTeX Warning: Citation `abn2010' on page 11 undefined on input line 15.
+
+
+LaTeX Warning: Citation `abn2010' on page 11 undefined on input line 15.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 15.
+
+
+LaTeX Warning: Citation `protpar010' on page 11 undefined on input line 15.
+
+
+LaTeX Warning: Citation `national2006parkinson' on page 11 undefined on input l
+ine 15.
+
+
+LaTeX Warning: Citation `protpar010' on page 11 undefined on input line 15.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 19.
+
+
+LaTeX Warning: Citation `rowlandtratado' on page 11 undefined on input line 19.
+
+
+
+LaTeX Warning: Citation `abn2010' on page 11 undefined on input line 19.
+
+
+LaTeX Warning: Citation `tolosa06' on page 11 undefined on input line 19.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 21.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 21.
+
+
+LaTeX Warning: Citation `protpar010' on page 11 undefined on input line 21.
+
+
+LaTeX Warning: Citation `protpar010' on page 11 undefined on input line 21.
+
+
+LaTeX Warning: Citation `protpar010' on page 11 undefined on input line 21.
+
+
+LaTeX Warning: Citation `national2006parkinson' on page 11 undefined on input l
+ine 21.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 21.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 21.
+
+
+LaTeX Warning: Citation `rowlandtratado' on page 11 undefined on input line 21.
+
+
+[11]
+
+LaTeX Warning: Citation `national2006parkinson' on page 12 undefined on input l
+ine 24.
+
+
+LaTeX Warning: Reference `apendice:diagnostico_parkinson' on page 12 undefined 
+on input line 24.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 33.
+
+
+LaTeX Warning: Citation `protpar010' on page 12 undefined on input line 33.
+
+
+LaTeX Warning: Citation `jankovic2008' on page 12 undefined on input line 36.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 36.
+
+
+LaTeX Warning: Citation `jankovic2008' on page 12 undefined on input line 36.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 42.
+
+
+LaTeX Warning: Citation `do2007parkinson' on page 12 undefined on input line 42
+.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 44.
+
+
+LaTeX Warning: Citation `do2007parkinson' on page 12 undefined on input line 44
+.
+
+[12]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 47.
+
+
+LaTeX Warning: Citation `updrs87' on page 13 undefined on input line 47.
+
+
+LaTeX Warning: Citation `goul05' on page 13 undefined on input line 47.
+
+
+LaTeX Warning: Citation `updrs87' on page 13 undefined on input line 47.
+
+
+LaTeX Warning: Citation `goul05' on page 13 undefined on input line 47.
+
+
+LaTeX Warning: Citation `updrs87' on page 13 undefined on input line 47.
+
+
+LaTeX Warning: Citation `goul05' on page 13 undefined on input line 47.
+
+
+LaTeX Warning: Citation `updrs87' on page 13 undefined on input line 47.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 51.
+
+
+LaTeX Warning: Citation `updrs87' on page 13 undefined on input line 51.
+
+
+LaTeX Warning: Citation `kostek12' on page 13 undefined on input line 63.
+
+
+LaTeX Warning: Citation `synnott_wiipd_2012' on page 13 undefined on input line
+ 63.
+
+
+LaTeX Warning: Citation `patel_monitoring_2009' on page 13 undefined on input l
+ine 63.
+
+
+LaTeX Warning: Citation `updrs87' on page 13 undefined on input line 63.
+
+[13]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 65.
+
+
+LaTeX Warning: Citation `rowlandtratado' on page 14 undefined on input line 65.
+
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 14 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Citation `gabel2012' on page 14 undefined on input line 69.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 14 undefined on inpu
+t line 71.
+
+
+LaTeX Warning: Citation `hamill1999bases' on page 14 undefined on input line 80
+.
+
+
+LaTeX Warning: Citation `hamill1999bases' on page 14 undefined on input line 82
+.
+
 
 ! Package inputenc Error: Unicode char Â° (U+B0)
 (inputenc)                not set up for use with LaTeX.
@@ -897,32 +1576,194 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14] <./img/abducao.png, id=89, 289.08pt x 410.2828pt>
+[14]
+
+LaTeX Warning: Reference `fig:movabducaoaducao' on page 15 undefined on input l
+ine 84.
+
+<./img/abducao.png, id=89, 289.08pt x 410.2828pt>
 File: ./img/abducao.png Graphic file (type png)
  <use ./img/abducao.png>
 Package pdftex.def Info: ./img/abducao.png used on input line 88.
 (pdftex.def)             Requested size: 144.53964pt x 205.1409pt.
 
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 15 undefined on inpu
+t line 91.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 15 undefined on inpu
+t line 91.
+
+
+LaTeX Warning: Citation `hamill1999bases' on page 15 undefined on input line 98
+.
+
+
+LaTeX Warning: Citation `hamill1999bases' on page 15 undefined on input line 99
+.
+
+
+LaTeX Warning: Citation `vapnik95' on page 15 undefined on input line 103.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 103.
+
+
+LaTeX Warning: Citation `datamining2005' on page 15 undefined on input line 103
+.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 103.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 103.
+
+
+LaTeX Warning: Citation `multisvm2011' on page 15 undefined on input line 103.
+
 [15 <./img/abducao.png>]
+
+Package acronym Warning: Acronym `svm' is not defined on input line 105.
+
+
+LaTeX Warning: Citation `vapnik95' on page 16 undefined on input line 105.
+
+
+LaTeX Warning: Citation `xusvm2009' on page 16 undefined on input line 105.
+
+
+LaTeX Warning: Citation `xusvm2009' on page 16 undefined on input line 105.
+
+
+LaTeX Warning: Citation `comprnasvm2007' on page 16 undefined on input line 105
+.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 123.
+
+
+LaTeX Warning: Citation `vapnik95' on page 16 undefined on input line 123.
+
+
+LaTeX Warning: Citation `valt2010' on page 16 undefined on input line 123.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 123.
+
+
+LaTeX Warning: Reference `fig:hiperplano' on page 16 undefined on input line 12
+3.
+
 <./img/svmhyperplane.png, id=93, 612.2875pt x 511.9125pt>
 File: ./img/svmhyperplane.png Graphic file (type png)
 
 <use ./img/svmhyperplane.png>
 Package pdftex.def Info: ./img/svmhyperplane.png used on input line 127.
 (pdftex.def)             Requested size: 244.91066pt x 204.76137pt.
- [16 <./img/svmhyperplane.png>]
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 136.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 146.
+
+[16 <./img/svmhyperplane.png>]
+
+LaTeX Warning: Citation `valt2010' on page 17 undefined on input line 148.
+
+
+LaTeX Warning: Reference `eq:hiperplano' on page 17 undefined on input line 148
+.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-) (./cap3-abordagemjogueme.tex [17]
+
+LaTeX Warning: Reference `codepredicaoclasse' on page 17 undefined on input lin
+e 157.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 169.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 169.
+
+
+LaTeX Warning: Citation `bradmonitor2015' on page 17 undefined on input line 16
+9.
+
+
+LaTeX Warning: Citation `svmparkinson2010' on page 17 undefined on input line 1
+69.
+
+
+LaTeX Warning: Citation `patel_monitoring_2009' on page 17 undefined on input l
+ine 169.
+
+
+LaTeX Warning: Citation `quantitativeparkinson2011' on page 17 undefined on inp
+ut line 169.
+
+
+LaTeX Warning: Citation `wiiassesspark2016' on page 17 undefined on input line 
+169.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 173.
+
+
+LaTeX Warning: Reference `sec:processador_bio' on page 17 undefined on input li
+ne 177.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 17 undefined on inpu
+t line 177.
+
+
+LaTeX Warning: Reference `sec:resultado_svm' on page 17 undefined on input line
+ 177.
+
+) (./cap3-abordagemjogueme.tex [17] [18]
 Cap\'{\i }tulo 3.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 1.
 
+Package acronym Warning: Acronym `sms' is not defined on input line 2.
+
+
+LaTeX Warning: Citation `FLI04' on page 19 undefined on input line 5.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 5.
+
+
+LaTeX Warning: Citation `Suhonen:2008:SFE:1457199.1457204' on page 19 undefined
+ on input line 10.
+
+
+LaTeX Warning: Citation `sinclair07' on page 19 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Suhonen:2008:SFE:1457199.1457204' on page 19 undefined
+ on input line 11.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 []\T1/ptm/m/n/12 O jo-ga-dor
  []
+
+
+LaTeX Warning: Citation `sweetser2005-gameflow' on page 19 undefined on input l
+ine 12.
+
+
+LaTeX Warning: Citation `arntzen2011' on page 19 undefined on input line 13.
+
+
+LaTeX Warning: Citation `sinclair07' on page 19 undefined on input line 13.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
@@ -938,7 +1779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 Underfull \hbox (badness 6078) in paragraph at lines 13--14
 \T1/ptm/m/n/12 como: mo-vi-men-tos de equi-lí-brio, mo-vi-men-tos re-pe-ti-ti-v
-os ou brus-cos [] 9;
+os ou brus-cos [] \T1/ptm/b/n/12 ?\T1/ptm/m/n/12 ;
  []
 
 
@@ -946,7 +1787,7 @@ Underfull \hbox (badness 2762) in paragraph at lines 14--15
 []\T1/ptm/m/n/12 O jogo deve
  []
 
-[18
+[19
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -958,21 +1799,70 @@ Overfull \hbox (18.1413pt too wide) in paragraph at lines 16--17
 []
  []
 
-<./img/visaosistema.png, id=107, 429.2838pt x 348.3414pt>
+<./img/visaosistema.png, id=110, 429.2838pt x 348.3414pt>
 File: ./img/visaosistema.png Graphic file (type png)
 
 <use ./img/visaosistema.png>
 Package pdftex.def Info: ./img/visaosistema.png used on input line 25.
 (pdftex.def)             Requested size: 343.99327pt x 279.1306pt.
- [19 <./img/visaosistema.png>] [20]
-<./img/biomecprocessor2.png, id=116, 330.5148pt x 431.6928pt>
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 29.
+
+
+LaTeX Warning: Citation `alemdar' on page 20 undefined on input line 29.
+
+[20 <./img/visaosistema.png>]
+
+LaTeX Warning: Reference `img:visaogeral' on page 21 undefined on input line 36
+.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 41.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 41.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 41.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 43.
+
+
+LaTeX Warning: Citation `kinnect2013' on page 21 undefined on input line 45.
+
+
+LaTeX Warning: Citation `hamill1999bases' on page 21 undefined on input line 45
+.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 21 undefined on inpu
+t line 45.
+
+[21]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 47.
+
+
+LaTeX Warning: Citation `updrs87' on page 22 undefined on input line 47.
+
+<./img/biomecprocessor2.png, id=119, 330.5148pt x 431.6928pt>
 File: ./img/biomecprocessor2.png Graphic file (type png)
 
 <use ./img/biomecprocessor2.png>
 Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 57.
 (pdftex.def)             Requested size: 352.8155pt x 460.83961pt.
 
-<./img/exsinalposicaoypunhodireito.png, id=117, 545.78906pt x 339.51843pt>
+
+LaTeX Warning: Reference `img:process_bio' on page 22 undefined on input line 6
+1.
+
+
+LaTeX Warning: Reference `img:exsinalposicaopunho' on page 22 undefined on inpu
+t line 68.
+
+<./img/exsinalposicaoypunhodireito.png, id=120, 545.78906pt x 339.51843pt>
 File: ./img/exsinalposicaoypunhodireito.png Graphic file (type png)
 
 <use ./img/exsinalposicaoypunhodireito.png>
@@ -980,23 +1870,50 @@ Package pdftex.def Info: ./img/exsinalposicaoypunhodireito.png used on input li
 ne 72.
 (pdftex.def)             Requested size: 441.01772pt x 274.34529pt.
 
-<./img/deteccaopicosvales.png, id=118, 599.23875pt x 402.75468pt>
+
+LaTeX Warning: Citation `peakdetect' on page 22 undefined on input line 78.
+
+
+LaTeX Warning: Reference `img:expicosvales' on page 22 undefined on input line 
+78.
+
+<./img/deteccaopicosvales.png, id=121, 599.23875pt x 402.75468pt>
 File: ./img/deteccaopicosvales.png Graphic file (type png)
 
 <use ./img/deteccaopicosvales.png>
 Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 82.
 (pdftex.def)             Requested size: 441.01772pt x 296.41751pt.
- [21] [22 <./img/biomecprocessor2.png>]
+
+
+LaTeX Warning: Reference `img:exsinalposicaopunho' on page 22 undefined on inpu
+t line 96.
+
+
+LaTeX Warning: Reference `section:movimento_abducao' on page 22 undefined on in
+put line 96.
+
+[22] [23 <./img/biomecprocessor2.png>]
+
+LaTeX Warning: Citation `hamill1999bases' on page 24 undefined on input line 10
+8.
+
 
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 108
 .
 
 
+LaTeX Warning: Citation `algebra2000' on page 24 undefined on input line 111.
+
+
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 111
 .
 
-[23 <./img/exsinalposicaoypunhodireito.png (PNG copy)>]
-<./img/amplitude-braco.png, id=129, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `img:amplitude_braco' on page 24 undefined on input li
+ne 127.
+
+[24 <./img/exsinalposicaoypunhodireito.png (PNG copy)>]
+<./img/amplitude-braco.png, id=132, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco.png Graphic file (type png)
 
 <use ./img/amplitude-braco.png>
@@ -1033,16 +1950,47 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./img/amplitude-braco-picos.png, id=130, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `img:amplitude_braco_picos_vales' on page 25 undefined
+ on input line 138.
+
+<./img/amplitude-braco-picos.png, id=133, 421.575pt x 316.18124pt>
 File: ./img/amplitude-braco-picos.png Graphic file (type png)
 
 <use ./img/amplitude-braco-picos.png>
 Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 141
 .
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
- [24 <./img/deteccaopicosvales.png (PNG copy)>] [25 <./img/amplitude-braco.png 
-(PNG copy)>]
-<./img/ciclomovimentoremovido.png, id=139, 421.575pt x 316.18124pt>
+ [25 <./img/deteccaopicosvales.png (PNG copy)>]
+
+LaTeX Warning: Citation `statisticterms2006' on page 26 undefined on input line
+ 151.
+
+
+LaTeX Warning: Citation `vicini2005' on page 26 undefined on input line 151.
+
+
+LaTeX Warning: Reference `eq:vetormedio' on page 26 undefined on input line 152
+.
+
+
+LaTeX Warning: Citation `statisticshandbook2009' on page 26 undefined on input 
+line 152.
+
+
+LaTeX Warning: Citation `statisticshandbook2009' on page 26 undefined on input 
+line 157.
+
+
+LaTeX Warning: Reference `eq:variancia' on page 26 undefined on input line 157.
+
+
+[26 <./img/amplitude-braco.png (PNG copy)>]
+
+LaTeX Warning: Reference `img:ciclo_filtrado' on page 27 undefined on input lin
+e 183.
+
+<./img/ciclomovimentoremovido.png, id=143, 421.575pt x 316.18124pt>
 File: ./img/ciclomovimentoremovido.png Graphic file (type png)
 
 <use ./img/ciclomovimentoremovido.png>
@@ -1080,20 +2028,72 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[26 <./img/amplitude-braco-picos.png (PNG copy)>] [27 <./img/ciclomovimentoremo
-vido.png (PNG copy)>]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 194.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 194.
+
+[27 <./img/amplitude-braco-picos.png (PNG copy)>]
+
+LaTeX Warning: Reference `sec:extracao_caracteristcas' on page 28 undefined on 
+input line 196.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 196.
+
+[28 <./img/ciclomovimentoremovido.png (PNG copy)>]
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 198.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 207.
+
+
+LaTeX Warning: Reference `table:extracao-caracteristica' on page 29 undefined o
+n input line 207.
+
+
+LaTeX Warning: Reference `table:extracao_caracterisca_saudavel' on page 29 unde
+fined on input line 207.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 220.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 220.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 236.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 236.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 240--241
-[]\T1/ptm/m/n/12 Como pode ser visto nes-ses da-dos, a am-pli-tude de um in-di-
-ví-duo di-ag-nos-ti-cado
- []
+Package acronym Warning: Acronym `dp' is not defined on input line 240.
 
-[28]) (./cap4_arquitetura.tex [29]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 240.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 240.
+
+
+LaTeX Warning: Citation `protpar010' on page 29 undefined on input line 240.
+
+[29]) (./cap4_arquitetura.tex [30]
 Cap\'{\i }tulo 4.
-<./img/arquitetura.png, id=153, 749.80125pt x 365.11406pt>
+
+LaTeX Warning: Reference `fig:arquitetura' on page 31 undefined on input line 3
+.
+
+
+LaTeX Warning: Citation `unity3d' on page 31 undefined on input line 3.
+
+<./img/arquitetura.png, id=156, 749.80125pt x 365.11406pt>
 File: ./img/arquitetura.png Graphic file (type png)
 
 <use ./img/arquitetura.png>
@@ -1101,22 +2101,44 @@ Package pdftex.def Info: ./img/arquitetura.png used on input line 10.
 (pdftex.def)             Requested size: 419.88583pt x 204.46246pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 18.
- [30
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 19.
+
+
+LaTeX Warning: Citation `unity3d' on page 31 undefined on input line 19.
+
+[31
 
  <./img/arquitetura.png>]
-<./img/arquiclientejogueme.png, id=157, 364.36125pt x 175.40532pt>
+
+LaTeX Warning: Citation `unity3d' on page 32 undefined on input line 21.
+
+
+LaTeX Warning: Reference `fig:arquitetura_cliente' on page 32 undefined on inpu
+t line 21.
+
+<./img/arquiclientejogueme.png, id=160, 364.36125pt x 175.40532pt>
 File: ./img/arquiclientejogueme.png Graphic file (type png)
 
 <use ./img/arquiclientejogueme.png>
 Package pdftex.def Info: ./img/arquiclientejogueme.png used on input line 25.
 (pdftex.def)             Requested size: 291.48938pt x 140.32443pt.
 
-Underfull \hbox (badness 1297) in paragraph at lines 34--36
-[]\T1/ptm/m/n/12 Para ad-qui-rir os si-nais mo-to-res, este tra-ba-lho uti-li-z
-ou e her-dou do com-po-nente
- []
 
-<./img/diagclasszigfu.png, id=158, 440.64626pt x 422.57875pt>
+LaTeX Warning: Citation `zigfu' on page 32 undefined on input line 34.
+
+
+LaTeX Warning: Citation `kinnect2013' on page 32 undefined on input line 34.
+
+
+LaTeX Warning: Citation `kinnect2013' on page 32 undefined on input line 34.
+
+
+LaTeX Warning: Citation `hamill1999bases' on page 32 undefined on input line 34
+.
+
+<./img/diagclasszigfu.png, id=161, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
 <use ./img/diagclasszigfu.png>
@@ -1126,8 +2148,29 @@ Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 53.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31 <./img/arquiclientejogueme.png>]
-<./img/catch-the-spheres.png, id=162, 1063.72406pt x 557.08125pt>
+
+LaTeX Warning: Citation `zigfu' on page 32 undefined on input line 58.
+
+
+LaTeX Warning: Reference `fig:diagramaclassezigfu' on page 32 undefined on inpu
+t line 58.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 65.
+
+
+LaTeX Warning: Reference `section:requisitos_solucao' on page 32 undefined on i
+nput line 65.
+
+
+LaTeX Warning: Citation `sweetser2005-gameflow' on page 32 undefined on input l
+ine 67.
+
+[32 <./img/arquiclientejogueme.png>]
+
+LaTeX Warning: Reference `gqm_usuarios' on page 33 undefined on input line 69.
+
+<./img/catch-the-spheres.png, id=166, 1063.72406pt x 557.08125pt>
 File: ./img/catch-the-spheres.png Graphic file (type png)
 
 <use ./img/catch-the-spheres.png>
@@ -1137,10 +2180,19 @@ Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 73.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 78.
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 80.
-[32 <./img/diagclasszigfu.png>]
-<./img/class_diagram.png, id=167, 2179.14125pt x 1258.7025pt>
+[33 <./img/diagclasszigfu.png>]
+
+LaTeX Warning: Citation `matlab2011' on page 34 undefined on input line 83.
+
+
+LaTeX Warning: Reference `fig:classd' on page 34 undefined on input line 83.
+
+<./img/class_diagram.png, id=170, 2179.14125pt x 1258.7025pt>
 File: ./img/class_diagram.png Graphic file (type png)
 
 <use ./img/class_diagram.png>
@@ -1150,8 +2202,16 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 92.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [33 <./img/catch-the-spheres.png (PNG copy)> <./img/class_diagram.png (PNG co
-py)>]
+)
+
+LaTeX Warning: Citation `antonio2013' on page 34 undefined on input line 92.
+
+
+LaTeX Warning: Reference `tab:operations' on page 34 undefined on input line 92
+.
+
+[34 <./img/catch-the-spheres.png (PNG copy)> <./img/class_diagram.png (PNG copy
+)>]
 Underfull \hbox (badness 3281) in paragraph at lines 131--132
 \T1/ptm/m/n/12 O \T1/ptm/m/it/12 Ge-ren-ci-a-dor de Da-dos \T1/ptm/m/n/12 pos-s
 ui sub-mó-du-los res-pon-sá-veis por ler, se-para e fil-
@@ -1194,12 +2254,12 @@ Underfull \hbox (badness 1436) in paragraph at lines 131--132
 -tru-tor \T1/pcr/m/n/12 DataManager(DatabaseManager,
  []
 
-[34]
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
  []
 
-[35]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 []\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
  []
@@ -1209,6 +2269,10 @@ Underfull \hbox (badness 2762) in paragraph at lines 144--145
 \T1/pcr/m/n/12 hasHeader, String... labels) \T1/ptm/m/n/12 es-tende a fun-ci-o-
 na-li-dade do mé-todo
  []
+
+
+LaTeX Warning: Reference `getdatamethod' on page 37 undefined on input line 145
+.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
@@ -1221,67 +2285,464 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
  es-tende as fun-ci-o-na-li-da-des do
  []
 
-[36] [37] [38]
+
+LaTeX Warning: Reference `formatlinemethod' on page 37 undefined on input line 
+159.
+
+[37]
+
+LaTeX Warning: Citation `matlab2011' on page 38 undefined on input line 215.
+
+
+LaTeX Warning: Reference `section:identificao_ciclos' on page 38 undefined on i
+nput line 218.
+
+
+LaTeX Warning: Citation `peakdetect' on page 38 undefined on input line 220.
+
+
+LaTeX Warning: Reference `lst:identifyCycles' on page 38 undefined on input lin
+e 240.
+
+
+LaTeX Warning: Reference `fig:movabducaoaducao' on page 38 undefined on input l
+ine 240.
+
+[38]
+
+LaTeX Warning: Reference `lst:calculate_angle' on page 39 undefined on input li
+ne 258.
+
+
+LaTeX Warning: Reference `lst:angular_velocity' on page 39 undefined on input l
+ine 273.
+
+
+LaTeX Warning: Reference `section:filtro_dados' on page 39 undefined on input l
+ine 288.
+
+
+LaTeX Warning: Reference `code:filtercycles' on page 39 undefined on input line
+ 289.
+
+[39]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 297.
- [39]) (./cap5-avaliacao.tex [40]
+
+
+LaTeX Warning: Reference `section:class_dados' on page 40 undefined on input li
+ne 322.
+
+
+LaTeX Warning: Reference `code:classification' on page 40 undefined on input li
+ne 322.
+
+
+LaTeX Warning: Citation `matlab2011' on page 40 undefined on input line 322.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 322.
+
+[40]
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 335.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 335.
+
+
+LaTeX Warning: Reference `sec:processador_bio' on page 41 undefined on input li
+ne 335.
+
+
+LaTeX Warning: Citation `protpar010' on page 41 undefined on input line 335.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 335.
+
+
+LaTeX Warning: Reference `sec:resultado_svm' on page 41 undefined on input line
+ 335.
+
+
+LaTeX Warning: Reference `chap:avaliacao' on page 41 undefined on input line 33
+5.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 335.
+
+) (./cap5-avaliacao.tex [41]
 Cap\'{\i }tulo 5.
+
+Package acronym Warning: Acronym `sms' is not defined on input line 2.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 2.
+
 
 Underfull \hbox (badness 7631) in paragraph at lines 7--7
 []\T1/ptm/b/n/17.28 Entrevista Se-mi-es-tru-tu-rada com Pro-fis-si-o-nais de
  []
 
-[41
 
-] [42]
+LaTeX Warning: Citation `FLI04' on page 42 undefined on input line 11.
+
+
+LaTeX Warning: Citation `FLI04' on page 42 undefined on input line 11.
+
+
+LaTeX Warning: Citation `FLI04' on page 42 undefined on input line 13.
+
+
+LaTeX Warning: Citation `qda13' on page 42 undefined on input line 15.
+
+
+LaTeX Warning: Citation `FLI04' on page 42 undefined on input line 15.
+
+
+LaTeX Warning: Citation `FLI04' on page 42 undefined on input line 15.
+
+
+LaTeX Warning: Citation `FLI04' on page 42 undefined on input line 19.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 19.
+
+[42
+
+]
+
+LaTeX Warning: Citation `FLI04' on page 43 undefined on input line 21.
+
+
+LaTeX Warning: Citation `qda13' on page 43 undefined on input line 24.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 24.
+
+[43]
+
+LaTeX Warning: Reference `table:perfil_analise_participantes' on page 44 undefi
+ned on input line 34.
+
+
 Overfull \hbox (8.11433pt too wide) in paragraph at lines 39--47
 [][] 
  []
 
-[43] [44] [45] [46] [47] [48] [49]
-<./img/gametremor.png, id=223, 388.45125pt x 579.16376pt>
+
+LaTeX Warning: Citation `protpar010' on page 44 undefined on input line 51.
+
+
+LaTeX Warning: Citation `national2006parkinson' on page 44 undefined on input l
+ine 51.
+
+
+LaTeX Warning: Citation `updrs87' on page 44 undefined on input line 51.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 51.
+
+
+LaTeX Warning: Reference `apendice:entrevista-semi-estruturada' on page 44 unde
+fined on input line 51.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 51.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 54.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 58.
+
+
+LaTeX Warning: Citation `tolosa06' on page 44 undefined on input line 58.
+
+
+LaTeX Warning: Citation `abn2010' on page 44 undefined on input line 58.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 58.
+
+
+LaTeX Warning: Citation `protpar010' on page 44 undefined on input line 58.
+
+
+LaTeX Warning: Citation `national2006parkinson' on page 44 undefined on input l
+ine 58.
+
+
+LaTeX Warning: Citation `updrs87' on page 44 undefined on input line 60.
+
+[44]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 79.
+
+
+LaTeX Warning: Citation `protpar010' on page 45 undefined on input line 79.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 89.
+
+
+LaTeX Warning: Reference `section:analise_diagnostico' on page 45 undefined on 
+input line 91.
+
+
+LaTeX Warning: Citation `do2007parkinson' on page 45 undefined on input line 91
+.
+
+[45]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 108.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 117.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 123.
+
+
+LaTeX Warning: Reference `section:estudo_caso_controle' on page 46 undefined on
+ input line 138.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 138.
+
+[46]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 140.
+
+[47]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 185.
+
+
+LaTeX Warning: Citation `updrs87' on page 48 undefined on input line 185.
+
+
+LaTeX Warning: Reference `section:escalas_avaliacao' on page 48 undefined on in
+put line 185.
+
+[48]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 214.
+
+[49]
+
+LaTeX Warning: Citation `bas00' on page 50 undefined on input line 240.
+
+
+LaTeX Warning: Citation `elicquest05' on page 50 undefined on input line 240.
+
+
+LaTeX Warning: Citation `zowghi2005' on page 50 undefined on input line 240.
+
+
+LaTeX Warning: Citation `sommerville2011' on page 50 undefined on input line 24
+2.
+
+
+LaTeX Warning: Citation `FLI04' on page 50 undefined on input line 242.
+
+
+LaTeX Warning: Citation `tolosa06' on page 50 undefined on input line 247.
+
+
+LaTeX Warning: Citation `keijsers2006' on page 50 undefined on input line 247.
+
+
+LaTeX Warning: Citation `lemoyne2010' on page 50 undefined on input line 247.
+
+
+LaTeX Warning: Citation `patel_monitoring_2009' on page 50 undefined on input l
+ine 248.
+
+
+LaTeX Warning: Citation `finger2012' on page 50 undefined on input line 249.
+
+
+LaTeX Warning: Citation `national2006parkinson' on page 50 undefined on input l
+ine 250.
+
+
+LaTeX Warning: Citation `protpar010' on page 50 undefined on input line 251.
+
+
+LaTeX Warning: Citation `gaitusingsensorsreview2012' on page 50 undefined on in
+put line 252.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 252.
+
+[50] <./img/gametremor.png, id=227, 388.45125pt x 579.16376pt>
 File: ./img/gametremor.png Graphic file (type png)
 
 <use ./img/gametremor.png>
 Package pdftex.def Info: ./img/gametremor.png used on input line 265.
 (pdftex.def)             Requested size: 194.22514pt x 289.58116pt.
- [50 <./img/gametremor.png>]
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 271.
+
+
+LaTeX Warning: Reference `fig:gametremor' on page 51 undefined on input line 27
+1.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 271.
+
+[51 <./img/gametremor.png>]
+
+LaTeX Warning: Reference `table:matrix_rastreabilidade' on page 52 undefined on
+ input line 315.
+
+
+LaTeX Warning: Reference `table:RequisitoImplementado' on page 52 undefined on 
+input line 323.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51]
 
-LaTeX Warning: Text page 52 contains only floats.
+LaTeX Warning: Reference `section:analise_bradicinesia' on page 52 undefined on
+ input line 354.
+
+
+LaTeX Warning: Reference `fig:movabducaomet' on page 52 undefined on input line
+ 354.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 354.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 354.
 
 [52]
+
+LaTeX Warning: Text page 53 contains only floats.
+
+[53]
+
+LaTeX Warning: Reference `sec:comite' on page 54 undefined on input line 357.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 359.
+
+
+LaTeX Warning: Citation `kinnect2013' on page 54 undefined on input line 359.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 54 undefined on inpu
+t line 359.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 54 undefined on inpu
+t line 359.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 361.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 364.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 364.
+
 
 Package Fancyhdr Warning: \headheight is too small (15.02399pt): 
  Make it at least 26.98592pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53] [54]
-<./img/movaddcutctionartist2.png, id=241, 1062.97125pt x 804.00375pt>
+[54]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 371.
+
+
+LaTeX Warning: Citation `updrs87' on page 55 undefined on input line 371.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 371.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 55 undefined on inpu
+t line 377.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 377.
+
+
+LaTeX Warning: Citation `mcginnis2013biomechanics' on page 55 undefined on inpu
+t line 379.
+
+
+LaTeX Warning: Citation `hamill1999bases' on page 55 undefined on input line 38
+4.
+
+[55] <./img/movaddcutctionartist2.png, id=244, 1062.97125pt x 804.00375pt>
 File: ./img/movaddcutctionartist2.png Graphic file (type png)
 
 <use ./img/movaddcutctionartist2.png>
 Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 396
 .
 (pdftex.def)             Requested size: 265.74216pt x 201.00044pt.
- [55 <./img/movaddcutctionartist2.png (PNG copy)>]
+
+
+LaTeX Warning: Reference `table:features' on page 56 undefined on input line 40
+8.
+
+[56 <./img/movaddcutctionartist2.png (PNG copy)>]
 Overfull \hbox (1.70758pt too wide) in paragraph at lines 414--424
  [][] 
  []
 
-<img/signalamplitudepeakvaley-2.png, id=245, 719.68875pt x 446.41782pt>
+<img/signalamplitudepeakvaley-2.png, id=249, 719.68875pt x 446.41782pt>
 File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
 
 <use img/signalamplitudepeakvaley-2.png>
 Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 
 428.
 (pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
- [56 <./img/signalamplitudepeakvaley-2.png>] [57] <./img/vetormedioaducao.png, 
-id=254, 743.02594pt x 453.19313pt>
+
+
+LaTeX Warning: Citation `kantardzic2011data' on page 57 undefined on input line
+ 433.
+
+[57 <./img/signalamplitudepeakvaley-2.png>]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 439.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 446.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 451.
+
+
+LaTeX Warning: Reference `chapter:abordagem_gahme' on page 58 undefined on inpu
+t line 451.
+
+
+LaTeX Warning: Reference `sec:svm_linear' on page 58 undefined on input line 45
+1.
+
+
+LaTeX Warning: Reference `section:filtro_dados' on page 58 undefined on input l
+ine 454.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 454.
+
+
+LaTeX Warning: Reference `fig:vetor_medio_abducao' on page 58 undefined on inpu
+t line 454.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 454.
+
+[58] <./img/vetormedioaducao.png, id=257, 743.02594pt x 453.19313pt>
 File: ./img/vetormedioaducao.png Graphic file (type png)
 
 <use ./img/vetormedioaducao.png>
@@ -1293,10 +2754,37 @@ Overfull \hbox (41.94342pt too wide) in paragraph at lines 458--459
  []
 
 
+LaTeX Warning: Citation `kantardzic2011data' on page 59 undefined on input line
+ 465.
+
+
+LaTeX Warning: Reference `table:descricaomatrizconfusao' on page 59 undefined o
+n input line 467.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58 <./img/vetormedioaducao.png (PNG copy)>]
-<./img/gridsearch.png, id=258, 558.888pt x 428.802pt>
+
+LaTeX Warning: Citation `kantardzic2011data' on page 59 undefined on input line
+ 487.
+
+[59 <./img/vetormedioaducao.png (PNG copy)>]
+
+Package acronym Warning: Acronym `svm' is not defined on input line 493.
+
+
+LaTeX Warning: Citation `gridsearchsvm2010' on page 60 undefined on input line 
+493.
+
+
+LaTeX Warning: Citation `kantardzic2011data' on page 60 undefined on input line
+ 493.
+
+
+LaTeX Warning: Reference `fig:gridaccuracy' on page 60 undefined on input line 
+494.
+
+<./img/gridsearch.png, id=261, 558.888pt x 428.802pt>
 File: ./img/gridsearch.png Graphic file (type png)
 
 <use ./img/gridsearch.png>
@@ -1306,7 +2794,18 @@ Package pdftex.def Info: ./img/gridsearch.png used on input line 499.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./img/gridsearchfprate.png, id=259, 515.526pt x 445.665pt>
+
+LaTeX Warning: Reference `fig:gridaccuracy' on page 60 undefined on input line 
+505.
+
+
+LaTeX Warning: Reference `fig:gridfprate' on page 60 undefined on input line 50
+5.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 505.
+
+<./img/gridsearchfprate.png, id=262, 515.526pt x 445.665pt>
 File: ./img/gridsearchfprate.png Graphic file (type png)
 
 <use ./img/gridsearchfprate.png>
@@ -1316,17 +2815,151 @@ Package pdftex.def Info: ./img/gridsearchfprate.png used on input line 510.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[59] [60 <./img/gridsearch.png (PNG copy)>]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 519.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 519.
+
+[60]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 536.
+
+
+LaTeX Warning: Citation `kantardzic2011data' on page 61 undefined on input line
+ 536.
+
+
+LaTeX Warning: Reference `table:amplitude' on page 61 undefined on input line 5
+36.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 536.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 536.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 536.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 536.
+
+[61 <./img/gridsearch.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 545.
- [61 <./img/gridsearchfprate.png (PNG copy)>] [62] <./img/gqm.png, id=274, 739.
-563pt x 357.9774pt>
-File: ./img/gqm.png Graphic file (type png)
 
-<use ./img/gqm.png>
+
+LaTeX Warning: Citation `kantardzic2011data' on page 62 undefined on input line
+ 580.
+
+[62 <./img/gridsearchfprate.png (PNG copy)>] [63]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 613.
+
+
+LaTeX Warning: Citation `van1999goal' on page 64 undefined on input line 616.
+
+
+LaTeX Warning: Citation `saraiva2006' on page 64 undefined on input line 616.
+
+
+LaTeX Warning: Citation `elicquest05' on page 64 undefined on input line 616.
+
+
+LaTeX Warning: Citation `saraiva2006' on page 64 undefined on input line 616.
+
+
+LaTeX Warning: Citation `elicquest05' on page 64 undefined on input line 616.
+
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 618.
+
+
+LaTeX Warning: Citation `saraiva2006' on page 64 undefined on input line 618.
+
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 618.
+
+
+LaTeX Warning: Reference `fig:gqm' on page 64 undefined on input line 618.
+
+
+LaTeX Warning: Citation `van1999goal' on page 64 undefined on input line 618.
+
+<./img/gqm.png, id=277, 739.563pt x 357.9774pt>
+File: ./img/gqm.png Graphic file (type png)
+ <use ./img/gqm.png>
 Package pdftex.def Info: ./img/gqm.png used on input line 622.
 (pdftex.def)             Requested size: 369.7806pt x 178.98825pt.
- [63] [64 <./img/gqm.png>]
+
+
+LaTeX Warning: Citation `van1999goal' on page 64 undefined on input line 623.
+
+
+LaTeX Warning: Citation `van1999goal' on page 64 undefined on input line 623.
+
+
+LaTeX Warning: Citation `saraiva2006' on page 64 undefined on input line 627.
+
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 627.
+
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 627.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 632.
+
+
+Package Fancyhdr Warning: \headheight is too small (26.98592pt): 
+ Make it at least 27.09395pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 635.
+
+
+LaTeX Warning: Reference `apend:gqm' on page 65 undefined on input line 635.
+
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 637.
+
+
+LaTeX Warning: Citation `elicquest05' on page 65 undefined on input line 641.
+
+
+LaTeX Warning: Citation `elicquest05' on page 65 undefined on input line 641.
+
+
+LaTeX Warning: Reference `jogo_catch' on page 65 undefined on input line 645.
+
+
+LaTeX Warning: Reference `table:resultados_gqm' on page 65 undefined on input l
+ine 649.
+
+
+LaTeX Warning: Reference `fig:question1' on page 65 undefined on input line 649
+.
+
+
+LaTeX Warning: Reference `fig:question3' on page 65 undefined on input line 649
+.
+
+
+LaTeX Warning: Reference `fig:question10' on page 65 undefined on input line 64
+9.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 650.
+
+[65 <./img/gqm.png>]
+
+Package acronym Warning: Acronym `jogue-me' is not defined on input line 651.
+
+
 Overfull \hbox (2.85274pt too wide) in paragraph at lines 665--665
 []\T1/ptm/m/n/12 90,00%| 
  []
@@ -1364,33 +2997,118 @@ Overfull \hbox (2.85274pt too wide) in paragraph at lines 671--671
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./img/chart_1-.png, id=282, 474.27188pt x 360.59718pt>
+<./img/chart_1-.png, id=285, 474.27188pt x 360.59718pt>
 File: ./img/chart_1-.png Graphic file (type png)
 
 <use ./img/chart_1-.png>
 Package pdftex.def Info: ./img/chart_1-.png used on input line 679.
 (pdftex.def)             Requested size: 379.41801pt x 288.47813pt.
 
-<./img/chart_3-.png, id=283, 475.02469pt x 360.59718pt>
+<./img/chart_3-.png, id=286, 475.02469pt x 360.59718pt>
 File: ./img/chart_3-.png Graphic file (type png)
 
 <use ./img/chart_3-.png>
 Package pdftex.def Info: ./img/chart_3-.png used on input line 687.
 (pdftex.def)             Requested size: 380.02025pt x 288.47813pt.
- <./img/chart_10-.png, id=284, 475.02469pt x 361.35pt>
+ <./img/chart_10-.png, id=287, 475.02469pt x 361.35pt>
 File: ./img/chart_10-.png Graphic file (type png)
 
 <use ./img/chart_10-.png>
 Package pdftex.def Info: ./img/chart_10-.png used on input line 695.
 (pdftex.def)             Requested size: 380.02025pt x 289.0804pt.
- [65] [66 <./img/chart_1-.png>] [67 <./img/chart_3-.png> <./img/chart_10-.png>]
-) (./cap6-conclusoes.tex [68
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 699.
+
+[66]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 699.
+
+[67 <./img/chart_1-.png>]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 699.
+
+[68 <./img/chart_3-.png> <./img/chart_10-.png>]
+
+Package acronym Warning: Acronym `gqm' is not defined on input line 701.
+
+
+Package acronym Warning: Acronym `sms' is not defined on input line 701.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 701.
+
+) (./cap6-conclusoes.tex
+
+Package acronym Warning: Acronym `dp' is not defined on input line 1.
+
+[69
 
 ]
 Cap\'{\i }tulo 6.
-[69
 
-]) (./tese.bbl [70]
+LaTeX Warning: Reference `sec:entrevista_semi_estruturada' on page 70 undefined
+ on input line 6.
+
+
+Package acronym Warning: Acronym `svm' is not defined on input line 8.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 8.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 8.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 8.
+
+
+LaTeX Warning: Citation `basili94' on page 70 undefined on input line 10.
+
+[70
+
+]
+
+LaTeX Warning: Citation `lmmeigengaits2013' on page 71 undefined on input line 
+15.
+
+
+LaTeX Warning: Citation `lmmcbmsgame2016' on page 71 undefined on input line 16
+.
+
+
+LaTeX Warning: Citation `lmmcbmsgait2016' on page 71 undefined on input line 17
+.
+
+
+LaTeX Warning: Reference `section:escalas_avaliacao' on page 71 undefined on in
+put line 22.
+
+
+LaTeX Warning: Citation `updrs87' on page 71 undefined on input line 22.
+
+
+LaTeX Warning: Citation `goul05' on page 71 undefined on input line 22.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 22.
+
+
+LaTeX Warning: Citation `goul05' on page 71 undefined on input line 22.
+
+
+LaTeX Warning: Citation `multisvm2011' on page 71 undefined on input line 22.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 22.
+
+
+LaTeX Warning: Citation `protpar010' on page 71 undefined on input line 22.
+
+
+LaTeX Warning: Citation `protpar010' on page 71 undefined on input line 22.
+
+) (./tese.bbl [71]
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1402,7 +3120,7 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-[71
+[72
 
 ]
 Underfull \hbox (badness 1264) in paragraph at lines 170--178
@@ -1422,13 +3140,13 @@ Underfull \hbox (badness 1616) in paragraph at lines 189--194
  de Ju-nho de
  []
 
-[72]
+[73]
 Underfull \hbox (badness 3291) in paragraph at lines 319--323
 []\T1/ptm/m/n/12 Fish, Jes-sica: \T1/ptm/m/it/12 Uni-fied Par-kin-son's Di-se-a
 se Ra-ting Scale\T1/ptm/m/n/12 .  Sprin-ger, 2011,
  []
 
-[73]
+[74]
 Underfull \hbox (badness 4981) in paragraph at lines 412--419
 []\T1/ptm/m/n/12 IEEE: \T1/ptm/m/it/12 Ena-bling Te-ch-no-lo-gies in Par-kin-so
 n's Di-se-ase Ma-na-ge-ment\T1/ptm/m/n/12 .  Dis-
@@ -1440,7 +3158,7 @@ Underfull \hbox (badness 2368) in paragraph at lines 412--419
 ologies-parkinsons-
  []
 
-[74]
+[75]
 Underfull \hbox (badness 6526) in paragraph at lines 436--441
 []\T1/ptm/m/n/12 IEEE: \T1/ptm/m/it/12 Jour-nal of Bi-o-me-di-cal and He-alth I
 n-for-ma-tics\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
@@ -1452,7 +3170,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--448
 ne-e-ring\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
 
-[75] [76]
+[76] [77]
 Underfull \hbox (badness 4217) in paragraph at lines 729--735
 []\T1/ptm/m/n/12 Research, Pro-va-lis: \T1/ptm/m/it/12 QDA MI-NER Lite v1.2.2\T
 1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1/ptm/m/n/12 , Dis-po-ní-vel em:
@@ -1464,7 +3182,7 @@ Underfull \hbox (badness 7186) in paragraph at lines 729--735
 oftware/.  Úl-timo
  []
 
-[77]
+[78]
 Underfull \hbox (badness 2065) in paragraph at lines 767--776
 []\T1/ptm/m/n/12 Saraiva, Ales-san-dra Vil-ches: \T1/ptm/m/it/12 Uti-li-za-ção 
 da Abor-da-gem Goal-Question-Metrics
@@ -1490,33 +3208,276 @@ Underfull \hbox (badness 3701) in paragraph at lines 838--842
 /ptm/m/n/12 .  Ad-di-son Wes-ley Bra, 2011,
  []
 
-[78]
+[79]
 Underfull \hbox (badness 4303) in paragraph at lines 899--902
 []\T1/ptm/m/it/12 Institute of Elec-tri-cal and Elec-tro-nics En-gi-ne-ers\T1/p
 tm/m/n/12 : \T1/ptm/m/it/12 IEEE\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
 
-[79]) (./apend_comite.tex [80]
+[80]) (./apend_comite.tex [81]
 Ap\^endice A.
-[81
 
-] [82] [83] [84] [85] [86]
+LaTeX Warning: Citation `aarhus_negotiating_2010' on page 82 undefined on input
+ line 3.
+
+
+LaTeX Warning: Citation `lemoyne2010' on page 82 undefined on input line 3.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 4.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 4.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 7.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 7.
+
+
+LaTeX Warning: Citation `abn2010' on page 82 undefined on input line 7.
+
+
+LaTeX Warning: Citation `tolosa06' on page 82 undefined on input line 7.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 7.
+
+
+LaTeX Warning: Citation `tolosa06' on page 82 undefined on input line 7.
+
+
+LaTeX Warning: Citation `abn2010' on page 82 undefined on input line 7.
+
+[82
+
+]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 9.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 9.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 9.
+
+
+LaTeX Warning: Citation `protpar010' on page 83 undefined on input line 9.
+
+
+LaTeX Warning: Citation `protpar010' on page 83 undefined on input line 9.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 9.
+
+
+LaTeX Warning: Citation `rowlandtratado' on page 83 undefined on input line 10.
+
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 10.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 12.
+
+
+LaTeX Warning: Citation `menezes2003' on page 83 undefined on input line 12.
+
+
+LaTeX Warning: Citation `protpar010' on page 83 undefined on input line 12.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 14.
+
+
+LaTeX Warning: Citation `abn2010' on page 83 undefined on input line 14.
+
+
+LaTeX Warning: Citation `abn2010' on page 83 undefined on input line 14.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 16.
+
+
+LaTeX Warning: Citation `protpar010' on page 83 undefined on input line 16.
+
+
+LaTeX Warning: Citation `national2006parkinson' on page 83 undefined on input l
+ine 16.
+
+
+LaTeX Warning: Citation `protpar010' on page 83 undefined on input line 16.
+
+[83]
+
+LaTeX Warning: Citation `kostek12' on page 84 undefined on input line 18.
+
+
+LaTeX Warning: Citation `patel_monitoring_2009' on page 84 undefined on input l
+ine 18.
+
+
+LaTeX Warning: Citation `abn2010' on page 84 undefined on input line 20.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 22.
+
+
+LaTeX Warning: Citation `updrs87' on page 84 undefined on input line 22.
+
+
+LaTeX Warning: Citation `goul05' on page 84 undefined on input line 22.
+
+
+LaTeX Warning: Citation `updrs87' on page 84 undefined on input line 22.
+
+
+LaTeX Warning: Citation `goul05' on page 84 undefined on input line 22.
+
+
+LaTeX Warning: Citation `updrs87' on page 84 undefined on input line 22.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 22.
+
+
+LaTeX Warning: Citation `goul05' on page 84 undefined on input line 22.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 27.
+
+
+LaTeX Warning: Citation `updrs87' on page 84 undefined on input line 27.
+
+[84]
+
+LaTeX Warning: Citation `kostek12' on page 85 undefined on input line 39.
+
+
+LaTeX Warning: Citation `synnott_wiipd_2012' on page 85 undefined on input line
+ 39.
+
+
+LaTeX Warning: Citation `patel_monitoring_2009' on page 85 undefined on input l
+ine 39.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 42.
+
+
+LaTeX Warning: Citation `alemdar' on page 85 undefined on input line 44.
+
+
+LaTeX Warning: Citation `aarhus_negotiating_2010' on page 85 undefined on input
+ line 44.
+
+
+LaTeX Warning: Citation `synnott_wiipd_2012' on page 85 undefined on input line
+ 44.
+
+
+LaTeX Warning: Citation `lemoyne2010' on page 85 undefined on input line 44.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 44.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 44.
+
+
+LaTeX Warning: Citation `esa2011' on page 85 undefined on input line 46.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 49.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 49.
+
+[85]
+
+LaTeX Warning: Citation `Suhonen:2008:SFE:1457199.1457204' on page 86 undefined
+ on input line 53.
+
+
+LaTeX Warning: Citation `Ballegaard:2008:HEL:1357054.1357336' on page 86 undefi
+ned on input line 53.
+
+
+LaTeX Warning: Citation `albanese2012' on page 86 undefined on input line 53.
+
+
+LaTeX Warning: Citation `bachlin_parkinsons_2009' on page 86 undefined on input
+ line 53.
+
+
+LaTeX Warning: Citation `visionbased2009' on page 86 undefined on input line 53
+.
+
+
+LaTeX Warning: Citation `patel_monitoring_2009' on page 86 undefined on input l
+ine 53.
+
+
+LaTeX Warning: Citation `sweetser2005-gameflow' on page 86 undefined on input l
+ine 54.
+
+
+LaTeX Warning: Citation `updrs87' on page 86 undefined on input line 58.
+
+[86]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 79.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 87.
+
+
+LaTeX Warning: Citation `updrs87' on page 87 undefined on input line 87.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 90.
+
+[87]
 File: ./img/catch-the-spheres.png Graphic file (type png)
  <use ./img/catch-the-spheres.png>
 Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 138.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
- [87] [88]
-[89] [90]
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 144.
+
+
+LaTeX Warning: Reference `sec:comite' on page 88 undefined on input line 150.
+
+
+LaTeX Warning: Citation `van1999goal' on page 88 undefined on input line 152.
+
+[88] [89]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 188.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 188.
+
+[90] [91]
 Overfull \hbox (3.61714pt too wide) in paragraph at lines 245--252
  [][] 
  []
 
-) (./apend3-entrevista-semi.tex [91]
+) (./apend3-entrevista-semi.tex [92]
 Ap\^endice B.
-[92
+[93
 
-]) (./apendice-diagnostico.tex [93] [94]
+]) (./apendice-diagnostico.tex [94] [95]
 Ap\^endice C.
+
+LaTeX Warning: Citation `national2006parkinson' on page 96 undefined on input l
+ine 2.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 2.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 \T1/ptm/m/n/12 Critérios es-ta-be-le-ci-dos para di-ag-nós-tico da Do-ença de P
@@ -1524,50 +3485,61 @@ ar-kin-son pela
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 2--3
-[] \T1/ptm/m/n/12 de Lon-dres [] 40[]. O pa-ci-ente será
+Underfull \hbox (badness 2351) in paragraph at lines 2--3
+[] \T1/ptm/m/n/12 de Lon-dres [] \T1/ptm/b/n/12 ?[]\T1/ptm/m/n/12 . O pa-ci-ent
+e será
  []
 
-[95
 
-]) (./questionario-gqm.tex [96]
+Package acronym Warning: Acronym `dp' is not defined on input line 4.
+
+
+Package acronym Warning: Acronym `dp' is not defined on input line 11.
+
+[96
+
+]
+
+Package acronym Warning: Acronym `dp' is not defined on input line 32.
+
+) (./questionario-gqm.tex [97]
 Ap\^endice D.
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 5--8
- [] 
- []
+LaTeX Warning: Citation `basili94' on page 98 undefined on input line 2.
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 8--12
- [] 
- []
+LaTeX Warning: Citation `van1999goal' on page 98 undefined on input line 2.
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 12--14
- [] 
- []
-
-
-Overfull \hbox (12.0pt too wide) in alignment at lines 14--16
- [] 
- []
+LaTeX Warning: Reference `tab:gqm' on page 98 undefined on input line 3.
 
 
 Overfull \hbox (12.0pt too wide) in alignment at lines 16--31
  [] 
  []
 
-[97
 
-]) [98] (./tese.aux)
+Package longtable Warning: Column widths have changed
+(longtable)                in table D.1 on input line 31.
 
-LaTeX Warning: There were multiply-defined labels.
+[98
+
+])
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+[99] (./tese.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  7688 strings out of 493013
  108620 string characters out of 6136994
- 269081 words of memory out of 5000000
+ 267063 words of memory out of 5000000
  10995 multiletter control sequences out of 15000+600000
  68553 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -1583,10 +3555,10 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (109 pages, 2047054 bytes).
+Output written on tese.pdf (110 pages, 2052825 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
+ 441 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

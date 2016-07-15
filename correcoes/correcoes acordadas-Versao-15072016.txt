@@ -1,20 +1,16 @@
 O candidato terá 60 dias para realizar as alterações requisitadas pela banca, sob a responsabilidade do professor Angelo Perkusich.
 
-Especificamente as alterações principais são:
+Especificamente as alterações principais foram:
 1. Mudar o foco de não invasivo para induzido.
  Feito
 	i. Resumo
 	ii. Abstract
 	iii. 2º Parágrafo da Pág. 1
 
-
-
-
 2. Deixar claro a contribuição para a Ciência da Computação e no geral.
  Feito 
 	Seção 1.1 - Relevância da Tese na Pág. 2
 	Seção 1.5 - Contribuições (Definição da Arquitetura para o Desenvolvimento de Jogos Para Monitoramento da Saúde Motora)
-
 
 3. Revisão de português e abstract.
    Feito

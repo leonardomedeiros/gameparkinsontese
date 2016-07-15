@@ -166,9 +166,20 @@ else
 endif
 \end{lstlisting}
 
-A partir desse método de separação dos dados, é que a~\ac{svm} foi aplicada para classificar indivíduos diagnosticados com~\ac{dp} ante indivíduos sem o diagnóstico estabelecido. Para corroborar com a nossa escolha de SVM, encontrou-se trabalhos de classificação de indivíduos com parkinson utilizando a mesma abordagem~\cite{bradmonitor2015,svmparkinson2010,patel_monitoring_2009}. No entanto, o que diferencia este trabalho dos demais, é que os dados classificados foram adquiridos utilizando a abordagem de um jogo eletrônico que induz o paciente a executar movimentos para a avaliação motora~\cite{quantitativeparkinson2011,wiiassesspark2016}. Portanto, na Seção~\ref{sec:processador_bio}, será apresentado o Processador de Dados Biomecânicos responsável por extrair as estas características do movimento~\cite{mcginnis2013biomechanics} para obter a classificação exposta na Seção~\ref{sec:resultado_svm}.
+A partir desse método de separação dos dados, é que a~\ac{svm} foi aplicada para classificar indivíduos diagnosticados com~\ac{dp} ante indivíduos sem o diagnóstico estabelecido. Para corroborar com a nossa escolha de SVM, encontrou-se trabalhos de classificação de indivíduos com parkinson utilizando a mesma abordagem~\cite{bradmonitor2015,svmparkinson2010,patel_monitoring_2009}. No entanto, o que diferencia este trabalho dos demais, é que os dados classificados foram adquiridos utilizando a abordagem de um jogo eletrônico que induz o paciente a executar movimentos para a avaliação motora~\cite{quantitativeparkinson2011,wiiassesspark2016}. 
 
-.
- %será explicado como são extraídos os pontos, usando os vetores de características
-%Por este motivo, será apresentado 
+
+\section{Conclusão}
+Neste capítulo, foi explicitado os motivos para quantificar os comprometimentos motores do~\ac{dp}. Para avaliar a saúde motora, foi utilizado os estudos cinemáticos do movimento humano para quantificar as amplitudes do movimento e a velocidade angular dos mesmos. 
+
+A identificação do sintoma foi realizada por meio da máquina de aprendizagem, SVM, aqui descrita. A SVM recebe como dados de entrada os valores dos parâmetros motores e identifica-o como saudável ou parkinsoniano.
+
+Nos capítulos seguintes, serão apresentados o o Processador de Dados Biomecânicos (Seção~\ref{sec:processador_bio})responsável por extrair as características do movimento~\cite{mcginnis2013biomechanics} para obter o resultado da classificação da SVM exposta na Seção~\ref{sec:resultado_svm}.
+
+%
+%pretende-se oferecer ao leitor uma visão geral das principais áreas nas quais esse trabalho está fundamentado. Mais especificamente, apresenta-se uma explanação sobre o~\ac{dp}, seus sinais motores, os estágios da doença, o uso da cinemetria como ferramenta para medição dos parâmetros cinemáticos do movimento humano, e a~\ac{svm} como classificador de dados para a identificação dos padrões presentes em um conjunto de dados.
+%
+%Neste capítulo, estão descritas
+ %%será explicado como são extraídos os pontos, usando os vetores de características
+%%Por este motivo, será apresentado 
 
