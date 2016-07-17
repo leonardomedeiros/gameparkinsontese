@@ -1,0 +1,20 @@
+1.1 Relevância
+	i. Adicionar umas 3 referencias de trabalhos relacionados ao parkinson com computação - V
+	ii. Colocar induzida na relevância - V
+	 iii. Colocar conferencias por extenso - V
+	iv. Footnote longe da palavra - V
+	v. Sociedade promove - V
+1.5 Contribuições
+	i. têm - V
+	ii. nas áreas -> nessas áreas 
+	iii. do parkinson -> de um paciente com parkinson
+	iv. jogo que integra um ambiente lúdico e motiva a indução dos movimentos -V
+	v. Referenciar a arquitetura na seção - v
+	vi. remover proposto - V
+	vii. trás -> resulta em - V
+	viii. arquitetura de software apresentada -> desenvolvida..
+Conclusão
+	i. retomar tudo o que foi feito..
+	ii. a discusssão sobre a arquitetura e o que foi realizado.
+	iii. separar trabalhos futuros
+	iv. publicações no fim
