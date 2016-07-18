@@ -1472,9 +1472,12 @@ In this paper we presented the design and development of two casual ambient game
   journal = {Neuroscience and Biomedical Engineering},
 }
 
-@Article{,
-  author = {Ronald Postuma and Daniela Berg and Matthew Stern and Werner Poewe and Warren Olanow and Wolfgang Oertel and José Obeso and Kenneth Marek and Irene Litvan and Anthony Lang and Glenda Halliday and Christopher Goetz and Thomas Gasser Bruno Dubois and Piu Chan and Bastiaan Bloem and Charles Adler and Gunther Deuschl},
-  title  = {MDS Clinical Diagnostic Criteria for Parkinson’s Disease},
+@Article{parkinsondiag2015,
+  author  = {Ronald Postuma and Daniela Berg and Matthew Stern and Werner Poewe and Warren Olanow and Wolfgang Oertel and José Obeso and Kenneth Marek and Irene Litvan and Anthony Lang and Glenda Halliday and Christopher Goetz and Thomas Gasser Bruno Dubois and Piu Chan and Bastiaan Bloem and Charles Adler and Gunther Deuschl},
+  title   = {MDS Clinical Diagnostic Criteria for Parkinson’s Disease},
+  year    = {2015},
+  issn    = {1531-8257},
+  journal = {Movement Disorders},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
