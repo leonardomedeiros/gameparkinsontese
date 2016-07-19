@@ -1,6 +1,9 @@
 \chapter{Conclusões e Trabalhos Futuros}\label{chapter:conclusoes_futuros}
 Neste capítulo são apresentadas as conclusões sobre o trabalho apresentado. Na Seção~\ref{section:conclusoes} são apresentadas as conclusões desta tese juntamente com os resultados alcançados. Na Seção~\ref{section:limitacoes} são apresentadas as limitações encontradas durante os experimentos. Já na Seção~\ref{section:trabalhos_futuros} são propostos possíveis trabalhos futuros. Por fim, na Seção~\ref{section:publicacoes}, são listadas as publicações em conferências internacionais provenientes deste trabalho.
 
+
+
+
 \section{Conclusões}\label{section:conclusoes}
 
 %Nesta tese, tem-se como objetivo a conceber uma solução computacional que induza o usuário a executar movimentos para avaliação motora. Pretende-se usar jogos eletrônicos como forma de: \textbf{induzir}, \textbf{motivar} e abstrair o monitoramento de dados de saúde de uma maneira \textbf{não invasiva} e longe do \textbf{contexto de tratamento de saúde}.
@@ -75,7 +78,7 @@ A avaliação da tese foi realizada em duas etapas: na primeira, avaliou-se a ca
 
 Nos experimentos realizados foi ressaltado junto a comunidade de saúde (Seção~\ref{sec:entrevista_semi_estruturada}) da importância do acompanhamento dos sinais motores integrados à rotina diária do paciente. Foi identificado também que o acompanhamento da amplitude do movimento de abdução e adução dos braços e sua respectiva velocidade angular permitem um monitoramento do estado de saúde dos pacientes com~\ac{dp}.
 
-Os estudos de aprendizagem de máquina com os dados motores adquiridos por meio de sensores de movimento usados em jogos eletrônicos, identificou a viabilidade do desenvolvimento de jogos para o monitoramento, pois, obtivemos uma taxa de acurácia de 86,67\% e falsos positivos de 6,67\% . A~\ac{svm} foi a técnica estatística de aprendizagem utilizada para distinguir os movimentos executados por indivíduos diagnosticados com~\ac{dp} ante os indivíduos de grupo controle. Esse estudo não teve a pretensão de estabelecer um diagnóstico da \ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. Contudo, este trabalho demonstrou que as diferenças nos movimentos, entre essas duas classes, permitem a identificação do sinal da bradicinesia, e que essas diferenças podem ser adquiridas por um sensor de movimento usado em jogos eletrônicos. A presente abordagem pode ser aplicada a outras doenças motoras; no entanto, testamos somente com indivíduos com~\ac{dp} e grupo controle.
+Os estudos de aprendizagem de máquina com os dados motores adquiridos por meio de sensores de movimento usados em jogos eletrônicos, identificou a viabilidade do desenvolvimento de jogos para o monitoramento, pois, obtivemos uma taxa de acurácia de 86,67\% e falsos positivos de 6,67\% . A~\ac{svm} foi a técnica estatística de aprendizagem utilizada para distinguir os movimentos executados por indivíduos diagnosticados com~\ac{dp} ante os indivíduos de grupo controle. 
 
 Para identificar a possibilidade de integrar o monitoramento da saúde do jogador através de jogos eletrônicos à sua rotina diária, foi utilizada a análise \textit{Goal, Question, Metric} (GQM)~\cite{basili94} para avaliar a possibilidade de monitorar dados motores induzindo o movimento de avaliação motora de forma não invasiva e integrada a rotina diária das pessoas. As métricas da análise quantificaram que um percentual de 90\% de usuários que integrariam em sua rotina diária a solução de monitoramento proposta. Deve-se levar em consideração, também, que as métricas obtidas nessa pesquisa foram extraídas de um protótipo de jogo, e, caso este fosse aperfeiçoado é possível que a aceitabilidade da abordagem seja ainda maior. Desta maneira, conseguimos atingir o principal objetivo deste trabalho, ao permitir que indivíduos com comprometimento motor pudessem ser monitorados de maneira não-invasiva e no conforto de seus lares.
 
@@ -88,28 +91,21 @@ Para identificar a possibilidade de integrar o monitoramento da saúde do jogado
 
 
 \section{Limitações do Trabalho}\label{section:limitacoes}
-A avaliação motora avaliada neste trabalho foi o método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com o~\ac{dp} ante os indivíduos do grupo controle. Nesta tese não se pretende estabelecer um diagnóstico para o~\ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem para um diagnóstico. No entanto, esta tese conseguiu-se demonstrar as diferenças entre os dois grupos no experimento com o jogo eletrônico com o proóvoltado para monitoramento da saúde motora.
+A avaliação motora avaliada neste trabalho foi o método utilizado para diferenciar os movimentos executados de indivíduos diagnosticados com o~\ac{dp} ante os indivíduos do grupo controle. Nesta tese não se pretende estabelecer um diagnóstico para o~\ac{dp}, ou até mesmo provar que os movimentos utilizados pelos participantes da pesquisa servem como diagnóstico. No entanto, esta tese consegue avaliar as diferenças entre os dois grupos no experimento com o jogo eletrônico e identificar a ocorrência do sintoma da bradicinesia presente no~\ac{dp}.
 
-por um sensor de movimento i
+%Além disto, deve-se levar em consideração, que o jogo desenvolvido para avaliar esta tese estava em fase de protótipo a avaliação dos usuários referentes ao jogo eletrônico foram coletadas de um protótipo de jogo. Caso este fosse aperfeiçoado, possivelmente haveria uma maior aceitabilidade. Por esse motivo, considera-se positiva o resultado da análise GQM. 
 
-usando um jogo eletrônico, e que essas diferenças podem ser classificadas utilizando uma
-abordagem de aprendizagem de máquina.
-
-sem o diagnóstico estabelecido, foi uma técnica estatística
-de aprendizagem denominada de SVM. 
-
-
-Apesar do questionário ter avaliado a opinião dos jogadores quanto ao jogo apresentado, pode-se generalizar que as opiniões são válidas para outros jogos usando a arquitetura~\ac{jogue-me}. Deve-se levar em consideração, também, que as métricas obtidas nessa pesquisa foram extraídas de um jogo na fase de protótipo. Caso ele fosse aperfeiçoado é possível que sua aceitabilidade seria ainda maior. Por esse motivo, o resultado obtido com a pesquisa GQM foi positivo, e considera-se que é viável desenvolver um jogo com o objetivo de induzir a execução de movimentos para monitorar os sinais motores, de forma não invasiva, e integrada à rotina diária dos usuários.
+%Concluindo-se que a abordagem de monitoramento dos sinais motores usando um jogo como mecanismo para induzir a execução de movimentos para monitorar os sinais motores, de forma não invasiva, e integrada à rotina diária dos usuários.
 
 
 \section{Trabalhos Futuros}\label{section:trabalhos_futuros}
-A partir dos resultados apresentados nesta tese e extensão da mesma, alguns trabalhos futuros são propostos para contribuição científica.
+A partir dos resultados apresentados nesta tese e na sua extensão, alguns trabalhos futuros são propostos para contribuição científica.
 
 \begin{itemize}
-	\item coletar uma amostra maior de pacientes com~\ac{dp}, agrupá-los de acordo com o estágio da doença~\cite{goul05}, e aplicar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do~\ac{dp} de acordo com as escalas de avaliação.
-	\item Em decorrência das ``Flutuações Motoras''~\footnote{Referente a respostas motoras flutuantes ao tratamento medicamentoso, com encurtamento da duração de seu efeito (fenômeno do \textit{wearing off}) e interrupção súbita de sua ação.}~\cite{protpar010}, é necessário comparar o sinal da bradicinesia em diferentes momentos do dia, para verificar a eficácia do tratamento medicamentoso~\cite{protpar010}. 
-	\item Todavia, a captura de um movimento mais sutil como um tremor é um desafio. Em um estudo preliminar durante esta tese foi desenvolvido e testado um jogo para celular que pudesse adquirir o sinal de tremor (Seção~\ref{sec:tremor}), mas como o tremor do~\ac{dp} é de repouso~\cite{protpar010}, não foi possível quantificar o sinal. Ao analisar os vídeos dos pacientes com~\ac{dp} foi identificado que ao levantar um dos membros os indivíduos com tremor iniciavam o sinal no membro parado. , pode ser possível quantificar o sinal de tremor na análise do membro em repouso. No entanto, devido ao ruído existente na aquisição do sinal pelo MS-Kinnect~\cite{kinnect2013} pode-se inviabilizar a quantificação deste sinal.
-\end{itemize}
+	\item Coletar uma amostra maior de pacientes com~\ac{dp}, agrupá-los de acordo com o estágio da doença e aplicar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do~\ac{dp} de acordo com as escalas de avaliação~\cite{goul05}.
+	\item Comparar o sinal da bradicinesia em diferente momentos do dia para monitorar a eficácia do tratamento medicamentoso e identificar a ocorrências das ``flutuações motoras''\footnote{Respostas motoras flutuantes ao tratamento medicamentoso, com encurtamento da duração de seu efeito (fenômeno do \textit{wearing off}) e interrupção súbita de sua ação~\cite{protpar010}.} .
+	\item Quantificar o sinal de tremor de repouso\footnote{O tremor de repouso é característico do~\ac{dp} e ocorre quando o indivíduo está parado ou desatento~\cite{protpar010}.} nos membros superiores, no momento em que o usuário esteja desatento.
+	\end{itemize}
 
 
 %Como foi explanado na Seção~\ref{section:escalas_avaliacao}, a abordagem permite monitorar a progressão da doença e a eficácia do tratamento medicamentoso~\cite{updrs87,goul05}. Desta forma, é importante coletar uma amostra maior de pacientes com~\ac{dp}, agrupá-los de acordo com o estágio da doença~\cite{goul05}, e aplicar técnicas de multi-classificação de dados~\cite{multisvm2011} para identificar o progresso do~\ac{dp} de acordo com as escalas de avaliação. Em decorrência das ``Flutuações Motoras''~\footnote{Referente a respostas motoras flutuantes ao tratamento medicamentoso, com encurtamento da duração de seu efeito (fenômeno do \textit{wearing off}) e interrupção súbita de sua ação.}~\cite{protpar010}, é necessário comparar o sinal da bradicinesia em diferentes momentos do dia, para verificar a eficácia do tratamento medicamentoso~\cite{protpar010}. Como trabalhos futuros, uma investigação aprofundada destas questões podem gerar maiores contribuições para a área.

@@ -7,12 +7,12 @@
 \contentsline {chapter}{\numberline {1}Introdu\c {c}\~{a}o}{1}
 \contentsline {section}{\numberline {1.1}Relev\IeC {\^a}ncia da Tese}{2}
 \contentsline {section}{\numberline {1.2}Trabalhos Relacionados}{3}
-\contentsline {section}{\numberline {1.3}Objetivos}{5}
-\contentsline {section}{\numberline {1.4}Metodologia}{6}
-\contentsline {subsection}{\numberline {1.4.1}Termo de Consentimento Livre e Esclarecido (TCLE)}{7}
-\contentsline {subsection}{\numberline {1.4.2}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{7}
-\contentsline {subsection}{\numberline {1.4.3}Confidencialidade}{8}
-\contentsline {section}{\numberline {1.5}Contribui\IeC {\c c}\IeC {\~o}es}{8}
+\contentsline {section}{\numberline {1.3}Contribui\IeC {\c c}\IeC {\~o}es}{5}
+\contentsline {section}{\numberline {1.4}Objetivos}{6}
+\contentsline {section}{\numberline {1.5}Metodologia}{6}
+\contentsline {subsection}{\numberline {1.5.1}Termo de Consentimento Livre e Esclarecido (TCLE)}{8}
+\contentsline {subsection}{\numberline {1.5.2}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{8}
+\contentsline {subsection}{\numberline {1.5.3}Confidencialidade}{9}
 \contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{9}
 \contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{10}
 \contentsline {section}{\numberline {2.1}Doen\IeC {\c c}a de Parkinson}{10}
@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {3.7}Conclus\IeC {\~a}o}{30}
 \contentsline {chapter}{\numberline {4}Arquitetura de Software do~\textit {JOGUE-ME}}{31}
 \contentsline {section}{\numberline {4.1}Arquitetura do ~\textit {JOGUE-ME}}{31}
-\contentsline {subsubsection}{Jogo: \textit {Catch the Spheres}}{32}
+\contentsline {subsubsection}{Jogo: \textit {Catch the Spheres}}{33}
 \contentsline {subsection}{\numberline {4.1.1}Arquitetura do \textit {JOGUE-ME Webservice}}{34}
 \contentsline {subsubsection}{Gerenciador de Dados}{35}
 \contentsline {subsubsection}{Gerenciador de Arquivos}{36}
@@ -91,7 +91,7 @@
 \contentsline {section}{\numberline {6.1}Conclus\IeC {\~o}es}{70}
 \contentsline {section}{\numberline {6.2}Limita\IeC {\c c}\IeC {\~o}es do Trabalho}{71}
 \contentsline {section}{\numberline {6.3}Trabalhos Futuros}{71}
-\contentsline {section}{\numberline {6.4}Publica\IeC {\c c}\IeC {\~o}es}{71}
+\contentsline {section}{\numberline {6.4}Publica\IeC {\c c}\IeC {\~o}es}{72}
 \select@language {portuges}
 \select@language {portuges}
 \select@language {portuges}

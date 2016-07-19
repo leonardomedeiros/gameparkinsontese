@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  18 JUL 2016 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  19 JUL 2016 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,7 +799,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 28.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 27.
  [3
 
 
@@ -807,7 +807,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
 
 ]
 Package acronym Info: Label `acro:dp' newly defined as it shall be overridden
-although it is yet undefined on input line 87.
+although it is yet undefined on input line 86.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -852,37 +852,33 @@ although it is yet undefined on input line 5.
 File: ./img/moyne-iphone.png Graphic file (type png)
 
 <use ./img/moyne-iphone.png>
-Package pdftex.def Info: ./img/moyne-iphone.png used on input line 50.
+Package pdftex.def Info: ./img/moyne-iphone.png used on input line 57.
 (pdftex.def)             Requested size: 137.5399pt x 102.08215pt.
- [4]
+ [4] [5 <./img/moyne-iphone.png>]
 Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
-although it is yet undefined on input line 69.
+although it is yet undefined on input line 85.
 Package acronym Info: Label `acro:gqm' newly defined as it shall be overridden
-although it is yet undefined on input line 69.
+although it is yet undefined on input line 85.
 
-Underfull \hbox (badness 1472) in paragraph at lines 72--73
+Underfull \hbox (badness 1472) in paragraph at lines 90--91
 \T1/ptm/m/n/12 Esta pes-quisa foi sub-me-tida à ava-li-a-ção pelo Co-mitê de Ét
 ica da UFCG (\T1/ptm/b/n/12 CAAE:
  []
 
-[5 <./img/moyne-iphone.png>]
+[6]
 Package acronym Info: Label `acro:jogue-me' newly defined as it shall be overri
 dden
-although it is yet undefined on input line 87.
- [6]
-Underfull \hbox (badness 8113) in paragraph at lines 95--96
-[]\T1/ptm/m/n/12 Definir a ar-qui-te-tura de software que vi-a-bi-li-zou tec-ni
--ca-mente a abor-da-
+although it is yet undefined on input line 104.
+
+Underfull \hbox (badness 3209) in paragraph at lines 112--113
+[]\T1/ptm/m/n/12 Definição da ar-qui-te-tura de software que vi-a-bi-li-zou tec
+-ni-ca-mente a abor-da-
  []
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 103.
 [7]
-
-LaTeX Warning: Reference `arquitetura_captura' on page 8 undefined on input lin
-e 119.
-
-[8]) (./cap2-fundamentacao.tex [9]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 120.
+ [8]) (./cap2-fundamentacao.tex [9]
 Cap\'{\i }tulo 2.
 [10
 
@@ -1101,10 +1097,10 @@ Cap\'{\i }tulo 4.
 File: ./img/arquitetura.png Graphic file (type png)
 
 <use ./img/arquitetura.png>
-Package pdftex.def Info: ./img/arquitetura.png used on input line 10.
+Package pdftex.def Info: ./img/arquitetura.png used on input line 22.
 (pdftex.def)             Requested size: 419.88583pt x 204.46246pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 18.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 30.
  [31
 
  <./img/arquitetura.png>]
@@ -1112,19 +1108,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17.28> not available
 File: ./img/arquiclientejogueme.png Graphic file (type png)
 
 <use ./img/arquiclientejogueme.png>
-Package pdftex.def Info: ./img/arquiclientejogueme.png used on input line 25.
+Package pdftex.def Info: ./img/arquiclientejogueme.png used on input line 37.
 (pdftex.def)             Requested size: 291.48938pt x 140.32443pt.
-
-Underfull \hbox (badness 1297) in paragraph at lines 34--36
-[]\T1/ptm/m/n/12 Para ad-qui-rir os si-nais mo-to-res, este tra-ba-lho uti-li-z
-ou e her-dou do com-po-nente
- []
 
 <./img/diagclasszigfu.png, id=161, 440.64626pt x 422.57875pt>
 File: ./img/diagclasszigfu.png Graphic file (type png)
 
 <use ./img/diagclasszigfu.png>
-Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 53.
+Package pdftex.def Info: ./img/diagclasszigfu.png used on input line 65.
 (pdftex.def)             Requested size: 352.51747pt x 338.06345pt.
 
 
@@ -1135,99 +1126,103 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./img/catch-the-spheres.png Graphic file (type png)
 
 <use ./img/catch-the-spheres.png>
-Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 73.
+Package pdftex.def Info: ./img/catch-the-spheres.png used on input line 82.
 (pdftex.def)             Requested size: 352.8155pt x 184.77242pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 80.
 [33 <./img/diagclasszigfu.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 89.
+
 <./img/class_diagram.png, id=170, 2179.14125pt x 1258.7025pt>
 File: ./img/class_diagram.png Graphic file (type png)
 
 <use ./img/class_diagram.png>
-Package pdftex.def Info: ./img/class_diagram.png used on input line 87.
+Package pdftex.def Info: ./img/class_diagram.png used on input line 96.
 (pdftex.def)             Requested size: 441.01772pt x 254.73221pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 92.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 101.
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [34 <./img/catch-the-spheres.png (PNG copy)> <./img/class_diagram.png (PNG co
-py)>]
-Underfull \hbox (badness 3281) in paragraph at lines 131--132
+)
+Underfull \hbox (badness 3281) in paragraph at lines 140--141
 \T1/ptm/m/n/12 O \T1/ptm/m/it/12 Ge-ren-ci-a-dor de Da-dos \T1/ptm/m/n/12 pos-s
 ui sub-mó-du-los res-pon-sá-veis por ler, se-para e fil-
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 131--132
+Underfull \hbox (badness 1789) in paragraph at lines 140--141
 \T1/ptm/m/n/12 trar os da-dos, além do gerenciá-los usando um Banco de Da-dos p
 ara o ar-ma-ze-
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 131--132
+Underfull \hbox (badness 1789) in paragraph at lines 140--141
 \T1/ptm/m/n/12 na-mento das in-for-ma-ções mo-to-ras. A classe \T1/pcr/m/n/12 D
 ataManager \T1/ptm/m/n/12 im-ple-menta as fun-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 131--132
+Underfull \hbox (badness 1902) in paragraph at lines 140--141
 \T1/ptm/m/n/12 ci-o-na-li-da-des do \T1/ptm/m/it/12 Ge-ren-ci-a-dor de Da-dos\T
 1/ptm/m/n/12 , re-fe-ren-ci-ando os qua-tro mó-du-los: \T1/ptm/m/it/12 Ge-ren-
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 131--132
+Underfull \hbox (badness 2334) in paragraph at lines 140--141
 \T1/ptm/m/it/12 ci-a-dor de Ar-qui-vos\T1/ptm/m/n/12 , \T1/ptm/m/it/12 Mó-dulo 
 de Es-crita\T1/ptm/m/n/12 , \T1/ptm/m/it/12 Mó-dulo de Fil-tra-gem \T1/ptm/m/n/
 12 e \T1/ptm/m/it/12 Ge-ren-ci-a-dor do
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 131--132
+Underfull \hbox (badness 2376) in paragraph at lines 140--141
 \T1/ptm/m/it/12 Banco de Da-dos\T1/ptm/m/n/12 . Es-tes mó-du-los se-rão ex-pli-
 ca-dos nas sub-se-ções a se-guir. A
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 131--132
+Underfull \hbox (badness 1436) in paragraph at lines 140--141
 \T1/ptm/m/n/12 classe \T1/pcr/m/n/12 DataManager \T1/ptm/m/n/12 pos-sui um cons
 -tru-tor \T1/pcr/m/n/12 DataManager(DatabaseManager,
  []
 
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[34 <./img/catch-the-spheres.png (PNG copy)>] [35 <./img/class_diagram.png (PNG
+ copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 []\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
  []
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 []\T1/pcr/m/n/12 getDataFromFile(String path, String separator, boolean
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 144--145
+Underfull \hbox (badness 2762) in paragraph at lines 153--154
 \T1/pcr/m/n/12 hasHeader, String... labels) \T1/ptm/m/n/12 es-tende a fun-ci-o-
 na-li-dade do mé-todo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 []\T1/pcr/m/n/12 getMultipleData(String path, String separator, boolean
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 []\T1/ptm/m/n/12 A classe \T1/pcr/m/n/12 MovementDataFileManager \T1/ptm/m/n/12
  es-tende as fun-ci-o-na-li-da-des do
  []
 
 [37] [38] [39]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 297.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 306.
  [40]) (./cap5-avaliacao.tex [41]
 Cap\'{\i }tulo 5.
 
@@ -1597,20 +1592,17 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 16--31
 
 ]) [100] (./tese.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7705 strings out of 493013
- 109007 string characters out of 6136994
- 270149 words of memory out of 5000000
- 11012 multiletter control sequences out of 15000+600000
+ 7704 strings out of 493013
+ 108986 string characters out of 6136994
+ 274148 words of memory out of 5000000
+ 11011 multiletter control sequences out of 15000+600000
  68553 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 40i,17n,46p,1500b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,17n,46p,1499b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1
@@ -1622,7 +1614,7 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2053153 bytes).
+Output written on tese.pdf (111 pages, 2052626 bytes).
 PDF statistics:
  444 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams
