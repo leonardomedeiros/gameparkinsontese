@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {1.1}Relev\IeC {\^a}ncia da Tese}{2}
 \contentsline {section}{\numberline {1.2}Trabalhos Relacionados}{3}
 \contentsline {section}{\numberline {1.3}Objetivos}{5}
-\contentsline {section}{\numberline {1.4}Metodologia}{5}
+\contentsline {section}{\numberline {1.4}Metodologia}{6}
 \contentsline {subsection}{\numberline {1.4.1}Termo de Consentimento Livre e Esclarecido (TCLE)}{7}
 \contentsline {subsection}{\numberline {1.4.2}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{7}
 \contentsline {subsection}{\numberline {1.4.3}Confidencialidade}{8}
@@ -88,42 +88,45 @@
 \contentsline {subsection}{\numberline {5.3.1}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo}{65}
 \contentsline {subsection}{\numberline {5.3.2}Resultados}{66}
 \contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es e Trabalhos Futuros}{70}
-\contentsline {subsubsection}{Publica\IeC {\c c}\IeC {\~o}es}{71}
+\contentsline {section}{\numberline {6.1}Conclus\IeC {\~o}es}{70}
+\contentsline {section}{\numberline {6.2}Limita\IeC {\c c}\IeC {\~o}es do Trabalho}{71}
+\contentsline {section}{\numberline {6.3}Trabalhos Futuros}{71}
+\contentsline {section}{\numberline {6.4}Publica\IeC {\c c}\IeC {\~o}es}{71}
 \select@language {portuges}
 \select@language {portuges}
 \select@language {portuges}
 \select@language {portuges}
-\contentsline {chapter}{\numberline {A}Projeto do Comit\IeC {\^e} de \IeC {\'E}tica em Pesquisa}{82}
-\contentsline {section}{\numberline {A.1}Resumo}{82}
-\contentsline {section}{\numberline {A.2}Introdu\IeC {\c c}\IeC {\~a}o}{82}
-\contentsline {section}{\numberline {A.3}Problem\IeC {\'a}tica}{86}
-\contentsline {section}{\numberline {A.4}Objetivo}{86}
-\contentsline {subsection}{\numberline {A.4.1}Espec\IeC {\'\i }ficos}{86}
-\contentsline {section}{\numberline {A.5}Material E M\IeC {\'e}todoo}{87}
-\contentsline {subsection}{\numberline {A.5.1}Tipo de Estudo}{87}
-\contentsline {subsection}{\numberline {A.5.2}Local}{87}
-\contentsline {subsection}{\numberline {A.5.3}Amostra}{87}
-\contentsline {subsection}{\numberline {A.5.4}Formas de Recrutamento}{87}
-\contentsline {subsubsection}{Crit\IeC {\'e}rio de inclus\IeC {\~a}o}{87}
-\contentsline {subsubsection}{Crit\IeC {\'e}rio de exclus\IeC {\~a}o}{87}
-\contentsline {subsection}{\numberline {A.5.5}Material}{88}
-\contentsline {subsubsection}{Jogo: \textit {Catch the Spheres}}{88}
-\contentsline {subsection}{\numberline {A.5.6}Procedimentos}{88}
-\contentsline {subsubsection}{AN\IeC {\'A}LISE DE DADOS}{89}
-\contentsline {subsection}{\numberline {A.5.7}Base de Dados}{89}
-\contentsline {subsection}{\numberline {A.5.8}Termo de Consentimento Livre e Esclarecido (TCLE)}{89}
-\contentsline {subsection}{\numberline {A.5.9}Confidencialidade}{90}
-\contentsline {subsection}{\numberline {A.5.10}Crit\IeC {\'e}rios Para Interromper a Pesquisa}{90}
-\contentsline {subsection}{\numberline {A.5.11}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{90}
-\contentsline {subsection}{\numberline {A.5.12}Infra-Estrutura}{90}
-\contentsline {section}{\numberline {A.6}Etapas da Pesquisa e Cronograma}{91}
-\contentsline {subsection}{\numberline {A.6.1}Etapa da Pesquisa}{91}
-\contentsline {subsection}{\numberline {A.6.2}Cronograma}{91}
-\contentsline {section}{\numberline {A.7}Or\IeC {\c c}amento Estimado}{92}
-\contentsline {chapter}{\numberline {B}Question\IeC {\'a}rio Entrevista Semi-Estruturada}{93}
-\contentsline {section}{\numberline {B.1}Entrevista com Profissionais de Neurologia}{93}
-\contentsline {subsection}{\numberline {B.1.1}Sintomas da Doen\IeC {\c c}a de Parkinson}{93}
-\contentsline {subsection}{\numberline {B.1.2}Monitoramento de dados Motores}{93}
-\contentsline {subsection}{\numberline {B.1.3}Benef\IeC {\'\i }cios}{94}
-\contentsline {chapter}{\numberline {C}Crit\IeC {\'e}rios Estabelecidos de Diagn\IeC {\'o}stico da Doen\IeC {\c c}a de Parkinson}{96}
-\contentsline {chapter}{\numberline {D}Question\IeC {\'a}rio GQM}{98}
+\contentsline {chapter}{\numberline {A}Projeto do Comit\IeC {\^e} de \IeC {\'E}tica em Pesquisa}{83}
+\contentsline {section}{\numberline {A.1}Resumo}{83}
+\contentsline {section}{\numberline {A.2}Introdu\IeC {\c c}\IeC {\~a}o}{83}
+\contentsline {section}{\numberline {A.3}Problem\IeC {\'a}tica}{87}
+\contentsline {section}{\numberline {A.4}Objetivo}{87}
+\contentsline {subsection}{\numberline {A.4.1}Espec\IeC {\'\i }ficos}{87}
+\contentsline {section}{\numberline {A.5}Material E M\IeC {\'e}todoo}{88}
+\contentsline {subsection}{\numberline {A.5.1}Tipo de Estudo}{88}
+\contentsline {subsection}{\numberline {A.5.2}Local}{88}
+\contentsline {subsection}{\numberline {A.5.3}Amostra}{88}
+\contentsline {subsection}{\numberline {A.5.4}Formas de Recrutamento}{88}
+\contentsline {subsubsection}{Crit\IeC {\'e}rio de inclus\IeC {\~a}o}{88}
+\contentsline {subsubsection}{Crit\IeC {\'e}rio de exclus\IeC {\~a}o}{88}
+\contentsline {subsection}{\numberline {A.5.5}Material}{89}
+\contentsline {subsubsection}{Jogo: \textit {Catch the Spheres}}{89}
+\contentsline {subsection}{\numberline {A.5.6}Procedimentos}{89}
+\contentsline {subsubsection}{AN\IeC {\'A}LISE DE DADOS}{90}
+\contentsline {subsection}{\numberline {A.5.7}Base de Dados}{90}
+\contentsline {subsection}{\numberline {A.5.8}Termo de Consentimento Livre e Esclarecido (TCLE)}{90}
+\contentsline {subsection}{\numberline {A.5.9}Confidencialidade}{91}
+\contentsline {subsection}{\numberline {A.5.10}Crit\IeC {\'e}rios Para Interromper a Pesquisa}{91}
+\contentsline {subsection}{\numberline {A.5.11}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{91}
+\contentsline {subsection}{\numberline {A.5.12}Infra-Estrutura}{91}
+\contentsline {section}{\numberline {A.6}Etapas da Pesquisa e Cronograma}{92}
+\contentsline {subsection}{\numberline {A.6.1}Etapa da Pesquisa}{92}
+\contentsline {subsection}{\numberline {A.6.2}Cronograma}{92}
+\contentsline {section}{\numberline {A.7}Or\IeC {\c c}amento Estimado}{93}
+\contentsline {chapter}{\numberline {B}Question\IeC {\'a}rio Entrevista Semi-Estruturada}{94}
+\contentsline {section}{\numberline {B.1}Entrevista com Profissionais de Neurologia}{94}
+\contentsline {subsection}{\numberline {B.1.1}Sintomas da Doen\IeC {\c c}a de Parkinson}{94}
+\contentsline {subsection}{\numberline {B.1.2}Monitoramento de dados Motores}{94}
+\contentsline {subsection}{\numberline {B.1.3}Benef\IeC {\'\i }cios}{95}
+\contentsline {chapter}{\numberline {C}Crit\IeC {\'e}rios Estabelecidos de Diagn\IeC {\'o}stico da Doen\IeC {\c c}a de Parkinson}{97}
+\contentsline {chapter}{\numberline {D}Question\IeC {\'a}rio GQM}{99}

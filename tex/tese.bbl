@@ -468,6 +468,20 @@
 \newblock \btxjournalfont {Movement Disorders}, 21, 2006\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1531-8257}}}.
 
+\bibitem {parkself2015}
+\btxnamefont {\btxlastnamefont {Kim}, Bona}, \btxnamefont {Jeff
+  \btxlastnamefont {Baldwin}}, \btxnamefont {Kara \btxlastnamefont
+  {Lukasiewicz}}, \btxnamefont {Mark \btxlastnamefont {Hallett}}, \btxnamefont
+  {John \btxlastnamefont {Harrington}}, \btxnamefont {Anne \btxlastnamefont
+  {Altemus}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Codrin
+  \btxlastnamefont {Lungu}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {Development of tablet device app for parkinson’s disease patients’
+  continuous self-monitoring and management}{Development of Tablet Device App
+  for Parkinson’s Disease Patients’ Continuous Self-Monitoring and
+  Management}}.
+\newblock \btxjournalfont {Neuroscience and Biomedical Engineering},
+  2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2213-3860}}}.
+
 \bibitem {kostek12}
 \btxnamefont {\btxlastnamefont {Kostek}, Bozena}, \btxnamefont {Katarzyna
   \btxlastnamefont {Kaszuba}}, \btxnamefont {Pawel \btxlastnamefont {Zwan}},
@@ -725,6 +739,26 @@
   Biomedicine}, 13(6), 2009\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont
   {1089-7771}}}.
 
+\bibitem {parkinsondiag2015}
+\btxnamefont {\btxlastnamefont {Postuma}, Ronald}, \btxnamefont {Daniela
+  \btxlastnamefont {Berg}}, \btxnamefont {Matthew \btxlastnamefont {Stern}},
+  \btxnamefont {Werner \btxlastnamefont {Poewe}}, \btxnamefont {Warren
+  \btxlastnamefont {Olanow}}, \btxnamefont {Wolfgang \btxlastnamefont
+  {Oertel}}, \btxnamefont {José \btxlastnamefont {Obeso}}, \btxnamefont
+  {Kenneth \btxlastnamefont {Marek}}, \btxnamefont {Irene \btxlastnamefont
+  {Litvan}}, \btxnamefont {Anthony \btxlastnamefont {Lang}}, \btxnamefont
+  {Glenda \btxlastnamefont {Halliday}}, \btxnamefont {Christopher
+  \btxlastnamefont {Goetz}}, \btxnamefont {Thomas\btxfnamespacelong
+  Gasser\btxfnamespacelong Bruno \btxlastnamefont {Dubois}}, \btxnamefont {Piu
+  \btxlastnamefont {Chan}}, \btxnamefont {Bastiaan \btxlastnamefont {Bloem}},
+  \btxnamefont {Charles \btxlastnamefont {Adler}}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {Gunther \btxlastnamefont {Deuschl}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Mds clinical diagnostic criteria for
+  parkinson’s disease}{MDS Clinical Diagnostic Criteria for Parkinson’s
+  Disease}}.
+\newblock \btxjournalfont {Movement Disorders}, 2015\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1531-8257}}}.
+
 \bibitem {qda13}
 \btxnamefont {\btxlastnamefont {Research}, Provalis}\btxauthorcolon\
   \btxtitlefont {\btxifchangecase {Qda miner lite v1.2.2}{QDA MINER Lite
@@ -920,12 +954,38 @@
 \newblock \btxjournalfont {The Lancet Neurology}, 5(1), 2006\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1474-4422}}}.
 
+\bibitem {bloodparkinsonsonivansive2015}
+\btxnamefont {\btxlastnamefont {Tsunoda}, Makoto}, \btxnamefont {Masaaki
+  \btxlastnamefont {Hirayama}}, \btxnamefont {Takao \btxlastnamefont
+  {Tsuda}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Kinji \btxlastnamefont
+  {Ohno}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Noninvasive
+  monitoring of plasma l-dopa concentrations using sweat samples in parkinson's
+  disease}{Noninvasive monitoring of plasma l-dopa concentrations using sweat
+  samples in Parkinson's disease}}.
+\newblock \btxjournalfont {Clinica Chimica Acta}, 442:52 -- 55,
+  2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0009-8981}}}.
+\newblock {\latintext
+  \btxurlfont{http://www.sciencedirect.com/science/article/pii/S000989811400566X}}.
+
 \bibitem {vapnik95}
 \btxnamefont {\btxlastnamefont {Vapnik}, Vladimir}\btxauthorcolon\
   \btxtitlefont {The Nature of Statistical Learning Theory}.
 \newblock \btxpublisherfont {Springer-Verlag New York, Inc.},
   \btxeditionnumlong {2}{}, 2000\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
   {978-1-4757-3264-1}}}.
+
+\bibitem {bloodnoninvasiveparkinson2013}
+\btxnamefont {\btxlastnamefont {Vichayanrat}, Eva\btxfnamespacelong
+  Stuebnerand\btxfnamespacelong Ekawat}, \btxnamefont {David \btxlastnamefont
+  {Low}}, \btxnamefont {Chirstopher \btxlastnamefont {Mathias}}, \btxnamefont
+  {Stefan \btxlastnamefont {Isenmann}}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {Carl\btxfnamespacelong Albrecht \btxlastnamefont
+  {Haensch}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Twenty-four hour
+  non-invasive ambulatory blood pressure and heart rate monitoring in
+  parkinson's disease}{Twenty-four hour non-invasive ambulatory blood pressure
+  and heart rate monitoring in Parkinson's Disease}}.
+\newblock \btxjournalfont {Frontiers In Neurology}, 4, 2013\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1664-2295}}}.
 
 \bibitem {vicini2005}
 \btxnamefont {\btxlastnamefont {Vicini}, Lorena}\btxauthorcolon\ \btxtitlefont

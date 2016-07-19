@@ -1,6 +1,16 @@
 \chapter{Arquitetura de Software do~\textit{JOGUE-ME}}\label{chapter:arquitetura_captura}
 
-A arquitetura do sistema possui diferentes tecnologias conforme a Figura~\ref{fig:arquitetura} e foi desenvolvida para permitir o desenvolvedor abstrair da complexidade do processamento do sinal dos dados e na identificação dos sintomas motores. Logo, esta arquitetura de \textit{software} integrada a uma \textit{engine} de jogos bem conhecida e difundida (Unity 3D~\cite{unity3d}) facilita o desenvolvimento de jogos para esse contexto.
+A arquitetura elaborada para o~\ac{jogue-me} (Figura~\ref{fig:arquitetura}) implementa a abordagem~\ac{jogue-me} descrita no Capítulo~\ref{chapter:abordagem_gahme}. Na concepção desta arquitetura foram definidos 3 elementos básicos: sensor de movimentos para adquirir os sinais motores e enviar ao cliente; cliente~\ac{jogue-me} que é um jogo que interage com o usuário e induz a execução de movimentos para avaliação motora de uma maneira não-invasiva. Este,  envia os dados a um serviço~\ac{jogue-me}; O serviço~\ac{jogue-me} fica num estado de recebimento de dados e posterior repasse ao processador de dados biomecânicos. Este, processa e identifica a ocorrência dos sintomas motores por meio de uma máquina de aprendizagem.
+
+
+%O objetivo desta arquitetura é que as atividades de desenvolvimento do jogo e identificação dos sintomas estejam separadas de acordo a suas responsabilidadesdelegar a responsabilidade de desenvolvimento do jogo à um desenvolvedor de jogos de modo que este, o desenvolvedor de jogos na abstração das dificuldades existentes no desenvolvimento de um jogo para monitoramento de dados da saúde motora. 
+
+%Nesta tese foi desenvolvida uma arquitetura de software sob uma camada de software que é \textit{engine} de jogos bem difundida e utilizada (Unity 3D~\cite{unity3d}), que envia requisições de dados . Com a elaboração desta arquitetura de software busca-se facilitar a programação de jogos para o monitoramento da saúde motora ao criar Componentes de \textit{Software} que realizam este monitoramento. Assim ao usar esta arquitetura, descrita neste capítulo, os desenvolvedores de jogos podem criar \text{JOGUE-MEs} encapsulando os aspectos de processamento de sinal e reconhecimento da ocorrência dos sintomas motores. De acordo com a arquitetura 
+
+
+%A arquitetura do sistema possui diferentes tecnologias, conforme definido na Figura. O objetivo principal para a definição desta arquitetura foi permitir que os jogos desenvolvidos utilizando esta abordagem desenvolvedor de jogos abstraia da e foi desenvolvida para permitir o desenvolvedor abstrair da complexidade do processamento do sinal dos dados e na identificação dos sintomas motores. 
+
+%Logo, esta arquitetura de \textit{software} permite  integrada a uma \textit{engine} de jogos bem conhecida e difundida (Unity 3D~\cite{unity3d}) facilita o desenvolvimento de jogos para esse contexto.
 
 %A arquitetura desenvolvida para o~\ac{jogue-me} busca abstrair das dificuldades existentes no desenvolvimento de um jogo para monitoramento de dados de saúde. Neste projeto foi desenvolvido um arcabouço de software, integrado a uma \textit{engine} de jogos bem difundida e utilizada por desenvolvedores de jogos. Devido a essa estrutura, buscamos facilitar a programação de jogos para a saúde, criando Componentes de \textit{Software} sobre a \textit{engine} de jogos Unity 3D~\cite{unity3d}. Assim, desenvolvedores de jogos podem criar \text{JOGUE-MEs}, usando esse arcabouço (Seção~\ref{sec:cliente_game}), o que permite ao desenvolvedor encapsular os aspectos de processamento de sinal. 
 
@@ -31,7 +41,7 @@ Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3
 \end{figure}
 
 
-Para adquirir os sinais motores, este trabalho utilizou e herdou do componente (Zigfu~\cite{zigfu}) para Unity3D para integrar o Ms-Kinnect~\cite{kinnect2013} como controlador do jogo à arquitetura proposta. O Ms-Kinnect~\cite{kinnect2013} é um sensor de captura de movimentos utilizado tanto para o console MS-XBOX 360 quanto para \textit{PCs}. Ele permite a aquisição dos sinais relativos ao movimento humano e identifica as articulações por meio da posição anatômica do corpo humano~\cite{hamill1999bases}.
+Para possibilitar a aquisição de sinais motores, este trabalho herdou do componente (Zigfu~\cite{zigfu}) para integrar o Ms-Kinnect~\cite{kinnect2013} como controlador do jogo à \textit{engine} de jogos Unity3D. O Ms-Kinnect~\cite{kinnect2013} é um sensor de captura de movimentos utilizado tanto para o console MS-XBOX 360 quanto para \textit{PCs}. Ele permite a aquisição dos sinais relativos ao movimento humano e identifica as articulações por meio da posição anatômica do corpo humano~\cite{hamill1999bases}.
 %, como pode ser visto na Figura~\ref{fig:articulacoeskinnect}.
 
 
@@ -56,9 +66,6 @@ Para adquirir os sinais motores, este trabalho utilizou e herdou do componente (
 \end{figure}
 
 O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect, para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, o Zigfu foi extendido na classe \textit{ZigSkeletonHealth} para armazenar as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()}).
-
-
-
 
 
 \subsubsection{Jogo: \textit{Catch the Spheres}}\label{jogo_catch}

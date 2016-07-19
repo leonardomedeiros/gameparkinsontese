@@ -14,45 +14,45 @@ Warning--can't use both author and editor fields in abn2010
 Warning--empty publisher in abn2010
 Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
-You've used 104 entries,
+You've used 108 entries,
             2788 wiz_defined-function locations,
-            1180 strings with 25303 characters,
-and the built_in function-call counts, 38444 in all, are:
-= -- 3134
-> -- 1715
+            1201 strings with 26561 characters,
+and the built_in function-call counts, 40978 in all, are:
+= -- 3304
+> -- 1892
 < -- 0
-+ -- 696
-- -- 578
-* -- 4524
-:= -- 5654
-add.period$ -- 247
-call.type$ -- 104
-change.case$ -- 602
++ -- 766
+- -- 644
+* -- 4931
+:= -- 6012
+add.period$ -- 256
+call.type$ -- 108
+change.case$ -- 647
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 2049
-empty$ -- 3630
-format.name$ -- 1114
-if$ -- 7837
+cite$ -- 114
+duplicate$ -- 2168
+empty$ -- 3802
+format.name$ -- 1246
+if$ -- 8291
 int.to.chr$ -- 0
-int.to.str$ -- 104
-missing$ -- 124
-newline$ -- 451
-num.names$ -- 208
-pop$ -- 923
+int.to.str$ -- 108
+missing$ -- 132
+newline$ -- 468
+num.names$ -- 216
+pop$ -- 967
 preamble$ -- 1
-purify$ -- 497
+purify$ -- 538
 quote$ -- 0
-skip$ -- 894
+skip$ -- 931
 stack$ -- 0
-substring$ -- 576
-swap$ -- 835
+substring$ -- 617
+swap$ -- 909
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 382
+type$ -- 398
 warning$ -- 6
-while$ -- 210
-width$ -- 107
-write$ -- 1132
+while$ -- 219
+width$ -- 111
+write$ -- 1176
 (There were 8 warnings)
