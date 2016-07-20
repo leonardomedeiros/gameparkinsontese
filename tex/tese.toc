@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {1.5}Metodologia}{6}
 \contentsline {subsection}{\numberline {1.5.1}Termo de Consentimento Livre e Esclarecido (TCLE)}{8}
 \contentsline {subsection}{\numberline {1.5.2}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{8}
-\contentsline {subsection}{\numberline {1.5.3}Confidencialidade}{9}
+\contentsline {subsection}{\numberline {1.5.3}Confidencialidade}{8}
 \contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do Documento}{9}
 \contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{10}
 \contentsline {section}{\numberline {2.1}Doen\IeC {\c c}a de Parkinson}{10}
