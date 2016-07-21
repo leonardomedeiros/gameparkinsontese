@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  20 JUL 2016 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  20 JUL 2016 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1495,38 +1495,6 @@ Underfull \hbox (badness 4303) in paragraph at lines 933--936
 tm/m/n/12 : \T1/ptm/m/it/12 IEEE\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
 
-
-! Package babelbib Error: No \url command defined but field URL used
-(babelbib)                in bibliography.
-
-See the babelbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.968 ...om/science/article/pii/S000989811400566X}
-                                                  }.
-Please define a \url command for printing URLs before \begin{document}, e.\tmsp
-ace +\thinmuskip {.1667em}g.
-by loading the package `url.sty'.
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 958--969
-\T1/ptm/m/it/12 mo-ni-to-ring of plasma l-dopa con-cen-tra-ti-ons using sweat s
-am-ples in Par-kin-
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 958--969
-\T1/ptm/m/it/12 son's di-se-ase\T1/ptm/m/n/12 .  Cli-nica Chi-mica Acta, 442:52
- -- 55, 2015, [].
- []
-
-
-Overfull \hbox (69.04893pt too wide) in paragraph at lines 958--969
-\T1/pcr/m/n/12 http://www.sciencedirect.com/science/article/pii/S00098981140056
-6X\T1/ptm/m/n/12 . 
- []
-
 [81]) (./apend_comite.tex [82]
 Ap\^endice A.
 [83
@@ -1614,7 +1582,7 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2052578 bytes).
+Output written on tese.pdf (111 pages, 2052250 bytes).
 PDF statistics:
  444 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams

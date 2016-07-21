@@ -16,43 +16,43 @@ Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
 You've used 108 entries,
             2788 wiz_defined-function locations,
-            1201 strings with 26561 characters,
-and the built_in function-call counts, 40978 in all, are:
-= -- 3304
+            1198 strings with 26485 characters,
+and the built_in function-call counts, 40887 in all, are:
+= -- 3293
 > -- 1892
 < -- 0
 + -- 766
 - -- 644
-* -- 4931
-:= -- 6012
-add.period$ -- 256
+* -- 4919
+:= -- 6001
+add.period$ -- 255
 call.type$ -- 108
 change.case$ -- 647
 chr.to.int$ -- 0
 cite$ -- 114
-duplicate$ -- 2168
-empty$ -- 3802
+duplicate$ -- 2167
+empty$ -- 3792
 format.name$ -- 1246
-if$ -- 8291
+if$ -- 8269
 int.to.chr$ -- 0
 int.to.str$ -- 108
 missing$ -- 132
-newline$ -- 468
+newline$ -- 467
 num.names$ -- 216
-pop$ -- 967
+pop$ -- 970
 preamble$ -- 1
 purify$ -- 538
 quote$ -- 0
 skip$ -- 931
 stack$ -- 0
-substring$ -- 617
+substring$ -- 596
 swap$ -- 909
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 398
 warning$ -- 6
-while$ -- 219
+while$ -- 218
 width$ -- 111
-write$ -- 1176
+write$ -- 1173
 (There were 8 warnings)

@@ -960,12 +960,10 @@
   {Tsuda}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Kinji \btxlastnamefont
   {Ohno}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Noninvasive
   monitoring of plasma l-dopa concentrations using sweat samples in parkinson's
-  disease}{Noninvasive monitoring of plasma l-dopa concentrations using sweat
-  samples in Parkinson's disease}}.
-\newblock \btxjournalfont {Clinica Chimica Acta}, 442:52 -- 55,
-  2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {0009-8981}}}.
-\newblock {\latintext
-  \btxurlfont{http://www.sciencedirect.com/science/article/pii/S000989811400566X}}.
+  disease}{Noninvasive Monitoring Of Plasma L-dopa Concentrations Using Sweat
+  Samples In Parkinson's Disease}}.
+\newblock \btxjournalfont {Clinica Chimica Acta}, 2015\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0009-8981}}}.
 
 \bibitem {vapnik95}
 \btxnamefont {\btxlastnamefont {Vapnik}, Vladimir}\btxauthorcolon\
