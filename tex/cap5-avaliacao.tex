@@ -1,5 +1,5 @@
 \chapter{Avalia\c{c}\~{a}o Experimental} \label{chap:avaliacao}
-A realização do monitoramento dos sinais motores, de uma maneira não invasiva, é um desafio. Logo, esta tese fornece uma forma lúdica de monitorar os dados de saúde, por meio de jogos eletrônicos que podem ser integrados à rotina diária dos usuários. Neste capítulo, iremos demonstrar que conseguimos desenvolver um~\ac{sms} que induz a execução de movimentos para um monitoramento  não invasivo de um sintoma do~\ac{dp} com uma taxa de acurácia de 86,67\%.
+A realização do monitoramento dos sinais motores, de uma maneira não invasiva, é um desafio. Logo, esta tese fornece uma forma lúdica de monitorar os dados de saúde, por meio de jogos eletrônicos que podem ser integrados à rotina diária dos usuários. Neste capítulo, será apresentado o~\ac{sms} implementado, nesta tese, que induz a execução de movimentos para um monitoramento não invasivo de um sintoma do~\ac{dp} com uma taxa de acurácia de 86,67\%.
 
 
 
@@ -57,7 +57,7 @@ Durante a análise das entrevistas, foram extraídos fragmentos, e a nomenclatur
 
 Na entrevista junto aos neurologistas, foi indagado como o diagnóstico do~\ac{dp} é realizado.  A entrevista corroborou com a literatura médica~\cite{tolosa06,abn2010} em relação ao diagnóstico de exclusão do \ac{dp}~\cite{protpar010,national2006parkinson}.  
 
-Todos os profissionais informaram que o sintoma mais comum é o tremor de repouso, e que este é inicialmente unilateral, seguido de uma bradicinesia, como podemos perceber nos fragmentos ([FRAGMENTO-01], FRAGMENTO-02]). Ainda no ([FRAGMENTO-01]), existe uma ocorrência do \textbf{[NEU\_01]}, em que o mesmo evoca sobre a importância da técnica de \textit{Finger Taps} ~\cite{updrs87} para avaliação da bradicinesia.
+Todos os profissionais informaram que o sintoma mais comum é o tremor de repouso, e que este é inicialmente unilateral, seguido de uma bradicinesia, como pode-se perceber nos fragmentos ([FRAGMENTO-01], FRAGMENTO-02]). Ainda no ([FRAGMENTO-01]), existe uma ocorrência do \textbf{[NEU\_01]}, em que o mesmo evoca sobre a importância da técnica de \textit{Finger Taps} ~\cite{updrs87} para avaliação da bradicinesia.
 
 
 
@@ -194,7 +194,7 @@ No início. Geralmente o paciente se queixa de uma diminuição de força de um 
 \subsubsection{Benefícios Advindos do Monitoramento}
 
 
-Em relação aos benefícios advindo do monitoramento pudemos identificar a quantificação dos sinais motores, a amplitude de movimento de adução e abdução do braço e a velocidade angular destes movimentos. Essa análise trouxe dois grupos de respostas: o primeiro reconhecia a importância da quantificação dos dados para identificar a melhora ou piora do paciente [FRAGMENTO-17], e o outro relatava que essa informação tinha mais validade científica do que prática [FRAGMENTO-18]. Todavia, caso esses profissionais tivessem acesso a um sistema que permitisse o monitoramento motor, possivelmente eles iriam perceber os benefícios da abordagem e modificar sua prática atual ao adotar uma nova proposta.
+Em relação aos benefícios advindo do monitoramento pôde-se identificar a quantificação dos sinais motores, a amplitude de movimento de adução e abdução do braço e a velocidade angular destes movimentos. Essa análise trouxe dois grupos de respostas: o primeiro reconhecia a importância da quantificação dos dados para identificar a melhora ou piora do paciente [FRAGMENTO-17], e o outro relatava que essa informação tinha mais validade científica do que prática [FRAGMENTO-18]. Todavia, caso esses profissionais tivessem acesso a um sistema que permitisse o monitoramento motor, possivelmente eles iriam perceber os benefícios da abordagem e modificar sua prática atual ao adotar uma nova proposta.
 
 \begin{quote}
 \textbf{[FRAGMENTO-17][FIS\_02]}-
@@ -268,9 +268,9 @@ Alguns requisitos identificados não podem ser implementados com a tecnologia de
 	\end{figure}
 
 \begin{itemize}
-	\item O \textbf{REQ-ENTREVISTAS-01} não foi possível, pois o tremor de repouso é um dos principais sinais do~\ac{dp}. Sabíamos da sua importância, inclusive foi desenvolvido um jogo para \textit{Smartphone} que pudesse quantificar o tremor (Figura ~\ref{fig:gametremor}). Porém, no teste junto aos usuários, foi percebido que, no momento do uso, os pacientes com~\ac{dp} cessavam o tremor, inviabilizando assim sua quantificação. 
+	\item O \textbf{REQ-ENTREVISTAS-01} não foi possível, pois o tremor de repouso é um dos principais sinais do~\ac{dp}. Por este motivo, foi desenvolvido um jogo para \textit{Smartphone} que pudesse quantificar o tremor (Figura ~\ref{fig:gametremor}). Porém, no teste junto aos usuários, foi percebido que, no momento do uso, os pacientes com~\ac{dp} cessavam o tremor, inviabilizando assim sua quantificação. 
 	\item O \textbf{[REQ-ENTREVISTAS-03]} não foi possível, pois a técnica de \textit{finger-tapping} não pode ser avaliadas utilizando o MS-Kinnect 1.0, uma vez que nessa versão não existe a captura do movimento dos dedos.
-	\item O \textbf{REQ-ENTREVISTAS-09} não foi possível, pois, por envolver estado emocional e parâmetros que não estamos levando em consideração nesse trabalho, esse requisito está fora do escopo. Entretanto, com mecanismos de detecção de batimentos cardíacos presente no MS-Kinnect 2.0, pode ser averiguada a relação dos batimentos cardíacos com o tremor.
+	\item O \textbf{REQ-ENTREVISTAS-09} não foi possível, pois, por envolver estado emocional e parâmetros que não está sendo levando em consideração nesse trabalho, esse requisito está fora do escopo. Entretanto, com mecanismos de detecção de batimentos cardíacos presente no MS-Kinnect 2.0, pode ser averiguada a relação dos batimentos cardíacos com o tremor.
 \end{itemize}
 
 
@@ -279,6 +279,7 @@ Alguns requisitos identificados não podem ser implementados com a tecnologia de
 \subsubsection{Matriz de Rastreabilidade - Fragmento x Requisitos}
 
 \begin{table}[!htb]
+\center
 \caption{Matriz de Rastreabilidade: fragmento x requisitos}
 \label{table:matrix_rastreabilidade}
 \begin{tabular}{||p{6.06cm}||ccccccccc|}
@@ -323,7 +324,7 @@ A Matriz de Rastreabilidade (Fragmento x Requisitos) mapeia os \textbf{REQUISITO
 A Matriz de Rastreabilidade (Tabela~\ref{table:RequisitoImplementado}) mapeia os \textbf{REQUISITOS} implementados neste trabalho e os que, devido a restrições técnicas, ainda estão em aberto. Isso demonstra também o estado atual do trabalho e pode direcionar os trabalhos futuros.
 
 \begin{table}[!h]
-\centering
+\center
 \caption{Requisitos implementados}
 \label{table:RequisitoImplementado}
 \begin{tabular}{|c|c|c|}
@@ -346,7 +347,7 @@ REQ-ENTREVISTA-09                   &                                           
 \subsection{Considerações Finais da Entrevista Semiestruturada}
 O intuito dessa entrevista foi verificar, junto aos profissionais de saúde, os benefícios trazidos pelo monitoramento em relação à qualidade de vida e ao acompanhamento do tratamento do paciente.
 
-Com base na rastreabilidade dos fragmentos da entrevista, pode-se concluir que existiram muitas ocorrências nos requisitos de identificação de sinais, tais como: tremores ([\textbf{REQ-ENTREVISTAS-01}]), bradicinesia [\textbf{REQ-ENTREVISTAS-02}] e análise da marcha [\textbf{REQ-ENTREVISTAS-06}]. Para o acompanhamento e o monitoramento da doença, os profissionais de saúde citaram a importância de calcular tanto a amplitude dos movimentos de abdução e adução dos braços ([\textbf{REQ-ENTREVISTAS-07}]), quanto a velocidade angular ([\textbf{REQ-ENTREVISTAS-08}]). Baseado nessas considerações, podemos validar qualitativamente a QUESTÃO 1 da pesquisa.
+Com base na rastreabilidade dos fragmentos da entrevista, pode-se concluir que existiram muitas ocorrências nos requisitos de identificação de sinais, tais como: tremores ([\textbf{REQ-ENTREVISTAS-01}]), bradicinesia [\textbf{REQ-ENTREVISTAS-02}] e análise da marcha [\textbf{REQ-ENTREVISTAS-06}]. Para o acompanhamento e o monitoramento da doença, os profissionais de saúde citaram a importância de calcular tanto a amplitude dos movimentos de abdução e adução dos braços ([\textbf{REQ-ENTREVISTAS-07}]), quanto a velocidade angular ([\textbf{REQ-ENTREVISTAS-08}]). Baseado nessas considerações, pode-se validar qualitativamente a \textit{QUESTÃO 1} da pesquisa.
 
 
 \section{Máquina de Vetor de Suporte para Estudo Analítico de Caso Controle Por Intermédio de Sensor de Movimento Usado em Jogos Eletrônicos}\label{sec:resultado_svm}
@@ -356,7 +357,7 @@ Partindo da importância de identificar o sintoma da bradicinesia e, consequente
 \subsection{Estudo analítico de caso-controle}\label{section:estudo_caso_controle}
 Esta etapa da pesquisa foi pautada pelo protocolo de pesquisa avaliado pelo Comitê de Ética da UFCG (Apêndice~\ref{sec:comite}). Somente após a aprovação deste (\textbf{CAAE: 14408213.9.1001.5182}), é que os dados foram coletados. 
 
-O resultado alcançado com esse estudo analítico de caso-controle foi identificar mecanismos de classificação de pessoas saudáveis ante pacientes com~\ac{dp}. Durante a pesquisa, analisamos o sensor de movimento MS-Kinnect~\cite{kinnect2013} para avaliar a possibilidade de aquisição de dados de saúde, baseada na Cinemática Linear do Movimento Humano~\cite{mcginnis2013biomechanics}. A partir dos resultados obtidos, pudemos avaliar a normalidade e a dificuldade na execução de movimentos, como, por exemplo, levantar um braço~\cite{mcginnis2013biomechanics}.
+O resultado alcançado com esse estudo analítico de caso-controle foi identificar mecanismos de classificação de pessoas saudáveis ante pacientes com~\ac{dp}. Durante a pesquisa, analisou-se o sensor de movimento MS-Kinnect~\cite{kinnect2013} para avaliar a possibilidade de aquisição de dados de saúde, baseada na Cinemática Linear do Movimento Humano~\cite{mcginnis2013biomechanics}. A partir dos resultados obtidos, pôde-se avaliar a normalidade e a dificuldade na execução de movimentos, como, por exemplo, levantar um braço~\cite{mcginnis2013biomechanics}.
 
 A coleta de dados dos pacientes com~\ac{dp} foi realizada no Hospital Universitário da UFAL e na Fundação Pestalozzi em Maceió, sob a a tutela da Profa. e Neurologista Dra. Cícera Pontes; e a do grupo controle, na Clínica de Fisioterapia do CESMAC, sob a tutela do Prof. de Fisioterapia Jean Charles Santos. As coletas foram realizadas em local reservado e de forma individual, com a anuência do sujeito pesquisado através da assinatura do Termo de Consentimento.
 
@@ -381,7 +382,7 @@ Durante a execução da coleta, houve uma preocupação com a integridade físic
 
 
 \subsubsection{Métodos}
-Nesta pesquisa, foi realizada uma análise de um sensor de movimento utilizado em jogos eletrônicos e avaliada a possibilidade de aquisição de dados de saúde baseada na Cinemática Angular do Movimento Humano~\cite{hamill1999bases}.  Através dos resultados obtidos, conseguimos classificar a normalidade e a dificuldade na execução de movimentos como abdução e adução dos braços.
+Nesta pesquisa, foi realizada uma análise de um sensor de movimento utilizado em jogos eletrônicos e avaliada a possibilidade de aquisição de dados de saúde baseada na Cinemática Angular do Movimento Humano~\cite{hamill1999bases}.  Através dos resultados obtidos, conseguiu-se classificar a normalidade e a dificuldade na execução de movimentos como abdução e adução dos braços.
 
 A coleta de dados foi realizada no próprio espaço de tratamento do indivíduo, em local reservado e de forma individual. A participação do indivíduo foi consentida por meio da assinatura do Termo de Consentimento. Devido às restrições de tempo (1 minuto e 30 segundos) e da execução de um mesmo movimento por todos os participantes, foram solicitados dos voluntários a execução dos seguintes procedimentos:
 \begin{enumerate}
@@ -408,7 +409,7 @@ Durante a análise, foram comparados os Ângulos Relativos do Tronco e do Levant
 Os dados coletados nesta fase resultaram na extração de características do movimento, incluindo: a amplitude do movimento dos braços do lado esquerdo e direito, e a velocidade angular dos movimentos de adução e abdução. Na Tabela~\ref{table:features} estão descritos os vetores de características:
 
 \begin{table}[h]
-\centering
+\center
 \caption{Descrição do vetor de características extraído da coleta de dados.}
 \label{table:features}
 \begin{tabular}{|l|l|}
@@ -468,7 +469,7 @@ A matriz de confusão para duas classes consiste numa matriz $2$\ x $2$\, conten
 
 % % Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
 \begin{table}[!h]
-\centering
+\center
 \caption{Descrição da matriz de confusão}
 \label{table:descricaomatrizconfusao}
 \begin{tabular}{ll|l|l|}
@@ -490,8 +491,7 @@ O \textit{leave-one-out} é um método de validação cruzada \textit{k-fold} co
 
 \subsubsection{Otimização dos Parâmetros da SVM - Método Grid-Search}
 
-Para identificar os melhores parâmetros~\ac{svm}, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Este método avalia a precisão do modelo previsto, evita o problema do superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro, nós aplicamos uma abordagem de \textit{minimax} visando maximizar a margem sobre os coeficientes hiperplano para obter uma classificação mais correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foram de: $C$ = [$2^{-5}$, ... ,$2^2$] e $\gamma$ = [$2^{-15}$, ... ,$2^3$ ], usando assim uma exponencial de base 2. Por meio deste método, foi possível identificar uma região em que o classificador possuía a melhor acurácia e a menor taxa de \textit{FpRate}. Após identificar essa região, realizamos uma busca mais detalhada com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [
-1, 2, ...,10], como pode ser visto na Figura~\ref{fig:gridaccuracy}.
+Para identificar os melhores parâmetros~\ac{svm}, foi aplicado o método~\textit{Grid-Search} ~\cite{gridsearchsvm2010} usando validação cruzada \textit{Leave-One-Out} (LOOCV)~\cite{kantardzic2011data}. Este método avalia a precisão do modelo previsto, evita o problema do superajuste na classificação binária e é um método prático para identificar os parâmetros SVM . Neste estudo, para reduzir a taxa de erro, nós aplicou-se uma abordagem de \textit{minimax} visando maximizar a margem sobre os coeficientes hiperplano para obter uma classificação mais correta. Os valores dos parâmetros de pesquisa do \textit{grid-search} foram de: $C$ = [$2^{-5}$, ... ,$2^2$] e $\gamma$ = [$2^{-15}$, ... ,$2^3$ ], usando assim uma exponencial de base 2. Por meio deste método, foi possível identificar uma região em que o classificador possuía a melhor acurácia e a menor taxa de \textit{FpRate}. Após identificar essa região, realizou-se uma busca mais detalhada com os seguintes parâmetros: $C$ = [0.25, 0.5, ... ,2.5]; e $\gamma$ = [1, 2, ...,10], como pode ser visto na Figura~\ref{fig:gridaccuracy}.
 
 
 \begin{figure}[!h]
@@ -502,7 +502,7 @@ Para identificar os melhores parâmetros~\ac{svm}, foi aplicado o método~\texti
 \end{figure}
 
  
-Como pode ser analisado na Figura~\ref{fig:gridaccuracy}, nós conseguimos uma classificação nos dados em que a pior predição obteve uma acurácia de 70,00\% e a melhor, de 86,67\%. Conseguimos também um baixo valor de \textit{FpRate}, com 6,67\% no melhor dos casos (Figura~\ref{fig:gridfprate}). Usando o método \textit{grid-search}, nós encontramos como melhor valor para os parâmetros: $C = 2$ and $\gamma = 3$. Como podemos analisar nos nossos resultados, por meio do método \textit{grid-search}, foi possível identificar parâmetros para o classificador~\ac{svm} com uma boa generalização e capaz de identificar a maior \textit{acurácia} e o menor \textit{fpRate}.
+Como pode ser analisado na Figura~\ref{fig:gridaccuracy}, conseguiu-se uma classificação nos dados em que a pior predição obteve uma acurácia de 70,00\% e a melhor, de 86,67\%. Conseguiu-se também um baixo valor de \textit{FpRate}, com 6,67\% no melhor dos casos (Figura~\ref{fig:gridfprate}). Usando o método \textit{grid-search}, foi identificado como melhor valor para os parâmetros: $C = 2$ e $\gamma = 3$. Como analisado nos resultados, por meio do método \textit{grid-search}, foi possível identificar parâmetros para o classificador~\ac{svm} com uma boa generalização e capaz de identificar a maior \textit{acurácia} e o menor \textit{fpRate}.
 
 
 \begin{figure}[!h]
@@ -516,7 +516,7 @@ Como pode ser analisado na Figura~\ref{fig:gridaccuracy}, nós conseguimos uma c
 \subsubsection{Resultados Obtidos}\label{sec:resultado_obtido_svm}
 
 
-A Matriz de Confusão obtida indica que existem três indivíduos classificados como ``Controle'', mas que possuem a doença (FN); no entanto, analisando as características do movimento dos indivíduos com~\ac{dp}, percebemos que eles apresentaram uma amplitude de movimento e uma velocidade angular bastante próximas dos indivíduos do Grupo Controle. Logo, estes não apresentam o sintoma de bradicinesia, o que pode indicar que o indivíduo esteja no início da doença, ou bem medicado, ou até mesmo não apresentar este sinal motor, o que corrobora com a sintomatologia do~\ac{dp}. 
+A Matriz de Confusão obtida indica que existem três indivíduos classificados como ``Controle'', mas que possuem a doença (FN); no entanto, analisando as características do movimento dos indivíduos com~\ac{dp}, percebeu-se que eles apresentaram uma amplitude de movimento e uma velocidade angular bastante próximas dos indivíduos do Grupo Controle. Logo, estes não apresentam o sintoma de bradicinesia, o que pode indicar que o indivíduo esteja no início da doença, ou bem medicado, ou até mesmo não apresentar este sinal motor, o que corrobora com a sintomatologia do~\ac{dp}. 
 
 
 \begin{table}[!htbp] 
@@ -533,7 +533,7 @@ A Matriz de Confusão obtida indica que existem três indivíduos classificados 
 
 \end{table}
 
-O sinal da bradicinesia presente no~\ac{dp} foi quantificado pela amplitude do movimento de abdução dos braços e sua respectiva velocidade angular. Na análise destes sinais, foi possível extrair os vetores de características para a classificação dos dados~\cite{kantardzic2011data}. Na Tabela~\ref{table:amplitude}, podemos demonstrar a severidade do sinal motor causado pela bradicinesia, em que o Grupo com~\ac{dp} apresentou amplitudes bem menores ante os indivíduos do Grupo Controle. Notamos também que o indivíduo ``Controle 10'' apresentou uma amplitude muito semelhante aos do Grupo com~\ac{dp}. Neste caso, nós identificamos que ele apresentava um problema motor e isso ocasionou uma classificação incorreta por parte da~\ac{svm}. Além disso, 3 indivíduos do Grupo com~\ac{dp} (3,8 e 12) não apresentavam o sinal da bradicinesia durante a coleta. Nestes casos, podemos assumir que eles não possuem a bradicinesia, ou o sinal estava suprimido pela medicação.
+O sinal da bradicinesia presente no~\ac{dp} foi quantificado pela amplitude do movimento de abdução dos braços e sua respectiva velocidade angular. Na análise destes sinais, foi possível extrair os vetores de características para a classificação dos dados~\cite{kantardzic2011data}. Na Tabela~\ref{table:amplitude}, pode-se avaliar a severidade do sinal motor causado pela bradicinesia, em que o Grupo com~\ac{dp} apresentou amplitudes bem menores ante os indivíduos do Grupo Controle. Nota-se também que o indivíduo ``Controle 10'' apresentou uma amplitude muito semelhante aos do Grupo com~\ac{dp}. Neste caso, foi identificado que ele apresentava um problema motor e isso ocasionou uma classificação incorreta por parte da~\ac{svm}. Além disso, 3 indivíduos do Grupo com~\ac{dp} (3,8 e 12) não apresentavam o sinal da bradicinesia durante a coleta. Nestes casos, pode-se assumir que eles não possuem a bradicinesia, ou o sinal estava suprimido pela medicação.
 
 
 \begin{table}[!htp]
@@ -658,7 +658,7 @@ Então, tem-se um percentual de 83\% de usuários que poderiam integrar o monito
 % Please remember to add \use{multirow} to your document preamble in order to suppor multirow cells
 \begin{table}[h]
 \caption{Métricas avaliadas pelo \textit{GQM}}
-\centering
+\center
 \begin{tabular}{|p{10cm}|p{1.2cm}|p{1.2cm}|}
 \hline
 \textbf{Métrica} & \textbf{Sim} & \textbf{Não} \\ \hline

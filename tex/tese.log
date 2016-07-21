@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  21 JUL 2016 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  21 JUL 2016 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,41 +919,41 @@ Cap\'{\i }tulo 3.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 []\T1/ptm/m/n/12 O jo-ga-dor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 []\T1/ptm/m/n/12 Promover
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 \T1/ptm/m/n/12 ati-vi-da-des f�-si-cas ou a��es que ve-nham a tra-zer in-j�-ria
  ao jo-ga-dor,
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 13--14
+Underfull \hbox (badness 6078) in paragraph at lines 12--13
 \T1/ptm/m/n/12 como: mo-vi-men-tos de equi-l�-brio, mo-vi-men-tos re-pe-ti-ti-v
 os ou brus-cos [] 9;
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 14--15
+Underfull \hbox (badness 2762) in paragraph at lines 13--14
 []\T1/ptm/m/n/12 O jogo deve
  []
 
 [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 []\T1/ptm/m/n/12 Baseados em
  []
 
 
-Overfull \hbox (18.1413pt too wide) in paragraph at lines 16--17
+Overfull \hbox (18.1413pt too wide) in paragraph at lines 15--16
 []
  []
 
@@ -961,14 +961,14 @@ Overfull \hbox (18.1413pt too wide) in paragraph at lines 16--17
 File: ./img/visaosistema.png Graphic file (type png)
 
 <use ./img/visaosistema.png>
-Package pdftex.def Info: ./img/visaosistema.png used on input line 25.
+Package pdftex.def Info: ./img/visaosistema.png used on input line 24.
 (pdftex.def)             Requested size: 343.99327pt x 279.1306pt.
  [20 <./img/visaosistema.png>] [21]
 <./img/biomecprocessor2.png, id=119, 330.5148pt x 431.6928pt>
 File: ./img/biomecprocessor2.png Graphic file (type png)
 
 <use ./img/biomecprocessor2.png>
-Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 54.
+Package pdftex.def Info: ./img/biomecprocessor2.png used on input line 53.
 (pdftex.def)             Requested size: 352.8155pt x 460.83961pt.
 
 <./img/exsinalposicaoypunhodireito.png, id=120, 545.78906pt x 339.51843pt>
@@ -976,22 +976,22 @@ File: ./img/exsinalposicaoypunhodireito.png Graphic file (type png)
 
 <use ./img/exsinalposicaoypunhodireito.png>
 Package pdftex.def Info: ./img/exsinalposicaoypunhodireito.png used on input li
-ne 69.
+ne 68.
 (pdftex.def)             Requested size: 441.01772pt x 274.34529pt.
 
 <./img/deteccaopicosvales.png, id=121, 599.23875pt x 402.75468pt>
 File: ./img/deteccaopicosvales.png Graphic file (type png)
 
 <use ./img/deteccaopicosvales.png>
-Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 79.
+Package pdftex.def Info: ./img/deteccaopicosvales.png used on input line 78.
 (pdftex.def)             Requested size: 441.01772pt x 296.41751pt.
  [22] [23 <./img/biomecprocessor2.png>]
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 105
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 104
 .
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 108
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 107
 .
 
 [24 <./img/exsinalposicaoypunhodireito.png (PNG copy)>]
@@ -999,7 +999,7 @@ LaTeX Warning: Command \textordmasculine invalid in math mode on input line 108
 File: ./img/amplitude-braco.png Graphic file (type png)
 
 <use ./img/amplitude-braco.png>
-Package pdftex.def Info: ./img/amplitude-braco.png used on input line 129.
+Package pdftex.def Info: ./img/amplitude-braco.png used on input line 128.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
 
@@ -1010,7 +1010,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...esse movimento. O tempo gasto entre o 1°
+l.134 ...esse movimento. O tempo gasto entre o 1°
                                                    vale e o pico em cada cic...
 
 Your command was ignored.
@@ -1025,7 +1025,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...ço, e o tempo gasto entre o pico e o 2°
+l.134 ...ço, e o tempo gasto entre o pico e o 2°
                                                    vale de cada ciclo, será...
 
 Your command was ignored.
@@ -1036,7 +1036,7 @@ or  <return>  to continue without it.
 File: ./img/amplitude-braco-picos.png Graphic file (type png)
 
 <use ./img/amplitude-braco-picos.png>
-Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 138
+Package pdftex.def Info: ./img/amplitude-braco-picos.png used on input line 137
 .
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
  [25 <./img/deteccaopicosvales.png (PNG copy)>] [26 <./img/amplitude-braco.png 
@@ -1046,7 +1046,7 @@ File: ./img/ciclomovimentoremovido.png Graphic file (type png)
 
 <use ./img/ciclomovimentoremovido.png>
 Package pdftex.def Info: ./img/ciclomovimentoremovido.png used on input line 18
-4.
+3.
 (pdftex.def)             Requested size: 441.01772pt x 330.76984pt.
 
 
@@ -1057,7 +1057,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.191 ...alar, que nos retorna valores entre $ 0°
+l.190 ...alar, que nos retorna valores entre $ 0°
                                                    $\ a $ 180° $\, do movim...
 
 Your command was ignored.
@@ -1072,7 +1072,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.191 ... retorna valores entre $ 0° $\ a $ 180°
+l.190 ... retorna valores entre $ 0° $\ a $ 180°
                                                    $\, do movimento de abdu�...
 
 Your command was ignored.
@@ -1085,7 +1085,7 @@ vido.png (PNG copy)>]
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 237--238
+Underfull \hbox (badness 1199) in paragraph at lines 238--239
 []\T1/ptm/m/n/12 Como pode ser visto nes-ses da-dos, a am-pli-tude de um in-di-
 v�-duo di-ag-nos-ti-cado
  []
@@ -1263,12 +1263,12 @@ Package Fancyhdr Warning: \headheight is too small (15.02399pt):
 File: ./img/movaddcutctionartist2.png Graphic file (type png)
 
 <use ./img/movaddcutctionartist2.png>
-Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 396
+Package pdftex.def Info: ./img/movaddcutctionartist2.png used on input line 397
 .
 (pdftex.def)             Requested size: 265.74216pt x 201.00044pt.
  [56 <./img/movaddcutctionartist2.png (PNG copy)>]
-Overfull \hbox (1.70758pt too wide) in paragraph at lines 414--424
- [][] 
+Overfull \hbox (1.70758pt too wide) in paragraph at lines 415--425
+ [] 
  []
 
 <img/signalamplitudepeakvaley-2.png, id=249, 719.68875pt x 446.41782pt>
@@ -1276,17 +1276,17 @@ File: img/signalamplitudepeakvaley-2.png Graphic file (type png)
 
 <use img/signalamplitudepeakvaley-2.png>
 Package pdftex.def Info: img/signalamplitudepeakvaley-2.png used on input line 
-428.
+429.
 (pdftex.def)             Requested size: 441.01772pt x 273.56783pt.
  [57 <./img/signalamplitudepeakvaley-2.png>] [58] <./img/vetormedioaducao.png, 
 id=257, 743.02594pt x 453.19313pt>
 File: ./img/vetormedioaducao.png Graphic file (type png)
 
 <use ./img/vetormedioaducao.png>
-Package pdftex.def Info: ./img/vetormedioaducao.png used on input line 458.
+Package pdftex.def Info: ./img/vetormedioaducao.png used on input line 459.
 (pdftex.def)             Requested size: 482.96114pt x 294.57204pt.
 
-Overfull \hbox (41.94342pt too wide) in paragraph at lines 458--459
+Overfull \hbox (41.94342pt too wide) in paragraph at lines 459--460
  [][] 
  []
 
@@ -1381,10 +1381,16 @@ File: ./img/chart_10-.png Graphic file (type png)
 <use ./img/chart_10-.png>
 Package pdftex.def Info: ./img/chart_10-.png used on input line 695.
 (pdftex.def)             Requested size: 380.02025pt x 289.0804pt.
- [66] [67 <./img/chart_1-.png>] [68 <./img/chart_3-.png> <./img/chart_10-.png>]
-) (./cap6-conclusoes.tex [69
+ [66]
 
-]
+LaTeX Warning: Text page 67 contains only floats.
+
+[67 <./img/chart_1-.png>]
+
+LaTeX Warning: Text page 68 contains only floats.
+
+[68 <./img/chart_3-.png> <./img/chart_10-.png>]) (./cap6-conclusoes.tex
+[69]
 Cap\'{\i }tulo 6.
 [70
 
@@ -1581,7 +1587,7 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2052004 bytes).
+Output written on tese.pdf (111 pages, 2052105 bytes).
 PDF statistics:
  444 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams

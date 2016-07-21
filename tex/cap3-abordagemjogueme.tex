@@ -2,8 +2,7 @@
 Para desenvolver um~\ac{sms} dos sinais motores, usando jogos eletrônicos como interface de entrada de dados, é necessário analisar que movimentos e ações o usuário deve executar para que seja possível identificar os sinais motores, a partir de suas ações. Estes movimentos devem ser testados junto a indivíduos portadores da deficiência a ser monitorada e indivíduos como grupo de controle para avaliar a viabilidade de detecção do sinal.
 
 \section{Definição dos Requisitos da Abordagem}\label{section:requisitos_solucao}
-Com base no levantamento bibliográfico e nas entrevistas semiestruturadas~\cite{FLI04} com profissionais de saúde, identificamos e enumeramos os seguintes requisitos funcionais, os quais devem ser desenvolvidos para uma solução~\ac{jogue-me}:
-
+Com base no levantamento bibliográfico, identifica-se e enumera-se os seguintes requisitos funcionais, os quais devem ser desenvolvidos para uma solução~\ac{jogue-me}:
 
 
 \begin{description}
@@ -41,7 +40,7 @@ Atualmente, a análise dos sintomas motores é feita de forma subjetiva pelo cui
 
 Um sensor de movimentos como o MS-Kinect~\cite{kinnect2013}, por exemplo, possui uma câmera infravermelho capaz de reconhecer os movimentos de todo o corpo humano e identificar as posições das articulações anatômicas~\cite{hamill1999bases}, para análise da cinemática do movimento humano~\cite{mcginnis2013biomechanics}. 
 
-Para mensurar os movimentos do paciente, utilizamos diretrizes médicas para avaliação motora do~\ac{dp} como a UPDRS~\cite{updrs87}, a qual, permite diagnosticar e acompanhar o progresso da doença. Logo, os dados adquiridos pelos sensores podem ser mensurados com o processamento dos sinais e reconhecimento de padrões para identificar a ocorrência de sintomas motores. 
+Para mensurar os movimentos do paciente, utilizou-se as diretrizes médicas de avaliação motora do~\ac{dp} como a UPDRS~\cite{updrs87}, a qual, permite diagnosticar e acompanhar o progresso da doença. Logo, os dados adquiridos pelos sensores podem ser mensurados com o processamento dos sinais e reconhecimento de padrões para identificar a ocorrência de sintomas motores. 
 
 Desta maneira, a aquisição dos sinais motores e a quantificação do movimento de seus usuários permitirá uma participação mais precisa do profissional de saúde.
 
@@ -121,7 +120,7 @@ O produto escalar é uma operação entre dois vetores cujo resultado é um esca
 %      \label{img:produto_escalar}
 % \end{figure}
 
-No movimento de abdução e adução do braço, o ângulo relativo pode ser calculado com as posições ($ x $\ ,  $ y $\ , $ z $\ ) das articulações (\textit{quadril}, \textit{ombro} e \textit{punho}). Utilizando o produto escalar entre esses pontos, extraem-se as características do movimento, como amplitude do movimento, e, quando relacionamos com o tempo, conseguimos extrair a velocidade angular deste movimento, como pode ser visto na Figura~\ref{img:amplitude_braco}, quantificando o movimento da adução e abdução do braço em relação ao tempo.
+No movimento de abdução e adução do braço, o ângulo relativo pode ser calculado com as posições ($ x $\ ,  $ y $\ , $ z $\ ) das articulações (\textit{quadril}, \textit{ombro} e \textit{punho}). Utilizando o produto escalar entre esses pontos, extraem-se as características do movimento, como amplitude do movimento, e, quando relaciona-se com o tempo, consegue-se extrair a velocidade angular deste movimento, como pode ser visto na Figura~\ref{img:amplitude_braco}, quantificando o movimento da adução e abdução do braço em relação ao tempo.
 
 
 \begin{figure}[!htb]
@@ -177,7 +176,7 @@ A filtragem dos dados consiste na realização das seguintes etapas nos ciclos d
 		 %\label{img:ciclos_normalizado_escalonado}
 	%\end{figure}
 
-Como exemplo, temos um ciclo de movimento removido (Figura~\ref{img:ciclo_filtrado}), com \textit{valor do filtro = 1} e o \textit{valor da variância = 2,3078}.
+Como exemplo, tem-se um ciclo de movimento removido (Figura~\ref{img:ciclo_filtrado}), com \textit{valor do filtro = 1} e o \textit{valor da variância = 2,3078}.
 
 \begin{figure}[!htb]
      \centering
@@ -188,7 +187,7 @@ Como exemplo, temos um ciclo de movimento removido (Figura~\ref{img:ciclo_filtra
 
 
 \section{Classificação de Dados por Máquina de Aprendizagem}\label{section:class_dados}
-O objetivo de todo esse processo de identificação de ciclos, extração de características e filtragem é justamente facilitar a separação dos dados por máquinas de aprendizagem. A normalização dos ciclos ficou como o resultado do cálculo do produto escalar, que nos retorna valores entre $ 0° $\ a $ 180° $\, do movimento de abdução e adução. O escalonamento de cada ciclo de movimento ficou com 20 \textit{frames}. Como temos o movimento do braço esquerdo e depois o do direito, temos um total de 40 \textit{frames} por ciclo. O motivo pelo qual decidimos juntar os ciclos dos braços esquerdo e direito foi justamente para facilitar a identificação da assimetria do movimento existente nos estágios iniciais do~\ac{dp}. Portanto, o classificador será responsável por identificar os indivíduos diagnosticados com~\ac{dp}, por meio das diferenças de movimento existente entre estes e os indivíduos sem o diagnóstico da doença. 
+O objetivo de todo esse processo de identificação de ciclos, extração de características e filtragem é justamente facilitar a separação dos dados por máquinas de aprendizagem. A normalização dos ciclos ficou como o resultado do cálculo do produto escalar, que nos retorna valores entre $ 0° $\ a $ 180° $\, do movimento de abdução e adução. O escalonamento de cada ciclo de movimento ficou com 20 \textit{frames}. Com o movimento do braço esquerdo e depois o do direito, têm-se um total de 40 \textit{frames} por ciclo. O motivo pelo qual decidiu-se juntar os ciclos dos braços esquerdo e direito foi justamente para facilitar a identificação da assimetria do movimento presente nos estágios iniciais do~\ac{dp}. Portanto, o classificador é responsável por identificar os indivíduos diagnosticados com~\ac{dp}, por meio das diferenças de movimento existente entre estes e os indivíduos sem o diagnóstico da doença. 
 
 O vetor de características é composto dos ciclos de movimento e das características extraídas de cada ciclo, conforme explicado na Seção~\ref{sec:extracao_caracteristcas}. Ou seja, terá, além do ciclo de movimento, os valores da velocidade angular de abdução e adução do braço esquerdo e direito. De posse desse vetor de características e do rótulo sobre a classe do ciclo de movimento (indivíduo diagnosticado com~\ac{dp} e indivíduo sem o diagnóstico estabelecido), esses dados serão repassados como entrada-saída para o classificador de dados, que irá dividir entre grupos de treinamento e teste para realizar sua classificação.
 
@@ -201,9 +200,10 @@ Nesta abordagem, o classificador de dados será usado para identificar usuários
 \section{Visualização dos Dados}
 O acompanhamento dos sinais motores é necessário, principalmente, para doenças crônicas de impacto motor e que tenham melhoria nos sinais, pois dessa maneira auxilia o médico no acompanhamento motor e, consequentemente, permite tratar o paciente de acordo com a resposta ao tratamento.
 
-Como exemplo da abordagem, o profissional de saúde poderia visualizar as características dos movimentos, que serviram como dados de entrada para a máquina de aprendizagem. Nesse caso, podemos ver duas tabelas em que é possível identificar as diferenças motoras de uma pessoa diagnosticada com ~\ac{dp} (Tabela~\ref{table:extracao-caracteristica}) e um indivíduo sem o diagnóstico da doença (Tabela~\ref{table:extracao_caracterisca_saudavel}).
+Como exemplo da abordagem, o profissional de saúde poderia visualizar as características dos movimentos, que serviram como dados de entrada para a máquina de aprendizagem. Nesse caso, pode-se ver duas tabelas em que é possível identificar as diferenças motoras de uma pessoa diagnosticada com ~\ac{dp} (Tabela~\ref{table:extracao-caracteristica}) e um indivíduo sem o diagnóstico da doença (Tabela~\ref{table:extracao_caracterisca_saudavel}).
 
 \begin{table}[h]
+\center
 \begin{tabular}{|r|r|r|r|r|r|}
 \hline
 \multicolumn{4}{|l}{Velocidades º/S}                                                                                                                                                                                                                                                                                         & \multicolumn{2}{|l|}{Amplitudes}     \\ \hline
@@ -219,6 +219,7 @@ Como exemplo da abordagem, o profissional de saúde poderia visualizar as caract
 \end{table}
 
 \begin{table}[h]
+\center
 \begin{tabular}{|r|r|r|r|r|r|}
 \hline
 \multicolumn{4}{|l}{Velocidades º/S}                                                                                                                                                                                                                                                                                         & \multicolumn{2}{|l|}{Amplitudes}       \\ \hline

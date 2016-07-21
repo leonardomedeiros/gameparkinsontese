@@ -30,7 +30,7 @@ Na concepção da arquitetura desenvolvida para implementar o~\ac{jogue-me} (Fig
 \section{Arquitetura do ~\textit{JOGUE-ME}}\label{sec:cliente_game}
 A arquitetura do~\ac{jogue-me} para o desenvolvimento de jogos utiliza uma \textit{engine} de jogos (Unity3D~\cite{unity3d}), que é um ambiente de desenvolvimento de jogos multi-plataforma. Esta \textit{engine} possibilita que os desenvolvedores abstraiam-se dos aspectos de hardware, plataforma e complexidade do desenvolvimento de jogos e habilita o desenvolvedor a se ater somente às atividades referentes ao desenvolvimento do jogo.
 
-Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3d} como ferramenta de desenvolvimento. Esse ambiente facilita a criação de cenários, terrenos e interação com os objetos dos jogos usando uma linguagem de \textit{script}. No entanto, desenvolver jogos com propósito de monitorar sinais motores possui desafios que não precisam ser de responsabilidade dos desenvolvedores de jogos. Por esse motivo, criamos uma arquitetura de software para o cliente JOGUE-ME (Figura~\ref{fig:arquitetura_cliente}) que abstrai a complexidade do desenvolvimento de um jogo de monitoramento da saúde.
+Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3d} como ferramenta de desenvolvimento. Esse ambiente facilita a criação de cenários, terrenos e interação com os objetos dos jogos usando uma linguagem de \textit{script}. No entanto, desenvolver jogos com propósito de monitorar sinais motores possui desafios que não precisam ser de responsabilidade dos desenvolvedores de jogos. Por esse motivo, criou-se uma arquitetura de software para o cliente JOGUE-ME (Figura~\ref{fig:arquitetura_cliente}) que abstrai a complexidade do desenvolvimento de um jogo de monitoramento da saúde.
 
 \begin{figure}[!htbp]
  \centering
@@ -67,7 +67,7 @@ Para possibilitar a aquisição de sinais motores, este trabalho herdou do compo
  \label{fig:diagramaclassezigfu}
 \end{figure}
 
-O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect, para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como podemos ver no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, o Zigfu foi extendido na classe \textit{ZigSkeletonHealth} para armazenar as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()}).
+O Zigfu ~\cite{zigfu} é um componente de software que permite integrar o Ms-Kinnect ao Unity3D. O Zigfu faz um mapeamento das articulações adquiridas pelo Ms-Kinnect, para uma classe chamada \textit{ZigSkeleton}, com todas as articulações, como pode-se visualizar no Diagrama de Classe (Figura~\ref{fig:diagramaclassezigfu}). No entanto, para adquirir os sinais motores, é necessário armazenar os valores das posições das articulações durante as ações dos usuários. Por esse motivo, o Zigfu foi extendido na classe \textit{ZigSkeletonHealth} para armazenar as posições das articulações, além de um mecanismo para habilitar ou desabilitar o monitoramento dos sinais (métodos \textit{logOn() e logOff()}).
 
 
 \subsubsection{Jogo: \textit{Catch the Spheres}}\label{jogo_catch}
@@ -279,7 +279,7 @@ leftArmAngle(j,2) = ArmRelativeAngleTorso(leftHipJoint,leftShoulderJoint,leftWri
 end
 \end{lstlisting}
 
-De posse do sinal dos ângulos relativos do movimento, são extraídos os picos e os vales desse sinal para calcularmos a velocidade angular do movimento de abdução e adução do braço (Código Fonte: ~\ref{lst:angular_velocity}).
+De posse do sinal dos ângulos relativos do movimento, são extraídos os picos e os vales desse sinal para calcular a velocidade angular do movimento de abdução e adução do braço (Código Fonte: ~\ref{lst:angular_velocity}).
     
 \begin{lstlisting}[frame=single, caption=Calcular velocidade angular da adução e abdução, label=lst:angular_velocity]	
 distanceup = cycle(peak) - cycle(1);
