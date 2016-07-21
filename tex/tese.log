@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  21 JUL 2016 09:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  21 JUL 2016 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,15 +851,15 @@ although it is yet undefined on input line 9.
 File: ./img/moyne-iphone.png Graphic file (type png)
 
 <use ./img/moyne-iphone.png>
-Package pdftex.def Info: ./img/moyne-iphone.png used on input line 57.
+Package pdftex.def Info: ./img/moyne-iphone.png used on input line 56.
 (pdftex.def)             Requested size: 137.5399pt x 102.08215pt.
  [4] [5 <./img/moyne-iphone.png>]
 Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
-although it is yet undefined on input line 85.
+although it is yet undefined on input line 84.
 Package acronym Info: Label `acro:gqm' newly defined as it shall be overridden
-although it is yet undefined on input line 85.
+although it is yet undefined on input line 84.
 
-Underfull \hbox (badness 1472) in paragraph at lines 90--91
+Underfull \hbox (badness 1472) in paragraph at lines 89--90
 \T1/ptm/m/n/12 Esta pes-quisa foi sub-me-tida à ava-li-a-ção pelo Co-mitê de Ét
 ica da UFCG (\T1/ptm/b/n/12 CAAE:
  []
@@ -867,16 +867,16 @@ ica da UFCG (\T1/ptm/b/n/12 CAAE:
 [6]
 Package acronym Info: Label `acro:jogue-me' newly defined as it shall be overri
 dden
-although it is yet undefined on input line 104.
+although it is yet undefined on input line 103.
 
-Underfull \hbox (badness 3209) in paragraph at lines 112--113
+Underfull \hbox (badness 3209) in paragraph at lines 111--112
 []\T1/ptm/m/n/12 Definição da ar-qui-te-tura de software que vi-a-bi-li-zou tec
 -ni-ca-mente a abor-da-
  []
 
 [7]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 120.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 119.
  [8]) (./cap2-fundamentacao.tex [9]
 Cap\'{\i }tulo 2.
 [10
@@ -1569,7 +1569,7 @@ Here is how much of TeX's memory you used:
  11013 multiletter control sequences out of 15000+600000
  68553 words of font info for 78 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 40i,17n,46p,1499b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,17n,46p,1552b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1
@@ -1581,7 +1581,7 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2052098 bytes).
+Output written on tese.pdf (111 pages, 2052143 bytes).
 PDF statistics:
  444 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams
