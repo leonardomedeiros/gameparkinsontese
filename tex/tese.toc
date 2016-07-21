@@ -84,7 +84,7 @@
 \contentsline {subsection}{\numberline {5.2.4}Aprendizagem de M\IeC {\'a}quina (SVM)}{59}
 \contentsline {subsubsection}{Otimiza\IeC {\c c}\IeC {\~a}o dos Par\IeC {\^a}metros da SVM - M\IeC {\'e}todo Grid-Search}{60}
 \contentsline {subsubsection}{Resultados Obtidos}{61}
-\contentsline {section}{\numberline {5.3}Avalia\IeC {\c c}\IeC {\~a}o Da Aceita\IeC {\c c}\IeC {\~a}o Da Abordagem Junto aos Pacientes com~\ac {dp} Utilizando \textit {Goal Question Metric}}{64}
+\contentsline {section}{\numberline {5.3}Avalia\IeC {\c c}\IeC {\~a}o Da Aceita\IeC {\c c}\IeC {\~a}o Da Abordagem Junto aos Pacientes com Parkinson Utilizando \textit {Goal Question Metric}}{64}
 \contentsline {subsection}{\numberline {5.3.1}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo}{65}
 \contentsline {subsection}{\numberline {5.3.2}Resultados}{66}
 \contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es e Trabalhos Futuros}{70}

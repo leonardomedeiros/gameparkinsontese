@@ -22,7 +22,7 @@ Na concepção da arquitetura desenvolvida para implementar o~\ac{jogue-me} (Fig
   \includegraphics[scale=0.56]{./img/arquitetura.png}
  % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
  %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-\caption[Arquitetura de Software]{Arquitetura de Software}
+\caption[Arquitetura de software]{Arquitetura de Software}
 %  \caption{Estágio desenvolvimento de jogos}
  \label{fig:arquitetura}
 \end{figure}
@@ -37,7 +37,7 @@ Atualmente, desenvolvedores independentes de jogos utilizam Unity3D~\cite{unity3
  \includegraphics[scale=0.8]{./img/arquiclientejogueme.png}
  % matrixargseg.png: 296x162 pixel, 100dpi, 7.52x4.11 cm, bb=0 0 213 117
  %\caption{Estágio desenvolvimento de jogos ~\cite{fullerton2008game}}
-\caption{Arquitetura JOGUE-ME: Módulo Cliente de Aquisição de Sinais Motores}
+\caption{Arquitetura JOGUE-ME: módulo cliente de aquisição de sinais motores}
 %  \caption{Estágio desenvolvimento de jogos}
  \label{fig:arquitetura_cliente}
 \end{figure}
@@ -63,7 +63,7 @@ Para possibilitar a aquisição de sinais motores, este trabalho herdou do compo
 \begin{figure}[!h]
  \centering
  \includegraphics[scale=0.8]{./img/diagclasszigfu.png}
- \caption{Diagrama de Classe do ZigSkeleton e ZigSkeletonHealth}
+ \caption{Diagrama de classe do ZigSkeleton e ZigSkeletonHealth}
  \label{fig:diagramaclassezigfu}
 \end{figure}
 
@@ -248,7 +248,7 @@ Usando a função \textit{peakdet()}, criou-se a função \textit{cycleperiodic(
 
 De posse dos ciclos, pôde ser identificado quando começam e terminam os movimentos periódicos (Código Fonte~\ref{lst:identifyCycles}), como, por exemplo, os movimentos sucessivos de adução e abdução do braço (Seção ~\ref{fig:movabducaoaducao}). 
 
-\begin{lstlisting}[frame=single, caption=Identificar Início e Tamanho do Movimento Periódico, label=lst:identifyCycles]  % Start your code-block
+\begin{lstlisting}[frame=single, caption=Identificar início e término do movimento periódico, label=lst:identifyCycles]  % Start your code-block
 
 function [WindowBeginLeft, WindowLengthLeft, WindowBeginRight, WindowLengthRight] = identifyCycles(leftWristJoint, rightWristJoint)
     signalLeft = leftWristJoint(:,3);
@@ -281,7 +281,7 @@ end
 
 De posse do sinal dos ângulos relativos do movimento, são extraídos os picos e os vales desse sinal para calcularmos a velocidade angular do movimento de abdução e adução do braço (Código Fonte: ~\ref{lst:angular_velocity}).
     
-\begin{lstlisting}[frame=single, caption=Calcular Velociodade Angular Adução e Abdução, label=lst:angular_velocity]	
+\begin{lstlisting}[frame=single, caption=Calcular velocidade angular da adução e abdução, label=lst:angular_velocity]	
 distanceup = cycle(peak) - cycle(1);
 amplitude(identifiedCycles,1) = cycle(peak);
     
@@ -297,7 +297,7 @@ velocityDown(identifiedCycles,1) = distancedown/timestampdownsec;
 O filtro de dados remove os ciclos de movimento incompletos ou com problemas na aquisição dos dados, como explicado na Seção~\ref{section:filtro_dados}. Nessa etapa, os ciclos são normalizados, escalonados e rotulados por usuário. 
 De posse de todos os dados, é calculado um vetor médio dos ciclos normalizados, para definir um limiar (\textit{threshold}) de remoção dos ciclos (Código Fonte:~\ref{code:filtercycles}).
 
-	\begin{lstlisting}[frame=single, caption=Calcular Velociodade Angular Adução e Abdução, label=code:filtercycles]
+	\begin{lstlisting}[frame=single, caption=Filtro para remoção de ciclos, label=code:filtercycles]
 function [ KinnectData, processedCycles, labels ] = filterCyclesAndLabels (T, labels, otherFeatures, scaledLength)
 
     normalization = T;
@@ -332,7 +332,7 @@ Para avaliar os requisitos de identificação dos sinais motores ([REQ-JOGUE-ME-
 
 Primeiramente, separa-se o grupo de treinamento para realizar a aprendizagem da máquina, utilizando o método \textit{svmtrain()}; depois utiliza-se o método \textit{svmclassify()} para predizer os valores usando esta máquina de aprendizagem; por fim, calculam-se as diferenças entre os valores reais. Então, é calculada a taxa de erro para avaliar o resultado do classificador.
 
-\begin{lstlisting}[frame=single, caption=Uso de Máquina de Vetor de Suporte para Classificação dos Dados, label=code:classification]
+\begin{lstlisting}[frame=single, caption=Uso da SVM para classificação dos dados, label=code:classification]
 realValues; %Classe Atual
 SVMStruct = svmtrain(trainingData,trainningClassification,'Kernel_Function', 'linear',	'BoxConstraint', 0.10);
 class = svmclassify(SVMStruct, testData, 'showplot',true); %Classe Preditiva
