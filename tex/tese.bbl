@@ -580,8 +580,8 @@
   2014\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-981-4560-96-2}}}.
 
 \bibitem {bradmonitor2015}
-\btxnamefont {\btxlastnamefont {Manzanera}, Octavio}, \btxnamefont
-  {Martijn\btxfnamespacelong Beudel \btxlastnamefont {Elizabeth~Roosma}},
+\btxnamefont {\btxlastnamefont {Manzanera}, Octavio}, \btxnamefont {Elizabeth
+  \btxlastnamefont {Roosma}}, \btxnamefont {Martijn \btxlastnamefont {Beudel}},
   \btxnamefont {Robert \btxlastnamefont {Borgemeester}}, \btxnamefont {Teus
   \btxlastnamefont {Laar}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Natasha
   \btxlastnamefont {Maurits}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
@@ -610,8 +610,7 @@
   Training for Parkinson's Disease with Freezing of Gait in Out-of-the-Lab
   Environments}}.
 \newblock \btxjournalfont {ACM Transactions Interactive Intelligent Systems},
-  5(1), \btxprintmonthyear{.}{3}{2015}{long}\ifbtxprintISSN {,
-  \mbox{\btxISSN~\btxISSNfont {2160-6455}}}.
+  5(1), 2015\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {2160-6455}}}.
 
 \bibitem {mcginnis2013biomechanics}
 \btxnamefont {\btxlastnamefont {McGinnis}, Peter}\btxauthorcolon\ \btxtitlefont

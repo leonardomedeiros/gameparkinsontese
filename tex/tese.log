@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  21 JUL 2016 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.7.6)  22 JUL 2016 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1457,25 +1457,25 @@ ne-e-ring\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
 
 [77] [78]
-Underfull \hbox (badness 4217) in paragraph at lines 763--769
+Underfull \hbox (badness 4217) in paragraph at lines 762--768
 []\T1/ptm/m/n/12 Research, Pro-va-lis: \T1/ptm/m/it/12 QDA MI-NER Lite v1.2.2\T
 1/ptm/m/n/12 .  \T1/ptm/m/it/12 Software\T1/ptm/m/n/12 , Dis-po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 7186) in paragraph at lines 763--769
+Underfull \hbox (badness 7186) in paragraph at lines 762--768
 \T1/ptm/m/n/12 http://provalisresearch.com/products/qualitative-data-analysis-s
 oftware/.  Úl-timo
  []
 
 [79]
-Underfull \hbox (badness 2065) in paragraph at lines 801--810
+Underfull \hbox (badness 2065) in paragraph at lines 800--809
 []\T1/ptm/m/n/12 Saraiva, Ales-san-dra Vil-ches: \T1/ptm/m/it/12 Uti-li-za-ção 
 da Abor-da-gem Goal-Question-Metrics
  []
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.823 ...ponÃ­vel em: http://www.csbc2016.com.br/#
+l.822 ...ponÃ­vel em: http://www.csbc2016.com.br/#
                                                   !blank-2/q8wct, 2016.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1483,19 +1483,19 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--825
+Underfull \hbox (badness 10000) in paragraph at lines 819--824
 []\T1/ptm/m/n/12 SBC: \T1/ptm/m/it/12 Workshop de In-for-má-tica Mé-dica\T1/ptm
 /m/n/12 .  Dis-po-ní-vel em:
  []
 
 [80]
-Underfull \hbox (badness 3701) in paragraph at lines 872--876
+Underfull \hbox (badness 3701) in paragraph at lines 871--875
 []\T1/ptm/m/n/12 Sommerville, Ian: \T1/ptm/m/it/12 En-ge-nha-ria de Software\T1
 /ptm/m/n/12 .  Ad-di-son Wes-ley Bra, 2011,
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 933--936
+Underfull \hbox (badness 4303) in paragraph at lines 932--935
 []\T1/ptm/m/it/12 Institute of Elec-tri-cal and Elec-tro-nics En-gi-ne-ers\T1/p
 tm/m/n/12 : \T1/ptm/m/it/12 IEEE\T1/ptm/m/n/12 .  Dis-po-ní-vel em:
  []
@@ -1587,7 +1587,7 @@ e/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 <c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tese.pdf (111 pages, 2052105 bytes).
+Output written on tese.pdf (111 pages, 2051708 bytes).
 PDF statistics:
  444 PDF objects out of 1000 (max. 8388607)
  285 compressed objects within 3 object streams

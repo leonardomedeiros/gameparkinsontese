@@ -4,9 +4,9 @@ The top-level auxiliary file: tese.aux
 The style file: babplain.bst
 Database file #1: biblmmcorfinal.bib
 Warning--entry type for "zigfu" isn't style-file defined
---line 1619 of file biblmmcorfinal.bib
+--line 1617 of file biblmmcorfinal.bib
 Warning--entry type for "kinnect2013" isn't style-file defined
---line 1987 of file biblmmcorfinal.bib
+--line 1985 of file biblmmcorfinal.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in aarhus_negotiating_2010
 Warning--empty chapter and pages in albanese2012
@@ -16,37 +16,37 @@ Warning--can't use both author and editor fields in updrs87
 Warning--empty chapter and pages in updrs87
 You've used 108 entries,
             2788 wiz_defined-function locations,
-            1198 strings with 26485 characters,
-and the built_in function-call counts, 40887 in all, are:
-= -- 3293
-> -- 1892
+            1198 strings with 26488 characters,
+and the built_in function-call counts, 40930 in all, are:
+= -- 3295
+> -- 1897
 < -- 0
-+ -- 766
-- -- 644
-* -- 4919
-:= -- 6001
++ -- 768
+- -- 646
+* -- 4925
+:= -- 6007
 add.period$ -- 255
 call.type$ -- 108
-change.case$ -- 647
+change.case$ -- 648
 chr.to.int$ -- 0
 cite$ -- 114
-duplicate$ -- 2167
-empty$ -- 3792
-format.name$ -- 1246
-if$ -- 8269
+duplicate$ -- 2169
+empty$ -- 3794
+format.name$ -- 1250
+if$ -- 8276
 int.to.chr$ -- 0
 int.to.str$ -- 108
 missing$ -- 132
 newline$ -- 467
 num.names$ -- 216
-pop$ -- 970
+pop$ -- 971
 preamble$ -- 1
-purify$ -- 538
+purify$ -- 539
 quote$ -- 0
 skip$ -- 931
 stack$ -- 0
 substring$ -- 596
-swap$ -- 909
+swap$ -- 911
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0

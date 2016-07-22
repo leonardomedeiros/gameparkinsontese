@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {1.1}Relev\IeC {\^a}ncia da Tese}{2}
 \contentsline {section}{\numberline {1.2}Trabalhos Relacionados}{3}
 \contentsline {section}{\numberline {1.3}Contribui\IeC {\c c}\IeC {\~o}es}{5}
-\contentsline {section}{\numberline {1.4}Objetivos}{6}
+\contentsline {section}{\numberline {1.4}Objetivos}{5}
 \contentsline {section}{\numberline {1.5}Metodologia}{6}
 \contentsline {subsection}{\numberline {1.5.1}Termo de Consentimento Livre e Esclarecido (TCLE)}{8}
 \contentsline {subsection}{\numberline {1.5.2}Rela\IeC {\c c}\IeC {\~a}o Risco Benef\IeC {\'\i }cio da Pesquisa}{8}
